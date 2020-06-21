@@ -16,7 +16,7 @@ def load_indicators(file_path: str) -> dict:
         data = f.read().split('\n')
         indicators['network'] = []
         for d in data:
-            dd = d.strip().split(';')
+            dd = d.strip().split(',')
             if dd[0] in ['domain', 'ip']:
                 indicators['network'].append({
                     'type': dd[0],
@@ -27,7 +27,7 @@ def load_indicators(file_path: str) -> dict:
         data = f.read().split('\n')
         indicators['sha256'] = []
         for d in data:
-            dd = d.strip().split(';')
+            dd = d.strip().split(',')
             if dd[0] != 'Hash' and len(dd) == 2:
                 indicators['sha256'].append({
                     'value': dd[0],
