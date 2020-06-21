@@ -18,8 +18,6 @@
   name: SpyHide
 - package: com.systemservice
   name: TheTruthSpy
-- package: org.secure.smsgps
-  name: Highster Mobile
 - package: com.topspy.system
   name: 1TopSpy
 - package: com.mobiispy.system
