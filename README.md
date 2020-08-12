@@ -24,17 +24,19 @@ This repository includes indicators for the following stalkerware :
 * Copy9 : `copy9.com`
 * DDI Utilities : `ddiutilities.com`
 * EasyLogger : `logger.mobi`
+* Espiao Android: `espiaoandroid.com.br`
 * FlexiSpy : `www.flexispy.com`
 * Free Android Spy : `www.freeandroidspy.com`
 * FoneTracker : `fonetracker.com`
-* GuestSpy : `guestspy.com`
+* GuestSpy : `guestspy.com` (now replaced by TheTruthSpy)
 * HelloSpy : `hellospy.com`
 * Highster Mobile : `highstermobile.com`
 * Hoverwatch : `www.hoverwatch.com`
 * iMonitorSpy : `www.imonitorsoft.com`
 * iSpyoo : `ispyoo.com`
 * LetMeSpy : `www.letmespy.com`
-* Maxxspy : `MaxxSpy`
+* Maxxspy: `maxxSpy.com`
+* Meuspy: `meuspy.com`
 * Mobispy : `www.mobispy.net`
 * Mobiispy : `mobiispy.com`
 * MobileTrackerFree : `mobile-tracker-free.com`
@@ -65,13 +67,15 @@ This repository includes indicators for the following stalkerware :
 
 ## Contributions
 
-[Anne Roth](https://twitter.com/annalist), [@nscrutables](https://twitter.com/nscrutables), [Abir Ghattas](https://twitter.com/AbirGhattas)
+[Anne Roth](https://twitter.com/annalist), [@nscrutables](https://twitter.com/nscrutables), [Abir Ghattas](https://twitter.com/AbirGhattas), [Jurre van Bergen](https://twitter.com/DrWhax)
 
 These indicators were largely based on research and analysis using [APKlab](https://www.apklab.io/) and [Koodous](https://koodous.com/).
 
 ## Please Contribute
 
 This repository is not complete, new stalkerware apps appears and disappears all the time. Feel free to contribute to this database by opening an issue or submitting a Pull Request.
+
+If you want to pursue some research of this app, and need access to some samples, feel free to [send me an email](https://www.randhome.io/contact/).
 
 ## References
 
