@@ -53,6 +53,7 @@ This repository includes indicators for the following stalkerware :
 * SpyApp247 : `www.spyapp247.com`
 * SpyHide : `spyhide.com`
 * SpyHuman : `spyhuman.com`
+* Spylive360 : `spylive360.com`
 * Spymie : `www.spymie.com` (analyzed by [ZScaler here](https://www.zscaler.com/blogs/research/why-you-shouldnt-trust-safe-spying-apps))
 * SpyPhoneApp : `spyphoneapp.org`
 * spy2mobile : `spytomobile.com`
