@@ -142,3 +142,5 @@
   name: Espiao Android
 - package: in.servidor.service
   name: Meuspy
+- package: com.sl360
+  name: Spylive360
