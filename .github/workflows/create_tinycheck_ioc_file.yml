@@ -23,7 +23,7 @@ jobs:
           route: GET /repos/:repository/releases/latest
           repository: ${{ github.repository }}
       env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
     - name: Get Upload Url
       id: get_upload_url
       run: |
@@ -35,7 +35,7 @@ jobs:
     - name: Upload a Release Asset
       uses: actions/upload-release-asset@v1.0.2
       env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       with:
         upload_url:  ${{steps.get_upload_url.outputs.url}}
         asset_path: ./indicators-for-tinycheck.json
