@@ -41,3 +41,4 @@ jobs:
         asset_path: ./indicators-for-tinycheck.json
         asset_name: indicators-for-tinycheck.json
         asset_content_type: application/json
+        

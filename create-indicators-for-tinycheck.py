@@ -42,5 +42,3 @@ for c in certificates:
 
 with open('indicators-for-tinycheck.json', 'w') as f:
     f.write(json.dumps(iocs))
-
-
