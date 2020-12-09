@@ -7,7 +7,9 @@ def load_stalkerware_domains():
     try:
         with open(DOMAINS_FILE, 'r') as domains_file:
             csv_contents = csv.reader(domains_file, delimiter=',')
-            return [line[1] for line in csv_contents]
+            domains = [line[1] for line in csv_contents]
+            domains.pop(0)
+            return domains
     except Exception:
         print("Error loading {}".format(DOMAINS_FILE))
         return False
