@@ -1,0 +1,43 @@
+name: 'Create-Tinycheck-IOC-File'
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Build IOC File
+      run: |
+          pip install -r requirements.txt
+          python create-indicators-for-tinycheck.py
+    - uses: octokit/request-action@v2.x
+      id: get_latest_release
+      with:
+          route: GET /repos/:repository/releases/latest
+          repository: ${{ github.repository }}
+      env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+    - name: Get Upload Url
+      id: get_upload_url
+      run: |
+        url=$(echo "$response" | jq -r '.upload_url')
+        echo "::set-output name=url::$url"
+      env:
+          response:  ${{ steps.get_latest_release.outputs.data }}
+
+    - name: Upload a Release Asset
+      uses: actions/upload-release-asset@v1.0.2
+      env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      with:
+        upload_url:  ${{steps.get_upload_url.outputs.url}}
+        asset_path: ./indicators-for-tinycheck.json
+        asset_name: indicators-for-tinycheck.json
+        asset_content_type: application/json
