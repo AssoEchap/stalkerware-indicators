@@ -5,10 +5,12 @@ Indicators of compromise on Stalkerware applications for Android
 ## Files
 
 * appid.yaml : package ids
-* androguard-rules.yar : Androguard yara rules (to be used in [Koodous]())
+* androguard-rules.yar : Androguard yara rules (to be used in [Koodous](https://koodous.com/))
 * certificates.yaml : Android certificates
 * network.csv : list of domains
 * sha256.csv : sha256 of samples
+* `misp_event.json` : indicators in [MISP](https://www.misp-project.org/) compatible format
+* `indicators-for-tinycheck.json` : indicators in [TinyCheck](https://github.com/KasperskyLab/TinyCheck) compatible format
 
 ## Stalkerware
 
@@ -32,6 +34,7 @@ This repository includes indicators for the following stalkerware :
 * HelloSpy : `hellospy.com`
 * Highster Mobile : `highstermobile.com`
 * Hoverwatch : `www.hoverwatch.com`
+* iKeyMonitor : `ikeymonitor.com`
 * iMonitorSpy : `www.imonitorsoft.com`
 * iSpyoo : `ispyoo.com`
 * LetMeSpy : `www.letmespy.com`
@@ -54,6 +57,7 @@ This repository includes indicators for the following stalkerware :
 * SpyHide : `spyhide.com`
 * SpyHuman : `spyhuman.com`
 * Spylive360 : `spylive360.com`
+* SpyMasterPro : `spymasterpro.com`
 * Spymie : `www.spymie.com` (analyzed by [ZScaler here](https://www.zscaler.com/blogs/research/why-you-shouldnt-trust-safe-spying-apps))
 * SpyPhoneApp : `spyphoneapp.org`
 * spy2mobile : `spytomobile.com`

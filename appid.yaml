@@ -144,3 +144,6 @@
   name: Meuspy
 - package: com.sl360
   name: Spylive360
+- name: SpyMasterPro
+  package: iqual.calculadora.pro
+
