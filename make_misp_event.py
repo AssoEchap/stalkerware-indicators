@@ -15,7 +15,8 @@ with open('network.csv') as f:
     r = csv.DictReader(f)
     for row in r:
         app = row['App'].lower()
-        indicators_by_name[app]['domains'].add(row['Indicator'])
+        if row['Type'] == "domain":
+            indicators_by_name[app]['domains'].add(row['Indicator'])
 
 with open('sha256.csv') as f:
     r = csv.DictReader(f)

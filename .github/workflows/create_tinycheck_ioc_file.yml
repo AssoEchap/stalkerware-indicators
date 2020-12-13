@@ -2,7 +2,7 @@ name: 'Create-Tinycheck-IOC-File'
 on:
   push:
     branches: ['master']
-    paths: ['network.csv']
+    paths: ['network.csv', 'sha256.csv', 'certificates.yaml', 'appid.yaml']
 
 jobs:
   build:
@@ -17,10 +17,12 @@ jobs:
       run: |
           pip install -r requirements.txt
           python create-indicators-for-tinycheck.py
+          python make_misp_event.py
     - name: Commit files  # transfer the json file in the repo
       run: |
         git config --local user.name  ${{ github.actor }}
         git add indicators-for-tinycheck.json
+        git add misp_event.json
         git commit -m "Updating indicators-for-tinycheck.json"
     - name: Push changes  # push the output folder to your repo
       uses: ad-m/github-push-action@master
