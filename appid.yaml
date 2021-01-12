@@ -132,6 +132,10 @@
   name: Snoopza
 - package: com.android.core.mngj
   name: Snoopza
+- package: 	com.android.core.mngp
+  name: Snoopza
+- package: com.android.core.mngi
+  name: Snoopza
 - package: com.cldprotect
   name: SpyHuman
 - package: com.xno.systemservice
