@@ -3088,6 +3088,60 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "67ff4922-4d29-44af-9407-cb0233433060",
+          "object_relation": "sha256",
+          "value": "997b808e64c1ce1fed7605e63cffd37b98b3add891d22cddfda3e29dbfebb9d4",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "fe5b6f8a-3d9f-4c66-8b48-517012b27de7",
+          "object_relation": "sha256",
+          "value": "7cdd2c1df453e1db2845f3e26cb73ea9012f2bed64485da7278a5a88f8f67895",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "3300980e-c32c-438c-aba8-ced97566eb2f",
+          "object_relation": "sha256",
+          "value": "8ceccb0637ecb2ebe90a96ea63e99603be67e4e4e20b2195c69feef633136558",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "283225d3-d2fc-471c-b092-8fca54e02b42",
+          "object_relation": "sha256",
+          "value": "168272c0283d82d9af512cbe379de2799d779bc7d68ae5c901e1bd388b63cd2c",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "77be68d6-b694-4aed-b057-06a969563eb5",
+          "object_relation": "appid",
+          "value": "com.android.core.mngi",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "09fbd323-bd6b-4820-ac1f-c534ec03367f",
+          "object_relation": "appid",
+          "value": "com.android.core.mngp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
