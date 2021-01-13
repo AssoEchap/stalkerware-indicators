@@ -4,6 +4,7 @@ import sys
 import yaml
 import hashlib
 from androguard.core.bytecodes.apk import APK
+from androguard.core import androconf
 
 
 def load_indicators(file_path: str) -> dict:
@@ -44,56 +45,89 @@ def search(value: str, db: list, column: str) -> str:
     return None
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Check an APK for known malicious indicators')
-    parser.add_argument('APK', help='APK File')
-    args = parser.parse_args()
-
-    if not os.path.isfile(args.APK):
-        print("This file does not exist")
-        sys.exit(-1)
-
-    indicator_path = os.path.dirname(os.path.abspath(__file__))
-    indicators = load_indicators(indicator_path)
-
-    print("Checking this APK over {} app ids, {} certificates, {} network indicators and {} hashes".format(len(indicators['appids']), len(indicators['certificates']), len(indicators['network']), len(indicators['sha256'])))
-
-    # TODO implement check for a folder
-
-    # Checking hash
+def check(indicators, path, verbose=False):
+    """
+    Check an APK with given indicators
+    Returns True/False, string (explanation of the discovery)
+    """
     m = hashlib.sha256()
-    with open(args.APK, 'rb') as f:
+    with open(path, 'rb') as f:
         data = f.read()
         m.update(data)
     res = search(m.hexdigest(), indicators['sha256'], 'value')
-    print("SHA256: {}".format(m.hexdigest()))
+    if verbose:
+        print("SHA256: {}".format(m.hexdigest()))
     if res:
-        print("Known Stalkerware hash: {}".format(res))
+        if verbose:
+            print("Known Stalkerware hash: {}".format(res))
+            return True, "Known Stalkerware hash: {}".format(res)
     else:
-        print("App hash not in the indicator database")
+        if verbose:
+            print("App hash not in the indicator database")
 
-    print("")
-
-    apk = APK(args.APK)
+    apk = APK(path)
     res = search(apk.get_package(), indicators['appids'], 'package')
-    print("Package id: {}".format(apk.get_package()))
+    if verbose:
+        print("Package id: {}".format(apk.get_package()))
     if res:
-        print("Known stalkerware package id: {}".format(res))
+        if verbose:
+            print("Known stalkerware package id: {}".format(res))
+        return True, "Known stalkerware package id: {}".format(res)
     else:
-        print("Package id not in the indicators")
-
-    print("")
+        if verbose:
+            print("Package id not in the indicators")
 
     if len(apk.get_certificates()) > 0:
         cert = apk.get_certificates()[0]
         sha1 = cert.sha1_fingerprint.replace(' ', '')
-        print("Certificate: {}".format(sha1))
+        if verbose:
+            print("Certificate: {}".format(sha1))
         res = search(sha1, indicators['certificates'], 'certificate')
         if res:
-            print("Known Stalkerware certificate: {}".format(res))
+            if verbose:
+                print("Known Stalkerware certificate: {}".format(res))
+            return True, "Known Stalkerware certificate: {}".format(res)
         else:
-            print("Certificate not in the indicators")
+            if verbose:
+                print("Certificate not in the indicators")
     else:
-        print("No certificate in this APK")
+        if verbose:
+            print("No certificate in this APK")
+    # TODO implement yara rules
+    return False, ""
 
-    # TODO : add rules and androguard rules
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Check an APK for known malicious indicators')
+    parser.add_argument('APK', help='APK file or folder with APKs in it')
+    args = parser.parse_args()
+
+    indicator_path = os.path.dirname(os.path.abspath(__file__))
+    indicators = load_indicators(indicator_path)
+
+    print("Loaded {} app ids, {} certificates, {} network indicators and {} hashes".format(len(indicators['appids']), len(indicators['certificates']), len(indicators['network']), len(indicators['sha256'])))
+
+    if os.path.isfile(args.APK):
+        res, ex = check(indicators, args.APK, verbose=True)
+    elif os.path.isdir(args.APK):
+        suspicious = []
+        for f in os.listdir(args.APK):
+            apk_path = os.path.join(args.APK, f)
+            if os.path.isfile(apk_path):
+                if androconf.is_android(apk_path) == 'APK':
+                    res, ex = check(indicators, apk_path)
+                    if res:
+                        suspicious.append([f, ex])
+                        print("{} : identified as {} stalkerware ({})".format(f, "", ex))
+                    else:
+                        print("{} : OK".format(f))
+
+        print("\n")
+        if len(suspicious) == 0:
+            print("No suspicious application identified")
+        else:
+            print("{} suspicious applications identified:".format(len(suspicious)))
+            for p in suspicious:
+                print("- {} : {}".format(p[0], p[1]))
+    else:
+        print("This file does not exist")
