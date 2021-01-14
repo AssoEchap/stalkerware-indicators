@@ -3,6 +3,7 @@ import os
 import sys
 import yaml
 import hashlib
+import yara
 from androguard.core.bytecodes.apk import APK
 from androguard.core import androconf
 
@@ -34,7 +35,8 @@ def load_indicators(file_path: str) -> dict:
                     'value': dd[0],
                     'name': dd[1]
                 })
-
+    # FixMe : skip if yara is not installed
+    indicators['yara'] = yara.compile(os.path.join(file_path, 'rules.yar'))
     return indicators
 
 
@@ -93,7 +95,16 @@ def check(indicators, path, verbose=False):
     else:
         if verbose:
             print("No certificate in this APK")
-    # TODO implement yara rules
+    if 'yara' in indicators:
+        for dex in apk.get_all_dex():
+            res = indicators['yara'].match(data=dex)
+            if len(res) > 0:
+                if verbose:
+                    print("Matches yara rules {}".format(res[0]))
+                return True, "Yara rule {}".format(res[0])
+            else:
+                if verbose:
+                    print("Does not match any yara rules")
     return False, ""
 
 
