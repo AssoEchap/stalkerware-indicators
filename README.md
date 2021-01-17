@@ -1,6 +1,6 @@
-# Indicators on Stalkerware
+# Indicatos on Stalkerware
 
-Indicators of compromise on Stalkerware applications for Android
+Indicators of compromise on Stalkerware applications for Android (61 apps so far)
 
 ## Files
 
@@ -75,6 +75,7 @@ This repository includes indicators for the following stalkerware :
 * spy2mobile : `spytomobile.com`
 * Spyzie : `www.spyzie.com` `spyzie.io`
 * TalkLog : `talklog.tools`
+* The One Spy : `theonespy.com`
 * TheTruthSpy : `thetruthspy.com`
 * Track My Phones : `trackmyphones.com`
 * uMobix : `umobix.com`

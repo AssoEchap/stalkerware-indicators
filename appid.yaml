@@ -176,3 +176,5 @@
   name: Spyine
 - package: com.tuner.funnelwebview
   name: uMobix
+- package: com.android.services
+  name: TheOneSpy
