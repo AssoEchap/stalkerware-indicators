@@ -60,3 +60,25 @@ rule spyhide {
         uint16(0) == 0x6564 and 8 of them
 }
 
+rule onetopspy : stalkerware {
+    meta:
+        author = "Tek"
+        email = "tek@randhome.io"
+
+    strings:
+        $s1 = "spy-call-active" ascii
+        $s2 = "/BackupEmail/" ascii
+        $s3 = "G_IS_WHATSAPP_INSTALLED" ascii
+        $s4 = "G_LIST_RECORD_CALL_NUMBER" ascii
+        $s5 = "1topspy.com" ascii
+        $s6 = "duplicate key: " ascii
+        $s7 = "setFacebookActive" ascii
+        $s8 = "busybox rm -rf " ascii
+        $s9 = "Unknown cmd: " ascii
+        $s10 = "Testing A ton of commands" ascii
+        $s11 = "PATH_BACKUP_FILE_SMS" ascii
+
+    condition:
+        uint16(0) == 0x6564 and 9 of them
+}
+

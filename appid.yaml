@@ -22,6 +22,8 @@
   name: TheTruthSpy
 - package: com.topspy.system
   name: 1TopSpy
+- package: com.topspy
+  name: 1TopSpy
 - package: com.mobiispy.system
   name: mobiispy
 - package: com.maxxspy.system
