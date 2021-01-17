@@ -108,3 +108,5 @@
   name: iKeyMonitor
 - certificate: 76F6C302533751BED738D40882AC219BAAD65E7B
   name: SpyHuman
+- certificate: CD8F39DAECC7793F33D8D847A598373B8F25A7B7
+  name: SpyHide

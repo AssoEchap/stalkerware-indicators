@@ -37,3 +37,26 @@ rule mspy : stalkerware {
     condition:
         uint16(0) == 0x6564 and 5 of them
 }
+
+rule spyhide {
+    meta:
+        author = "Tek"
+        email = "tek@randhome.io"
+
+    strings:
+        $s1 = "go_to_spyhide" ascii
+        $s2 = "configure_hide" ascii
+        $s3 = "cellphone-remote-tracker.com" ascii
+        $s4 = "bi dont know!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" ascii
+        $s5 = "bmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm" ascii
+        $s6 = "mojmadah@gmail.com" ascii
+        $s7 = "www.virsis.net/client" ascii
+        $s8 = "Gray_Dolphin" ascii
+        $s9 = "new messageeeeeeeeeeeee= " ascii
+        $s10 = "@number OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOout" ascii
+
+
+    condition:
+        uint16(0) == 0x6564 and 8 of them
+}
+

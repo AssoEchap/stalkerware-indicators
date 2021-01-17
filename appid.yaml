@@ -16,6 +16,8 @@
   name: spy2mobile
 - package: com.wifiset.service
   name: SpyHide
+- package: googlesettings.setting
+  name: SpyHide
 - package: com.systemservice
   name: TheTruthSpy
 - package: com.topspy.system
