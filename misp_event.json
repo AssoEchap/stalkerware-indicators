@@ -13273,6 +13273,69 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "79104d8d-bd5a-4d13-ae77-32908d303e8e",
+          "object_relation": "domain",
+          "value": "cellphone-remote-tracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "53fd29af-ff87-4e33-82cd-969ef752e1a1",
+          "object_relation": "domain",
+          "value": "account.cellphone-remote-tracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "497b6a19-26e1-443d-8367-00787850aa83",
+          "object_relation": "sha256",
+          "value": "a896c127a7a4b75b7032dc5f56d20ebb918403c0d84d2f3cf4fd55e785cf9415",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "546fd2c1-2933-47ad-a8d5-5871a950fc00",
+          "object_relation": "sha256",
+          "value": "8a69a276db6d439001e364aab2c37d6c40557095953fc02ec849b637ad264d45",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "99ee1ac8-eb72-4f4f-9b02-89c24f5ef6a6",
+          "object_relation": "sha256",
+          "value": "8893180027877372dba71e4484c99a0a2783e381191ac84169ea585307c19c80",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "94cef642-9ab4-48ee-82a7-426715735ee4",
+          "object_relation": "certificate",
+          "value": "CD8F39DAECC7793F33D8D847A598373B8F25A7B7",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "3cd57108-7de1-4032-9a63-b32813c8a1f1",
+          "object_relation": "appid",
+          "value": "googlesettings.setting",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
