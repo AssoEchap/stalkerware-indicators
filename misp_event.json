@@ -21680,6 +21680,72 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "89020920-b9c1-44ee-affa-82d653931461",
+      "Attribute": [
+        {
+          "uuid": "f47909de-8154-49e2-a196-ce31a46d4309",
+          "object_relation": "name",
+          "value": "umobix",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "1515ee77-3a24-4488-b16b-feb9d6d01fa8",
+          "object_relation": "domain",
+          "value": "us.umobix.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "560748ef-0c94-4c8b-a87a-6d3fb6c5f6f0",
+          "object_relation": "sha256",
+          "value": "3fbdc384094cc89a6905d13ed8df8c0064e89e9cfdcaf80d000a366ea5d10b76",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "1955c11e-55d5-4cb2-b298-80bc7ead3158",
+          "object_relation": "sha256",
+          "value": "a3427cd043c913d318eda4167294848518ed18dffb791c3c44599c246ca603eb",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "718fa042-f6c9-4185-9d2b-dba77462bb20",
+          "object_relation": "certificate",
+          "value": "575F8E8A04A5967E78BC5B5A3E31FDACF42F4FB1",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "c99299df-4acc-43e2-bcb9-176bd056867a",
+          "object_relation": "appid",
+          "value": "com.tuner.funnelwebview",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
