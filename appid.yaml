@@ -18,6 +18,12 @@
   name: SpyHide
 - package: googlesettings.setting
   name: SpyHide
+- package: com.mrblue.setting
+  name: SpyHide
+- package: com.wifisettings.service
+  name: SpyHide
+- package: com.virsys.tracker
+  name: SpyHide
 - package: com.systemservice
   name: TheTruthSpy
 - package: com.topspy.system
