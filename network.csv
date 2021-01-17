@@ -200,6 +200,7 @@ domain,app.api.spyzie.wondershare.cn,Spyzie
 domain,data.api.spyzie.wondershare.cn,Spyzie
 domain,data-api.spyzie.com,Spyzie
 domain,www.spyzie.com,Spyzie
+domain,i.spyzie.io,Spyzie
 domain,neospy.pro,NeoSpy
 domain,neospy.net,NeoSpy
 domain,neospy.tech,NeoSpy
@@ -253,3 +254,9 @@ ipv4,104.18.55.129,iKeyMonitor
 domain,spyhuman.com,SpyHuman
 domain,apispyhuman.com,SpyHuman
 ipv4,213.239.228.196,SpyHuman
+domain,i.neatspy.com,NeatSpy
+domain,i.safespy.com,SafeSpy
+domain,i.spyier.com,Spyier
+domain,i.spyine.com,Spyine
+domain,i.minspy.com,MinSpy
+domain,i.spyic.com,Spyic

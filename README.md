@@ -46,6 +46,7 @@ This repository includes indicators for the following stalkerware :
 * LetMeSpy : `www.letmespy.com`
 * Maxxspy: `maxxSpy.com`
 * Meuspy: `meuspy.com`
+* MinSpy : `minspy.com`
 * Mobispy : `www.mobispy.net`
 * Mobiispy : `mobiispy.com`
 * MobileTrackerFree : `mobile-tracker-free.com`
@@ -53,21 +54,26 @@ This repository includes indicators for the following stalkerware :
 * Mobistealth : `www.mobistealth.com`
 * mSpy : `www.mspy.com`
 * MxSpy : `mxspy.com`
+* NeatSpy : `neatspy.com`
 * NetSpy : `www.netspy.net`
 * NeoSpy : `neospy.net`
 * PhoneSpying : `www.phonespying.com`
 * Repticulus : `reptilicus.net`
+* SafeSpy : `safespy.com`
 * ShadowSpy : `www.shadow-spy.com`
 * Snoopza : `snoopza.com`
 * SpyApp247 : `www.spyapp247.com`
 * SpyHide : `spyhide.com`
 * SpyHuman : `spyhuman.com`
+* Spyic : `spyic.com`
+* Spyier : `spyier.com`
+* Spyine : `spyine.com`
 * Spylive360 : `spylive360.com`
 * SpyMasterPro : `spymasterpro.com`
 * Spymie : `www.spymie.com` (analyzed by [ZScaler here](https://www.zscaler.com/blogs/research/why-you-shouldnt-trust-safe-spying-apps))
 * SpyPhoneApp : `spyphoneapp.org`
 * spy2mobile : `spytomobile.com`
-* Spyzie : `www.spyzie.com`
+* Spyzie : `www.spyzie.com` `spyzie.io`
 * TalkLog : `talklog.tools`
 * TheTruthSpy : `thetruthspy.com`
 * Track My Phones : `trackmyphones.com`

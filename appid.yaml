@@ -100,6 +100,8 @@
   name: Spyzie
 - package: com.ws.sc
   name: Spyzie
+- package: com.sc.spyzie.v2
+  name: Spyzie
 - package: com.ant.spymie.keylogger
   name: Spymie
 - package: ns.antapp.module
@@ -144,12 +146,34 @@
   name: Xnore
 - package: com.cocospy
   name: Cocospy
+- package: com.sc.cocospy.v2
+  name: Cocospy
+- package: com.duiyun.cocospy.v2
+  name: Cocospy
 - package: com.kfhdha.fkjfgjdi
   name: Espiao Android
 - package: in.servidor.service
   name: Meuspy
 - package: com.sl360
   name: Spylive360
-- name: SpyMasterPro
-  package: iqual.calculadora.pro
+- package: iqual.calculadora.pro
+  name: SpyMasterPro
+- package: com.spyic
+  name: Spyic
+- package: com.sc.minspy.v2
+  name: MinSpy
+- package: com.duiyun.spyic
+  name: Spyic
+- package: com.sc.safespy.v2
+  name: SafeSpy
+- package: com.sc.spyic.v2
+  name: Spyic
+- package: com.sc.neatspy.v2
+  name: NeatSpy
+- package: com.sc.spyier.v2
+  name: Spyier
+- package: com.sc.spyine.v2
+  name: Spyine
+
+
 
