@@ -1,4 +1,4 @@
-# Indicatos on Stalkerware
+# Stalkerware Indicators of Compromise
 
 Indicators of compromise on Stalkerware applications for Android (61 apps so far)
 
