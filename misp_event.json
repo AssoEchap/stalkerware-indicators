@@ -1072,6 +1072,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "96660359-ed0e-4b49-a642-b62669a377e4",
+          "object_relation": "appid",
+          "value": "com.maxxspy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -2596,6 +2605,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "bd5fd1ea-6508-4e14-bdef-17a8df73c198",
+          "object_relation": "appid",
+          "value": "com.ispyoo.traceyou",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -20745,6 +20763,15 @@
           "uuid": "5d50f1ea-446f-455c-9f29-ae9e1957ae5c",
           "object_relation": "appid",
           "value": "com.hp.vd",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8d19ef7c-29cf-4800-a569-d15287c0a080",
+          "object_relation": "appid",
+          "value": "com.hp.vc",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
