@@ -34,6 +34,8 @@
   name: mobiispy
 - package: com.maxxspy.system
   name: maxxspy
+- package: com.maxxspy
+  name: maxxspy
 - package: com.hellospy.system
   name: hellospy
 - package: com.atracker.app
@@ -51,6 +53,8 @@
 - package: com.systemservice
   name: TheTruthSpy
 - package: com.ispyoo
+  name: iSpyoo
+- package: com.ispyoo.traceyou
   name: iSpyoo
 - package: app.EasyLogger
   name: EasyLogger
@@ -131,6 +135,8 @@
 - package: com.xnspy.dashboard
   name: XNSpy
 - package: com.hp.vd
+  name: FreeAndroidSpy
+- package: com.hp.vc
   name: FreeAndroidSpy
 - package: com.psac.a.processservice
   name: Mobispy

@@ -12,6 +12,7 @@ domain,97.logger.mobi,Easy Logger
 domain,beta-api.logger.mobi,EasyLogger
 domain,beta.logger.mobi,EasyLogger
 domain,ps97mailer.logger.mobi,EasyLogger
+domain,logger.mobi,EasyLogger
 ipv4,172.67.81.216,EasyLogger
 ipv4,104.25.28.15,EasyLogger
 ipv4,104.25.29.15,EasyLogger
