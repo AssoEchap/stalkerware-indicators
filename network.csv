@@ -7,6 +7,9 @@ domain,1topspy.com,1TopSpy
 domain,flushdbd.maxxspy.com,Maxxspy
 domain,maxxspy.com,Maxxspy
 domain,flushdata2.hellospy.com,HelloSpy
+domain,flushdata.hellospy.com,HelloSpy
+domain,flushdata3.hellospy.com,HelloSpy
+domain,flushdata5.hellospy.com,HelloSpy
 domain,account.logger.mobi,Easy Logger
 domain,97.logger.mobi,Easy Logger
 domain,beta-api.logger.mobi,EasyLogger
@@ -150,12 +153,41 @@ ipv4,162.144.75.253,Catwatchful
 domain,copy9.com,Copy9
 domain,my.copy9.com,Copy9
 domain,protocol-a621.copy9.com,Copy9
+domain,protocol-a.copy9.com,Copy9
+domain,protocol-a610.copy9.com,Copy9
+domain,protocol-a611.copy9.com,Copy9
+domain,protocol-a612.copy9.com,Copy9
+domain,protocol-a614.copy9.com,Copy9
+domain,protocol-a615.copy9.com,Copy9
+domain,protocol-a616.copy9.com,Copy9
+domain,protocol-a617.copy9.com,Copy9
+domain,protocol-a618.copy9.com,Copy9
+domain,protocol-a620.copy9.com,Copy9
+domain,protocol-a69.copy9.com,Copy9
+domain,protocol-a696.copy9.com,Copy9
+domain,protocol-a710.copy9.com,Copy9
+domain,protocol-a780.copy9.com,Copy9
+domain,protocol-viewer-a.copy9.com,Copy9
+domain,protocol.copy9.com,Copy9
 domain,thetruthspy.com,TheTruthSpy
 domain,protocol-a723.thetruthspy.com,TheTruthSpy
 domain,97.logger.mobi,EasyLogger
 domain,logger.mobi,EasyLogger
 domain,trkps.com,Flexispy
 domain,flexispy.com,Flexispy
+domain,client.mobilefonex.com,Flexispy
+domain,test-client.mobilefonex.com,Flexispy
+domain,push.mobilefonex.com,Flexispy
+domain,mflx.biz,Flexispy
+domain,dmw.bz,Flexispy
+domain,djp.bz,Flexispy
+domain,dmw.cc,Flexispy
+ip,119.8.35.235,Flexispy
+domain,protocol-a.guestspy.com,GuestSpy
+domain,protocol-a5.guestspy.com,GuestSpy
+domain,protocol-a65.guestspy.com,GuestSpy
+domain,protocol-a70.guestspy.com,GuestSpy
+domain,protocol.guestspy.com,GuestSpy
 domain,protocol-a58.guestspy.com,GuestSpy
 domain,protocol-a59.guestspy.com,GuestSpy
 domain,protocol-a60.guestspy.com,GuestSpy
@@ -165,6 +197,9 @@ domain,ddiutilities.com,DDI Utilities
 domain,hoverwatch.com,Hoverwatch
 domain,i.hoverwatch.com,Hoverwatch
 domain,account.refog.com,Hoverwatch
+domain,rec.hw.cab,Hoverwatch
+domain,hwa.cab,Hoverwatch
+ip,198.100.150.203,Hoverwatch
 domain,www.imonitorsoft.com,iMonitorSpy
 domain,www.imonitorsoft.cn,iMonitorSpy
 domain,letmespy.com,LetMeSpy
@@ -176,6 +211,7 @@ domain,www.mxspy.com,mxspy
 domain,protocol.mxspy.com,mxspy
 domain,protocol-a810.mxspy.com,mxspy
 domain,protocol-a89.mxspy.com,mxspy
+domain,protocol-a.mxspy.com,mxspy
 domain,www.phonespying.com,PhoneSpying
 domain,reptilicus.net,Repticulus
 domain,data.reptilicus.net,Repticulus
@@ -217,6 +253,9 @@ domain,staging-all-tracker.appspot.com,AllTracker
 domain,6-dot-all-tracker.appspot.com,AllTracker
 domain,4-dot-all-tracker.appspot.com,AllTracker
 domain,www.mobistealth.com,Mobistealth
+domain,dwn.vys.me,Mobistealth
+domain,www.vys.me,Mobistealth
+ip,5.79.71.114,Mobistealth
 domain,talklog.tools,TalkLog
 domain,tchsrvce.com,TalkLog
 domain,xnspy.com,XNSpy
@@ -235,6 +274,7 @@ domain,aovivo.foxspy.com.br,Espiao Android
 domain,pc.foxspy.com.br,Espiao Android
 domain,servidor.in,Meuspy
 domain,n.servidor.in,Meuspy
+domain,l.servidor.in,Meuspy
 domain,celular007.s3.amazonaws.com,Espiao Android
 domain,s1.spylive360.com,Spylive360
 domain,s2.spylive360.com,Spylive360

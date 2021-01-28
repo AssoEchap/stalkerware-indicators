@@ -10,6 +10,7 @@ Indicators of compromise on Stalkerware applications for Android (61 apps so far
 * `indicators-for-tinycheck.json` : indicators in [TinyCheck](https://github.com/KasperskyLab/TinyCheck) compatible format
 * `misp_event.json` : indicators in [MISP](https://www.misp-project.org/) compatible format
 * `network.csv` : list of domains
+* `quad9_blocklist.txt` : blocklist for [Quad9 DNS resolver](https://www.quad9.net/) (include a more limited set of domains for apps clearly for stalking and only C2 domains, not app websites)
 * `rules.yar` : Yara rules
 * `sha256.csv` : sha256 of samples
 
@@ -23,7 +24,7 @@ Scripts:
 This repository includes indicators for the following stalkerware :
 
 * 1TopSpy : `www.1topspy.com`
-* AllTracker : `alltracker.org`
+* AllTracker : `alltracker.org` (also called [Russ City](https://www.zscaler.com/blogs/security-research/new-wave-stalkerware-apps))
 * AppSpy : `www.appspy.com`
 * Android Monitor : `www.androidmonitor.com`
 * Catwatchful : `catwatchful.com`
@@ -56,7 +57,7 @@ This repository includes indicators for the following stalkerware :
 * MxSpy : `mxspy.com`
 * NeatSpy : `neatspy.com`
 * NetSpy : `www.netspy.net`
-* NeoSpy : `neospy.net`
+* NeoSpy : `neospy.net` (an analysis [here](https://www.zscaler.com/blogs/security-research/spyware-presence-enterprise-networks))
 * PhoneSpying : `www.phonespying.com`
 * Repticulus : `reptilicus.net`
 * SafeSpy : `safespy.com`
