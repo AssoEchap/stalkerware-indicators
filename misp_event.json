@@ -1006,6 +1006,33 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "212a73a5-ad00-4ef6-8f36-0751b00e0f89",
+          "object_relation": "domain",
+          "value": "flushdata.hellospy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "78cf5493-cee7-42bd-9551-169569b654c0",
+          "object_relation": "domain",
+          "value": "flushdata3.hellospy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "eeecb587-365a-4c9b-a1f4-40239c4f9ba8",
+          "object_relation": "domain",
+          "value": "flushdata5.hellospy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -2323,6 +2350,51 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "17621259-8081-4c91-8f70-425fbb6a0519",
+          "object_relation": "domain",
+          "value": "protocol-a5.guestspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ca7fce42-6e48-43d6-adff-c2023215f86c",
+          "object_relation": "domain",
+          "value": "protocol-a.guestspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "14559f22-8f25-4124-9c44-1c0b035f29e4",
+          "object_relation": "domain",
+          "value": "protocol-a65.guestspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "aba86607-f5ca-416e-bced-a6c20181d40b",
+          "object_relation": "domain",
+          "value": "protocol.guestspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3edf8dff-613d-4179-811d-dd26a3e82a1e",
+          "object_relation": "domain",
+          "value": "protocol-a70.guestspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -8266,6 +8338,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "22e6d6aa-fbdb-45ad-8b1a-5798dc542bdc",
+          "object_relation": "sha256",
+          "value": "44b85adf22f7d194be044f1150bdc1a8338ebd47c952172c5bf54cfd9e0cb4e8",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0a3b49d1-8471-48b4-b910-4e7350dc4d64",
+          "object_relation": "sha256",
+          "value": "cd3b233be7017f03139f323f38ff0d049ec9a67fe1b4b1a4989b0ae84b495297",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -8476,6 +8566,150 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "ec66cfee-9aa3-4ada-8a37-7ef758d04326",
+          "object_relation": "domain",
+          "value": "protocol-a.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "826c3774-4900-43d7-a91c-7a418b4c52f5",
+          "object_relation": "domain",
+          "value": "protocol-a617.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "7f33b227-de09-4c88-81dd-e3ea13ace953",
+          "object_relation": "domain",
+          "value": "protocol-a611.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "047ee301-3da0-4574-977d-deb7df338525",
+          "object_relation": "domain",
+          "value": "protocol.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c37c90ad-b09c-4557-a831-83f033f93d6b",
+          "object_relation": "domain",
+          "value": "protocol-a780.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ca9c2459-f9f4-4dd3-8bfc-ad44e4398dee",
+          "object_relation": "domain",
+          "value": "protocol-a618.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "461bd946-f9f5-41e2-978d-67850f081eee",
+          "object_relation": "domain",
+          "value": "protocol-viewer-a.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6a7acc84-fbd0-4c67-a4f4-1b742a3042cc",
+          "object_relation": "domain",
+          "value": "protocol-a69.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e159eb25-1c3f-4079-91bf-dcfa1bc93fe9",
+          "object_relation": "domain",
+          "value": "protocol-a620.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "50d79699-a674-4424-8c32-679debd70453",
+          "object_relation": "domain",
+          "value": "protocol-a616.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "17f92a0b-8354-4043-aff4-0e5c6a7d368b",
+          "object_relation": "domain",
+          "value": "protocol-a696.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "581ba1b8-3acf-492a-90a1-bce645ba7061",
+          "object_relation": "domain",
+          "value": "protocol-a612.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b262fb48-5656-4ff3-822f-6bd1c448a174",
+          "object_relation": "domain",
+          "value": "protocol-a614.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "269722b2-8c4f-43cf-b661-cd66c7c719ee",
+          "object_relation": "domain",
+          "value": "protocol-a710.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b3e1cae4-3153-4c8a-af9b-989388162472",
+          "object_relation": "domain",
+          "value": "protocol-a610.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8b9db73c-45f0-4fab-a1fe-80c344f2951e",
+          "object_relation": "domain",
+          "value": "protocol-a615.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -8911,6 +9145,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "2e727312-6783-4e98-b842-41cb89127ef5",
+          "object_relation": "sha256",
+          "value": "282924a246f2962e42afaa8b2dee0b49989e0e88c1aabd8387176661aabca07a",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -9787,6 +10030,69 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "966df9f1-b6e5-4cdc-82c4-eba16fd4dbe1",
+          "object_relation": "domain",
+          "value": "client.mobilefonex.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ad622c70-e889-4a40-92f6-df4242e77abb",
+          "object_relation": "domain",
+          "value": "djp.bz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a4b90b9a-92b6-4381-a489-6b990b1847b3",
+          "object_relation": "domain",
+          "value": "test-client.mobilefonex.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b6845004-02bf-409a-81d3-cd93b1c501ef",
+          "object_relation": "domain",
+          "value": "dmw.bz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f7f375f4-95a4-49bc-a9ab-5dc5fa7149e1",
+          "object_relation": "domain",
+          "value": "push.mobilefonex.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0fdd5991-2912-4fd4-9619-55921eaa8caf",
+          "object_relation": "domain",
+          "value": "dmw.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "638b6c17-522f-4b02-809e-129834a622a0",
+          "object_relation": "domain",
+          "value": "mflx.biz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -10285,6 +10591,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "aaf4583a-b771-479b-9324-437fefd548ae",
+          "object_relation": "sha256",
+          "value": "d836c14377dcd6bb9db88db2b0de8ea11bd9787390f8b46960d78836acccc207",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -10795,6 +11110,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "208d3dc4-48bb-42b7-89f7-f8a9f9885b65",
+          "object_relation": "domain",
+          "value": "rec.hw.cab",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "571dc3db-61a2-40f3-96bd-2b11ff8f6384",
+          "object_relation": "domain",
+          "value": "hwa.cab",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -12553,6 +12886,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "54ad6b16-31e1-42bd-8a54-7110b2b1e335",
+          "object_relation": "domain",
+          "value": "protocol-a.mxspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -16996,6 +17338,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "0afcb215-7d4d-4049-bc88-ff99454df34b",
+          "object_relation": "sha256",
+          "value": "f44e0a6ac19c2214aa3c5dbc1c70afdfe219a7ea893954c67bfb232d9d825da1",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -19333,6 +19684,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "bdeddf85-3c94-4216-b5f8-756f193c9c1f",
+          "object_relation": "domain",
+          "value": "www.vys.me",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "74671d9b-44dc-4608-ba47-0043021a1c09",
+          "object_relation": "domain",
+          "value": "dwn.vys.me",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -21379,6 +21748,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "aad0b3f0-7acc-4458-bf32-f8a9cfd0595e",
+          "object_relation": "domain",
+          "value": "l.servidor.in",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
