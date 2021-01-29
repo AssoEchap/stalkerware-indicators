@@ -12739,6 +12739,24 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "d9928d88-776b-4e5b-a10a-2cc3867fdd82",
+          "object_relation": "domain",
+          "value": "thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "be555b21-1238-40d8-8db9-315b432dce75",
+          "object_relation": "domain",
+          "value": "a.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
