@@ -2,6 +2,8 @@
 
 Indicators of compromise on Stalkerware applications for Android (61 apps so far)
 
+**Warning: these indicators are clearly not providing a complete detection of stalkerware applications. They are based on research from a few people on their free time and many apps are likely missing. Use it carefully, and not detecting these indicators should not be understood as having no stalkerware installed**
+
 ## Files
 
 * `androguard-rules.yar` : Androguard yara rules (to be used in [Koodous](https://koodous.com/))
@@ -87,7 +89,7 @@ This repository includes indicators for the following stalkerware :
 
 ## Contributions
 
-This work is done by the [Echap](https://echap.eu.org/) non-profit organisation.
+This repository is maintained by the [Echap](https://echap.eu.org/) non-profit organisation.
 
 Contributors include [Anne Roth](https://twitter.com/annalist), [@nscrutables](https://twitter.com/nscrutables), [Abir Ghattas](https://twitter.com/AbirGhattas), [Jurre van Bergen](https://twitter.com/DrWhax)
 
@@ -97,12 +99,12 @@ These indicators were largely based on research and analysis using [APKlab](http
 
 This repository is not complete, new stalkerware apps appear and disappear all the time. Feel free to contribute to this database by opening an issue or submitting a Pull Request.
 
-If you want to pursue some research of this app, and need access to some samples, feel free to [send me an email](https://www.randhome.io/contact/).
+If you want to do further research on some apps and need access to the samples, feel free to [send me an email](https://www.randhome.io/contact/).
 
 ## References
 
 * [Coalition against stalkerware](https://stopstalkerware.org/)
-* [IPVTechResearch : Computer Security and Privacy for Survivors of Intimate Partner Violence](https://www.ipvtechresearch.org/)
+* [Resources from the Clinic to End Tech Abuse](https://www.ceta.tech.cornell.edu/resources)
 * [The Predator in Your Pocket - A Multidisciplinary Assessment of the Stalkerware Application Industry](https://citizenlab.ca/2019/06/the-predator-in-your-pocket-a-multidisciplinary-assessment-of-the-stalkerware-application-industry/) by the Citizen Lab
 * [What you need to know about stalkerware](https://www.ted.com/talks/eva_galperin_what_you_need_to_know_about_stalkerware/transcript?language=en) - TED Talk by Eva Galperin
 * [Various analysis of Android Stalkerware](https://github.com/diskurse/android-stalkerware) by nscrutables
