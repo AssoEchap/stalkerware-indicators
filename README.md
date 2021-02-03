@@ -2,7 +2,7 @@
 
 Indicators of compromise on Stalkerware applications for Android (61 apps so far)
 
-**Warning: these indicators are clearly not providing a complete detection of stalkerware applications. They are based on research from a few people on their free time and many apps are likely missing. Use it carefully, and not detecting these indicators should not be understood as having no stalkerware installed**
+_Warning: these indicators are not providing a complete detection of stalkerware applications. They are based on research from a few people on their free time and many apps are likely missing. Use it carefully. No detection based on these indicators should not be understood as having no stalkerware installed._
 
 ## Files
 
