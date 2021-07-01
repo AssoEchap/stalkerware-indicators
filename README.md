@@ -101,14 +101,21 @@ This repository is not complete, new stalkerware apps appear and disappear all t
 
 If you want to do further research on some apps and need access to the samples, feel free to [send me an email](https://www.randhome.io/contact/).
 
+## Other stalkerware repositories
+
+There are other repositories gathering stalkerware indicators:
+* [ch33r10 stalkerware list](https://github.com/ch33r10/Stalkerware/tree/master/IOCs)
+* [astryzia](https://github.com/astryzia/stalkerware-urls)
+* [diskurse android stalkerware](https://github.com/diskurse/android-stalkerware)
+* [TinyCheck IOCs](https://github.com/KasperskyLab/TinyCheck/blob/main/assets/iocs.json)
+
 ## References
 
 * [Coalition against stalkerware](https://stopstalkerware.org/)
 * [Resources from the Clinic to End Tech Abuse](https://www.ceta.tech.cornell.edu/resources)
 * [The Predator in Your Pocket - A Multidisciplinary Assessment of the Stalkerware Application Industry](https://citizenlab.ca/2019/06/the-predator-in-your-pocket-a-multidisciplinary-assessment-of-the-stalkerware-application-industry/) by the Citizen Lab
 * [What you need to know about stalkerware](https://www.ted.com/talks/eva_galperin_what_you_need_to_know_about_stalkerware/transcript?language=en) - TED Talk by Eva Galperin
-* [Various analysis of Android Stalkerware](https://github.com/diskurse/android-stalkerware) by nscrutables
-* [Stalkerware analysis](https://github.com/ch33r10/Stalkerware) by ch33r10
+
 
 ## License
 
