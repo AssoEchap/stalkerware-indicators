@@ -60,6 +60,7 @@ This repository includes indicators for the following stalkerware :
 * NeatSpy : `neatspy.com`
 * NetSpy : `www.netspy.net`
 * NeoSpy : `neospy.net` (an analysis [here](https://www.zscaler.com/blogs/security-research/spyware-presence-enterprise-networks))
+* pcTattletale : `www.pctattletale.com`
 * PhoneSpying : `www.phonespying.com`
 * Repticulus : `reptilicus.net`
 * SafeSpy : `safespy.com`

@@ -188,3 +188,5 @@ us.umobix.com
 thd.cc
 a.thd.cc
 viptrack.pro
+pctattletalev2.s3.amazonaws.com
+v4vw4ytvo4.execute-api.us-east-2.amazonaws.com
