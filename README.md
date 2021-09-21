@@ -18,8 +18,9 @@ _Warning: these indicators are not providing a complete detection of stalkerware
 
 Scripts:
 * `check_apk.py` : check an APK file or APKs in a folder with the indicators from this repository
-* `create-indicators-for-tinycheck.py` : creates `indicators-for-tinycheck.json` (automatically done through github actions)
-* `make_misp_event.py` : create `misp_event.json` (automatically done through github actions)
+* `scripts/create-indicators-for-tinycheck.py` : creates `indicators-for-tinycheck.json` (automatically done through github actions)
+* `scripts/generate_stix.py`: creates `stalkerware.stix2` (automatically done through github actions)
+* `scripts/make_misp_event.py` : create `misp_event.json` (automatically done through github actions)
 
 ## Stalkerware
 
