@@ -169,3 +169,8 @@ rule mobistealth {
     condition:
         androguard.package_name("lookOut.Secure") or androguard.certificate.sha1("FED69D6F09AE8C98DD4053C1934CCAF57D31824D") or androguard.url(/www\.mobistealth\.com/)
 }
+
+rule pcTattletale {
+    condition:
+        androguard.package_name("com.avi.scbase") or androguard.certificate.sha1("20F092BEC76C406223A7943371A1DBBB5BF66C13") or androguard.url(/pctattletale\.com/) or androguard.url(/v4vw4ytvo4\.execute-api\.us-east-2\.amazonaws\.com/)
+}
