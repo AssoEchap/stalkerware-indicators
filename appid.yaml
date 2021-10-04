@@ -192,3 +192,5 @@
   name: uMobix
 - package: com.android.services
   name: TheOneSpy
+- package: com.avi.scbase
+  name: pcTattletale
