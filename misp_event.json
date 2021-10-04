@@ -22667,6 +22667,72 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "596d38e5-d70a-4c35-9f4c-4b381eefc135",
+      "Attribute": [
+        {
+          "uuid": "0dbfc8eb-3740-4cc5-bef6-6d49059cae00",
+          "object_relation": "name",
+          "value": "pctattletale",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "5d6eb1b0-13cf-4d69-9c13-28a336ee611d",
+          "object_relation": "domain",
+          "value": "v4vw4ytvo4.execute-api.us-east-2.amazonaws.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "651304bd-d02b-4efc-aa36-f7121c155990",
+          "object_relation": "domain",
+          "value": "pctattletalev2.s3.amazonaws.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bfaaa134-468e-466f-8cc3-bba192bb6b4a",
+          "object_relation": "sha256",
+          "value": "282c7b2e46f72ce844bb26f8359e34b5256800e55550c52cd912131bd7b2e423",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "606c51b1-1aad-4dbf-8240-a6f91d014b3e",
+          "object_relation": "certificate",
+          "value": "20F092BEC76C406223A7943371A1DBBB5BF66C13",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "5028d7af-3461-4ac9-9172-1023eceecb6d",
+          "object_relation": "appid",
+          "value": "com.avi.scbase",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
