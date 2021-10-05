@@ -180,7 +180,7 @@ domain,mflx.biz,Flexispy
 domain,dmw.bz,Flexispy
 domain,djp.bz,Flexispy
 domain,dmw.cc,Flexispy
-ip,119.8.35.235,Flexispy
+ipv4,119.8.35.235,Flexispy
 domain,protocol-a.guestspy.com,GuestSpy
 domain,protocol-a5.guestspy.com,GuestSpy
 domain,protocol-a65.guestspy.com,GuestSpy
@@ -197,7 +197,7 @@ domain,i.hoverwatch.com,Hoverwatch
 domain,account.refog.com,Hoverwatch
 domain,rec.hw.cab,Hoverwatch
 domain,hwa.cab,Hoverwatch
-ip,198.100.150.203,Hoverwatch
+ipv4,198.100.150.203,Hoverwatch
 domain,www.imonitorsoft.com,iMonitorSpy
 domain,www.imonitorsoft.cn,iMonitorSpy
 domain,letmespy.com,LetMeSpy
@@ -255,7 +255,7 @@ domain,4-dot-all-tracker.appspot.com,AllTracker
 domain,www.mobistealth.com,Mobistealth
 domain,dwn.vys.me,Mobistealth
 domain,www.vys.me,Mobistealth
-ip,5.79.71.114,Mobistealth
+ipv4,5.79.71.114,Mobistealth
 domain,talklog.tools,TalkLog
 domain,tchsrvce.com,TalkLog
 domain,xnspy.com,XNSpy
