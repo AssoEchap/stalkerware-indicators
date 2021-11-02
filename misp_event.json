@@ -22733,6 +22733,108 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "a7e289e0-f063-4c88-ae0d-892742ba4c8a",
+      "Attribute": [
+        {
+          "uuid": "46c89c2c-4fc4-497d-8244-bf0e0e8b6993",
+          "object_relation": "name",
+          "value": "trackmyfone",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "91769b3d-8324-4c8c-9b43-bfa54ef8f455",
+          "object_relation": "domain",
+          "value": "bk128.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "743e505d-57cd-4af1-aa85-c6d4781e73ed",
+          "object_relation": "domain",
+          "value": "asset.bk128.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "488fbef5-a115-463d-a0f8-44298f8f1eb7",
+          "object_relation": "domain",
+          "value": "www.mydwnd.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "75abdd80-3308-476f-bc26-9d024542d112",
+          "object_relation": "domain",
+          "value": "sync.bk128.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "443e60db-3ed1-4f38-9e5d-5793ceae879a",
+          "object_relation": "domain",
+          "value": "mydwnd.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4d0513aa-8338-48ef-89df-a73b0cc2ff33",
+          "object_relation": "domain",
+          "value": "alert.bk128.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "90172cc9-b840-4a83-a5bc-e5351b92d4d8",
+          "object_relation": "sha256",
+          "value": "9114e561c42ea19b183ef5d8a36e743f2b873874e43d805b11e3753035c7900d",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "8e7065fb-aeec-4085-bbb5-de32634c65fc",
+          "object_relation": "certificate",
+          "value": "C276C3B087207C9D3CEEDA766C01E0BDEF7EAC71",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "df45246a-f851-4610-8f54-108f4b0db7fd",
+          "object_relation": "appid",
+          "value": "com.map.system",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
