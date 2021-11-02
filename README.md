@@ -82,6 +82,7 @@ This repository includes indicators for the following stalkerware :
 * TalkLog : `talklog.tools`
 * The One Spy : `theonespy.com`
 * TheTruthSpy : `thetruthspy.com`
+* TrackMyFone : `trackmyfone.com`
 * Track My Phones : `trackmyphones.com`
 * uMobix : `umobix.com`
 * WiseMo : `www.wisemo.com`

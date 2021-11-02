@@ -174,3 +174,8 @@ rule pcTattletale {
     condition:
         androguard.package_name("com.avi.scbase") or androguard.certificate.sha1("20F092BEC76C406223A7943371A1DBBB5BF66C13") or androguard.url(/pctattletale\.com/) or androguard.url(/v4vw4ytvo4\.execute-api\.us-east-2\.amazonaws\.com/)
 }
+
+rule trackmyfone {
+    condition:
+        androguard.package_name("com.map.system") or androguard.certificate.sha1("C276C3B087207C9D3CEEDA766C01E0BDEF7EAC71") or androguard.url(/bk128\.com/) or androguard.url(/mydwnd\.com/)
+}
