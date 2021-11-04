@@ -150,6 +150,11 @@ rule spymie {
         androguard.package_name("com.ant.spymie.keylogger") or androguard.certificate.sha1("05B23C7E9156A4C55768DA27936FF2D7AF09BB8F")
 }
 
+rule spyic {
+    condition:
+        androguard.package_name("com.spyic") or androguard.package_name("com.duiyun.spyic") or androguard.package_name("com.sc.spyic.v2") or androguard.package_name("com.sc.spyic.v3") or androguard.certificate.sha1("C377ADFF5DF116AB7297D32850ADE8A8FC3F8FB9") or androguard.certificate.sha1("8418703221A74C73405AD273C28CBC12444D7520")
+}
+
 rule neospy {
     condition:
         androguard.package_name("ns.antapp.module") or androguard.certificate.sha1("9ED8DD944D3EB545E1EEEEEC1D8174772CF37C07") or androguard.url(/neospy\.pro/) or androguard.url(/neospy\.net/) or androguard.url(/neospy\.tech/)

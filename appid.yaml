@@ -182,6 +182,8 @@
   name: SafeSpy
 - package: com.sc.spyic.v2
   name: Spyic
+- package: com.sc.spyic.v3
+  name: Spyic
 - package: com.sc.neatspy.v2
   name: NeatSpy
 - package: com.sc.spyier.v2
@@ -196,3 +198,9 @@
   name: pcTattletale
 - package: com.map.system
   name: TrackMyFone
+- package: net.spy24.wifi
+  name: Spy24
+- package: com.example.openanotherapp
+  name: Spy24
+- package: ir.spy24.updater
+  name: Spy24
