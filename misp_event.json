@@ -20443,6 +20443,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "7914bfb5-533d-46b8-a938-ee9f53e62837",
+          "object_relation": "sha256",
+          "value": "176cd54005aeb64d2415685c0f97bdad0292e9ae2f307bb6908c2927d5edd3a2",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -21961,6 +21970,33 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "157ea3ce-83bb-4de3-86d8-94dab46b30f3",
+          "object_relation": "domain",
+          "value": "imobispy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "fc7a95ff-d6db-420a-8ef0-4911ddc5c9ee",
+          "object_relation": "sha256",
+          "value": "ce7ee8f073f101eb56e2a6467a9c1e68eb54594a0925ee007359db7db8fbab3e",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "714b1575-bb6b-48aa-a718-c6972208b8f2",
+          "object_relation": "certificate",
+          "value": "8AD595A53B76014B7B919ED231DB372096D358E7",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -22228,6 +22264,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "fcb53800-f5cf-4c10-aea1-58c0f556b274",
+          "object_relation": "domain",
+          "value": "trackine.vip",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d82878cb-e474-4bf2-8259-29584fd4c75e",
+          "object_relation": "sha256",
+          "value": "9d6d997ee4a59a78629e32b081be072799cf75595c1e23abba0ea0507c31b1aa",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -22423,6 +22477,33 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "4809d697-55f4-425f-975e-36a44d2b8ea8",
+          "object_relation": "sha256",
+          "value": "111b7a2f8988cb30e74f51e66f7083f84c4b53f0971c4b5f1007547355e6bb35",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "2c5da63d-b796-42ec-81ce-af736d555006",
+          "object_relation": "certificate",
+          "value": "8418703221A74C73405AD273C28CBC12444D7520",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "99de00f6-ecbb-4188-b797-1019849ac2db",
+          "object_relation": "appid",
+          "value": "com.sc.spyic.v3",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -22827,6 +22908,108 @@
           "uuid": "df45246a-f851-4610-8f54-108f4b0db7fd",
           "object_relation": "appid",
           "value": "com.map.system",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "64f63354-9589-4f7c-8535-6ed4233fa052",
+      "Attribute": [
+        {
+          "uuid": "3c48ddf2-08b5-43e9-94df-31148b0205a1",
+          "object_relation": "name",
+          "value": "spy24",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "dc7bae4d-115c-4b6b-b793-4583e4bc6387",
+          "object_relation": "domain",
+          "value": "panel.spy24.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "fbbd7cf7-c051-4cb3-8a06-2276aaeffdc0",
+          "object_relation": "sha256",
+          "value": "037323bb567391a8d55ce2361942cda125b4fcccd8e559027356f8f7e65d9445",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "eea80157-07b3-4698-9098-0cec950c938d",
+          "object_relation": "sha256",
+          "value": "77d4f937b2855137ed14dadab49da6e1f0be27b9c032dd9316af97ea3f139893",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0e8b6788-5bc4-480a-ba7a-554b13f2289e",
+          "object_relation": "sha256",
+          "value": "913b6ce2b37b667106287d36f2e675eb177d28a270b3e815e90bdd9d2cc44dcb",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "80f8e3d3-74d3-4d85-a68c-39aa3a4025e8",
+          "object_relation": "certificate",
+          "value": "F5C25A3B800311E8053295676ADB112753E03F0B",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "7a87a5c6-2194-4063-88c6-7146da47f21f",
+          "object_relation": "certificate",
+          "value": "79C395148C34F0826E04B37A6632A53A7977A1AA",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "238563a7-c6ec-492d-90e2-d40da3a41c27",
+          "object_relation": "appid",
+          "value": "ir.spy24.updater",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "d5390a97-40c1-4486-a01b-cb980d1baa69",
+          "object_relation": "appid",
+          "value": "net.spy24.wifi",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "6ec8f081-68b4-49aa-affb-c5d303643c4e",
+          "object_relation": "appid",
+          "value": "com.example.openanotherapp",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
