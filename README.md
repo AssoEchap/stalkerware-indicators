@@ -1,6 +1,6 @@
 # Stalkerware Indicators of Compromise
 
-Indicators of compromise on Stalkerware applications for Android (64 apps so far)
+Indicators of compromise on Stalkerware applications for Android (66 apps so far)
 
 _Warning: these indicators are not providing a complete detection of stalkerware applications. They are based on research from a few people on their free time and many apps are likely missing. Use it carefully. No detection based on these indicators should not be understood as having no stalkerware installed._
 
@@ -32,6 +32,7 @@ This repository includes indicators for the following stalkerware :
 * Android Monitor : `www.androidmonitor.com`
 * Catwatchful : `catwatchful.com`
 * Cerberus : `www.cerberusapp.com`
+* ClevGuard : `www.clevguard.com`
 * Cocospy : `www.cocospy.com`
 * Copy9 : `copy9.com`
 * DDI Utilities : `ddiutilities.com`
@@ -63,6 +64,7 @@ This repository includes indicators for the following stalkerware :
 * NeoSpy : `neospy.net` (an analysis [here](https://www.zscaler.com/blogs/security-research/spyware-presence-enterprise-networks))
 * pcTattletale : `www.pctattletale.com`
 * PhoneSpying : `www.phonespying.com`
+* PanSpy : `panspy.com`
 * Repticulus : `reptilicus.net`
 * SafeSpy : `safespy.com`
 * ShadowSpy : `www.shadow-spy.com`

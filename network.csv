@@ -206,6 +206,8 @@ domain,www.mspyonline.com,mspy
 domain,my.mspyonline.com,mspy
 domain,thd.cc,mspy
 domain,a.thd.cc,mspy
+domain,b55y.net,mspy
+domain,getmspy.net,mspy
 domain,protocol-a811.mxspy.com,mxspy
 domain,www.mxspy.com,mxspy
 domain,protocol.mxspy.com,mxspy
@@ -246,6 +248,13 @@ domain,i.spyzie.io,Spyzie
 domain,neospy.pro,NeoSpy
 domain,neospy.net,NeoSpy
 domain,neospy.tech,NeoSpy
+domain,neospy.tech,NeoSpy
+domain,i6.clientreport.info,NeoSpy
+domain,i7.clientreport.info,NeoSpy
+domain,i11.clientreport.info,NeoSpy
+domain,i12.clientreport.info,NeoSpy
+domain,i13.clientreport.info,NeoSpy
+domain,clientreport.info,NeoSpy
 domain,server.androidmonitor.com,AndroidMonitor
 domain,www.androidmonitor.com,AndroidMonitor
 domain,alltracker.org,AllTracker
@@ -329,3 +338,14 @@ domain,bk128.com,TrackMyFone
 domain,www.mydwnd.com,TrackMyFone
 domain,mydwnd.com,TrackMyFone
 domain,panel.spy24.net,Spy24
+domain,api.clevguard.com,ClevGuard
+domain,kidsguard-6c6a9.firebaseio.com,ClevGuard
+domain,clevguard.net,ClevGuard
+ipv4,47.88.63.70,ClevGuard
+domain,panspy.me,PanSpy
+domain,ali.panspy.com,PanSpy
+domain,u1.panspy.com,PanSpy
+domain,s1.panspy.com,PanSpy
+domain,c1.panspy.com,PanSpy
+domain,d1.panspy.com,PanSpy
+domain,panspy-1.oss-us-west-1.aliyuncs.com,PanSpy
