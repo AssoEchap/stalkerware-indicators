@@ -220,3 +220,7 @@
   name: ClevGuard
 - package: com.panspy.android
   name: PanSpy
+- package: com.android.internet.a20210916
+  name: iKeyMonitor
+- package: com.sec.android.internet.im.service.im20210815
+  name: iKeyMonitor
