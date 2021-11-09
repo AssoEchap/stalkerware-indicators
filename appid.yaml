@@ -176,6 +176,18 @@
   name: Espiao Android
 - package: in.servidor.service
   name: Meuspy
+- package: com.app.insapp2
+  name: Meuspy
+- package: br.com.phonecell.services
+  name: Meuspy
+- package: br.com.phonecell.cloud1
+  name: Meuspy
+- package: br.com.phonecell.go5ge
+  name: Meuspy
+- package: br.com.phonecell.maps
+  name: Meuspy
+- package: br.com.phonecell.radio
+  name: Meuspy
 - package: com.sl360
   name: Spylive360
 - package: iqual.calculadora.pro
