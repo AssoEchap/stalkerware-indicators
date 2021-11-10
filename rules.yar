@@ -89,8 +89,8 @@ rule ikeymonitor : stalkerware {
     strings:
         $s1 = "emcpanel.com" nocase ascii
         $s2 = "Keylogger_Xposed" ascii
-	$s3 = "iKeyMonitor" nocase ascii
-	$s4 = "Reg_LKConnotbE" ascii
+        $s3 = "iKeyMonitor" nocase ascii
+        $s4 = "Reg_LKConnotbE" ascii
     condition:
         uint16(0) == 0x6564 and 4 of them
 }
