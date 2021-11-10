@@ -102,6 +102,10 @@
   name: Xnore
 - certificate: 3e9b3e5190f64ba9a952b7f57942aa21ffda50ba
   name: MobileTool
+- certificate: 8CED75E875A2F11B3327A73A6DBD0B25E26533F2
+  name: MobileTrackerFree
+- certificate: 8B9540311C46184984B48BF9CB51F1742A8AFB42
+  name: MobileTrackerFree
 - certificate: CC866E79BDAD431A2B1E07229B92E64808221610
   name: Cocospy
 - certificate: 60DA6A5B04C0100DFCE1213C850EFBDEB0D1E8D7

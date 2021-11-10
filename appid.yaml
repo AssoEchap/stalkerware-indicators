@@ -92,6 +92,10 @@
   name: LetMeSpy
 - package: com.services.phone
   name: MobileTrackerFree
+- package: service.download.app
+  name: MobileTrackerFree
+- package: mobile.monitor.child2021
+  name: MobileTrackerFree
 - package: com.mxspy
   name: MxSpy
 - package: com.apspy.app
@@ -195,6 +199,8 @@
 - package: com.spyic
   name: Spyic
 - package: com.sc.minspy.v2
+  name: MinSpy
+- package: com.minspy.v3
   name: MinSpy
 - package: com.duiyun.spyic
   name: Spyic
