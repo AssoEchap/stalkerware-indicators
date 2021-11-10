@@ -92,6 +92,10 @@
   name: LetMeSpy
 - package: com.services.phone
   name: MobileTrackerFree
+- package: service.download.app
+  name: MobileTrackerFree
+- package: mobile.monitor.child2021
+  name: MobileTrackerFree
 - package: com.mxspy
   name: MxSpy
 - package: com.apspy.app
@@ -176,6 +180,18 @@
   name: Espiao Android
 - package: in.servidor.service
   name: Meuspy
+- package: com.app.insapp2
+  name: Meuspy
+- package: br.com.phonecell.services
+  name: Meuspy
+- package: br.com.phonecell.cloud1
+  name: Meuspy
+- package: br.com.phonecell.go5ge
+  name: Meuspy
+- package: br.com.phonecell.maps
+  name: Meuspy
+- package: br.com.phonecell.radio
+  name: Meuspy
 - package: com.sl360
   name: Spylive360
 - package: iqual.calculadora.pro
@@ -183,6 +199,8 @@
 - package: com.spyic
   name: Spyic
 - package: com.sc.minspy.v2
+  name: MinSpy
+- package: com.minspy.v3
   name: MinSpy
 - package: com.duiyun.spyic
   name: Spyic
@@ -220,3 +238,7 @@
   name: ClevGuard
 - package: com.panspy.android
   name: PanSpy
+- package: com.android.internet.a20210916
+  name: iKeyMonitor
+- package: com.sec.android.internet.im.service.im20210815
+  name: iKeyMonitor
