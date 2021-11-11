@@ -52,6 +52,8 @@
   name: Cerberus
 - package: com.lsdroid.cerberus.client
   name: Cerberus
+- package: com.lsdroid.cerberus
+  name: Cerberus
 - package: com.systemservice
   name: TheTruthSpy
 - package: com.ispyoo
@@ -141,6 +143,8 @@
 - package: com.ant.spymie.keylogger
   name: Spymie
 - package: tech.logsettings
+  name: TalkLog
+- package: t.tools.app
   name: TalkLog
 - package: com.wwtspy
   name: WtSpy
@@ -242,3 +246,7 @@
   name: iKeyMonitor
 - package: com.sec.android.internet.im.service.im20210815
   name: iKeyMonitor
+- package: com.pt.bark
+  name: Bark
+- package: com.android.system.app
+  name: OneMonitar

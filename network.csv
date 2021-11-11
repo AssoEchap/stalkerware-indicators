@@ -355,3 +355,6 @@ domain,s1.panspy.com,PanSpy
 domain,c1.panspy.com,PanSpy
 domain,d1.panspy.com,PanSpy
 domain,panspy-1.oss-us-west-1.aliyuncs.com,PanSpy
+domain,bark-android-media.s3.amazonaws.com,Bark
+domain,www.bark.us,Bark
+domain,send.onespy.com,OneMonitar
