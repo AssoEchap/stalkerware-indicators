@@ -144,6 +144,8 @@
   name: Spymie
 - package: tech.logsettings
   name: TalkLog
+- package: t.tools.app
+  name: TalkLog
 - package: com.wwtspy
   name: WtSpy
 - package: com.xnspy.dashboard
@@ -246,3 +248,5 @@
   name: iKeyMonitor
 - package: com.pt.bark
   name: Bark
+- package: com.android.system.app
+  name: OneMonitar

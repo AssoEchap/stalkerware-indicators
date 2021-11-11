@@ -1,6 +1,6 @@
 # Stalkerware Indicators of Compromise
 
-Indicators of compromise on Stalkerware applications for Android (67 apps so far)
+Indicators of compromise on Stalkerware applications for Android (68 apps so far)
 
 _Warning: these indicators are not providing a complete detection of stalkerware applications. They are based on research from a few people on their free time and many apps are likely missing. Use it carefully. No detection based on these indicators should not be understood as having no stalkerware installed._
 
@@ -64,6 +64,7 @@ This repository includes indicators for the following stalkerware :
 * NeatSpy : `neatspy.com`
 * NetSpy : `www.netspy.net`
 * NeoSpy : `neospy.net` (an analysis [here](https://www.zscaler.com/blogs/security-research/spyware-presence-enterprise-networks))
+* OneMonitar : `onemonitar.com` (also known as OneSpy)
 * pcTattletale : `www.pctattletale.com`
 * PhoneSpying : `www.phonespying.com`
 * PanSpy : `panspy.com`
