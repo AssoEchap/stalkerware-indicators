@@ -1,6 +1,6 @@
 # Stalkerware Indicators of Compromise
 
-Indicators of compromise on Stalkerware applications for Android (66 apps so far)
+Indicators of compromise on Stalkerware applications for Android (67 apps so far)
 
 _Warning: these indicators are not providing a complete detection of stalkerware applications. They are based on research from a few people on their free time and many apps are likely missing. Use it carefully. No detection based on these indicators should not be understood as having no stalkerware installed._
 
