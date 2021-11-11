@@ -52,6 +52,8 @@
   name: Cerberus
 - package: com.lsdroid.cerberus.client
   name: Cerberus
+- package: com.lsdroid.cerberus
+  name: Cerberus
 - package: com.systemservice
   name: TheTruthSpy
 - package: com.ispyoo

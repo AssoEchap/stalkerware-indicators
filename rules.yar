@@ -94,3 +94,17 @@ rule ikeymonitor : stalkerware {
     condition:
         uint16(0) == 0x6564 and 4 of them
 }
+
+rule cerberus : stalkerware {
+    meta:
+        author = "Jo"
+
+    strings:
+        $s1 = "command NOT EXECUTED. Have you enabled it in Cerberus settings" ascii nocase
+        $s2 = "support@cerberusapp.com" ascii nocase
+        $s3 = "sendaudiofile.php" ascii
+        $s4 = "comm/radar.php" ascii
+        $s5 = "notifyowner.php" ascii
+    condition:
+        uint16(0) == 0x6564 and 4 of them
+}
