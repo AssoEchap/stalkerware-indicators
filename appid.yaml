@@ -244,3 +244,5 @@
   name: iKeyMonitor
 - package: com.sec.android.internet.im.service.im20210815
   name: iKeyMonitor
+- package: com.pt.bark
+  name: Bark

@@ -31,6 +31,7 @@ This repository includes indicators for the following stalkerware :
 * AllTracker : `alltracker.org` (also called [Russ City](https://www.zscaler.com/blogs/security-research/new-wave-stalkerware-apps))
 * AppSpy : `www.appspy.com`
 * Android Monitor : `www.androidmonitor.com`
+* Bark : `www.bark.us`
 * Catwatchful : `catwatchful.com`
 * Cerberus : `www.cerberusapp.com`
 * ClevGuard : `www.clevguard.com`
