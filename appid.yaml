@@ -2,6 +2,10 @@
   name: FlexiSpy
 - package: com.telephony.android
   name: Flexispy
+- package: com.fp.backup
+  name: Flexispy
+- package: com.android.phone.dialer
+  name: Flexispy
 - package: android.sys.process
   name: mSpy
 - package: system.framework
