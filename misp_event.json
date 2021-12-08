@@ -3799,6 +3799,33 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "750fac77-3f4c-4a34-8c39-63f6ad8ab6c7",
+          "object_relation": "sha256",
+          "value": "790190cc8d7382798ec6d3c298b0d24b461b61ee07dd106f7453db5010056928",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0b9071e3-1fba-4767-8558-482355420847",
+          "object_relation": "certificate",
+          "value": "9329632A70D41158EBAB6EED27B12D8CB0D47579",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "b8e01c68-ead5-41ad-ba49-fc532e27ad8f",
+          "object_relation": "appid",
+          "value": "com.s2m.seas",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -8383,6 +8410,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "7941808b-01d1-4540-8018-ca6b2f692af9",
+          "object_relation": "sha256",
+          "value": "4f9eaa5e9c1ac6ca975988d1e0c513e325e8d52f61dc046f56c4f42bcb720827",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -9177,6 +9213,24 @@
           "uuid": "2e727312-6783-4e98-b842-41cb89127ef5",
           "object_relation": "sha256",
           "value": "282924a246f2962e42afaa8b2dee0b49989e0e88c1aabd8387176661aabca07a",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "da9696fe-2b6c-4780-af24-c312a09f0a22",
+          "object_relation": "sha256",
+          "value": "f0a79a098bc718e2c67db89d0a37b7247ec2fcfcdd35d14bd8c3fd2f72d482fd",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "7c01f0da-28a1-4050-9694-dc055298cf69",
+          "object_relation": "sha256",
+          "value": "e24bfc5adb0c77b7c773348da561a2600d3eecfffb4428c027ff6fa8652aec22",
           "type": "sha256",
           "disable_correlation": false,
           "to_ids": true,
@@ -10120,6 +10174,96 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "df62a227-bb3b-4587-a070-63671343fa2b",
+          "object_relation": "sha256",
+          "value": "cad96486bad1db79f65433cf71935b6d9404f9c91786479141274ad6a6b52cf5",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "069a52dd-1d7b-488e-8419-ccf6d2a4f299",
+          "object_relation": "sha256",
+          "value": "652a3041b5f5d4a213a4a3c6f2e37c85ec6dc51dba81752e98c7729b5ec9af00",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "cd54ff3f-53fa-4272-8860-e5389d9f2b24",
+          "object_relation": "sha256",
+          "value": "8d11ecfd27befbbff688b87d2cde7653f8d283ee1e255a891a7ba589337fbc8a",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "a4c76175-23e9-407c-8de3-10066189a7af",
+          "object_relation": "sha256",
+          "value": "7a1be708e64e987bb08e475e48fb9970624d1d473c647926991b8fe18dd706aa",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "81cad389-c680-468c-bdb9-fe2c31b19f14",
+          "object_relation": "sha256",
+          "value": "4838c60ef16339705f6463513b2bc61bf3003954975541e4ffab6a5c59901b62",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "1d37ddfb-3c6f-4d56-8147-e745da6a0ee6",
+          "object_relation": "certificate",
+          "value": "984F8786102D9BF26E5244BBC93733D3609948F4",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "afdfaf39-953e-482d-8c5e-2ef17a1b8166",
+          "object_relation": "certificate",
+          "value": "20C940625B322C487A89B1FEBF6C090845B040C1",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e0f8d637-f931-433d-a0d1-e910226a2868",
+          "object_relation": "certificate",
+          "value": "45DECBF059864164A4BC644D3EAB8127FC98238A",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "db63af8f-90e6-4da7-8992-d156490e8efd",
+          "object_relation": "appid",
+          "value": "com.android.phone.dialer",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "15feacf3-3b84-4c92-8d72-a51cf57e7884",
+          "object_relation": "appid",
+          "value": "com.fp.backup",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -11205,6 +11349,33 @@
           "uuid": "1878bc00-3858-4c0d-ad5d-7a847d84a8e9",
           "object_relation": "appid",
           "value": "com.android.core.mntv",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "98ee0a0b-55d7-45d7-8b9a-99d528dcb0f1",
+          "object_relation": "sha256",
+          "value": "35e7bc0aa4450af68cc8fae1d2220ea5823ca19d35adc6da12d6f51e48bd8551",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "fed824c2-5285-406c-b683-82eef2d436ef",
+          "object_relation": "certificate",
+          "value": "AFC457A96258490FBC284EE889634B5F3E325B8E",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "a1c9cb94-096c-4c33-9e5e-07eca272786f",
+          "object_relation": "appid",
+          "value": "com.android.core.mntw",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
@@ -12883,6 +13054,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "814b7f3e-23b9-442a-8ded-86238c4742d8",
+          "object_relation": "sha256",
+          "value": "9987d97fa44821bd2d9756cb949e88a97ee528b6676cfc45b77ccff775e1c3c6",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -22807,6 +22987,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "79713e16-319e-42c4-b58a-80be78dba5ad",
+          "object_relation": "sha256",
+          "value": "5f7e06c6e23e1e8ca668cdc9a718e6448be54c2cb177b152fbfe535cdfdad263",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "f0e8bacb-027b-4920-94e4-9defc84e6f24",
+          "object_relation": "appid",
+          "value": "com.sc.safespy.v3",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -23259,6 +23457,33 @@
           "uuid": "bef74ca2-2bd8-43cb-ae05-04a8e11248a1",
           "object_relation": "appid",
           "value": "com.system.user",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3af46c89-b8e1-4256-920d-e2138b5cfaa8",
+          "object_relation": "sha256",
+          "value": "4b44246c402445eea943dceabef5a87535333a219a87c1c57e06d44f79194412",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "fa8eac14-2df9-4fd9-bc78-5d92cb3e689c",
+          "object_relation": "certificate",
+          "value": "F4E6DA34F0071AEB70010EBB69875E5212D69140",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "4c9afd7e-11c6-4d38-b4c8-a3f95e7af41e",
+          "object_relation": "appid",
+          "value": "com.play.services",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
@@ -23986,6 +24211,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "4bfe8521-651e-4cee-9aae-3be17ea28819",
+          "object_relation": "sha256",
+          "value": "6429aea12fce67d62396222506b8b1b02ad18b14eaf78e10a00d836d9fe8954a",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
