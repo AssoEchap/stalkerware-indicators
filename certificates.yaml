@@ -52,6 +52,8 @@
   name: Hoverwatch
 - certificate: F21ECAFCFF000686E8EC090F1ECDAECE08798BFF
   name: Hoverwatch
+- certificate: AFC457A96258490FBC284EE889634B5F3E325B8E
+  name: Hoverwatch
 - certificate: 3EA68714AE224B0C0EEED64A14B11D3983C3D6F8
   name: iMonitorSpy
 - certificate: BFC4C15E35E3506095B42E2B428E4016B1FFA1AB
@@ -114,6 +116,8 @@
   name: Spy2Mobile
 - certificate: 76a90b5e41fa2afe14478cda24a0ca6b4f7fc5f3
   name: Spy2Mobile
+- certificate: 9329632A70D41158EBAB6EED27B12D8CB0D47579
+  name: Spy2Mobile
 - certificate: 9bce25527ff174a4ad6cde233b17038641a5eef9
   name: Xnore
 - certificate: 3e9b3e5190f64ba9a952b7f57942aa21ffda50ba
@@ -165,6 +169,8 @@
 - certificate: 575F8E8A04A5967E78BC5B5A3E31FDACF42F4FB1
   name: uMobix
 - certificate: 6696449AA96EBA57CDF4707F0F84274958BE4523
+  name: uMobix
+- certificate: F4E6DA34F0071AEB70010EBB69875E5212D69140
   name: uMobix
 - certificate: 20F092BEC76C406223A7943371A1DBBB5BF66C13
   name: pcTattletale
