@@ -2,6 +2,10 @@
   name: FlexiSpy
 - package: com.telephony.android
   name: Flexispy
+- package: com.fp.backup
+  name: Flexispy
+- package: com.android.phone.dialer
+  name: Flexispy
 - package: android.sys.process
   name: mSpy
 - package: system.framework
@@ -15,6 +19,8 @@
 - package: core.update.framework
   name: mspy
 - package: com.spy2mobile.light
+  name: spy2mobile
+- package: com.s2m.seas
   name: spy2mobile
 - package: com.wifiset.service
   name: SpyHide
@@ -77,6 +83,8 @@
 - package: com.android.core.mntu
   name: Hoverwatch
 - package: com.android.core.mntv
+  name: Hoverwatch
+- package: com.android.core.mntw
   name: Hoverwatch
 - package: com.imonitor.ainfo
   name: iMonitorSpy
@@ -210,6 +218,8 @@
   name: Spyic
 - package: com.sc.safespy.v2
   name: SafeSpy
+- package: com.sc.safespy.v3
+  name: SafeSpy
 - package: com.sc.spyic.v2
   name: Spyic
 - package: com.sc.spyic.v3
@@ -223,6 +233,8 @@
 - package: com.tuner.funnelwebview
   name: uMobix
 - package: com.system.user
+  name: uMobix
+- package: com.play.services
   name: uMobix
 - package: com.android.services
   name: TheOneSpy
