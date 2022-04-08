@@ -13063,6 +13063,33 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "41b07d6c-e9c7-45cc-9966-75e5a612cf25",
+          "object_relation": "domain",
+          "value": "pipe.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5c254faa-dd91-4b9f-8e9b-825006099f01",
+          "object_relation": "domain",
+          "value": "cp.mspyonline.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1963630e-6b91-4c93-8286-7c0a58798f1e",
+          "object_relation": "domain",
+          "value": "repo.mspyonline.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
