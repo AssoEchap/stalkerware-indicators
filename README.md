@@ -53,13 +53,13 @@ This repository includes indicators for the following stalkerware :
 * LetMeSpy : `www.letmespy.com`
 * Maxxspy: `maxxSpy.com`
 * Meuspy: `meuspy.com`
-* MinSpy : `minspy.com`
+* MinSpy : `minspy.com` (also called kuuvv, cocospy, spyier, …)
 * Mobispy : `www.mobispy.net`
 * Mobiispy : `mobiispy.com`
 * MobileTrackerFree : `mobile-tracker-free.com`
 * MobileTool : `mtoolapp.net` and `mobiletool.ru`
 * Mobistealth : `www.mobistealth.com`
-* mSpy : `www.mspy.com`
+* mSpy : `www.mspy.com` (also called SpyBubble)
 * MxSpy : `mxspy.com`
 * NeatSpy : `neatspy.com`
 * NetSpy : `www.netspy.net`
