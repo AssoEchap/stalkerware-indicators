@@ -204,8 +204,11 @@ domain,letmespy.com,LetMeSpy
 domain,remotecommands.com,LetMeSpy
 domain,www.mspyonline.com,mspy
 domain,my.mspyonline.com,mspy
+domain,cp.mspyonline.com,mspy
+domain,repo.mspyonline.com,mspy
 domain,thd.cc,mspy
 domain,a.thd.cc,mspy
+domain,pipe.thd.cc,mspy
 domain,b55y.net,mspy
 domain,getmspy.net,mspy
 domain,protocol-a811.mxspy.com,mxspy

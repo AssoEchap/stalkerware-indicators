@@ -161,6 +161,8 @@ www.mtoolapp.net
 www.vys.me
 dwn.vys.me
 my.mspyonline.com
+cp.mspyonline.com
+repo.mspyonline.com
 b55y.net
 getmspy.net
 protocol-a.mxspy.com
@@ -189,6 +191,7 @@ node5.theonespy.com
 us.umobix.com
 thd.cc
 a.thd.cc
+pipe.thd.cc
 viptrack.pro
 pctattletalev2.s3.amazonaws.com
 v4vw4ytvo4.execute-api.us-east-2.amazonaws.com
