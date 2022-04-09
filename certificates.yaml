@@ -192,3 +192,5 @@
   name: Bark
 - certificate: E458DC7CD8928A41865F502A884F0D51309E0BEF
   name: OneMonitar
+- certificate: ce94b8512390676f62f3ec61beceddde9ab5519f
+  name: AntiFurtoDroid
