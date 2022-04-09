@@ -184,3 +184,8 @@ rule trackmyfone {
     condition:
         androguard.package_name("com.map.system") or androguard.certificate.sha1("C276C3B087207C9D3CEEDA766C01E0BDEF7EAC71") or androguard.url(/bk128\.com/) or androguard.url(/mydwnd\.com/)
 }
+
+rule spyera {
+    condition:
+        androguard.package_name(" com.wSpyEra ") or androguard.certificate.sha1("813a3ad37d87aa36120dfec64146c311db5f4ca9")
+}
