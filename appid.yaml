@@ -106,6 +106,10 @@
   name: MobileTrackerFree
 - package: mobile.monitor.child2021
   name: MobileTrackerFree
+- package: com.mobile.gps
+  name: MobileTrackerFree
+- package: com.mobiletrackerfree.secondapp
+  name: MobileTrackerFree
 - package: com.mxspy
   name: MxSpy
 - package: com.apspy.app
