@@ -262,3 +262,5 @@
   name: Bark
 - package: com.android.system.app
   name: OneMonitar
+- package: com.eyezy.android
+  name: eyeZy
