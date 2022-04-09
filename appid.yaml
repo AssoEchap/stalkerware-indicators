@@ -262,3 +262,9 @@
   name: Bark
 - package: com.android.system.app
   name: OneMonitar
+- package: com.ams.ispytrackerphone.gps
+  name: iKeyMonitor
+- package: com.aws.ispytrackerphone.gps
+  name: iKeyMonitor
+- package: com.easemon.ispytracker
+  name: iKeyMonitor
