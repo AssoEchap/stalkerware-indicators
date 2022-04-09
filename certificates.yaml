@@ -192,3 +192,7 @@
   name: Bark
 - certificate: E458DC7CD8928A41865F502A884F0D51309E0BEF
   name: OneMonitar
+- certificate: 18cd402cc43df0bc03e9951b0f843dc4b1552dc6
+  name: CoupleTracker
+- certificate: bc53cc2a9996de47bf72348f2a592dc0ebdaf06b
+  name: CoupleTracker

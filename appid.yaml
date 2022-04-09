@@ -262,3 +262,7 @@
   name: Bark
 - package: com.android.system.app
   name: OneMonitar
+- package: com.bettertomorrowapps.spyyourlovefree
+  name: CoupleTracker
+- package: com.bytepioneers.coupletracker
+  name: CoupleTracker
