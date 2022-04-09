@@ -146,6 +146,8 @@
   name: AllTracker
 - package: city.russ.alltrackerfamily
   name: AllTracker
+- package: com.alltracker_family.new
+  name: AllTracker
 - package: lookOut.Secure
   name: Mobistealth
 - package: com.ant.spymie.keylogger

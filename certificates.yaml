@@ -94,6 +94,8 @@
   name: AndroidMonitor
 - certificate: 43D45CE7BEE36E449434C14973B7D285209414C7
   name: AllTracker
+- certificate: 17df6411966b7032aba807fcafee765637684b49
+  name: AllTracker
 - certificate: FED69D6F09AE8C98DD4053C1934CCAF57D31824D
   name: Mobistealth
 - certificate: 05B23C7E9156A4C55768DA27936FF2D7AF09BB8F
