@@ -7837,6 +7837,60 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "211b3340-a055-4bd6-ba55-55cd498990f3",
+          "object_relation": "domain",
+          "value": "protocol-a935.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9c4f98f0-14dd-4b59-850c-847179356327",
+          "object_relation": "domain",
+          "value": "thetruth-db94a.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "677d1fef-905f-4ded-a11e-a45bb2a556b1",
+          "object_relation": "domain",
+          "value": "protocol-a72.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c07bc681-fbdf-4905-b372-2ea4301a86e8",
+          "object_relation": "certificate",
+          "value": "ff8ccd9816b0524a58fbde1809fb227dbcdfd692",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "f5ac24d7-0176-4ba7-bce1-7447b4a4f32b",
+          "object_relation": "appid",
+          "value": "com.thetruth",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "93bf0ed3-71b4-4c3c-afed-c9ff2ec53ffb",
+          "object_relation": "appid",
+          "value": "com.ttsapp.catchcheating",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -20473,6 +20527,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "3844204d-2082-4ae5-852a-a37d0a0f62a2",
+          "object_relation": "domain",
+          "value": "api-project-999803017449.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -24300,6 +24363,45 @@
           "uuid": "7fa3c197-1e07-47ab-83bd-9f246a8d4b4e",
           "object_relation": "appid",
           "value": "com.android.system.app",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "b68eceb5-4ff9-4695-abdc-725fbe97404d",
+      "Attribute": [
+        {
+          "uuid": "effc7a5b-3898-4454-b605-23781dcdccbf",
+          "object_relation": "name",
+          "value": "appmia",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f1cf6eab-aabc-47f4-bb5a-3cae6a19b402",
+          "object_relation": "certificate",
+          "value": "c51c36fe4f1dfc0c5b8cd55f74773135c1c1e1e5",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "179e7137-c523-45e0-ad76-e8dba870b9f2",
+          "object_relation": "appid",
+          "value": "com.android.system.devicelogs",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
