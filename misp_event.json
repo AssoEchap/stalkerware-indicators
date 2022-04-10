@@ -24863,6 +24863,54 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "66b030bb-f200-42e2-90da-377895a10ef1",
+      "Attribute": [
+        {
+          "uuid": "3c35d1d5-5376-436f-b63a-6a866ad51851",
+          "object_relation": "name",
+          "value": "antifurtodroid",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "4b38e2c1-6849-47e9-9e8d-2603b7765f4a",
+          "object_relation": "domain",
+          "value": "app.antifurtodroid.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "930fa6d0-3c64-4bba-990b-192af16e3a39",
+          "object_relation": "certificate",
+          "value": "ce94b8512390676f62f3ec61beceddde9ab5519f",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "32095cc7-d3b5-4372-ac49-8e887b0ecaaf",
+          "object_relation": "appid",
+          "value": "br.com.maceda.android.antifurtow",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
