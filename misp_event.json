@@ -24605,6 +24605,72 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "17acd5fa-22e3-47b4-aea1-86daf6312dd0",
+      "Attribute": [
+        {
+          "uuid": "fa0d080b-329a-4b25-ab28-b78682cc7651",
+          "object_relation": "name",
+          "value": "coupletracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "ed58ad4c-0a40-4e1a-b1f6-e5a6b2d805e7",
+          "object_relation": "domain",
+          "value": "api.bytepioner.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bf01a70a-878b-4afb-abc8-4588cd9dd71c",
+          "object_relation": "certificate",
+          "value": "bc53cc2a9996de47bf72348f2a592dc0ebdaf06b",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "8d375636-2578-4f9f-8cfd-826a72d5940e",
+          "object_relation": "certificate",
+          "value": "18cd402cc43df0bc03e9951b0f843dc4b1552dc6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0e40ef8c-d858-4074-bf34-a3ef81985ba1",
+          "object_relation": "appid",
+          "value": "com.bytepioneers.coupletracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "fce06ea5-bfc3-4875-97ba-e06c17894e94",
+          "object_relation": "appid",
+          "value": "com.bettertomorrowapps.spyyourlovefree",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
