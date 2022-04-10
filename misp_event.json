@@ -21037,6 +21037,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "da8fd435-ef10-48d5-9242-8a110ee04920",
+          "object_relation": "appid",
+          "value": "com.duiyun.cocospy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -24549,6 +24558,45 @@
           "uuid": "6eaddb98-dc0d-46b3-8a92-3a856697e5f3",
           "object_relation": "appid",
           "value": "com.ownspy.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "79e4686b-0796-4fc7-a8ea-387e35db458d",
+      "Attribute": [
+        {
+          "uuid": "125fb1bd-6d1d-4070-b5c1-8a9d335aa02d",
+          "object_relation": "name",
+          "value": "fonemonitor",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "69534aaf-bf9d-4430-abe2-67b295b1722c",
+          "object_relation": "appid",
+          "value": "com.sc.fonemonitor",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "ff029bc1-69e0-4a14-8744-e88f2e13d81e",
+          "object_relation": "appid",
+          "value": "com.sc.fonemonitor.v2",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
