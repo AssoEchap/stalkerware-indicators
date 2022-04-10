@@ -216,3 +216,7 @@
   name: AppMia
 - certificate: ff8ccd9816b0524a58fbde1809fb227dbcdfd692
   name: TheTruthSpy
+- certificate: 8c017fdb2a81807ec879a8e30f4ab05d5ca02034 
+  name: SpyPhoneApp
+- certificate: 9477420001bc79500623374ec586b054aac97bf9 
+  name: SpyPhoneApp
