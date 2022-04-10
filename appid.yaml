@@ -266,6 +266,8 @@
   name: Bark
 - package: com.android.system.app
   name: OneMonitar
+- package: com.ownspy.android
+  name: OwnSpy
 - package: com.sap4mobile
   name: SmartAggregationPlatform
 - package: com.android.system.devicelogs
