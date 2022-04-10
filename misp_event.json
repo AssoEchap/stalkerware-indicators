@@ -24710,6 +24710,54 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "6a1ca02a-2d70-40c8-a0e2-fddadbe2db38",
+      "Attribute": [
+        {
+          "uuid": "092018b9-1e9f-4813-bbc8-7bb25e56464f",
+          "object_relation": "name",
+          "value": "spytoapp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a1f099b1-a855-4698-92c5-e0222b2a89bc",
+          "object_relation": "domain",
+          "value": "services.spytoapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "99c94fc0-c323-4025-a5a9-53dcec2efa62",
+          "object_relation": "certificate",
+          "value": "6f93929ab60ac760000e873cd7c56ba79a9e6cad",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "060f8fc7-8c38-4b43-a462-403d15c3a959",
+          "object_relation": "appid",
+          "value": "com.spytoapp.system",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
