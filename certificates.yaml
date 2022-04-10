@@ -192,3 +192,5 @@
   name: Bark
 - certificate: E458DC7CD8928A41865F502A884F0D51309E0BEF
   name: OneMonitar
+- certificate: ff8ccd9816b0524a58fbde1809fb227dbcdfd692
+  name: TheTruthSpy
