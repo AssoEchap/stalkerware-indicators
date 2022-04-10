@@ -24911,6 +24911,81 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "618c6d29-1911-46f6-a247-792eb85cbd5c",
+      "Attribute": [
+        {
+          "uuid": "3d9e0c1e-2ada-45c1-a4c5-ddb5ff865b0c",
+          "object_relation": "name",
+          "value": "easyphonetrack",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "46745b7c-460b-4cf8-ac3e-a568c743a461",
+          "object_relation": "domain",
+          "value": "celltracker.mobi",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "993141e1-cca1-432a-abb8-1af63c92f77a",
+          "object_relation": "domain",
+          "value": "cell-phones-tracker.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b9f372b4-9785-4b1d-abc3-5a847508469b",
+          "object_relation": "domain",
+          "value": "www.spy-datacenter.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c178f617-40e7-4d32-bb8c-0c9a30525e37",
+          "object_relation": "domain",
+          "value": "trackmy.mobi",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9d96f87a-bdf6-43c6-bcd3-f70fd0797fb2",
+          "object_relation": "domain",
+          "value": "studio11-7e288.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "558b7154-2506-45f5-81f9-19df6c5ec8c2",
+          "object_relation": "appid",
+          "value": "com.spappm_mondow.alarm",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
