@@ -25025,6 +25025,45 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "9955ceb1-3b3b-438c-81e5-9bbc689b3d69",
+      "Attribute": [
+        {
+          "uuid": "de90ed5a-0795-45ba-b109-ae82af6eda1b",
+          "object_relation": "name",
+          "value": "eyezy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "59415de6-9be5-4ee7-b501-435b80584186",
+          "object_relation": "certificate",
+          "value": "3e1a6646c93a7423a25104a88da5bece2f35eff0",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e0891d57-5975-4191-a53f-8b70834009b2",
+          "object_relation": "appid",
+          "value": "com.eyezy.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
