@@ -24410,6 +24410,114 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "3e6b5874-6b6e-466d-ac6b-dffe6f8cf15b",
+      "Attribute": [
+        {
+          "uuid": "d1b7f87c-2192-4e21-b2c1-69eea7216065",
+          "object_relation": "name",
+          "value": "smart aggregation platform",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "6789b1ce-ec88-41e7-9298-6ba2b75512e8",
+          "object_relation": "domain",
+          "value": "sap4mobile-89685.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "52127b0c-34d3-4d42-a57d-62ccbbf3589e",
+          "object_relation": "domain",
+          "value": "89685.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "ab14a159-3e57-481b-b91b-72ad8014cf70",
+      "Attribute": [
+        {
+          "uuid": "5cfcf816-82c3-4228-b16a-3be583fe3709",
+          "object_relation": "name",
+          "value": "aggregation platform",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "4eaf4a58-6bc8-47bc-866e-6b10863cf31e",
+          "object_relation": "domain",
+          "value": "89685.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "3dfeb016-3a11-4187-9efd-c902d875ff32",
+      "Attribute": [
+        {
+          "uuid": "d78cefb9-5b45-4733-b6b5-cab87ca2b865",
+          "object_relation": "name",
+          "value": "smartaggregationplatform",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "63609eb8-d0d8-4c82-b240-5333a9b14215",
+          "object_relation": "certificate",
+          "value": "7d9edde23b4d3d7ac459b06ecebe8ea1350d4f8f",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "7fb642e4-f7bf-4152-b811-4b8ff89ed790",
+          "object_relation": "appid",
+          "value": "com.sap4mobile",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
