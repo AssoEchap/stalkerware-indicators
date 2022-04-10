@@ -7837,6 +7837,60 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "211b3340-a055-4bd6-ba55-55cd498990f3",
+          "object_relation": "domain",
+          "value": "protocol-a935.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9c4f98f0-14dd-4b59-850c-847179356327",
+          "object_relation": "domain",
+          "value": "thetruth-db94a.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "677d1fef-905f-4ded-a11e-a45bb2a556b1",
+          "object_relation": "domain",
+          "value": "protocol-a72.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c07bc681-fbdf-4905-b372-2ea4301a86e8",
+          "object_relation": "certificate",
+          "value": "ff8ccd9816b0524a58fbde1809fb227dbcdfd692",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "f5ac24d7-0176-4ba7-bce1-7447b4a4f32b",
+          "object_relation": "appid",
+          "value": "com.thetruth",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "93bf0ed3-71b4-4c3c-afed-c9ff2ec53ffb",
+          "object_relation": "appid",
+          "value": "com.ttsapp.catchcheating",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
