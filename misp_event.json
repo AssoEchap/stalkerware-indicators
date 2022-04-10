@@ -24986,6 +24986,36 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "51718068-783a-4ecf-ba2b-8af189a8bfc1",
+      "Attribute": [
+        {
+          "uuid": "b8f4c0e0-5958-4003-bfc8-c19735583c55",
+          "object_relation": "name",
+          "value": "spyera",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "976a764c-790e-4c20-896a-6c5ffe1e04f3",
+          "object_relation": "appid",
+          "value": "com.wSpyEra",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
