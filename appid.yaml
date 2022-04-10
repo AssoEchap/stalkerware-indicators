@@ -272,6 +272,8 @@
   name: Bark
 - package: com.android.system.app
   name: OneMonitar
+- package: com.aif.tracksp
+  name: AiSpyer
 - package: com.spytoapp.system
   name: SpyToApp
 - package: com.saloomughal.spyapp
