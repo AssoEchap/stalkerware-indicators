@@ -1,6 +1,6 @@
 # Stalkerware Indicators of Compromise
 
-Indicators of compromise on Stalkerware applications for Android (68 apps so far)
+Indicators of compromise on Stalkerware applications for Android and iOS
 
 _Warning: these indicators are not providing a complete detection of stalkerware applications. They are based on research from a few people on their free time and many apps are likely missing. Use it carefully. No detection based on these indicators should not be understood as having no stalkerware installed._
 
@@ -28,10 +28,15 @@ Scripts:
 This repository includes indicators for the following stalkerware :
 
 * 1TopSpy : `www.1topspy.com`
+* AirSpyer
 * AllTracker : `alltracker.org` (also called [Russ City](https://www.zscaler.com/blogs/security-research/new-wave-stalkerware-apps))
+* AntiFurto Droid : `antifurtodroid.com`
+* AppMia
 * AppSpy : `www.appspy.com`
 * Android Monitor : `www.androidmonitor.com`
 * Bark : `www.bark.us`
+* BlurSpy : `www.blurspy.com`
+* CallSMSTracker : `callsmstracker.com`
 * Catwatchful : `catwatchful.com`
 * Cerberus : `www.cerberusapp.com`
 * ClevGuard : `www.clevguard.com`
@@ -39,10 +44,13 @@ This repository includes indicators for the following stalkerware :
 * Copy9 : `copy9.com`
 * DDI Utilities : `ddiutilities.com`
 * EasyLogger : `logger.mobi`
+* EasyPhoneTrack : `easyphonetrack.com` (also `spappmonitoring.com`)
 * Espiao Android: `espiaoandroid.com.br`
+* EyeZy : `www.eyezy.com`
 * FlexiSpy : `www.flexispy.com`
 * Free Android Spy : `www.freeandroidspy.com`
 * FoneTracker : `fonetracker.com`
+* FoneMonitor : `fonemonitor.co`
 * GuestSpy : `guestspy.com` (now replaced by TheTruthSpy)
 * HelloSpy : `hellospy.com`
 * Highster Mobile : `highstermobile.com`
@@ -65,15 +73,18 @@ This repository includes indicators for the following stalkerware :
 * NetSpy : `www.netspy.net`
 * NeoSpy : `neospy.net` (an analysis [here](https://www.zscaler.com/blogs/security-research/spyware-presence-enterprise-networks))
 * OneMonitar : `onemonitar.com` (also known as OneSpy)
+* OwnSpy : `en.ownspy.com`
 * pcTattletale : `www.pctattletale.com`
 * PhoneSpying : `www.phonespying.com`
 * PanSpy : `panspy.com`
 * Repticulus : `reptilicus.net`
 * SafeSpy : `safespy.com`
+* SAP4Mobile : `sap4mobile.com`
 * ShadowSpy : `www.shadow-spy.com`
 * Snoopza : `snoopza.com`
 * Spy24 : `spy24.app`
 * SpyApp247 : `www.spyapp247.com`
+* SpyEra : `spyera.com`
 * SpyHide : `spyhide.com`
 * SpyHuman : `spyhuman.com`
 * Spyic : `spyic.com`
@@ -83,8 +94,9 @@ This repository includes indicators for the following stalkerware :
 * SpyMasterPro : `spymasterpro.com`
 * Spymie : `www.spymie.com` (analyzed by [ZScaler here](https://www.zscaler.com/blogs/research/why-you-shouldnt-trust-safe-spying-apps))
 * SpyPhoneApp : `spyphoneapp.org`
-* spy2mobile : `spytomobile.com`
+* Spytoapp : `spytoapp.com`
 * Spyzie : `www.spyzie.com` `spyzie.io`
+* spy2mobile : `spytomobile.com`
 * TalkLog : `talklog.tools`
 * The One Spy : `theonespy.com`
 * TheTruthSpy : `thetruthspy.com`
@@ -100,7 +112,7 @@ This repository includes indicators for the following stalkerware :
 
 This repository is maintained by the [Echap](https://echap.eu.org/) non-profit organisation.
 
-Contributors include [Anne Roth](https://twitter.com/annalist), [@nscrutables](https://twitter.com/nscrutables), [Abir Ghattas](https://twitter.com/AbirGhattas), [Jurre van Bergen](https://twitter.com/DrWhax), [Jo Coscia](https://github.com/jcoscia)
+Contributors include [Anne Roth](https://twitter.com/annalist), [@nscrutables](https://twitter.com/nscrutables), [Abir Ghattas](https://twitter.com/AbirGhattas), [Jurre van Bergen](https://twitter.com/DrWhax), [Jo Coscia](https://github.com/jcoscia), [Julien Voisin](https://dustri.org/)
 
 These indicators were largely based on research and analysis using [APKlab](https://www.apklab.io/), [Koodous](https://koodous.com/) and [VirusTotal](https://www.virustotal.com/).
 
@@ -110,7 +122,7 @@ This repository is not complete, new stalkerware apps appear and disappear all t
 
 If you want to do further research on some apps and need access to the samples, feel free to [send me an email](https://www.randhome.io/contact/).
 
-## Other stalkerware repositories
+## Other stalkerware repositories
 
 There are other repositories gathering stalkerware indicators:
 * [ch33r10 stalkerware list](https://github.com/ch33r10/Stalkerware/tree/master/IOCs)
