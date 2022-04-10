@@ -24371,6 +24371,45 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "b68eceb5-4ff9-4695-abdc-725fbe97404d",
+      "Attribute": [
+        {
+          "uuid": "effc7a5b-3898-4454-b605-23781dcdccbf",
+          "object_relation": "name",
+          "value": "appmia",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f1cf6eab-aabc-47f4-bb5a-3cae6a19b402",
+          "object_relation": "certificate",
+          "value": "c51c36fe4f1dfc0c5b8cd55f74773135c1c1e1e5",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "179e7137-c523-45e0-ad76-e8dba870b9f2",
+          "object_relation": "appid",
+          "value": "com.android.system.devicelogs",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
