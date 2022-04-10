@@ -194,6 +194,10 @@ domain,protocol-a59.guestspy.com,GuestSpy
 domain,protocol-a60.guestspy.com,GuestSpy
 domain,guestspy.com,GuestSpy
 domain,evt17.com,HighsterMobile
+domain,cellphoneservices.info,HighsterMobile
+domain,device-ac480.firebaseio.com,HighsterMobile
+domain,device-ac480.appspot.com,HighsterMobile
+domain,ac480.firebaseio.com,HighsterMobile
 domain,ddiutilities.com,DDI Utilities
 domain,hoverwatch.com,Hoverwatch
 domain,i.hoverwatch.com,Hoverwatch
@@ -378,3 +382,4 @@ domain,sap4mobile-89685.firebaseio.com,Smart Aggregation PLatform
 domain,89685.firebaseio.com,Smart Aggregation PLatform
 domain,89685.appspot.com,Aggregation PLatform
 domain,api-project-999803017449.firebaseio.com,Cerberus
+domain,a71f4.firebaseio.com,DDI Utilities
