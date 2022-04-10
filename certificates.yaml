@@ -192,6 +192,8 @@
   name: Bark
 - certificate: E458DC7CD8928A41865F502A884F0D51309E0BEF
   name: OneMonitar
+- certificate:  3e1a6646c93a7423a25104a88da5bece2f35eff0 
+  name: eyeZy
 - certificate: 813a3ad37d87aa36120dfec64146c311db5f4ca9
   name: SpyEra
 - certificate: ce94b8512390676f62f3ec61beceddde9ab5519f

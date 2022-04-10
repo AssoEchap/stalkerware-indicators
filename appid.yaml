@@ -272,6 +272,8 @@
   name: Bark
 - package: com.android.system.app
   name: OneMonitar
+- package: com.eyezy.android
+  name: eyeZy
 - package: com.wSpyEra
   name: SpyEra
 - package: com.spappm_mondow.alarm
