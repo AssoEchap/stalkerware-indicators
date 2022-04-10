@@ -34,6 +34,10 @@
   name: SpyHide
 - package: com.systemservice
   name: TheTruthSpy
+- package: com.thetruth
+  name: TheTruthSpy
+- package: com.ttsapp.catchcheating
+  name: TheTruthSpy
 - package: com.topspy.system
   name: 1TopSpy
 - package: com.topspy
@@ -186,6 +190,8 @@
   name: Cocospy
 - package: com.sc.cocospy.v2
   name: Cocospy
+- package: com.duiyun.cocospy
+  name: Cocospy
 - package: com.duiyun.cocospy.v2
   name: Cocospy
 - package: com.kfhdha.fkjfgjdi
@@ -264,3 +270,19 @@
   name: OneMonitar
 - package: com.spytoapp.system
   name: SpyToApp
+- package: com.saloomughal.spyapp
+  name: BlurSpy
+- package: com.bettertomorrowapps.spyyourlovefree
+  name: CoupleTracker
+- package: com.bytepioneers.coupletracker
+  name: CoupleTracker
+- package: com.sc.fonemonitor
+  name: Fonemonitor
+- package: com.sc.fonemonitor.v2
+  name: Fonemonitor
+- package: com.ownspy.android
+  name: OwnSpy
+- package: com.sap4mobile
+  name: SmartAggregationPlatform
+- package: com.android.system.devicelogs
+  name: AppMia
