@@ -24518,6 +24518,45 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "789708e8-d8e5-4525-8fb9-1131021f7090",
+      "Attribute": [
+        {
+          "uuid": "f2701d1f-4e52-4183-b05c-5797a5c686cd",
+          "object_relation": "name",
+          "value": "ownspy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "af3d0893-32ff-4ee0-949e-3313d76b0f1e",
+          "object_relation": "certificate",
+          "value": "ca5304e94f4bc97da9d147e76858dbf70ab8b4e6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "6eaddb98-dc0d-46b3-8a92-3a856697e5f3",
+          "object_relation": "appid",
+          "value": "com.ownspy.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
