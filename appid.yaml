@@ -34,6 +34,10 @@
   name: SpyHide
 - package: com.systemservice
   name: TheTruthSpy
+- package: com.thetruth
+  name: TheTruthSpy
+- package: com.ttsapp.catchcheating
+  name: TheTruthSpy
 - package: com.topspy.system
   name: 1TopSpy
 - package: com.topspy
@@ -105,6 +109,10 @@
 - package: service.download.app
   name: MobileTrackerFree
 - package: mobile.monitor.child2021
+  name: MobileTrackerFree
+- package: com.mobile.gps
+  name: MobileTrackerFree
+- package: com.mobiletrackerfree.secondapp
   name: MobileTrackerFree
 - package: com.mxspy
   name: MxSpy
@@ -186,6 +194,8 @@
   name: Cocospy
 - package: com.sc.cocospy.v2
   name: Cocospy
+- package: com.duiyun.cocospy
+  name: Cocospy
 - package: com.duiyun.cocospy.v2
   name: Cocospy
 - package: com.kfhdha.fkjfgjdi
@@ -264,3 +274,31 @@
   name: OneMonitar
 - package: com.eyezy.android
   name: eyeZy
+- package: com.wSpyEra
+  name: SpyEra
+- package: com.spappm_mondow.alarm
+  name: EasyPhoneTrack
+- package: br.com.maceda.android.antifurtow
+  name: AntiFurtoDroid
+- package: com.gcm_call_sms_tracker.updated
+  name: CallSMSTRacker
+- package: com.aif.tracksp
+  name: AiSpyer
+- package: com.spytoapp.system
+  name: SpyToApp
+- package: com.saloomughal.spyapp
+  name: BlurSpy
+- package: com.bettertomorrowapps.spyyourlovefree
+  name: CoupleTracker
+- package: com.bytepioneers.coupletracker
+  name: CoupleTracker
+- package: com.sc.fonemonitor
+  name: Fonemonitor
+- package: com.sc.fonemonitor.v2
+  name: Fonemonitor
+- package: com.ownspy.android
+  name: OwnSpy
+- package: com.sap4mobile
+  name: SmartAggregationPlatform
+- package: com.android.system.devicelogs
+  name: AppMia
