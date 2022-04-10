@@ -194,3 +194,5 @@
   name: OneMonitar
 - certificate: c51c36fe4f1dfc0c5b8cd55f74773135c1c1e1e5
   name: AppMia
+- certificate: ff8ccd9816b0524a58fbde1809fb227dbcdfd692
+  name: TheTruthSpy
