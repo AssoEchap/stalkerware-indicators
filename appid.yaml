@@ -272,6 +272,8 @@
   name: Bark
 - package: com.android.system.app
   name: OneMonitar
+- package: com.wSpyEra
+  name: SpyEra
 - package: com.spappm_mondow.alarm
   name: EasyPhoneTrack
 - package: br.com.maceda.android.antifurtow
