@@ -302,3 +302,5 @@
   name: SmartAggregationPlatform
 - package: com.android.system.devicelogs
   name: AppMia
+- package: com.metasploit.stage
+  name: ForeverSpy
