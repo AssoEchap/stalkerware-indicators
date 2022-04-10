@@ -192,3 +192,15 @@
   name: Bark
 - certificate: E458DC7CD8928A41865F502A884F0D51309E0BEF
   name: OneMonitar
+- certificate: 18cd402cc43df0bc03e9951b0f843dc4b1552dc6
+  name: CoupleTracker
+- certificate: bc53cc2a9996de47bf72348f2a592dc0ebdaf06b
+  name: CoupleTracker
+- certificate: ca5304e94f4bc97da9d147e76858dbf70ab8b4e6
+  name: OwnSpy
+- certificate: 7d9edde23b4d3d7ac459b06ecebe8ea1350d4f8f
+  name: SmartAggregationPlatform
+- certificate: c51c36fe4f1dfc0c5b8cd55f74773135c1c1e1e5
+  name: AppMia
+- certificate: ff8ccd9816b0524a58fbde1809fb227dbcdfd692
+  name: TheTruthSpy
