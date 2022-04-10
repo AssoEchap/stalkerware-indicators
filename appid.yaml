@@ -34,6 +34,10 @@
   name: SpyHide
 - package: com.systemservice
   name: TheTruthSpy
+- package: com.thetruth
+  name: TheTruthSpy
+- package: com.ttsapp.catchcheating
+  name: TheTruthSpy
 - package: com.topspy.system
   name: 1TopSpy
 - package: com.topspy
@@ -264,3 +268,5 @@
   name: Bark
 - package: com.android.system.app
   name: OneMonitar
+- package: com.android.system.devicelogs
+  name: AppMia
