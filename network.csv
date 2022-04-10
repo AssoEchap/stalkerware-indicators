@@ -201,8 +201,10 @@ domain,account.refog.com,Hoverwatch
 domain,rec.hw.cab,Hoverwatch
 domain,hwa.cab,Hoverwatch
 ipv4,198.100.150.203,Hoverwatch
-domain,www.imonitorsoft.com,iMonitorSpy
+domain,imonitor-da8b2.firebaseio.com,iMonitorSpy
+domain,imonitorke.com,iMonitorSpy
 domain,www.imonitorsoft.cn,iMonitorSpy
+domain,www.imonitorsoft.com,iMonitorSpy
 domain,letmespy.com,LetMeSpy
 domain,remotecommands.com,LetMeSpy
 domain,www.mspyonline.com,mspy

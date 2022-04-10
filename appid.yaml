@@ -92,6 +92,8 @@
   name: Hoverwatch
 - package: com.imonitor.ainfo
   name: iMonitorSpy
+- package: inc.imonitor
+  name: iMonitorSpy
 - package: pl.lidwin.letmespy3
   name: LetMeSpy
 - package: pl.lidwin.letmespy4
