@@ -192,6 +192,8 @@
   name: Bark
 - certificate: E458DC7CD8928A41865F502A884F0D51309E0BEF
   name: OneMonitar
+- certificate: 813a3ad37d87aa36120dfec64146c311db5f4ca9
+  name: SpyEra
 - certificate: ce94b8512390676f62f3ec61beceddde9ab5519f
   name: AntiFurtoDroid
 - certificate: 0c01aeb7346c700d02613eba513bd40e87a182f8
