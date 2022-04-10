@@ -192,6 +192,8 @@
   name: Bark
 - certificate: E458DC7CD8928A41865F502A884F0D51309E0BEF
   name: OneMonitar
+- certificate: 35cd797d1736484786152a231920575fabc5c12a
+  name: MobileTrackerFree
 - certificate: 6f93929ab60ac760000e873cd7c56ba79a9e6cad
   name: SpyToApp
 - certificate: 18cd402cc43df0bc03e9951b0f843dc4b1552dc6
