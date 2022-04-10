@@ -272,6 +272,8 @@
   name: Bark
 - package: com.android.system.app
   name: OneMonitar
+- package: com.gcm_call_sms_tracker.updated
+  name: CallSMSTRacker
 - package: com.aif.tracksp
   name: AiSpyer
 - package: com.spytoapp.system
