@@ -20473,6 +20473,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "3844204d-2082-4ae5-852a-a37d0a0f62a2",
+          "object_relation": "domain",
+          "value": "api-project-999803017449.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
