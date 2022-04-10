@@ -238,8 +238,12 @@
   name: NeatSpy
 - package: com.sc.spyier.v2
   name: Spyier
+- package: com.duiyun.spyine
+  name: Spyine
 - package: com.sc.spyine.v2
   name: Spyine
+- package: com.spyine
+  name: Cocospy
 - package: com.tuner.funnelwebview
   name: uMobix
 - package: com.system.user
@@ -295,6 +299,8 @@
 - package: com.sc.fonemonitor
   name: Fonemonitor
 - package: com.sc.fonemonitor.v2
+  name: Fonemonitor
+- package: com.duiyun.fonemonitor
   name: Fonemonitor
 - package: com.ownspy.android
   name: OwnSpy
