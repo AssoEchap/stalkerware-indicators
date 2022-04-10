@@ -34,6 +34,10 @@
   name: SpyHide
 - package: com.systemservice
   name: TheTruthSpy
+- package: com.thetruth
+  name: TheTruthSpy
+- package: com.ttsapp.catchcheating
+  name: TheTruthSpy
 - package: com.topspy.system
   name: 1TopSpy
 - package: com.topspy
@@ -268,3 +272,9 @@
   name: Fonemonitor
 - package: com.sc.fonemonitor.v2
   name: Fonemonitor
+- package: com.ownspy.android
+  name: OwnSpy
+- package: com.sap4mobile
+  name: SmartAggregationPlatform
+- package: com.android.system.devicelogs
+  name: AppMia
