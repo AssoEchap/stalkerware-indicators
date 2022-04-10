@@ -272,6 +272,8 @@
   name: Bark
 - package: com.android.system.app
   name: OneMonitar
+- package: br.com.maceda.android.antifurtow
+  name: AntiFurtoDroid
 - package: com.gcm_call_sms_tracker.updated
   name: CallSMSTRacker
 - package: com.aif.tracksp
