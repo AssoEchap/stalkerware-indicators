@@ -24785,6 +24785,45 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "024ae87a-02b3-4878-8a26-71551f3796fe",
+      "Attribute": [
+        {
+          "uuid": "25302f87-90f8-4e3a-ad84-cf6475fcbbad",
+          "object_relation": "name",
+          "value": "aispyer",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "02455484-6495-498e-82ce-23d680c7e608",
+          "object_relation": "domain",
+          "value": "tracksp-7743c.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cc90c795-a260-4b85-ac11-252c942cf6f9",
+          "object_relation": "appid",
+          "value": "com.aif.tracksp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
