@@ -190,6 +190,8 @@
   name: Cocospy
 - package: com.sc.cocospy.v2
   name: Cocospy
+- package: com.duiyun.cocospy
+  name: Cocospy
 - package: com.duiyun.cocospy.v2
   name: Cocospy
 - package: com.kfhdha.fkjfgjdi
@@ -266,6 +268,10 @@
   name: Bark
 - package: com.android.system.app
   name: OneMonitar
+- package: com.sc.fonemonitor
+  name: Fonemonitor
+- package: com.sc.fonemonitor.v2
+  name: Fonemonitor
 - package: com.ownspy.android
   name: OwnSpy
 - package: com.sap4mobile
