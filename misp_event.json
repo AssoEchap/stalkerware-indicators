@@ -25012,6 +25012,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "117268de-5ab7-4e59-9599-55377e2c7431",
+          "object_relation": "certificate",
+          "value": "813a3ad37d87aa36120dfec64146c311db5f4ca9",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
