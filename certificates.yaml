@@ -216,3 +216,5 @@
   name: AppMia
 - certificate: ff8ccd9816b0524a58fbde1809fb227dbcdfd692
   name: TheTruthSpy
+- certificate: 6156db551938bb4560d4643b54527e4f169ed44f
+  name: GPSTrackerLoki

@@ -302,3 +302,7 @@
   name: SmartAggregationPlatform
 - package: com.android.system.devicelogs
   name: AppMia
+- package: com.mobile.loki
+  name: GPSTrackerLoki
+- package: com.mobile.asgard
+  name: GPSTrackerLoki
