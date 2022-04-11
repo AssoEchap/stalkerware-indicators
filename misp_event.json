@@ -11812,6 +11812,303 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "e34a96c3-43b9-4c23-a915-e3d7b9a66896",
+          "object_relation": "domain",
+          "value": "a.hw.cab",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cda04a88-d127-4640-b30d-4350e8334b19",
+          "object_relation": "domain",
+          "value": "a.hwa.cab",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ad9220a5-e29f-464c-93c5-c4478817128d",
+          "object_relation": "certificate",
+          "value": "4f6ad2383dadaccf93ea5be4300571c315dbdf5b",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "24c31471-9081-4f34-b262-034ca7bef18f",
+          "object_relation": "certificate",
+          "value": "64403a61f41848f987d6fd0be00392e9561a0ef7",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "57fe680e-5922-4abf-943e-81a33e544e56",
+          "object_relation": "certificate",
+          "value": "0e0be37d31ca21f19095fc38f9f1bef310ce227c",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e02793b6-d7cc-4266-80cf-ae890fdef082",
+          "object_relation": "certificate",
+          "value": "6144ed2e25b6f3a5fafcf914965ca071a685674b",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d44153e0-e0be-485a-b101-d6cdce0ece07",
+          "object_relation": "certificate",
+          "value": "5284272445ce993de601bb23cae6ba9e43e4589c",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "7e35750d-a806-40f2-98ec-0b6d5b1a6f22",
+          "object_relation": "appid",
+          "value": "com.android.core.mntt",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "34f5fdb3-3ad1-4780-bdcc-337eee0486d1",
+          "object_relation": "appid",
+          "value": "com.android.core.mnte",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8a9b5b21-142e-4a45-acca-7926565447a7",
+          "object_relation": "appid",
+          "value": "com.android.core.mntx",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f37ffa5b-9549-434d-8ace-75399dba47e2",
+          "object_relation": "appid",
+          "value": "com.android.core.mnts",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "52308fc1-5556-4feb-a9d2-8358ecc6c173",
+          "object_relation": "appid",
+          "value": "com.android.core.mntb",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "0002364d-5205-4daa-b4a4-95efa987e138",
+          "object_relation": "appid",
+          "value": "com.android.core.mnty",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "122e9579-56bf-44b7-8f23-0e8fea6b33bf",
+          "object_relation": "appid",
+          "value": "com.android.core.monitornull",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "fac41dbc-8af3-4309-a3fc-fd7c2cf43436",
+          "object_relation": "appid",
+          "value": "com.android.core.mntg",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "b6480a96-3c7b-42dc-abf8-2e03319ffa62",
+          "object_relation": "appid",
+          "value": "cmf0.c3b5bm90zq.patch",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "15b57781-4bc6-4ba0-9acd-c75555a137a8",
+          "object_relation": "appid",
+          "value": "com.android.core.mntm",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "18958a38-420d-4202-8f5b-c8687004c3e4",
+          "object_relation": "appid",
+          "value": "com.android.core.mntp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "7fd9a6b8-d73a-4904-98d3-6dcfba8110e7",
+          "object_relation": "appid",
+          "value": "com.android.core.mntn",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2c72f808-26fa-4107-814f-5d057481e74a",
+          "object_relation": "appid",
+          "value": "com.android.core.mnt",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "9f04ef50-f72f-4a18-8d98-a7335a623534",
+          "object_relation": "appid",
+          "value": "com.android.core.mntj",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "5526964e-1d07-467d-a7eb-5a7d434a496f",
+          "object_relation": "appid",
+          "value": "com.android.core.monitor.null",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "edaab7c9-7c21-4c80-8b7c-87c28bce747e",
+          "object_relation": "appid",
+          "value": "com.android.core.mntk",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "0bf03b77-b697-401a-8350-6aeb8a09a209",
+          "object_relation": "appid",
+          "value": "com.android.core.mnto",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "340b694e-703e-4cf5-af2b-106e9b19ea49",
+          "object_relation": "appid",
+          "value": "com.android.core.mntz",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "970397b5-2106-4afd-86fb-87d9a9a44e06",
+          "object_relation": "appid",
+          "value": "com.android.core.mntf",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "d231655b-27ce-4060-bcda-6c586a875c34",
+          "object_relation": "appid",
+          "value": "com.android.core.mnth",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a6a8f68c-c1cd-41d1-9e02-9bf9c86e0f99",
+          "object_relation": "appid",
+          "value": "com.android.core.mnti",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c319e23f-edf3-414c-8089-5174dd0ffe1a",
+          "object_relation": "appid",
+          "value": "com.android.core.mntq",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "d6d4a514-97b2-4af0-8e1f-76293c1618e0",
+          "object_relation": "appid",
+          "value": "com.android.core.mntl",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "7907d825-6038-47cb-b16f-94c84eeaa91f",
+          "object_relation": "appid",
+          "value": "com.android.core.mntr",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "1733ea5d-ef9c-4b7b-bd3f-9368bac99777",
+          "object_relation": "appid",
+          "value": "com.android.core.mntd",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8795aeb7-5c94-4763-932a-95d5d6caa16d",
+          "object_relation": "appid",
+          "value": "com.android.core.mnta",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
