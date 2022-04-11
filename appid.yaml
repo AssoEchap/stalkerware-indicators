@@ -84,7 +84,51 @@
   name: DDI Utilities
 - package: com.android.core.monitor.debug
   name: Hoverwatch
+- package: com.android.core.monitor.null
+  name: Hoverwatch
+- package: com.android.core.monitornull
+  name: Hoverwatch
 - package: com.android.core.monitor
+  name: Hoverwatch
+- package: com.android.core.mnt
+  name: Hoverwatch
+- package: com.android.core.mnta
+  name: Hoverwatch
+- package: com.android.core.mntb
+  name: Hoverwatch
+- package: com.android.core.mntd
+  name: Hoverwatch
+- package: com.android.core.mnte
+  name: Hoverwatch
+- package: com.android.core.mntf
+  name: Hoverwatch
+- package: com.android.core.mntg
+  name: Hoverwatch
+- package: com.android.core.mnth
+  name: Hoverwatch
+- package: com.android.core.mnti
+  name: Hoverwatch
+- package: com.android.core.mntj
+  name: Hoverwatch
+- package: com.android.core.mntk
+  name: Hoverwatch
+- package: com.android.core.mntl
+  name: Hoverwatch
+- package: com.android.core.mntm
+  name: Hoverwatch
+- package: com.android.core.mntn
+  name: Hoverwatch
+- package: com.android.core.mnto
+  name: Hoverwatch
+- package: com.android.core.mntp
+  name: Hoverwatch
+- package: com.android.core.mntq
+  name: Hoverwatch
+- package: com.android.core.mntr
+  name: Hoverwatch
+- package: com.android.core.mnts
+  name: Hoverwatch
+- package: com.android.core.mntt
   name: Hoverwatch
 - package: com.android.core.mntu
   name: Hoverwatch
@@ -92,7 +136,17 @@
   name: Hoverwatch
 - package: com.android.core.mntw
   name: Hoverwatch
+- package: com.android.core.mntx
+  name: Hoverwatch
+- package: com.android.core.mnty
+  name: Hoverwatch
+- package: com.android.core.mntz
+  name: Hoverwatch
+- package: cmf0.c3b5bm90zq.patch
+  name: Hoverwatch
 - package: com.imonitor.ainfo
+  name: iMonitorSpy
+- package: inc.imonitor
   name: iMonitorSpy
 - package: pl.lidwin.letmespy3
   name: LetMeSpy
@@ -268,6 +322,10 @@
   name: PanSpy
 - package: com.android.internet.a20210916
   name: iKeyMonitor
+- package: com.sec.android.internet.im.service.im20190118
+  name: iKeyMonitor
+- package: com.sec.android.internet.im.service.im20190419
+  name: iKeyMonitor
 - package: com.sec.android.internet.im.service.im20210815
   name: iKeyMonitor
 - package: com.pt.bark
@@ -304,6 +362,8 @@
   name: SmartAggregationPlatform
 - package: com.android.system.devicelogs
   name: AppMia
+- package: com.metasploit.stage
+  name: ForeverSpy
 - package: com.app.keylogger
   name: trackmyphones
 - package: com.app.videorec
