@@ -58,6 +58,8 @@
   name: iMonitorSpy
 - certificate: BFC4C15E35E3506095B42E2B428E4016B1FFA1AB
   name: iMonitorSpy
+- certificate: 5c5ef3dfe98b02251a6ec82609f22a092562afee
+  name: iMonitorSpy
 - certificate: 8F0EAD4F1DA5DAAF8C0F7A51096CECEEF81D0C76
   name: LetMeSpy
 - certificate: 340E571CB1A64E6EE384D3F8A544681459CF3F5F
