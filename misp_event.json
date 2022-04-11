@@ -2686,6 +2686,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "532282c5-c4da-48cf-a67d-a8083e763ec3",
+          "object_relation": "certificate",
+          "value": "4ff0174bedc1d16be55ac53b98599398ac461f82",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d2b19429-979e-4d65-a80e-34ee7d24c3a9",
+          "object_relation": "certificate",
+          "value": "86ca769814a07623946eee74cc7383b13571d42b",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -8823,6 +8841,15 @@
           "uuid": "8b9db73c-45f0-4fab-a1fe-80c344f2951e",
           "object_relation": "domain",
           "value": "protocol-a615.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "08f85377-6182-4263-a653-f749b84a21eb",
+          "object_relation": "domain",
+          "value": "secondclone-2d312.firebaseio.com",
           "type": "domain",
           "disable_correlation": false,
           "to_ids": true,
