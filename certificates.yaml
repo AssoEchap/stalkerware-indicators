@@ -70,6 +70,8 @@
   name: mspy
 - certificate: CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
   name: mspy
+- certificate: 5eec898f0dbbd70a9b33dd16ee5ff06b6de26ea6
+  name: mspy
 - certificate: 56EF5244378FB6B4EF82D2B9E99BF41F7B97D93A
   name: mxspy
 - certificate: D667A33203776F2285EBA3E826CD286356EF05D0
