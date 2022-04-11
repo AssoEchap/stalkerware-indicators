@@ -26072,6 +26072,45 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "7847010f-2687-43fc-9dd9-7e37f6ee64bc",
+      "Attribute": [
+        {
+          "uuid": "9fdfe466-1879-48f2-9e4f-c2374f15223f",
+          "object_relation": "name",
+          "value": "foreverspy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "bd23fc42-f4dd-47a0-8041-6416f556ad53",
+          "object_relation": "domain",
+          "value": "app.foreverspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0a441ee8-81b8-4699-b258-d9224ecfd95a",
+          "object_relation": "appid",
+          "value": "com.metasploit.stage",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
