@@ -236,11 +236,13 @@ domain,protocol-a60.guestspy.com,GuestSpy
 domain,guestspy.com,GuestSpy
 domain,evt17.com,HighsterMobile
 domain,ddiutilities.com,DDI Utilities
-domain,hoverwatch.com,Hoverwatch
-domain,i.hoverwatch.com,Hoverwatch
 domain,account.refog.com,Hoverwatch
-domain,rec.hw.cab,Hoverwatch
+domain,hoverwatch.com,Hoverwatch
 domain,hwa.cab,Hoverwatch
+domain,a.hwa.cab,Hoverwatch
+domain,a.hw.cab,Hoverwatch
+domain,i.hoverwatch.com,Hoverwatch
+domain,rec.hw.cab,Hoverwatch
 ipv4,198.100.150.203,Hoverwatch
 domain,imonitor-da8b2.firebaseio.com,iMonitorSpy
 domain,imonitorke.com,iMonitorSpy
