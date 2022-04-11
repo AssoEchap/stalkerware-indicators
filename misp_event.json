@@ -23656,6 +23656,51 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "63da11eb-6972-4456-9af3-a4cc2598446d",
+          "object_relation": "domain",
+          "value": "83dd4.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0e9b73d5-5593-44a5-a937-94060c753f4b",
+          "object_relation": "domain",
+          "value": "users.awosoft.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0c228a7d-e5b3-49db-a462-f784a14db172",
+          "object_relation": "certificate",
+          "value": "786325ab3e614f868ca2a7f2f0e75ec76a047311",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "ffc5da86-64c2-4a2c-826b-1cb519a47600",
+          "object_relation": "appid",
+          "value": "com.sec.android.internet.im.service.im20190118",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "5af03490-0170-41e4-9a1a-76be178048e6",
+          "object_relation": "appid",
+          "value": "com.sec.android.internet.im.service.im20190419",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
