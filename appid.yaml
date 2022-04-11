@@ -308,6 +308,8 @@
   name: SmartAggregationPlatform
 - package: com.android.system.devicelogs
   name: AppMia
+- package: com.metasploit.stage
+  name: ForeverSpy
 - package: com.app.keylogger
   name: trackmyphones
 - package: com.app.videorec
