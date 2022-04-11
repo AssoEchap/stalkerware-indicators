@@ -58,6 +58,8 @@
   name: iMonitorSpy
 - certificate: BFC4C15E35E3506095B42E2B428E4016B1FFA1AB
   name: iMonitorSpy
+- certificate: 5c5ef3dfe98b02251a6ec82609f22a092562afee
+  name: iMonitorSpy
 - certificate: 8F0EAD4F1DA5DAAF8C0F7A51096CECEEF81D0C76
   name: LetMeSpy
 - certificate: 340E571CB1A64E6EE384D3F8A544681459CF3F5F
@@ -67,6 +69,8 @@
 - certificate: 7FFE6DA96346FEE822E1F791176CD6970A1DC770
   name: mspy
 - certificate: CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
+  name: mspy
+- certificate: 5eec898f0dbbd70a9b33dd16ee5ff06b6de26ea6
   name: mspy
 - certificate: 56EF5244378FB6B4EF82D2B9E99BF41F7B97D93A
   name: mxspy

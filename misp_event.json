@@ -11554,6 +11554,42 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "c2f1f498-b537-4300-89b7-7fbc8a204153",
+          "object_relation": "domain",
+          "value": "imonitor-da8b2.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1285995e-198a-4d88-8d53-4257b2fb487b",
+          "object_relation": "domain",
+          "value": "imonitorke.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "29873829-ea84-4445-9621-5bd18cb79663",
+          "object_relation": "certificate",
+          "value": "5c5ef3dfe98b02251a6ec82609f22a092562afee",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e25391e4-f0ef-45df-91e6-addac0356e96",
+          "object_relation": "appid",
+          "value": "inc.imonitor",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -13171,6 +13207,24 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "1236f562-90b7-4a6e-91e2-370acec47d55",
+          "object_relation": "domain",
+          "value": "project-323448153542050953.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "15c8feab-7327-4b67-b25e-5190da80709f",
+          "object_relation": "certificate",
+          "value": "5eec898f0dbbd70a9b33dd16ee5ff06b6de26ea6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
