@@ -306,3 +306,29 @@
   name: GPSTrackerLoki
 - package: com.mobile.asgard
   name: GPSTrackerLoki
+- package: com.app.keylogger
+  name: trackmyphones
+- package: com.app.videorec
+  name: trackmyphones
+- package: com.trackerapps.whatsaptracker
+  name: trackmyphones
+- package: com.apps.rct.CellTrackerActivity
+  name: trackmyphones
+- package: com.trackmyphones.recoverphoneusingchatmessages
+  name: trackmyphones
+- package: com.dev4playapps.whatsdeleted
+  name: trackmyphones
+- package: com.gcm_call_sms_tracker.updated
+  name: trackmyphones
+- package: com.soh
+  name: trackmyphones
+- package: com.local_cell_tracker
+  name: trackmyphones
+- package: com.trackmyphone_pro
+  name: trackmyphones
+- package: com.trackmyphones.tmpusingchatmessages
+  name: trackmyphones
+- package: com.androidlost 
+  name: androidlost
+- package: com.androidlost.smshandler
+  name: androidlost
