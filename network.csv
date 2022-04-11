@@ -384,3 +384,8 @@ domain,trackmyphones.com,trackmyphones
 domain,message-tracker-98822.firebaseio.com,trackmyphones
 domain,cell-tracker-green.firebaseio.com,trackmyphones
 domain,trackmyphones-pro.firebaseio.com,trackmyphones
+domain,androidlost.appspot.com,androidlost
+domain,androidlost.firebaseio.com,androidlost
+domain,www.androidlost.com,androidlost
+domain,test.androidlost.com,androidlost
+domain,new.androidlost.com,androidlost

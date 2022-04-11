@@ -324,3 +324,7 @@
   name: trackmyphones
 - package: com.trackmyphones.tmpusingchatmessages
   name: trackmyphones
+- package: com.androidlost 
+  name: androidlost
+- package: com.androidlost.smshandler
+  name: androidlost
