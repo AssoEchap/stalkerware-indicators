@@ -25064,6 +25064,99 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "d0725de8-1b68-45a8-b84e-3c389c94fa4a",
+      "Attribute": [
+        {
+          "uuid": "df179c83-67a2-41cd-acf7-9b669dd5d05f",
+          "object_relation": "name",
+          "value": "androidlost",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "b6d29b0b-5c85-4b14-9b39-058ef8857cb6",
+          "object_relation": "domain",
+          "value": "new.androidlost.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "92365ed8-6eea-4f61-9a49-daa9f2e5d74a",
+          "object_relation": "domain",
+          "value": "test.androidlost.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "05f50b09-19a2-4bbd-9d19-2bb550a4535d",
+          "object_relation": "domain",
+          "value": "androidlost.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e34b9c71-47ef-4f64-822a-7a4e81dc108d",
+          "object_relation": "domain",
+          "value": "www.androidlost.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "59acabb0-03d6-4816-9397-747334b90710",
+          "object_relation": "domain",
+          "value": "androidlost.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "44c55939-d3e1-419e-bc50-a2f380c92ac1",
+          "object_relation": "certificate",
+          "value": "9eece9b4ecf4dc0c5981feacfb271e1c0a2967ff",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "ad3bfc5d-c2a9-49dd-877a-6e9cbc9bddf9",
+          "object_relation": "appid",
+          "value": "com.androidlost",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a12d3b30-d152-4dc9-8e87-27b379a3f142",
+          "object_relation": "appid",
+          "value": "com.androidlost.smshandler",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
