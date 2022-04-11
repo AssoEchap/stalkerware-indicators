@@ -13207,6 +13207,24 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "1236f562-90b7-4a6e-91e2-370acec47d55",
+          "object_relation": "domain",
+          "value": "project-323448153542050953.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "15c8feab-7327-4b67-b25e-5190da80709f",
+          "object_relation": "certificate",
+          "value": "5eec898f0dbbd70a9b33dd16ee5ff06b6de26ea6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
