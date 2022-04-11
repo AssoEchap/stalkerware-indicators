@@ -246,3 +246,5 @@
   name: trackmyphone
 - certificate: 9eece9b4ecf4dc0c5981feacfb271e1c0a2967ff
   name: androidlost
+- certificate: 14a071616d4bc37f08be865d375101f4c963777a
+  name: OwnSPy

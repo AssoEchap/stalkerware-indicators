@@ -356,6 +356,8 @@
   name: Fonemonitor
 - package: com.ownspy.android
   name: OwnSpy
+- package: org.system.kernel
+  name: OwnSpy
 - package: com.sap4mobile
   name: SmartAggregationPlatform
 - package: com.android.system.devicelogs
