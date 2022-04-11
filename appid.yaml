@@ -268,6 +268,10 @@
   name: PanSpy
 - package: com.android.internet.a20210916
   name: iKeyMonitor
+- package: com.sec.android.internet.im.service.im20190118
+  name: iKeyMonitor
+- package: com.sec.android.internet.im.service.im20190419
+  name: iKeyMonitor
 - package: com.sec.android.internet.im.service.im20210815
   name: iKeyMonitor
 - package: com.pt.bark

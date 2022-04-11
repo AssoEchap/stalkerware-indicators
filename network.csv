@@ -380,6 +380,8 @@ domain,ikm.awsapi.io,iKeyMonitor
 domain,emcpanel.com,iKeyMonitor
 domain,users.easemon.com,iKeyMonitor
 domain,ikeymonitor.com,iKeyMonitor
+domain,83dd4.appspot.com,iKeyMonitor
+domain,users.awosoft.com,iKeyMonitor
 ipv4,172.67.82.183,iKeyMonitor
 ipv4,104.25.170.109,iKeyMonitor
 ipv4,104.25.169.109,iKeyMonitor
