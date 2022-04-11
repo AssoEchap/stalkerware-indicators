@@ -246,3 +246,7 @@
   name: trackmyphone
 - certificate: 9eece9b4ecf4dc0c5981feacfb271e1c0a2967ff
   name: androidlost
+- certificate: f57cbb4cbb9834a14af675222ceca6a0d26d838e
+  name: phonesheriff
+- certificate: f28f3a97d25e51ab266e56d3b80f04747d242e50
+  name: phonesheriff

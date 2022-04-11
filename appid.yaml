@@ -388,3 +388,27 @@
   name: androidlost
 - package: com.androidlost.smshandler
   name: androidlost
+- package: com.retina.phonesheriff
+  name: phonesheriff
+- package: com.retina21.ms41 
+  name: phonesheriff
+- package: com.retina22.ms6 
+  name: phonesheriff
+- package: com.rspl22.retinaspy
+  name: phonesheriff
+- package: com.retinasoft.ephonetracker 
+  name: phonesheriff
+- package: com.rspl15.nanny.android
+  name: phonesheriff
+- package: com.rspl16.nanny.android
+  name: phonesheriff
+- package: com.rspl17.nanny.android
+  name: phonesheriff
+- package: com.rspl18.nanny.android
+  name: phonesheriff
+- package: com.rspl19.nanny.android
+  name: phonesheriff
+- package: com.rspl20.nanny.android
+  name: phonesheriff
+- package: com.rspl21.nanny.android
+  name: phonesheriff
