@@ -25064,6 +25064,330 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "d0725de8-1b68-45a8-b84e-3c389c94fa4a",
+      "Attribute": [
+        {
+          "uuid": "df179c83-67a2-41cd-acf7-9b669dd5d05f",
+          "object_relation": "name",
+          "value": "androidlost",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "b6d29b0b-5c85-4b14-9b39-058ef8857cb6",
+          "object_relation": "domain",
+          "value": "new.androidlost.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "92365ed8-6eea-4f61-9a49-daa9f2e5d74a",
+          "object_relation": "domain",
+          "value": "test.androidlost.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "05f50b09-19a2-4bbd-9d19-2bb550a4535d",
+          "object_relation": "domain",
+          "value": "androidlost.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e34b9c71-47ef-4f64-822a-7a4e81dc108d",
+          "object_relation": "domain",
+          "value": "www.androidlost.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "59acabb0-03d6-4816-9397-747334b90710",
+          "object_relation": "domain",
+          "value": "androidlost.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "44c55939-d3e1-419e-bc50-a2f380c92ac1",
+          "object_relation": "certificate",
+          "value": "9eece9b4ecf4dc0c5981feacfb271e1c0a2967ff",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "ad3bfc5d-c2a9-49dd-877a-6e9cbc9bddf9",
+          "object_relation": "appid",
+          "value": "com.androidlost",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a12d3b30-d152-4dc9-8e87-27b379a3f142",
+          "object_relation": "appid",
+          "value": "com.androidlost.smshandler",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "902d097f-6d42-47c1-9f24-f6ba17b36be1",
+      "Attribute": [
+        {
+          "uuid": "c980be69-e57e-42f3-8131-05871f9d8bed",
+          "object_relation": "name",
+          "value": "trackmyphones",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8f09ee88-e657-47fd-b09d-98353bc6dcde",
+          "object_relation": "domain",
+          "value": "message-tracker-98822.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "13000534-70ec-476c-990a-acc7903ca32c",
+          "object_relation": "domain",
+          "value": "www.trackmyphones.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2ae6bfc9-334c-420e-b3e2-0e7e79e09adb",
+          "object_relation": "domain",
+          "value": "trackmyphones.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1b68c7ac-36ae-4fc0-aa5d-d8e8e2f1f33a",
+          "object_relation": "domain",
+          "value": "trackmyphones-pro.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "580a061a-6f22-4631-a83f-ce9f3b46ce49",
+          "object_relation": "domain",
+          "value": "video-recorder-c0419.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "91cd161e-29da-4a47-9786-e2c2c819774c",
+          "object_relation": "domain",
+          "value": "cell-tracker-green.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "fc62b134-d20a-478e-a911-c5e853626c65",
+          "object_relation": "appid",
+          "value": "com.local_cell_tracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "0ad74498-9206-4f01-b942-5a1ca65f0f3e",
+          "object_relation": "appid",
+          "value": "com.apps.rct.CellTrackerActivity",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "999e69e6-de28-41de-b791-14cf91f33bc9",
+          "object_relation": "appid",
+          "value": "com.app.keylogger",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "210bb814-3d87-4422-a6f7-585f72d6c257",
+          "object_relation": "appid",
+          "value": "com.trackmyphones.tmpusingchatmessages",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "72a6ce41-348e-4b7a-9206-c5f201d4ab5d",
+          "object_relation": "appid",
+          "value": "com.soh",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "d2e494f2-c9d5-40dc-81e7-ae6dad8e3c45",
+          "object_relation": "appid",
+          "value": "com.trackmyphones.recoverphoneusingchatmessages",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c097fe01-fcdc-46e0-a4c8-22187e278d64",
+          "object_relation": "appid",
+          "value": "com.trackmyphone_pro",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e15058f4-c7cb-430e-98ca-dc245ce4f682",
+          "object_relation": "appid",
+          "value": "com.gcm_call_sms_tracker.updated",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "abafdf8a-2293-44de-9be2-6dece5ba2864",
+          "object_relation": "appid",
+          "value": "com.dev4playapps.whatsdeleted",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f8c72756-1161-43a7-9cbe-a08564cf5c47",
+          "object_relation": "appid",
+          "value": "com.app.videorec",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8c8e02b2-7394-4fbd-ac61-88c73796eca0",
+          "object_relation": "appid",
+          "value": "com.trackerapps.whatsaptracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "6029e966-6850-44cf-aceb-5633656f8349",
+      "Attribute": [
+        {
+          "uuid": "de42fe15-1aaf-4cd8-a2b1-5e58f3503dfb",
+          "object_relation": "name",
+          "value": "trackmyphone",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "6ceb0508-343a-4a1d-b79f-6aa248cae36d",
+          "object_relation": "certificate",
+          "value": "b7285348b05edaeff7f032384e4f90182e1c1f27",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "186b251c-65a5-4329-9fb5-a6cf0ec1c442",
+          "object_relation": "certificate",
+          "value": "68ac78a7cd660ed204b4bc3c73a3f91da1ae45fc",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "b86be6b0-2049-4c95-a9fe-c5834dbccbf0",
+          "object_relation": "certificate",
+          "value": "849d181e1bee5084cbe1bacba8442996a8b1f8c6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "40b287a8-20b1-44aa-a6b8-0f02a3c4805a",
+          "object_relation": "certificate",
+          "value": "87ef370b8d6e3089e7f8cddd6e830b5e4c8cf60b",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
