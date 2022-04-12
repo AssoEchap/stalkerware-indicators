@@ -68,7 +68,7 @@ This repository includes indicators for the following stalkerware :
 * Mobispy : `www.mobispy.net`
 * Mobiispy : `mobiispy.com`
 * MobileTrackerFree : `mobile-tracker-free.com`
-* MobileTool : `mtoolapp.net` and `mobiletool.ru`
+* MobileTool : `mtoolapp.net`, `mobiletool.ru` and `mtoolapp.biz`
 * Mobistealth : `www.mobistealth.com`
 * mSpy : `www.mspy.com` (also called SpyBubble)
 * MxSpy : `mxspy.com`
