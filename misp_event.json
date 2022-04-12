@@ -26834,6 +26834,72 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "a2a1f76e-cb88-4d25-94df-c98e860761d6",
+      "Attribute": [
+        {
+          "uuid": "249f246b-2ea9-4ec8-b394-bbd8b0f42159",
+          "object_relation": "name",
+          "value": "gpstrackerloki",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "78d02ced-dc4a-45c4-aa40-c7a100aec34d",
+          "object_relation": "domain",
+          "value": "m.asgardtech.ru",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8ea8e5d7-968f-4636-9427-8f6673cf4aaa",
+          "object_relation": "domain",
+          "value": "asgard-f8c53.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c2557053-6f1f-4ab1-a566-da1dea8ad606",
+          "object_relation": "certificate",
+          "value": "6156db551938bb4560d4643b54527e4f169ed44f",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "6388f58c-1f6f-4d3c-94cb-28ef46228347",
+          "object_relation": "appid",
+          "value": "com.mobile.loki",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "55e78908-2380-42ae-aeee-d05a03c7cdbd",
+          "object_relation": "appid",
+          "value": "com.mobile.asgard",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
