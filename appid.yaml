@@ -78,6 +78,8 @@
   name: GuestSpy
 - package: org.secure.smsgps
   name: HighsterMobile
+- package: com.autoforward.monitor
+  name: HighsterMobile
 - package: com.ddiutilities.monitor
   name: DDI Utilities
 - package: com.android.core.monitor.debug
