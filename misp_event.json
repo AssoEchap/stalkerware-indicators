@@ -2704,6 +2704,42 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "f341eea2-7232-4d16-9172-0fdf4d651ce3",
+          "object_relation": "domain",
+          "value": "sync-a.ispyoo.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ce0a7ec9-ee28-46a8-be0d-d7466cae7ad6",
+          "object_relation": "domain",
+          "value": "protocol-a880.ispyoo.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2ab4a57f-2c42-47c4-98f8-28af92a3a866",
+          "object_relation": "domain",
+          "value": "media-sync-a.ispyoo.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "37944def-01e6-4177-9b8b-69a40d4557e6",
+          "object_relation": "domain",
+          "value": "protocol-a780.ispyoo.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -7909,6 +7945,294 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "791bc32e-2e19-48d3-879d-e46d2f5f6367",
+          "object_relation": "domain",
+          "value": "sync-a.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "67155258-0671-42c7-9afe-0b40793f27e6",
+          "object_relation": "domain",
+          "value": "sync-a.thespyapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "17683c6e-00c3-4b51-a821-597ee771a9b2",
+          "object_relation": "domain",
+          "value": "protocol-a915.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "187db8f7-47fa-4efb-b881-590f1a9561b4",
+          "object_relation": "domain",
+          "value": "media-sync-a8xx.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "286654d3-892e-4254-a5c6-ec2242e2107a",
+          "object_relation": "domain",
+          "value": "sync-a941.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2b00f617-46d6-415e-89a3-fa20eb66ff0e",
+          "object_relation": "domain",
+          "value": "media-sync-a935.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ccaba0fd-3d6a-4fef-825d-6a4abe371153",
+          "object_relation": "domain",
+          "value": "sync-a8xx.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "620b0883-2c8c-4c6e-bff8-c47c396c29dd",
+          "object_relation": "domain",
+          "value": "sync-a925.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f3762031-d12a-4d75-b2b5-38e3c442bc36",
+          "object_relation": "domain",
+          "value": "protocol-a941.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ad241480-165e-4789-a618-a9fcc3c8a46e",
+          "object_relation": "domain",
+          "value": "sync-a7xx.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1ae17bbe-c086-4907-bace-5d3ac7214004",
+          "object_relation": "domain",
+          "value": "protocol-a.thespyapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "36310f41-df3b-4dc2-a823-d44da267785d",
+          "object_relation": "domain",
+          "value": "sync-a935.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2223505b-d515-492e-9717-eeef8b800f47",
+          "object_relation": "domain",
+          "value": "protocol-a920.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f88bee14-b789-42dd-b609-4b5a2fb66778",
+          "object_relation": "domain",
+          "value": "media-sync-a942.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b00dbe07-38b3-4257-8532-f4a3a0781c1b",
+          "object_relation": "domain",
+          "value": "setupmail-a920.icloudappe.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "116e1041-cf3e-48ce-8770-5cd7456041f0",
+          "object_relation": "domain",
+          "value": "sync-a940.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "fb0555b6-3d0e-486b-b09b-cc8dd3736e1c",
+          "object_relation": "domain",
+          "value": "protocol-a940.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e5f12c0d-c379-496a-b1a9-e4c8d153345e",
+          "object_relation": "domain",
+          "value": "media-sync-a.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "7bd1a2e8-faf4-4f4f-9f39-1ab1fcc02977",
+          "object_relation": "domain",
+          "value": "media-sync-a7xx.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b8287f21-2246-408f-b1a6-b838c040f17c",
+          "object_relation": "domain",
+          "value": "protocol-a942.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cab03f5b-7a5f-4404-9cf5-bd9b3cae6605",
+          "object_relation": "domain",
+          "value": "setupmail-a915.icloudappe.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "971a1da2-9ebb-4c3e-98e4-20a1502334ed",
+          "object_relation": "domain",
+          "value": "sync-a930.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2918369c-4ed2-43ee-9020-002b99ce3338",
+          "object_relation": "domain",
+          "value": "sync-a100.thespyapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b51ce91d-e071-4816-a5ff-d889f53bb6df",
+          "object_relation": "domain",
+          "value": "setupmail-a910.icloudappe.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "aac4115f-fb0a-4dc7-bab8-6b6978ad317f",
+          "object_relation": "domain",
+          "value": "protocol-a925.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "df3c1836-0337-4582-9bd4-a96b9f0714bb",
+          "object_relation": "domain",
+          "value": "media-sync-a940.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b5171d49-71b9-4285-9e19-7bef49579fa4",
+          "object_relation": "domain",
+          "value": "media-sync-a941.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0cb244b2-e5c2-4768-b53b-ff37c1703887",
+          "object_relation": "domain",
+          "value": "protocol-a910.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3d1017a5-97a6-47cc-883e-ea2525479247",
+          "object_relation": "domain",
+          "value": "sync-a942.thetruthspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "dd7a6d7a-6927-4b90-9625-0dbd59a0f7a5",
+          "object_relation": "domain",
+          "value": "media-sync-a.thespyapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a79cad8e-8f42-484c-b285-9a2b0eb6d44d",
+          "object_relation": "domain",
+          "value": "protocol-a100.thespyapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "51533696-ac20-4665-8b8c-fb1fc46e8aeb",
+          "object_relation": "domain",
+          "value": "media-sync-a100.thespyapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -8850,6 +9174,33 @@
           "uuid": "08f85377-6182-4263-a653-f749b84a21eb",
           "object_relation": "domain",
           "value": "secondclone-2d312.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "76ac6006-2a26-4da1-bbaf-75e47a6149e3",
+          "object_relation": "domain",
+          "value": "protocol-a785.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d0ad3237-e7e6-463c-8c5a-2e6675b4aa5e",
+          "object_relation": "domain",
+          "value": "sync-a.copy9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bc425143-da3b-46b1-8d98-912a52976e52",
+          "object_relation": "domain",
+          "value": "media-sync-a.copy9.com",
           "type": "domain",
           "disable_correlation": false,
           "to_ids": true,
@@ -11461,6 +11812,303 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "e34a96c3-43b9-4c23-a915-e3d7b9a66896",
+          "object_relation": "domain",
+          "value": "a.hw.cab",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cda04a88-d127-4640-b30d-4350e8334b19",
+          "object_relation": "domain",
+          "value": "a.hwa.cab",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ad9220a5-e29f-464c-93c5-c4478817128d",
+          "object_relation": "certificate",
+          "value": "4f6ad2383dadaccf93ea5be4300571c315dbdf5b",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "24c31471-9081-4f34-b262-034ca7bef18f",
+          "object_relation": "certificate",
+          "value": "64403a61f41848f987d6fd0be00392e9561a0ef7",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "57fe680e-5922-4abf-943e-81a33e544e56",
+          "object_relation": "certificate",
+          "value": "0e0be37d31ca21f19095fc38f9f1bef310ce227c",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e02793b6-d7cc-4266-80cf-ae890fdef082",
+          "object_relation": "certificate",
+          "value": "6144ed2e25b6f3a5fafcf914965ca071a685674b",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d44153e0-e0be-485a-b101-d6cdce0ece07",
+          "object_relation": "certificate",
+          "value": "5284272445ce993de601bb23cae6ba9e43e4589c",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "7e35750d-a806-40f2-98ec-0b6d5b1a6f22",
+          "object_relation": "appid",
+          "value": "com.android.core.mntt",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "34f5fdb3-3ad1-4780-bdcc-337eee0486d1",
+          "object_relation": "appid",
+          "value": "com.android.core.mnte",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8a9b5b21-142e-4a45-acca-7926565447a7",
+          "object_relation": "appid",
+          "value": "com.android.core.mntx",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f37ffa5b-9549-434d-8ace-75399dba47e2",
+          "object_relation": "appid",
+          "value": "com.android.core.mnts",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "52308fc1-5556-4feb-a9d2-8358ecc6c173",
+          "object_relation": "appid",
+          "value": "com.android.core.mntb",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "0002364d-5205-4daa-b4a4-95efa987e138",
+          "object_relation": "appid",
+          "value": "com.android.core.mnty",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "122e9579-56bf-44b7-8f23-0e8fea6b33bf",
+          "object_relation": "appid",
+          "value": "com.android.core.monitornull",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "fac41dbc-8af3-4309-a3fc-fd7c2cf43436",
+          "object_relation": "appid",
+          "value": "com.android.core.mntg",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "b6480a96-3c7b-42dc-abf8-2e03319ffa62",
+          "object_relation": "appid",
+          "value": "cmf0.c3b5bm90zq.patch",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "15b57781-4bc6-4ba0-9acd-c75555a137a8",
+          "object_relation": "appid",
+          "value": "com.android.core.mntm",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "18958a38-420d-4202-8f5b-c8687004c3e4",
+          "object_relation": "appid",
+          "value": "com.android.core.mntp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "7fd9a6b8-d73a-4904-98d3-6dcfba8110e7",
+          "object_relation": "appid",
+          "value": "com.android.core.mntn",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2c72f808-26fa-4107-814f-5d057481e74a",
+          "object_relation": "appid",
+          "value": "com.android.core.mnt",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "9f04ef50-f72f-4a18-8d98-a7335a623534",
+          "object_relation": "appid",
+          "value": "com.android.core.mntj",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "5526964e-1d07-467d-a7eb-5a7d434a496f",
+          "object_relation": "appid",
+          "value": "com.android.core.monitor.null",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "edaab7c9-7c21-4c80-8b7c-87c28bce747e",
+          "object_relation": "appid",
+          "value": "com.android.core.mntk",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "0bf03b77-b697-401a-8350-6aeb8a09a209",
+          "object_relation": "appid",
+          "value": "com.android.core.mnto",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "340b694e-703e-4cf5-af2b-106e9b19ea49",
+          "object_relation": "appid",
+          "value": "com.android.core.mntz",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "970397b5-2106-4afd-86fb-87d9a9a44e06",
+          "object_relation": "appid",
+          "value": "com.android.core.mntf",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "d231655b-27ce-4060-bcda-6c586a875c34",
+          "object_relation": "appid",
+          "value": "com.android.core.mnth",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a6a8f68c-c1cd-41d1-9e02-9bf9c86e0f99",
+          "object_relation": "appid",
+          "value": "com.android.core.mnti",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c319e23f-edf3-414c-8089-5174dd0ffe1a",
+          "object_relation": "appid",
+          "value": "com.android.core.mntq",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "d6d4a514-97b2-4af0-8e1f-76293c1618e0",
+          "object_relation": "appid",
+          "value": "com.android.core.mntl",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "7907d825-6038-47cb-b16f-94c84eeaa91f",
+          "object_relation": "appid",
+          "value": "com.android.core.mntr",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "1733ea5d-ef9c-4b7b-bd3f-9368bac99777",
+          "object_relation": "appid",
+          "value": "com.android.core.mntd",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8795aeb7-5c94-4763-932a-95d5d6caa16d",
+          "object_relation": "appid",
+          "value": "com.android.core.mnta",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -11550,6 +12198,42 @@
           "uuid": "525b8fdb-9f83-47e9-b95d-b70b9feebfb6",
           "object_relation": "appid",
           "value": "com.imonitor.ainfo",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c2f1f498-b537-4300-89b7-7fbc8a204153",
+          "object_relation": "domain",
+          "value": "imonitor-da8b2.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1285995e-198a-4d88-8d53-4257b2fb487b",
+          "object_relation": "domain",
+          "value": "imonitorke.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "29873829-ea84-4445-9621-5bd18cb79663",
+          "object_relation": "certificate",
+          "value": "5c5ef3dfe98b02251a6ec82609f22a092562afee",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e25391e4-f0ef-45df-91e6-addac0356e96",
+          "object_relation": "appid",
+          "value": "inc.imonitor",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
@@ -13171,6 +13855,24 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "1236f562-90b7-4a6e-91e2-370acec47d55",
+          "object_relation": "domain",
+          "value": "project-323448153542050953.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "15c8feab-7327-4b67-b25e-5190da80709f",
+          "object_relation": "certificate",
+          "value": "5eec898f0dbbd70a9b33dd16ee5ff06b6de26ea6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -13323,6 +14025,60 @@
           "uuid": "54ad6b16-31e1-42bd-8a54-7110b2b1e335",
           "object_relation": "domain",
           "value": "protocol-a.mxspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e01d6f5f-654c-430e-a886-fb95a0d3ce8a",
+          "object_relation": "domain",
+          "value": "protocol.systemserviceprovider.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c5d3d55a-5949-4841-9ed9-3d213ec9bf90",
+          "object_relation": "domain",
+          "value": "media-sync.systemserviceprovider.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cad80319-1ebb-4287-bffe-7273eb5ff3b6",
+          "object_relation": "domain",
+          "value": "sync-a780.mxspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1e9c0ac2-14c8-4b20-a81a-83f83caab1d3",
+          "object_relation": "domain",
+          "value": "protocol-a745.mxspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6d2c4492-badf-4195-bbb1-5dabe5f03aad",
+          "object_relation": "domain",
+          "value": "protocol-a780.mxspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "87ffe0fa-b5ba-47d2-bfca-9ed59f952a28",
+          "object_relation": "domain",
+          "value": "sync-a.mxspy.com",
           "type": "domain",
           "disable_correlation": false,
           "to_ids": true,
@@ -16362,6 +17118,159 @@
           "uuid": "48708d79-ebd0-4b51-99d5-6c8ce454df12",
           "object_relation": "domain",
           "value": "protocol-a100.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a6fa1abc-c57e-406e-9940-86328ec20918",
+          "object_relation": "domain",
+          "value": "sync-a.exactspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "00781d88-a5b2-43b8-9181-3f3477d29a31",
+          "object_relation": "domain",
+          "value": "media-sync-a710.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2c9db372-127a-4c19-a6d7-44bcc6d97f8a",
+          "object_relation": "domain",
+          "value": "protocol-a785.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "304c6661-1e8a-4fb0-84a7-ad00da479a5d",
+          "object_relation": "domain",
+          "value": "media-sync-a696.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "65f9b938-eadb-4af0-a572-ce6a4fb8424c",
+          "object_relation": "domain",
+          "value": "protocol-a.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4c001b4e-de5c-4a3b-9dd0-9ba922cfe876",
+          "object_relation": "domain",
+          "value": "protocol-a600.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b9686092-d81b-406c-8a4a-00aa74ebb5a3",
+          "object_relation": "domain",
+          "value": "sync-a100.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0f7f3e84-f214-4071-a138-220e03f144c7",
+          "object_relation": "domain",
+          "value": "sync-a600.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6a7f94f5-9919-4655-858b-f6225f05cbe7",
+          "object_relation": "domain",
+          "value": "media-sync-a.exactspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "96fa7c1a-74da-484f-8a65-6656937ee4cb",
+          "object_relation": "domain",
+          "value": "media-sync-a.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c823c680-c2e1-40fa-a269-26641cffa750",
+          "object_relation": "domain",
+          "value": "media-sync-a600.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "aa845924-4696-4d90-9a8c-71809b6cb3af",
+          "object_relation": "domain",
+          "value": "protocol-a.exactspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "250078af-7838-45e6-885b-26ef7b279e42",
+          "object_relation": "domain",
+          "value": "media-sync-a621.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ae80109c-f0dc-48cf-abf3-d33c829340a2",
+          "object_relation": "domain",
+          "value": "media-sync-a100.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "09cafa50-5399-4ad9-ab8b-e586560c1385",
+          "object_relation": "domain",
+          "value": "sync-a.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8735715b-d7a5-404d-b25f-7f7c94c813b3",
+          "object_relation": "domain",
+          "value": "media-sync-a780.fonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "aca1c8ba-1348-40f6-a54b-94247abd7b0a",
+          "object_relation": "domain",
+          "value": "media-sync-a785.fonetracker.com",
           "type": "domain",
           "disable_correlation": false,
           "to_ids": true,
@@ -20764,6 +21673,186 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "d46c6b7a-4226-445e-a74c-979cb356de35",
+          "object_relation": "domain",
+          "value": "xmyevq.birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "84e927d5-311f-4259-908d-e6a94b1f55cb",
+          "object_relation": "domain",
+          "value": "kvshdi.birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "35bac69a-c4b3-4eb9-b20b-f391528305fc",
+          "object_relation": "domain",
+          "value": "s9gxw8.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1cb83855-9352-43e4-bb2d-c2825b8382ef",
+          "object_relation": "domain",
+          "value": "bincdi.birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3484ac8f-805b-486d-9680-47df98adb4ab",
+          "object_relation": "domain",
+          "value": "ug1c5v.birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b39060aa-ae75-4a5a-9eea-e10fbcc5d8ef",
+          "object_relation": "domain",
+          "value": "mzpgfh.uhabq9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f200d60f-6b7b-4624-8143-47e7d57b6f54",
+          "object_relation": "domain",
+          "value": "hzdy.birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "aaf0c558-0d7a-4284-b09f-228b5b84c4e3",
+          "object_relation": "domain",
+          "value": "birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bc473380-7212-4c34-a713-faf3c18cac65",
+          "object_relation": "domain",
+          "value": "my.mobiletool.ru",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0b3c0d75-d078-43f8-b182-088971c3f890",
+          "object_relation": "domain",
+          "value": "dz7.wethnc067.xyz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f9063f72-5c3c-4238-b6fc-2db9bced8fe4",
+          "object_relation": "domain",
+          "value": "6kvses.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1223c175-39f0-4629-90e2-83bdbc9a1174",
+          "object_relation": "domain",
+          "value": "mrswd.wo87sf.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c7a3f879-e74e-465b-aa24-2b10551cd598",
+          "object_relation": "domain",
+          "value": "noujx.s9gxw8.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a56bffa1-86d8-4b0f-bbaf-7cc8696120ad",
+          "object_relation": "domain",
+          "value": "bincdi.6kvses.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "84c0ac5a-f28a-4893-a227-f78819c96baf",
+          "object_relation": "domain",
+          "value": "wethnc067.xyz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "edb79104-15f0-449c-b99b-3d99a5c3ac23",
+          "object_relation": "domain",
+          "value": "ixhtb.s9gxw8.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "67d2c428-8ac6-43ba-b20f-46f7e3e47749",
+          "object_relation": "certificate",
+          "value": "7f11358ac560c5e90b735a21b907f1c8143353df",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "07d51a78-676f-4a48-80ec-211ad4b0716c",
+          "object_relation": "appid",
+          "value": "org.connecting.updived.hygeist.interplays",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "9f206f39-d450-4fd1-bb88-3693f835e8d3",
+          "object_relation": "appid",
+          "value": "org.urates.amirates.suffocate.chiliast",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2871c98b-0487-4a71-8695-9de85bb09db7",
+          "object_relation": "appid",
+          "value": "org.poleward.burghs.hydrotherapy.homonymously",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -23044,6 +24133,51 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "63da11eb-6972-4456-9af3-a4cc2598446d",
+          "object_relation": "domain",
+          "value": "83dd4.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0e9b73d5-5593-44a5-a937-94060c753f4b",
+          "object_relation": "domain",
+          "value": "users.awosoft.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0c228a7d-e5b3-49db-a462-f784a14db172",
+          "object_relation": "certificate",
+          "value": "786325ab3e614f868ca2a7f2f0e75ec76a047311",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "ffc5da86-64c2-4a2c-826b-1cb519a47600",
+          "object_relation": "appid",
+          "value": "com.sec.android.internet.im.service.im20190118",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "5af03490-0170-41e4-9a1a-76be178048e6",
+          "object_relation": "appid",
+          "value": "com.sec.android.internet.im.service.im20190419",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -24616,6 +25750,60 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "6d80d715-8cf4-493b-94de-58d8a45d6b83",
+          "object_relation": "domain",
+          "value": "webdetetive.com.br",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6b2318f2-553b-4051-b516-1b68c3978726",
+          "object_relation": "domain",
+          "value": "user.ownspy.es",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4112f513-c8a6-4538-9588-1a5e2c48ecbf",
+          "object_relation": "domain",
+          "value": "6287970dd9.era3000.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9aeac947-34c8-496a-a2c5-7143d88a8f23",
+          "object_relation": "domain",
+          "value": "mobileinnova.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8dd1b6a9-9369-4db5-b9ef-39860d2221a5",
+          "object_relation": "certificate",
+          "value": "14a071616d4bc37f08be865d375101f4c963777a",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d6333a79-1eba-4300-bd57-18eb51618202",
+          "object_relation": "appid",
+          "value": "org.system.kernel",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -25411,6 +26599,303 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "7847010f-2687-43fc-9dd9-7e37f6ee64bc",
+      "Attribute": [
+        {
+          "uuid": "9fdfe466-1879-48f2-9e4f-c2374f15223f",
+          "object_relation": "name",
+          "value": "foreverspy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "bd23fc42-f4dd-47a0-8041-6416f556ad53",
+          "object_relation": "domain",
+          "value": "app.foreverspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0a441ee8-81b8-4699-b258-d9224ecfd95a",
+          "object_relation": "appid",
+          "value": "com.metasploit.stage",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "22c3d45f-4169-4cda-a718-06bd0879d3ea",
+      "Attribute": [
+        {
+          "uuid": "8eb65c75-cc73-4b0e-9d27-e026109e3ed9",
+          "object_relation": "name",
+          "value": "phonesheriff",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "9253686d-0267-46d2-8225-8f4d5d1ec0d2",
+          "object_relation": "domain",
+          "value": "www.phonesheriff.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5adf97ff-ed0a-40c8-848e-f578c5d0e39d",
+          "object_relation": "domain",
+          "value": "www.mobile-spy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1645207e-ff73-40d8-bd72-8da8480fcbe5",
+          "object_relation": "domain",
+          "value": "phonesheriff.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "63be3a23-6752-447c-b636-e4c6dfeaf153",
+          "object_relation": "domain",
+          "value": "www.emobilespy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e7235955-db48-4577-9f9a-830ca5e36aa4",
+          "object_relation": "domain",
+          "value": "mobilenannylogs.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e534165b-3b5a-4369-b42b-6dc9eab1bbd0",
+          "object_relation": "certificate",
+          "value": "f28f3a97d25e51ab266e56d3b80f04747d242e50",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "1691dd48-ab5a-4f48-aec5-7c3343130b2c",
+          "object_relation": "certificate",
+          "value": "f57cbb4cbb9834a14af675222ceca6a0d26d838e",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "5636d81c-8520-470c-86e2-0e4664bef6de",
+          "object_relation": "appid",
+          "value": "com.rspl19.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "36289671-a178-4ccd-b3e7-48f7630310bb",
+          "object_relation": "appid",
+          "value": "com.rspl20.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "d3cf60e0-eda6-4d63-8436-576eccca8428",
+          "object_relation": "appid",
+          "value": "com.rspl22.retinaspy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c1845474-e10c-474a-9847-fbb8872fe95a",
+          "object_relation": "appid",
+          "value": "com.rspl16.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "6345ab2f-333e-407e-b71d-5f11ad86eb0c",
+          "object_relation": "appid",
+          "value": "com.rspl18.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "51c724e5-882d-4091-820b-a44cce33b9aa",
+          "object_relation": "appid",
+          "value": "com.retina22.ms6",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8c52710b-f8ff-4bbd-90f8-52ca6af84466",
+          "object_relation": "appid",
+          "value": "com.retina21.ms41",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "70d96385-c5e3-4c45-82e9-3541f2e88d4a",
+          "object_relation": "appid",
+          "value": "com.rspl15.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3a324847-aad7-4545-aef3-40b1007ed02b",
+          "object_relation": "appid",
+          "value": "com.retinasoft.ephonetracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "0c2b550e-2954-46c3-8c04-22b6b73d19fe",
+          "object_relation": "appid",
+          "value": "com.retina.phonesheriff",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "9e80c6d6-3aaa-4322-92d7-9f8d6025f9f3",
+          "object_relation": "appid",
+          "value": "com.rspl17.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a887a648-515a-46d8-b880-d2550e878c74",
+          "object_relation": "appid",
+          "value": "com.rspl21.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "a2a1f76e-cb88-4d25-94df-c98e860761d6",
+      "Attribute": [
+        {
+          "uuid": "249f246b-2ea9-4ec8-b394-bbd8b0f42159",
+          "object_relation": "name",
+          "value": "gpstrackerloki",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "78d02ced-dc4a-45c4-aa40-c7a100aec34d",
+          "object_relation": "domain",
+          "value": "m.asgardtech.ru",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8ea8e5d7-968f-4636-9427-8f6673cf4aaa",
+          "object_relation": "domain",
+          "value": "asgard-f8c53.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c2557053-6f1f-4ab1-a566-da1dea8ad606",
+          "object_relation": "certificate",
+          "value": "6156db551938bb4560d4643b54527e4f169ed44f",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "6388f58c-1f6f-4d3c-94cb-28ef46228347",
+          "object_relation": "appid",
+          "value": "com.mobile.loki",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "55e78908-2380-42ae-aeee-d05a03c7cdbd",
+          "object_relation": "appid",
+          "value": "com.mobile.asgard",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",

@@ -54,9 +54,21 @@
   name: Hoverwatch
 - certificate: AFC457A96258490FBC284EE889634B5F3E325B8E
   name: Hoverwatch
+- certificate: 0e0be37d31ca21f19095fc38f9f1bef310ce227c
+  name: Hoverwatch
+- certificate: 4f6ad2383dadaccf93ea5be4300571c315dbdf5b
+  name: Hoverwatch
+- certificate: 5284272445ce993de601bb23cae6ba9e43e4589c
+  name: Hoverwatch
+- certificate: 64403a61f41848f987d6fd0be00392e9561a0ef7
+  name: Hoverwatch
+- certificate: 6144ed2e25b6f3a5fafcf914965ca071a685674b
+  name: Hoverwatch
 - certificate: 3EA68714AE224B0C0EEED64A14B11D3983C3D6F8
   name: iMonitorSpy
 - certificate: BFC4C15E35E3506095B42E2B428E4016B1FFA1AB
+  name: iMonitorSpy
+- certificate: 5c5ef3dfe98b02251a6ec82609f22a092562afee
   name: iMonitorSpy
 - certificate: 8F0EAD4F1DA5DAAF8C0F7A51096CECEEF81D0C76
   name: LetMeSpy
@@ -67,6 +79,8 @@
 - certificate: 7FFE6DA96346FEE822E1F791176CD6970A1DC770
   name: mspy
 - certificate: CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
+  name: mspy
+- certificate: 5eec898f0dbbd70a9b33dd16ee5ff06b6de26ea6
   name: mspy
 - certificate: 56EF5244378FB6B4EF82D2B9E99BF41F7B97D93A
   name: mxspy
@@ -152,6 +166,8 @@
   name: iKeyMonitor
 - certificate: 9284CB43B87E9F9C77DA509F1672E884BD6CA876
   name: iKeyMonitor
+- certificate: 786325ab3e614f868ca2a7f2f0e75ec76a047311
+  name: iKeyMonitor
 - certificate: 76F6C302533751BED738D40882AC219BAAD65E7B
   name: SpyHuman
 - certificate: CD8F39DAECC7793F33D8D847A598373B8F25A7B7
@@ -220,6 +236,8 @@
   name: SpyPhoneApp
 - certificate: 9477420001bc79500623374ec586b054aac97bf9 
   name: SpyPhoneApp
+- certificate: 6156db551938bb4560d4643b54527e4f169ed44f
+  name: GPSTrackerLoki
 - certificate: 4ff0174bedc1d16be55ac53b98599398ac461f82
   name: iSpyoo
 - certificate: 86ca769814a07623946eee74cc7383b13571d42b
@@ -234,3 +252,11 @@
   name: trackmyphone
 - certificate: 9eece9b4ecf4dc0c5981feacfb271e1c0a2967ff
   name: androidlost
+- certificate: 7f11358ac560c5e90b735a21b907f1c8143353df
+  name: MobileTool
+- certificate: 14a071616d4bc37f08be865d375101f4c963777a
+  name: OwnSPy
+- certificate: f57cbb4cbb9834a14af675222ceca6a0d26d838e
+  name: phonesheriff
+- certificate: f28f3a97d25e51ab266e56d3b80f04747d242e50
+  name: phonesheriff
