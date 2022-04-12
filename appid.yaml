@@ -198,8 +198,12 @@
   name: Spyzie
 - package: com.sc.spyzie.v2
   name: Spyzie
+- package: com.aiyi.admin
+  name: Spyzie
 - package: com.ant.spymie.keylogger
   name: Spymie
+- package: com.service.mug
+  name: SpyMug
 - package: ns.antapp.module
   name: NeoSpy
 - package: com.nsmon.guard
@@ -426,3 +430,5 @@
   name: phonesheriff
 - package: com.rspl21.nanny.android
   name: phonesheriff
+- package: com.sa.app
+  name: SpyAdvice

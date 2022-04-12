@@ -280,6 +280,9 @@ domain,sync-a.mxspy.com,mxspy
 domain,sync-a780.mxspy.com,mxspy
 domain,www.mxspy.com,mxspy
 domain,www.phonespying.com,PhoneSpying
+domain,spyzee.com,PhoneSpying
+domain,microtracker-1ca43.firebaseio.com,PhoneSpying
+domain,1ca43.appspot.com,PhoneSpying
 domain,reptilicus.net,Repticulus
 domain,data.reptilicus.net,Repticulus
 domain,proxy.reptilicus.net,Repticulus
@@ -320,6 +323,8 @@ domain,media-sync-a.exactspy.com,FoneTracker
 domain,sync-a.exactspy.com,FoneTracker
 domain,protocol-a.exactspy.com,FoneTracker
 domain,www.netspy.net,NetSpy
+domain,netspy.net,NetSpy
+domain,netspy-7b8ec.firebaseio.com,NetSpy
 domain,app-api.spyzie.com,Spyzie
 domain,my.spyzie.com,Spyzie
 domain,app.api.spyzie.wondershare.cn,Spyzie
@@ -327,6 +332,10 @@ domain,data.api.spyzie.wondershare.cn,Spyzie
 domain,data-api.spyzie.com,Spyzie
 domain,www.spyzie.com,Spyzie
 domain,i.spyzie.io,Spyzie
+domain,alog.umeng.com,Spyzie
+domain,appjiagu.com,Spyzie
+domain,b.appjiagu.com,Spyzie
+domain,s.appjiagu.com,Spyzie
 domain,neospy.pro,NeoSpy
 domain,neospy.net,NeoSpy
 domain,neospy.tech,NeoSpy
@@ -497,3 +506,10 @@ domain,phonesheriff.com,phonesheriff
 domain,mobilenannylogs.com,phonesheriff
 domain,www.emobilespy.com,phonesheriff
 domain,www.mobile-spy.com,phonesheriff
+domain,xyspy.com,XySpy
+domain,app.xyspy.com,XySpy
+domain,phonetracking.net,PhoneTracker
+domain,app.mobiletracking.app,PhoneTracker
+domain,phonetracking-dd226.firebaseio.com,PhoneTracker
+domain,spyadvice.com,SpyAdvice
+domain,phonetracking-dd226.firebaseio.com,SpyAdvice
