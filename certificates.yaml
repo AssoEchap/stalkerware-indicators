@@ -232,6 +232,10 @@
   name: AppMia
 - certificate: ff8ccd9816b0524a58fbde1809fb227dbcdfd692
   name: TheTruthSpy
+- certificate: 8c017fdb2a81807ec879a8e30f4ab05d5ca02034 
+  name: SpyPhoneApp
+- certificate: 9477420001bc79500623374ec586b054aac97bf9 
+  name: SpyPhoneApp
 - certificate: 6156db551938bb4560d4643b54527e4f169ed44f
   name: GPSTrackerLoki
 - certificate: 4ff0174bedc1d16be55ac53b98599398ac461f82
