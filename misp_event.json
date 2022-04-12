@@ -16948,6 +16948,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "2b05cb8e-cd10-4aba-b7b0-88d247b86d3e",
+          "object_relation": "certificate",
+          "value": "9477420001bc79500623374ec586b054aac97bf9",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "65551721-6b91-4b4c-b24b-9dbbe761c3c9",
+          "object_relation": "certificate",
+          "value": "8c017fdb2a81807ec879a8e30f4ab05d5ca02034",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -26197,6 +26215,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "339b967c-8120-4a37-86c4-33f8b0fdba14",
+          "object_relation": "domain",
+          "value": "spy-datacenter.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
