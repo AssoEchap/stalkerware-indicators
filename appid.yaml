@@ -358,10 +358,16 @@
   name: Fonemonitor
 - package: com.ownspy.android
   name: OwnSpy
+- package: org.system.kernel
+  name: OwnSpy
 - package: com.sap4mobile
   name: SmartAggregationPlatform
 - package: com.android.system.devicelogs
   name: AppMia
+- package: com.mobile.loki
+  name: GPSTrackerLoki
+- package: com.mobile.asgard
+  name: GPSTrackerLoki
 - package: com.metasploit.stage
   name: ForeverSpy
 - package: com.app.keylogger
@@ -390,3 +396,33 @@
   name: androidlost
 - package: com.androidlost.smshandler
   name: androidlost
+- package: org.poleward.burghs.hydrotherapy.homonymously
+  name: MobileTool
+- package: org.urates.amirates.suffocate.chiliast
+  name: MobileTool
+- package: org.connecting.updived.hygeist.interplays
+  name: MobileTool
+- package: com.retina.phonesheriff
+  name: phonesheriff
+- package: com.retina21.ms41 
+  name: phonesheriff
+- package: com.retina22.ms6 
+  name: phonesheriff
+- package: com.rspl22.retinaspy
+  name: phonesheriff
+- package: com.retinasoft.ephonetracker 
+  name: phonesheriff
+- package: com.rspl15.nanny.android
+  name: phonesheriff
+- package: com.rspl16.nanny.android
+  name: phonesheriff
+- package: com.rspl17.nanny.android
+  name: phonesheriff
+- package: com.rspl18.nanny.android
+  name: phonesheriff
+- package: com.rspl19.nanny.android
+  name: phonesheriff
+- package: com.rspl20.nanny.android
+  name: phonesheriff
+- package: com.rspl21.nanny.android
+  name: phonesheriff
