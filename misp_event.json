@@ -26408,6 +26408,198 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "22c3d45f-4169-4cda-a718-06bd0879d3ea",
+      "Attribute": [
+        {
+          "uuid": "8eb65c75-cc73-4b0e-9d27-e026109e3ed9",
+          "object_relation": "name",
+          "value": "phonesheriff",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "9253686d-0267-46d2-8225-8f4d5d1ec0d2",
+          "object_relation": "domain",
+          "value": "www.phonesheriff.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5adf97ff-ed0a-40c8-848e-f578c5d0e39d",
+          "object_relation": "domain",
+          "value": "www.mobile-spy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1645207e-ff73-40d8-bd72-8da8480fcbe5",
+          "object_relation": "domain",
+          "value": "phonesheriff.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "63be3a23-6752-447c-b636-e4c6dfeaf153",
+          "object_relation": "domain",
+          "value": "www.emobilespy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e7235955-db48-4577-9f9a-830ca5e36aa4",
+          "object_relation": "domain",
+          "value": "mobilenannylogs.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e534165b-3b5a-4369-b42b-6dc9eab1bbd0",
+          "object_relation": "certificate",
+          "value": "f28f3a97d25e51ab266e56d3b80f04747d242e50",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "1691dd48-ab5a-4f48-aec5-7c3343130b2c",
+          "object_relation": "certificate",
+          "value": "f57cbb4cbb9834a14af675222ceca6a0d26d838e",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "5636d81c-8520-470c-86e2-0e4664bef6de",
+          "object_relation": "appid",
+          "value": "com.rspl19.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "36289671-a178-4ccd-b3e7-48f7630310bb",
+          "object_relation": "appid",
+          "value": "com.rspl20.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "d3cf60e0-eda6-4d63-8436-576eccca8428",
+          "object_relation": "appid",
+          "value": "com.rspl22.retinaspy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c1845474-e10c-474a-9847-fbb8872fe95a",
+          "object_relation": "appid",
+          "value": "com.rspl16.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "6345ab2f-333e-407e-b71d-5f11ad86eb0c",
+          "object_relation": "appid",
+          "value": "com.rspl18.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "51c724e5-882d-4091-820b-a44cce33b9aa",
+          "object_relation": "appid",
+          "value": "com.retina22.ms6",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8c52710b-f8ff-4bbd-90f8-52ca6af84466",
+          "object_relation": "appid",
+          "value": "com.retina21.ms41",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "70d96385-c5e3-4c45-82e9-3541f2e88d4a",
+          "object_relation": "appid",
+          "value": "com.rspl15.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3a324847-aad7-4545-aef3-40b1007ed02b",
+          "object_relation": "appid",
+          "value": "com.retinasoft.ephonetracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "0c2b550e-2954-46c3-8c04-22b6b73d19fe",
+          "object_relation": "appid",
+          "value": "com.retina.phonesheriff",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "9e80c6d6-3aaa-4322-92d7-9f8d6025f9f3",
+          "object_relation": "appid",
+          "value": "com.rspl17.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a887a648-515a-46d8-b880-d2550e878c74",
+          "object_relation": "appid",
+          "value": "com.rspl21.nanny.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
