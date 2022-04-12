@@ -1,6 +1,7 @@
-import json, csv
+import json, csv, os
 
 NETWORK_FILE = 'network.csv'
+FPATH = "generated/indicators-for-tinycheck.json"
 
 def load_stalkerware_domains():
     with open(NETWORK_FILE, 'r') as f:
@@ -29,5 +30,8 @@ if ips:
             'value': ip
         })
 
-with open('indicators-for-tinycheck.json', 'w') as f:
+if os.path.isfile(FPATH):
+    os.remove(FPATH)
+
+with open(FPATH, 'w') as f:
     f.write(json.dumps(iocs))

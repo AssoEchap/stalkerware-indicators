@@ -22,9 +22,7 @@ jobs:
     - name: Commit files  # transfer the json file in the repo
       run: |
         git config --local user.name  ${{ github.actor }}
-        git add indicators-for-tinycheck.json
-        git add misp_event.json
-        git add stalkerware.stix2
+        git add generated/
         git commit -m "Updating indicators for Tiny Check, MISP and MVT"
     - name: Push changes  # push the output folder to your repo
       uses: ad-m/github-push-action@master

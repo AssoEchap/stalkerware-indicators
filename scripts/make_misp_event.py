@@ -55,10 +55,11 @@ def load_mispevent(mispevent):
     return current_indicators_by_name
 
 
+FPATH = "generated/misp_event.json"
 current_indicators_by_name = defaultdict(lambda: defaultdict(dict, {k: set() for k in ('domains', 'appids', 'certificates', 'sha256')}))
-if Path('misp_event.json').exists():
+if Path(FPATH).exists():
     event = MISPEvent()
-    event.load_file(Path('misp_event.json'))
+    event.load_file(Path(FPATH))
     current_indicators_by_name = load_mispevent(event)
 else:
     event = MISPEvent()
@@ -83,5 +84,5 @@ for app_name, entries in indicators_by_name.items():
     o.add_attributes('certificate', *list(entries['certificates'] - current_indicators_by_name[app_name]['certificates']))
     o.add_attributes('appid', *list(entries['appids'] - current_indicators_by_name[app_name]['appids']))
 
-with open('misp_event.json', 'w') as f:
+with open(FPATH, 'w') as f:
     f.write(event.to_json(indent=2))

@@ -7,8 +7,9 @@ from stix2.v21 import (Indicator, Malware, Relationship, Bundle, DomainName)
 
 
 if __name__ == "__main__":
-    if os.path.isfile("stalkerware.stix2"):
-        os.remove("stalkerware.stix2")
+    FPATH = "generated/stalkerware.stix2"
+    if os.path.isfile(FPATH):
+        os.remove(FPATH)
 
     indicators_by_name = defaultdict(lambda: defaultdict(dict, {k: set() for k in ('domains', 'appids', 'certificates', 'sha256')}))
 
@@ -63,6 +64,6 @@ if __name__ == "__main__":
         res.append(Relationship(i, 'indicates', malware))
 
     bundle = Bundle(objects=res)
-    with open("stalkerware.stix2", "w+") as f:
+    with open(FPATH, "w+") as f:
         f.write(str(bundle))
     print("stalkerware.stix2 file created")
