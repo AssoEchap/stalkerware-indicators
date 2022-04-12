@@ -21673,6 +21673,186 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "d46c6b7a-4226-445e-a74c-979cb356de35",
+          "object_relation": "domain",
+          "value": "xmyevq.birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "84e927d5-311f-4259-908d-e6a94b1f55cb",
+          "object_relation": "domain",
+          "value": "kvshdi.birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "35bac69a-c4b3-4eb9-b20b-f391528305fc",
+          "object_relation": "domain",
+          "value": "s9gxw8.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1cb83855-9352-43e4-bb2d-c2825b8382ef",
+          "object_relation": "domain",
+          "value": "bincdi.birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3484ac8f-805b-486d-9680-47df98adb4ab",
+          "object_relation": "domain",
+          "value": "ug1c5v.birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b39060aa-ae75-4a5a-9eea-e10fbcc5d8ef",
+          "object_relation": "domain",
+          "value": "mzpgfh.uhabq9.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f200d60f-6b7b-4624-8143-47e7d57b6f54",
+          "object_relation": "domain",
+          "value": "hzdy.birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "aaf0c558-0d7a-4284-b09f-228b5b84c4e3",
+          "object_relation": "domain",
+          "value": "birxpk.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bc473380-7212-4c34-a713-faf3c18cac65",
+          "object_relation": "domain",
+          "value": "my.mobiletool.ru",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0b3c0d75-d078-43f8-b182-088971c3f890",
+          "object_relation": "domain",
+          "value": "dz7.wethnc067.xyz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f9063f72-5c3c-4238-b6fc-2db9bced8fe4",
+          "object_relation": "domain",
+          "value": "6kvses.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1223c175-39f0-4629-90e2-83bdbc9a1174",
+          "object_relation": "domain",
+          "value": "mrswd.wo87sf.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c7a3f879-e74e-465b-aa24-2b10551cd598",
+          "object_relation": "domain",
+          "value": "noujx.s9gxw8.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a56bffa1-86d8-4b0f-bbaf-7cc8696120ad",
+          "object_relation": "domain",
+          "value": "bincdi.6kvses.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "84c0ac5a-f28a-4893-a227-f78819c96baf",
+          "object_relation": "domain",
+          "value": "wethnc067.xyz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "edb79104-15f0-449c-b99b-3d99a5c3ac23",
+          "object_relation": "domain",
+          "value": "ixhtb.s9gxw8.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "67d2c428-8ac6-43ba-b20f-46f7e3e47749",
+          "object_relation": "certificate",
+          "value": "7f11358ac560c5e90b735a21b907f1c8143353df",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "07d51a78-676f-4a48-80ec-211ad4b0716c",
+          "object_relation": "appid",
+          "value": "org.connecting.updived.hygeist.interplays",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "9f206f39-d450-4fd1-bb88-3693f835e8d3",
+          "object_relation": "appid",
+          "value": "org.urates.amirates.suffocate.chiliast",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2871c98b-0487-4a71-8695-9de85bb09db7",
+          "object_relation": "appid",
+          "value": "org.poleward.burghs.hydrotherapy.homonymously",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
