@@ -11203,6 +11203,51 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "c061c9de-e363-4d10-8f9e-a7aa8a53dc1b",
+          "object_relation": "domain",
+          "value": "ac480.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c047dfbe-cd72-4afb-9152-33a7a6996663",
+          "object_relation": "domain",
+          "value": "cellphoneservices.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5b3e105e-91b7-443a-83bd-3b9656b3d787",
+          "object_relation": "domain",
+          "value": "device-ac480.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5089259c-6500-40a8-86d2-9a3b9a4e37a6",
+          "object_relation": "domain",
+          "value": "device-ac480.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e0a6eea9-289b-484b-93ab-20c106ba6842",
+          "object_relation": "appid",
+          "value": "com.autoforward.monitor",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -11296,6 +11341,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "8c6391d4-521f-4dc8-9695-99dd4ce946cb",
+          "object_relation": "domain",
+          "value": "a71f4.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
