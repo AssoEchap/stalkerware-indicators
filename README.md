@@ -30,6 +30,7 @@ This repository includes indicators for the following stalkerware :
 * 1TopSpy : `www.1topspy.com`
 * AirSpyer
 * AllTracker : `alltracker.org` (also called [Russ City](https://www.zscaler.com/blogs/security-research/new-wave-stalkerware-apps))
+* AndroidLost : `androidlost.com`
 * AntiFurto Droid : `antifurtodroid.com`
 * AppMia
 * AppSpy : `www.appspy.com`
@@ -51,6 +52,8 @@ This repository includes indicators for the following stalkerware :
 * Free Android Spy : `www.freeandroidspy.com`
 * FoneTracker : `fonetracker.com`
 * FoneMonitor : `fonemonitor.co`
+* ForeverSpy : `foreverspy.com`
+* GPSTrackerLoki : `asgardtech.ru`
 * GuestSpy : `guestspy.com` (now replaced by TheTruthSpy)
 * HelloSpy : `hellospy.com`
 * Highster Mobile : `highstermobile.com`
@@ -76,6 +79,7 @@ This repository includes indicators for the following stalkerware :
 * OwnSpy : `en.ownspy.com`
 * pcTattletale : `www.pctattletale.com`
 * PhoneSpying : `www.phonespying.com`
+* PhoneSherif : `phonesheriff.com`
 * PanSpy : `panspy.com`
 * Repticulus : `reptilicus.net`
 * SafeSpy : `safespy.com`
