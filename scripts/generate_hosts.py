@@ -17,5 +17,5 @@ if os.path.isfile(FPATH):
 domains, ips = get_stalkerware_domains()
 
 with open(FPATH, 'w') as f:
-    for d in domains:
+    for d in sorted(domains):
         f.write("{}\n".format(d))
