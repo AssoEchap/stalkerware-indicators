@@ -25570,6 +25570,60 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "6d80d715-8cf4-493b-94de-58d8a45d6b83",
+          "object_relation": "domain",
+          "value": "webdetetive.com.br",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6b2318f2-553b-4051-b516-1b68c3978726",
+          "object_relation": "domain",
+          "value": "user.ownspy.es",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4112f513-c8a6-4538-9588-1a5e2c48ecbf",
+          "object_relation": "domain",
+          "value": "6287970dd9.era3000.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9aeac947-34c8-496a-a2c5-7143d88a8f23",
+          "object_relation": "domain",
+          "value": "mobileinnova.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8dd1b6a9-9369-4db5-b9ef-39860d2221a5",
+          "object_relation": "certificate",
+          "value": "14a071616d4bc37f08be865d375101f4c963777a",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d6333a79-1eba-4300-bd57-18eb51618202",
+          "object_relation": "appid",
+          "value": "org.system.kernel",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
