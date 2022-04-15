@@ -28,7 +28,7 @@ Main files:
 * `androguard-rules.yar`: Androguard yara rules (to be used in [Koodous](https://koodous.com/))
 * `appid.yaml`: [Applications Package names](https://support.google.com/admob/answer/9972781)
 * `certificates.yaml`: [Android Application Certificates](https://support.google.com/googleplay/android-developer/answer/9842756?hl=en)
-* `network.csv`: list of domains of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control)
+* `network.yaml`: list of domains of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control)
 * `quad9_blocklist.txt`: blocklist for [Quad9 DNS resolver](https://www.quad9.net/) (include a more limited set of domains for apps clearly for stalking and only C2 domains, not app websites)
 * `rules.yar`: Yara rules
 * `sha256.csv`: sha256 of samples
