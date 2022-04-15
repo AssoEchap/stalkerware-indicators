@@ -25,7 +25,6 @@ and hence for committing this crime.
 
 Main files:
 
-* `androguard-rules.yar`: Androguard yara rules (to be used in [Koodous](https://koodous.com/))
 * `appid.yaml`: [Applications Package names](https://support.google.com/admob/answer/9972781)
 * `certificates.yaml`: [Android Application Certificates](https://support.google.com/googleplay/android-developer/answer/9842756?hl=en)
 * `network.yaml`: list of domains of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control)
