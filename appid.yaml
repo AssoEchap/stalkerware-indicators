@@ -459,3 +459,6 @@
   name: phonesheriff
 - package: com.sa.app
   name: SpyAdvice
+
+- package: com.tools.secretcamcorder
+  name: SecretVideoRecorder
