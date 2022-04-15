@@ -2890,6 +2890,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "8b1b06a4-d05d-49d4-8050-63459af0c43e",
+          "object_relation": "domain",
+          "value": "netspy.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b0b0cd24-7f10-47fe-b61e-ddb49e82e74a",
+          "object_relation": "domain",
+          "value": "netspy-7b8ec.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -14212,6 +14230,51 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "a267a9ec-f3bf-4607-b823-50f43ddfec9d",
+          "object_relation": "domain",
+          "value": "spyzee.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5168ce24-d3b6-4751-a5ad-d337a7b87c34",
+          "object_relation": "domain",
+          "value": "microtracker-1ca43.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "78332c6d-7f0d-4100-b833-7fab43944192",
+          "object_relation": "domain",
+          "value": "1ca43.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f4ce29ca-d07f-426b-ac62-96066361c16b",
+          "object_relation": "certificate",
+          "value": "d667a33203776f2285eba3e826cd286356ef05d0",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d26dcd0a-4d82-441f-bac1-dfee4d86c5d0",
+          "object_relation": "certificate",
+          "value": "b1336a5f3a017394186563e84ae0d2649fc1697d",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -17706,6 +17769,60 @@
           "uuid": "6b3b68ff-c518-4918-be71-2bda221e5dca",
           "object_relation": "appid",
           "value": "com.sc.spyzie.v2",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "28e903ae-2adf-4416-b117-8a165d2bd04b",
+          "object_relation": "domain",
+          "value": "appjiagu.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bb7dbd6d-4189-41d7-a2a2-614326543e02",
+          "object_relation": "domain",
+          "value": "alog.umeng.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5e860fc9-d263-41bd-9228-2d232484773b",
+          "object_relation": "domain",
+          "value": "s.appjiagu.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1dc6c0eb-1fdf-4f33-9737-164f40a6caf2",
+          "object_relation": "domain",
+          "value": "b.appjiagu.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a1218237-6041-4974-84ab-5e105d987762",
+          "object_relation": "certificate",
+          "value": "b4a1513c2c71f08d2ee763cd3fae585f71f268a9",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "a0d36303-b521-4f9f-aa5b-f933ee3af902",
+          "object_relation": "appid",
+          "value": "com.aiyi.admin",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
@@ -26973,6 +27090,207 @@
           "uuid": "55e78908-2380-42ae-aeee-d05a03c7cdbd",
           "object_relation": "appid",
           "value": "com.mobile.asgard",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "6fbb5bbb-4205-4493-8f7b-450486e13587",
+      "Attribute": [
+        {
+          "uuid": "8f2ea4f7-c0e3-484d-921c-73a59c501be1",
+          "object_relation": "name",
+          "value": "xyspy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "36fff71a-f5a1-4cdf-859d-e23e328201a2",
+          "object_relation": "domain",
+          "value": "xyspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b14cc986-7217-411d-95cc-73433a31ab03",
+          "object_relation": "domain",
+          "value": "app.xyspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2ab2183f-01b3-4633-aa00-fb4333cdbed0",
+          "object_relation": "certificate",
+          "value": "de648a3253c16692af71141c069d15c87c3e5495",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "c7c18ec9-e9db-4524-8e0a-a7fcd57fae42",
+      "Attribute": [
+        {
+          "uuid": "a83bfe05-ef07-4c0b-adda-4a0b582c41ce",
+          "object_relation": "name",
+          "value": "phonetracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e494af6e-4d35-4ff3-b80c-3b2ffeef839c",
+          "object_relation": "domain",
+          "value": "app.mobiletracking.app",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1fbb7e71-122f-4379-bb2a-1caf6915e330",
+          "object_relation": "domain",
+          "value": "phonetracking-dd226.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c0563eff-3933-4521-90bb-9c13a41efb03",
+          "object_relation": "domain",
+          "value": "phonetracking.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4b96be59-8112-4d09-bf7f-a1a19b86604e",
+          "object_relation": "certificate",
+          "value": "483716998f0c092fe82b0b12b1a4ba399d941318",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "66815ddc-9e62-4c93-a893-3e955815a76e",
+      "Attribute": [
+        {
+          "uuid": "02bc5c57-5978-47e2-83da-852ef885355b",
+          "object_relation": "name",
+          "value": "spyadvice",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f3fecbfe-5165-4b50-92b3-bddd59101b7e",
+          "object_relation": "domain",
+          "value": "phonetracking-dd226.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "20366eff-2e5e-4297-9256-e5c9b90f2b02",
+          "object_relation": "domain",
+          "value": "spyadvice.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "42685f1c-d64d-4494-bcc6-4fb679dda4ca",
+          "object_relation": "certificate",
+          "value": "b374a75f87f992a6f57cf99a24197abceb17a1e7",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "6dee3143-3f01-4841-89d9-db925edff1f1",
+          "object_relation": "appid",
+          "value": "com.sa.app",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "ad5b89b0-46cf-4f40-9cf5-0d39be0f3ef8",
+      "Attribute": [
+        {
+          "uuid": "eaae657c-f354-4f86-9aae-f231c9310bf5",
+          "object_relation": "name",
+          "value": "spymug",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "af650697-274c-4d00-bac1-d1b2e81ee4bf",
+          "object_relation": "certificate",
+          "value": "56c8fa19250edba1a91a37f500da91fbc0657b1f",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "106523ca-0bbd-4575-9bae-6591af5f94a1",
+          "object_relation": "appid",
+          "value": "com.service.mug",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
