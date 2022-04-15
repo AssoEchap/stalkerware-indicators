@@ -86,6 +86,8 @@
   name: mxspy
 - certificate: D667A33203776F2285EBA3E826CD286356EF05D0
   name: PhoneSpying
+- certificate: b1336a5f3a017394186563e84ae0d2649fc1697d
+  name: PhoneSpying
 - certificate: 6D0FF787BF4534F1077D1E4BF2E18BA381D97061
   name: Repticulus
 - certificate: FE7626A8D3C38FD78EA2A729B39B943BA814F014
@@ -98,8 +100,12 @@
   name: NetSpy
 - certificate: F25D72FCCB84BAF7F73467FC9571024B7E274CA3
   name: Spyzie
+- certificate: b4a1513c2c71f08d2ee763cd3fae585f71f268a9
+  name: Spyzie
 - certificate: 05B23C7E9156A4C55768DA27936FF2D7AF09BB8F
   name: Spymie
+- certificate: 56c8fa19250edba1a91a37f500da91fbc0657b1f
+  name: Spymug
 - certificate: 9ED8DD944D3EB545E1EEEEEC1D8174772CF37C07
   name: NeoSpy
 - certificate: 92EBDB7D7C18A34705A6918B5F327DDB0E8C8452
@@ -260,3 +266,11 @@
   name: phonesheriff
 - certificate: f28f3a97d25e51ab266e56d3b80f04747d242e50
   name: phonesheriff
+- certificate: d667a33203776f2285eba3e826cd286356ef05d0
+  name: PhoneSpying
+- certificate: de648a3253c16692af71141c069d15c87c3e5495
+  name: XySpy
+- certificate: 483716998f0c092fe82b0b12b1a4ba399d941318
+  name: PhoneTracker
+- certificate: b374a75f87f992a6f57cf99a24197abceb17a1e7
+  name: SpyAdvice
