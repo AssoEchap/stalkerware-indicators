@@ -1,17 +1,34 @@
 # Stalkerware Indicators of Compromise
 
-Indicators of compromise on Stalkerware applications for Android and iOS
+Indicators of compromise (IOC) on Stalkerware applications for Android and iOS
 
-_Warning: these indicators are not providing a complete detection of stalkerware applications. They are based on research from a few people on their free time and many apps are likely missing. Use it carefully. No detection based on these indicators should not be understood as having no stalkerware installed._
+_Warning: these indicators are not providing a complete detection of
+stalkerware applications. They are based on research from a few people on their
+free time and many apps are likely missing. Use it carefully. No detection
+based on these indicators should not be understood as having no stalkerware
+installed._
 
-## Files
+## What's a stalkerware?
+
+We're using the definition of the [Coalition Against Stalkerware](https://stopstalkerware.org/):
+
+> Stalkerware refers to tools – software programs, apps and devices – that
+enable someone to secretly spy on another person’s private life via their
+mobile device. The abuser can remotely monitor the whole device including web
+searches, geolocation, text messages, photos, voice calls and much more. Such
+programs are easy to buy and install. They run hidden in the background,
+without the affected person knowing or giving their consent. Regardless of
+stalkerware’s availability, the abuser is accountable for using it as a tool
+and hence for committing this crime.
+
+## IOC
 
 Main files:
 
 * `androguard-rules.yar`: Androguard yara rules (to be used in [Koodous](https://koodous.com/))
-* `appid.yaml`: package ids
-* `certificates.yaml`: Android certificates
-* `network.csv`: list of domains
+* `appid.yaml`: [Applications Package names](https://support.google.com/admob/answer/9972781)
+* `certificates.yaml`: [Android Application Certificates](https://support.google.com/googleplay/android-developer/answer/9842756?hl=en)
+* `network.csv`: list of domains of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control)
 * `quad9_blocklist.txt`: blocklist for [Quad9 DNS resolver](https://www.quad9.net/) (include a more limited set of domains for apps clearly for stalking and only C2 domains, not app websites)
 * `rules.yar`: Yara rules
 * `sha256.csv`: sha256 of samples
@@ -121,7 +138,14 @@ This repository includes indicators for the following stalkerware :
 
 This repository is maintained by the [Echap](https://echap.eu.org/) non-profit organisation.
 
-Contributors include [Anne Roth](https://twitter.com/annalist), [@nscrutables](https://twitter.com/nscrutables), [Abir Ghattas](https://twitter.com/AbirGhattas), [Jurre van Bergen](https://twitter.com/DrWhax), [Jo Coscia](https://github.com/jcoscia), [Julien Voisin](https://dustri.org/), [Esther](https://twitter.com/U039b)
+Contributors include:
+
+- [Abir Ghattas](https://twitter.com/AbirGhattas)
+- [Anne Roth](https://twitter.com/annalist)
+- [Jo Coscia](https://github.com/jcoscia)
+- [Julien Voisin](https://dustri.org/), [Esther](https://twitter.com/U039b)
+- [Jurre van Bergen](https://twitter.com/DrWhax)
+- [@nscrutables](https://twitter.com/nscrutables)
 
 These indicators were largely based on research and analysis using [APKlab](https://www.apklab.io/), [Koodous](https://koodous.com/) and [VirusTotal](https://www.virustotal.com/).
 
