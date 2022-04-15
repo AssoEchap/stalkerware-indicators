@@ -172,4 +172,8 @@ There are other repositories gathering stalkerware indicators:
 
 ## License
 
-Do whatever you want with this data. There is no guarantee that it is accurate. Please contribute if you can. If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+The content of this repository is licensed under [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/),
+you're free to do whatever you want with it.
+
+Please note that while we're doing our very best, there is no guarantee that it is accurate.
+If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
