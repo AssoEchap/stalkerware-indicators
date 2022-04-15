@@ -1,1543 +1,1547 @@
-- type: domain
+#
+# tags can be:
+#  - c2: command and control
+#  - domain: main website of the stalkerware
+#  - victim_download: website to download the stalkerware from the victim phone
+#
+
+- tags: [c2]
   indicator: flushdata.1topspy.com
   app: 1TopSpy
-- type: domain
+- tags: [c2]
   indicator: webservicesdb.mobiispy.com
   app: Mobiispy
-- type: domain
+- tags: [c2, domain]
   indicator: hellospy.com
   app: HelloSpy
-- type: domain
+- tags: [c2, domain]
   indicator: mobiispy.com
   app: Mobiispy
-- type: domain
+- tags: [c2, domain]
   indicator: 1topspy.com
   app: 1TopSpy
-- type: domain
+- tags: [c2]
   indicator: flushdbd.maxxspy.com
   app: Maxxspy
-- type: domain
+- tags: [domain]
   indicator: maxxspy.com
   app: Maxxspy
-- type: domain
+- tags: [c2]
   indicator: flushdata2.hellospy.com
   app: HelloSpy
-- type: domain
+- tags: [c2]
   indicator: flushdata.hellospy.com
   app: HelloSpy
-- type: domain
+- tags: [c2]
   indicator: flushdata3.hellospy.com
   app: HelloSpy
-- type: domain
+- tags: [c2]
   indicator: flushdata5.hellospy.com
   app: HelloSpy
-- type: domain
+- tags: [c2]
   indicator: account.logger.mobi
   app: Easy Logger
-- type: domain
+- tags: [c2]
   indicator: 97.logger.mobi
   app: Easy Logger
-- type: domain
+- tags: [c2]
   indicator: beta-api.logger.mobi
   app: EasyLogger
-- type: domain
+- tags: [c2]
   indicator: beta.logger.mobi
   app: EasyLogger
-- type: domain
+- tags: [c2]
   indicator: ps97mailer.logger.mobi
   app: EasyLogger
-- type: domain
+- tags: [domain]
   indicator: logger.mobi
   app: EasyLogger
-- type: ipv4
+- tags: [ipv4]
   indicator: 172.67.81.216
   app: EasyLogger
-- type: ipv4
+- tags: [ipv4]
   indicator: 104.25.28.15
   app: EasyLogger
-- type: ipv4
+- tags: [ipv4]
   indicator: 104.25.29.15
   app: EasyLogger
-- type: domain
+- tags: [c2]
   indicator: server.freeandroidspy.com
   app: Free Android Spy
-- type: domain
+- tags: [c2, domain]
   indicator: freeandroidspy.com
   app: Free Android Spy
-- type: ipv4
+- tags: [ipv4]
   indicator: 46.40.125.240
   app: Free Android Spy
-- type: ipv4
+- tags: [ipv4]
   indicator: 199.38.181.70
   app: Free Android Spy
-- type: domain
+- tags: [c2]
   indicator: my.ispyoo.com
   app: iSpyoo
-- type: domain
+- tags: [domain]
   indicator: ispyoo.com
   app: iSpyoo
-- type: domain
+- tags: [c2]
   indicator: protocol-a.ispyoo.com
   app: iSpyoo
-- type: domain
+- tags: [c2]
   indicator: protocol-a780.ispyoo.com
   app: iSpyoo
-- type: domain
+- tags: [c2]
   indicator: protocol-a810.ispyoo.com
   app: iSpyoo
-- type: domain
+- tags: [c2]
   indicator: protocol-a811.ispyoo.com
   app: iSpyoo
-- type: domain
+- tags: [c2]
   indicator: protocol-a880.ispyoo.com
   app: iSpyoo
-- type: domain
+- tags: [c2]
   indicator: protocol-a89.ispyoo.com
   app: iSpyoo
-- type: domain
+- tags: [c2]
   indicator: protocol.ispyoo.com
   app: iSpyoo
-- type: domain
+- tags: [c2]
   indicator: sync-a.ispyoo.com
   app: iSpyoo
-- type: domain
+- tags: [c2]
   indicator: media-sync-a.ispyoo.com
   app: iSpyoo
-- type: ipv4
+- tags: [ipv4]
   indicator: 69.64.81.166
   app: iSpyoo
-- type: domain
+- tags: [domain]
   indicator: mobispy.net
   app: mobispy
-- type: domain
+- tags: [c2]
   indicator: my.mobispy.net
   app: mobispy
-- type: domain
+- tags: [domain]
   indicator: reptilicus.net
   app: Reptilicus
-- type: ipv4
+- tags: [ipv4]
   indicator: 176.9.42.16
   app: Reptilicus
-- type: domain
+- tags: [c2]
   indicator: www.shadow-logs.com
   app: ShadowSpy
-- type: domain
+- tags: [domain]
   indicator: shadow-spy.com
   app: ShadowSpy
-- type: domain
+- tags: [domain]
   indicator: snoopza.com
   app: Snoopza
-- type: domain
+- tags: [c2]
   indicator: my.snoopza.com
   app: Snoopza
-- type: domain
+- tags: [c2]
   indicator: my2.snoopza.com
   app: Snoopza
-- type: domain
+- tags: [c2]
   indicator: api.snoopza.com
   app: Snoopza
-- type: ipv4
+- tags: [ipv4]
   indicator: 217.182.250.165
   app: Snoopza
-- type: ipv4
+- tags: [ipv4]
   indicator: 46.105.57.148
   app: Snoopza
-- type: domain
+- tags: [domain]
   indicator: www.spy-datacenter.com
   app: Spy Phone App
-- type: domain
+- tags: [domain]
   indicator: spy2mobile.com
   app: Spy2mobile
-- type: domain
+- tags: [domain]
   indicator: spytomobile.com
   app: Spy2mobile
-- type: domain
+- tags: [domain]
   indicator: sap4mobile.com
   app: Spy2mobile
-- type: ipv4
+- tags: [ipv4]
   indicator: 139.59.125.208
   app: Spy2mobile
-- type: domain
+- tags: [c2]
   indicator: tchsrvce.com
   app: TalkLog
-- type: domain
+- tags: [domain]
   indicator: talklog.tools
   app: TalkLog
-- type: ipv4
+- tags: [ipv4]
   indicator: 78.46.34.14
   app: TalkLog
-- type: domain
+- tags: [c2]
   indicator: icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: thetruth-db94a.firebaseio.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a7xx.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a740.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a743.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a746.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a747.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a748.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a749.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a8xx.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a810.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a820.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a825.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a830.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a835.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a895.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a910.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a915.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a920.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a925.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a930.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a935.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a940.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a941.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a942.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: my.thespyapp.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a.thespyapp.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a100.thespyapp.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: sync-a.thespyapp.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: sync-a100.thespyapp.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a.thespyapp.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: media-sync-a100.thespyapp.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a6.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a610.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a611.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a72.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a720.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a721.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a722.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a723.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a724.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a725.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a726.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a727.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a728.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a729.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a730.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a731.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a732.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a733.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a734.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a735.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a736.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a737.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a738.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a739.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a740.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a741.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a742.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a743.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a744.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a745.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a746.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a747.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a748.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a749.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a810.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a910.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a915.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a920.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a925.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a930.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a935.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a940.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a941.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a942.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-monitor.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a720.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a722.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a724.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a725.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a726.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a727.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a729.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a732.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a733.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a734.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a735.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a737.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a738.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a740.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a741.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a742.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a743.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a744.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a745.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a746.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a747.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a748.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a910.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a915.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail-a920.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: setupmail.icloudappe.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: sync-a.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: sync-a7xx.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: sync-a8xx.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: sync-a925.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: sync-a930.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: sync-a935.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: sync-a940.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: sync-a941.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: sync-a942.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [domain]
   indicator: thetruthspy.com
   app: TheTruthSpy
-- type: ipv4
+- tags: [ipv4]
   indicator: 69.64.74.239
   app: TheTruthSpy
-- type: ipv4
+- tags: [ipv4]
   indicator: 69.64.81.49
   app: TheTruthSpy
-- type: ipv4
+- tags: [ipv4]
   indicator: 69.64.81.98
   app: TheTruthSpy
-- type: ipv4
+- tags: [ipv4]
   indicator: 69.64.91.29
   app: TheTruthSpy
-- type: domain
+- tags: [domain]
   indicator: trackmyphones.com
   app: Track My Phones
-- type: domain
+- tags: [domain]
   indicator: www.trackmyphones.com
   app: Track My Phones
-- type: domain
+- tags: [c2]
   indicator: mycloud1.wisemo.com
   app: WiseMo
-- type: domain
+- tags: [c2]
   indicator: mycloud.wisemo.com
   app: WiseMo
-- type: domain
+- tags: [domain]
   indicator: xnore.com
   app: Xnore
-- type: ipv4
+- tags: [ipv4]
   indicator: 162.144.212.52
   app: Xnore
-- type: ipv4
+- tags: [ipv4]
   indicator: 167.114.114.207
   app: AppSpy
-- type: domain
+- tags: [domain]
   indicator: catwatchful.com
   app: Catwatchful
-- type: ipv4
+- tags: [ipv4]
   indicator: 45.114.224.147
   app: Catwatchful
-- type: ipv4
+- tags: [ipv4]
   indicator: 162.144.75.253
   app: Catwatchful
-- type: domain
+- tags: [domain]
   indicator: copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: secondclone-2d312.firebaseio.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: my.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a621.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a610.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a611.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a612.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a614.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a615.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a616.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a617.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a618.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a620.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a621.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a69.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a696.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a710.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a780.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-a785.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol-viewer-a.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: protocol.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: sync-a.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: media-sync-a.copy9.com
   app: Copy9
-- type: domain
+- tags: [c2]
   indicator: thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a723.thetruthspy.com
   app: TheTruthSpy
-- type: domain
+- tags: [c2]
   indicator: 97.logger.mobi
   app: EasyLogger
-- type: domain
+- tags: [c2]
   indicator: logger.mobi
   app: EasyLogger
-- type: domain
+- tags: [c2]
   indicator: trkps.com
   app: Flexispy
-- type: domain
+- tags: [domain]
   indicator: flexispy.com
   app: Flexispy
-- type: domain
+- tags: [c2]
   indicator: client.mobilefonex.com
   app: Flexispy
-- type: domain
+- tags: [c2]
   indicator: test-client.mobilefonex.com
   app: Flexispy
-- type: domain
+- tags: [c2]
   indicator: push.mobilefonex.com
   app: Flexispy
-- type: domain
+- tags: [c2]
   indicator: mflx.biz
   app: Flexispy
-- type: domain
+- tags: [c2]
   indicator: dmw.bz
   app: Flexispy
-- type: domain
+- tags: [c2]
   indicator: djp.bz
   app: Flexispy
-- type: domain
+- tags: [c2]
   indicator: dmw.cc
   app: Flexispy
-- type: ipv4
+- tags: [ipv4]
   indicator: 119.8.35.235
   app: Flexispy
-- type: domain
+- tags: [c2]
   indicator: protocol-a.guestspy.com
   app: GuestSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a5.guestspy.com
   app: GuestSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a65.guestspy.com
   app: GuestSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a70.guestspy.com
   app: GuestSpy
-- type: domain
+- tags: [c2]
   indicator: protocol.guestspy.com
   app: GuestSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a58.guestspy.com
   app: GuestSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a59.guestspy.com
   app: GuestSpy
-- type: domain
+- tags: [c2]
   indicator: protocol-a60.guestspy.com
   app: GuestSpy
-- type: domain
+- tags: [domain]
   indicator: guestspy.com
   app: GuestSpy
-- type: domain
+- tags: [c2]
   indicator: evt17.com
   app: HighsterMobile
-- type: domain
+- tags: [c2]
   indicator: cellphoneservices.info
   app: HighsterMobile
-- type: domain
+- tags: [c2]
   indicator: device-ac480.firebaseio.com
   app: HighsterMobile
-- type: domain
+- tags: [c2]
   indicator: device-ac480.appspot.com
   app: HighsterMobile
-- type: domain
+- tags: [c2]
   indicator: ac480.firebaseio.com
   app: HighsterMobile
-- type: domain
+- tags: [c2, domain]
   indicator: ddiutilities.com
   app: DDI Utilities
-- type: domain
+- tags: [c2]
   indicator: account.refog.com
   app: Hoverwatch
-- type: domain
+- tags: [domain]
   indicator: hoverwatch.com
   app: Hoverwatch
-- type: domain
+- tags: [c2]
   indicator: hwa.cab
   app: Hoverwatch
-- type: domain
+- tags: [c2]
   indicator: a.hwa.cab
   app: Hoverwatch
-- type: domain
+- tags: [c2]
   indicator: a.hw.cab
   app: Hoverwatch
-- type: domain
+- tags: [c2]
   indicator: i.hoverwatch.com
   app: Hoverwatch
-- type: domain
+- tags: [c2]
   indicator: rec.hw.cab
   app: Hoverwatch
-- type: ipv4
+- tags: [ipv4]
   indicator: 198.100.150.203
   app: Hoverwatch
-- type: domain
+- tags: [c2]
   indicator: imonitor-da8b2.firebaseio.com
   app: iMonitorSpy
-- type: domain
+- tags: [c2]
   indicator: imonitorke.com
   app: iMonitorSpy
-- type: domain
+- tags: [domain]
   indicator: www.imonitorsoft.cn
   app: iMonitorSpy
-- type: domain
+- tags: [domain]
   indicator: www.imonitorsoft.com
   app: iMonitorSpy
-- type: domain
+- tags: [c2, domain]
   indicator: letmespy.com
   app: LetMeSpy
-- type: domain
+- tags: [c2]
   indicator: remotecommands.com
   app: LetMeSpy
-- type: domain
+- tags: [domain]
   indicator: www.mspyonline.com
   app: mspy
-- type: domain
+- tags: [c2]
   indicator: my.mspyonline.com
   app: mspy
-- type: domain
+- tags: [c2]
   indicator: cp.mspyonline.com
   app: mspy
-- type: domain
+- tags: [c2]
   indicator: repo.mspyonline.com
   app: mspy
-- type: domain
+- tags: [c2]
   indicator: thd.cc
   app: mspy
-- type: domain
+- tags: [c2]
   indicator: a.thd.cc
   app: mspy
-- type: domain
+- tags: [c2]
   indicator: pipe.thd.cc
   app: mspy
-- type: domain
+- tags: [c2]
   indicator: b55y.net
   app: mspy
-- type: domain
+- tags: [c2]
   indicator: getmspy.net
   app: mspy
-- type: domain
+- tags: [c2]
   indicator: protocol-a.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: protocol-a745.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: protocol-a780.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: project-323448153542050953.firebaseio.com
   app: mspy
-- type: domain
+- tags: [c2]
   indicator: protocol-a811.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: www.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: protocol.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: protocol-a810.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: protocol-a811.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: protocol-a89.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: protocol.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: protocol.systemserviceprovider.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: media-sync.systemserviceprovider.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: sync-a.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: sync-a780.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: www.mxspy.com
   app: mxspy
-- type: domain
+- tags: [c2]
   indicator: www.phonespying.com
   app: PhoneSpying
-- type: domain
+- tags: [c2]
   indicator: spyzee.com
   app: PhoneSpying
-- type: domain
+- tags: [c2]
   indicator: microtracker-1ca43.firebaseio.com
   app: PhoneSpying
-- type: domain
+- tags: [c2]
   indicator: 1ca43.appspot.com
   app: PhoneSpying
-- type: domain
+- tags: [c2]
   indicator: reptilicus.net
   app: Repticulus
-- type: domain
+- tags: [c2]
   indicator: data.reptilicus.net
   app: Repticulus
-- type: domain
+- tags: [c2]
   indicator: proxy.reptilicus.net
   app: Repticulus
-- type: domain
+- tags: [c2]
   indicator: rp.apollospy.com
   app: Repticulus
-- type: domain
+- tags: [c2]
   indicator: client.spyhide.com
   app: SpyHide
-- type: domain
+- tags: [website]
   indicator: spyhide.com
   app: SpyHide
-- type: domain
+- tags: [c2]
   indicator: account.cellphone-remote-tracker.com
   app: SpyHide
-- type: domain
+- tags: [c2]
   indicator: cellphone-remote-tracker.com
   app: SpyHide
-- type: domain
+- tags: [website]
   indicator: www.spyhide.com
   app: SpyHide
-- type: domain
+- tags: [website]
   indicator: spyhide.ir
   app: SpyHide
-- type: domain
+- tags: [website]
   indicator: www.spyhide.ir
   app: SpyHide
-- type: domain
+- tags: [c2]
   indicator: client.spyhide.ir
   app: SpyHide
-- type: domain
+- tags: [c2]
   indicator: virsis.net
   app: SpyHide
-- type: ipv4
+- tags: [ipv4]
   indicator: 78.47.16.3
   app: SpyHide
-- type: domain
+- tags: [website]
   indicator: www.spy-phone-app.com
   app: SpyPhoneApp
-- type: domain
+- tags: [c2]
   indicator: www.spy-datacenter.com
   app: SpyPhoneApp
-- type: domain
+- tags: [c2]
   indicator: www.spappmonitoring.com
   app: SpyPhoneApp
-- type: domain
+- tags: [c2]
   indicator: media-sync-a.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: media-sync-a100.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: media-sync-a600.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: media-sync-a621.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: media-sync-a696.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: media-sync-a710.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: media-sync-a780.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: media-sync-a785.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: sync-a100.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: protocol-a.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: protocol-a100.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: protocol-a600.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: protocol-a712.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: protocol-a780.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: protocol-a785.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: sync-a.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: sync-a600.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: sync-a712.fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: fonetracker.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: media-sync-a.exactspy.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: sync-a.exactspy.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: protocol-a.exactspy.com
   app: FoneTracker
-- type: domain
+- tags: [c2]
   indicator: www.netspy.net
   app: NetSpy
-- type: domain
+- tags: [website]
   indicator: netspy.net
   app: NetSpy
-- type: domain
+- tags: [c2]
   indicator: netspy-7b8ec.firebaseio.com
   app: NetSpy
-- type: domain
+- tags: [c2]
   indicator: app-api.spyzie.com
   app: Spyzie
-- type: domain
+- tags: [c2]
   indicator: my.spyzie.com
   app: Spyzie
-- type: domain
+- tags: [c2]
   indicator: app.api.spyzie.wondershare.cn
   app: Spyzie
-- type: domain
+- tags: [c2]
   indicator: data.api.spyzie.wondershare.cn
   app: Spyzie
-- type: domain
+- tags: [c2]
   indicator: data-api.spyzie.com
   app: Spyzie
-- type: domain
+- tags: [c2]
   indicator: www.spyzie.com
   app: Spyzie
-- type: domain
+- tags: [c2]
   indicator: i.spyzie.io
   app: Spyzie
-- type: domain
+- tags: [c2]
   indicator: alog.umeng.com
   app: Spyzie
-- type: domain
+- tags: [c2]
   indicator: appjiagu.com
   app: Spyzie
-- type: domain
+- tags: [c2]
   indicator: b.appjiagu.com
   app: Spyzie
-- type: domain
+- tags: [c2]
   indicator: s.appjiagu.com
   app: Spyzie
-- type: domain
+- tags: [website, c2]
   indicator: neospy.pro
   app: NeoSpy
-- type: domain
+- tags: [website, c2]
   indicator: neospy.net
   app: NeoSpy
-- type: domain
+- tags: [website, c2]
   indicator: neospy.tech
   app: NeoSpy
-- type: domain
-  indicator: neospy.tech
-  app: NeoSpy
-- type: domain
+- tags: [c2]
   indicator: i6.clientreport.info
   app: NeoSpy
-- type: domain
+- tags: [c2]
   indicator: i7.clientreport.info
   app: NeoSpy
-- type: domain
+- tags: [c2]
   indicator: i11.clientreport.info
   app: NeoSpy
-- type: domain
+- tags: [c2]
   indicator: i12.clientreport.info
   app: NeoSpy
-- type: domain
+- tags: [c2]
   indicator: i13.clientreport.info
   app: NeoSpy
-- type: domain
+- tags: [c2]
   indicator: clientreport.info
   app: NeoSpy
-- type: domain
+- tags: [c2]
   indicator: server.androidmonitor.com
   app: AndroidMonitor
-- type: domain
+- tags: [c2]
   indicator: www.androidmonitor.com
   app: AndroidMonitor
-- type: domain
+- tags: [c2]
   indicator: alltracker.org
   app: AllTracker
-- type: domain
+- tags: [c2]
   indicator: staging-all-tracker.appspot.com
   app: AllTracker
-- type: domain
+- tags: [c2]
   indicator: 6-dot-all-tracker.appspot.com
   app: AllTracker
-- type: domain
+- tags: [c2]
   indicator: 4-dot-all-tracker.appspot.com
   app: AllTracker
-- type: domain
+- tags: [website]
   indicator: www.mobistealth.com
   app: Mobistealth
-- type: domain
+- tags: [c2]
   indicator: dwn.vys.me
   app: Mobistealth
-- type: domain
+- tags: [c2]
   indicator: www.vys.me
   app: Mobistealth
-- type: ipv4
+- tags: [ipv4]
   indicator: 5.79.71.114
   app: Mobistealth
-- type: domain
+- tags: [c2]
   indicator: talklog.tools
   app: TalkLog
-- type: domain
+- tags: [c2]
   indicator: tchsrvce.com
   app: TalkLog
-- type: domain
+- tags: [website]
   indicator: xnspy.com
   app: XNSpy
-- type: domain
+- tags: [c2]
   indicator: sync.xiz4me.com
   app: XNSpy
-- type: domain
+- tags: [website]
   indicator: www.cerberusapp.com
   app: Cerberus
-- type: domain
+- tags: [c2]
   indicator: 6kvses.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: bincdi.6kvses.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: bincdi.birxpk.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: birxpk.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: dz7.wethnc067.xyz
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: hzdy.birxpk.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: ixhtb.s9gxw8.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: kvshdi.birxpk.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: mobiletool.ru
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: mrswd.wo87sf.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: mtoolapp.net
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: my.mobiletool.ru
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: mzpgfh.uhabq9.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: noujx.s9gxw8.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: s9gxw8.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: ug1c5v.birxpk.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: wethnc067.xyz
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: xmyevq.birxpk.com
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: www.mtoolapp.net
   app: MobileTool
-- type: domain
+- tags: [c2]
   indicator: apk.mtf.re
   app: MobileTrackerFree
-- type: domain
+- tags: [c2]
   indicator: mtf.re
   app: MobileTrackerFree
-- type: domain
+- tags: [c2]
   indicator: d.d-app-apk.com
   app: MobileTrackerFree
-- type: domain
+- tags: [c2]
   indicator: d-app-apk.com
   app: MobileTrackerFree
-- type: domain
+- tags: [c2]
   indicator: mobile-tracker-data.com
   app: MobileTrackerFree
-- type: domain
+- tags: [c2]
   indicator: myappmobile-537f7.firebaseio.com
   app: MobileTrackerFree
-- type: domain
+- tags: [c2]
   indicator: sp.kuuvv.com
   app: Cocospy
-- type: domain
+- tags: [website]
   indicator: cocospy.com
   app: Cocospy
-- type: domain
+- tags: [c2]
   indicator: i.minspy.com
   app: Cocospy
-- type: domain
+- tags: [c2]
   indicator: i.neatspy.com
   app: Cocospy
-- type: domain
+- tags: [c2]
   indicator: i.spyic.com
   app: Cocospy
-- type: domain
+- tags: [c2]
   indicator: i.spyier.com
   app: Cocospy
-- type: domain
+- tags: [c2]
   indicator: aovivo.foxspy.com.br
   app: Espiao Android
-- type: domain
+- tags: [c2]
   indicator: pc.foxspy.com.br
   app: Espiao Android
-- type: domain
+- tags: [c2]
   indicator: servidor.in
   app: Meuspy
-- type: domain
+- tags: [c2]
   indicator: n.servidor.in
   app: Meuspy
-- type: domain
+- tags: [c2]
   indicator: l.servidor.in
   app: Meuspy
-- type: domain
+- tags: [c2]
   indicator: celular007.s3.amazonaws.com
   app: Espiao Android
-- type: domain
+- tags: [c2]
   indicator: s1.spylive360.com
   app: Spylive360
-- type: domain
+- tags: [c2]
   indicator: s2.spylive360.com
   app: Spylive360
-- type: domain
+- tags: [c2]
   indicator: s3.spylive360.com
   app: Spylive360
-- type: domain
+- tags: [c2]
   indicator: spylive360.com
   app: Spylive360
-- type: domain
+- tags: [c2]
   indicator: senseye.spymasterpro.com
   app: SpyMasterPro
-- type: domain
+- tags: [website]
   indicator: spymasterpro.com
   app: SpyMasterPro
-- type: domain
+- tags: [website]
   indicator: www.spymasterpro.com
   app: SpyMasterPro
-- type: domain
+- tags: [c2]
   indicator: imobispy.com
   app: SpyMasterPro
-- type: ipv4
+- tags: [ipv4]
   indicator: 91.121.70.22
   app: SpyMasterPro
-- type: domain
+- tags: [c2]
   indicator: ikm.awsapi.io
   app: iKeyMonitor
-- type: domain
+- tags: [c2]
   indicator: emcpanel.com
   app: iKeyMonitor
-- type: domain
+- tags: [c2]
   indicator: users.easemon.com
   app: iKeyMonitor
-- type: domain
+- tags: [c2]
   indicator: ikeymonitor.com
   app: iKeyMonitor
-- type: domain
+- tags: [c2]
   indicator: 83dd4.appspot.com
   app: iKeyMonitor
-- type: domain
+- tags: [c2]
   indicator: users.awosoft.com
   app: iKeyMonitor
-- type: ipv4
+- tags: [ipv4]
   indicator: 172.67.82.183
   app: iKeyMonitor
-- type: ipv4
+- tags: [ipv4]
   indicator: 104.25.170.109
   app: iKeyMonitor
-- type: ipv4
+- tags: [ipv4]
   indicator: 104.25.169.109
   app: iKeyMonitor
-- type: ipv4
+- tags: [ipv4]
   indicator: 104.26.15.56
   app: iKeyMonitor
-- type: ipv4
+- tags: [ipv4]
   indicator: 172.67.73.2
   app: iKeyMonitor
-- type: ipv4
+- tags: [ipv4]
   indicator: 104.26.14.56
   app: iKeyMonitor
-- type: ipv4
+- tags: [ipv4]
   indicator: 172.67.194.85
   app: iKeyMonitor
-- type: ipv4
+- tags: [ipv4]
   indicator: 104.18.54.129
   app: iKeyMonitor
-- type: ipv4
+- tags: [ipv4]
   indicator: 104.18.55.129
   app: iKeyMonitor
-- type: domain
+- tags: [c2]
   indicator: spyhuman.com
   app: SpyHuman
-- type: domain
+- tags: [c2]
   indicator: apispyhuman.com
   app: SpyHuman
-- type: ipv4
+- tags: [ipv4]
   indicator: 213.239.228.196
   app: SpyHuman
-- type: domain
+- tags: [c2]
   indicator: i.neatspy.com
   app: NeatSpy
-- type: domain
+- tags: [c2]
   indicator: i.safespy.com
   app: SafeSpy
-- type: domain
+- tags: [c2]
   indicator: i.spyier.com
   app: Spyier
-- type: domain
+- tags: [c2]
   indicator: i.spyine.com
   app: Spyine
-- type: domain
+- tags: [c2]
   indicator: trackine.vip
   app: Spyine
-- type: domain
+- tags: [c2]
   indicator: i.minspy.com
   app: MinSpy
-- type: domain
+- tags: [c2]
   indicator: i.spyic.com
   app: Spyic
-- type: domain
+- tags: [c2]
   indicator: viptrack.pro
   app: Spyic
-- type: domain
+- tags: [c2]
   indicator: us.umobix.com
   app: uMobix
-- type: domain
+- tags: [c2]
   indicator: lb.theonespy.com
   app: TheOneSpy
-- type: domain
+- tags: [c2]
   indicator: im.theonespy.com
   app: TheOneSpy
-- type: domain
+- tags: [c2]
   indicator: node-api.theonespy.com
   app: TheOneSpy
-- type: domain
+- tags: [c2]
   indicator: node1.theonespy.com
   app: TheOneSpy
-- type: domain
+- tags: [c2]
   indicator: node2.theonespy.com
   app: TheOneSpy
-- type: domain
+- tags: [c2]
   indicator: node3.theonespy.com
   app: TheOneSpy
-- type: domain
+- tags: [c2]
   indicator: node4.theonespy.com
   app: TheOneSpy
-- type: domain
+- tags: [c2]
   indicator: node5.theonespy.com
   app: TheOneSpy
-- type: ipv4
+- tags: [ipv4]
   indicator: 85.13.218.229
   app: TheOneSpy
-- type: ipv4
+- tags: [ipv4]
   indicator: 85.13.206.195
   app: TheOneSpy
-- type: domain
+- tags: [c2]
   indicator: v4vw4ytvo4.execute-api.us-east-2.amazonaws.com
   app: pcTattletale
-- type: domain
+- tags: [c2]
   indicator: pctattletalev2.s3.amazonaws.com
   app: pcTattletale
-- type: domain
+- tags: [c2]
   indicator: sync.bk128.com
   app: TrackMyFone
-- type: domain
+- tags: [c2]
   indicator: asset.bk128.com
   app: TrackMyFone
-- type: domain
+- tags: [c2]
   indicator: alert.bk128.com
   app: TrackMyFone
-- type: domain
+- tags: [c2]
   indicator: bk128.com
   app: TrackMyFone
-- type: domain
+- tags: [c2]
   indicator: www.mydwnd.com
   app: TrackMyFone
-- type: domain
+- tags: [c2]
   indicator: mydwnd.com
   app: TrackMyFone
-- type: domain
+- tags: [c2]
   indicator: panel.spy24.net
   app: Spy24
-- type: domain
+- tags: [c2]
   indicator: api.clevguard.com
   app: ClevGuard
-- type: domain
+- tags: [c2]
   indicator: kidsguard-6c6a9.firebaseio.com
   app: ClevGuard
-- type: domain
+- tags: [website]
   indicator: clevguard.net
   app: ClevGuard
-- type: ipv4
+- tags: [ipv4]
   indicator: 47.88.63.70
   app: ClevGuard
-- type: domain
+- tags: [c2, victim_download]
   indicator: panspy.me
   app: PanSpy
-- type: domain
+- tags: [c2]
   indicator: ali.panspy.com
   app: PanSpy
-- type: domain
+- tags: [c2]
   indicator: u1.panspy.com
   app: PanSpy
-- type: domain
+- tags: [c2]
   indicator: s1.panspy.com
   app: PanSpy
-- type: domain
+- tags: [c2]
   indicator: c1.panspy.com
   app: PanSpy
-- type: domain
+- tags: [c2]
   indicator: d1.panspy.com
   app: PanSpy
-- type: domain
+- tags: [c2]
   indicator: panspy-1.oss-us-west-1.aliyuncs.com
   app: PanSpy
-- type: domain
+- tags: [c2]
   indicator: bark-android-media.s3.amazonaws.com
   app: Bark
-- type: domain
+- tags: [website]
   indicator: www.bark.us
   app: Bark
-- type: domain
+- tags: [c2]
   indicator: send.onespy.com
   app: OneMonitar
-- type: domain
+- tags: [c2]
   indicator: studio11-7e288.firebaseio.com
   app: EasyPhoneTrack
-- type: domain
+- tags: [c2]
   indicator: trackmy.mobi
   app: EasyPhoneTrack
-- type: domain
+- tags: [c2]
   indicator: celltracker.mobi
   app: EasyPhoneTrack
-- type: domain
+- tags: [c2]
   indicator: www.spy-datacenter.com
   app: EasyPhoneTrack
-- type: domain
+- tags: [c2]
   indicator: spy-datacenter.com
   app: EasyPhoneTrack
-- type: domain
+- tags: [c2]
   indicator: cell-phones-tracker.net
   app: EasyPhoneTrack
-- type: domain
+- tags: [c2]
   indicator: app.antifurtodroid.com
   app: AntiFurtoDroid
-- type: domain
+- tags: [c2]
   indicator: tracksp-7743c.firebaseio.com
   app: AiSpyer
-- type: domain
+- tags: [c2]
   indicator: services.spytoapp.com
   app: SpyToApp
-- type: domain
+- tags: [c2]
   indicator: spyapp-8916f.firebaseio.com
   app: BlurSpy
-- type: domain
+- tags: [c2]
   indicator: api.bytepioner.com
   app: CoupleTracker
-- type: domain
+- tags: [c2]
   indicator: sap4mobile-89685.firebaseio.com
   app: Smart Aggregation PLatform
-- type: domain
+- tags: [c2]
   indicator: 89685.firebaseio.com
   app: Smart Aggregation PLatform
-- type: domain
+- tags: [c2]
   indicator: 89685.appspot.com
   app: Aggregation PLatform
-- type: domain
+- tags: [c2]
   indicator: api-project-999803017449.firebaseio.com
   app: Cerberus
-- type: domain
+- tags: [c2]
   indicator: a71f4.firebaseio.com
   app: DDI Utilities
-- type: domain
+- tags: [c2]
   indicator: asgard-f8c53.firebaseio.com
   app: GPSTrackerLoki
-- type: domain
+- tags: [c2]
   indicator: m.asgardtech.ru
   app: GPSTrackerLoki
-- type: domain
+- tags: [c2]
   indicator: app.foreverspy.com
   app: ForeverSpy
-- type: domain
+- tags: [c2]
   indicator: video-recorder-c0419.firebaseio.com
   app: trackmyphones
-- type: domain
+- tags: [c2, website]
   indicator: www.trackmyphones.com
   app: trackmyphones
-- type: domain
+- tags: [c2, website]
   indicator: trackmyphones.com
   app: trackmyphones
-- type: domain
+- tags: [c2]
   indicator: message-tracker-98822.firebaseio.com
   app: trackmyphones
-- type: domain
+- tags: [c2]
   indicator: cell-tracker-green.firebaseio.com
   app: trackmyphones
-- type: domain
+- tags: [c2]
   indicator: trackmyphones-pro.firebaseio.com
   app: trackmyphones
-- type: domain
+- tags: [c2]
   indicator: androidlost.appspot.com
   app: androidlost
-- type: domain
+- tags: [c2]
   indicator: androidlost.firebaseio.com
   app: androidlost
-- type: domain
+- tags: [website]
   indicator: www.androidlost.com
   app: androidlost
-- type: domain
+- tags: [c2]
   indicator: test.androidlost.com
   app: androidlost
-- type: domain
+- tags: [c2]
   indicator: new.androidlost.com
   app: androidlost
-- type: domain
+- tags: [c2]
   indicator: webdetetive.com.br
   app: OwnSpy
-- type: domain
+- tags: [c2]
   indicator: 6287970dd9.era3000.com
   app: OwnSPy
-- type: domain
+- tags: [c2]
   indicator: user.ownspy.es
   app: OwnSPy
-- type: domain
+- tags: [c2]
   indicator: mobileinnova.net
   app: OwnSPy
-- type: domain
+- tags: [c2]
   indicator: www.phonesheriff.com
   app: phonesheriff
-- type: domain
+- tags: [c2]
   indicator: phonesheriff.com
   app: phonesheriff
-- type: domain
+- tags: [c2]
   indicator: mobilenannylogs.com
   app: phonesheriff
-- type: domain
+- tags: [c2]
   indicator: www.emobilespy.com
   app: phonesheriff
-- type: domain
+- tags: [c2]
   indicator: www.mobile-spy.com
   app: phonesheriff
-- type: domain
+- tags: [website]
   indicator: xyspy.com
   app: XySpy
-- type: domain
+- tags: [c2]
   indicator: app.xyspy.com
   app: XySpy
-- type: domain
+- tags: [c2]
   indicator: phonetracking.net
   app: PhoneTracker
-- type: domain
+- tags: [c2]
   indicator: app.mobiletracking.app
   app: PhoneTracker
-- type: domain
+- tags: [c2]
   indicator: phonetracking-dd226.firebaseio.com
   app: PhoneTracker
-- type: domain
+- tags: [c2]
   indicator: spyadvice.com
   app: SpyAdvice
-- type: domain
+- tags: [c2]
   indicator: phonetracking-dd226.firebaseio.com
   app: SpyAdvice
 
