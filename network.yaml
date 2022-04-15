@@ -2,6 +2,7 @@
 # tags can be:
 #  - c2: command and control
 #  - domain: main website of the stalkerware
+#  - ipv4: ipv4 of a C2
 #  - victim_download: website to download the stalkerware from the victim phone
 #
 
@@ -539,11 +540,8 @@
 - tags: [ipv4]
   indicator: 69.64.91.29
   app: TheTruthSpy
-- tags: [domain]
-  indicator: trackmyphones.com
-  app: Track My Phones
-- tags: [domain]
-  indicator: www.trackmyphones.com
+- tags: [c2]
+  indicator: spyaudiorecorder.firebaseio.com
   app: Track My Phones
 - tags: [c2]
   indicator: mycloud1.wisemo.com
@@ -872,7 +870,7 @@
 - tags: [c2]
   indicator: client.spyhide.com
   app: SpyHide
-- tags: [website]
+- tags: [domain]
   indicator: spyhide.com
   app: SpyHide
 - tags: [c2]
@@ -881,13 +879,13 @@
 - tags: [c2]
   indicator: cellphone-remote-tracker.com
   app: SpyHide
-- tags: [website]
+- tags: [domain]
   indicator: www.spyhide.com
   app: SpyHide
-- tags: [website]
+- tags: [domain]
   indicator: spyhide.ir
   app: SpyHide
-- tags: [website]
+- tags: [domain]
   indicator: www.spyhide.ir
   app: SpyHide
 - tags: [c2]
@@ -899,7 +897,7 @@
 - tags: [ipv4]
   indicator: 78.47.16.3
   app: SpyHide
-- tags: [website]
+- tags: [domain]
   indicator: www.spy-phone-app.com
   app: SpyPhoneApp
 - tags: [c2]
@@ -977,7 +975,7 @@
 - tags: [c2]
   indicator: www.netspy.net
   app: NetSpy
-- tags: [website]
+- tags: [domain]
   indicator: netspy.net
   app: NetSpy
 - tags: [c2]
@@ -1016,13 +1014,13 @@
 - tags: [c2]
   indicator: s.appjiagu.com
   app: Spyzie
-- tags: [website, c2]
+- tags: [domain, c2]
   indicator: neospy.pro
   app: NeoSpy
-- tags: [website, c2]
+- tags: [domain, c2]
   indicator: neospy.net
   app: NeoSpy
-- tags: [website, c2]
+- tags: [domain, c2]
   indicator: neospy.tech
   app: NeoSpy
 - tags: [c2]
@@ -1061,7 +1059,7 @@
 - tags: [c2]
   indicator: 4-dot-all-tracker.appspot.com
   app: AllTracker
-- tags: [website]
+- tags: [domain]
   indicator: www.mobistealth.com
   app: Mobistealth
 - tags: [c2]
@@ -1079,13 +1077,13 @@
 - tags: [c2]
   indicator: tchsrvce.com
   app: TalkLog
-- tags: [website]
+- tags: [domain]
   indicator: xnspy.com
   app: XNSpy
 - tags: [c2]
   indicator: sync.xiz4me.com
   app: XNSpy
-- tags: [website]
+- tags: [domain]
   indicator: www.cerberusapp.com
   app: Cerberus
 - tags: [c2]
@@ -1166,7 +1164,7 @@
 - tags: [c2]
   indicator: sp.kuuvv.com
   app: Cocospy
-- tags: [website]
+- tags: [domain]
   indicator: cocospy.com
   app: Cocospy
 - tags: [c2]
@@ -1214,10 +1212,10 @@
 - tags: [c2]
   indicator: senseye.spymasterpro.com
   app: SpyMasterPro
-- tags: [website]
+- tags: [domain]
   indicator: spymasterpro.com
   app: SpyMasterPro
-- tags: [website]
+- tags: [domain]
   indicator: www.spymasterpro.com
   app: SpyMasterPro
 - tags: [c2]
@@ -1370,7 +1368,7 @@
 - tags: [c2]
   indicator: kidsguard-6c6a9.firebaseio.com
   app: ClevGuard
-- tags: [website]
+- tags: [domain]
   indicator: clevguard.net
   app: ClevGuard
 - tags: [ipv4]
@@ -1400,7 +1398,7 @@
 - tags: [c2]
   indicator: bark-android-media.s3.amazonaws.com
   app: Bark
-- tags: [website]
+- tags: [domain]
   indicator: www.bark.us
   app: Bark
 - tags: [c2]
@@ -1465,12 +1463,12 @@
   app: ForeverSpy
 - tags: [c2]
   indicator: video-recorder-c0419.firebaseio.com
-  app: trackmyphones
-- tags: [c2, website]
-  indicator: www.trackmyphones.com
-  app: trackmyphones
-- tags: [c2, website]
+
+- tags: [domain, c2]
   indicator: trackmyphones.com
+  app: Track My Phones
+- tags: [c2, domain]
+  indicator: www.trackmyphones.com
   app: trackmyphones
 - tags: [c2]
   indicator: message-tracker-98822.firebaseio.com
@@ -1482,12 +1480,16 @@
   indicator: trackmyphones-pro.firebaseio.com
   app: trackmyphones
 - tags: [c2]
+  indicator: key-logger-90fff.firebaseio.com
+  app: trackmyphones
+
+- tags: [c2]
   indicator: androidlost.appspot.com
   app: androidlost
 - tags: [c2]
   indicator: androidlost.firebaseio.com
   app: androidlost
-- tags: [website]
+- tags: [domain]
   indicator: www.androidlost.com
   app: androidlost
 - tags: [c2]
@@ -1523,7 +1525,7 @@
 - tags: [c2]
   indicator: www.mobile-spy.com
   app: phonesheriff
-- tags: [website]
+- tags: [domain]
   indicator: xyspy.com
   app: XySpy
 - tags: [c2]

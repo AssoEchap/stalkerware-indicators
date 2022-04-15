@@ -374,6 +374,7 @@
   name: GPSTrackerLoki
 - package: com.metasploit.stage
   name: ForeverSpy
+
 - package: com.app.keylogger
   name: trackmyphones
 - package: com.app.videorec
@@ -396,6 +397,17 @@
   name: trackmyphones
 - package: com.trackmyphones.tmpusingchatmessages
   name: trackmyphones
+- package: com.app.spy_call_recorder
+  name: trackmyphones
+- package: com.app.audiorec
+  name: trackmyphones
+- package: com.gcm_call_sms_tracker
+  name: trackmyphones
+- package: com.app.call_rec_hidden
+  name: trackmyphones
+- package: com.apps.anti_theft
+  name: trackmyphones
+
 - package: com.androidlost 
   name: androidlost
 - package: com.androidlost.smshandler
