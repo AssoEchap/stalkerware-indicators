@@ -120,12 +120,30 @@
 - tags: [c2]
   indicator: my.mobispy.net
   app: mobispy
-- tags: [domain]
+
+# Reptilicus / Vkur / CyberNanny
+- tags: [domain, c2]
   indicator: reptilicus.net
   app: Reptilicus
 - tags: [ipv4]
   indicator: 176.9.42.16
   app: Reptilicus
+- tags: [c2]
+  indicator: data.reptilicus.net
+  app: Repticulus
+- tags: [c2]
+  indicator: proxy.reptilicus.net
+  app: Repticulus
+- tags: [c2]
+  indicator: phonecontrolapp-e2c64.firebaseio.com
+  app: Repticulus
+- tags: [domain]
+  indicator: vkur1.se
+  app: Repticulus
+- tags: [domain]
+  indicator: thecybernanny.com
+  app: Repticulus
+
 - tags: [c2]
   indicator: www.shadow-logs.com
   app: ShadowSpy
@@ -856,15 +874,6 @@
   indicator: 1ca43.appspot.com
   app: PhoneSpying
 - tags: [c2]
-  indicator: reptilicus.net
-  app: Repticulus
-- tags: [c2]
-  indicator: data.reptilicus.net
-  app: Repticulus
-- tags: [c2]
-  indicator: proxy.reptilicus.net
-  app: Repticulus
-- tags: [c2]
   indicator: rp.apollospy.com
   app: Repticulus
 - tags: [c2]
@@ -1463,6 +1472,7 @@
   app: ForeverSpy
 - tags: [c2]
   indicator: video-recorder-c0419.firebaseio.com
+  app: ForeverSpy
 
 - tags: [domain, c2]
   indicator: trackmyphones.com

@@ -408,6 +408,21 @@
 - package: com.apps.anti_theft
   name: trackmyphones
 
+- package: yc.sysupd.client
+  name: reptilicus
+- package: net.reptilicus.clientapp
+  name: reptilicus
+- package: se.vkur.clientapp
+  name: reptilicus
+- package: com.thecybernanny.andapp
+  name: reptilicus
+- package: com.brot.storage.work
+  name: reptilicus
+- package: net.delphiboardlayer.androidcoreapp
+  name: reptilicus
+- package: net.androidcoreapp.androidbackup
+  name: reptilicus
+
 - package: com.androidlost 
   name: androidlost
 - package: com.androidlost.smshandler
