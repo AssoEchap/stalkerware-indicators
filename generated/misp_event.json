@@ -27319,6 +27319,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "57946df2-5d50-4ff2-9173-c42cd3ac9840",
+          "object_relation": "sha256",
+          "value": "75c76fe253a9347427793638b8a73f36a880d320fd440dcb156c9d9308459a9f",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
