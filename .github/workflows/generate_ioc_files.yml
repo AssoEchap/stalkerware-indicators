@@ -16,7 +16,7 @@ jobs:
     - name: Build IOC Files
       run: |
           pip install -r scripts/requirements.txt
-          ./generate.sh
+          python scripts/generate.py
     - name: Commit files  # transfer the json file in the repo
       run: |
         git config --local user.name  ${{ github.actor }}

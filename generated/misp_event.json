@@ -2938,6 +2938,114 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "d181cc8e-116b-4ecb-8d27-43c7101e929f",
+          "object_relation": "certificate",
+          "value": "9256e291823da741b64cb23f7e371d0940e5272e",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "b40ad6aa-d2ec-4009-b148-2be05b730c81",
+          "object_relation": "certificate",
+          "value": "2c08279bcc8eb16b2b31acfbd7e1d4bb28e49a87",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "29ac133e-5796-4fb0-a38e-72997821c10c",
+          "object_relation": "certificate",
+          "value": "230e35a26e471352df5dbdbcf9834e0711500cb0",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "c3bc249e-5f72-43ea-bc3e-4de7c2d33823",
+          "object_relation": "certificate",
+          "value": "9bd494107efed96f630d29d6e18ae4dcc47149e2",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "aff55755-ceff-4c87-b54f-625b7ab64cc1",
+          "object_relation": "certificate",
+          "value": "2fd8bef4081f126d4da655b40e9fc63f116dd857",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "132d4c03-fcf7-4657-936d-485952ed0426",
+          "object_relation": "appid",
+          "value": "net.androidcoreapp.androidbackup",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "27b92406-9fb9-433d-9209-20ef9d5abd05",
+          "object_relation": "appid",
+          "value": "net.reptilicus.clientapp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "65f14ce1-2722-4a50-9f33-e028029b9880",
+          "object_relation": "appid",
+          "value": "com.brot.storage.work",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "824c1a74-f94f-494d-961f-c8b38fbf96d2",
+          "object_relation": "appid",
+          "value": "net.delphiboardlayer.androidcoreapp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "d849f664-9a8a-4055-8f9a-16c2e40903d0",
+          "object_relation": "appid",
+          "value": "se.vkur.clientapp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "93ed37d5-899f-4025-b94b-4695f069233e",
+          "object_relation": "appid",
+          "value": "yc.sysupd.client",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "1bf1e034-47f0-489e-bd1b-b06b8b0aac94",
+          "object_relation": "appid",
+          "value": "com.thecybernanny.andapp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -8286,6 +8394,15 @@
           "uuid": "1d6905d1-1ffb-4c14-93d3-41c887364fe8",
           "object_relation": "domain",
           "value": "trackmyphones.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4496c235-8d27-4a06-8739-fad2e49446a3",
+          "object_relation": "domain",
+          "value": "spyaudiorecorder.firebaseio.com",
           "type": "domain",
           "disable_correlation": false,
           "to_ids": true,
@@ -14872,6 +14989,33 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "69b8d656-f3cb-4640-b558-a117ebfbabb3",
+          "object_relation": "domain",
+          "value": "thecybernanny.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e28a8204-dcb2-4b8c-8e28-d2127e1ffcd2",
+          "object_relation": "domain",
+          "value": "phonecontrolapp-e2c64.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c719423c-233f-45ca-8aa9-11f1c0640738",
+          "object_relation": "domain",
+          "value": "vkur1.se",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -26740,6 +26884,60 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "6e096de7-177b-4e8d-ac8e-0bb7474199d2",
+          "object_relation": "domain",
+          "value": "key-logger-90fff.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d152dc8e-8afd-46df-bb07-36cfaf482b6a",
+          "object_relation": "appid",
+          "value": "com.app.audiorec",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "45c6b866-e1b3-4065-b60c-3632cc84d7d1",
+          "object_relation": "appid",
+          "value": "com.gcm_call_sms_tracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "dc8567dd-ea6a-4c99-87ad-c26f359ac03e",
+          "object_relation": "appid",
+          "value": "com.app.call_rec_hidden",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a6047260-d1e5-4d0d-9e97-0e2a99bf4c90",
+          "object_relation": "appid",
+          "value": "com.app.spy_call_recorder",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3a2a98d1-4802-438c-87ad-191b2ffd3ffb",
+          "object_relation": "appid",
+          "value": "com.apps.anti_theft",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -26797,6 +26995,24 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "18298b81-403e-47fa-bba3-5be5dea5581c",
+          "object_relation": "certificate",
+          "value": "f5a5336b28456208ef357b4630a93a91206cf21a",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "b1a86b5c-6ad2-4421-9b0d-1443ed12362a",
+          "object_relation": "certificate",
+          "value": "554137dee63be07ce9687c5886244954277227f5",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -26836,6 +27052,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "e37b01a4-d918-43c7-b0e6-6bd146719fd1",
+          "object_relation": "domain",
+          "value": "video-recorder-c0419.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -27291,6 +27516,36 @@
           "uuid": "106523ca-0bbd-4575-9bae-6591af5f94a1",
           "object_relation": "appid",
           "value": "com.service.mug",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "41e77d4c-c169-44a4-80d9-fc8e584ac29c",
+      "Attribute": [
+        {
+          "uuid": "0d4a1e3d-327c-4fdc-8f5e-2735f656220d",
+          "object_relation": "name",
+          "value": "secretvideorecorder",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "4e52211d-8ecd-4037-80aa-23d59842ce82",
+          "object_relation": "appid",
+          "value": "com.tools.secretcamcorder",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,

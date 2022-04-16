@@ -1,0 +1,22 @@
+name: 'Lint-Indicators'
+on:
+  push:
+    branches: ['master']
+    paths: ['network.yaml', 'sha256.csv', 'certificates.yaml', 'appid.yaml']
+  pull_request:
+    branches: [ 'master' ]
+    paths: ['network.yaml', 'sha256.csv', 'certificates.yaml', 'appid.yaml']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Lint
+      run: |
+          pip install -r scripts/requirements.txt
+          python scripts/linter.py
