@@ -27,7 +27,7 @@ Main files:
 
 * `appid.yaml`: [Applications Package names](https://support.google.com/admob/answer/9972781)
 * `certificates.yaml`: [Android Application Certificates](https://support.google.com/googleplay/android-developer/answer/9842756?hl=en)
-* `network.yaml`: list of domains of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control)
+* `network.yaml`: list of domains of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control), websites and download domains
 * `quad9_blocklist.txt`: blocklist for [Quad9 DNS resolver](https://www.quad9.net/) (include a more limited set of domains for apps clearly for stalking and only C2 domains, not app websites)
 * `rules.yar`: Yara rules
 * `sha256.csv`: sha256 of samples
@@ -39,7 +39,7 @@ Files generated automatically from previous IOC files:
 * `generated/misp_event.json`: indicators in [MISP](https://www.misp-project.org/) compatible format
 * `generated/network.csv`: network indicators in a more grepable CSV format
 * `generated/stalkerware.stix2`: indicators in [STIX2](https://oasis-open.github.io/cti-documentation/stix/intro) format
-* `generated/suricata.rules`: suricata rules
+* `generated/suricata.rules`: [Suricata](https://suricata.io/) rules for network indicators (C2 only)
 
 Scripts:
 * `scripts/check_apk.py`: check an APK file or APKs in a folder with the indicators from this repository
