@@ -4,23 +4,33 @@
 #  websites:
 #  c2:
 
-
 - names:
     - TheTruthSpy
+    - iSpyoo
   packages:
     - com.systemservice
     - com.thetruth
     - com.ttsapp.catchcheating
+    - com.ispyoo
+    - com.ispyoo.traceyou
   certificates:
     - FF8CCD9816B0524A58FBDE1809FB227DBCDFD692
+    - 4FF0174BEDC1D16BE55AC53B98599398AC461F82
+    - 86CA769814A07623946EEE74CC7383B13571D42B
+    - CBDA86758FBE8E5A6AB805F493AA151B1F2B95F4
+    - 31A6ECECD97CF39BC4126B8745CD94A7C30BF81C
+    - 5D7B59F3AFB74D86CCD56440F99CA2FC83A23F22
   websites:
     - thetruthspy.com
+    - ispyoo.com
   c2:
     - 69.64.74.239
+    - 69.64.81.166
     - 69.64.81.49
     - 69.64.81.98
     - 69.64.91.29
     - icloudappe.com
+    - media-sync-a.ispyoo.com
     - media-sync-a.thetruthspy.com
     - media-sync-a100.thetruthspy.com
     - media-sync-a740.thetruthspy.com
@@ -47,7 +57,9 @@
     - media-sync-a941.thetruthspy.com
     - media-sync-a942.thetruthspy.com
     - media.thetruthspy.com
+    - my.ispyoo.com
     - my.thetruthspy.com
+    - protocol-a.ispyoo.com
     - protocol-a.thetruthspy.com
     - protocol-a100.thetruthspy.com
     - protocol-a6.thetruthspy.com
@@ -84,7 +96,12 @@
     - protocol-a747.thetruthspy.com
     - protocol-a748.thetruthspy.com
     - protocol-a749.thetruthspy.com
+    - protocol-a780.ispyoo.com
+    - protocol-a810.ispyoo.com
     - protocol-a810.thetruthspy.com
+    - protocol-a811.ispyoo.com
+    - protocol-a880.ispyoo.com
+    - protocol-a89.ispyoo.com
     - protocol-a910.thetruthspy.com
     - protocol-a915.thetruthspy.com
     - protocol-a920.thetruthspy.com
@@ -95,6 +112,7 @@
     - protocol-a941.thetruthspy.com
     - protocol-a942.thetruthspy.com
     - protocol-monitor.thetruthspy.com
+    - protocol.ispyoo.com
     - protocol.thetruthspy.com
     - setupmail-a.icloudappe.com
     - setupmail-a720.icloudappe.com
@@ -123,6 +141,7 @@
     - setupmail-a915.icloudappe.com
     - setupmail-a920.icloudappe.com
     - setupmail.icloudappe.com
+    - sync-a.ispyoo.com
     - sync-a.thetruthspy.com
     - sync-a7xx.thetruthspy.com
     - sync-a8xx.thetruthspy.com
@@ -291,31 +310,7 @@
     - i.spyic.com
     - viptrack.pro
 
-- names:
-    - iSpyoo
-  packages:
-    - com.ispyoo
-    - com.ispyoo.traceyou
-  certificates:
-    - 4FF0174BEDC1D16BE55AC53B98599398AC461F82
-    - 86CA769814A07623946EEE74CC7383B13571D42B
-    - CBDA86758FBE8E5A6AB805F493AA151B1F2B95F4
-    - 31A6ECECD97CF39BC4126B8745CD94A7C30BF81C
-    - 5D7B59F3AFB74D86CCD56440F99CA2FC83A23F22
-  websites:
-    - ispyoo.com
-  c2:
-    - 69.64.81.166
-    - media-sync-a.ispyoo.com
-    - my.ispyoo.com
-    - protocol-a.ispyoo.com
-    - protocol-a780.ispyoo.com
-    - protocol-a810.ispyoo.com
-    - protocol-a811.ispyoo.com
-    - protocol-a880.ispyoo.com
-    - protocol-a89.ispyoo.com
-    - protocol.ispyoo.com
-    - sync-a.ispyoo.com
+
 
 - names:
     - HelloSpy
