@@ -261,15 +261,18 @@
 
 - names:
     - SpyAdvice
+    - FreeSpyPhone
   packages:
     - com.sa.app
   certificates:
     - B374A75F87F992A6F57CF99A24197ABCEB17A1E7
   websites:
     - spyadvice.com
+    - freespyphone.net
   c2:
     - phonetracking-dd226.firebaseio.com
     - spyadvice.com
+    - download.freespyphone.net
 
 - names:
     - Reptilicus
