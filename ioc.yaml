@@ -1558,3 +1558,15 @@
   c2:
     - mycloud1.wisemo.com
     - mycloud.wisemo.com
+
+- names: 
+    - MobileFindFree
+    - FreeSpy
+  packages:
+    - com.mobilefindfree 
+  certificates:
+    - 492ff617a79f6c8d80b453815cfe6586e21c5f72
+  websites:
+    - free-spy.com
+  c2:
+    - api.free-spy.com
