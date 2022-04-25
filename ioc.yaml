@@ -558,22 +558,23 @@
 - names:
     - TrackMyPhones
   packages:
-    - com.app.keylogger
-    - com.app.videorec
-    - com.trackerapps.whatsaptracker
-    - com.apps.rct.CellTrackerActivity
-    - com.trackmyphones.recoverphoneusingchatmessages
-    - com.dev4playapps.whatsdeleted
-    - com.gcm_call_sms_tracker.updated
-    - com.soh
-    - com.local_cell_tracker
-    - com.trackmyphone_pro
-    - com.trackmyphones.tmpusingchatmessages
-    - com.app.spy_call_recorder
     - com.app.audiorec
-    - com.gcm_call_sms_tracker
     - com.app.call_rec_hidden
+    - com.app.keylogger
+    - com.app.spy_call_recorder
+    - com.app.recorder
+    - com.app.videorec
     - com.apps.anti_theft
+    - com.apps.rct.CellTrackerActivity
+    - com.dev4playapps.whatsdeleted
+    - com.gcm_call_sms_tracker
+    - com.gcm_call_sms_tracker.updated
+    - com.local_cell_tracker
+    - com.soh
+    - com.trackerapps.whatsaptracker
+    - com.trackmyphone_pro
+    - com.trackmyphones.recoverphoneusingchatmessages
+    - com.trackmyphones.tmpusingchatmessages
   certificates:
     - B7285348B05EDAEFF7F032384E4F90182E1C1F27 
     - 849D181E1BEE5084CBE1BACBA8442996A8B1F8C6 
@@ -592,6 +593,7 @@
     - trackmyphones-pro.firebaseio.com
     - key-logger-90fff.firebaseio.com
     - spyaudiorecorder.firebaseio.com
+    - video-recorder-c0419.firebaseio.com
       
 - names:
     - FlexiSpy
