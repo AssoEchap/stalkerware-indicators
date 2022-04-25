@@ -4,21 +4,24 @@
 #  websites:
 #  c2:
 
-
 - names:
     - Copy9
     - ExactSpy
     - FoneTracker
     - GuestSpy
     - MxSpy
+    - PhoneSpying
+    - SpyZee
     - TheTruthSpy
     - iSpyoo
   packages:
+    - com.apspy.app
     - com.fone
     - com.guest
     - com.ispyoo
     - com.ispyoo.traceyou
     - com.mxspy
+    - com.spyzee
     - com.systemservice
     - com.thetruth
     - com.ttsapp.catchcheating
@@ -26,12 +29,14 @@
     - 31A6ECECD97CF39BC4126B8745CD94A7C30BF81C
     - 36E6671BC4397F475A350905D9A649A5ADE97BB2
     - 4FF0174BEDC1D16BE55AC53B98599398AC461F82
+    - 56EF5244378FB6B4EF82D2B9E99BF41F7B97D93A
     - 5D7B59F3AFB74D86CCD56440F99CA2FC83A23F22
     - 86CA769814A07623946EEE74CC7383B13571D42B
     - 917BB5B2D40EC40018541784A06285DE0F50F60F
     - B0F639B67819EDBADC73B9FEFF2582FC58B8F115
-    - 56EF5244378FB6B4EF82D2B9E99BF41F7B97D93A
+    - B1336A5F3A017394186563E84AE0D2649FC1697D
     - CBDA86758FBE8E5A6AB805F493AA151B1F2B95F4
+    - D667A33203776F2285EBA3E826CD286356EF05D0
     - FF8CCD9816B0524A58FBDE1809FB227DBCDFD692
   websites:
     - copy9.com
@@ -39,15 +44,17 @@
     - fonetracker.com
     - guestspy.com
     - ispyoo.com
+    - mxspy.com
+    - phonespying.com
     - thetruthspy.com
-    - mxspy.com
-    - mxspy.com
   c2:
+    - 1ca43.appspot.com
     - 69.64.74.239
     - 69.64.81.166
     - 69.64.81.49
     - 69.64.81.98
     - 69.64.91.29
+    - app.fonetracker.com
     - copy9.com
     - guestspy.com
     - icloudappe.com
@@ -89,10 +96,12 @@
     - media-sync-a942.thetruthspy.com
     - media-sync.systemserviceprovider.com
     - media.thetruthspy.com
+    - microtracker-1ca43.firebaseio.com
     - mxspy.com
     - my.copy9.com
     - my.ispyoo.com
     - my.thetruthspy.com
+    - phonespying.com
     - protocol-a.copy9.com
     - protocol-a.exactspy.com
     - protocol-a.fonetracker.com
@@ -217,6 +226,7 @@
     - setupmail-a915.icloudappe.com
     - setupmail-a920.icloudappe.com
     - setupmail.icloudappe.com
+    - spyzee.com
     - sync-a.copy9.com
     - sync-a.exactspy.com
     - sync-a.fonetracker.com
@@ -236,7 +246,6 @@
     - sync-a941.thetruthspy.com
     - sync-a942.thetruthspy.com
     - thetruth-db94a.firebaseio.com
-    - www.mxspy.com
 
 - names:
     - 1TopSpy
@@ -954,24 +963,7 @@
     - imonitorsoft.com
 
 
-- names:
-   - SpyZee
-   - PhoneSpying
-  packages:
-    - com.apspy.app
-    - com.spyzee
-  certificates:
-    - D667A33203776F2285EBA3E826CD286356EF05D0
-    - b1336a5f3a017394186563e84ae0d2649fc1697d
-  websites:
-    - phonespying.com
-    - www.phonespying.com
-  c2:
-    - phonespying.com
-    - www.phonespying.com
-    - spyzee.com
-    - microtracker-1ca43.firebaseio.com
-    - 1ca43.appspot.com
+
       
 - names:
     - MobileTool
