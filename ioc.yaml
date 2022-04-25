@@ -1624,7 +1624,6 @@
     - user.trackview.net
     - user2.trackview.net
 
-
 - names:
     - TrackingSmartphone
   packages:
@@ -1638,3 +1637,16 @@
   c2:
     - trackingsmartphone.com
     - tracking-smartphone.firebaseio.com
+
+- names:
+    - TalkLog
+  packages:
+    - tech.logsettings
+    - technic.settings
+  certificates:
+    - 08ACB92D02487EBC0CEA42B672A631BA7EA59ADF
+  websites:
+    - talklog.tools
+  c2:
+    - tchsrvce.com
+    - talklog.tools
