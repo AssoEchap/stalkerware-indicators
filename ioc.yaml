@@ -1623,3 +1623,18 @@
     - trackview.net
     - user.trackview.net
     - user2.trackview.net
+
+
+- names:
+    - TrackingSmartphone
+  packages:
+    - com.tracking_smartphone 
+    - com.ts_settings 
+  certificates:
+    - 1DB0D66C1D21DD4B185D03B13D6CF620E4FACBAA
+    - 665D624FD53E4D538DFE9F7A87087C513CB40506 
+  websites:
+    - trackingsmartphone.com
+  c2:
+    - trackingsmartphone.com
+    - tracking-smartphone.firebaseio.com
