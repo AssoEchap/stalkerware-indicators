@@ -1598,27 +1598,27 @@
     - TrackView
     - LifeCircle
   packages:
+    - app.cybrook.trackview
+    - app.lifecircle
+    - cn.trackview.shentan 
+    - com.trackview
     - net.homesafe
     - net.trackview.pro 
-    - app.lifecircle
-    - app.cybrook.trackview
-    - cn.trackview.shentan 
+    - us.trackview
   certificates:
     - CB97E71AFA4665D6D28697B9197046C81E5E5D6C
   websites:
-    - trackview.net
     - lifecircle.app
-  c2:
     - trackview.net
-    - api-project-285519687053.firebaseio.com
-    - api.trackview.lifecircle.app
-    - m.lifecircle.app
-    - api.lifecircle.app
-    - rc-api.lifecircle.app
-    - lifecircle-223805.firebaseio.com
-    - api-project-285519687053.firebaseio.com
+  c2:
     - analytics.trackview.net
-    - user.trackview.net
+    - api-project-285519687053.firebaseio.com
+    - api.lifecircle.app
+    - api.trackview.lifecircle.app
     - cnapi.trackview.net
+    - lifecircle-223805.firebaseio.com
+    - m.lifecircle.app
+    - rc-api.lifecircle.app
+    - trackview.net
+    - user.trackview.net
     - user2.trackview.net
-
