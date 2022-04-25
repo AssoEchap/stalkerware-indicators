@@ -1581,3 +1581,16 @@
     - free-spy.com
   c2:
     - api.free-spy.com
+    
+- names:
+    - Unisafe
+  packages:
+    - ru.usafe.u_safe 
+    - ru.usafe.usafe 
+  certificates:
+  websites:
+    - usafe.ru
+  c2:
+    - usafe-ca594.firebaseio.com
+    - usafe.ru
+
