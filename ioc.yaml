@@ -46,6 +46,7 @@
     - ispyoo.com
     - mxspy.com
     - phonespying.com
+    - spyapps.net
     - thetruthspy.com
   c2:
     - 1ca43.appspot.com
@@ -406,6 +407,19 @@
     - i.minspy.com
     - i.spyic.com
     - viptrack.pro
+
+- names:
+    - VIPTrack
+  packages:
+    -  com.mit.viptrackpro
+    - com.mit.networkadapter
+  certificates:
+    - 2E104C33C8DA4DB32E59A45701D8E0C4CAD16BD3
+  websites:
+    - 89.47.91.131
+    - viptrack.ro
+  c2:
+    - android.viptrack.ro
 
 - names:
     - HelloSpy
@@ -1395,8 +1409,11 @@
     - WtSpy
   packages:
     - com.wwtspy
+    - com.wtspy.apps
   certificates:
+    - BB5E2C0E8DFDC54730C1E9B48754977E7DBCCCF9
   websites:
+    - wtspy.com
   c2:
 
 - names:
