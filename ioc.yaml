@@ -1237,7 +1237,7 @@
 - names:
     - Spyine
   packages:
-    com.sc.spyine.v2
+    - com.sc.spyine.v2
   certificates:
   websites:
     - spyine.com
