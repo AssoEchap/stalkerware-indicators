@@ -386,27 +386,90 @@
 
 - names:
     - Cocospy
+    - FoneMonitor
+    - MinSpy
+    - NeatSpy
+    - SafeSpy
     - Spyic
+    - Spyier
+    - Spyine
+    - Spyzie
   packages:
+    - com.aiyi.admin
     - com.cocospy
-    - com.sc.cocospy.v2
     - com.duiyun.cocospy
     - com.duiyun.cocospy.v2
+    - com.duiyun.fonemonitor
+    - com.duiyun.spyine
     - com.duiyun.spyic
-    - com.spyic
+    - com.minspy.v2
+    - com.minspy.v3
+    - com.sc.cocospy.v2
+    - com.sc.fonemonitor
+    - com.sc.fonemonitor.v2
+    - com.sc.minspy.v2
+    - com.sc.neatspy.v2
+    - com.sc.safespy.v2 
+    - com.sc.safespy.v3
     - com.sc.spyic.v2
     - com.sc.spyic.v3
+    - com.sc.spyier.v2
+    - com.sc.spyine.v2
+    - com.sc.spyzie.v2
+    - com.spyic
+    - com.ws.sc
+    - com.ws.scli
   certificates:
-    - CC866E79BDAD431A2B1E07229B92E64808221610
-    - C377ADFF5DF116AB7297D32850ADE8A8FC3F8FB9
     - 8418703221A74C73405AD273C28CBC12444D7520
+    - B4A1513C2C71F08D2EE763CD3FAE585F71F268A9
+    - C377ADFF5DF116AB7297D32850ADE8A8FC3F8FB9
+    - CC866E79BDAD431A2B1E07229B92E64808221610
+    - F25D72FCCB84BAF7F73467FC9571024B7E274CA3
   websites:
     - cocospy.com
+    - fonemonitor.co
+    - minspy.com
+    - neatspy.com
+    - safespy.com
+    - spyine.com
+    - spyzie.com
+    - www.fonemonitor.co
+    - www.minspy.com
+    - www.spyic.com
+    - www.spyzie.com
   c2:
-    - sp.kuuvv.com
+    - alog.umeng.com
+    - app-api.spyzie.com
+    - app.api.spyzie.wondershare.cn
+    - appjiagu.com
+    - b.appjiagu.com
+    - c.appjiagu.com
+    - d.appjiagu.com
+    - e.appjiagu.com
+    - f.appjiagu.com
+    - g.appjiagu.com
+    - data-api.spyzie.com
+    - data.api.spyzie.wondershare.cn
+    - h.appjiagu.com
+    - i.fonemonitor.co
     - i.minspy.com
+    - i.neatspy.com
+    - i.safespy.com
     - i.spyic.com
+    - i.spyine.com
+    - i.spyzie.io
+    - mintrack.vip
+    - my.spyzie.com
+    - neatspy.vip
+    - s.appjiagu.com
+    - safespy.vip
+    - sp.kuuvv.com
+    - spyzie.com
+    - trackier.vip
+    - trackine.vip
+    - trackpro.vip
     - viptrack.pro
+    - www.spyzie.com
 
 - names:
     - VIPTrack
@@ -728,16 +791,6 @@
     - 78.47.16.3
 
 - names:
-    - MinSpy
-  packages:
-    - com.sc.minspy.v2
-    - com.minspy.v2
-    - com.minspy.v3
-  certificates:
-  websites:
-  c2:
-
-- names:
     - MaxxSpy
   packages:
     - com.maxxspy.system
@@ -750,33 +803,6 @@
   c2:
     - flushdbd.maxxspy.com
     - maxxspy.com
-
-- names:
-    - Spyzie
-  packages:
-    - com.ws.scli
-    - com.ws.sc
-    - com.sc.spyzie.v2
-    - com.aiyi.admin
-  certificates:
-    - F25D72FCCB84BAF7F73467FC9571024B7E274CA3
-    - b4a1513c2c71f08d2ee763cd3fae585f71f268a9
-  websites:
-    - spyzie.com
-    - www.spyzie.com
-  c2:
-    - app-api.spyzie.com
-    - my.spyzie.com
-    - app.api.spyzie.wondershare.cn
-    - data.api.spyzie.wondershare.cn
-    - data-api.spyzie.com
-    - www.spyzie.com
-    - spyzie.com
-    - i.spyzie.io
-    - alog.umeng.com
-    - appjiagu.com
-    - b.appjiagu.com
-    - s.appjiagu.com
 
 - names:
     - MeuSpy
@@ -1235,26 +1261,6 @@
     - 4-dot-all-tracker.appspot.com
 
 - names:
-    - Spyine
-  packages:
-    - com.sc.spyine.v2
-  certificates:
-  websites:
-    - spyine.com
-  c2:
-    - i.spyine.com
-    - trackine.vip
-
-- names:
-    - FoneMonitor
-  packages:
-    - com.sc.fonemonitor
-    - com.sc.fonemonitor.v2
-  certificates:
-  websites:
-  c2:
-
-- names:
     - SpyPhoneApp
   packages:
     - com.spappm_mondow.alarm
@@ -1293,17 +1299,6 @@
     - talklog.tools
     - tchsrvce.com
     - 78.46.34.14
-
-- names:
-    - SafeSpy
-  packages:
-    - com.sc.safespy.v2
-    - com.sc.safespy.v3
-  certificates:
-  websites:
-    - safespy.com
-  c2:
-    - i.safespy.com
 
 - names:
     - SpyMasterPro
@@ -1444,16 +1439,6 @@
     - aovivo.foxspy.com.br
     - pc.foxspy.com.br
     - celular007.s3.amazonaws.com
-
-- names:
-    - NeatSpy
-  packages:
-    - com.sc.neatspy.v2
-  certificates:
-  websites:
-    - neatspy.com
-  c2:
-    - i.neatspy.com
 
 - names:
     - pcTattletale
