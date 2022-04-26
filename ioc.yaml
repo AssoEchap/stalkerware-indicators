@@ -1515,10 +1515,16 @@
   packages:
     - com.spytoapp.system
   certificates:
-    - 6f93929ab60ac760000e873cd7c56ba79a9e6cad
+    - 6F93929AB60AC760000E873CD7C56BA79A9E6CAD
   websites:
     - spytoapp.com
   c2:
+    - android.spytoapp.com
+    - apk01.spytoapp.com
+    - apk02.spytoapp.com
+    - apk03.spytoapp.com
+    - apk04.spytoapp.com
+    - downapk.spytoapp.com
     - services.spytoapp.com
 
 - names: 
