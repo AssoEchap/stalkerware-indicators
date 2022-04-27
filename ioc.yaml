@@ -1305,9 +1305,13 @@
   - SpyLive260
   packages:
   - com.sl360
-  certificates: ''
+  - com.itqredn8dzrl
+  - com.wifi0
+  certificates:
+  - 73BF44A503427F7682C7136B109631E3BE4114DE
   websites:
   - spylive360.com
+  - www.spylive360.com
   c2:
     ips: []
     domains:
@@ -1315,6 +1319,7 @@
     - s2.spylive360.com
     - s3.spylive360.com
     - spylive360.com
+    - sl360-7ba65.firebaseio.com
 
 - name: XNSpy
   names:
