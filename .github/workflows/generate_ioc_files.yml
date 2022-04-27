@@ -2,7 +2,7 @@ name: 'Create-IOC-Files'
 on:
   push:
     branches: ['master']
-    paths: ['network.yaml', 'sha256.csv', 'certificates.yaml', 'appid.yaml']
+    paths: ['ioc.yaml', 'samples.csv']
 
 jobs:
   build:
