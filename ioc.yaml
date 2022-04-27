@@ -726,18 +726,25 @@
   - 45DECBF059864164A4BC644D3EAB8127FC98238A
   websites:
   - flexispy.com
+  - community.flexispy.com
+  - blog.flexispy.com
+  - www.flexispy.com
   c2:
     ips:
     - 119.8.35.235
     domains:
-    - trkps.com
+    - admin.flexispy.com
+    - api.flexispy.com
     - client.mobilefonex.com
-    - test-client.mobilefonex.com
-    - push.mobilefonex.com
-    - mflx.biz
-    - dmw.bz
     - djp.bz
+    - dmw.bz
     - dmw.cc
+    - ecom.flexispy.com
+    - mflx.biz
+    - portal.flexispy.com
+    - push.mobilefonex.com
+    - test-client.mobilefonex.com
+    - trkps.com
 
 - name: Cerberus
   names:
@@ -784,16 +791,16 @@
   c2:
     ips: []
     domains:
-    - www.mspyonline.com
-    - my.mspyonline.com
+    - a.thd.cc
+    - b55y.net
     - cp.mspyonline.com
+    - getmspy.net
+    - my.mspyonline.com
+    - pipe.thd.cc
+    - project-323448153542050953.firebaseio.com
     - repo.mspyonline.com
     - thd.cc
-    - a.thd.cc
-    - pipe.thd.cc
-    - b55y.net
-    - getmspy.net
-    - project-323448153542050953.firebaseio.com
+    - www.mspyonline.com
 
 - name: spy2mobile
   names:
