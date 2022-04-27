@@ -1866,3 +1866,20 @@
     - trackingsmartphone.com
     - tracking-smartphone.firebaseio.com
 
+- name: SpyphoneMobileTracker
+  names:
+  - SpyphoneMobileTracker
+  packages:
+  - com.phonetrackerofficial
+  - com.phonetrackerofficial1
+  certificates:
+  - 5F61BEB9591ADBDF9DA5B141A1EF35CDC0944C8C
+  websites:
+  - phonetracker.com
+  - www.phonetracker.com
+  c2:
+    ips: []
+    domains:
+    - phonetracker.com
+    - phonetracker95gpsonly.firebaseio.com
+
