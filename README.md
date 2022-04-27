@@ -144,7 +144,8 @@ Contributors include:
 - [Abir Ghattas](https://twitter.com/AbirGhattas)
 - [Anne Roth](https://twitter.com/annalist)
 - [Jo Coscia](https://github.com/jcoscia)
-- [Julien Voisin](https://dustri.org/), [Esther](https://twitter.com/U039b)
+- [Julien Voisin](https://dustri.org/)
+- [Esther](https://twitter.com/U039b)
 - [Jurre van Bergen](https://twitter.com/DrWhax)
 - [@nscrutables](https://twitter.com/nscrutables)
 

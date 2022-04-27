@@ -1,60 +1,64 @@
-#- names:
+#- name:
+#  names:
 #  packages:
 #  certificates:
 #  websites:
 #  c2:
 
-- names:
-    - Copy9
-    - ExactSpy
-    - FoneTracker
-    - GuestSpy
-    - MxSpy
-    - PhoneSpying
-    - SpyZee
-    - TheTruthSpy
-    - iSpyoo
+- name: TheTruthSpy
+  names:
+  - Copy9
+  - ExactSpy
+  - FoneTracker
+  - GuestSpy
+  - MxSpy
+  - PhoneSpying
+  - SpyZee
+  - TheTruthSpy
+  - iSpyoo
   packages:
-    - com.apspy.app
-    - com.fone
-    - com.guest
-    - com.ispyoo
-    - com.ispyoo.traceyou
-    - com.mxspy
-    - com.spyzee
-    - com.systemservice
-    - com.thetruth
-    - com.ttsapp.catchcheating
+  - com.apspy.app
+  - com.fone
+  - com.guest
+  - com.ispyoo
+  - com.ispyoo.traceyou
+  - com.mxspy
+  - com.spyzee
+  - com.systemservice
+  - com.thetruth
+  - com.ttsapp.catchcheating
   certificates:
-    - 31A6ECECD97CF39BC4126B8745CD94A7C30BF81C
-    - 36E6671BC4397F475A350905D9A649A5ADE97BB2
-    - 4FF0174BEDC1D16BE55AC53B98599398AC461F82
-    - 56EF5244378FB6B4EF82D2B9E99BF41F7B97D93A
-    - 5D7B59F3AFB74D86CCD56440F99CA2FC83A23F22
-    - 86CA769814A07623946EEE74CC7383B13571D42B
-    - 917BB5B2D40EC40018541784A06285DE0F50F60F
-    - B0F639B67819EDBADC73B9FEFF2582FC58B8F115
-    - B1336A5F3A017394186563E84AE0D2649FC1697D
-    - CBDA86758FBE8E5A6AB805F493AA151B1F2B95F4
-    - D667A33203776F2285EBA3E826CD286356EF05D0
-    - FF8CCD9816B0524A58FBDE1809FB227DBCDFD692
+  - 31A6ECECD97CF39BC4126B8745CD94A7C30BF81C
+  - 36E6671BC4397F475A350905D9A649A5ADE97BB2
+  - 4FF0174BEDC1D16BE55AC53B98599398AC461F82
+  - 56EF5244378FB6B4EF82D2B9E99BF41F7B97D93A
+  - 5D7B59F3AFB74D86CCD56440F99CA2FC83A23F22
+  - 86CA769814A07623946EEE74CC7383B13571D42B
+  - 917BB5B2D40EC40018541784A06285DE0F50F60F
+  - B0F639B67819EDBADC73B9FEFF2582FC58B8F115
+  - B1336A5F3A017394186563E84AE0D2649FC1697D
+  - CBDA86758FBE8E5A6AB805F493AA151B1F2B95F4
+  - D667A33203776F2285EBA3E826CD286356EF05D0
+  - FF8CCD9816B0524A58FBDE1809FB227DBCDFD692
   websites:
-    - copy9.com
-    - exactspy.com
-    - fonetracker.com
-    - guestspy.com
-    - ispyoo.com
-    - mxspy.com
-    - phonespying.com
-    - spyapps.net
-    - thetruthspy.com
+  - copy9.com
+  - exactspy.com
+  - fonetracker.com
+  - guestspy.com
+  - ispyoo.com
+  - mxspy.com
+  - phonespying.com
+  - spyapps.net
+  - thetruthspy.com
   c2:
+    ips:
     - 1ca43.appspot.com
     - 69.64.74.239
     - 69.64.81.166
     - 69.64.81.49
     - 69.64.81.98
     - 69.64.91.29
+    domains:
     - app.fonetracker.com
     - copy9.com
     - guestspy.com
@@ -248,68 +252,80 @@
     - sync-a942.thetruthspy.com
     - thetruth-db94a.firebaseio.com
 
-- names:
-    - 1TopSpy
+- name: 1TopSpy
+  names:
+  - 1TopSpy
   packages:
-    - com.topspy.system
-    - com.topspy
+  - com.topspy.system
+  - com.topspy
   websites:
-    - 1topspy.com
+  - 1topspy.com
   c2:
+    ips:
+    - 1topspy.com
+    domains:
     - flushdata.1topspy.com
-    - 1topspy.com
 
-- names:
-    - Mobiispy
+- name: Mobiispy
+  names:
+  - Mobiispy
   packages:
-    - com.mobiispy.system
+  - com.mobiispy.system
   websites:
-    - mobiispy.com
+  - mobiispy.com
   c2:
+    ips: []
+    domains:
     - mobiispy.com
     - webservicesdb.mobiispy.com
 
-- names:
-    - SpyAdvice
-    - FreeSpyPhone
+- name: SpyAdvice
+  names:
+  - SpyAdvice
+  - FreeSpyPhone
   packages:
-    - com.sa.app
+  - com.sa.app
   certificates:
-    - B374A75F87F992A6F57CF99A24197ABCEB17A1E7
+  - B374A75F87F992A6F57CF99A24197ABCEB17A1E7
   websites:
-    - spyadvice.com
-    - freespyphone.net
+  - spyadvice.com
+  - freespyphone.net
   c2:
+    ips: []
+    domains:
     - phonetracking-dd226.firebaseio.com
     - spyadvice.com
     - download.freespyphone.net
 
-- names:
-    - Reptilicus
-    - CyberNanny
-    - Vkur
+- name: Reptilicus
+  names:
+  - Reptilicus
+  - CyberNanny
+  - Vkur
   packages:
-    - com.brot.storage.work
-    - com.thecybernanny.andapp
-    - net.androidcoreapp.androidbackup
-    - net.delphiboardlayer.androidcoreapp
-    - net.reptilicus.clientapp
-    - net.system_updater_abs341
-    - net.vkurhandler
-    - se.vkur.clientapp
-    - yc.sysupd.client
+  - com.brot.storage.work
+  - com.thecybernanny.andapp
+  - net.androidcoreapp.androidbackup
+  - net.delphiboardlayer.androidcoreapp
+  - net.reptilicus.clientapp
+  - net.system_updater_abs341
+  - net.vkurhandler
+  - se.vkur.clientapp
+  - yc.sysupd.client
   certificates:
-    - 230E35A26E471352DF5DBDBCF9834E0711500CB0 
-    - 2C08279BCC8EB16B2B31ACFBD7E1D4BB28E49A87 
-    - 2FD8BEF4081F126D4DA655B40E9FC63F116DD857 
-    - 9256E291823DA741B64CB23F7E371D0940E5272E 
-    - 9BD494107EFED96F630D29D6E18AE4DCC47149E2 
-    - 6D0FF787BF4534F1077D1E4BF2E18BA381D97061
+  - 230E35A26E471352DF5DBDBCF9834E0711500CB0
+  - 2C08279BCC8EB16B2B31ACFBD7E1D4BB28E49A87
+  - 2FD8BEF4081F126D4DA655B40E9FC63F116DD857
+  - 9256E291823DA741B64CB23F7E371D0940E5272E
+  - 9BD494107EFED96F630D29D6E18AE4DCC47149E2
+  - 6D0FF787BF4534F1077D1E4BF2E18BA381D97061
   websites:
-    - reptilicus.net
-    - thecybernanny.com
+  - reptilicus.net
+  - thecybernanny.com
   c2:
+    ips:
     - 176.9.42.16
+    domains:
     - data.reptilicus.net
     - proxy.reptilicus.net
     - reptilicus.net
@@ -317,127 +333,142 @@
     - phonecontrolapp-e2c64.firebaseio.com
     - rp.apollospy.com
 
-- names:
-    - PhoneTracker
-  packages:
+- name: PhoneTracker
+  names:
+  - PhoneTracker
+  packages: ''
   certificates:
-    - 483716998F0C092FE82B0B12B1A4BA399D941318
+  - 483716998F0C092FE82B0B12B1A4BA399D941318
   websites:
-    - phonetracking.net
+  - phonetracking.net
   c2:
+    ips: []
+    domains:
     - app.mobiletracking.app
     - phonetracking.net
 
-- names:
-    - XySpy
-  packages:
+- name: XySpy
+  names:
+  - XySpy
+  packages: ''
   certificates:
-    - DE648A3253C16692AF71141C069D15C87C3E5495
+  - DE648A3253C16692AF71141C069D15C87C3E5495
   websites:
-    - xyspy.com
+  - xyspy.com
   c2:
+    ips: []
+    domains:
     - app.xyspy.com
 
-- names:
-    - PhoneSheriff
-    - MobileSpy
-    - MobileNanny
+- name: PhoneSheriff
+  names:
+  - PhoneSheriff
+  - MobileSpy
+  - MobileNanny
   packages:
-    - com.retina.phonesheriff
-    - com.retina21.ms41 
-    - com.retina22.ms6 
-    - com.rspl22.retinaspy
-    - com.retinasoft.ephonetracker 
-    - com.rspl15.nanny.android
-    - com.rspl16.nanny.android
-    - com.rspl17.nanny.android
-    - com.rspl18.nanny.android
-    - com.rspl19.nanny.android
-    - com.rspl20.nanny.android
-    - com.rspl21.nanny.android
+  - com.retina.phonesheriff
+  - com.retina21.ms41
+  - com.retina22.ms6
+  - com.rspl22.retinaspy
+  - com.retinasoft.ephonetracker
+  - com.rspl15.nanny.android
+  - com.rspl16.nanny.android
+  - com.rspl17.nanny.android
+  - com.rspl18.nanny.android
+  - com.rspl19.nanny.android
+  - com.rspl20.nanny.android
+  - com.rspl21.nanny.android
   certificates:
-    - F57CBB4CBB9834A14AF675222CECA6A0D26D838E
-    - F28F3A97D25E51AB266E56D3B80F04747D242E50
-    - D667A33203776F2285EBA3E826CD286356EF05D0
+  - F57CBB4CBB9834A14AF675222CECA6A0D26D838E
+  - F28F3A97D25E51AB266E56D3B80F04747D242E50
+  - D667A33203776F2285EBA3E826CD286356EF05D0
   websites:
-    - www.mobile-spy.com
-    - www.emobilespy.com
-    - phonesheriff.com
-    - www.phonesheriff.com
+  - www.mobile-spy.com
+  - www.emobilespy.com
+  - phonesheriff.com
+  - www.phonesheriff.com
   c2:
+    ips: []
+    domains:
     - mobilenannylogs.com
     - phonesheriff.com
 
-- names:
-    - OwnSpy
-    - WebDetetive
+- name: OwnSpy
+  names:
+  - OwnSpy
+  - WebDetetive
   packages:
-    - com.ownspy.android
-    - org.system.kernel
+  - com.ownspy.android
+  - org.system.kernel
   certificates:
-    - CA5304E94F4BC97DA9D147E76858DBF70AB8B4E6
-    - 14A071616D4BC37F08BE865D375101F4C963777A
+  - CA5304E94F4BC97DA9D147E76858DBF70AB8B4E6
+  - 14A071616D4BC37F08BE865D375101F4C963777A
   websites:
-    - mobileinnova.net
-    - webdetetive.com.br
+  - mobileinnova.net
+  - webdetetive.com.br
   c2:
-    - user.ownspy.es
+    ips:
     - 6287970dd9.era3000.com
+    domains:
+    - user.ownspy.es
 
-- names:
-    - Cocospy
-    - FoneMonitor
-    - MinSpy
-    - NeatSpy
-    - SafeSpy
-    - Spyic
-    - Spyier
-    - Spyine
-    - Spyzie
+- name: Cocospy
+  names:
+  - Cocospy
+  - FoneMonitor
+  - MinSpy
+  - NeatSpy
+  - SafeSpy
+  - Spyic
+  - Spyier
+  - Spyine
+  - Spyzie
   packages:
-    - com.aiyi.admin
-    - com.cocospy
-    - com.duiyun.cocospy
-    - com.duiyun.cocospy.v2
-    - com.duiyun.fonemonitor
-    - com.duiyun.spyine
-    - com.duiyun.spyic
-    - com.minspy.v2
-    - com.minspy.v3
-    - com.sc.cocospy.v2
-    - com.sc.fonemonitor
-    - com.sc.fonemonitor.v2
-    - com.sc.minspy.v2
-    - com.sc.neatspy.v2
-    - com.sc.safespy.v2 
-    - com.sc.safespy.v3
-    - com.sc.spyic.v2
-    - com.sc.spyic.v3
-    - com.sc.spyier.v2
-    - com.sc.spyine.v2
-    - com.sc.spyzie.v2
-    - com.spyic
-    - com.ws.sc
-    - com.ws.scli
+  - com.aiyi.admin
+  - com.cocospy
+  - com.duiyun.cocospy
+  - com.duiyun.cocospy.v2
+  - com.duiyun.fonemonitor
+  - com.duiyun.spyine
+  - com.duiyun.spyic
+  - com.minspy.v2
+  - com.minspy.v3
+  - com.sc.cocospy.v2
+  - com.sc.fonemonitor
+  - com.sc.fonemonitor.v2
+  - com.sc.minspy.v2
+  - com.sc.neatspy.v2
+  - com.sc.safespy.v2
+  - com.sc.safespy.v3
+  - com.sc.spyic.v2
+  - com.sc.spyic.v3
+  - com.sc.spyier.v2
+  - com.sc.spyine.v2
+  - com.sc.spyzie.v2
+  - com.spyic
+  - com.ws.sc
+  - com.ws.scli
   certificates:
-    - 8418703221A74C73405AD273C28CBC12444D7520
-    - B4A1513C2C71F08D2EE763CD3FAE585F71F268A9
-    - C377ADFF5DF116AB7297D32850ADE8A8FC3F8FB9
-    - CC866E79BDAD431A2B1E07229B92E64808221610
-    - F25D72FCCB84BAF7F73467FC9571024B7E274CA3
+  - 8418703221A74C73405AD273C28CBC12444D7520
+  - B4A1513C2C71F08D2EE763CD3FAE585F71F268A9
+  - C377ADFF5DF116AB7297D32850ADE8A8FC3F8FB9
+  - CC866E79BDAD431A2B1E07229B92E64808221610
+  - F25D72FCCB84BAF7F73467FC9571024B7E274CA3
   websites:
-    - cocospy.com
-    - fonemonitor.co
-    - minspy.com
-    - neatspy.com
-    - safespy.com
-    - spyine.com
-    - spyzie.com
-    - www.fonemonitor.co
-    - www.minspy.com
-    - www.spyic.com
-    - www.spyzie.com
+  - cocospy.com
+  - fonemonitor.co
+  - minspy.com
+  - neatspy.com
+  - safespy.com
+  - spyine.com
+  - spyzie.com
+  - www.fonemonitor.co
+  - www.minspy.com
+  - www.spyic.com
+  - www.spyzie.com
   c2:
+    ips: []
+    domains:
     - alog.umeng.com
     - app-api.spyzie.com
     - app.api.spyzie.wondershare.cn
@@ -471,29 +502,35 @@
     - viptrack.pro
     - www.spyzie.com
 
-- names:
-    - VIPTrack
+- name: VIPTrack
+  names:
+  - VIPTrack
   packages:
-    -  com.mit.viptrackpro
-    - com.mit.networkadapter
+  - com.mit.viptrackpro
+  - com.mit.networkadapter
   certificates:
-    - 2E104C33C8DA4DB32E59A45701D8E0C4CAD16BD3
+  - 2E104C33C8DA4DB32E59A45701D8E0C4CAD16BD3
   websites:
-    - 89.47.91.131
-    - viptrack.ro
+  - 89.47.91.131
+  - viptrack.ro
   c2:
+    ips: []
+    domains:
     - android.viptrack.ro
 
-- names:
-    - HelloSpy
+- name: HelloSpy
+  names:
+  - HelloSpy
   packages:
-    - com.hellospy.system
+  - com.hellospy.system
   certificates:
-    - 7F5C0D54A813BA9B87A91420CA2C3DE5E7948F09
-    - 1EBFFD9FE9463B2ED24582D2846990A5ABEF79B9
+  - 7F5C0D54A813BA9B87A91420CA2C3DE5E7948F09
+  - 1EBFFD9FE9463B2ED24582D2846990A5ABEF79B9
   websites:
-    - hellospy.com
+  - hellospy.com
   c2:
+    ips: []
+    domains:
     - hellospy.com
     - flushdata.hellospy.com
     - flushdata2.hellospy.com
@@ -501,74 +538,80 @@
     - flushdata4.hellospy.com
     - flushdata5.hellospy.com
 
-- names:
-    - EasyLogger
+- name: EasyLogger
+  names:
+  - EasyLogger
   packages:
-    - app.Easylogger
-    - app.Elogger
+  - app.Easylogger
+  - app.Elogger
   certificates:
-    - 8F23E1457ADC6189F6ED504A60DF8896FEC6D970
-    - 35D7CF057BFA5023CE739A725ADA0DA1FD34D1FF
+  - 8F23E1457ADC6189F6ED504A60DF8896FEC6D970
+  - 35D7CF057BFA5023CE739A725ADA0DA1FD34D1FF
   websites:
-    - logger.mobi
+  - logger.mobi
   c2:
-    - account.logger.mobi
-    - beta-api.logger.mobi
-    - beta.logger.mobi
-    - ps97mailer.logger.mobi
+    ips:
     - 97.logger.mobi
     - 172.67.81.216
     - 104.25.28.15
     - 104.25.29.15
+    domains:
+    - account.logger.mobi
+    - beta-api.logger.mobi
+    - beta.logger.mobi
+    - ps97mailer.logger.mobi
 
-- names:
-    - Hoverwatch
+- name: Hoverwatch
+  names:
+  - Hoverwatch
   packages:
-    - com.android.core.monitor.debug
-    - com.android.core.monitor.null
-    - com.android.core.monitornull
-    - com.android.core.monitor
-    - com.android.core.mnt
-    - com.android.core.mnta
-    - com.android.core.mntb
-    - com.android.core.mntd
-    - com.android.core.mnte
-    - com.android.core.mntf
-    - com.android.core.mntg
-    - com.android.core.mnth
-    - com.android.core.mnti
-    - com.android.core.mntj
-    - com.android.core.mntk
-    - com.android.core.mntl
-    - com.android.core.mntm
-    - com.android.core.mntn
-    - com.android.core.mnto
-    - com.android.core.mntp
-    - com.android.core.mntq
-    - com.android.core.mntr
-    - com.android.core.mnts
-    - com.android.core.mntt
-    - com.android.core.mntu
-    - com.android.core.mntv
-    - com.android.core.mntw
-    - com.android.core.mntx
-    - com.android.core.mnty
-    - com.android.core.mntz
-    - cmf0.c3b5bm90zq.patch
+  - com.android.core.monitor.debug
+  - com.android.core.monitor.null
+  - com.android.core.monitornull
+  - com.android.core.monitor
+  - com.android.core.mnt
+  - com.android.core.mnta
+  - com.android.core.mntb
+  - com.android.core.mntd
+  - com.android.core.mnte
+  - com.android.core.mntf
+  - com.android.core.mntg
+  - com.android.core.mnth
+  - com.android.core.mnti
+  - com.android.core.mntj
+  - com.android.core.mntk
+  - com.android.core.mntl
+  - com.android.core.mntm
+  - com.android.core.mntn
+  - com.android.core.mnto
+  - com.android.core.mntp
+  - com.android.core.mntq
+  - com.android.core.mntr
+  - com.android.core.mnts
+  - com.android.core.mntt
+  - com.android.core.mntu
+  - com.android.core.mntv
+  - com.android.core.mntw
+  - com.android.core.mntx
+  - com.android.core.mnty
+  - com.android.core.mntz
+  - cmf0.c3b5bm90zq.patch
   certificates:
-    - CC4A78DBE96AC1FA5977E03C97052A9A334113B4
-    - E8FF1077D207E47AB4B53F275C437C0889579658
-    - F21ECAFCFF000686E8EC090F1ECDAECE08798BFF
-    - AFC457A96258490FBC284EE889634B5F3E325B8E
-    - 0E0BE37D31CA21F19095FC38F9F1BEF310CE227C
-    - 4F6AD2383DADACCF93EA5BE4300571C315DBDF5B
-    - 5284272445CE993DE601BB23CAE6BA9E43E4589C
-    - 64403A61F41848F987D6FD0BE00392E9561A0EF7
-    - 6144ED2E25B6F3A5FAFCF914965CA071A685674B
+  - CC4A78DBE96AC1FA5977E03C97052A9A334113B4
+  - E8FF1077D207E47AB4B53F275C437C0889579658
+  - F21ECAFCFF000686E8EC090F1ECDAECE08798BFF
+  - AFC457A96258490FBC284EE889634B5F3E325B8E
+  - 0E0BE37D31CA21F19095FC38F9F1BEF310CE227C
+  - 4F6AD2383DADACCF93EA5BE4300571C315DBDF5B
+  - 5284272445CE993DE601BB23CAE6BA9E43E4589C
+  - 64403A61F41848F987D6FD0BE00392E9561A0EF7
+  - 6144ED2E25B6F3A5FAFCF914965CA071A685674B
   websites:
-    - hoverwatch.com
+  - hoverwatch.com
   c2:
+    ips:
     - 198.100.150.203
+    domains:
     - a.hw.cab
     - a.hwa.cab
     - account.refog.com
@@ -577,79 +620,88 @@
     - i.hoverwatch.com
     - rec.hw.cab
 
-- names:
-    - LetMeSpy
+- name: LetMeSpy
+  names:
+  - LetMeSpy
   packages:
-    - pl.lidwin.letmespy3
-    - pl.lidwin.letmespy4
-    - pl.lidwin.letmespy2
-    - pl.lidwin.letmespy
-    - pl.lidwin.remote1
-    - pl.lidwin.remote2
-    - pl.lidwin.lms
+  - pl.lidwin.letmespy3
+  - pl.lidwin.letmespy4
+  - pl.lidwin.letmespy2
+  - pl.lidwin.letmespy
+  - pl.lidwin.remote1
+  - pl.lidwin.remote2
+  - pl.lidwin.lms
   certificates:
-    - 8F0EAD4F1DA5DAAF8C0F7A51096CECEEF81D0C76
-    - 340E571CB1A64E6EE384D3F8A544681459CF3F5F
+  - 8F0EAD4F1DA5DAAF8C0F7A51096CECEEF81D0C76
+  - 340E571CB1A64E6EE384D3F8A544681459CF3F5F
   websites:
-    - letmespy.com
-    - remotecommands.com
+  - letmespy.com
+  - remotecommands.com
   c2:
+    ips: []
+    domains:
     - letmespy.com
     - remotecommands.com
 
-- names:
-    - Snoopza
+- name: Snoopza
+  names:
+  - Snoopza
   packages:
-    - com.android.core.mngi
-    - com.android.core.mngj
-    - com.android.core.mngk
-    - com.android.core.mngl
-    - com.android.core.mngn
-    - com.android.core.mngo
-    - com.android.core.mngp
-  certificates:
+  - com.android.core.mngi
+  - com.android.core.mngj
+  - com.android.core.mngk
+  - com.android.core.mngl
+  - com.android.core.mngn
+  - com.android.core.mngo
+  - com.android.core.mngp
+  certificates: ''
   websites:
-    - snoopza.com
+  - snoopza.com
   c2:
+    ips:
+    - 217.182.250.165
+    - 46.105.57.148
+    domains:
     - snoopza.com
     - my.snoopza.com
     - my2.snoopza.com
     - api.snoopza.com
-    - 217.182.250.165
-    - 46.105.57.148
 
-- names:
-    - TrackMyPhones
+- name: TrackMyPhones
+  names:
+  - TrackMyPhones
   packages:
-    - com.app.audiorec
-    - com.app.call_rec_hidden
-    - com.app.keylogger
-    - com.app.spy_call_recorder
-    - com.app.recorder
-    - com.app.videorec
-    - com.apps.anti_theft
-    - com.apps.rct.CellTrackerActivity
-    - com.dev4playapps.whatsdeleted
-    - com.gcm_call_sms_tracker
-    - com.gcm_call_sms_tracker.updated
-    - com.local_cell_tracker
-    - com.soh
-    - com.trackerapps.whatsaptracker
-    - com.trackmyphone_pro
-    - com.trackmyphones.recoverphoneusingchatmessages
-    - com.trackmyphones.tmpusingchatmessages
+  - com.app.audiorec
+  - com.app.call_rec_hidden
+  - com.app.keylogger
+  - com.app.spy_call_recorder
+  - com.app.recorder
+  - com.app.videorec
+  - com.apps.anti_theft
+  - com.apps.rct.CellTrackerActivity
+  - com.dev4playapps.whatsdeleted
+  - com.gcm_call_sms_tracker
+  - com.gcm_call_sms_tracker.updated
+  - com.local_cell_tracker
+  - com.soh
+  - com.trackerapps.whatsaptracker
+  - com.trackmyphone_pro
+  - com.trackmyphones.recoverphoneusingchatmessages
+  - com.trackmyphones.tmpusingchatmessages
   certificates:
-    - 37ACE0321E8833F25BDDB363AB395C81354E88A0
-    - 554137DEE63BE07CE9687C5886244954277227F5
-    - 68AC78A7CD660ED204B4BC3C73A3F91DA1AE45FC
-    - 849D181E1BEE5084CBE1BACBA8442996A8B1F8C6 
-    - 87EF370B8D6E3089E7F8CDDD6E830B5E4C8CF60B
-    - B7285348B05EDAEFF7F032384E4F90182E1C1F27 
-    - F5A5336B28456208EF357B4630A93A91206CF21A 
+  - 37ACE0321E8833F25BDDB363AB395C81354E88A0
+  - 554137DEE63BE07CE9687C5886244954277227F5
+  - 68AC78A7CD660ED204B4BC3C73A3F91DA1AE45FC
+  - 849D181E1BEE5084CBE1BACBA8442996A8B1F8C6
+  - 87EF370B8D6E3089E7F8CDDD6E830B5E4C8CF60B
+  - B7285348B05EDAEFF7F032384E4F90182E1C1F27
+  - F5A5336B28456208EF357B4630A93A91206CF21A
   websites:
-    - trackmyphones.com
-    - www.trackmyphones.com
+  - trackmyphones.com
+  - www.trackmyphones.com
   c2:
+    ips: []
+    domains:
     - trackmyphones.com
     - www.trackmyphones.com
     - message-tracker-98822.firebaseio.com
@@ -658,23 +710,27 @@
     - key-logger-90fff.firebaseio.com
     - spyaudiorecorder.firebaseio.com
     - video-recorder-c0419.firebaseio.com
-      
-- names:
-    - FlexiSpy
+
+- name: FlexiSpy
+  names:
+  - FlexiSpy
   packages:
-    - com.vvt.android.syncmanager
-    - com.telephony.android
-    - com.fp.backup
-    - com.android.phone.dialer
+  - com.vvt.android.syncmanager
+  - com.telephony.android
+  - com.fp.backup
+  - com.android.phone.dialer
   certificates:
-    - 69B327860EDB531DDFFB1B5DBF0C24245A75F3E4
-    - 93385A087BB5CAB96EAE83A1AF874E0E39B2990F
-    - 20C940625B322C487A89B1FEBF6C090845B040C1
-    - 984F8786102D9BF26E5244BBC93733D3609948F4
-    - 45DECBF059864164A4BC644D3EAB8127FC98238A
+  - 69B327860EDB531DDFFB1B5DBF0C24245A75F3E4
+  - 93385A087BB5CAB96EAE83A1AF874E0E39B2990F
+  - 20C940625B322C487A89B1FEBF6C090845B040C1
+  - 984F8786102D9BF26E5244BBC93733D3609948F4
+  - 45DECBF059864164A4BC644D3EAB8127FC98238A
   websites:
-    - flexispy.com
+  - flexispy.com
   c2:
+    ips:
+    - 119.8.35.235
+    domains:
     - trkps.com
     - client.mobilefonex.com
     - test-client.mobilefonex.com
@@ -683,47 +739,52 @@
     - dmw.bz
     - djp.bz
     - dmw.cc
-    - 119.8.35.235
 
-- names:
-    - Cerberus
+- name: Cerberus
+  names:
+  - Cerberus
   packages:
-    - com.lsdroid.cerberuss
-    - com.lsdroid.cerberus.persona
-    - com.lsdroid.cerberus.kids
-    - com.lsdroid.cerberus.client
-    - com.lsdroid.cerberus
+  - com.lsdroid.cerberuss
+  - com.lsdroid.cerberus.persona
+  - com.lsdroid.cerberus.kids
+  - com.lsdroid.cerberus.client
+  - com.lsdroid.cerberus
   certificates:
-    - BC693B48B7EC988E275CF9E1CDAA1447A31717D9
-    - 724C6500F11737C12C0B89185A60427989656697
-    - 69C28343A4D0F2156D7B56AE4616E1386173A047
-    - F2633353631EE72F7B7A7B946FABE1EF0A339041
-    - 409B589FDEAE073A94D609E2B41A6C0EA952B35A
+  - BC693B48B7EC988E275CF9E1CDAA1447A31717D9
+  - 724C6500F11737C12C0B89185A60427989656697
+  - 69C28343A4D0F2156D7B56AE4616E1386173A047
+  - F2633353631EE72F7B7A7B946FABE1EF0A339041
+  - 409B589FDEAE073A94D609E2B41A6C0EA952B35A
   websites:
-    - cerberusapp.com
-    - www.cerberusapp.com
+  - cerberusapp.com
+  - www.cerberusapp.com
   c2:
+    ips: []
+    domains:
     - api-project-999803017449.firebaseio.com
     - cerberusapp.com
 
-- names:
-    - mSpy
+- name: mSpy
+  names:
+  - mSpy
   packages:
-    - android.sys.process
-    - system.framework
-    - com.mspy.lite
-    - med.mspy.mspy
-    - android.helper.system
-    - core.update.framework
+  - android.sys.process
+  - system.framework
+  - com.mspy.lite
+  - med.mspy.mspy
+  - android.helper.system
+  - core.update.framework
   certificates:
-    - 3930B621F30D13D24692CBBBBC67C59F92F1C9BD
-    - 7FFE6DA96346FEE822E1F791176CD6970A1DC770
-    - CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
-    - 5EEC898F0DBBD70A9B33DD16EE5FF06B6DE26EA6
+  - 3930B621F30D13D24692CBBBBC67C59F92F1C9BD
+  - 7FFE6DA96346FEE822E1F791176CD6970A1DC770
+  - CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
+  - 5EEC898F0DBBD70A9B33DD16EE5FF06B6DE26EA6
   websites:
-    - www.mspyonline.com
-    - mspyonline.com
+  - www.mspyonline.com
+  - mspyonline.com
   c2:
+    ips: []
+    domains:
     - www.mspyonline.com
     - my.mspyonline.com
     - cp.mspyonline.com
@@ -735,50 +796,57 @@
     - getmspy.net
     - project-323448153542050953.firebaseio.com
 
-- names:
-    - spy2mobile
-    - sap4mobile
+- name: spy2mobile
+  names:
+  - spy2mobile
+  - sap4mobile
   packages:
-    - com.spy2mobile
-    - com.spy2mobile.light
-    - com.s2m
-    - com.s2m.seas
-    - com.sap4mobile
+  - com.spy2mobile
+  - com.spy2mobile.light
+  - com.s2m
+  - com.s2m.seas
+  - com.sap4mobile
   certificates:
-    - 986E5892EFB97E807772698BAC701F49CE9CAEA8
-    - 76A90B5E41FA2AFE14478CDA24A0CA6B4F7FC5F3
-    - 9329632A70D41158EBAB6EED27B12D8CB0D47579
-    - 7D9EDDE23B4D3D7AC459B06ECEBE8EA1350D4F8F
+  - 986E5892EFB97E807772698BAC701F49CE9CAEA8
+  - 76A90B5E41FA2AFE14478CDA24A0CA6B4F7FC5F3
+  - 9329632A70D41158EBAB6EED27B12D8CB0D47579
+  - 7D9EDDE23B4D3D7AC459B06ECEBE8EA1350D4F8F
   websites:
-    - spy2mobile.com
-    - spytomobile.com
+  - spy2mobile.com
+  - spytomobile.com
   c2:
+    ips:
+    - 139.59.125.208
+    - 89685.firebaseio.com
+    domains:
     - spy2mobile.com
     - spytomobile.com
     - sap4mobile.com
-    - 139.59.125.208
     - sap4mobile-89685.firebaseio.com
-    - 89685.firebaseio.com
 
-- names:
-    - SpyHide
+- name: SpyHide
+  names:
+  - SpyHide
   packages:
-    - com.wifiset.service
-    - googlesettings.setting
-    - com.mrblue.setting
-    - com.wifisettings.service
-    - com.virsys.tracker
+  - com.wifiset.service
+  - googlesettings.setting
+  - com.mrblue.setting
+  - com.wifisettings.service
+  - com.virsys.tracker
   certificates:
-    - CD8F39DAECC7793F33D8D847A598373B8F25A7B7
-    - F6914F044B9385D6005DC9C50A9AECDC2349F413
-    - 7AFD651F96C7C938351396A53895C3C0704F6B96
-    - 6EB49E72D6138B4210D1CA60247D419E5660315C
+  - CD8F39DAECC7793F33D8D847A598373B8F25A7B7
+  - F6914F044B9385D6005DC9C50A9AECDC2349F413
+  - 7AFD651F96C7C938351396A53895C3C0704F6B96
+  - 6EB49E72D6138B4210D1CA60247D419E5660315C
   websites:
-    - spyhide.com
-    - www.spyhide.com
-    - spyhide.ir
-    - www.spyhide.ir
+  - spyhide.com
+  - www.spyhide.com
+  - spyhide.ir
+  - www.spyhide.ir
   c2:
+    ips:
+    - 78.47.16.3
+    domains:
     - client.spyhide.com
     - spyhide.com
     - account.cellphone-remote-tracker.com
@@ -788,71 +856,82 @@
     - www.spyhide.ir
     - client.spyhide.ir
     - virsis.net
-    - 78.47.16.3
 
-- names:
-    - MaxxSpy
+- name: MaxxSpy
+  names:
+  - MaxxSpy
   packages:
-    - com.maxxspy.system
-    - com.maxxspy
+  - com.maxxspy.system
+  - com.maxxspy
   certificates:
-    - 656CD7890ED79CE8570D1B7156C31958D5AC1606
-    - 6B660EAAEBA47793B7A1278D714669A6612BCA5B
+  - 656CD7890ED79CE8570D1B7156C31958D5AC1606
+  - 6B660EAAEBA47793B7A1278D714669A6612BCA5B
   websites:
-    - maxxspy.com
+  - maxxspy.com
   c2:
+    ips: []
+    domains:
     - flushdbd.maxxspy.com
     - maxxspy.com
 
-- names:
-    - MeuSpy
+- name: MeuSpy
+  names:
+  - MeuSpy
   packages:
-    - in.servidor.service
-    - com.app.insapp2
-    - br.com.phonecell.services
-    - br.com.phonecell.cloud1
-    - br.com.phonecell.go5ge
-    - br.com.phonecell.maps
-    - br.com.phonecell.radio
+  - in.servidor.service
+  - com.app.insapp2
+  - br.com.phonecell.services
+  - br.com.phonecell.cloud1
+  - br.com.phonecell.go5ge
+  - br.com.phonecell.maps
+  - br.com.phonecell.radio
   certificates:
-    - 3E929DB5941C185EA4FAC2B0D7BA7589D40A379E
-    - B8CA103D22C39282D7A1E8028D93333E481CCA83
-    - 018D06B4A5679892572CB9DA44BA1A8C1E3B68A5
-    - B0A100360B029E0B2105F60E2C8EEB9053998A7E
-    - E0E02AD30F042E096A7A5654217B846EA08C02D1
-    - 493812991A9A1CC7BEEFD45F2180CD2FC0AF8913
-    - 35B05ACC96D02849E20D9ED3BA9CEA41C2B83FFA
+  - 3E929DB5941C185EA4FAC2B0D7BA7589D40A379E
+  - B8CA103D22C39282D7A1E8028D93333E481CCA83
+  - 018D06B4A5679892572CB9DA44BA1A8C1E3B68A5
+  - B0A100360B029E0B2105F60E2C8EEB9053998A7E
+  - E0E02AD30F042E096A7A5654217B846EA08C02D1
+  - 493812991A9A1CC7BEEFD45F2180CD2FC0AF8913
+  - 35B05ACC96D02849E20D9ED3BA9CEA41C2B83FFA
   websites:
-    - servidor.in
+  - servidor.in
   c2:
+    ips: []
+    domains:
     - servidor.in
     - n.servidor.in
     - l.servidor.in
-      
-- names:
-    - AppSpy
-  packages:
-    - com.atracker.app
-  certificates:
-    - 0AD33649F0D0532B5EB0A36A81712962AA79BF54
-  websites:
-  c2:
-    - 167.114.114.207
 
-- names:
-    - MobileTrackerFree
+- name: AppSpy
+  names:
+  - AppSpy
   packages:
-    - com.services.phone
-    - service.download.app
-    - mobile.monitor.child2021
-    - com.mobile.gps
-    - com.mobiletrackerfree.secondapp
+  - com.atracker.app
   certificates:
-    - 35CD797D1736484786152A231920575FABC5C12A
-    - 8CED75E875A2F11B3327A73A6DBD0B25E26533F2
-    - 8B9540311C46184984B48BF9CB51F1742A8AFB42
-  websites:
+  - 0AD33649F0D0532B5EB0A36A81712962AA79BF54
+  websites: ''
   c2:
+    ips:
+    - 167.114.114.207
+    domains: []
+
+- name: MobileTrackerFree
+  names:
+  - MobileTrackerFree
+  packages:
+  - com.services.phone
+  - service.download.app
+  - mobile.monitor.child2021
+  - com.mobile.gps
+  - com.mobiletrackerfree.secondapp
+  certificates:
+  - 35CD797D1736484786152A231920575FABC5C12A
+  - 8CED75E875A2F11B3327A73A6DBD0B25E26533F2
+  - 8B9540311C46184984B48BF9CB51F1742A8AFB42
+  websites: ''
+  c2:
+    ips: []
+    domains:
     - apk.mtf.re
     - mtf.re
     - d.d-app-apk.com
@@ -860,27 +939,24 @@
     - mobile-tracker-data.com
     - myappmobile-537f7.firebaseio.com
 
-- names:
-    - iKeyMonitor
+- name: iKeyMonitor
+  names:
+  - iKeyMonitor
   packages:
-    - com.android.internet.a20210916
-    - com.sec.android.internet.im.service.im20190118
-    - com.sec.android.internet.im.service.im20190419
-    - com.sec.android.internet.im.service.im20210815
+  - com.android.internet.a20210916
+  - com.sec.android.internet.im.service.im20190118
+  - com.sec.android.internet.im.service.im20190419
+  - com.sec.android.internet.im.service.im20210815
   certificates:
-    - C1D83F5FFE3EC319FF103EC7346CDDF218B5634D
-    - 4DAD108F915E237CA2834FAC70C077AD8105E804
-    - B8F5FDFAE5920C4CFB6ACE214D39327F299FA76D
-    - 9284CB43B87E9F9C77DA509F1672E884BD6CA876
-    - 786325ab3e614f868ca2a7f2f0e75ec76a047311
-  websites:
+  - C1D83F5FFE3EC319FF103EC7346CDDF218B5634D
+  - 4DAD108F915E237CA2834FAC70C077AD8105E804
+  - B8F5FDFAE5920C4CFB6ACE214D39327F299FA76D
+  - 9284CB43B87E9F9C77DA509F1672E884BD6CA876
+  - 786325ab3e614f868ca2a7f2f0e75ec76a047311
+  websites: ''
   c2:
-    - ikm.awsapi.io
-    - emcpanel.com
-    - users.easemon.com
-    - ikeymonitor.com
+    ips:
     - 83dd4.appspot.com
-    - users.awosoft.com
     - 172.67.82.183
     - 104.25.170.109
     - 104.25.169.109
@@ -890,17 +966,26 @@
     - 172.67.194.85
     - 104.18.54.129
     - 104.18.55.129
+    domains:
+    - ikm.awsapi.io
+    - emcpanel.com
+    - users.easemon.com
+    - ikeymonitor.com
+    - users.awosoft.com
 
-- names:
-    - PanSpy
+- name: PanSpy
+  names:
+  - PanSpy
   packages:
-    - com.panspy.android
+  - com.panspy.android
   certificates:
-    - CCD5678FF73D6ECF4E74317166422AFE67D77406
+  - CCD5678FF73D6ECF4E74317166422AFE67D77406
   websites:
-    - panspy.me
-    - panspy.com
+  - panspy.me
+  - panspy.com
   c2:
+    ips: []
+    domains:
     - panspy.me
     - panspy.com
     - ali.panspy.com
@@ -909,95 +994,112 @@
     - c1.panspy.com
     - d1.panspy.com
     - panspy-1.oss-us-west-1.aliyuncs.com
-      
-- names:
-    - AndroidLost
+
+- name: AndroidLost
+  names:
+  - AndroidLost
   packages:
-    - com.androidlost 
-    - com.androidlost.smshandler
+  - com.androidlost
+  - com.androidlost.smshandler
   certificates:
-    - 9EECE9B4ECF4DC0C5981FEACFB271E1C0A2967FF
+  - 9EECE9B4ECF4DC0C5981FEACFB271E1C0A2967FF
   websites:
-    - androidlost.com
-    - www.androidlost.com
+  - androidlost.com
+  - www.androidlost.com
   c2:
+    ips: []
+    domains:
     - androidlost.appspot.com
     - androidlost.firebaseio.com
     - androidlost.com
     - www.androidlost.com
     - test.androidlost.com
     - new.androidlost.com
-      
-- names:
-    - Metasploit
-    - ForeverSpy  # lamer repackaged metasploit
+
+- name: Metasploit
+  names:
+  - Metasploit
+  - ForeverSpy
   packages:
-    - com.metasploit.stage 
+  - com.metasploit.stage
   websites:
-    - foreverspy.com
+  - foreverspy.com
   c2:
+    ips: []
+    domains:
     - foreverspy.com
     - app.foreverspy.com
     - video-recorder-c0419.firebaseio.com
-      
-- names:
-    - Spy24
+
+- name: Spy24
+  names:
+  - Spy24
   packages:
-    - net.spy24.wifi
-    - com.example.openanotherapp
-    - ir.spy24.updater
+  - net.spy24.wifi
+  - com.example.openanotherapp
+  - ir.spy24.updater
   certificates:
-    - 79C395148C34F0826E04B37A6632A53A7977A1AA
-    - F5C25A3B800311E8053295676ADB112753E03F0B
+  - 79C395148C34F0826E04B37A6632A53A7977A1AA
+  - F5C25A3B800311E8053295676ADB112753E03F0B
   websites:
-    - spy24.net
+  - spy24.net
   c2:
+    ips: []
+    domains:
     - spy24.net
     - panel.spy24.net
 
-- names:
-    - CatWatchful
+- name: CatWatchful
+  names:
+  - CatWatchful
   packages:
-    - wosc.cwf
-  certificates:
+  - wosc.cwf
+  certificates: ''
   websites:
-    - catwatchful.com
+  - catwatchful.com
   c2:
-    - catwatchful.com
+    ips:
     - 45.114.224.147
     - 162.144.75.253
+    domains:
+    - catwatchful.com
 
-
-- names:
-    - HighsterMobile
+- name: HighsterMobile
+  names:
+  - HighsterMobile
   packages:
-    - org.secure.smsgps
-    - com.autoforward.monitor
+  - org.secure.smsgps
+  - com.autoforward.monitor
   certificates:
-    - 683722A1C629AD5734B93E08ADFAA61775AD196F
+  - 683722A1C629AD5734B93E08ADFAA61775AD196F
   websites:
-    - evt17.com
+  - evt17.com
   c2:
+    ips: []
+    domains:
     - evt17.com
     - cellphoneservices.info
     - device-ac480.firebaseio.com
     - device-ac480.appspot.com
     - ac480.firebaseio.com
 
-- names:
-    - iMonitorSpy
+- name: iMonitorSpy
+  names:
+  - iMonitorSpy
   packages:
-    - com.imonitor.ainfo
-    - inc.imonitor
+  - com.imonitor.ainfo
+  - inc.imonitor
   certificates:
-    - 3EA68714AE224B0C0EEED64A14B11D3983C3D6F8
-    - BFC4C15E35E3506095B42E2B428E4016B1FFA1AB
-    - 5c5ef3dfe98b02251a6ec82609f22a092562afee
+  - 3EA68714AE224B0C0EEED64A14B11D3983C3D6F8
+  - BFC4C15E35E3506095B42E2B428E4016B1FFA1AB
+  - 5c5ef3dfe98b02251a6ec82609f22a092562afee
   websites:
-    - www.imonitorsoft.cn
-    - www.imonitorsoft.com
-    - imonitorsoft.cn
+  - www.imonitorsoft.cn
+  - www.imonitorsoft.com
+  - imonitorsoft.cn
   c2:
+    ips: []
+    domains:
     - imonitor-da8b2.firebaseio.com
     - imonitorke.com
     - www.imonitorsoft.cn
@@ -1005,22 +1107,22 @@
     - imonitorsoft.cn
     - imonitorsoft.com
 
-
-
-      
-- names:
-    - MobileTool
+- name: MobileTool
+  names:
+  - MobileTool
   packages:
-    - org.poleward.burghs.hydrotherapy.homonymously
-    - org.urates.amirates.suffocate.chiliast
-    - org.connecting.updived.hygeist.interplays
+  - org.poleward.burghs.hydrotherapy.homonymously
+  - org.urates.amirates.suffocate.chiliast
+  - org.connecting.updived.hygeist.interplays
   certificates:
-    - 3E9B3E5190F64BA9A952B7F57942AA21FFDA50BA
-    - 7F11358AC560C5E90B735A21B907F1C8143353DF
+  - 3E9B3E5190F64BA9A952B7F57942AA21FFDA50BA
+  - 7F11358AC560C5E90B735A21B907F1C8143353DF
   websites:
-    - mobiletool.ru
+  - mobiletool.ru
   c2:
+    ips:
     - 6kvses.com
+    domains:
     - bincdi.6kvses.com
     - bincdi.birxpk.com
     - birxpk.com
@@ -1040,71 +1142,88 @@
     - xmyevq.birxpk.com
     - www.mtoolapp.net
 
-- names:
-    - ShadowSpy
+- name: ShadowSpy
+  names:
+  - ShadowSpy
   packages:
-    - com.runaki.synclogs
-    - com.client.requestlogs
+  - com.runaki.synclogs
+  - com.client.requestlogs
   certificates:
-    - FE7626A8D3C38FD78EA2A729B39B943BA814F014
-    - 01E49C220A9776D4978C1D28D6C32F86D145B8AE
+  - FE7626A8D3C38FD78EA2A729B39B943BA814F014
+  - 01E49C220A9776D4978C1D28D6C32F86D145B8AE
   websites:
-    - shadow-logs.com
-    - www.shadow-logs.com
-    - shadow-spy.com
+  - shadow-logs.com
+  - www.shadow-logs.com
+  - shadow-spy.com
   c2:
+    ips: []
+    domains:
     - shadow-logs.com
     - www.shadow-logs.com
     - shadow-spy.com
 
-- names:
-    - SpyHuman
+- name: SpyHuman
+  names:
+  - SpyHuman
   packages:
-    - com.cldprotect
+  - com.cldprotect
   certificates:
-    - 76F6C302533751BED738D40882AC219BAAD65E7B
-    - F9265164219A1C5DEE4A76D66BEA0C35A1FD6032
-    - 597C0169D8C27DE7C6B62C2C252F9ECAC0E562C4
+  - 76F6C302533751BED738D40882AC219BAAD65E7B
+  - F9265164219A1C5DEE4A76D66BEA0C35A1FD6032
+  - 597C0169D8C27DE7C6B62C2C252F9ECAC0E562C4
   websites:
-    - spyhuman.com
+  - spyhuman.com
   c2:
+    ips:
+    - 213.239.228.196
+    domains:
     - spyhuman.com
     - apispyhuman.com
-    - 213.239.228.196
 
-- names:
-    - uMobix
+- name: uMobix
+  names:
+  - uMobix
   packages:
-    - com.tuner.funnelwebview
-    - com.system.user
-    - com.play.services
+  - com.tuner.funnelwebview
+  - com.system.user
+  - com.play.services
   certificates:
-    - 575F8E8A04A5967E78BC5B5A3E31FDACF42F4FB1
-    - 6696449AA96EBA57CDF4707F0F84274958BE4523
-    - F4E6DA34F0071AEB70010EBB69875E5212D69140
+  - 575F8E8A04A5967E78BC5B5A3E31FDACF42F4FB1
+  - 6696449AA96EBA57CDF4707F0F84274958BE4523
+  - F4E6DA34F0071AEB70010EBB69875E5212D69140
   websites:
-    - umobix.com
+  - umobix.com
   c2:
+    ips: []
+    domains:
     - us.umobix.com
 
-- names:
-    - Spymie
+- name: Spymie
+  names:
+  - Spymie
   packages:
-    - com.ant.spymie.keylogger
+  - com.ant.spymie.keylogger
   certificates:
-    - 05B23C7E9156A4C55768DA27936FF2D7AF09BB8F
-  websites:
+  - 05B23C7E9156A4C55768DA27936FF2D7AF09BB8F
+  websites: ''
   c2:
+    ips: []
+    domains: []
 
-- names:
-    - TheOneSpy
+- name: TheOneSpy
+  names:
+  - TheOneSpy
   packages:
-    - com.android.services
-  certificates:
+  - com.android.services
+  certificates: ''
   websites:
-    - theonespy.com
-    - www.theonespy.com
+  - theonespy.com
+  - www.theonespy.com
   c2:
+    ips:
+    - 85.13.218.229
+    - 85.13.206.195
+    domains:
     - lb.theonespy.com
     - im.theonespy.com
     - node-api.theonespy.com
@@ -1113,17 +1232,18 @@
     - node3.theonespy.com
     - node4.theonespy.com
     - node5.theonespy.com
-    - 85.13.218.229
-    - 85.13.206.195
 
-- names:
-    - TrackMyPhone
+- name: TrackMyPhone
+  names:
+  - TrackMyPhone
   packages:
-    - com.map.system
+  - com.map.system
   certificates:
-    - C276C3B087207C9D3CEEDA766C01E0BDEF7EAC71
-  websites:
+  - C276C3B087207C9D3CEEDA766C01E0BDEF7EAC71
+  websites: ''
   c2:
+    ips: []
+    domains:
     - sync.bk128.com
     - asset.bk128.com
     - alert.bk128.com
@@ -1131,110 +1251,133 @@
     - www.mydwnd.com
     - mydwnd.com
 
-- names:
-    - ClevGuard
+- name: ClevGuard
+  names:
+  - ClevGuard
   packages:
-    - com.kids.pro
-    - com.kids.whatsapp
+  - com.kids.pro
+  - com.kids.whatsapp
   certificates:
-    - CCE55D4C3E844E8A7542036D40BFBB4AA98B89D7
-    - E48C6714DBFD2AB6E5CF85C87EFD05BD8E11E6FB
+  - CCE55D4C3E844E8A7542036D40BFBB4AA98B89D7
+  - E48C6714DBFD2AB6E5CF85C87EFD05BD8E11E6FB
   websites:
-    - clevguard.net
+  - clevguard.net
   c2:
+    ips:
+    - 47.88.63.70
+    domains:
     - api.clevguard.com
     - kidsguard-6c6a9.firebaseio.com
     - clevguard.net
-    - 47.88.63.70
 
-- names:
-    - EasyPhoneTrack
+- name: EasyPhoneTrack
+  names:
+  - EasyPhoneTrack
   packages:
-    - com.spappm_mondow.alarm
-  certificates:
-  websites:
+  - com.spappm_mondow.alarm
+  certificates: ''
+  websites: ''
   c2:
+    ips: []
+    domains:
     - studio11-7e288.firebaseio.com
     - trackmy.mobi
     - celltracker.mobi
     - spy-datacenter.com
     - cell-phones-tracker.net
 
-- names:
-    - bark
+- name: bark
+  names:
+  - bark
   packages:
-    - com.pt.bark
+  - com.pt.bark
   certificates:
-    - 473F919A69BBAD3457AF2F0E3AFC34E513F103F1
+  - 473F919A69BBAD3457AF2F0E3AFC34E513F103F1
   websites:
-    - bark.us
-    - www.bark.us
+  - bark.us
+  - www.bark.us
   c2:
+    ips: []
+    domains:
     - bark-android-media.s3.amazonaws.com
     - www.bark.us
 
-- names:
-    - SpyLive260
+- name: SpyLive260
+  names:
+  - SpyLive260
   packages:
-    - com.sl360
-  certificates:
+  - com.sl360
+  certificates: ''
   websites:
-    - spylive360.com
+  - spylive360.com
   c2:
+    ips: []
+    domains:
     - s1.spylive360.com
     - s2.spylive360.com
     - s3.spylive360.com
     - spylive360.com
 
-- names:
-    - XNSpy
+- name: XNSpy
+  names:
+  - XNSpy
   packages:
-    - com.xnspy.dashboard
-  certificates:
+  - com.xnspy.dashboard
+  certificates: ''
   websites:
-    - xnspy.com
+  - xnspy.com
   c2:
+    ips: []
+    domains:
     - xnspy.com
     - sync.xiz4me.com
 
-- names:
-    - MobiStealth
+- name: MobiStealth
+  names:
+  - MobiStealth
   packages:
-    - lookOut.Secure
+  - lookOut.Secure
   certificates:
-    - FED69D6F09AE8C98DD4053C1934CCAF57D31824D
+  - FED69D6F09AE8C98DD4053C1934CCAF57D31824D
   websites:
-    - mobistealth.com
-    - www.mobistealth.com
+  - mobistealth.com
+  - www.mobistealth.com
   c2:
+    ips:
+    - 5.79.71.114
+    domains:
     - dwn.vys.me
     - www.vys.me
-    - 5.79.71.114
 
-- names:
-    - MobiSpy
+- name: MobiSpy
+  names:
+  - MobiSpy
   packages:
-    - com.psac.a.processservice
+  - com.psac.a.processservice
   certificates:
-    - B5075AB201EE483C8ECADE1BC4FC711293D6932B
+  - B5075AB201EE483C8ECADE1BC4FC711293D6932B
   websites:
-    - mobispy.net
+  - mobispy.net
   c2:
+    ips: []
+    domains:
     - my.mobispy.net
 
-
-- names:
-    - NeoSpy
+- name: NeoSpy
+  names:
+  - NeoSpy
   packages:
-    - ns.antapp.module
-    - com.nsmon.guard
+  - ns.antapp.module
+  - com.nsmon.guard
   certificates:
-    - 9ED8DD944D3EB545E1EEEEEC1D8174772CF37C07
+  - 9ED8DD944D3EB545E1EEEEEC1D8174772CF37C07
   websites:
-    - neospy.pro
-    - neospy.net
-    - neospy.tech
+  - neospy.pro
+  - neospy.net
+  - neospy.tech
   c2:
+    ips: []
+    domains:
     - i6.clientreport.info
     - i7.clientreport.info
     - i8.clientreport.info
@@ -1245,280 +1388,352 @@
     - i13.clientreport.info
     - clientreport.info
 
-- names:
-    - AllTracker
+- name: AllTracker
+  names:
+  - AllTracker
   packages:
-    - city.russ.alltrackercorp
-    - city.russ.alltrackerfamily
+  - city.russ.alltrackercorp
+  - city.russ.alltrackerfamily
   certificates:
-    - 43D45CE7BEE36E449434C14973B7D285209414C7
+  - 43D45CE7BEE36E449434C14973B7D285209414C7
   websites:
-    - alltracker.org
+  - alltracker.org
   c2:
-    - alltracker.org
-    - staging-all-tracker.appspot.com
+    ips:
     - 6-dot-all-tracker.appspot.com
     - 4-dot-all-tracker.appspot.com
+    domains:
+    - alltracker.org
+    - staging-all-tracker.appspot.com
 
-- names:
-    - SpyPhoneApp
+- name: SpyPhoneApp
+  names:
+  - SpyPhoneApp
   packages:
-    - com.spappm_mondow.alarm
+  - com.spappm_mondow.alarm
   certificates:
-    - 8c017fdb2a81807ec879a8e30f4ab05d5ca02034 
-    - 9477420001bc79500623374ec586b054aac97bf9 
-  websites:
+  - 8c017fdb2a81807ec879a8e30f4ab05d5ca02034
+  - 9477420001bc79500623374ec586b054aac97bf9
+  websites: ''
   c2:
+    ips: []
+    domains:
     - www.spy-phone-app.com
     - www.spappmonitoring.com
 
-- names:
-    - AndroidMonitor
+- name: AndroidMonitor
+  names:
+  - AndroidMonitor
   packages:
-    - com.ibm.fb
+  - com.ibm.fb
   certificates:
-    - 92EBDB7D7C18A34705A6918B5F327DDB0E8C8452
-    - 558765849658A3821FE4054ED2C1FF6E28B4B8A0
+  - 92EBDB7D7C18A34705A6918B5F327DDB0E8C8452
+  - 558765849658A3821FE4054ED2C1FF6E28B4B8A0
   websites:
-    - androidmonitor.com
-    - www.androidmonitor.com
+  - androidmonitor.com
+  - www.androidmonitor.com
   c2:
+    ips: []
+    domains:
     - server.androidmonitor.com
 
-- names:
-    - TalkLog
+- name: TalkLog
+  names:
+  - TalkLog
   packages:
-    - tech.logsettings
-    - t.tools.app
+  - tech.logsettings
+  - t.tools.app
   certificates:
-    - 08ACB92D02487EBC0CEA42B672A631BA7EA59ADF
-    - AF821DD021558AEDF49730D2892063BD502DEA14
+  - 08ACB92D02487EBC0CEA42B672A631BA7EA59ADF
+  - AF821DD021558AEDF49730D2892063BD502DEA14
   websites:
-    - talklog.tools
+  - talklog.tools
   c2:
+    ips:
+    - 78.46.34.14
+    domains:
     - talklog.tools
     - tchsrvce.com
-    - 78.46.34.14
 
-- names:
-    - SpyMasterPro
+- name: SpyMasterPro
+  names:
+  - SpyMasterPro
   packages:
-    - iqual.calculadora.pro
+  - iqual.calculadora.pro
   certificates:
-    - 8AD595A53B76014B7B919ED231DB372096D358E7
+  - 8AD595A53B76014B7B919ED231DB372096D358E7
   websites:
-    - spymasterpro.com
-    - www.spymasterpro.com
+  - spymasterpro.com
+  - www.spymasterpro.com
   c2:
+    ips:
+    - 91.121.70.22
+    domains:
     - senseye.spymasterpro.com
     - imobispy.com
-    - 91.121.70.22
 
-- names:
-    - FreeAndroidSpy
+- name: FreeAndroidSpy
+  names:
+  - FreeAndroidSpy
   packages:
-    - com.hp.vd
-    - com.hp.vc
+  - com.hp.vd
+  - com.hp.vc
   certificates:
-    - E0103BF20E95E826920A3F0F7B3BD03A899127D7
+  - E0103BF20E95E826920A3F0F7B3BD03A899127D7
   websites:
-    - freeandroidspy.com
+  - freeandroidspy.com
   c2:
-    - server.freeandroidspy.com
+    ips:
     - 46.40.125.240
     - 199.38.181.70
+    domains:
+    - server.freeandroidspy.com
 
-- names:
-    - NetSpy
+- name: NetSpy
+  names:
+  - NetSpy
   packages:
-    - com.googleplay.settings
+  - com.googleplay.settings
   certificates:
-    - A4E169AAF0068A1FC5F7900B7F59A438B833364C
+  - A4E169AAF0068A1FC5F7900B7F59A438B833364C
   websites:
-    - www.netspy.net
-    - netspy.net
+  - www.netspy.net
+  - netspy.net
   c2:
+    ips: []
+    domains:
     - netspy-7b8ec.firebaseio.com
 
-- names:
-    - Spyier
+- name: Spyier
+  names:
+  - Spyier
   packages:
-    - com.sc.spyier.v2
-  certificates:
+  - com.sc.spyier.v2
+  certificates: ''
   websites:
-    - spyier.com
+  - spyier.com
   c2:
+    ips: []
+    domains:
     - i.spyier.com
     - v4vw4ytvo4.execute-api.us-east-2.amazonaws.com
 
-- names:
-    - CouplerTracker
+- name: CouplerTracker
+  names:
+  - CouplerTracker
   packages:
-    - com.bettertomorrowapps.spyyourlovefree
-    - com.bytepioneers.coupletracker
+  - com.bettertomorrowapps.spyyourlovefree
+  - com.bytepioneers.coupletracker
   certificates:
-    - 18CD402CC43DF0BC03E9951B0F843DC4B1552DC6
-    - BC53CC2A9996DE47BF72348F2A592DC0EBDAF06B
-  websites:
+  - 18CD402CC43DF0BC03E9951B0F843DC4B1552DC6
+  - BC53CC2A9996DE47BF72348F2A592DC0EBDAF06B
+  websites: ''
   c2:
+    ips: []
+    domains:
     - api.bytepioner.com
 
-- names:
-    - GPSTrackerLoki
+- name: GPSTrackerLoki
+  names:
+  - GPSTrackerLoki
   packages:
-    - com.mobile.loki
-    - com.mobile.asgard
+  - com.mobile.loki
+  - com.mobile.asgard
   certificates:
-    - 6156db551938bb4560d4643b54527e4f169ed44f
+  - 6156db551938bb4560d4643b54527e4f169ed44f
   websites:
-    - asgardtech.ru
+  - asgardtech.ru
   c2:
+    ips: []
+    domains:
     - asgard-f8c53.firebaseio.com
     - m.asgardtech.ru
 
-- names:
-    - DDI
+- name: DDI
+  names:
+  - DDI
   packages:
-    - com.ddiutilities.monitor
-  certificates:
-  websites:
+  - com.ddiutilities.monitor
+  certificates: ''
+  websites: ''
   c2:
+    ips: []
+    domains:
     - ddiutilities.com
     - a71f4.firebaseio.com
 
-- names:
-    - SpyApp247
+- name: SpyApp247
+  names:
+  - SpyApp247
   packages:
-    - com.spyapp247.system
-  certificates:
-  websites:
+  - com.spyapp247.system
+  certificates: ''
+  websites: ''
   c2:
+    ips: []
+    domains: []
 
-- names:
-    - SpyMug
+- name: SpyMug
+  names:
+  - SpyMug
   packages:
-    - com.service.mug
+  - com.service.mug
   certificates:
-    - 56c8fa19250edba1a91a37f500da91fbc0657b1f
-  websites:
+  - 56c8fa19250edba1a91a37f500da91fbc0657b1f
+  websites: ''
   c2:
+    ips: []
+    domains: []
 
-- names:
-    - WtSpy
+- name: WtSpy
+  names:
+  - WtSpy
   packages:
-    - com.wwtspy
-    - com.wtspy.apps
+  - com.wwtspy
+  - com.wtspy.apps
   certificates:
-    - BB5E2C0E8DFDC54730C1E9B48754977E7DBCCCF9
+  - BB5E2C0E8DFDC54730C1E9B48754977E7DBCCCF9
   websites:
-    - wtspy.com
+  - wtspy.com
   c2:
+    ips: []
+    domains: []
 
-- names:
-    - Xnore
+- name: Xnore
+  names:
+  - Xnore
   packages:
-    - com.xno.systemservice
+  - com.xno.systemservice
   certificates:
-    - 9bce25527ff174a4ad6cde233b17038641a5eef9
+  - 9bce25527ff174a4ad6cde233b17038641a5eef9
   websites:
-    - xnore.com
+  - xnore.com
   c2:
-    - xnore.com
+    ips:
     - 162.144.212.52
+    domains:
+    - xnore.com
 
-- names:
-    - EspiaoAndroid
-    - FoxSpy
+- name: EspiaoAndroid
+  names:
+  - EspiaoAndroid
+  - FoxSpy
   packages:
-    - com.kfhdha.fkjfgjdi
+  - com.kfhdha.fkjfgjdi
   certificates:
-    - 60DA6A5B04C0100DFCE1213C850EFBDEB0D1E8D7
+  - 60DA6A5B04C0100DFCE1213C850EFBDEB0D1E8D7
   websites:
-    - foxspy.com.br
+  - foxspy.com.br
   c2:
+    ips: []
+    domains:
     - aovivo.foxspy.com.br
     - pc.foxspy.com.br
     - celular007.s3.amazonaws.com
 
-- names:
-    - pcTattletale
+- name: pcTattletale
+  names:
+  - pcTattletale
   packages:
-    - com.avi.scbase
+  - com.avi.scbase
   certificates:
-    - 20F092BEC76C406223A7943371A1DBBB5BF66C13
-  websites:
+  - 20F092BEC76C406223A7943371A1DBBB5BF66C13
+  websites: ''
   c2:
+    ips: []
+    domains:
     - pctattletalev2.s3.amazonaws.com
 
-- names:
-    - OneMonitar
-    - OneSpy
+- name: OneMonitar
+  names:
+  - OneMonitar
+  - OneSpy
   packages:
-    - com.android.system.app
+  - com.android.system.app
   certificates:
-    - E458DC7CD8928A41865F502A884F0D51309E0BEF
+  - E458DC7CD8928A41865F502A884F0D51309E0BEF
   websites:
-    - onespy.com
+  - onespy.com
   c2:
+    ips: []
+    domains:
     - send.onespy.com
 
-- names:
-    - eyeZy
+- name: eyeZy
+  names:
+  - eyeZy
   packages:
-    - com.eyezy.android
+  - com.eyezy.android
   certificates:
-    - 3E1A6646C93A7423A25104A88DA5BECE2F35EFF0 
-  websites:
+  - 3E1A6646C93A7423A25104A88DA5BECE2F35EFF0
+  websites: ''
   c2:
+    ips: []
+    domains: []
 
-- names:
-    - SpyEra
+- name: SpyEra
+  names:
+  - SpyEra
   packages:
-    - com.wSpyEra
+  - com.wSpyEra
   certificates:
-    - 813A3AD37D87AA36120DFEC64146C311DB5F4CA9
-  websites:
+  - 813A3AD37D87AA36120DFEC64146C311DB5F4CA9
+  websites: ''
   c2:
+    ips: []
+    domains: []
 
-- names:
-    - AntiFurtoDroid
+- name: AntiFurtoDroid
+  names:
+  - AntiFurtoDroid
   packages:
-    - br.com.maceda.android.antifurtow
+  - br.com.maceda.android.antifurtow
   certificates:
-    - CE94B8512390676F62F3EC61BECEDDDE9AB5519F
+  - CE94B8512390676F62F3EC61BECEDDDE9AB5519F
   websites:
-    - antifurtodroid.com
+  - antifurtodroid.com
   c2:
+    ips: []
+    domains:
     - app.antifurtodroid.com
 
-- names:
-    - CallSMSTRacker
+- name: CallSMSTRacker
+  names:
+  - CallSMSTRacker
   packages:
-    - com.gcm_call_sms_tracker.updated
+  - com.gcm_call_sms_tracker.updated
   certificates:
-    - 0C01AEB7346C700D02613EBA513BD40E87A182F8
-  websites:
+  - 0C01AEB7346C700D02613EBA513BD40E87A182F8
+  websites: ''
   c2:
+    ips: []
+    domains: []
 
-- names:
-    - AiSpyer
+- name: AiSpyer
+  names:
+  - AiSpyer
   packages:
-    - com.aif.tracksp
+  - com.aif.tracksp
   certificates:
-    - 0c01aeb7346c700d02613eba513bd40e87a182f8
-  websites:
+  - 0c01aeb7346c700d02613eba513bd40e87a182f8
+  websites: ''
   c2:
+    ips: []
+    domains:
     - tracksp-7743c.firebaseio.com
 
-- names: 
-    - SpyToApp
+- name: SpyToApp
+  names:
+  - SpyToApp
   packages:
-    - com.spytoapp.system
+  - com.spytoapp.system
   certificates:
-    - 6F93929AB60AC760000E873CD7C56BA79A9E6CAD
+  - 6F93929AB60AC760000E873CD7C56BA79A9E6CAD
   websites:
-    - spytoapp.com
+  - spytoapp.com
   c2:
+    ips: []
+    domains:
     - android.spytoapp.com
     - apk01.spytoapp.com
     - apk02.spytoapp.com
@@ -1527,82 +1742,103 @@
     - downapk.spytoapp.com
     - services.spytoapp.com
 
-- names: 
-    - BlurSpy
+- name: BlurSpy
+  names:
+  - BlurSpy
   packages:
-    - com.saloomughal.spyapp
-  certificates:
-  websites:
+  - com.saloomughal.spyapp
+  certificates: ''
+  websites: ''
   c2:
+    ips: []
+    domains:
     - spyapp-8916f.firebaseio.com
 
-- names: 
-    - AppMia
+- name: AppMia
+  names:
+  - AppMia
   packages:
-    - com.android.system.devicelogs
+  - com.android.system.devicelogs
   certificates:
-    - c51c36fe4f1dfc0c5b8cd55f74773135c1c1e1e5
-  websites:
+  - c51c36fe4f1dfc0c5b8cd55f74773135c1c1e1e5
+  websites: ''
   c2:
+    ips: []
+    domains: []
 
-- names: 
-    - SecretCamRecorder
+- name: SecretCamRecorder
+  names:
+  - SecretCamRecorder
   packages:
-    - com.tools.secretcamcorder
-  certificates:
-  websites:
+  - com.tools.secretcamcorder
+  certificates: ''
+  websites: ''
   c2:
+    ips: []
+    domains: []
 
-- names: 
-    - WiseMo
-  packages:
-  certificates:
-  websites:
+- name: WiseMo
+  names:
+  - WiseMo
+  packages: ''
+  certificates: ''
+  websites: ''
   c2:
+    ips: []
+    domains:
     - mycloud1.wisemo.com
     - mycloud.wisemo.com
 
-- names: 
-    - MobileFindFree
-    - FreeSpy
+- name: MobileFindFree
+  names:
+  - MobileFindFree
+  - FreeSpy
   packages:
-    - com.mobilefindfree 
+  - com.mobilefindfree
   certificates:
-    - 492ff617a79f6c8d80b453815cfe6586e21c5f72
+  - 492ff617a79f6c8d80b453815cfe6586e21c5f72
   websites:
-    - free-spy.com
+  - free-spy.com
   c2:
+    ips: []
+    domains:
     - api.free-spy.com
 
-- names:
-    - Unisafe
+- name: Unisafe
+  names:
+  - Unisafe
   packages:
-    - ru.usafe.u_safe 
-    - ru.usafe.usafe 
-  certificates:
+  - ru.usafe.u_safe
+  - ru.usafe.usafe
+  certificates: ''
   websites:
-    - usafe.ru
+  - usafe.ru
   c2:
+    ips: []
+    domains:
     - usafe-ca594.firebaseio.com
     - usafe.ru
 
-- names:
-    - TrackView
-    - LifeCircle
+- name: TrackView
+  names:
+  - TrackView
+  - LifeCircle
   packages:
-    - app.cybrook.trackview
-    - app.lifecircle
-    - cn.trackview.shentan 
-    - com.trackview
-    - net.homesafe
-    - net.trackview.pro 
-    - us.trackview
+  - app.cybrook.trackview
+  - app.lifecircle
+  - cn.trackview.shentan
+  - com.trackview
+  - net.homesafe
+  - net.trackview.pro
+  - us.trackview
   certificates:
-    - CB97E71AFA4665D6D28697B9197046C81E5E5D6C
+  - CB97E71AFA4665D6D28697B9197046C81E5E5D6C
   websites:
-    - lifecircle.app
-    - trackview.net
+  - lifecircle.app
+  - trackview.net
   c2:
+    ips: []
+    domains:
     - analytics.trackview.net
     - api-project-285519687053.firebaseio.com
     - api.lifecircle.app
@@ -1615,29 +1851,35 @@
     - user.trackview.net
     - user2.trackview.net
 
-- names:
-    - TrackingSmartphone
+- name: TrackingSmartphone
+  names:
+  - TrackingSmartphone
   packages:
-    - com.tracking_smartphone 
-    - com.ts_settings 
+  - com.tracking_smartphone
+  - com.ts_settings
   certificates:
-    - 1DB0D66C1D21DD4B185D03B13D6CF620E4FACBAA
-    - 665D624FD53E4D538DFE9F7A87087C513CB40506 
+  - 1DB0D66C1D21DD4B185D03B13D6CF620E4FACBAA
+  - 665D624FD53E4D538DFE9F7A87087C513CB40506
   websites:
-    - trackingsmartphone.com
+  - trackingsmartphone.com
   c2:
+    ips: []
+    domains:
     - trackingsmartphone.com
     - tracking-smartphone.firebaseio.com
 
-- names:
-    - TalkLog
+- name: TalkLog
+  names:
+  - TalkLog
   packages:
-    - tech.logsettings
-    - technic.settings
+  - tech.logsettings
+  - technic.settings
   certificates:
-    - 08ACB92D02487EBC0CEA42B672A631BA7EA59ADF
+  - 08ACB92D02487EBC0CEA42B672A631BA7EA59ADF
   websites:
-    - talklog.tools
+  - talklog.tools
   c2:
+    ips: []
+    domains:
     - tchsrvce.com
     - talklog.tools
