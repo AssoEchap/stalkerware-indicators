@@ -37297,6 +37297,42 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "3cf8ac12-d65c-42c4-97e5-21897b3d0f6b",
+          "object_relation": "domain",
+          "value": "admin.flexispy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "379e0941-5c9c-4161-a286-8f407b6b7fbf",
+          "object_relation": "domain",
+          "value": "api.flexispy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "11da4282-ad03-4d0c-b89c-fb59c01bd72f",
+          "object_relation": "domain",
+          "value": "portal.flexispy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "7c5803aa-b7d2-468f-9696-2b4283e1ce7c",
+          "object_relation": "domain",
+          "value": "ecom.flexispy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
