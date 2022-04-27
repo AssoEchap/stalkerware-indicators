@@ -10,42 +10,27 @@ from pymisp import MISPEvent
 
 
 def get_indicators(path):
-    iocs_by_app = defaultdict(lambda: defaultdict(dict, {k: list() for k in ('domains', 'appids', 'certificates', 'sha256', 'ips')}))
-
-    with open(os.path.join(path, 'network.yaml')) as f:
+    with open(os.path.join(path, 'ioc.yaml')) as f:
         r = yaml.load(f, Loader=yaml.BaseLoader)
-        for entry in r:
-            app = entry['app'].lower()
-            if entry['type'] == "domain":
-                iocs_by_app[app]['domains'].append({"indicator": entry['indicator'], "tags": entry.get("tags", [])})
-            else:
-                iocs_by_app[app]['ips'].append({"indicator": entry['indicator'], "tags": entry.get("tags", [])})
+        data = list(r)
 
-    with open(os.path.join(path, "certificates.yaml")) as f:
-        r = yaml.load(f, Loader=yaml.BaseLoader)
-        for entry in r:
-            app = entry['name'].lower()
-            iocs_by_app[app]['certificates'].append(entry['certificate'])
+    samples = {}
+    with open(os.path.join(path, "samples.csv")) as f:
+        reader = csv.reader(f, delimiter=',')
+        for row in reader:
+            if row[0] == "SHA256":
+                continue
 
-    with open('sha256.csv') as f:
-        r = csv.DictReader(f)
-        for row in r:
-            app = row['App'].lower()
-            iocs_by_app[app]['sha256'].append(row['Hash'])
+            if row[4] not in samples.keys():
+                samples[row[4]] = []
 
-    with open('certificates.yaml') as f:
-        r = yaml.load(f, Loader=yaml.BaseLoader)
-        for entry in r:
-            app = entry['name'].lower()
-            iocs_by_app[app]['certificates'].append(entry['certificate'])
+            samples[row[4]].append(row[0])
 
-    with open('appid.yaml') as f:
-        r = yaml.load(f, Loader=yaml.BaseLoader)
-        for entry in r:
-            app = entry['name'].lower()
-            iocs_by_app[app]['appids'].append(entry['package'])
+    for d in data:
+        if d["name"] in samples:
+            d["sha256"] = samples[d["name"]]
 
-    return iocs_by_app
+    return data
 
 
 def generate_hosts(output, iocs):
@@ -56,8 +41,12 @@ def generate_hosts(output, iocs):
     if os.path.isfile(fpath):
         os.remove(fpath)
 
+    domains = []
+    for app in iocs:
+        for d in app.get("c2", {}).get("domains", []):
+            domains.append(d)
+
     with open(fpath, 'w') as f:
-        domains = [b['indicator'] for a in iocs for b in iocs[a]["domains"] if "c2" in b["tags"]]
         for d in sorted(domains):
             f.write("{}\n".format(d))
     print(f"Generated {fpath}")
@@ -73,19 +62,26 @@ def generate_tinycheck(output, iocs):
 
     res = {'iocs': []}
     for app in iocs:
-        for domain in iocs[app]["domains"]:
+        for domain in app.get("c2", {}).get("domains", []):
             res['iocs'].append({
                 'type': 'domain',
                 'tag': 'stalkerware',
                 'tlp': 'white',
-                'value': domain["indicator"]
+                'value': domain
             })
-        for ip in iocs[app]["ips"]:
+        for domain in app.get("websites", []):
+            res['iocs'].append({
+                'type': 'domain',
+                'tag': 'stalkerware',
+                'tlp': 'white',
+                'value': domain
+            })
+        for ip in app.get("c2", {}).get("ips", []):
             res["iocs"].append({
                 'type': 'ip4addr',
                 'tag': 'stalkerware',
                 'tlp': 'white',
-                'value': ip["indicator"]
+                'value': ip
             })
 
     with open(fpath, 'w') as f:
@@ -106,10 +102,10 @@ def generate_network_csv(output, iocs):
         writer = csv.writer(csvfile,)
         writer.writerow(["type", "indicator", "app"])
         for app in iocs:
-            for domain in iocs[app]["domains"]:
-                writer.writerow(["domain", domain["indicator"], app])
-            for ip in iocs[app]["ips"]:
-                writer.writerow(["ipv4", ip["indicator"], app])
+            for domain in app.get("c2", {}).get("domains", []):
+                writer.writerow(["domain", domain, app["name"]])
+            for ip in app.get("c2", {}).get("ips", []):
+                writer.writerow(["ipv4", ip, app["name"]])
 
     print(f"Generated {fpath}")
 
@@ -124,25 +120,30 @@ def generate_stix(folder, iocs):
         os.remove(fpath)
 
     res = []
-    for app_name, entries in iocs.items():
-        malware = Malware(name=app_name, is_family=False, description="Stalkerware applications")
+    for app in iocs:
+        malware = Malware(name=app["name"], is_family=False, description="Stalkerware applications")
         res.append(malware)
-        for d in entries['domains']:
-            i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d["indicator"]), pattern_type="stix")
+        for d in app.get("c2", {}).get("domains", []):
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
             res.append(i)
             res.append(Relationship(i, 'indicates', malware))
 
-        for h in entries['sha256']:
+        for d in app.get("websites", []):
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
+            res.append(i)
+            res.append(Relationship(i, 'indicates', malware))
+
+        for h in app.get("sha256", []):
             i = Indicator(indicator_types=["malicious-activity"], pattern="[file:hashes.sha256='{}']".format(h), pattern_type="stix")
             res.append(i)
             res.append(Relationship(i, 'indicates', malware))
 
-        for a in entries['appids']:
+        for a in app.get("packages", []):
             i = Indicator(indicator_types=["malicious-activity"], pattern="[app:id='{}']".format(a), pattern_type="stix")
             res.append(i)
             res.append(Relationship(i, 'indicates', malware))
 
-        for c in entries['certificates']:
+        for c in app.get("certificates", []):
             i = Indicator(indicator_types=["malicious-activity"], pattern="[app:cert.md5='{}']".format(c), pattern_type="stix")
         res.append(i)
         res.append(Relationship(i, 'indicates', malware))
@@ -167,14 +168,12 @@ def generate_suricata(folder, iocs):
 
     with open(fpath, mode='w') as output:
         for app in iocs:
-            for d in iocs[app]["domains"]:
-                if "C2" in d["tags"]:
-                    output.write('alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE {} ({})"; dns.query; content:"{}"; depth:{}; nocase; endswith; fast_pattern; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(app, fang(d["indicator"]), d["indicator"], len(d["indicator"]), sid))
-                    sid += 1
-            for ip in iocs[app]["ips"]:
-                if "C2" in ip["tags"]:
-                    output.write('alert ip $HOME_NET any -> [{}] any (msg:"PTS STALKERWARE {} ({})"; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(ip["indicator"], fang(ip["indicator"]), app, sid))
-                    sid += 1
+            for d in app.get("c2", {}).get("domains", []):
+                output.write('alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE {} ({})"; dns.query; content:"{}"; depth:{}; nocase; endswith; fast_pattern; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(app["name"], fang(d), d, len(d), sid))
+                sid += 1
+            for ip in app.get("c2", {}).get("ips", []):
+                output.write('alert ip $HOME_NET any -> [{}] any (msg:"PTS STALKERWARE {} ({})"; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(ip, fang(ip), app["name"], sid))
+                sid += 1
 
     print(f"Generated {fpath}")
 
@@ -219,22 +218,22 @@ def generate_misp(folder, iocs):
         current_iocs = defaultdict(lambda: defaultdict(dict, {k: set() for k in ('domains', 'appids', 'certificates', 'sha256', 'ips')}))
 
     # make objects
-    for app_name, entries in iocs.items():
-        if app_name not in current_iocs:
+    for app in iocs:
+        if app["name"] not in current_iocs:
             o = event.add_object(name='android-app')
-            o.add_attribute('name', app_name)
+            o.add_attribute('name', app["name"])
         else:
             # Find existing object to update
             for obj in event.objects:
-                if obj.get_attributes_by_relation('name')[0].value == app_name:
+                if obj.get_attributes_by_relation('name')[0].value == app["name"]:
                     o = obj
                     break
-        o.add_attributes('domain', *list(set([e['indicator'] for e in entries['domains']]) - current_iocs[app_name]['domains']))
+        o.add_attributes('domain', *list(set(app.get("c2", {}).get("domains", [])) - current_iocs[app["name"]]['domains']))
         # FIXME: add IP
         #o.add_attributes('ip', *list(set([e['indicator'] for e in entries['ips']]) - current_iocs[app_name]['ips']))
-        o.add_attributes('sha256', *list(set(entries['sha256']) - current_iocs[app_name]['sha256']))
-        o.add_attributes('certificate', *list(set(entries['certificates']) - current_iocs[app_name]['certificates']))
-        o.add_attributes('appid', *list(set(entries['appids']) - current_iocs[app_name]['appids']))
+        o.add_attributes('sha256', *list(set(app.get('sha256', [])) - current_iocs[app["name"]]['sha256']))
+        o.add_attributes('certificate', *list(set(app.get('certificates', [])) - current_iocs[app["name"]]['certificates']))
+        o.add_attributes('appid', *list(set(app['packages']) - current_iocs[app["name"]]['appids']))
 
     with open(fpath, 'w') as f:
         f.write(event.to_json(indent=2))
