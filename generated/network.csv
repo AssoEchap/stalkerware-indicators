@@ -407,8 +407,9 @@ domain,www.mtoolapp.net,MobileTool
 domain,shadow-logs.com,ShadowSpy
 domain,www.shadow-logs.com,ShadowSpy
 domain,shadow-spy.com,ShadowSpy
-domain,spyhuman.com,SpyHuman
 domain,apispyhuman.com,SpyHuman
+domain,spyhuman.com,SpyHuman
+domain,sp18022019.firebaseio.com,SpyHuman
 ipv4,213.239.228.196,SpyHuman
 domain,us.umobix.com,uMobix
 domain,lb.theonespy.com,TheOneSpy

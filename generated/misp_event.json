@@ -40798,6 +40798,42 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "01059c0a-455d-40cf-9c68-098a73e089a4",
+          "object_relation": "domain",
+          "value": "sp18022019.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6018227b-b838-4dd6-9b1f-3f699e02054c",
+          "object_relation": "appid",
+          "value": "com.myappspqwddeexo",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "100d3ea6-4629-400c-aa93-b4b59b6dd40d",
+          "object_relation": "appid",
+          "value": "m.mobile.control",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f7af7225-ea3c-4f6e-bf89-9178fb58c556",
+          "object_relation": "appid",
+          "value": "com.saxfamqvxj",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
