@@ -25,12 +25,13 @@ and hence for committing this crime.
 
 Main files:
 
-* `appid.yaml`: [Applications Package names](https://support.google.com/admob/answer/9972781)
-* `certificates.yaml`: [Android Application Certificates](https://support.google.com/googleplay/android-developer/answer/9842756?hl=en)
-* `network.yaml`: list of domains of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control), websites and download domains
+* `ioc.yaml` : Indicators of compromise of many Stalkerware apps. Includes
+    * [Applications Package names](https://support.google.com/admob/answer/9972781)
+    * [Android Application Certificates](https://support.google.com/googleplay/android-developer/answer/9842756?hl=en)
+    * List of websites
+    * List of domains and IPs of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control)
 * `quad9_blocklist.txt`: blocklist for [Quad9 DNS resolver](https://www.quad9.net/) (include a more limited set of domains for apps clearly for stalking and only C2 domains, not app websites)
-* `rules.yar`: Yara rules
-* `sha256.csv`: sha256 of samples
+* `samples.csv`: List of samples with hashes, package name, certificate and version.
 
 Files generated automatically from previous IOC files:
 

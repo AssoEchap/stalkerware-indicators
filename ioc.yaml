@@ -52,13 +52,13 @@
   - thetruthspy.com
   c2:
     ips:
-    - 1ca43.appspot.com
     - 69.64.74.239
     - 69.64.81.166
     - 69.64.81.49
     - 69.64.81.98
     - 69.64.91.29
     domains:
+    - 1ca43.appspot.com
     - app.fonetracker.com
     - copy9.com
     - guestspy.com
@@ -261,9 +261,9 @@
   websites:
   - 1topspy.com
   c2:
-    ips:
-    - 1topspy.com
+    ips: []
     domains:
+    - 1topspy.com
     - flushdata.1topspy.com
 
 - name: Mobiispy
@@ -381,7 +381,6 @@
   certificates:
   - F57CBB4CBB9834A14AF675222CECA6A0D26D838E
   - F28F3A97D25E51AB266E56D3B80F04747D242E50
-  - D667A33203776F2285EBA3E826CD286356EF05D0
   websites:
   - www.mobile-spy.com
   - www.emobilespy.com
@@ -407,9 +406,9 @@
   - mobileinnova.net
   - webdetetive.com.br
   c2:
-    ips:
-    - 6287970dd9.era3000.com
+    ips: []
     domains:
+    - 6287970dd9.era3000.com
     - user.ownspy.es
 
 - name: Cocospy
@@ -551,11 +550,11 @@
   - logger.mobi
   c2:
     ips:
-    - 97.logger.mobi
     - 172.67.81.216
     - 104.25.28.15
     - 104.25.29.15
     domains:
+    - 97.logger.mobi
     - account.logger.mobi
     - beta-api.logger.mobi
     - beta.logger.mobi
@@ -817,8 +816,8 @@
   c2:
     ips:
     - 139.59.125.208
-    - 89685.firebaseio.com
     domains:
+    - 89685.firebaseio.com
     - spy2mobile.com
     - spytomobile.com
     - sap4mobile.com
@@ -952,11 +951,10 @@
   - 4DAD108F915E237CA2834FAC70C077AD8105E804
   - B8F5FDFAE5920C4CFB6ACE214D39327F299FA76D
   - 9284CB43B87E9F9C77DA509F1672E884BD6CA876
-  - 786325ab3e614f868ca2a7f2f0e75ec76a047311
+  - 786325AB3E614F868CA2A7F2F0E75EC76A047311
   websites: ''
   c2:
     ips:
-    - 83dd4.appspot.com
     - 172.67.82.183
     - 104.25.170.109
     - 104.25.169.109
@@ -967,6 +965,7 @@
     - 104.18.54.129
     - 104.18.55.129
     domains:
+    - 83dd4.appspot.com
     - ikm.awsapi.io
     - emcpanel.com
     - users.easemon.com
@@ -1029,7 +1028,6 @@
     domains:
     - foreverspy.com
     - app.foreverspy.com
-    - video-recorder-c0419.firebaseio.com
 
 - name: Spy24
   names:
@@ -1092,7 +1090,7 @@
   certificates:
   - 3EA68714AE224B0C0EEED64A14B11D3983C3D6F8
   - BFC4C15E35E3506095B42E2B428E4016B1FFA1AB
-  - 5c5ef3dfe98b02251a6ec82609f22a092562afee
+  - 5C5EF3DFE98B02251A6EC82609F22A092562AFEE
   websites:
   - www.imonitorsoft.cn
   - www.imonitorsoft.com
@@ -1120,9 +1118,9 @@
   websites:
   - mobiletool.ru
   c2:
-    ips:
-    - 6kvses.com
+    ips: []
     domains:
+    - 6kvses.com
     - bincdi.6kvses.com
     - bincdi.birxpk.com
     - birxpk.com
@@ -1399,10 +1397,10 @@
   websites:
   - alltracker.org
   c2:
-    ips:
+    ips: []
+    domains:
     - 6-dot-all-tracker.appspot.com
     - 4-dot-all-tracker.appspot.com
-    domains:
     - alltracker.org
     - staging-all-tracker.appspot.com
 
@@ -1412,8 +1410,8 @@
   packages:
   - com.spappm_mondow.alarm
   certificates:
-  - 8c017fdb2a81807ec879a8e30f4ab05d5ca02034
-  - 9477420001bc79500623374ec586b054aac97bf9
+  - 8C017FDB2A81807EC879A8E30F4AB05D5CA02034
+  - 9477420001BC79500623374EC586B054AAC97BF9
   websites: ''
   c2:
     ips: []
@@ -1443,6 +1441,7 @@
   packages:
   - tech.logsettings
   - t.tools.app
+  - technic.settings
   certificates:
   - 08ACB92D02487EBC0CEA42B672A631BA7EA59ADF
   - AF821DD021558AEDF49730D2892063BD502DEA14
@@ -1540,7 +1539,7 @@
   - com.mobile.loki
   - com.mobile.asgard
   certificates:
-  - 6156db551938bb4560d4643b54527e4f169ed44f
+  - 6156DB551938BB4560D4643B54527E4F169ED44F
   websites:
   - asgardtech.ru
   c2:
@@ -1579,7 +1578,7 @@
   packages:
   - com.service.mug
   certificates:
-  - 56c8fa19250edba1a91a37f500da91fbc0657b1f
+  - 56C8FA19250EDBA1A91A37F500DA91FBC0657B1F
   websites: ''
   c2:
     ips: []
@@ -1605,7 +1604,7 @@
   packages:
   - com.xno.systemservice
   certificates:
-  - 9bce25527ff174a4ad6cde233b17038641a5eef9
+  - 9BCE25527FF174A4AD6CDE233B17038641A5EEF9
   websites:
   - xnore.com
   c2:
@@ -1714,9 +1713,8 @@
   - AiSpyer
   packages:
   - com.aif.tracksp
-  certificates:
-  - 0c01aeb7346c700d02613eba513bd40e87a182f8
-  websites: ''
+  certificates: []
+  websites: []
   c2:
     ips: []
     domains:
@@ -1760,7 +1758,7 @@
   packages:
   - com.android.system.devicelogs
   certificates:
-  - c51c36fe4f1dfc0c5b8cd55f74773135c1c1e1e5
+  - C51C36FE4F1DFC0C5B8CD55F74773135C1C1E1E5
   websites: ''
   c2:
     ips: []
@@ -1796,7 +1794,7 @@
   packages:
   - com.mobilefindfree
   certificates:
-  - 492ff617a79f6c8d80b453815cfe6586e21c5f72
+  - 492FF617A79F6C8D80B453815CFE6586E21C5F72
   websites:
   - free-spy.com
   c2:
@@ -1868,18 +1866,3 @@
     - trackingsmartphone.com
     - tracking-smartphone.firebaseio.com
 
-- name: TalkLog
-  names:
-  - TalkLog
-  packages:
-  - tech.logsettings
-  - technic.settings
-  certificates:
-  - 08ACB92D02487EBC0CEA42B672A631BA7EA59ADF
-  websites:
-  - talklog.tools
-  c2:
-    ips: []
-    domains:
-    - tchsrvce.com
-    - talklog.tools
