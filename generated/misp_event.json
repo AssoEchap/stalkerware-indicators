@@ -33118,6 +33118,114 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "21ceab48-6ca5-4197-9998-476baba1d27e",
+          "object_relation": "domain",
+          "value": "cabinet.vegosm.ru",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6497cb53-8177-4894-9b2e-93ac20cd0c70",
+          "object_relation": "domain",
+          "value": "cabinet.vkur.se",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f3942945-3aa8-4b71-87ee-73a139502f6e",
+          "object_relation": "domain",
+          "value": "cabinet.kfnm.ru",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b71c04d4-1db4-445b-8e74-095647b6988b",
+          "object_relation": "domain",
+          "value": "cabinet.ecohouse-eg.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "11cf1668-d191-4b59-b079-827df2b4c89a",
+          "object_relation": "domain",
+          "value": "mob.eurotrans.kz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d1ab82c6-6f3c-41a5-89f4-37e36417efe6",
+          "object_relation": "domain",
+          "value": "cabinet.gps-monitor.uz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cb859a6f-b250-488e-b61c-90bdbe311c3b",
+          "object_relation": "domain",
+          "value": "www.reptilicus.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5e8db2d5-23cb-42a3-82f3-693d7a0f7407",
+          "object_relation": "domain",
+          "value": "cabinet.vkur1.se",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c159f1cc-c0d1-47c5-a254-d56127b0d0a4",
+          "object_relation": "domain",
+          "value": "e2c64.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "812ba2e3-fd8e-4e49-88d2-d28a0b237ab7",
+          "object_relation": "certificate",
+          "value": "D3A7E0E542A3E1112741806AC31F341C4200FBA1",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "b89c89a7-b526-4bf7-b562-8e135659ada4",
+          "object_relation": "certificate",
+          "value": "B61326887306E5A65726AE6BFD1D720D2760CEFF",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "30867a1b-58b6-4f64-9202-b17e4b1b8377",
+          "object_relation": "appid",
+          "value": "com.cycle.start.mess",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
