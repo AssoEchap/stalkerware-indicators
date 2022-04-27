@@ -47726,6 +47726,72 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "91d20537-c8d4-4905-afc4-e77b907b5a3b",
+      "Attribute": [
+        {
+          "uuid": "96b0115c-de93-4e4b-bd88-9959a3326950",
+          "object_relation": "name",
+          "value": "SpyphoneMobileTracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "56e57572-127f-4fc9-af02-95ea05b7c021",
+          "object_relation": "domain",
+          "value": "phonetracker95gpsonly.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "322ee420-9a6a-4ffa-8acb-4c5750912db9",
+          "object_relation": "domain",
+          "value": "phonetracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "88face18-b579-4dd6-aff7-acb07bcc3b2e",
+          "object_relation": "certificate",
+          "value": "5F61BEB9591ADBDF9DA5B141A1EF35CDC0944C8C",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "f9da9a23-a731-4eeb-9d69-40e5943171bb",
+          "object_relation": "appid",
+          "value": "com.phonetrackerofficial",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a9065af0-131c-45cd-9334-73814089bf50",
+          "object_relation": "appid",
+          "value": "com.phonetrackerofficial1",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",

@@ -516,3 +516,5 @@ domain,user.trackview.net,TrackView
 domain,user2.trackview.net,TrackView
 domain,trackingsmartphone.com,TrackingSmartphone
 domain,tracking-smartphone.firebaseio.com,TrackingSmartphone
+domain,phonetracker.com,SpyphoneMobileTracker
+domain,phonetracker95gpsonly.firebaseio.com,SpyphoneMobileTracker
