@@ -1165,6 +1165,9 @@
   - SpyHuman
   packages:
   - com.cldprotect
+  - m.mobile.control
+  - com.saxfamqvxj
+  - com.myappspqwddeexo
   certificates:
   - 76F6C302533751BED738D40882AC219BAAD65E7B
   - F9265164219A1C5DEE4A76D66BEA0C35A1FD6032
@@ -1175,8 +1178,9 @@
     ips:
     - 213.239.228.196
     domains:
-    - spyhuman.com
     - apispyhuman.com
+    - spyhuman.com
+    - sp18022019.firebaseio.com
 
 - name: uMobix
   names:
