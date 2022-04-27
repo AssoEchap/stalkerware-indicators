@@ -304,6 +304,7 @@
   - Vkur
   packages:
   - com.brot.storage.work
+  - com.cycle.start.mess
   - com.thecybernanny.andapp
   - net.androidcoreapp.androidbackup
   - net.delphiboardlayer.androidcoreapp
@@ -319,6 +320,8 @@
   - 9256E291823DA741B64CB23F7E371D0940E5272E
   - 9BD494107EFED96F630D29D6E18AE4DCC47149E2
   - 6D0FF787BF4534F1077D1E4BF2E18BA381D97061
+  - D3A7E0E542A3E1112741806AC31F341C4200FBA1
+  - B61326887306E5A65726AE6BFD1D720D2760CEFF
   websites:
   - reptilicus.net
   - thecybernanny.com
@@ -326,12 +329,21 @@
     ips:
     - 176.9.42.16
     domains:
+    - cabinet.ecohouse-eg.com
+    - cabinet.gps-monitor.uz
+    - cabinet.kfnm.ru
+    - cabinet.vegosm.ru
+    - cabinet.vkur.se
+    - cabinet.vkur1.se
     - data.reptilicus.net
+    - e2c64.firebaseio.com
+    - mob.eurotrans.kz
+    - phonecontrolapp-e2c64.firebaseio.com
     - proxy.reptilicus.net
     - reptilicus.net
-    - vkur1.se
-    - phonecontrolapp-e2c64.firebaseio.com
     - rp.apollospy.com
+    - vkur1.se
+    - www.reptilicus.net
 
 - name: PhoneTracker
   names:
