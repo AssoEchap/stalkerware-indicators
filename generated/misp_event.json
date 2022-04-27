@@ -41521,6 +41521,42 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "854701af-4962-4c5e-b0b7-d50fac06d6bc",
+          "object_relation": "domain",
+          "value": "sl360-7ba65.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "477d0764-a44b-4388-bba8-c1109180e1bd",
+          "object_relation": "certificate",
+          "value": "73BF44A503427F7682C7136B109631E3BE4114DE",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "88ce998c-e5cd-4a61-ad27-81f3e08b5850",
+          "object_relation": "appid",
+          "value": "com.itqredn8dzrl",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a846c16a-ec96-4f2f-93ae-afde2b09b4a7",
+          "object_relation": "appid",
+          "value": "com.wifi0",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
