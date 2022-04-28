@@ -348,7 +348,7 @@
 - name: PhoneTracker
   names:
   - PhoneTracker
-  packages: ''
+  packages: []
   certificates:
   - 483716998F0C092FE82B0B12B1A4BA399D941318
   websites:
@@ -362,7 +362,7 @@
 - name: XySpy
   names:
   - XySpy
-  packages: ''
+  packages: []
   certificates:
   - DE648A3253C16692AF71141C069D15C87C3E5495
   websites:
@@ -665,7 +665,7 @@
   - com.android.core.mngn
   - com.android.core.mngo
   - com.android.core.mngp
-  certificates: ''
+  certificates: []
   websites:
   - snoopza.com
   c2:
@@ -927,7 +927,7 @@
   - com.atracker.app
   certificates:
   - 0AD33649F0D0532B5EB0A36A81712962AA79BF54
-  websites: ''
+  websites: []
   c2:
     ips:
     - 167.114.114.207
@@ -946,7 +946,7 @@
   - 35CD797D1736484786152A231920575FABC5C12A
   - 8CED75E875A2F11B3327A73A6DBD0B25E26533F2
   - 8B9540311C46184984B48BF9CB51F1742A8AFB42
-  websites: ''
+  websites: []
   c2:
     ips: []
     domains:
@@ -971,7 +971,7 @@
   - B8F5FDFAE5920C4CFB6ACE214D39327F299FA76D
   - 9284CB43B87E9F9C77DA509F1672E884BD6CA876
   - 786325AB3E614F868CA2A7F2F0E75EC76A047311
-  websites: ''
+  websites: []
   c2:
     ips:
     - 172.67.82.183
@@ -1071,7 +1071,7 @@
   - CatWatchful
   packages:
   - wosc.cwf
-  certificates: ''
+  certificates: []
   websites:
   - catwatchful.com
   c2:
@@ -1226,7 +1226,7 @@
   - com.ant.spymie.keylogger
   certificates:
   - 05B23C7E9156A4C55768DA27936FF2D7AF09BB8F
-  websites: ''
+  websites: []
   c2:
     ips: []
     domains: []
@@ -1236,7 +1236,7 @@
   - TheOneSpy
   packages:
   - com.android.services
-  certificates: ''
+  certificates: []
   websites:
   - theonespy.com
   - www.theonespy.com
@@ -1261,7 +1261,7 @@
   - com.map.system
   certificates:
   - C276C3B087207C9D3CEEDA766C01E0BDEF7EAC71
-  websites: ''
+  websites: []
   c2:
     ips: []
     domains:
@@ -1296,8 +1296,8 @@
   - EasyPhoneTrack
   packages:
   - com.spappm_mondow.alarm
-  certificates: ''
-  websites: ''
+  certificates: []
+  websites: []
   c2:
     ips: []
     domains:
@@ -1349,7 +1349,7 @@
   - XNSpy
   packages:
   - com.xnspy.dashboard
-  certificates: ''
+  certificates: []
   websites:
   - xnspy.com
   c2:
@@ -1440,7 +1440,7 @@
   certificates:
   - 8C017FDB2A81807EC879A8E30F4AB05D5CA02034
   - 9477420001BC79500623374EC586B054AAC97BF9
-  websites: ''
+  websites: []
   c2:
     ips: []
     domains:
@@ -1536,7 +1536,7 @@
   - Spyier
   packages:
   - com.sc.spyier.v2
-  certificates: ''
+  certificates: []
   websites:
   - spyier.com
   c2:
@@ -1554,7 +1554,7 @@
   certificates:
   - 18CD402CC43DF0BC03E9951B0F843DC4B1552DC6
   - BC53CC2A9996DE47BF72348F2A592DC0EBDAF06B
-  websites: ''
+  websites: []
   c2:
     ips: []
     domains:
@@ -1581,8 +1581,8 @@
   - DDI
   packages:
   - com.ddiutilities.monitor
-  certificates: ''
-  websites: ''
+  certificates: []
+  websites: []
   c2:
     ips: []
     domains:
@@ -1594,8 +1594,8 @@
   - SpyApp247
   packages:
   - com.spyapp247.system
-  certificates: ''
-  websites: ''
+  certificates: []
+  websites: []
   c2:
     ips: []
     domains: []
@@ -1607,7 +1607,7 @@
   - com.service.mug
   certificates:
   - 56C8FA19250EDBA1A91A37F500DA91FBC0657B1F
-  websites: ''
+  websites: []
   c2:
     ips: []
     domains: []
@@ -1665,7 +1665,7 @@
   - com.avi.scbase
   certificates:
   - 20F092BEC76C406223A7943371A1DBBB5BF66C13
-  websites: ''
+  websites: []
   c2:
     ips: []
     domains:
@@ -1693,7 +1693,8 @@
   - com.eyezy.android
   certificates:
   - 3E1A6646C93A7423A25104A88DA5BECE2F35EFF0
-  websites: ''
+  websites:
+  - www.eyezy.com
   c2:
     ips: []
     domains: []
@@ -1705,7 +1706,8 @@
   - com.wSpyEra
   certificates:
   - 813A3AD37D87AA36120DFEC64146C311DB5F4CA9
-  websites: ''
+  websites:
+  - spyera.com
   c2:
     ips: []
     domains: []
@@ -1724,14 +1726,15 @@
     domains:
     - app.antifurtodroid.com
 
-- name: CallSMSTRacker
+- name: CallSMSTracker
   names:
-  - CallSMSTRacker
+  - CallSMSTracker
   packages:
   - com.gcm_call_sms_tracker.updated
   certificates:
   - 0C01AEB7346C700D02613EBA513BD40E87A182F8
-  websites: ''
+  websites:
+  - callsmstracker.com
   c2:
     ips: []
     domains: []
@@ -1773,8 +1776,9 @@
   - BlurSpy
   packages:
   - com.saloomughal.spyapp
-  certificates: ''
-  websites: ''
+  certificates: []
+  websites:
+  - www.blurspy.com
   c2:
     ips: []
     domains:
@@ -1787,7 +1791,7 @@
   - com.android.system.devicelogs
   certificates:
   - C51C36FE4F1DFC0C5B8CD55F74773135C1C1E1E5
-  websites: ''
+  websites: []
   c2:
     ips: []
     domains: []
@@ -1797,8 +1801,8 @@
   - SecretCamRecorder
   packages:
   - com.tools.secretcamcorder
-  certificates: ''
-  websites: ''
+  certificates: []
+  websites: []
   c2:
     ips: []
     domains: []
@@ -1806,9 +1810,10 @@
 - name: WiseMo
   names:
   - WiseMo
-  packages: ''
-  certificates: ''
-  websites: ''
+  packages: []
+  certificates: []
+  websites:
+  - www.wisemo.com
   c2:
     ips: []
     domains:
@@ -1836,7 +1841,7 @@
   packages:
   - ru.usafe.u_safe
   - ru.usafe.usafe
-  certificates: ''
+  certificates: []
   websites:
   - usafe.ru
   c2:

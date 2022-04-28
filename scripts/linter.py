@@ -25,7 +25,15 @@ def check_ioc_format(folder):
             print("Entry {} without name".format(", ".join(entry.get("names", []))))
             success = False
 
+        # packages
+        if not isinstance(entry.get("packages", []), list):
+            print("Invalid packages format for {}".format(entry["name"]))
+            success = False
 
+        # Certificates
+        if not isinstance(entry.get("certificates", []), list):
+            print("Invalid certificates format for {}".format(entry["name"]))
+            success = False
         for cert in entry.get("certificates", []):
             if not re.match(r"^[A-F0-9]{40}", cert):
                 print("Invalid certificate format: {}".format(cert))
@@ -37,6 +45,10 @@ def check_ioc_format(folder):
                 success = False
 
         # websites
+        if not isinstance(entry.get("websites", []), list):
+            print("Invalid websites format for {}".format(entry["name"]))
+            success = False
+
         for ws in entry.get("websites", []):
             if not re.match(r"^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]$", ws):
                 print("Invalid website {}".format(ws))
