@@ -32674,6 +32674,33 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "5399cd82-dd01-432d-8776-7264966d2c80",
+          "object_relation": "domain",
+          "value": "phonetracking.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9a742776-a098-4a18-9216-00bf64008286",
+          "object_relation": "domain",
+          "value": "app.mobiletracking.app",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "fb47f096-745e-4bcf-9cd0-5312916471db",
+          "object_relation": "certificate",
+          "value": "483716998F0C092FE82B0B12B1A4BA399D941318",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",

@@ -1,6 +1,7 @@
 type,indicator,app
 domain,1ca43.appspot.com,TheTruthSpy
 domain,app.fonetracker.com,TheTruthSpy
+domain,app.mobiletracking.app,TheTruthSpy
 domain,copy9.com,TheTruthSpy
 domain,guestspy.com,TheTruthSpy
 domain,icloudappe.com,TheTruthSpy
@@ -48,6 +49,7 @@ domain,my.copy9.com,TheTruthSpy
 domain,my.ispyoo.com,TheTruthSpy
 domain,my.thetruthspy.com,TheTruthSpy
 domain,phonespying.com,TheTruthSpy
+domain,phonetracking.net,TheTruthSpy
 domain,protocol-a.copy9.com,TheTruthSpy
 domain,protocol-a.exactspy.com,TheTruthSpy
 domain,protocol-a.fonetracker.com,TheTruthSpy
@@ -220,8 +222,6 @@ domain,rp.apollospy.com,Reptilicus
 domain,vkur1.se,Reptilicus
 domain,www.reptilicus.net,Reptilicus
 ipv4,176.9.42.16,Reptilicus
-domain,app.mobiletracking.app,PhoneTracker
-domain,phonetracking.net,PhoneTracker
 domain,app.xyspy.com,XySpy
 domain,mobilenannylogs.com,PhoneSheriff
 domain,phonesheriff.com,PhoneSheriff
