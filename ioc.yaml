@@ -13,6 +13,7 @@
   - GuestSpy
   - MxSpy
   - PhoneSpying
+  - PhoneTracker
   - SpyZee
   - TheTruthSpy
   - iSpyoo
@@ -30,6 +31,7 @@
   certificates:
   - 31A6ECECD97CF39BC4126B8745CD94A7C30BF81C
   - 36E6671BC4397F475A350905D9A649A5ADE97BB2
+  - 483716998F0C092FE82B0B12B1A4BA399D941318
   - 4FF0174BEDC1D16BE55AC53B98599398AC461F82
   - 56EF5244378FB6B4EF82D2B9E99BF41F7B97D93A
   - 5D7B59F3AFB74D86CCD56440F99CA2FC83A23F22
@@ -48,6 +50,7 @@
   - ispyoo.com
   - mxspy.com
   - phonespying.com
+  - phonetracking.net
   - spyapps.net
   - thetruthspy.com
   c2:
@@ -60,6 +63,7 @@
     domains:
     - 1ca43.appspot.com
     - app.fonetracker.com
+    - app.mobiletracking.app
     - copy9.com
     - guestspy.com
     - icloudappe.com
@@ -107,6 +111,7 @@
     - my.ispyoo.com
     - my.thetruthspy.com
     - phonespying.com
+    - phonetracking.net
     - protocol-a.copy9.com
     - protocol-a.exactspy.com
     - protocol-a.fonetracker.com
@@ -345,19 +350,6 @@
     - vkur1.se
     - www.reptilicus.net
 
-- name: PhoneTracker
-  names:
-  - PhoneTracker
-  packages: []
-  certificates:
-  - 483716998F0C092FE82B0B12B1A4BA399D941318
-  websites:
-  - phonetracking.net
-  c2:
-    ips: []
-    domains:
-    - app.mobiletracking.app
-    - phonetracking.net
 
 - name: XySpy
   names:
