@@ -35725,6 +35725,204 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "194332e4-bd29-41d9-a14e-a3e008658579",
+          "object_relation": "domain",
+          "value": "sandbox97.logger.mobi",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3684fa16-637f-498c-a62e-aa0d1c0afa56",
+          "object_relation": "domain",
+          "value": "elcore-api.azurewebsites.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5098cb73-d5a2-456f-b1b9-82ce44f3e9a8",
+          "object_relation": "domain",
+          "value": "waws-prod-blu-247.sip.azurewebsites.windows.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "88de5762-db61-4290-a633-02217e0ff3f8",
+          "object_relation": "domain",
+          "value": "easyloggerbeta.azurewebsites.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5754e89d-9bd3-4660-a1ad-42d0a07c1d68",
+          "object_relation": "domain",
+          "value": "pulsesolutions-net-easy-logger.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "914f23af-f84f-43bf-bc8a-8d0cff588d0d",
+          "object_relation": "domain",
+          "value": "waws-prod-blu-247-e7b3.eastus.cloudapp.azure.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8f239497-276d-430e-a0d4-7ab0da076f96",
+          "object_relation": "domain",
+          "value": "api.childsafetytrackerapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2804f2fd-80bb-41db-bb10-6a2f1cb5fd3f",
+          "object_relation": "domain",
+          "value": "account.childsafetytrackerapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "eae5b6d6-e4e0-47d8-95a3-1d77cf5d76f4",
+          "object_relation": "domain",
+          "value": "pro.logger.mobi",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "58914910-5127-42e7-9533-fe29d956ce55",
+          "object_relation": "domain",
+          "value": "senior-safety-189010.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4d81f43d-bc46-48ab-8f66-9d27265bfd6e",
+          "object_relation": "domain",
+          "value": "api.seniorsafetyapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d65ec3fb-a5d9-49a2-8143-b24bfadfec32",
+          "object_relation": "domain",
+          "value": "servicesloggermobi.azurewebsites.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "987c777b-146f-42b3-808b-ce7261955835",
+          "object_relation": "domain",
+          "value": "inv.logger.mobi",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d10f076f-eb2e-47a4-8815-069287db1008",
+          "object_relation": "domain",
+          "value": "sandbox97.seniorsafetyapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "dbe70671-3287-4936-a347-85a0569e6803",
+          "object_relation": "domain",
+          "value": "sandbox97.childsafetytrackerapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ea21a3a4-fc92-4aae-9847-5c480785c1df",
+          "object_relation": "certificate",
+          "value": "07906D1FA933730B8EB44F03910C88FDAC2C0135",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "3c651c3f-2007-41ad-8f74-370b4fb0ed17",
+          "object_relation": "certificate",
+          "value": "D15A276F181C839E0390672A43065E8D97F140E9",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "895a0d81-5d3d-4082-8127-71bb66d6ed49",
+          "object_relation": "certificate",
+          "value": "8698564FBEC700167FCC53D1AED00FFADF6BED6C",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "42ad702b-f152-4098-8876-64b39ccdc5b6",
+          "object_relation": "certificate",
+          "value": "24D3251C7A1184649211B9068820545397B112C9",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "15509af2-1a36-44cc-a8fe-e0b298d165e8",
+          "object_relation": "appid",
+          "value": "app.childsafetytracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "dd2cfdad-412b-4cab-96f8-95f18f3647bd",
+          "object_relation": "appid",
+          "value": "app.EasyLogger",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a6457dc1-c230-4fab-8db3-1cbd9c1eeb80",
+          "object_relation": "appid",
+          "value": "app.seniorsafety",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",

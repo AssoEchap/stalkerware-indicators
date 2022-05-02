@@ -13,6 +13,7 @@ a.thd.cc
 a71f4.firebaseio.com
 ac480.firebaseio.com
 account.cellphone-remote-tracker.com
+account.childsafetytrackerapp.com
 account.logger.mobi
 account.refog.com
 admin.flexispy.com
@@ -30,10 +31,12 @@ aovivo.foxspy.com.br
 api-project-285519687053.firebaseio.com
 api-project-999803017449.firebaseio.com
 api.bytepioner.com
+api.childsafetytrackerapp.com
 api.clevguard.com
 api.flexispy.com
 api.free-spy.com
 api.lifecircle.app
+api.seniorsafetyapp.com
 api.snoopza.com
 api.trackview.lifecircle.app
 apispyhuman.com
@@ -104,7 +107,9 @@ dwn.vys.me
 dz7.wethnc067.xyz
 e.appjiagu.com
 e2c64.firebaseio.com
+easyloggerbeta.azurewebsites.net
 ecom.flexispy.com
+elcore-api.azurewebsites.net
 emcpanel.com
 evt17.com
 f.appjiagu.com
@@ -150,6 +155,7 @@ imonitor-da8b2.firebaseio.com
 imonitorke.com
 imonitorsoft.cn
 imonitorsoft.com
+inv.logger.mobi
 ixhtb.s9gxw8.com
 key-logger-90fff.firebaseio.com
 kidsguard-6c6a9.firebaseio.com
@@ -252,6 +258,7 @@ phonetracking-dd226.firebaseio.com
 phonetracking.net
 pipe.thd.cc
 portal.flexispy.com
+pro.logger.mobi
 project-323448153542050953.firebaseio.com
 protocol-a.copy9.com
 protocol-a.exactspy.com
@@ -351,6 +358,7 @@ protocol.systemserviceprovider.com
 protocol.thetruthspy.com
 proxy.reptilicus.net
 ps97mailer.logger.mobi
+pulsesolutions-net-easy-logger.firebaseio.com
 push.mobilefonex.com
 rc-api.lifecircle.app
 rec.hw.cab
@@ -365,14 +373,19 @@ s2.spylive360.com
 s3.spylive360.com
 s9gxw8.com
 safespy.vip
+sandbox97.childsafetytrackerapp.com
+sandbox97.logger.mobi
+sandbox97.seniorsafetyapp.com
 sap4mobile-89685.firebaseio.com
 sap4mobile.com
 secondclone-2d312.firebaseio.com
 send.onespy.com
+senior-safety-189010.firebaseio.com
 senseye.spymasterpro.com
 server.androidmonitor.com
 server.freeandroidspy.com
 services.spytoapp.com
+servicesloggermobi.azurewebsites.net
 servidor.in
 setupmail-a.icloudappe.com
 setupmail-a720.icloudappe.com
@@ -474,6 +487,8 @@ video-recorder-c0419.firebaseio.com
 viptrack.pro
 virsis.net
 vkur1.se
+waws-prod-blu-247-e7b3.eastus.cloudapp.azure.com
+waws-prod-blu-247.sip.azurewebsites.windows.net
 webservicesdb.mobiispy.com
 wethnc067.xyz
 www.androidlost.com
