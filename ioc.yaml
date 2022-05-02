@@ -547,13 +547,24 @@
   names:
   - EasyLogger
   packages:
+  - app.EasyLogger
   - app.Easylogger
   - app.Elogger
+  - app.childsafetytracker
+  - app.seniorsafety
   certificates:
-  - 8F23E1457ADC6189F6ED504A60DF8896FEC6D970
+  - 07906D1FA933730B8EB44F03910C88FDAC2C0135
+  - 24D3251C7A1184649211B9068820545397B112C9
   - 35D7CF057BFA5023CE739A725ADA0DA1FD34D1FF
+  - 8698564FBEC700167FCC53D1AED00FFADF6BED6C
+  - 8F23E1457ADC6189F6ED504A60DF8896FEC6D970
+  - D15A276F181C839E0390672A43065E8D97F140E9
   websites:
   - logger.mobi
+  - childsafetytrackerapp.com
+  - seniorsafetyapp.com
+  - www.childsafetytrackerapp.com
+  - www.seniorsafetyapp.com
   c2:
     ips:
     - 172.67.81.216
@@ -562,9 +573,24 @@
     domains:
     - 97.logger.mobi
     - account.logger.mobi
+    - account.childsafetytrackerapp.com
+    - api.childsafetytrackerapp.com
+    - api.seniorsafetyapp.com
     - beta-api.logger.mobi
     - beta.logger.mobi
+    - easyloggerbeta.azurewebsites.net
+    - elcore-api.azurewebsites.net
+    - inv.logger.mobi
+    - pro.logger.mobi
     - ps97mailer.logger.mobi
+    - pulsesolutions-net-easy-logger.firebaseio.com
+    - sandbox97.childsafetytrackerapp.com
+    - sandbox97.logger.mobi
+    - sandbox97.seniorsafetyapp.com
+    - senior-safety-189010.firebaseio.com
+    - servicesloggermobi.azurewebsites.net
+    - waws-prod-blu-247-e7b3.eastus.cloudapp.azure.com
+    - waws-prod-blu-247.sip.azurewebsites.windows.net
 
 - name: Hoverwatch
   names:
