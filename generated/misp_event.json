@@ -36928,6 +36928,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "9100f88b-fc6d-4888-ab7c-ba8e9df969c5",
+          "object_relation": "certificate",
+          "value": "69EE83CB3E0968B49E33849D40F7D91B0592C7DB",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "6d30e065-d092-4dee-aff4-f64cd001ec63",
+          "object_relation": "appid",
+          "value": "pl.radeal.lms4",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",

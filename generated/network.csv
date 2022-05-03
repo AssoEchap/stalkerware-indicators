@@ -299,6 +299,7 @@ domain,rec.hw.cab,Hoverwatch
 ipv4,198.100.150.203,Hoverwatch
 domain,letmespy.com,LetMeSpy
 domain,remotecommands.com,LetMeSpy
+ipv4,91.196.212.202,LetMeSpy
 domain,snoopza.com,Snoopza
 domain,my.snoopza.com,Snoopza
 domain,my2.snoopza.com,Snoopza
