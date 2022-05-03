@@ -36736,6 +36736,87 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "4f769573-76d9-4c97-84c7-5fa15eefc6b6",
+          "object_relation": "domain",
+          "value": "downloads.refog.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f406d7c8-1445-43aa-8618-1cac672bbb0b",
+          "object_relation": "domain",
+          "value": "hover.watch",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a9253a13-759b-4ab1-bb96-cc099509e5f1",
+          "object_relation": "domain",
+          "value": "hwm.cab",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e2781495-3eb4-46a4-8dd5-34a73f29bbc8",
+          "object_relation": "domain",
+          "value": "test.refog.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "baa7191b-cb95-4173-b863-952050dc886c",
+          "object_relation": "domain",
+          "value": "dev.hoverwatch.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "35c9a8a6-f6db-4c7b-98be-f1896c4c7216",
+          "object_relation": "domain",
+          "value": "office.hw.cab",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e0728e2c-07e4-49ec-8b7d-ce119e898326",
+          "object_relation": "domain",
+          "value": "i1.hoverwatch.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b40e80b2-bcc3-4e22-b141-b8f18edd1b7e",
+          "object_relation": "domain",
+          "value": "hww.cab",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f0bbb1b3-9b6b-4f3c-ba24-e5365dfe5abb",
+          "object_relation": "domain",
+          "value": "dev2.refog.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -37161,6 +37242,195 @@
           "uuid": "c58758b9-54d0-4d93-9277-f15cdab04a8e",
           "object_relation": "appid",
           "value": "com.android.core.mngp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "940d1744-8c57-4e22-8f06-0a2996bc0b0e",
+          "object_relation": "domain",
+          "value": "app.snoopza.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "fd611ac1-a056-49d9-901f-8b7f1589ab4a",
+          "object_relation": "domain",
+          "value": "get.snoopza.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "eeb396dd-9cd1-4b00-abcb-ae5782d887bf",
+          "object_relation": "domain",
+          "value": "dev.snoopza.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "500ae3c6-11bb-433b-8c5b-f2e245947c57",
+          "object_relation": "domain",
+          "value": "viewer.snoopza.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8c4d4253-803a-4ecf-852d-a584618706f4",
+          "object_relation": "domain",
+          "value": "app2.snoopza.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b376342f-a92e-4dc0-8a1d-1d38b43c349c",
+          "object_relation": "domain",
+          "value": "flower.snoopza.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "68071bf8-f642-4964-a4e4-0db44aff101a",
+          "object_relation": "certificate",
+          "value": "240E97A0587BF99441787EA3BCB2B2D8827564FE",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "169159e4-e159-4c9c-a1e9-c993102ef8b1",
+          "object_relation": "certificate",
+          "value": "5E16BA998632C1C3E4D4AE707D6EE2454ED2AEB5",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "cdc9145a-583f-4c8f-b593-f0f23751ce3d",
+          "object_relation": "certificate",
+          "value": "1988EDEA389D42983CEC8B5F8A9C27AE49F800F9",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "29e7d034-be39-4469-8db6-0ecb34c7f081",
+          "object_relation": "certificate",
+          "value": "854F7978408EA58C5B792C1C1EF9733FC2D5E813",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "482c3b87-e2d7-48ef-a5a2-a12589c4035b",
+          "object_relation": "certificate",
+          "value": "E023517B163AAAE209CBD97E312752960F575D38",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "616747aa-0ea5-4d91-aa6c-ecbe6c09daf5",
+          "object_relation": "appid",
+          "value": "com.android.core.mngq",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "18b0be79-f396-42e4-a8a0-04a324486e11",
+          "object_relation": "appid",
+          "value": "com.android.core.mngy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "63ec5267-8263-4ede-bd70-71fe0562074e",
+          "object_relation": "appid",
+          "value": "com.android.core.mngs",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "0e12ffa1-f35f-4681-af10-9a73eb50afcb",
+          "object_relation": "appid",
+          "value": "com.android.core.mngr",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e74e5631-68ef-4997-a845-687186785433",
+          "object_relation": "appid",
+          "value": "com.android.core.mngz",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "da5f369b-a43c-4d3f-b30e-58fd75aec5bc",
+          "object_relation": "appid",
+          "value": "com.android.core.mngu",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e20404ed-9240-42a2-b914-20dd850b5556",
+          "object_relation": "appid",
+          "value": "com.android.core.mngt",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "4c8ef5c1-2d26-480b-85f4-11b3eb06a199",
+          "object_relation": "appid",
+          "value": "com.android.core.mngv",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3b2d3083-e005-495e-9336-1ac67d91a56d",
+          "object_relation": "appid",
+          "value": "com.android.core.mngw",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "5fdb7488-6753-4dcb-aca0-8dfcceb9c0ee",
+          "object_relation": "appid",
+          "value": "com.android.core.mngx",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
