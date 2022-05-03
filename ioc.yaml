@@ -913,10 +913,11 @@
     - 139.59.125.208
     domains:
     - 89685.firebaseio.com
+    - sap4mobile-89685.firebaseio.com
+    - sap4mobile.com
+    - smartback-12d60.appspot.com
     - spy2mobile.com
     - spytomobile.com
-    - sap4mobile.com
-    - sap4mobile-89685.firebaseio.com
 
 - name: SpyHide
   names:
