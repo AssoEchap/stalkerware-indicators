@@ -4078,6 +4078,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "457c9c85-c357-4957-8a2c-6e45b89a69fd",
+          "object_relation": "domain",
+          "value": "smartback-12d60.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",

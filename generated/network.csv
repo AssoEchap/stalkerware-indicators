@@ -360,10 +360,11 @@ domain,repo.mspyonline.com,mSpy
 domain,thd.cc,mSpy
 domain,www.mspyonline.com,mSpy
 domain,89685.firebaseio.com,spy2mobile
+domain,sap4mobile-89685.firebaseio.com,spy2mobile
+domain,sap4mobile.com,spy2mobile
+domain,smartback-12d60.appspot.com,spy2mobile
 domain,spy2mobile.com,spy2mobile
 domain,spytomobile.com,spy2mobile
-domain,sap4mobile.com,spy2mobile
-domain,sap4mobile-89685.firebaseio.com,spy2mobile
 ipv4,139.59.125.208,spy2mobile
 domain,client.spyhide.com,SpyHide
 domain,spyhide.com,SpyHide
