@@ -638,18 +638,44 @@
   - 64403A61F41848F987D6FD0BE00392E9561A0EF7
   - 6144ED2E25B6F3A5FAFCF914965CA071A685674B
   websites:
+  - br.refog.com
+  - de.refog.com 
+  - es.refog.com
+  - fr.refog.com
+  - hover.watch
   - hoverwatch.com
+  - hu.refog.com 
+  - my.hws.icu 
+  - it.refog.com 
+  - nl.refog.com 
+  - refog.com
+  - refog.de
+  - ro.refog.com
+  - www.hoverwatch.com
   c2:
     ips:
+    - 104.236.73.120
+    - 149.56.26.44
+    - 158.69.24.236
+    - 188.130.241.205
     - 198.100.150.203
     domains:
     - a.hw.cab
     - a.hwa.cab
     - account.refog.com
+    - dev.hoverwatch.com
+    - dev2.refog.com
+    - office.hw.cab
+    - test.refog.com
+    - i1.hoverwatch.com
+    - downloads.refog.com
     - hoverwatch.com
     - hwa.cab
+    - hwm.cab
+    - hww.cab
     - i.hoverwatch.com
     - rec.hw.cab
+    - hover.watch
 
 - name: LetMeSpy
   names:
@@ -689,18 +715,44 @@
   - com.android.core.mngn
   - com.android.core.mngo
   - com.android.core.mngp
-  certificates: []
+  - com.android.core.mngq
+  - com.android.core.mngr
+  - com.android.core.mngs
+  - com.android.core.mngt
+  - com.android.core.mngu
+  - com.android.core.mngv
+  - com.android.core.mngw
+  - com.android.core.mngx
+  - com.android.core.mngy
+  - com.android.core.mngz
+  certificates: 
+  - 240E97A0587BF99441787EA3BCB2B2D8827564FE
+  - 854F7978408EA58C5B792C1C1EF9733FC2D5E813
+  - 1988EDEA389D42983CEC8B5F8A9C27AE49F800F9
+  - 5E16BA998632C1C3E4D4AE707D6EE2454ED2AEB5
+  - E023517B163AAAE209CBD97E312752960F575D38
   websites:
   - snoopza.com
+  - get.snoopza.com
+  - snoopza.zendesk.com
+  - demo.snoopza.com
+  - newdemo.snoopza.com
   c2:
     ips:
+    - 178.62.59.165
     - 217.182.250.165
     - 46.105.57.148
     domains:
-    - snoopza.com
+    - api.snoopza.com
+    - app.snoopza.com
+    - app2.snoopza.com
+    - dev.snoopza.com
+    - flower.snoopza.com 
+    - get.snoopza.com
     - my.snoopza.com
     - my2.snoopza.com
-    - api.snoopza.com
+    - snoopza.com
+    - viewer.snoopza.com
 
 - name: TrackMyPhones
   names:
