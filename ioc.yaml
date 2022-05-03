@@ -1917,12 +1917,23 @@
   packages:
   - ru.usafe.u_safe
   - ru.usafe.usafe
-  certificates: []
+  - ru.usafe.kid.unisafekids
+  - su.unisafe.unisafe 
+  certificates: 
+  - 20AB40ACC2822A34EC199622CDCA9D7A63BB302B
+  - 41862C48D4BBC2A83DB3CE6EBA0D0C53E3D882B6
+  - A519EF2B8C4E73A097065B322687C9D38DED610C
+  - B5895930053256D408DE74B66BA132B73CB21527 
+  - FCB6F780EA8F2FE7249F66C6348572BDBD54F576 
   websites:
   - usafe.ru
+  - unisafe.su
+  - unisafe.techmas.ru
   c2:
     ips: []
     domains:
+    - a342f.appspot.com
+    - unisafe-a342f.firebaseio.com
     - usafe-ca594.firebaseio.com
     - usafe.ru
 
