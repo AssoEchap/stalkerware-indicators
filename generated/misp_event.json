@@ -48184,6 +48184,87 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "1d1c4231-8ed4-4fe4-a558-c900da18111d",
+          "object_relation": "domain",
+          "value": "unisafe-a342f.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d60ccbda-7d7f-4b5f-8601-ffe156e11020",
+          "object_relation": "domain",
+          "value": "a342f.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a0323d1b-bf06-40ba-be04-f57de59fd23c",
+          "object_relation": "certificate",
+          "value": "A519EF2B8C4E73A097065B322687C9D38DED610C",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "622382ae-905c-40c9-b517-5380de5f3b1e",
+          "object_relation": "certificate",
+          "value": "FCB6F780EA8F2FE7249F66C6348572BDBD54F576",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "81024343-7f6c-47e5-a779-8c87fba7effc",
+          "object_relation": "certificate",
+          "value": "20AB40ACC2822A34EC199622CDCA9D7A63BB302B",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "231b8904-5c1b-41c7-b128-e3b8843c9f32",
+          "object_relation": "certificate",
+          "value": "41862C48D4BBC2A83DB3CE6EBA0D0C53E3D882B6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e9e108e6-4a02-4a4b-ad3c-cc313ed0185c",
+          "object_relation": "certificate",
+          "value": "B5895930053256D408DE74B66BA132B73CB21527",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "6716f4b0-6aa0-4faf-8bbe-d2605d0e28f0",
+          "object_relation": "appid",
+          "value": "su.unisafe.unisafe",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "9ab4c821-b23b-4505-960e-926d515d91e4",
+          "object_relation": "appid",
+          "value": "ru.usafe.kid.unisafekids",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
