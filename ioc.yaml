@@ -1386,8 +1386,13 @@
   - EasyPhoneTrack
   packages:
   - com.spappm_mondow.alarm
-  certificates: []
-  websites: []
+  - com.monspap.alarm
+  certificates:
+  - 4A3742E0C96AFB91954D613AAA637076750E5A0B
+  websites:
+  - spappmonitoring.com
+  - www.spappmonitoring.com
+  - mobil-kem.com
   c2:
     ips: []
     domains:
