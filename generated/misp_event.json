@@ -48851,6 +48851,54 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "b573fda1-599b-4f5e-a815-62a1b4f85710",
+      "Attribute": [
+        {
+          "uuid": "718c1ab5-e016-4810-836f-7a4b3acba445",
+          "object_relation": "name",
+          "value": "OneLocator",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "d58d1d92-0102-45c6-90fc-5db8dd65c9ac",
+          "object_relation": "domain",
+          "value": "locatorprivacy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "14289f6c-ce7b-4daf-90cb-ff3d709ffe7a",
+          "object_relation": "certificate",
+          "value": "E43B5671CBA3F48619BF00D6E380BBC2F02A5DCA",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "5f252309-e598-41f8-8acb-8a64bfe6b2a0",
+          "object_relation": "appid",
+          "value": "mg.locations.track5",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
