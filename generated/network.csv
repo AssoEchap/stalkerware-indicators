@@ -551,6 +551,7 @@ domain,apk04.spytoapp.com,SpyToApp
 domain,downapk.spytoapp.com,SpyToApp
 domain,services.spytoapp.com,SpyToApp
 domain,spyapp-8916f.firebaseio.com,BlurSpy
+domain,tr.appmia.com,AppMia
 domain,mycloud1.wisemo.com,WiseMo
 domain,mycloud.wisemo.com,WiseMo
 domain,api.free-spy.com,MobileFindFree
@@ -573,3 +574,9 @@ domain,trackingsmartphone.com,TrackingSmartphone
 domain,tracking-smartphone.firebaseio.com,TrackingSmartphone
 domain,phonetracker.com,SpyphoneMobileTracker
 domain,phonetracker95gpsonly.firebaseio.com,SpyphoneMobileTracker
+domain,api.wondershare.cc,FamiSafe
+domain,app-api-pro.wondershare.cc,FamiSafe
+domain,dc.wondershare.cc,FamiSafe
+domain,data-api.famisafe.com,FamiSafe
+domain,famisafe-b6807.firebaseio.com,FamiSafe
+domain,sparrow.wondershare.com,FamiSafe

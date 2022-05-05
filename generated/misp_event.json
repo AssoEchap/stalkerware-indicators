@@ -48100,6 +48100,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "d379498a-8d66-437c-8e32-63ddd3bd9a90",
+          "object_relation": "domain",
+          "value": "tr.appmia.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -48723,6 +48732,117 @@
           "uuid": "00039ad0-e9e0-4d77-94e0-3d1e89afcb7f",
           "object_relation": "appid",
           "value": "com.gcm_call_sms_tracker.updated",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "ab639687-3a8d-4c06-90d6-49630c84edbc",
+      "Attribute": [
+        {
+          "uuid": "1c201c6e-72b8-402b-87dd-f93a94f863d2",
+          "object_relation": "name",
+          "value": "FamiSafe",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f404d351-46b7-4cd3-9edc-8f45c9a43e57",
+          "object_relation": "domain",
+          "value": "data-api.famisafe.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e9d794e4-1346-4a78-a102-0a1954c3940a",
+          "object_relation": "domain",
+          "value": "api.wondershare.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "92067535-f541-40a1-bb77-77b5d365539a",
+          "object_relation": "domain",
+          "value": "famisafe-b6807.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6c60e618-7130-4906-9574-e74ea4efd5a5",
+          "object_relation": "domain",
+          "value": "app-api-pro.wondershare.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5018a266-8410-4459-a2de-f80d2456dcdd",
+          "object_relation": "domain",
+          "value": "sparrow.wondershare.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "66e601d1-3cc7-4ca5-8be1-6441e7532654",
+          "object_relation": "domain",
+          "value": "dc.wondershare.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cf42727e-eb7c-46dc-a348-e7d20375306d",
+          "object_relation": "certificate",
+          "value": "095514BA4F28DBE521C74ABF77972BE3C86A50A5",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "91afa8f3-2731-4e8b-a0a0-c401efb5b960",
+          "object_relation": "certificate",
+          "value": "61B90229F79F730043D06FEE46BB8FD9E3A0E70B",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d34a78bc-ecb8-4198-ba89-cdce95ea952d",
+          "object_relation": "appid",
+          "value": "com.wondershare.famisafe",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "bd4d8d3c-58be-4e43-aa87-213bd97817e0",
+          "object_relation": "appid",
+          "value": "com.wondershare.famisafe.kids",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
