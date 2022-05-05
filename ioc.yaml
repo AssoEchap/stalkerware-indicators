@@ -1582,8 +1582,11 @@
   - SpyMasterPro
   packages:
   - iqual.calculadora.pro
+  - com.semantic.childcontrol
   certificates:
   - 8AD595A53B76014B7B919ED231DB372096D358E7
+  - C8BAE63357CA1DCD9B084BCC99399C96A5B67D49
+  - 9B07A93BC509C0AE614AEAFFCD6B56797CD02166
   websites:
   - spymasterpro.com
   - www.spymasterpro.com
@@ -1593,6 +1596,7 @@
     domains:
     - senseye.spymasterpro.com
     - imobispy.com
+    - spymaster-e535b.firebaseio.com
 
 - name: FreeAndroidSpy
   names:
