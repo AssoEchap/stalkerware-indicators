@@ -42238,6 +42238,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "10938ed5-5d20-4631-9752-6e00b07ade1b",
+          "object_relation": "certificate",
+          "value": "4A3742E0C96AFB91954D613AAA637076750E5A0B",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "9e4014a9-9242-45c6-b801-f93395d9b058",
+          "object_relation": "appid",
+          "value": "com.monspap.alarm",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -46543,6 +46561,42 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "8829a12f-ee0e-4c03-a440-2bd9170e3c46",
+          "object_relation": "domain",
+          "value": "spymaster-e535b.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "be6e466e-8f67-4177-885e-fa1dfef410ba",
+          "object_relation": "certificate",
+          "value": "C8BAE63357CA1DCD9B084BCC99399C96A5B67D49",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "f63526f6-148e-4cc4-9fe3-5ace2e3fe28c",
+          "object_relation": "certificate",
+          "value": "9B07A93BC509C0AE614AEAFFCD6B56797CD02166",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "35c220ba-5dd7-4e2e-aabb-0a40767ad6a7",
+          "object_relation": "appid",
+          "value": "com.semantic.childcontrol",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -48891,6 +48945,237 @@
           "uuid": "5f252309-e598-41f8-8acb-8a64bfe6b2a0",
           "object_relation": "appid",
           "value": "mg.locations.track5",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "fe3bbc9b-0c57-466c-aca4-f204d21bef1d",
+      "Attribute": [
+        {
+          "uuid": "2809e823-a42b-40c7-9b22-5866b7af3c42",
+          "object_relation": "name",
+          "value": "EvaSpy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "96c00392-5c1a-4fff-89f5-8d732c45edad",
+          "object_relation": "domain",
+          "value": "uf.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1f464c18-43eb-47f8-81c0-e659c0e8ea39",
+          "object_relation": "domain",
+          "value": "um.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3359bc2e-b61c-469a-855b-d3857217a047",
+          "object_relation": "domain",
+          "value": "uq.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "73c1d42e-04c5-4c38-9365-fc63095bb42c",
+          "object_relation": "domain",
+          "value": "ug.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cef06f97-6c2b-48f2-a1c9-52147acebe64",
+          "object_relation": "domain",
+          "value": "up.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8fdf0b4d-4a30-44bd-a9bf-a9ab86f0e40c",
+          "object_relation": "domain",
+          "value": "ui.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "115089ac-1a29-4dc6-a0d2-71d67f73b402",
+          "object_relation": "domain",
+          "value": "uh.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b257eb33-5456-4395-8cb6-3c5fbcfa225f",
+          "object_relation": "domain",
+          "value": "ub.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "70be7741-5d2f-4b46-a8b9-efe844d50c33",
+          "object_relation": "domain",
+          "value": "un.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e24ef975-ce04-41bd-a701-efc3c4cce41a",
+          "object_relation": "domain",
+          "value": "ud.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "df314a74-29c3-439c-ba71-be6b55b2a2b4",
+          "object_relation": "domain",
+          "value": "uo.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cfc910f1-e3c7-46f5-80f6-1523fdd29547",
+          "object_relation": "domain",
+          "value": "uc.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "835f81db-2adc-44ba-b96e-38e3cdff5995",
+          "object_relation": "domain",
+          "value": "ul.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d6a73f83-8434-4a44-bfd0-83f5350f5ab6",
+          "object_relation": "domain",
+          "value": "ua.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ff1426c9-c1d8-4437-98e5-ce4f8fdccbe3",
+          "object_relation": "domain",
+          "value": "ue.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "29c20d33-ca0a-4bf4-98fa-185bc89c3721",
+          "object_relation": "domain",
+          "value": "uj.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "95a58592-f9c2-495d-8018-90fe3bb8c717",
+          "object_relation": "domain",
+          "value": "uk.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d0c163c9-e725-4f2d-b978-d3a0cd672bab",
+          "object_relation": "domain",
+          "value": "ur.evaspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "bec87b0a-a068-4253-9a5f-a3508d4e1fff",
+      "Attribute": [
+        {
+          "uuid": "8ddb675b-07dc-4cb9-abc5-44210a41fd3d",
+          "object_relation": "name",
+          "value": "RealtimeSpy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "fbeae875-e868-4be1-9d10-9b79b4c8d2ec",
+          "object_relation": "domain",
+          "value": "realtime-spy-mobile.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "48a0536c-149b-4649-9736-a7098b60f3b5",
+          "object_relation": "certificate",
+          "value": "8CD8FB235EA7F9B0FC308C1A59AB561C3869878C",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "37f6492f-b66f-4cc2-b1b4-23fd22dac8b2",
+          "object_relation": "appid",
+          "value": "com.realtime.spyapp",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
