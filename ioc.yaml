@@ -1178,6 +1178,7 @@
   - 683722A1C629AD5734B93E08ADFAA61775AD196F
   websites:
   - evt17.com
+  - highstermobile.com
   c2:
     ips: []
     domains:
@@ -2041,3 +2042,17 @@
     - data-api.famisafe.com
     - famisafe-b6807.firebaseio.com
     - sparrow.wondershare.com
+
+- name: OneLocator
+  names: []
+  packages:
+  - mg.locations.track5
+  certificates:
+  - E43B5671CBA3F48619BF00D6E380BBC2F02A5DCA
+  websites:
+  - locatorprivacy.com
+  - onelocator.com
+  c2:
+    ips: []
+    domains:
+    - locatorprivacy.com
