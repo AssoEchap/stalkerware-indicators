@@ -2070,3 +2070,32 @@
     ips: []
     domains:
     - locatorprivacy.com
+
+- name: EvaSpy
+  names: []
+  packages:
+  certificates:
+  websites:
+  - evaspy.com
+  - login.evaspy.com
+  c2:
+    ips: []
+    domains:
+    - ua.evaspy.com
+    - ub.evaspy.com
+    - uc.evaspy.com
+    - ud.evaspy.com
+    - ue.evaspy.com
+    - uf.evaspy.com
+    - ug.evaspy.com
+    - uh.evaspy.com
+    - ui.evaspy.com
+    - uj.evaspy.com
+    - uk.evaspy.com
+    - ul.evaspy.com
+    - um.evaspy.com
+    - un.evaspy.com
+    - uo.evaspy.com
+    - up.evaspy.com
+    - uq.evaspy.com
+    - ur.evaspy.com
