@@ -1878,10 +1878,16 @@
   - com.android.system.devicelogs
   certificates:
   - C51C36FE4F1DFC0C5B8CD55F74773135C1C1E1E5
-  websites: []
+  websites:
+  - appmia.com
+  - appmia.com.es
+  - appmia.it
+  - appmia.fr
+  - cp.appmia.com
   c2:
     ips: []
-    domains: []
+    domains:
+    - tr.appmia.com
 
 - name: SecretCamRecorder
   names:
@@ -2014,3 +2020,24 @@
     - phonetracker.com
     - phonetracker95gpsonly.firebaseio.com
 
+- name: FamiSafe
+  names: []
+  packages:
+  - com.wondershare.famisafe
+  - com.wondershare.famisafe.kids
+  certificates:
+  - 61B90229F79F730043D06FEE46BB8FD9E3A0E70B
+  - 095514BA4F28DBE521C74ABF77972BE3C86A50A5
+  websites:
+  - famisafe.wondershare.com
+  - famisafeapp.wondershare.com
+  - accounts.wondershare.com
+  c2:
+    ips: []
+    domains:
+    - api.wondershare.cc
+    - app-api-pro.wondershare.cc
+    - dc.wondershare.cc
+    - data-api.famisafe.com
+    - famisafe-b6807.firebaseio.com
+    - sparrow.wondershare.com
