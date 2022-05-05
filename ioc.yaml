@@ -2099,3 +2099,20 @@
     - up.evaspy.com
     - uq.evaspy.com
     - ur.evaspy.com
+
+- name: RealtimeSpy
+  names: []
+  packages:
+  - com.realtime.spyapp
+  certificates:
+  - 8CD8FB235EA7F9B0FC308C1A59AB561C3869878C
+  websites:
+  - www.spytech-web.com
+  - spytech-web.com
+  - realtime-spy-mobile.com
+  - www.realtime-spy-mobile.com
+  c2:
+    ips:
+    - 184.154.69.210
+    domains:
+    - realtime-spy-mobile.com
