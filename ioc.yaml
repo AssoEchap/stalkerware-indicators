@@ -2022,6 +2022,9 @@
   websites:
   - phonetracker.com
   - www.phonetracker.com
+  - spyfone.com
+  - spyphone.com
+  - www.spyphone.com
   c2:
     ips: []
     domains:
