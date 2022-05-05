@@ -1073,6 +1073,7 @@
 - name: PanSpy
   names:
   - PanSpy
+  - SurveilStar
   packages:
   - com.panspy.android
   certificates:
@@ -1080,6 +1081,7 @@
   websites:
   - panspy.me
   - panspy.com
+  - surveilstar.com
   c2:
     ips: []
     domains:
@@ -2073,11 +2075,13 @@
 
 - name: EvaSpy
   names: []
-  packages:
-  certificates:
+  packages: []
+  certificates: []
   websites:
   - evaspy.com
   - login.evaspy.com
+  - spyrix.com
+  - www.spyrix.com
   c2:
     ips: []
     domains:
