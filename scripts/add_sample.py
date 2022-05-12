@@ -54,8 +54,8 @@ if __name__ == '__main__':
         print("This file is not an APK")
         sys.exit(-1)
 
+    print(sample_path)
     infos = get_infos(args.APK)
-
     data = read_samples(sample_path)
 
     os.remove(sample_path)
@@ -63,7 +63,7 @@ if __name__ == '__main__':
         writer = csv.writer(f, delimiter=',')
         writer.writerow(["SHA256", "Package Name", "Certificate", "Version", "App"])
 
-        found = True
+        found = False
         for d in data:
             if d[0].lower() == infos["sha256"].lower():
                 writer.writerow([

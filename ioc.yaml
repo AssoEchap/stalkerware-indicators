@@ -450,6 +450,7 @@
   - com.sc.spyier.v2
   - com.sc.spyine.v2
   - com.sc.spyzie.v2
+  - com.dy.spyzie.v4
   - com.spyic
   - com.ws.sc
   - com.ws.scli
@@ -640,15 +641,15 @@
   - 6144ED2E25B6F3A5FAFCF914965CA071A685674B
   websites:
   - br.refog.com
-  - de.refog.com 
+  - de.refog.com
   - es.refog.com
   - fr.refog.com
   - hover.watch
   - hoverwatch.com
-  - hu.refog.com 
-  - my.hws.icu 
-  - it.refog.com 
-  - nl.refog.com 
+  - hu.refog.com
+  - my.hws.icu
+  - it.refog.com
+  - nl.refog.com
   - refog.com
   - refog.de
   - ro.refog.com
@@ -727,7 +728,7 @@
   - com.android.core.mngx
   - com.android.core.mngy
   - com.android.core.mngz
-  certificates: 
+  certificates:
   - 240E97A0587BF99441787EA3BCB2B2D8827564FE
   - 854F7978408EA58C5B792C1C1EF9733FC2D5E813
   - 1988EDEA389D42983CEC8B5F8A9C27AE49F800F9
@@ -749,7 +750,7 @@
     - app.snoopza.com
     - app2.snoopza.com
     - dev.snoopza.com
-    - flower.snoopza.com 
+    - flower.snoopza.com
     - get.snoopza.com
     - my.snoopza.com
     - my2.snoopza.com
@@ -1949,13 +1950,13 @@
   - ru.usafe.u_safe
   - ru.usafe.usafe
   - ru.usafe.kid.unisafekids
-  - su.unisafe.unisafe 
-  certificates: 
+  - su.unisafe.unisafe
+  certificates:
   - 20AB40ACC2822A34EC199622CDCA9D7A63BB302B
   - 41862C48D4BBC2A83DB3CE6EBA0D0C53E3D882B6
   - A519EF2B8C4E73A097065B322687C9D38DED610C
-  - B5895930053256D408DE74B66BA132B73CB21527 
-  - FCB6F780EA8F2FE7249F66C6348572BDBD54F576 
+  - B5895930053256D408DE74B66BA132B73CB21527
+  - FCB6F780EA8F2FE7249F66C6348572BDBD54F576
   websites:
   - usafe.ru
   - unisafe.su
