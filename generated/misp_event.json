@@ -34348,6 +34348,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "ecbde361-d3f9-4496-bb61-05d8bcc2758c",
+          "object_relation": "appid",
+          "value": "com.dy.spyzie.v4",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
