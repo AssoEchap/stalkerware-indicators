@@ -34357,6 +34357,33 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "7a0e3eaf-30c1-4d66-8fe9-9a3c06baff21",
+          "object_relation": "domain",
+          "value": "i.teensafe.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ff6dbee4-5695-4432-9cac-1eff49f1e882",
+          "object_relation": "appid",
+          "value": "com.sc.teensafe.v2",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "ce9b1ced-ee21-44c3-8ad1-0a55001a2d04",
+          "object_relation": "appid",
+          "value": "com.duiyun.spyzie",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
