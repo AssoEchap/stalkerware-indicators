@@ -436,6 +436,7 @@
   - com.duiyun.cocospy.v2
   - com.duiyun.fonemonitor
   - com.duiyun.spyine
+  - com.duiyun.spyzie 
   - com.duiyun.spyic
   - com.minspy.v2
   - com.minspy.v3
@@ -452,6 +453,7 @@
   - com.sc.spyine.v2
   - com.sc.spyzie.v2
   - com.dy.spyzie.v4
+  - com.sc.teensafe.v2
   - com.spyic
   - com.ws.sc
   - com.ws.scli
@@ -469,10 +471,14 @@
   - safespy.com
   - spyine.com
   - spyzie.com
+  - spyzie.io
+  - spyzie.online
+  - teensafe.net
   - www.fonemonitor.co
   - www.minspy.com
   - www.spyic.com
   - www.spyzie.com
+  - www.teensafe.net
   c2:
     ips: []
     domains:
@@ -496,6 +502,7 @@
     - i.spyic.com
     - i.spyine.com
     - i.spyzie.io
+    - i.teensafe.net
     - mintrack.vip
     - my.spyzie.com
     - neatspy.vip
