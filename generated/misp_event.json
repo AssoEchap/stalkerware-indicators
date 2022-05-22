@@ -40633,6 +40633,60 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "12b293ef-eae3-4720-a6f0-9b005785da4e",
+          "object_relation": "domain",
+          "value": "autoforward-8433d.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5df1eab8-8333-4085-b7d3-836efb8731a5",
+          "object_relation": "domain",
+          "value": "phonespector-b2f13.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f0e8de40-0652-46b5-af45-9ab33adb5213",
+          "object_relation": "domain",
+          "value": "auto-forward.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bdb76653-cfd6-4cb1-ab21-6e5e38cabe05",
+          "object_relation": "domain",
+          "value": "phonespector.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "92448ed5-c8f6-46ae-b254-d4528c4a3ba8",
+          "object_relation": "certificate",
+          "value": "48A2190050B80F31E1E3CCFAF9909FAD238D9849",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "f11f480e-9080-4d16-8d1c-0e0ec8360084",
+          "object_relation": "appid",
+          "value": "com.phonespector.app",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
