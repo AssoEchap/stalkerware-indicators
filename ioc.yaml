@@ -469,6 +469,7 @@
   - minspy.com
   - neatspy.com
   - safespy.com
+  - spyic.com
   - spyine.com
   - spyzie.com
   - spyzie.io
@@ -1184,22 +1185,32 @@
 - name: HighsterMobile
   names:
   - HighsterMobile
+  - PhoneSpector
   packages:
   - org.secure.smsgps
   - com.autoforward.monitor
+  - com.phonespector.app
   certificates:
   - 683722A1C629AD5734B93E08ADFAA61775AD196F
+  - 48A2190050B80F31E1E3CCFAF9909FAD238D9849
   websites:
+  - auto-forward.com
+  - cellphoneservices.info
   - evt17.com
   - highstermobile.com
+  - phonespector.com
   c2:
     ips: []
     domains:
-    - evt17.com
-    - cellphoneservices.info
-    - device-ac480.firebaseio.com
-    - device-ac480.appspot.com
     - ac480.firebaseio.com
+    - auto-forward.com
+    - autoforward-8433d.firebaseio.com
+    - cellphoneservices.info
+    - device-ac480.appspot.com
+    - device-ac480.firebaseio.com
+    - evt17.com
+    - phonespector.com
+    - phonespector-b2f13.firebaseio.com
 
 - name: iMonitorSpy
   names:
