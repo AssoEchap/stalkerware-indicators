@@ -48700,6 +48700,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "f7e2bc9e-7d5c-4c18-af49-1753201fe90a",
+          "object_relation": "domain",
+          "value": "us-central1-api-project-285519687053.cloudfunctions.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1f4dc22a-d1ff-429a-a339-f0db5959b7fa",
+          "object_relation": "certificate",
+          "value": "B14E50E56D5D483031137FD247D4A5466D0E61B4",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -49266,6 +49284,276 @@
           "uuid": "37f6492f-b66f-4cc2-b1b4-23fd22dac8b2",
           "object_relation": "appid",
           "value": "com.realtime.spyapp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "a894953d-a1d3-4ff3-869f-d999206ae502",
+      "Attribute": [
+        {
+          "uuid": "7cd69a2b-5296-4629-ae69-9a76092bf287",
+          "object_relation": "name",
+          "value": "KasperskySafeKids",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "1149f28f-4a38-41b1-ab8e-2df2c1a577f9",
+          "object_relation": "domain",
+          "value": "kaspersky-safe-kids.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "07a3ef6f-145e-4c23-a7e8-d3a3afe6c32b",
+          "object_relation": "certificate",
+          "value": "8CD8FB235EA7F9B0FC308C1A59AB561C3869878C",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "b113ef3e-2445-4ed9-b18e-1c4473860b33",
+          "object_relation": "appid",
+          "value": "com.kaspersky.safekids",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "9fe5e3db-d5d2-4927-a69c-5e4989c1f451",
+      "Attribute": [
+        {
+          "uuid": "6bd5e0ff-5982-406d-bb3f-7d77cddc9b55",
+          "object_relation": "name",
+          "value": "KidsControl",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "36acc728-c707-4f01-b1a9-cec3f43b74f1",
+          "object_relation": "domain",
+          "value": "go.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "eee5e7e1-20ac-40ff-81d0-df9496af0d7f",
+          "object_relation": "domain",
+          "value": "s.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "7ce498db-8520-4fb0-b3c9-f5844e9d7f67",
+          "object_relation": "domain",
+          "value": "ios.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "39accaf9-1081-49d3-96fd-0f7dd9ffb281",
+          "object_relation": "domain",
+          "value": "gpsme1.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "59e407df-774a-4740-85aa-a0266c4bf467",
+          "object_relation": "domain",
+          "value": "beta.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e54162e9-3db8-45c5-b8cd-d66c2a61f6cc",
+          "object_relation": "domain",
+          "value": "s5.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2c305f7f-53e5-48e7-8f8d-36bc6be7ba3f",
+          "object_relation": "domain",
+          "value": "s10.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3dfa3313-2a4e-4e70-9d3f-a9992c4fc88f",
+          "object_relation": "domain",
+          "value": "s7.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "50df5dbf-89e2-4817-ac01-2f78e9da0ead",
+          "object_relation": "domain",
+          "value": "s8.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "be106c57-de7f-48fe-b12c-79104db446a7",
+          "object_relation": "domain",
+          "value": "s9.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b4d5e9e1-d740-42a5-9a64-605231294d2e",
+          "object_relation": "domain",
+          "value": "s6.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6ceed625-7fe0-4a84-a2c4-f17a513c09ae",
+          "object_relation": "domain",
+          "value": "go2.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6130dd48-09d5-4b18-8ac0-62619c2f9e1f",
+          "object_relation": "domain",
+          "value": "api.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b5c66ae3-14df-422a-83cd-4da02def9cf4",
+          "object_relation": "domain",
+          "value": "s4.kid-control.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "508bf33b-90ef-4e17-ba3f-a75a677950f3",
+          "object_relation": "appid",
+          "value": "app.gpsme",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "39313be4-d525-437e-bf2e-af74a13b2a6d",
+      "Attribute": [
+        {
+          "uuid": "4bb98df8-56b1-40d6-8b68-97a3c16fdbef",
+          "object_relation": "name",
+          "value": "FindMyKids",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "717aabdf-4e98-4ca3-a1c0-93b731de878d",
+          "object_relation": "domain",
+          "value": "r.findmychilds.org",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a002d406-3986-4479-830a-253af0b565c4",
+          "object_relation": "domain",
+          "value": "wss.findmychilds.org",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "94a17b06-8acf-4b33-9d46-bddb0e754b87",
+          "object_relation": "domain",
+          "value": "where-is-my-children.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "46780e14-a0b7-4c09-a8d8-e7c9a52318fc",
+          "object_relation": "certificate",
+          "value": "2A57777E3B9491A37392AFCE2E69D030DBF95037",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e9004100-6404-43c7-b375-c413ad556077",
+          "object_relation": "appid",
+          "value": "org.findmykids.app",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,

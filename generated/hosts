@@ -36,6 +36,7 @@ api.childsafetytrackerapp.com
 api.clevguard.com
 api.flexispy.com
 api.free-spy.com
+api.kid-control.com
 api.lifecircle.app
 api.seniorsafetyapp.com
 api.snoopza.com
@@ -66,6 +67,7 @@ b.appjiagu.com
 b55y.net
 bark-android-media.s3.amazonaws.com
 beta-api.logger.mobi
+beta.kid-control.com
 beta.logger.mobi
 bincdi.6kvses.com
 bincdi.birxpk.com
@@ -140,6 +142,9 @@ foreverspy.com
 g.appjiagu.com
 get.snoopza.com
 getmspy.net
+go.kid-control.com
+go2.kid-control.com
+gpsme1.kid-control.com
 guestspy.com
 h.appjiagu.com
 hellospy.com
@@ -178,7 +183,9 @@ imonitorke.com
 imonitorsoft.cn
 imonitorsoft.com
 inv.logger.mobi
+ios.kid-control.com
 ixhtb.s9gxw8.com
+kaspersky-safe-kids.firebaseio.com
 key-logger-90fff.firebaseio.com
 kidsguard-6c6a9.firebaseio.com
 kvshdi.birxpk.com
@@ -386,6 +393,7 @@ proxy.reptilicus.net
 ps97mailer.logger.mobi
 pulsesolutions-net-easy-logger.firebaseio.com
 push.mobilefonex.com
+r.findmychilds.org
 rc-api.lifecircle.app
 realtime-spy-mobile.com
 rec.hw.cab
@@ -394,10 +402,18 @@ repo.mspyonline.com
 reptilicus.net
 rp.apollospy.com
 s.appjiagu.com
+s.kid-control.com
 s1.panspy.com
 s1.spylive360.com
+s10.kid-control.com
 s2.spylive360.com
 s3.spylive360.com
+s4.kid-control.com
+s5.kid-control.com
+s6.kid-control.com
+s7.kid-control.com
+s8.kid-control.com
+s9.kid-control.com
 s9gxw8.com
 safespy.vip
 sandbox97.childsafetytrackerapp.com
@@ -525,6 +541,7 @@ uo.evaspy.com
 up.evaspy.com
 uq.evaspy.com
 ur.evaspy.com
+us-central1-api-project-285519687053.cloudfunctions.net
 us.umobix.com
 usafe-ca594.firebaseio.com
 usafe.ru
@@ -543,6 +560,8 @@ waws-prod-blu-247-e7b3.eastus.cloudapp.azure.com
 waws-prod-blu-247.sip.azurewebsites.windows.net
 webservicesdb.mobiispy.com
 wethnc067.xyz
+where-is-my-children.firebaseio.com
+wss.findmychilds.org
 www.androidlost.com
 www.bark.us
 www.imonitorsoft.cn
