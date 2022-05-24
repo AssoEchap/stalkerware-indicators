@@ -2149,11 +2149,8 @@
   names: []
   packages:
   - com.kaspersky.safekids
-  certificates:
-  - 8CD8FB235EA7F9B0FC308C1A59AB561C3869878C
-  websites:
-  - www.kaspersky.com/safe-kids
-  - kas.pr/kids
+  certificates: []
+  websites: []
   c2:
     ips: []
     domains:
