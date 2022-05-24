@@ -2158,3 +2158,29 @@
     ips: []
     domains:
     - kaspersky-safe-kids.firebaseio.com
+
+- name: KidsControl
+  names: []
+  packages:
+  - app.gpsme
+  certificates: []
+  websites:
+  - kid-control.com
+  - kid-control.ru
+  c2:
+    ips: []
+    domains:
+    - api.kid-control.com
+    - beta.kid-control.com
+    - ios.kid-control.com
+    - go.kid-control.com
+    - go2.kid-control.com
+    - gpsme1.kid-control.com
+    - s.kid-control.com
+    - s4.kid-control.com
+    - s5.kid-control.com
+    - s6.kid-control.com
+    - s7.kid-control.com
+    - s8.kid-control.com
+    - s9.kid-control.com
+    - s10.kid-control.com
