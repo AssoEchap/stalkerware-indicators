@@ -2184,3 +2184,19 @@
     - s8.kid-control.com
     - s9.kid-control.com
     - s10.kid-control.com
+
+- name: FindMyKids
+  names: []
+  packages:
+  - org.findmykids.app
+  certificates:
+  - 2A57777E3B9491A37392AFCE2E69D030DBF95037
+  websites:
+  - findmykids.org
+  - discount.findmykids.org
+  c2:
+    ips: []
+    domains:
+    - r.findmychilds.org
+    - wss.findmychilds.org
+    - where-is-my-children.firebaseio.com
