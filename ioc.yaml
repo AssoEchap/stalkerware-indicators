@@ -2002,9 +2002,12 @@
   - us.trackview
   certificates:
   - CB97E71AFA4665D6D28697B9197046C81E5E5D6C
+  - B14E50E56D5D483031137FD247D4A5466D0E61B4
   websites:
+  - chome.zstone.co
   - lifecircle.app
   - trackview.net
+  - trackview.recurly.com
   c2:
     ips: []
     domains:
@@ -2017,6 +2020,7 @@
     - m.lifecircle.app
     - rc-api.lifecircle.app
     - trackview.net
+    - us-central1-api-project-285519687053.cloudfunctions.net
     - user.trackview.net
     - user2.trackview.net
 
