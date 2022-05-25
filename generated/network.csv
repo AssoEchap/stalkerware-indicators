@@ -626,3 +626,6 @@ domain,s10.kid-control.com,KidsControl
 domain,r.findmychilds.org,FindMyKids
 domain,wss.findmychilds.org,FindMyKids
 domain,where-is-my-children.firebaseio.com,FindMyKids
+domain,api3.easydoc.info,CellTracker
+domain,api1.easydoc.info,CellTracker
+domain,easydoc.info,CellTracker

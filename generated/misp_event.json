@@ -33589,6 +33589,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "4bccb5d4-76c1-44ba-85fc-6dd83792dd3f",
+          "object_relation": "sha256",
+          "value": "1bc37d9be07ffad8b21f673f2b678b24ad0a53f51fe53598544da549fe4d4e66",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -49554,6 +49563,90 @@
           "uuid": "e9004100-6404-43c7-b375-c413ad556077",
           "object_relation": "appid",
           "value": "org.findmykids.app",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "eb472423-4998-4deb-bd76-96208a1c3697",
+      "Attribute": [
+        {
+          "uuid": "977a1ad6-a491-4fcb-9928-84701f256a33",
+          "object_relation": "name",
+          "value": "CellTracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e44eb71d-9f9a-43ac-8827-b4c9dfbc01d7",
+          "object_relation": "domain",
+          "value": "easydoc.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f492b808-4cc9-47e0-af45-cee3be206556",
+          "object_relation": "domain",
+          "value": "api1.easydoc.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d9b21bb0-146e-431c-a4ab-0ea0b6604935",
+          "object_relation": "domain",
+          "value": "api3.easydoc.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a235a2e1-cf89-4f8c-aefe-aef8c220774c",
+          "object_relation": "sha256",
+          "value": "b4f6d8c0bb4149f2e494caf6ad9f9d120068bc7f33962b3746e89171d1de18c0",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "9f74441d-a50c-4287-b264-ca7d90ca484d",
+          "object_relation": "sha256",
+          "value": "148032ea08c82329bb4e8faaf0d0eacf161e818286f7d0eacacfa77bcb53c48b",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "9569dc3f-c14f-4bce-9ac1-1acf71f48c1e",
+          "object_relation": "certificate",
+          "value": "5F43A60BFC663FB37F419A40015495431649310B",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "5ca7e5c3-4513-4faf-80a0-fae8f857219a",
+          "object_relation": "appid",
+          "value": "com.jyotin.ct",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
