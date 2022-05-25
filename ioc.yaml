@@ -436,7 +436,7 @@
   - com.duiyun.cocospy.v2
   - com.duiyun.fonemonitor
   - com.duiyun.spyine
-  - com.duiyun.spyzie 
+  - com.duiyun.spyzie
   - com.duiyun.spyic
   - com.minspy.v2
   - com.minspy.v3
@@ -1035,7 +1035,9 @@
   - 35CD797D1736484786152A231920575FABC5C12A
   - 8CED75E875A2F11B3327A73A6DBD0B25E26533F2
   - 8B9540311C46184984B48BF9CB51F1742A8AFB42
-  websites: []
+  websites:
+  - mobile-tracker-free.fr
+  - mobile-tracker-free.com
   c2:
     ips: []
     domains:
@@ -2197,3 +2199,18 @@
     - r.findmychilds.org
     - wss.findmychilds.org
     - where-is-my-children.firebaseio.com
+
+- name : CellTracker
+  names: []
+  packages:
+  - com.jyotin.ct
+  websites:
+  - celltracker.io
+  certificates:
+  - 5F43A60BFC663FB37F419A40015495431649310B
+  c2:
+    ips: []
+    domains:
+    - api3.easydoc.info
+    - api1.easydoc.info
+    - easydoc.info
