@@ -34393,6 +34393,60 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "7f7b8aba-d7a1-4396-9ecb-baf16749ce13",
+          "object_relation": "domain",
+          "value": "app-api.phonedata.me",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "987b0397-6d73-4185-9242-cf2935c6d180",
+          "object_relation": "domain",
+          "value": "spyzie-a.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c06fc99d-2a6b-48ce-816b-feb409ccd09e",
+          "object_relation": "domain",
+          "value": "mg-spyzie.oss-us-west-1.aliyuncs.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1631084c-5c32-4955-a06f-ff04bfc1c14a",
+          "object_relation": "domain",
+          "value": "phonedata.me",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f6d84f04-fa7f-478a-bc12-77d528634307",
+          "object_relation": "certificate",
+          "value": "71BE35691A181E1524DDF83F931FBC62DC4E7EC6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "262ef731-8ef7-464c-b593-9f1429413d8f",
+          "object_relation": "appid",
+          "value": "com.wb.production",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -41779,6 +41833,177 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "418ad86d-fe84-41bb-ade7-9d7ce6ad7f08",
+          "object_relation": "domain",
+          "value": "aps2.spyhuman.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5ebc79c4-54ac-4915-92f2-2ac739bcf34f",
+          "object_relation": "domain",
+          "value": "aps18file.securebackuponline.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "25ca1a1e-2d05-4e29-bb09-5b4a7e6f2626",
+          "object_relation": "domain",
+          "value": "nodejs.spyhuman.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bd5735a1-5446-4e41-b488-bffee4ae3c49",
+          "object_relation": "domain",
+          "value": "aps17.spyhuman.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3a4a6fb5-dfb6-4deb-bf92-b5d293e67461",
+          "object_relation": "domain",
+          "value": "spyhuman-97943.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "de306f2f-7e9c-4aa3-af1d-a76a8a2d11e9",
+          "object_relation": "domain",
+          "value": "aps12.spyhuman.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9d89b02c-5a44-4405-975f-3c84762e886d",
+          "object_relation": "domain",
+          "value": "aps13.spyhuman.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "76bc995a-bf90-4364-9f7f-479359a58062",
+          "object_relation": "domain",
+          "value": "aps22.spyhuman.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "08dbd8ac-e1a7-485a-942b-5afed7c0d2f0",
+          "object_relation": "domain",
+          "value": "aps16.spyhuman.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "dafb027c-bfbd-4121-9a54-cc8bd40a1ce2",
+          "object_relation": "domain",
+          "value": "securebackuponline.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1c9e27e7-83c8-4948-b163-030e23e7bdbd",
+          "object_relation": "domain",
+          "value": "aps14.spyhuman.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "854b47be-0721-4665-a192-342fe01da0f4",
+          "object_relation": "domain",
+          "value": "aps15.spyhuman.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "aafb5fb2-23a8-4764-8735-94e63460f092",
+          "object_relation": "domain",
+          "value": "aps18data.securebackuponline.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6a0882dc-93cc-4738-8577-413e817f10a9",
+          "object_relation": "domain",
+          "value": "aps16042016.spyhuman.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "01a5488f-a2f9-443b-9a17-981debbbf49f",
+          "object_relation": "certificate",
+          "value": "E169250B134E5C46C3064F166E457CDBFCC16524",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "c0ec2971-b988-496b-87da-7978f716f555",
+          "object_relation": "certificate",
+          "value": "E2AC495C52B9FBD49B83CFAE0C167878A2F796A5",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "fac545bd-9ca2-4881-ba38-23b611caf56d",
+          "object_relation": "appid",
+          "value": "com.yurpdpvxnybmlgh",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "88aff65c-1c2b-4a89-a3f6-260fb0aadaf2",
+          "object_relation": "appid",
+          "value": "com.safesecureservice",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "56347f15-7852-4b14-9fc9-fa32882415cf",
+          "object_relation": "appid",
+          "value": "com.spyhumanrev",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -48313,6 +48538,33 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "c0189648-c119-4a3d-be01-0e29fc767ec8",
+          "object_relation": "domain",
+          "value": "blurspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4ceb260c-571b-4e09-acd9-b7ab7686361a",
+          "object_relation": "domain",
+          "value": "8916f.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0e2acbe2-cb00-42a8-a940-b82e4e0d1956",
+          "object_relation": "certificate",
+          "value": "4CACA12EB37B7A7F07AE380C7E1741D2C36531DF",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
