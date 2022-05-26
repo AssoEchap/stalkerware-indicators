@@ -50297,6 +50297,144 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "e5e0398f-1146-4f94-8757-c9d2852d9e4d",
+      "Attribute": [
+        {
+          "uuid": "803c7f91-9952-4704-8772-b48cbf8b3269",
+          "object_relation": "name",
+          "value": "AndroidSpy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "4263531d-084b-4c0e-83c7-dac72962c4be",
+          "object_relation": "domain",
+          "value": "a-spy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "49e920eb-7611-4955-906d-dfe42607e8d1",
+          "object_relation": "certificate",
+          "value": "839FBBE6F3DF8153BB6582247DBBC2A42864A87D",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0f6b355a-047a-414b-96cb-1c3ab97ab3bb",
+          "object_relation": "certificate",
+          "value": "56BD8EB8A20904E4766D99F6D38D87466C44B114",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "17f24e58-98a8-400b-9782-d5b8d32d9b0d",
+          "object_relation": "certificate",
+          "value": "AA0458B6C035E767E61DB7456CBCA89CC4D42090",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "9e9a9be8-5ec3-4a25-9899-2ab0eebb30ef",
+          "object_relation": "certificate",
+          "value": "B7BB744C68FD6EB4C49298E7506BED53DC4773FF",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "59a6f6c7-fbef-4009-ab66-a5c9f625995b",
+          "object_relation": "certificate",
+          "value": "9F6F25AB4EB39CA27BBB22465E6FDC1FC3791C85",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "2756ac87-a985-47d7-a494-623d8b076b8d",
+          "object_relation": "appid",
+          "value": "apk.kwoapsnde",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "6822b486-db97-4e0f-989c-f126a10ee9d7",
+          "object_relation": "appid",
+          "value": "com.as.keylogger",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8fb0fe04-dba9-436a-a2cf-940fbfd49db0",
+          "object_relation": "appid",
+          "value": "apk.keylogger",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f0aa9751-b07d-4dee-a40c-443f8eda4486",
+          "object_relation": "appid",
+          "value": "com.as.keylogger2",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "1b4889cf-0091-456d-b691-de9f2e6f794e",
+          "object_relation": "appid",
+          "value": "com.as.urllogger",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f874c8ce-a1f5-4694-b135-075babbf3747",
+          "object_relation": "appid",
+          "value": "apk.kgl",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e043623d-3cc6-4acc-8afd-33da307640a5",
+          "object_relation": "appid",
+          "value": "com.as.klogger",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
