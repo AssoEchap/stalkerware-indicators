@@ -1029,17 +1029,33 @@
   - com.services.phone
   - service.download.app
   - mobile.monitor.child2021
+  - mobile.monitor.child2022
+  - m.protect.parental
+  - mob.service.parental2020
   - com.mobile.gps
+  - com.mtf.d
   - com.mobiletrackerfree.secondapp
+  - security.mobile.parental
+  - com.lrvciyti.unrxnfig
   certificates:
   - 35CD797D1736484786152A231920575FABC5C12A
   - 8CED75E875A2F11B3327A73A6DBD0B25E26533F2
   - 8B9540311C46184984B48BF9CB51F1742A8AFB42
+  - CB6E6DEB296275EDF70DC71A62A75AB7B9C8DB89
+  - 9442F1D40FBAAD7053D130986C4487D0BA5C079F
+  - 9225C8FD380154467908AE344FBE75CE7EF996B8 
+  - CD5724426B602C1CD0BF3BD65EF75B9021C0EC3A
   websites:
-  - mobile-tracker-free.fr
+  - br.mobile-tracker-free.com
   - mobile-tracker-free.com
+  - mobile-tracker-free.de
+  - mobile-tracker-free.es
+  - mobile-tracker-free.fr
+  - mobile-tracker-free.it
+  - support.mobile-tracker-free.com
   c2:
-    ips: []
+    ips:
+    - 51.15.183.209
     domains:
     - apk.mtf.re
     - mtf.re
@@ -1047,6 +1063,7 @@
     - d-app-apk.com
     - mobile-tracker-data.com
     - myappmobile-537f7.firebaseio.com
+    - olurdaolurdediler.shop
 
 - name: iKeyMonitor
   names:
