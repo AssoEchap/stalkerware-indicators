@@ -455,6 +455,7 @@
   - com.dy.spyzie.v4
   - com.sc.teensafe.v2
   - com.spyic
+  - com.wb.production
   - com.ws.sc
   - com.ws.scli
   certificates:
@@ -463,6 +464,7 @@
   - C377ADFF5DF116AB7297D32850ADE8A8FC3F8FB9
   - CC866E79BDAD431A2B1E07229B92E64808221610
   - F25D72FCCB84BAF7F73467FC9571024B7E274CA3
+  - 71BE35691A181E1524DDF83F931FBC62DC4E7EC6
   websites:
   - cocospy.com
   - fonemonitor.co
@@ -507,6 +509,10 @@
     - mintrack.vip
     - my.spyzie.com
     - neatspy.vip
+    - phonedata.me
+    - app-api.phonedata.me
+    - spyzie-a.firebaseio.com
+    - mg-spyzie.oss-us-west-1.aliyuncs.com
     - s.appjiagu.com
     - safespy.vip
     - sp.kuuvv.com
