@@ -1049,7 +1049,7 @@
   - 8B9540311C46184984B48BF9CB51F1742A8AFB42
   - CB6E6DEB296275EDF70DC71A62A75AB7B9C8DB89
   - 9442F1D40FBAAD7053D130986C4487D0BA5C079F
-  - 9225C8FD380154467908AE344FBE75CE7EF996B8 
+  - 9225C8FD380154467908AE344FBE75CE7EF996B8
   - CD5724426B602C1CD0BF3BD65EF75B9021C0EC3A
   websites:
   - br.mobile-tracker-free.com
@@ -2275,3 +2275,38 @@
     - api3.easydoc.info
     - api1.easydoc.info
     - easydoc.info
+
+- name : jjspy
+  names:
+  - ttspy
+  packages:
+  - com.backup.tt
+  websites:
+  - www.jjspy.com
+  - www.ttspy.com
+  certificates:
+  - 002DD372C94E80600C7C60192CBD701A3C3B87EE
+  - D3E6A092741CBA59BE9308FBA72DF887EAB184FD
+  - D8418B279414687729D37B34E53AB75D502B9F73
+  - 002DD372C94E80600C7C60192CBD701A3C3B87EE
+  - 6DFB725019C7784B400D940DAAEDAED18C5B898B
+  - 4AF16661FC885F7CC84358CCB8F272308436D5E3
+  - EE35E2740576480486307C991C762A3FBA8DA46D
+  c2:
+    ips: []
+    domains:
+    - api.ttspy.com
+    - cloud.ttspy.com
+    - jjspy.com
+    - my.jjspy.com
+    - phone-backup-service.firebaseio.com
+    - rtc.ttspy.com
+    - ttjj.ga
+    - ttspy.com
+    - ttspy.com
+    - ws.ttspy.com
+    - www.ttjj.tk
+    - upload.weiguanai.cn
+    - service.weiguanai.cn
+    - service.n.weiguanai.cn
+    - wx.weiguanai.cn
