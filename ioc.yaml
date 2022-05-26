@@ -2310,3 +2310,29 @@
     - service.weiguanai.cn
     - service.n.weiguanai.cn
     - wx.weiguanai.cn
+
+- name : AndroidSpy
+  names:
+  - AndroSpy
+  - ASpy
+  packages:
+  - apk.keylogger
+  - apk.kgl
+  - apk.kwoapsnde
+  - com.as.keylogger
+  - com.as.keylogger2
+  - com.as.klogger
+  - com.as.urllogger
+  websites:
+  - a-spy.com
+  - www.a-spy.com
+  certificates:
+  - 9F6F25AB4EB39CA27BBB22465E6FDC1FC3791C85
+  - AA0458B6C035E767E61DB7456CBCA89CC4D42090
+  - 56BD8EB8A20904E4766D99F6D38D87466C44B114
+  - 839FBBE6F3DF8153BB6582247DBBC2A42864A87D
+  - B7BB744C68FD6EB4C49298E7506BED53DC4773FF
+  c2:
+    ips: []
+    domains:
+    - a-spy.com
