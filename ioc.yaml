@@ -1914,15 +1914,21 @@
 - name: BlurSpy
   names:
   - BlurSpy
+  - XOXOSpy
   packages:
   - com.saloomughal.spyapp
-  certificates: []
+  certificates:
+  - 4CACA12EB37B7A7F07AE380C7E1741D2C36531DF
   websites:
   - www.blurspy.com
+  - blurspy.com
+  - xoxospy.com
   c2:
     ips: []
     domains:
     - spyapp-8916f.firebaseio.com
+    - blurspy.com
+    - 8916f.appspot.com
 
 - name: AppMia
   names:
