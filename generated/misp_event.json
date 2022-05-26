@@ -48397,6 +48397,87 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "2e28e7fb-1d56-491f-b551-0a2771479048",
+          "object_relation": "domain",
+          "value": "www.ioi.life",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e87797c8-af38-450a-a947-f4c1b7e99911",
+          "object_relation": "domain",
+          "value": "my.aispyer.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0e975b26-cc21-44f5-ad98-41cb1b2b9097",
+          "object_relation": "domain",
+          "value": "api.corn-cob.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e11e1aab-34e9-4a09-be97-bb6b22a46609",
+          "object_relation": "domain",
+          "value": "tracksp.in",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2d5f2a9d-8179-408d-a9fb-0bd5c72ddc02",
+          "object_relation": "domain",
+          "value": "ioi.life",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "eb57865a-99c0-4d08-9e60-f2fe4cba114a",
+          "object_relation": "domain",
+          "value": "d.corn-cob.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ddc01c41-2301-40fb-8053-d89ebbe3d190",
+          "object_relation": "domain",
+          "value": "corn-cob.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1805412b-3212-43c0-a3ac-3b7f6465a9dd",
+          "object_relation": "certificate",
+          "value": "F038CD90AFEA9C037A801FFAE67DF55A870879C4",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "754cba9a-67fd-4b4d-b1e0-f37884f47eca",
+          "object_relation": "certificate",
+          "value": "BCA2BCB87F6E28FB403CED643311B135CA0DC0A2",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -49998,6 +50079,216 @@
           "uuid": "5ca7e5c3-4513-4faf-80a0-fae8f857219a",
           "object_relation": "appid",
           "value": "com.jyotin.ct",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "6ca64fe0-6acf-4222-94ee-be71df998552",
+      "Attribute": [
+        {
+          "uuid": "7130b04f-ebb1-49e6-8afa-3bf9d84ff925",
+          "object_relation": "name",
+          "value": "jjspy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "32255213-0bae-4414-8975-9e0fbf4f4c98",
+          "object_relation": "domain",
+          "value": "api.ttspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a22a4a4f-0d2a-4f6b-82ad-a64d4a31db50",
+          "object_relation": "domain",
+          "value": "service.weiguanai.cn",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1fbaaae8-f57e-4673-bb5e-f1cc963906ea",
+          "object_relation": "domain",
+          "value": "wx.weiguanai.cn",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f2759b66-3522-4298-b86b-1831061c053d",
+          "object_relation": "domain",
+          "value": "upload.weiguanai.cn",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5c488f9a-e14f-40d9-90bb-7200458b4369",
+          "object_relation": "domain",
+          "value": "rtc.ttspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "544b89a5-7212-47be-b3cf-4ce7b6516ee4",
+          "object_relation": "domain",
+          "value": "www.ttjj.tk",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9b00af41-2f50-438b-bec7-db80355cd00d",
+          "object_relation": "domain",
+          "value": "jjspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "89d0ef5f-3c93-4125-a0ad-ba04c6203d0d",
+          "object_relation": "domain",
+          "value": "cloud.ttspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3b3470bf-fcdd-4272-9658-be10c07d546f",
+          "object_relation": "domain",
+          "value": "ws.ttspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "369a0468-d887-42b6-a14a-f26c2729b4fa",
+          "object_relation": "domain",
+          "value": "phone-backup-service.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "dc570d42-d5f7-4b65-aa61-beb67198d883",
+          "object_relation": "domain",
+          "value": "ttjj.ga",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5b3bcba3-5896-4704-a7b7-0e4f0c464998",
+          "object_relation": "domain",
+          "value": "my.jjspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2f00d227-277a-445e-a1c2-b13f120c1d65",
+          "object_relation": "domain",
+          "value": "ttspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "126829e2-ca84-4c1b-9df0-eff4b00a4700",
+          "object_relation": "domain",
+          "value": "service.n.weiguanai.cn",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "87d0030f-ad53-41af-8354-723d39a7018d",
+          "object_relation": "certificate",
+          "value": "4AF16661FC885F7CC84358CCB8F272308436D5E3",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "3b01faad-cdb9-4259-b12c-11e6ca9e71d4",
+          "object_relation": "certificate",
+          "value": "D3E6A092741CBA59BE9308FBA72DF887EAB184FD",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "73bfef23-6e6c-44b3-8afc-9a8742288774",
+          "object_relation": "certificate",
+          "value": "EE35E2740576480486307C991C762A3FBA8DA46D",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "b4dafa0e-f776-43c7-8772-eac2ca567e52",
+          "object_relation": "certificate",
+          "value": "D8418B279414687729D37B34E53AB75D502B9F73",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "6eb9f092-5ee4-466e-87b2-d8bfa6071ab7",
+          "object_relation": "certificate",
+          "value": "002DD372C94E80600C7C60192CBD701A3C3B87EE",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "2b18a1bb-34da-4490-858b-96598a2ded65",
+          "object_relation": "certificate",
+          "value": "6DFB725019C7784B400D940DAAEDAED18C5B898B",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "32423a35-678f-4132-9d81-99b31959feb9",
+          "object_relation": "appid",
+          "value": "com.backup.tt",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
