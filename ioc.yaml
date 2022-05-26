@@ -1123,10 +1123,10 @@
     - panspy.me
     - panspy.com
     - ali.panspy.com
-    - u1.panspy.com
-    - s1.panspy.com
     - c1.panspy.com
     - d1.panspy.com
+    - s1.panspy.com
+    - u1.panspy.com
     - panspy-1.oss-us-west-1.aliyuncs.com
 
 - name: AndroidLost
@@ -1910,12 +1910,24 @@
   - AiSpyer
   packages:
   - com.aif.tracksp
-  certificates: []
-  websites: []
+  certificates:
+  - F038CD90AFEA9C037A801FFAE67DF55A870879C4
+  - BCA2BCB87F6E28FB403CED643311B135CA0DC0A2
+  websites:
+  - aivideoedit.com
+  - aispyer.com
+  - www.aispyer.com
   c2:
     ips: []
     domains:
+    - ioi.life
+    - api.corn-cob.com
+    - corn-cob.com
+    - d.corn-cob.com
+    - tracksp.in
+    - my.aispyer.com
     - tracksp-7743c.firebaseio.com
+    - www.ioi.life
 
 - name: SpyToApp
   names:
