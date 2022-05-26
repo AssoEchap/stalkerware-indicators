@@ -1317,20 +1317,40 @@
   - com.cldprotect
   - m.mobile.control
   - com.saxfamqvxj
+  - com.safesecureservice
   - com.myappspqwddeexo
+  - com.yurpdpvxnybmlgh
+  - com.spyhumanrev
   certificates:
   - 76F6C302533751BED738D40882AC219BAAD65E7B
   - F9265164219A1C5DEE4A76D66BEA0C35A1FD6032
   - 597C0169D8C27DE7C6B62C2C252F9ECAC0E562C4
+  - E2AC495C52B9FBD49B83CFAE0C167878A2F796A5
+  - E169250B134E5C46C3064F166E457CDBFCC16524
   websites:
   - spyhuman.com
+  - services.spyhuman.com
   c2:
     ips:
     - 213.239.228.196
     domains:
     - apispyhuman.com
-    - spyhuman.com
+    - aps22.spyhuman.com
+    - aps12.spyhuman.com
+    - aps13.spyhuman.com
+    - aps14.spyhuman.com
+    - aps15.spyhuman.com
+    - aps16.spyhuman.com
+    - aps17.spyhuman.com
+    - aps16042016.spyhuman.com
+    - aps18data.securebackuponline.net
+    - aps18file.securebackuponline.net
+    - aps2.spyhuman.com
+    - nodejs.spyhuman.com
+    - securebackuponline.net
     - sp18022019.firebaseio.com
+    - spyhuman-97943.firebaseio.com
+    - spyhuman.com
 
 - name: uMobix
   names:
