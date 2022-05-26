@@ -39415,6 +39415,105 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "ba63ebab-7ef7-4774-b684-6abaf442be5d",
+          "object_relation": "domain",
+          "value": "olurdaolurdediler.shop",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "25ba6d21-d8dd-44bb-9b1d-4dc27b04ab75",
+          "object_relation": "certificate",
+          "value": "9442F1D40FBAAD7053D130986C4487D0BA5C079F",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0ffb048e-678e-4720-a5f0-c9638a65de32",
+          "object_relation": "certificate",
+          "value": "CB6E6DEB296275EDF70DC71A62A75AB7B9C8DB89",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "93c99531-3c80-4224-9259-3b51600bb9f0",
+          "object_relation": "certificate",
+          "value": "CD5724426B602C1CD0BF3BD65EF75B9021C0EC3A",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "2d4d3bd3-b69b-4a18-8b37-b84c1ad73283",
+          "object_relation": "certificate",
+          "value": "9225C8FD380154467908AE344FBE75CE7EF996B8",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "5a832999-e7a0-429e-9704-c0cd2c8b7ae2",
+          "object_relation": "appid",
+          "value": "mobile.monitor.child2022",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3ff9d8b5-32ac-4c43-80c3-5a47c46f66b0",
+          "object_relation": "appid",
+          "value": "com.mtf.d",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8326c0e3-b7ce-44a5-939c-ed83a1578408",
+          "object_relation": "appid",
+          "value": "mob.service.parental2020",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "34e01487-fdfa-4b07-bf80-5a61d0e61813",
+          "object_relation": "appid",
+          "value": "m.protect.parental",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c47fb839-879e-4d97-9095-868a004ce165",
+          "object_relation": "appid",
+          "value": "com.lrvciyti.unrxnfig",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "7b0019d3-8297-4766-8f79-52c80474f4f1",
+          "object_relation": "appid",
+          "value": "security.mobile.parental",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
