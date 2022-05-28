@@ -41578,6 +41578,60 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "cdc688da-71c6-4cfe-8c33-daadffe7a5d9",
+          "object_relation": "domain",
+          "value": "downloads.shadow-spy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "fb4f6ea0-1911-4e69-afb0-9e018c1babed",
+          "object_relation": "domain",
+          "value": "shadowappbundle-default-rtdb.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "18882e81-d57f-4ff4-90f9-bbe7fa117ff2",
+          "object_relation": "domain",
+          "value": "runaki-support.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "76d7a75a-5a73-4193-a9c4-4e4bf097b3b8",
+          "object_relation": "domain",
+          "value": "shadowlogspanel.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "43573d8b-5390-4db2-90d6-3d79218e9cef",
+          "object_relation": "certificate",
+          "value": "AD231A7CD57E2CEF8162F4D341C3573DE2B8F443",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "c165873b-815d-439f-b68a-8e269a6ede06",
+          "object_relation": "appid",
+          "value": "com.shadow.client.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
