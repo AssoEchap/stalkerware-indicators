@@ -35371,6 +35371,141 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "6fbc1bd8-9519-41cc-b84a-710bc05e78a6",
+          "object_relation": "domain",
+          "value": "webservicesdb.mobiispy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b5bc99b7-ab5f-4b5b-9835-cf626108e775",
+          "object_relation": "domain",
+          "value": "mobiispy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c84c4dc0-41eb-44da-a795-e0464e18bd82",
+          "object_relation": "domain",
+          "value": "flushdbd.maxxspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "629a4e2a-db8d-4be4-a38f-a526520d06ca",
+          "object_relation": "domain",
+          "value": "maxxspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c148ab2f-980f-48ba-9eaa-ab889472accb",
+          "object_relation": "domain",
+          "value": "1topspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f341bdec-167d-4002-82ae-cedb61c449ab",
+          "object_relation": "domain",
+          "value": "flushdata.1topspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d812789e-e9b0-4a9d-b38f-92cb66485802",
+          "object_relation": "certificate",
+          "value": "6B660EAAEBA47793B7A1278D714669A6612BCA5B",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "255007b4-28ed-4b94-b66a-6494d6beffd1",
+          "object_relation": "certificate",
+          "value": "656CD7890ED79CE8570D1B7156C31958D5AC1606",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e3f347f2-058b-4bc6-a56a-286e6624f569",
+          "object_relation": "appid",
+          "value": "com.mobiispy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3701112d-15d4-4044-9be1-ab724802ca00",
+          "object_relation": "appid",
+          "value": "com.hellospy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "18c131cc-deae-48e9-a222-a2f82f1abb74",
+          "object_relation": "appid",
+          "value": "com.mobiispy.system",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "1befccec-76a3-4664-ab2e-2a61355fd0cb",
+          "object_relation": "appid",
+          "value": "com.topspy.system",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "31dad4ce-a749-4085-8910-40b658c5395b",
+          "object_relation": "appid",
+          "value": "com.maxxspy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "7f35d033-815f-4ef5-879d-344e6420be5c",
+          "object_relation": "appid",
+          "value": "com.maxxspy.system",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e01dc485-5264-47ea-b7c8-fd25d6120263",
+          "object_relation": "appid",
+          "value": "com.topspy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -40243,6 +40378,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "84e0afc2-2282-483d-a0b2-26e50190b56d",
+          "object_relation": "domain",
+          "value": "catwatchful-e03b8.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -40845,6 +40989,33 @@
           "uuid": "f11f480e-9080-4d16-8d1c-0e0ec8360084",
           "object_relation": "appid",
           "value": "com.phonespector.app",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "577b0973-2dc4-478d-ae4f-00a17d69ee67",
+          "object_relation": "domain",
+          "value": "ddiutilities.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "be158b75-1834-4ad4-9900-feb3be7b916d",
+          "object_relation": "domain",
+          "value": "a71f4.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8f114393-91f4-4565-a596-64a7315faf99",
+          "object_relation": "appid",
+          "value": "com.ddiutilities.monitor",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
@@ -48817,6 +48988,78 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "fdfa1c52-5f56-4763-81ba-60e80964a6f8",
+          "object_relation": "domain",
+          "value": "mtracker.fortess.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5356c9d7-489c-4b8e-a597-34b4376af5c8",
+          "object_relation": "domain",
+          "value": "mycloud-cs17.wisemo.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "7d6d7e76-2557-42ea-acd2-b56a8b2f8b1f",
+          "object_relation": "domain",
+          "value": "mycloud-cs10.wisemo.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "68508389-7c11-4902-9493-220694af3a86",
+          "object_relation": "domain",
+          "value": "mycloud-cs5a.wisemo.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6ceb77c9-b35e-4efe-bf7a-d9523393d925",
+          "object_relation": "domain",
+          "value": "mycloud-cs17a.wisemo.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "caa12ae9-06fa-4007-80ee-c2eff246b6f2",
+          "object_relation": "domain",
+          "value": "mycloud-cs9.wisemo.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e3f79307-b8e5-45b1-8d0c-5155401fada0",
+          "object_relation": "certificate",
+          "value": "9B48840CBF93379410172B4B85989624D2B33D59",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0632f37a-c5a5-4a1b-bcd5-34a02cf256f6",
+          "object_relation": "appid",
+          "value": "com.wisemo.host.v10",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
