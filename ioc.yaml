@@ -1183,6 +1183,7 @@
     - 162.144.75.253
     domains:
     - catwatchful.com
+    - catwatchful-e03b8.firebaseio.com
     - catwatchful-e03b8-2.firebaseio.com
 
 - name: HighsterMobile
