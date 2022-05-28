@@ -1188,33 +1188,39 @@
 
 - name: HighsterMobile
   names:
-  - HighsterMobile
+  - HighsterSpy
+  - Highster
   - PhoneSpector
+  - DDI
   packages:
   - org.secure.smsgps
   - com.autoforward.monitor
   - com.phonespector.app
+  - com.ddiutilities.monitor
   certificates:
   - 683722A1C629AD5734B93E08ADFAA61775AD196F
   - 48A2190050B80F31E1E3CCFAF9909FAD238D9849
   websites:
   - auto-forward.com
   - cellphoneservices.info
+  - ddiutilities.com
   - evt17.com
   - highstermobile.com
   - phonespector.com
   c2:
     ips: []
     domains:
+    - a71f4.firebaseio.com
     - ac480.firebaseio.com
     - auto-forward.com
     - autoforward-8433d.firebaseio.com
     - cellphoneservices.info
+    - ddiutilities.com
     - device-ac480.appspot.com
     - device-ac480.firebaseio.com
     - evt17.com
-    - phonespector.com
     - phonespector-b2f13.firebaseio.com
+    - phonespector.com
 
 - name: iMonitorSpy
   names:
@@ -1728,19 +1734,6 @@
     domains:
     - asgard-f8c53.firebaseio.com
     - m.asgardtech.ru
-
-- name: DDI
-  names:
-  - DDI
-  packages:
-  - com.ddiutilities.monitor
-  certificates: []
-  websites: []
-  c2:
-    ips: []
-    domains:
-    - ddiutilities.com
-    - a71f4.firebaseio.com
 
 - name: SpyApp247
   names:
