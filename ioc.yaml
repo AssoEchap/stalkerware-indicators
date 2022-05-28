@@ -1303,19 +1303,26 @@
   packages:
   - com.runaki.synclogs
   - com.client.requestlogs
+  - com.shadow.client.android
   certificates:
   - FE7626A8D3C38FD78EA2A729B39B943BA814F014
   - 01E49C220A9776D4978C1D28D6C32F86D145B8AE
+  - AD231A7CD57E2CEF8162F4D341C3573DE2B8F443
   websites:
   - shadow-logs.com
-  - www.shadow-logs.com
   - shadow-spy.com
+  - www.shadow-logs.com
+  - www.shadow-spy.com
   c2:
     ips: []
     domains:
+    - downloads.shadow-spy.com
+    - runaki-support.appspot.com
     - shadow-logs.com
-    - www.shadow-logs.com
     - shadow-spy.com
+    - shadowappbundle-default-rtdb.firebaseio.com
+    - shadowlogspanel.firebaseio.com
+    - www.shadow-logs.com
 
 - name: SpyHuman
   names:
