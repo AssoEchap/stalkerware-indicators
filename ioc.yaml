@@ -1986,15 +1986,24 @@
 - name: WiseMo
   names:
   - WiseMo
-  packages: []
-  certificates: []
+  packages:
+  - com.wisemo.host.v10
+  certificates:
+  - 9B48840CBF93379410172B4B85989624D2B33D59
   websites:
+  - wisemo.com
   - www.wisemo.com
   c2:
     ips: []
     domains:
     - mycloud1.wisemo.com
     - mycloud.wisemo.com
+    - mtracker.fortess.net
+    - mycloud-cs10.wisemo.com
+    - mycloud-cs17.wisemo.com
+    - mycloud-cs17a.wisemo.com
+    - mycloud-cs5a.wisemo.com
+    - mycloud-cs9.wisemo.com
 
 - name: MobileFindFree
   names:
