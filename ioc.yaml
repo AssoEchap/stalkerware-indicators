@@ -258,19 +258,40 @@
     - sync-a942.thetruthspy.com
     - thetruth-db94a.firebaseio.com
 
-- name: 1TopSpy
+- name: HelloSpy
   names:
   - 1TopSpy
+  - HelloSPy
+  - MaxxSpy
   packages:
   - com.topspy.system
   - com.topspy
+  - com.hellospy
+  - com.hellospy.system
+  - com.maxxspy
+  - com.maxxspy.system
+  certificates:
+  - 7F5C0D54A813BA9B87A91420CA2C3DE5E7948F09
+  - 1EBFFD9FE9463B2ED24582D2846990A5ABEF79B9
+  - 656CD7890ED79CE8570D1B7156C31958D5AC1606
+  - 6B660EAAEBA47793B7A1278D714669A6612BCA5B
   websites:
   - 1topspy.com
+  - hellospy.com
+  - maxxspy.com
   c2:
     ips: []
     domains:
     - 1topspy.com
     - flushdata.1topspy.com
+    - flushdata.hellospy.com
+    - flushdata2.hellospy.com
+    - flushdata3.hellospy.com
+    - flushdata4.hellospy.com
+    - flushdata5.hellospy.com
+    - flushdbd.maxxspy.com
+    - hellospy.com
+    - maxxspy.com
 
 - name: Mobiispy
   names:
@@ -538,26 +559,6 @@
     ips: []
     domains:
     - android.viptrack.ro
-
-- name: HelloSpy
-  names:
-  - HelloSpy
-  packages:
-  - com.hellospy.system
-  certificates:
-  - 7F5C0D54A813BA9B87A91420CA2C3DE5E7948F09
-  - 1EBFFD9FE9463B2ED24582D2846990A5ABEF79B9
-  websites:
-  - hellospy.com
-  c2:
-    ips: []
-    domains:
-    - hellospy.com
-    - flushdata.hellospy.com
-    - flushdata2.hellospy.com
-    - flushdata3.hellospy.com
-    - flushdata4.hellospy.com
-    - flushdata5.hellospy.com
 
 - name: EasyLogger
   names:
@@ -969,23 +970,6 @@
     - www.spyhide.ir
     - client.spyhide.ir
     - virsis.net
-
-- name: MaxxSpy
-  names:
-  - MaxxSpy
-  packages:
-  - com.maxxspy.system
-  - com.maxxspy
-  certificates:
-  - 656CD7890ED79CE8570D1B7156C31958D5AC1606
-  - 6B660EAAEBA47793B7A1278D714669A6612BCA5B
-  websites:
-  - maxxspy.com
-  c2:
-    ips: []
-    domains:
-    - flushdbd.maxxspy.com
-    - maxxspy.com
 
 - name: MeuSpy
   names:
