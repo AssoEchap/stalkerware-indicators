@@ -263,6 +263,7 @@
   - 1TopSpy
   - HelloSPy
   - MaxxSpy
+  - MobiiSpy
   packages:
   - com.topspy.system
   - com.topspy
@@ -270,6 +271,8 @@
   - com.hellospy.system
   - com.maxxspy
   - com.maxxspy.system
+  - com.mobiispy
+  - com.mobiispy.system
   certificates:
   - 7F5C0D54A813BA9B87A91420CA2C3DE5E7948F09
   - 1EBFFD9FE9463B2ED24582D2846990A5ABEF79B9
@@ -279,6 +282,7 @@
   - 1topspy.com
   - hellospy.com
   - maxxspy.com
+  - mobiispy.com
   c2:
     ips: []
     domains:
@@ -292,17 +296,6 @@
     - flushdbd.maxxspy.com
     - hellospy.com
     - maxxspy.com
-
-- name: Mobiispy
-  names:
-  - Mobiispy
-  packages:
-  - com.mobiispy.system
-  websites:
-  - mobiispy.com
-  c2:
-    ips: []
-    domains:
     - mobiispy.com
     - webservicesdb.mobiispy.com
 
