@@ -2493,3 +2493,30 @@
     - c-phone.ru
     - control-phone-a05a3.firebaseio.com
     - q95294fs.beget.tech
+
+- name : Tracku
+  names:
+  - Kurulum
+  - Bakuf
+  - Clues
+  - IZSpy
+  - ESpy
+  packages:
+  - com.google.android.bacfup
+  websites:
+  - clues4.com
+  - hike.in
+  - e-spy.org
+  - www.e-spy.org
+  certificates:
+  - A9A302C9606AF4BE4468A4FC74F7873DDADA2AB0
+  - 7D0F4308B87223AEEFFA65060F0F752E84D363BE
+  c2:
+    ips: []
+    domains:
+    - clues.link
+    - clues4.com
+    - cluestr.com
+    - e-spy.org
+    - izspy-1313.firebaseio.com
+    - www.e-spy.org
