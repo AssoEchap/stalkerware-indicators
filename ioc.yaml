@@ -656,14 +656,17 @@
   - hover.watch
   - hoverwatch.com
   - hu.refog.com
-  - my.hws.icu
+  - hws.icu
   - it.refog.com
+  - my.hws.icu
   - nl.refog.com
+  - prospybubble.com
   - refog.com
   - refog.de
+  - refog.net
+  - refog.org
   - ro.refog.com
   - www.hoverwatch.com
-  - prospybubble.com
   c2:
     ips:
     - 104.236.73.120
@@ -677,17 +680,18 @@
     - account.refog.com
     - dev.hoverwatch.com
     - dev2.refog.com
-    - office.hw.cab
-    - test.refog.com
-    - i1.hoverwatch.com
     - downloads.refog.com
+    - hover.watch
     - hoverwatch.com
     - hwa.cab
     - hwm.cab
+    - hws.icu
     - hww.cab
     - i.hoverwatch.com
+    - i1.hoverwatch.com
+    - office.hw.cab
     - rec.hw.cab
-    - hover.watch
+    - test.refog.com
 
 - name: LetMeSpy
   names:
@@ -2384,3 +2388,52 @@
     ips: []
     domains:
     - a-spy.com
+
+- name: AndroidPolice
+  names:
+  - MonitorChecker
+  - AndroidMonitor
+  - AndrMonitor
+  - AndroidMon
+  - Dromon
+  packages:
+  - afs.hbmoczc
+  - bv.vemzye
+  - com.amon
+  - com.monitorchecker
+  - fod.loqpf
+  - ifk.ghumlh
+  - mhu.bylbcwc
+  - oo.ptkqyawh
+  - sy.slvzccd
+  - vmf.uxytqgrl
+  - vn.ehkfqgvn
+  - yr.tubjypbl
+  certificates:
+  - 1CD94B411B5D4D2F5F525D775876FF0993B4B716
+  - 5C77395F77E17F293CC8C4E3E1FDD48296EE4B28
+  - 6A610D0211E543113EFE1A82CC4D270B6A45C526
+  - 6CC6FB667F4D178DF4E9111FE96BE9AEAEE485EF
+  - 85A4C4F357A99888725862C351119FBB12C45695
+  - 970B463F5103B36326AF8C8349A4106F6932835B
+  - B57FAAB701E26B4C92972442D3A428881E18441A
+  - E0FCD3E782FB859F7388E4F44A44A5D694114968
+  - EAD44242A3C0A73DEF7976C56AC10A4530E8F67A
+  websites:
+  - andmon.name
+  - android-police.ru
+  - anmon.name
+  - anmon.ru
+  - anmon.su
+  - droimon20.ru
+  - prog-money.com
+  c2:
+    ips: []
+    domains:
+    - andmon.name
+    - android-police.ru
+    - anmon.name
+    - anmon.ru
+    - anmon.su
+    - droimon20.ru
+    - prog-money.com
