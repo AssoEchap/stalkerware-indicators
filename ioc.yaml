@@ -2473,3 +2473,23 @@
     domains:
     - find-my-phone-prod.herokuapp.com
     - findmyphone.mangobird.com
+
+- name : Bulgok
+  names:
+  - ControlPhone
+  packages:
+  - com.bulgakov.controlphone
+  - com.bulgakov.bug
+  - com.bul.b
+  websites:
+  - c-phone.ru
+  certificates:
+  - 71AD1F579C3DCF32AA1E00E02245D359F80C260B
+  - FD5E1BBC94E5609F366DD4816C975C1CF4003F40
+  - DBC4B607C3B07C48F40F9D184DE443D651436CA5
+  c2:
+    ips: []
+    domains:
+    - c-phone.ru
+    - control-phone-a05a3.firebaseio.com
+    - q95294fs.beget.tech
