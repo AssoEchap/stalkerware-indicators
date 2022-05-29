@@ -43396,6 +43396,51 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "30a3aab7-8e41-4d20-adb4-137407c75274",
+          "object_relation": "domain",
+          "value": "bk128.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5028738f-f3ea-48c5-a53b-7efaa4cc205b",
+          "object_relation": "domain",
+          "value": "sync.bk128.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4538f7d5-7a12-458d-abee-fa3d89e1c3b0",
+          "object_relation": "domain",
+          "value": "alert.bk128.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9117728e-f6f9-4378-8894-feafff270efb",
+          "object_relation": "domain",
+          "value": "asset.bk128.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1d16f2ed-1c7f-4fbd-a2a9-bbc729ae152b",
+          "object_relation": "appid",
+          "value": "com.map.system",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",

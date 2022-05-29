@@ -514,12 +514,6 @@ domain,node4.theonespy.com,TheOneSpy
 domain,node5.theonespy.com,TheOneSpy
 ipv4,85.13.218.229,TheOneSpy
 ipv4,85.13.206.195,TheOneSpy
-domain,sync.bk128.com,TrackMyPhone
-domain,asset.bk128.com,TrackMyPhone
-domain,alert.bk128.com,TrackMyPhone
-domain,bk128.com,TrackMyPhone
-domain,www.mydwnd.com,TrackMyPhone
-domain,mydwnd.com,TrackMyPhone
 domain,api.clevguard.com,ClevGuard
 domain,kidsguard-6c6a9.firebaseio.com,ClevGuard
 domain,clevguard.net,ClevGuard
@@ -543,6 +537,10 @@ domain,www.mydwnd.com,XNSpy
 domain,mydwnd.com,XNSpy
 domain,brilliant-flame-585.firebaseio.com,XNSpy
 domain,true-truck-86810.firebaseio.com,XNSpy
+domain,sync.bk128.com,XNSpy
+domain,asset.bk128.com,XNSpy
+domain,alert.bk128.com,XNSpy
+domain,bk128.com,XNSpy
 domain,dwn.vys.me,MobiStealth
 domain,www.vys.me,MobiStealth
 ipv4,5.79.71.114,MobiStealth
