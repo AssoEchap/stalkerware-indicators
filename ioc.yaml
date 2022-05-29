@@ -2538,6 +2538,9 @@
   - com.uxgbipup.pdtvcgzc
   - com.aixlunro.uqfhkagb
   websites:
+  - techinnovative.net
+  - tifamily.net
+  - backupsoft.eu
   - kidsshield.net
   certificates:
   - 8AE2267AEEA0DBFF7D7CC1C82E54343B1B0CFA22
@@ -2550,6 +2553,8 @@
   c2:
     ips: []
     domains:
+    - apprtc.appspot.com
+    - pc.backupsoft.eu
     - kidsshield.net
 
 - name : NemoSpy
