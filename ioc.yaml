@@ -427,6 +427,7 @@
   - ownspy.com
   - en.ownspy.com
   - webdetetive.com.br
+  - ownspy.es
   c2:
     ips: []
     domains:
@@ -1001,6 +1002,7 @@
   - 35B05ACC96D02849E20D9ED3BA9CEA41C2B83FFA
   websites:
   - servidor.in
+  - meuspy.com
   c2:
     ips: []
     domains:
@@ -2565,3 +2567,23 @@
     domains:
       - nemospy.com
       - setup.nemospy.com
+
+- name : SpyKontrol
+  names: []
+  packages:
+  - com.ajygpxjy.bnthtjou
+  - com.udxlbuno.plwnnhop
+  - com.igyluazm.iytdhsky
+  websites:
+  - www.spykontrol.com
+  - spykontrol.com
+  - androidapk.biz
+  certificates:
+  - FB8F23C57D0AFD255FD255B290B2EF6DBB2EAFD8
+  - A36C70833A8A796F94CCD56B810D2A123F4F0485
+  - EA35FC50B3B0E0A9E5405BAC2D7E58D7F9559FD0
+  c2:
+    ips: []
+    domains:
+    - pc.spykontrol.com
+    - androidapk.biz
