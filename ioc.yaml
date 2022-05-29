@@ -265,6 +265,7 @@
   - MaxxSpy
   - MobiiSpy
   packages:
+  - com.example.hellospy
   - com.topspy.system
   - com.topspy
   - com.hellospy
@@ -2548,3 +2549,19 @@
     ips: []
     domains:
     - kidsshield.net
+
+- name : NemoSpy
+  names:
+  - Spyoo
+  packages: []
+  websites:
+  - nemospy.com
+  - admin.nemospy.com
+  certificates:
+  - E871393054ED858ACB5854C0DB9F674C42160344
+  - C7FBC97C3BD3949A6C19FF332E6CF2F2E5CEE561
+  c2:
+    ips: []
+    domains:
+      - nemospy.com
+      - setup.nemospy.com
