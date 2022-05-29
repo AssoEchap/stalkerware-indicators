@@ -2459,7 +2459,7 @@
   - com.mango.findmyphone3
   websites:
   - find-myphone.com
-  certificates:
+  certificates: []
   c2:
     ips: []
     domains:
