@@ -346,10 +346,12 @@
   websites:
   - reptilicus.net
   - thecybernanny.com
+  - apollospy.com
   c2:
     ips:
     - 176.9.42.16
     domains:
+    - apollospy.com
     - cabinet.ecohouse-eg.com
     - cabinet.gps-monitor.uz
     - cabinet.kfnm.ru
@@ -358,14 +360,18 @@
     - cabinet.vkur1.se
     - data.reptilicus.net
     - e2c64.firebaseio.com
+    - labrador.ua
     - mob.eurotrans.kz
     - phonecontrolapp-e2c64.firebaseio.com
     - proxy.reptilicus.net
     - reptilicus.net
     - rp.apollospy.com
+    - rp.dedrone.com.ua
+    - rp.labrador.ua
+    - rp.liquidblue.com.ua
+    - vkur.se
     - vkur1.se
     - www.reptilicus.net
-
 
 - name: XySpy
   names:
