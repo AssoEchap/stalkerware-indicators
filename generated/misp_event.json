@@ -51850,6 +51850,132 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "510ff429-e886-4da8-8917-85d9f8ebcf9a",
+          "object_relation": "domain",
+          "value": "tispy.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a2882c7d-5845-47bf-a9a8-4e76e5722a41",
+          "object_relation": "domain",
+          "value": "ua.tispy.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4a8f6991-f680-44c6-813c-94f115753950",
+          "object_relation": "domain",
+          "value": "pc.selfspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bf333cb8-6b07-4fea-8ae2-19759674af5b",
+          "object_relation": "domain",
+          "value": "d.tispy.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "942ffc16-75ba-4be2-87b9-142c59c19f41",
+          "object_relation": "certificate",
+          "value": "1A6D10E15280C6A938EED9BEF53A31DA0CEBA45A",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "1951ae6b-cceb-44d4-baf0-347de9744149",
+          "object_relation": "certificate",
+          "value": "272CD0BC357FA03AF87940644CB8FFDECD2FDDC6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "91b3004c-2d50-47ba-9afb-a6bd10c8946a",
+          "object_relation": "certificate",
+          "value": "FD84821C80C1499A2446F6F7E13BF8BDA6A66402",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "41d62979-3767-4f34-9060-0a51663cfb3d",
+          "object_relation": "certificate",
+          "value": "6CA8C06D7DAC5F5685E014AE5C4D2062F77B42D6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "aedfc365-80bf-49e6-9af2-3664229f4318",
+          "object_relation": "appid",
+          "value": "com.bnahrrbc.kwexsnhl",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "d0cbfcfd-972a-4b15-b898-56d3bebc2ec7",
+          "object_relation": "appid",
+          "value": "com.uzoifhzk.qmqnpwaf",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e32b8969-962d-4ffd-a911-c406e06bc40d",
+          "object_relation": "appid",
+          "value": "com.gzomoyig.qwgawtaz",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "565a2729-25c4-4b3b-8056-d2af73686628",
+          "object_relation": "appid",
+          "value": "com.sepfsp.jasend",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "846561c6-6b50-427c-88fa-0f03d8dcd0d6",
+          "object_relation": "appid",
+          "value": "com.selgdg.mardsdaf",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "7277855c-ef6b-497e-85b3-08559e9cd6c5",
+          "object_relation": "appid",
+          "value": "com.selgdg.febgdsra",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
