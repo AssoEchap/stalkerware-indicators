@@ -1006,15 +1006,60 @@
 - name: AppSpy
   names:
   - AppSpy
+  - MobileFindFree
+  - FreeSpy
   packages:
   - com.atracker.app
+  - com.agpstracker.app
+  - com.aphonetracker.app
+  - com.afreesmstracker.app
+  - com.mobilefindfree
   certificates:
+  - 07525D7D2E83CE865F98E1B9C0F6095B1C29D48A
   - 0AD33649F0D0532B5EB0A36A81712962AA79BF54
-  websites: []
+  - 492FF617A79F6C8D80B453815CFE6586E21C5F72
+  - 9E09874197988F20DB51EB6A34BFD908AC42C35B
+  - D98C69B50C1092FE21F7CF748DC8B2F91BE56B64
+  - FB926CF2937331BB8A46E2C5280233C04DA2342E
+  websites:
+  - app.appspy.net
+  - app.appspyfree.com
+  - app.freephonespy.net
+  - app.freephonespy.net 
+  - app.mobilespyfree.net
+  - appspy.net
+  - appspyfree.com
+  - apptracker.net
+  - cellphonespyappon.com
+  - free-spy.com
+  - free.apptracker.net
+  - freemobilespy.net
+  - freephonespy.net
+  - justseries.net
+  - mobilespyfree.net
+  - spyadvice.com
+  - spyren.com
+  - trackerfree.net
+  - www.appspy.net
+  - www.apptracker.net
+  - www.cellphonespyappon.com
+  - www.freemobilespy.net
+  - www.freephonespy.net
+  - www.mobilespyfree.net
+  - www.spyadvice.com
+  - www.spyren.com
+  - www.trackerfree.net
+  - www.xvids.us
+  - xvids.us
   c2:
     ips:
     - 167.114.114.207
-    domains: []
+    domains:
+    - api.free-spy.com
+    - app.appspy.net
+    - appspy-net.firebaseio.com
+    - appspy.net
+    - freemobilespy.net
 
 - name: MobileTrackerFree
   names:
@@ -1092,6 +1137,7 @@
     - emcpanel.com
     - users.easemon.com
     - ikeymonitor.com
+    - ikeymonitor.fr
     - users.awosoft.com
 
 - name: PanSpy
@@ -2020,21 +2066,6 @@
     - mycloud-cs17a.wisemo.com
     - mycloud-cs5a.wisemo.com
     - mycloud-cs9.wisemo.com
-
-- name: MobileFindFree
-  names:
-  - MobileFindFree
-  - FreeSpy
-  packages:
-  - com.mobilefindfree
-  certificates:
-  - 492FF617A79F6C8D80B453815CFE6586E21C5F72
-  websites:
-  - free-spy.com
-  c2:
-    ips: []
-    domains:
-    - api.free-spy.com
 
 - name: Unisafe
   names:
