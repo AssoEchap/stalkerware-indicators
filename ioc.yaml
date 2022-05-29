@@ -1148,6 +1148,7 @@
   names:
   - iKeyMonitor
   packages:
+  - com.android.internet.a20200817
   - com.android.internet.a20210916
   - com.sec.android.internet.im.service.im20190118
   - com.sec.android.internet.im.service.im20190419
@@ -1158,6 +1159,7 @@
   - B8F5FDFAE5920C4CFB6ACE214D39327F299FA76D
   - 9284CB43B87E9F9C77DA509F1672E884BD6CA876
   - 786325AB3E614F868CA2A7F2F0E75EC76A047311
+  - F747F0BBEF33FFEE6AFC4E7CFA03B28215985F24
   websites:
   - easemon.com
   c2:
@@ -1173,6 +1175,7 @@
     - 104.18.55.129
     domains:
     - 83dd4.appspot.com
+    - awsapi.io
     - ikm.awsapi.io
     - emcpanel.com
     - users.easemon.com
