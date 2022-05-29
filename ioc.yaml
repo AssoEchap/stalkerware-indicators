@@ -1467,23 +1467,6 @@
     - node4.theonespy.com
     - node5.theonespy.com
 
-- name: TrackMyPhone
-  names:
-  - TrackMyPhone
-  packages:
-  - com.map.system
-  certificates:
-  - C276C3B087207C9D3CEEDA766C01E0BDEF7EAC71
-  websites: []
-  c2:
-    ips: []
-    domains:
-    - sync.bk128.com
-    - asset.bk128.com
-    - alert.bk128.com
-    - bk128.com
-    - www.mydwnd.com
-    - mydwnd.com
 
 - name: ClevGuard
   names:
@@ -1568,8 +1551,10 @@
   - ZTI
   - SpyXiz4
   - SpyXiz4Me
+  - TrackMyPhone
   packages:
   - com.system.task
+  - com.map.system
   - com.xnspy.dashboard
   certificates:
   - C276C3B087207C9D3CEEDA766C01E0BDEF7EAC71
@@ -1586,6 +1571,10 @@
     - mydwnd.com
     - brilliant-flame-585.firebaseio.com
     - true-truck-86810.firebaseio.com
+    - sync.bk128.com
+    - asset.bk128.com
+    - alert.bk128.com
+    - bk128.com
 
 - name: MobiStealth
   names:
@@ -2543,7 +2532,6 @@
   - backupsoft.eu
   - kidsshield.net
   certificates:
-  - 8AE2267AEEA0DBFF7D7CC1C82E54343B1B0CFA22
   - 95D589A90971992A2038E5961B39C8B6BC77CF19
   - F575CA9980D3075CF728F2081D9EC5F910CC17E8
   - 5EF38D0143F601FD01AA39BFE9079E9927920208
