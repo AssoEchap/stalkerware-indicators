@@ -266,6 +266,7 @@
   - MobiiSpy
   packages:
   - com.example.hellospy
+  - com.android.innovaspy
   - com.topspy.system
   - com.topspy
   - com.hellospy
@@ -279,17 +280,20 @@
   - 1EBFFD9FE9463B2ED24582D2846990A5ABEF79B9
   - 656CD7890ED79CE8570D1B7156C31958D5AC1606
   - 6B660EAAEBA47793B7A1278D714669A6612BCA5B
+  - A40D8FDC7953AD69D970FF00658EB0F58B3A052A
   websites:
   - 1topspy.com
   - hellospy.com
   - maxxspy.com
   - mobiispy.com
+  - innovaspy.com
   c2:
     ips: []
     domains:
     - 1topspy.com
     - flushdata.1topspy.com
     - flushdata.hellospy.com
+    - flushdata.copy9db.com
     - flushdata2.hellospy.com
     - flushdata3.hellospy.com
     - flushdata4.hellospy.com
@@ -911,6 +915,15 @@
   websites:
   - www.mspyonline.com
   - mspyonline.com
+  - mspylite.com
+  - mspy.nl
+  - mspy.co.uk
+  - mspy.net
+  - mspy.in
+  - mspy.it
+  - mspy.jp
+  - mspy.com.br
+  - mliteapp.com
   c2:
     ips: []
     domains:
@@ -921,8 +934,10 @@
     - my.mspyonline.com
     - pipe.thd.cc
     - project-323448153542050953.firebaseio.com
+    - q12z.net
     - repo.mspyonline.com
     - thd.cc
+    - tracking.mliteapp.com
     - www.mspyonline.com
 
 - name: spy2mobile
@@ -1241,6 +1256,7 @@
     domains:
     - spy24.net
     - panel.spy24.net
+    - panel24.org
 
 - name: CatWatchful
   names:
