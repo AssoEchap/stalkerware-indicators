@@ -2457,3 +2457,19 @@
     - prog-money.android-monitor.ru
     - prog-money.com
     - www.android-monitor.ru
+
+- name : FindMyPhone
+  names:
+  - InMobi
+  packages:
+  - com.mango.findmyphone
+  - com.mango.findmyphone2
+  - com.mango.findmyphone3
+  websites:
+  - find-myphone.com
+  certificates:
+  c2:
+    ips: []
+    domains:
+    - find-my-phone-prod.herokuapp.com
+    - findmyphone.mangobird.com
