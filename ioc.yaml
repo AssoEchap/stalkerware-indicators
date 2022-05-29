@@ -2420,20 +2420,40 @@
   - E0FCD3E782FB859F7388E4F44A44A5D694114968
   - EAD44242A3C0A73DEF7976C56AC10A4530E8F67A
   websites:
+  - amon.android-monitor.ru
+  - amon1.android-monitor.ru
   - andmon.name
+  - android-apk.android-monitor.ru
+  - android-monitor1.android-monitor.ru
+  - android-police.android-monitor.ru
   - android-police.ru
+  - anmon.android-monitor.ru
   - anmon.name
   - anmon.ru
   - anmon.su
+  - anmon1.android-monitor.ru
   - droimon20.ru
+  - monitor-android.android-monitor.ru
+  - prog-money.android-monitor.ru
   - prog-money.com
+  - www.android-monitor.ru
   c2:
     ips: []
     domains:
+    - amon.android-monitor.ru
+    - amon1.android-monitor.ru
     - andmon.name
+    - android-apk.android-monitor.ru
+    - android-monitor1.android-monitor.ru
+    - android-police.android-monitor.ru
     - android-police.ru
+    - anmon.android-monitor.ru
     - anmon.name
     - anmon.ru
     - anmon.su
+    - anmon1.android-monitor.ru
     - droimon20.ru
+    - monitor-android.android-monitor.ru
+    - prog-money.android-monitor.ru
     - prog-money.com
+    - www.android-monitor.ru
