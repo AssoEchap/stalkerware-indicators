@@ -2520,3 +2520,31 @@
     - e-spy.org
     - izspy-1313.firebaseio.com
     - www.e-spy.org
+
+- name : KidsShield
+  names:
+  - TiSpy
+  - MonitorMinor
+  - TiFamily
+  packages:
+  - com.bzbqbkya.hgozttiu
+  - com.aixlunro.uqfhkagb
+  - com.zkftwsel.fqnoquuv
+  - com.tbntxear.vfmkjxme
+  - com.ntckdlhc.oifhnjwp
+  - com.uxgbipup.pdtvcgzc
+  - com.aixlunro.uqfhkagb
+  websites:
+  - kidsshield.net
+  certificates:
+  - 8AE2267AEEA0DBFF7D7CC1C82E54343B1B0CFA22
+  - 95D589A90971992A2038E5961B39C8B6BC77CF19
+  - F575CA9980D3075CF728F2081D9EC5F910CC17E8
+  - 5EF38D0143F601FD01AA39BFE9079E9927920208
+  - AA4F85CD7C24116BB51FA733BE59290B7BB8C204
+  - 35D1DB3904A84793394FE5DF7B678E263B1B33A0
+  - 8AE2267AEEA0DBFF7D7CC1C82E54343B1B0CFA22
+  c2:
+    ips: []
+    domains:
+    - kidsshield.net
