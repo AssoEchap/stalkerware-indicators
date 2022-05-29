@@ -202,6 +202,7 @@ ipv4,69.64.91.29,TheTruthSpy
 domain,1topspy.com,HelloSpy
 domain,flushdata.1topspy.com,HelloSpy
 domain,flushdata.hellospy.com,HelloSpy
+domain,flushdata.copy9db.com,HelloSpy
 domain,flushdata2.hellospy.com,HelloSpy
 domain,flushdata3.hellospy.com,HelloSpy
 domain,flushdata4.hellospy.com,HelloSpy
@@ -214,6 +215,7 @@ domain,webservicesdb.mobiispy.com,HelloSpy
 domain,phonetracking-dd226.firebaseio.com,SpyAdvice
 domain,spyadvice.com,SpyAdvice
 domain,download.freespyphone.net,SpyAdvice
+domain,apollospy.com,Reptilicus
 domain,cabinet.ecohouse-eg.com,Reptilicus
 domain,cabinet.gps-monitor.uz,Reptilicus
 domain,cabinet.kfnm.ru,Reptilicus
@@ -222,11 +224,16 @@ domain,cabinet.vkur.se,Reptilicus
 domain,cabinet.vkur1.se,Reptilicus
 domain,data.reptilicus.net,Reptilicus
 domain,e2c64.firebaseio.com,Reptilicus
+domain,labrador.ua,Reptilicus
 domain,mob.eurotrans.kz,Reptilicus
 domain,phonecontrolapp-e2c64.firebaseio.com,Reptilicus
 domain,proxy.reptilicus.net,Reptilicus
 domain,reptilicus.net,Reptilicus
 domain,rp.apollospy.com,Reptilicus
+domain,rp.dedrone.com.ua,Reptilicus
+domain,rp.labrador.ua,Reptilicus
+domain,rp.liquidblue.com.ua,Reptilicus
+domain,vkur.se,Reptilicus
 domain,vkur1.se,Reptilicus
 domain,www.reptilicus.net,Reptilicus
 ipv4,176.9.42.16,Reptilicus
@@ -366,8 +373,10 @@ domain,getmspy.net,mSpy
 domain,my.mspyonline.com,mSpy
 domain,pipe.thd.cc,mSpy
 domain,project-323448153542050953.firebaseio.com,mSpy
+domain,q12z.net,mSpy
 domain,repo.mspyonline.com,mSpy
 domain,thd.cc,mSpy
+domain,tracking.mliteapp.com,mSpy
 domain,www.mspyonline.com,mSpy
 domain,89685.firebaseio.com,spy2mobile
 domain,sap4mobile-89685.firebaseio.com,spy2mobile
@@ -404,6 +413,7 @@ domain,myappmobile-537f7.firebaseio.com,MobileTrackerFree
 domain,olurdaolurdediler.shop,MobileTrackerFree
 ipv4,51.15.183.209,MobileTrackerFree
 domain,83dd4.appspot.com,iKeyMonitor
+domain,awsapi.io,iKeyMonitor
 domain,ikm.awsapi.io,iKeyMonitor
 domain,emcpanel.com,iKeyMonitor
 domain,users.easemon.com,iKeyMonitor
@@ -437,6 +447,7 @@ domain,foreverspy.com,Metasploit
 domain,app.foreverspy.com,Metasploit
 domain,spy24.net,Spy24
 domain,panel.spy24.net,Spy24
+domain,panel24.org,Spy24
 domain,catwatchful.com,CatWatchful
 domain,catwatchful-e03b8.firebaseio.com,CatWatchful
 domain,catwatchful-e03b8-2.firebaseio.com,CatWatchful
@@ -731,6 +742,8 @@ domain,tispy.net,KidsShield
 domain,ua.tispy.net,KidsShield
 domain,pc.selfspy.com,KidsShield
 domain,d.tispy.net,KidsShield
+domain,pc.freespyapp.com,KidsShield
+domain,freespyapp.com,KidsShield
 domain,nemospy.com,NemoSpy
 domain,setup.nemospy.com,NemoSpy
 domain,pc.spykontrol.com,SpyKontrol

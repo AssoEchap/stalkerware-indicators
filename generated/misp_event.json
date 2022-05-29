@@ -33262,6 +33262,60 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "6a536161-6a88-4b73-a248-c15c016eda84",
+          "object_relation": "domain",
+          "value": "labrador.ua",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4e23a561-2898-421a-96a9-59cf623174b9",
+          "object_relation": "domain",
+          "value": "vkur.se",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "30b3eddc-ec0a-4f00-a01b-8897d83a9df6",
+          "object_relation": "domain",
+          "value": "rp.labrador.ua",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "07569cfe-63dc-45d3-bda4-74b1a5001168",
+          "object_relation": "domain",
+          "value": "rp.liquidblue.com.ua",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8461747f-ef9d-481c-83bd-1699757a3f9a",
+          "object_relation": "domain",
+          "value": "apollospy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c008c561-840b-4012-8333-bd4ea82e8d7b",
+          "object_relation": "domain",
+          "value": "rp.dedrone.com.ua",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -35511,6 +35565,33 @@
           "uuid": "06be0160-fa49-495c-aba7-45892a974a57",
           "object_relation": "appid",
           "value": "com.example.hellospy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3a6c6ec1-8039-44a7-8eb8-0cf6e0bef2a4",
+          "object_relation": "domain",
+          "value": "flushdata.copy9db.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1dd80d83-01b1-4e61-b281-23740ff213b3",
+          "object_relation": "certificate",
+          "value": "A40D8FDC7953AD69D970FF00658EB0F58B3A052A",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "af2cf807-a542-4ac9-80ba-a7b5e3fce8d8",
+          "object_relation": "appid",
+          "value": "com.android.innovaspy",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
@@ -38671,6 +38752,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "43eeed12-bea5-45ca-9577-550e8c62c147",
+          "object_relation": "domain",
+          "value": "tracking.mliteapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "93285e42-5f6d-4f70-9194-4df2421cd1d6",
+          "object_relation": "domain",
+          "value": "q12z.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -40066,6 +40165,33 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "da663667-3c06-4c50-97d6-22e3403e9000",
+          "object_relation": "domain",
+          "value": "awsapi.io",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4154976c-16b6-4d44-b557-4b02fc3c9c8a",
+          "object_relation": "certificate",
+          "value": "F747F0BBEF33FFEE6AFC4E7CFA03B28215985F24",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "405463d0-10e2-4af7-832d-65ba1a032d32",
+          "object_relation": "appid",
+          "value": "com.android.internet.a20200817",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -40447,6 +40573,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "344f476e-dcb1-4830-95f8-7f4e8147edee",
+          "object_relation": "domain",
+          "value": "panel24.org",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -51972,6 +52107,42 @@
           "uuid": "7277855c-ef6b-497e-85b3-08559e9cd6c5",
           "object_relation": "appid",
           "value": "com.selgdg.febgdsra",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "743c2827-92a3-45da-9a64-46ef8412f5ff",
+          "object_relation": "domain",
+          "value": "pc.freespyapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "69816667-6f54-4ae1-835f-deb603e3843e",
+          "object_relation": "domain",
+          "value": "freespyapp.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cc634151-6f3d-41ad-b7f3-95c80e6994c0",
+          "object_relation": "certificate",
+          "value": "3397c095ead93b13cc5b9979d1f3b4faef1d194c",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "ae098082-374d-4305-91f6-274bbc42257e",
+          "object_relation": "appid",
+          "value": "com.fbhpdsej.gnuebduy",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
