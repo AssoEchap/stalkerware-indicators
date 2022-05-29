@@ -692,29 +692,40 @@
 - name: LetMeSpy
   names:
   - LetMeSpy
+  - RemoteCommand
+  - RemCmd
   packages:
   - pl.lidwin.letmespy
   - pl.lidwin.letmespy2
   - pl.lidwin.letmespy3
   - pl.lidwin.letmespy4
+  - pl.lidwin.letmespy5
   - pl.lidwin.lms
+  - pl.lidwin.remote
   - pl.lidwin.remote1
   - pl.lidwin.remote2
   - pl.radeal.lms4
   certificates:
-  - 8F0EAD4F1DA5DAAF8C0F7A51096CECEEF81D0C76
   - 340E571CB1A64E6EE384D3F8A544681459CF3F5F
   - 69EE83CB3E0968B49E33849D40F7D91B0592C7DB
+  - 8F0EAD4F1DA5DAAF8C0F7A51096CECEEF81D0C76
+  - EF6BC4C13FE455CD98192E56D96317069BDF7658
   websites:
   - letmespy.com
   - remotecommands.com
   - www.letmespy.com
+  - www.teleszpieg.pl
+  - teleszpieg.pl
+  - bbiindia.com
+  - www.bbiindia.com
   c2:
     ips:
     - 91.196.212.202
+    - 91.196.212.201
     domains:
     - letmespy.com
     - remotecommands.com
+    - zdalnakontrola.pl
 
 - name: Snoopza
   names:
