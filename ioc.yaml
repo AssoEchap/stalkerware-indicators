@@ -1512,16 +1512,27 @@
 - name: XNSpy
   names:
   - XNSpy
+  - ZTI
+  - SpyXiz4
+  - SpyXiz4Me
   packages:
+  - com.system.task
   - com.xnspy.dashboard
-  certificates: []
+  certificates:
+  - C276C3B087207C9D3CEEDA766C01E0BDEF7EAC71
   websites:
   - xnspy.com
+  - cp.xnspy.com
   c2:
     ips: []
     domains:
     - xnspy.com
     - sync.xiz4me.com
+    - alert.xiz4me.com
+    - www.mydwnd.com
+    - mydwnd.com
+    - brilliant-flame-585.firebaseio.com
+    - true-truck-86810.firebaseio.com
 
 - name: MobiStealth
   names:
