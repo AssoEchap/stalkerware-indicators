@@ -2131,19 +2131,27 @@
 
 - name: TrackingSmartphone
   names:
-  - TrackingSmartphone
+  - XZBO
+  - TrackSmart
+  - TrackingSmart
   packages:
   - com.tracking_smartphone
+  - com.app.remote_control
   - com.ts_settings
   certificates:
   - 1DB0D66C1D21DD4B185D03B13D6CF620E4FACBAA
+  - 603881E46350999FF7A5CBD68FE6A5897C50CEDE
   - 665D624FD53E4D538DFE9F7A87087C513CB40506
+  - 86D94A8CE736F82D834FA588F34106AE7B69D325
   websites:
   - trackingsmartphone.com
+  - www.trackingsmartphone.com
+  - onlinefundb.com
   c2:
     ips: []
     domains:
     - trackingsmartphone.com
+    - onlinefundb.com
     - tracking-smartphone.firebaseio.com
 
 - name: SpyphoneMobileTracker
