@@ -52147,6 +52147,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "68268abb-60ef-46d5-9296-53255d2a6cb7",
+          "object_relation": "certificate",
+          "value": "3397C095EAD93B13CC5B9979D1F3B4FAEF1D194C",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
