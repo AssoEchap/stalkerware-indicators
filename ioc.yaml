@@ -2054,11 +2054,17 @@
   - com.gcm_call_sms_tracker.updated
   certificates:
   - 0C01AEB7346C700D02613EBA513BD40E87A182F8
+  - 8F576BEEB71EA74E5F27764917BFF5B508017B68
   websites:
+  - www.smstrackerweb.com
+  - smstrackerweb.com
+  - registrations.smstracker.com
   - callsmstracker.com
+  - hiddensmstracker.com
   c2:
     ips: []
-    domains: []
+    domains:
+    - messages02.smstracker.com
 
 - name: AiSpyer
   names:
