@@ -42430,6 +42430,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "064b1489-854e-4529-95fa-c5e79a415a83",
+          "object_relation": "domain",
+          "value": "my.mtoolapp.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
