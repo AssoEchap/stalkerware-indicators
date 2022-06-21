@@ -50671,6 +50671,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "25974c36-97ec-421d-b4ed-5fe27e75960c",
+          "object_relation": "domain",
+          "value": "messages02.smstracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5bfb2000-8aa8-448c-b2af-85aaf06d27c4",
+          "object_relation": "certificate",
+          "value": "8F576BEEB71EA74E5F27764917BFF5B508017B68",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
