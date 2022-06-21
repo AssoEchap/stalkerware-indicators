@@ -1092,28 +1092,87 @@
 - name: MobileTrackerFree
   names:
   - MobileTrackerFree
+  - MonitorLoverman
+  - MTrack
+  - CellTracker
+  - TrackMobil
   packages:
+  - a.tck.lvmchi
+  - com.androdid.inteernet.aa21111227
+  - com.jyotin.ct
+  - com.lrvciyti.unrxnfig
+  - com.m.service.control
+  - com.mob.service.control
+  - com.mobile.gps
+  - com.mobile.loc
+  - com.mobiletracker
+  - com.mobiletrackerfree.secondapp
+  - com.mobiletrackerfree.www
+  - com.mtf.d
+  - com.netowrk.service
   - com.services.phone
-  - service.download.app
+  - g.google.llc
+  - m.mob.control
+  - m.mob.service2020
+  - m.phone.control2020
+  - m.protect.children
+  - m.protect.parental
+  - m.secu.children
+  - mob.protect.children
+  - mob.service.parental2020
+  - mobile.controlparental2020
   - mobile.monitor.child2021
   - mobile.monitor.child2022
-  - m.protect.parental
-  - mob.service.parental2020
-  - com.mobile.gps
-  - com.mtf.d
-  - com.mobiletrackerfree.secondapp
+  - mobile.parental2021
   - security.mobile.parental
-  - com.lrvciyti.unrxnfig
+  - service.download.app
+  - tracker.mob.gps
   certificates:
+  - 021A3F097EDA780798DF5ECB16EF338C08236847
+  - 0568E0400308CBFC58E11A324EA233F5B2E923BF
+  - 09DCBFDB7C7262F143089C5493435AB07564FD67
+  - 0FB6108D34289681BA0181ED9A4350514EB07665
+  - 1128939E0D8B8BAEAB14C41AEBFAA100C319AD8F
+  - 16254E7CBDFEC82B6CCE599DFCE6A6E84CF25504
+  - 29FFFE437675D2B55512953759C40776E547592D
+  - 2F033070A8CD93CEAC60F9E203BA33C9A9A3D226
   - 35CD797D1736484786152A231920575FABC5C12A
-  - 8CED75E875A2F11B3327A73A6DBD0B25E26533F2
+  - 377223C40330F7925BB238E3A2AC6E1BE1A05749
+  - 3935E474CD6EDACB19F24192809B337D376656F6
+  - 457D2470CA3E635178D224C14C0D743B7C7F9F80
+  - 57178BA7BE0677C3143C24362FD35A9CF0E311A8
+  - 575A730BC2411897A318DEB23B3C3CC4F63422F5
+  - 5F43A60BFC663FB37F419A40015495431649310B
+  - 6000C3F6A35C81C0AE6ACA73DBF7B7D19DCDB7BC
+  - 61ED377E85D386A8DFEE6B864BD85B0BFAA5AF81
+  - 6F1CE95315749AC6F377B310C0B831CF05B04C68
+  - 845705FB0FE177970768CE3F5241AEBD99F3BEEE
+  - 85F12B25CEB58B8376F83209D8D128841132DC51
+  - 8A718113C6EDE9473FE4BF1F29E2E807B7EB7B56
+  - 8A92A4F6F9FC52BC8788F17704944614C744716C
   - 8B9540311C46184984B48BF9CB51F1742A8AFB42
-  - CB6E6DEB296275EDF70DC71A62A75AB7B9C8DB89
-  - 9442F1D40FBAAD7053D130986C4487D0BA5C079F
+  - 8CED75E875A2F11B3327A73A6DBD0B25E26533F2
   - 9225C8FD380154467908AE344FBE75CE7EF996B8
+  - 927CA44949D7788AA86F9D7F04D7FDACECD1DFB9
+  - 9442F1D40FBAAD7053D130986C4487D0BA5C079F
+  - A75B340A58545B28B7E837582259C1CC2CE21512
+  - B0B09157DC34E3D20DF6A92EBA0014D36A27C451
+  - B7322B2126B2C4F4DED940D719FE1E63FD233D35
+  - B8D8C25B1CFE2829D397C8FB166895A6791A43D5
+  - C656605BDB536B842319AC008FBB249D8B0A7422
+  - CB6E6DEB296275EDF70DC71A62A75AB7B9C8DB89
   - CD5724426B602C1CD0BF3BD65EF75B9021C0EC3A
+  - CE3BB9701274C15D26A92C1D7D34110961EB73F1
+  - D244AA1DD3D4296CE875EDA2E1B0332459F7DACE
+  - D943998AEC15B3D70DA3BF00FF7BF580A41F6E4B
+  - DDCF7F1032E7D9DA4E3D245A5145363F69F9C393
+  - E8395BE2A32B62C1BA21E37663E3BF1583E00FAA
+  - FB2EEA183C183B486B3001EC5FC4E8C906593356
   websites:
   - br.mobile-tracker-free.com
+  - br.loverman.net
+  - celltracker.io
+  - loverman.net
   - mobile-tracker-family.com
   - mobile-tracker-free.be
   - mobile-tracker-free.biz
@@ -1132,17 +1191,25 @@
   - mobile-tracker-free.net
   - mobile-tracker-free.org
   - support.mobile-tracker-free.com
+  - support.loverman.net
   c2:
     ips:
     - 51.15.183.209
     domains:
+    - api1.easydoc.info
+    - api3.easydoc.info
     - apk.mtf.re
-    - mtf.re
-    - d.d-app-apk.com
+    - celltrackernew.firebaseio.com
     - d-app-apk.com
+    - d.d-app-apk.com
+    - easydoc.info
+    - loverman.net
     - mobile-tracker-data.com
+    - mtf.re
     - myappmobile-537f7.firebaseio.com
+    - n6sm2m.celltracker.io
     - olurdaolurdediler.shop
+    - sapient-flight-837.firebaseio.com
 
 - name: iKeyMonitor
   names:
@@ -2346,21 +2413,6 @@
     - r.findmychilds.org
     - wss.findmychilds.org
     - where-is-my-children.firebaseio.com
-
-- name : CellTracker
-  names: []
-  packages:
-  - com.jyotin.ct
-  websites:
-  - celltracker.io
-  certificates:
-  - 5F43A60BFC663FB37F419A40015495431649310B
-  c2:
-    ips: []
-    domains:
-    - api3.easydoc.info
-    - api1.easydoc.info
-    - easydoc.info
 
 - name : jjspy
   names:
