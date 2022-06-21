@@ -1420,6 +1420,7 @@
 - name: MobileTool
   names:
   - MobileTool
+  - MobTool
   packages:
   - org.poleward.burghs.hydrotherapy.homonymously
   - org.urates.amirates.suffocate.chiliast
@@ -1429,6 +1430,8 @@
   - 7F11358AC560C5E90B735A21B907F1C8143353DF
   websites:
   - mobiletool.ru
+  - mtoolapp.net
+  - www.mtoolapp.net
   c2:
     ips: []
     domains:
@@ -1444,13 +1447,14 @@
     - mrswd.wo87sf.com
     - mtoolapp.net
     - my.mobiletool.ru
+    - my.mtoolapp.net
     - mzpgfh.uhabq9.com
     - noujx.s9gxw8.com
     - s9gxw8.com
     - ug1c5v.birxpk.com
     - wethnc067.xyz
-    - xmyevq.birxpk.com
     - www.mtoolapp.net
+    - xmyevq.birxpk.com
 
 - name: ShadowSpy
   names:
