@@ -39982,6 +39982,537 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "ecc376be-e845-4e3d-85fb-58bdcef656d2",
+          "object_relation": "domain",
+          "value": "easydoc.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f247979c-292d-43c9-b04e-1704db6cbc94",
+          "object_relation": "domain",
+          "value": "celltrackernew.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c185627a-e316-4d4d-98d2-19469d32ab70",
+          "object_relation": "domain",
+          "value": "loverman.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2470af93-0c7b-4586-a993-9071a316b038",
+          "object_relation": "domain",
+          "value": "n6sm2m.celltracker.io",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8bba0de0-cef9-434f-a447-3621cdfbbc0b",
+          "object_relation": "domain",
+          "value": "api1.easydoc.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "557cbf1f-8c01-4d47-a990-49c25e5f08b4",
+          "object_relation": "domain",
+          "value": "sapient-flight-837.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "61f95711-5a22-4eee-82a5-a42a4ac3b20c",
+          "object_relation": "domain",
+          "value": "api3.easydoc.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ebcbb1f3-502d-416e-8384-4f909d227d86",
+          "object_relation": "certificate",
+          "value": "021A3F097EDA780798DF5ECB16EF338C08236847",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "8cdc46b4-d1d3-4eb8-bbdd-a8a9aceaa5a9",
+          "object_relation": "certificate",
+          "value": "B0B09157DC34E3D20DF6A92EBA0014D36A27C451",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "baf76238-65cb-42f8-a9a7-0c159bc16e0a",
+          "object_relation": "certificate",
+          "value": "57178BA7BE0677C3143C24362FD35A9CF0E311A8",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "fd514987-5aa4-4b90-9cf6-bfbedd14a3cd",
+          "object_relation": "certificate",
+          "value": "3935E474CD6EDACB19F24192809B337D376656F6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "2b392d13-385a-4945-aac6-dc93ba3f2c83",
+          "object_relation": "certificate",
+          "value": "C656605BDB536B842319AC008FBB249D8B0A7422",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "b5492ecf-57ed-4d13-af45-2317258b8ad8",
+          "object_relation": "certificate",
+          "value": "5F43A60BFC663FB37F419A40015495431649310B",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "a8347d86-1c8d-419c-b120-9d36ca28b79a",
+          "object_relation": "certificate",
+          "value": "16254E7CBDFEC82B6CCE599DFCE6A6E84CF25504",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "26b39f21-71c2-46be-bd79-7c6b5b21d556",
+          "object_relation": "certificate",
+          "value": "D244AA1DD3D4296CE875EDA2E1B0332459F7DACE",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "61b31cde-0565-46e2-a031-885fc0fbe942",
+          "object_relation": "certificate",
+          "value": "A75B340A58545B28B7E837582259C1CC2CE21512",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "2b870b83-598b-4497-98f6-f55101c4cf43",
+          "object_relation": "certificate",
+          "value": "B8D8C25B1CFE2829D397C8FB166895A6791A43D5",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "f55efe15-2dbf-4841-b19e-ae365b831845",
+          "object_relation": "certificate",
+          "value": "575A730BC2411897A318DEB23B3C3CC4F63422F5",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "8984c48a-4e85-4d3d-96a9-82a76945c549",
+          "object_relation": "certificate",
+          "value": "8A92A4F6F9FC52BC8788F17704944614C744716C",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "83323b55-9d06-4d5f-8a4e-1f78af698d9b",
+          "object_relation": "certificate",
+          "value": "CE3BB9701274C15D26A92C1D7D34110961EB73F1",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "435fe349-72d2-40cc-9ab8-cf953fff5ba9",
+          "object_relation": "certificate",
+          "value": "FB2EEA183C183B486B3001EC5FC4E8C906593356",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "f294bbb5-a010-46dc-b48d-1809c0e890a9",
+          "object_relation": "certificate",
+          "value": "D943998AEC15B3D70DA3BF00FF7BF580A41F6E4B",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "9545ffd1-43b0-4707-8aa6-c549ad193eb1",
+          "object_relation": "certificate",
+          "value": "6F1CE95315749AC6F377B310C0B831CF05B04C68",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "748ab036-36b1-4753-a9fd-fe7a85e8f774",
+          "object_relation": "certificate",
+          "value": "29FFFE437675D2B55512953759C40776E547592D",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "cf7bc633-2c78-4b67-8ddb-5f31c796d912",
+          "object_relation": "certificate",
+          "value": "E8395BE2A32B62C1BA21E37663E3BF1583E00FAA",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "155460d2-1917-441e-bc3f-ffa48af49986",
+          "object_relation": "certificate",
+          "value": "8A718113C6EDE9473FE4BF1F29E2E807B7EB7B56",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "97fde9e0-f870-44db-bc12-4224a0b458be",
+          "object_relation": "certificate",
+          "value": "B7322B2126B2C4F4DED940D719FE1E63FD233D35",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "77f3d20a-fae3-471e-ac6c-cefdff60cf66",
+          "object_relation": "certificate",
+          "value": "85F12B25CEB58B8376F83209D8D128841132DC51",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "88f691cb-d3d9-4343-8dca-300302b8ec0b",
+          "object_relation": "certificate",
+          "value": "DDCF7F1032E7D9DA4E3D245A5145363F69F9C393",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "c01b5f95-3212-41b4-a97e-c4239a9ae034",
+          "object_relation": "certificate",
+          "value": "845705FB0FE177970768CE3F5241AEBD99F3BEEE",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "398c73f8-4107-47cd-adb3-223d3e66367a",
+          "object_relation": "certificate",
+          "value": "61ED377E85D386A8DFEE6B864BD85B0BFAA5AF81",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "cb515ff6-fa70-4c66-b797-73ca07909ade",
+          "object_relation": "certificate",
+          "value": "1128939E0D8B8BAEAB14C41AEBFAA100C319AD8F",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "03f2958c-8699-488c-a36c-c7d0617f3a6a",
+          "object_relation": "certificate",
+          "value": "457D2470CA3E635178D224C14C0D743B7C7F9F80",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0d8b79be-c46b-4682-977c-00214a1f0f7e",
+          "object_relation": "certificate",
+          "value": "0FB6108D34289681BA0181ED9A4350514EB07665",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "048d00a7-78fb-40af-ba80-2e5a88e59261",
+          "object_relation": "certificate",
+          "value": "927CA44949D7788AA86F9D7F04D7FDACECD1DFB9",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "4ebe1e0c-9835-4074-adfa-ba2405ae91e1",
+          "object_relation": "certificate",
+          "value": "377223C40330F7925BB238E3A2AC6E1BE1A05749",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "eade8021-814f-4596-b62e-5a3c18a98324",
+          "object_relation": "certificate",
+          "value": "2F033070A8CD93CEAC60F9E203BA33C9A9A3D226",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "c9c41fd9-eb01-4e24-9d6d-9d0b026cf3ae",
+          "object_relation": "certificate",
+          "value": "6000C3F6A35C81C0AE6ACA73DBF7B7D19DCDB7BC",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "ac3aca76-3483-404b-8856-41c6e65e10fc",
+          "object_relation": "certificate",
+          "value": "09DCBFDB7C7262F143089C5493435AB07564FD67",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0dfccfd6-056f-4170-871d-43486bd3c2ea",
+          "object_relation": "certificate",
+          "value": "0568E0400308CBFC58E11A324EA233F5B2E923BF",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0ef37ae3-3cba-4821-886d-2c622b862060",
+          "object_relation": "appid",
+          "value": "com.mobiletracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2e64023a-b858-4420-b741-68d91f0f05f1",
+          "object_relation": "appid",
+          "value": "m.protect.children",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "5f4ab7ee-7a78-4bed-8f2e-7f8dc27a6d95",
+          "object_relation": "appid",
+          "value": "tracker.mob.gps",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "ae3a2f5b-dd0f-4b7b-8c2c-4b3773eeb309",
+          "object_relation": "appid",
+          "value": "com.m.service.control",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "01f0ca53-02fd-4a4d-b0c4-908f436a2a01",
+          "object_relation": "appid",
+          "value": "mobile.parental2021",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "16d9efa4-832e-4ca5-adf6-83116c264754",
+          "object_relation": "appid",
+          "value": "m.mob.service2020",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "7909e681-377e-4c9c-bcef-d120f763904c",
+          "object_relation": "appid",
+          "value": "m.phone.control2020",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c3f8bf0f-4e4d-47ff-9176-f15463fa4ef2",
+          "object_relation": "appid",
+          "value": "m.mob.control",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a29a4dd7-b58e-4dce-afe8-e2cbcb520ed2",
+          "object_relation": "appid",
+          "value": "g.google.llc",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8c397ccb-bc11-454e-82c1-9edf7e3a1f2c",
+          "object_relation": "appid",
+          "value": "mob.protect.children",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "0f856aa4-066e-4441-90d4-d8ad2a29a113",
+          "object_relation": "appid",
+          "value": "com.netowrk.service",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2bdd497f-a9a9-47fb-8d8e-a9d213c2fc51",
+          "object_relation": "appid",
+          "value": "com.jyotin.ct",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "da216f6e-c58b-4d77-82bf-c203bf833822",
+          "object_relation": "appid",
+          "value": "mobile.controlparental2020",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e9c4457c-fb05-4783-b0f1-fe13aae6a207",
+          "object_relation": "appid",
+          "value": "com.mobiletrackerfree.www",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "59182b26-e2ad-463a-acc5-1ff6bdd682da",
+          "object_relation": "appid",
+          "value": "com.mobile.loc",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2fa8bc10-f20b-4173-9cc7-5d707079d797",
+          "object_relation": "appid",
+          "value": "m.secu.children",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "71320d6b-3c3f-4554-a543-04b9920276c8",
+          "object_relation": "appid",
+          "value": "a.tck.lvmchi",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "21767dc2-cacf-4801-a6c5-c9c50e27fed6",
+          "object_relation": "appid",
+          "value": "com.mob.service.control",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "cdb2f770-639f-4cdd-b7b9-185a6ff25b20",
+          "object_relation": "appid",
+          "value": "com.androdid.inteernet.aa21111227",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -40711,6 +41242,33 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "0b1a3d3a-b432-479f-99ff-0826f1c6b27b",
+          "object_relation": "certificate",
+          "value": "9FE876AF76CDCB685102A38528A3A732B0872DC6",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "5b833fee-ec1d-4df7-b941-c3a600b508f8",
+          "object_relation": "certificate",
+          "value": "93135ABA6FF4B6CFE9B06153B9BDF769AEBC1D87",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "6324cc89-31e5-4555-976d-efc9a9267054",
+          "object_relation": "appid",
+          "value": "wosc.cwf2",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
