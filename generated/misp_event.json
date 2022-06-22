@@ -50689,6 +50689,42 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "6e243c82-56bc-4d91-b23f-aa08605eb487",
+          "object_relation": "domain",
+          "value": "staging.smstracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "118c7b92-4360-47c0-be88-1807984c68a6",
+          "object_relation": "domain",
+          "value": "beta.smstracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "619331db-ed57-4708-b310-4cd0a7af8670",
+          "object_relation": "domain",
+          "value": "messages01.smstracker.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "81b950ab-98a0-4d9b-a70e-43090489f3ed",
+          "object_relation": "appid",
+          "value": "com.gizmoquip.smstracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",

@@ -604,7 +604,11 @@ domain,celular007.s3.amazonaws.com,EspiaoAndroid
 domain,pctattletalev2.s3.amazonaws.com,pcTattletale
 domain,send.onespy.com,OneMonitar
 domain,app.antifurtodroid.com,AntiFurtoDroid
+domain,beta.smstracker.com,CallSMSTracker
+domain,messages01.smstracker.com,CallSMSTracker
 domain,messages02.smstracker.com,CallSMSTracker
+domain,staging.smstracker.com,CallSMSTracker
+ipv4,45.40.135.228,CallSMSTracker
 domain,ioi.life,AiSpyer
 domain,api.corn-cob.com,AiSpyer
 domain,corn-cob.com,AiSpyer
