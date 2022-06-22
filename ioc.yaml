@@ -2050,21 +2050,33 @@
 - name: CallSMSTracker
   names:
   - CallSMSTracker
+  - Quizmo
+  - Multiverze
+  - HiddenSMSTracker
   packages:
   - com.gcm_call_sms_tracker.updated
+  - com.gizmoquip.smstracker
   certificates:
   - 0C01AEB7346C700D02613EBA513BD40E87A182F8
   - 8F576BEEB71EA74E5F27764917BFF5B508017B68
   websites:
-  - www.smstrackerweb.com
-  - smstrackerweb.com
-  - registrations.smstracker.com
   - callsmstracker.com
   - hiddensmstracker.com
+  - hiddensystemhealth.com
+  - registrations.smstracker.com
+  - smstracker.com
+  - smstrackerweb.com
+  - www.hiddensmstracker.com
+  - www.hiddensystemhealth.com
+  - www.smstrackerweb.com
   c2:
-    ips: []
+    ips:
+    - 45.40.135.228
     domains:
+    - beta.smstracker.com
+    - messages01.smstracker.com
     - messages02.smstracker.com
+    - staging.smstracker.com
 
 - name: AiSpyer
   names:
