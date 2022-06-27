@@ -2703,27 +2703,46 @@
   - sap4mobile
   - spy2mobile
   packages:
+  - com.callhist.calltr
+  - com.catrsy.jaluc
+  - com.cellph.montrb
   - com.dbzbpr.skt
   - com.elpatr.woac
+  - com.ernell.thht
+  - com.gh.ob
   - com.greatdata
+  - com.kidsmobmon
+  - com.mobitra.todv
+  - com.mobphn.monit
+  - com.mobtr.danbel
+  - com.mophtr.td
   - com.phone.tracker.smsb
+  - com.phtranlo.tifach
   - com.rephko.stha
   - com.s2m
   - com.s2m.seas
   - com.sap4mobile
   - com.smart
   - com.smartback
+  - com.smstra.xanris
   - com.spy2mobile
   - com.spy2mobile.light
+  - com.stmrsa.htxt
   - com.tccplos.spth
+  - com.tevi.walpi
+  - com.tracker.sms.mobile
+  - com.trackzone.kids
+  - com.trandmon.tool
   - com.trphwhat.prob
   - com.viewcalls.rem
   - com.viewsms.remb
+  - com.whtrack.monit
   websites:
   - account.spytomobile.com
   - forum.spytomobile.com
   - spy2mobile.com
   - spytomobile.com
+  - trackerplus.ru
   - www.spy2mobile.com
   - www.spytomobile.com
   certificates:
@@ -2735,10 +2754,14 @@
   - 20948233C3EF1662E79850AE0AB959C4760114C2
   - 26DDA9B261169FB0A63A6CEA5B682B7A190328B6
   - 26FC20C25AF99E4B6C16ABAD8E8D76AFA55973BB
+  - 271CA9A77AF56B94F942EDA8F517E4B0FD44206C
   - 2919FF38F04D757BA6FE344F1729275739F43E89
   - 2B02F9708FAD9017D9F709AB2C5C8B5BD0D29394
   - 39DDEFD8261C1946E4F3160F6A9E200F59F06C11
+  - 3A041A8B1CF12E01AD4AA14779C1FCCA0701FE5C
+  - 3E4E5813CA5B9D9BB50B70FAD3C201FAA54B4FD5
   - 4569A62308FA134A33A5DDCC065D6FDAE5653435
+  - 4579E9E02465DAC399B7A47682813F5104E5D914
   - 54E4D1ACDA9E3071D27AA7B6470E23F75BF1380B
   - 5C9031E2340478521630198F3F90E5C8D38D3B64
   - 76A90B5E41FA2AFE14478CDA24A0CA6B4F7FC5F3
@@ -2747,6 +2770,7 @@
   - 8C76B4444DAE08ECF578AF51D295836F0D9BADC6
   - 8D7FEC36654F6B35FA89E079685D637CCEE27755
   - 9329632A70D41158EBAB6EED27B12D8CB0D47579
+  - 98140CAE57F4D4CA53EF81F6521E7A0FD601F6E9
   - 986E5892EFB97E807772698BAC701F49CE9CAEA8
   - 98E76043B54DD7CB76E0E6E384A83646F1865BAE
   - A2CD01EE20E3C25575D2D9B9645A52A1FA8C36C6
@@ -2754,8 +2778,10 @@
   - ADF393A6628366341BA488B85A5AE738793BFD17
   - B8C908630D7D1ED52FA4E5AEC2A2BDA0414F8B3F
   - BB59FC701EAC40C51C9274EA6A8EE623F5002802
+  - BC682A41C2AA1EFFFD65CE42BBE3FA967A561EEC
   - CA6F27DDCBE5D7929C82F42F63FF24703A352756
   - E401C172FE10C4893A13B38B1FABAA43473E2900
+  - EF8006163D09D176083936CFB068BB07A8918118
   - F5EAEFDECAD39B93134E859BEDC7D3ED42FBE2B3
   - FD4C2144DF6E431378A46EAEACC696AF94DE9D56
   c2:
@@ -2766,10 +2792,13 @@
     - 12d60.appspot.com
     - 12d60.firebaseio.com
     - 13-5.org
+    - 13-5.ru
     - 89685.firebaseio.com
+    - account.trackerplus.ru
     - and.info-taxi.info
     - best-spy-apps.com
     - edlnc255s2q.s3.amazonaws.com  # edlnc255s2q.s3.amazonaws.com/databackup.apk
+    - ftp.info-taxi.info
     - info-taxi.info
     - kokum.ru
     - pi.info-taxi.info
