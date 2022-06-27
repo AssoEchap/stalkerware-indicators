@@ -53542,6 +53542,258 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "8f286e3c-6d29-49a1-8deb-791f65c36b45",
+          "object_relation": "domain",
+          "value": "ftp.info-taxi.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9a788e53-2861-482c-bd8d-ec11710ae8a3",
+          "object_relation": "domain",
+          "value": "13-5.ru",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d8201906-4c98-40aa-98e4-c5e76bf359ad",
+          "object_relation": "domain",
+          "value": "account.trackerplus.ru",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0d478a64-a002-4465-807b-6882dbfafc0b",
+          "object_relation": "certificate",
+          "value": "EF8006163D09D176083936CFB068BB07A8918118",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "c385b190-9348-45ab-9c00-ebc3484ff0c4",
+          "object_relation": "certificate",
+          "value": "3A041A8B1CF12E01AD4AA14779C1FCCA0701FE5C",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "18ecc88e-5d28-44fd-8fc5-94525628cabb",
+          "object_relation": "certificate",
+          "value": "4579E9E02465DAC399B7A47682813F5104E5D914",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d0188eb3-5643-4f22-b243-36b907cf08a0",
+          "object_relation": "certificate",
+          "value": "271CA9A77AF56B94F942EDA8F517E4B0FD44206C",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "3ef1ca60-dccb-4e28-ba52-2ea55f2b9ded",
+          "object_relation": "certificate",
+          "value": "3E4E5813CA5B9D9BB50B70FAD3C201FAA54B4FD5",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "b5dc058a-0bb4-49de-a06e-600b157ca799",
+          "object_relation": "certificate",
+          "value": "BC682A41C2AA1EFFFD65CE42BBE3FA967A561EEC",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "ab778c3d-ece8-4671-81b3-1c9fa3a38474",
+          "object_relation": "certificate",
+          "value": "98140CAE57F4D4CA53EF81F6521E7A0FD601F6E9",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "24e2aaf6-c2f3-4cce-b516-50ae3d115f4c",
+          "object_relation": "appid",
+          "value": "com.tevi.walpi",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e668a6cf-5942-4892-b549-bfa6f64b47fe",
+          "object_relation": "appid",
+          "value": "com.gh.ob",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "0b2422c5-c9f0-44be-9bde-a8df07d2d5c9",
+          "object_relation": "appid",
+          "value": "com.tracker.sms.mobile",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "6a4331ad-be60-4e65-972a-f770931cc56e",
+          "object_relation": "appid",
+          "value": "com.ernell.thht",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2587869e-1d4b-4fe1-94d8-de255bfe0e5a",
+          "object_relation": "appid",
+          "value": "com.cellph.montrb",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "24a10fb9-9f22-4845-b5fd-2199523e17f8",
+          "object_relation": "appid",
+          "value": "com.mobtr.danbel",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2232550a-a056-491c-9b48-cb89e0914a1d",
+          "object_relation": "appid",
+          "value": "com.kidsmobmon",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3baf2852-3a50-4ff9-b7e9-6ce6d7451e91",
+          "object_relation": "appid",
+          "value": "com.mophtr.td",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "196eb869-d3d7-4a2b-b464-350a0a3bc66d",
+          "object_relation": "appid",
+          "value": "com.trandmon.tool",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "4e18bf66-55c4-4ce9-a6bf-ab1252cbec14",
+          "object_relation": "appid",
+          "value": "com.mobphn.monit",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c9313536-004c-40e0-a258-3ee5eb21e9f5",
+          "object_relation": "appid",
+          "value": "com.callhist.calltr",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f68a9884-6bfd-4c0b-abfb-609d3177b686",
+          "object_relation": "appid",
+          "value": "com.trackzone.kids",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "42105077-bfc2-41ab-9828-bf961f4bbb81",
+          "object_relation": "appid",
+          "value": "com.whtrack.monit",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2d074580-222b-4302-9149-3bf501a6c5fb",
+          "object_relation": "appid",
+          "value": "com.catrsy.jaluc",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "fde9c8a9-35c7-47e0-996f-3d7065214a04",
+          "object_relation": "appid",
+          "value": "com.mobitra.todv",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e57a5732-e11a-4ae2-a0b9-dd1e7a103626",
+          "object_relation": "appid",
+          "value": "com.phtranlo.tifach",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a880634c-1dd4-45bb-a3f8-860f421bf23e",
+          "object_relation": "appid",
+          "value": "com.smstra.xanris",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3908f494-6680-4a9e-b2d4-5863a80711f3",
+          "object_relation": "appid",
+          "value": "com.stmrsa.htxt",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
