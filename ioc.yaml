@@ -1393,6 +1393,7 @@
   names:
   - MobileTool
   - MobTool
+  - Jopsik
   packages:
   - org.poleward.burghs.hydrotherapy.homonymously
   - org.urates.amirates.suffocate.chiliast
@@ -1402,8 +1403,10 @@
   - 7F11358AC560C5E90B735A21B907F1C8143353DF
   websites:
   - mobiletool.ru
+  - www.mobiletool.ru
   - mtoolapp.net
   - www.mtoolapp.net
+  - mtoolapp.biz
   c2:
     ips: []
     domains:
@@ -1418,11 +1421,13 @@
     - mobiletool.ru
     - mrswd.wo87sf.com
     - mtoolapp.net
+    - mtoolapp.biz
     - my.mobiletool.ru
     - my.mtoolapp.net
     - mzpgfh.uhabq9.com
     - noujx.s9gxw8.com
     - s9gxw8.com
+    - support.mtoolapp.biz
     - ug1c5v.birxpk.com
     - wethnc067.xyz
     - www.mtoolapp.net
