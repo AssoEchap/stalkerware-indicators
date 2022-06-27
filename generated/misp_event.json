@@ -42439,6 +42439,24 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "1d692898-0ddf-43cd-b36d-5c99a1a11573",
+          "object_relation": "domain",
+          "value": "mtoolapp.biz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "adb65663-72e1-489d-acae-dc01d09cb2eb",
+          "object_relation": "domain",
+          "value": "support.mtoolapp.biz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
