@@ -45532,6 +45532,87 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "a058884e-62c3-4c26-91a7-9000977d1f89",
+          "object_relation": "domain",
+          "value": "all-tracker.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3824faf8-d069-4300-9110-81b9034a4b78",
+          "object_relation": "domain",
+          "value": "all-tracker.appspot.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cf761be8-7727-442a-94a4-fdfd0ad38f2b",
+          "object_relation": "certificate",
+          "value": "F1912CEE4B5D6C1EA4070B53B440E2F660FFCBBD",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "2eef3528-259f-4d7b-93ca-450c5ca0bff6",
+          "object_relation": "certificate",
+          "value": "B6A744B0E8AE049AC0C20402EBC137B1192699A9",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d7a2f6ea-9fc2-474b-a0b1-c1b5176a2c5d",
+          "object_relation": "certificate",
+          "value": "6C4E74FD002AEC131F8D05852566055C349E0A54",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0bc2b3f4-2807-49d0-8861-ce31d2d2eda6",
+          "object_relation": "certificate",
+          "value": "219D2D7FEC2B2DA6E25693A75FC15D2C6F4F6E67",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "99bc3a66-0ccf-4cda-bbd9-dada0df82340",
+          "object_relation": "certificate",
+          "value": "F7871F09D6E58B9BEA5913FB2FA879E5427725E3",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "ad93769f-2bfe-436f-a10c-095d72621a4b",
+          "object_relation": "appid",
+          "value": "org.alltracker.security",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "fad88cb1-6379-41db-9666-b940548add49",
+          "object_relation": "appid",
+          "value": "city.russ.alltrackerinstaller",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",

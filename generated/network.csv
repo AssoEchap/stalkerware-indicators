@@ -568,8 +568,10 @@ domain,i11.clientreport.info,NeoSpy
 domain,i12.clientreport.info,NeoSpy
 domain,i13.clientreport.info,NeoSpy
 domain,clientreport.info,NeoSpy
-domain,6-dot-all-tracker.appspot.com,AllTracker
 domain,4-dot-all-tracker.appspot.com,AllTracker
+domain,6-dot-all-tracker.appspot.com,AllTracker
+domain,all-tracker.appspot.com,AllTracker
+domain,all-tracker.firebaseio.com,AllTracker
 domain,alltracker.org,AllTracker
 domain,staging-all-tracker.appspot.com,AllTracker
 domain,www.spy-phone-app.com,SpyPhoneApp
