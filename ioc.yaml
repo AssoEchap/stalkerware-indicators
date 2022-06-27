@@ -940,34 +940,6 @@
     - tracking.mliteapp.com
     - www.mspyonline.com
 
-- name: spy2mobile
-  names:
-  - spy2mobile
-  - sap4mobile
-  packages:
-  - com.spy2mobile
-  - com.spy2mobile.light
-  - com.s2m
-  - com.s2m.seas
-  - com.sap4mobile
-  certificates:
-  - 986E5892EFB97E807772698BAC701F49CE9CAEA8
-  - 76A90B5E41FA2AFE14478CDA24A0CA6B4F7FC5F3
-  - 9329632A70D41158EBAB6EED27B12D8CB0D47579
-  - 7D9EDDE23B4D3D7AC459B06ECEBE8EA1350D4F8F
-  websites:
-  - spy2mobile.com
-  - spytomobile.com
-  c2:
-    ips:
-    - 139.59.125.208
-    domains:
-    - 89685.firebaseio.com
-    - sap4mobile-89685.firebaseio.com
-    - sap4mobile.com
-    - smartback-12d60.appspot.com
-    - spy2mobile.com
-    - spytomobile.com
 
 - name: SpyHide
   names:
@@ -2720,3 +2692,93 @@
     domains:
     - pc.spykontrol.com
     - androidapk.biz
+
+- name : Trackplus
+  names:
+  - Gpspy
+  - S2mob
+  - Spy2Mobile
+  - SpyToMobile
+  - Spymob
+  - sap4mobile
+  - spy2mobile
+  packages:
+  - com.dbzbpr.skt
+  - com.elpatr.woac
+  - com.greatdata
+  - com.phone.tracker.smsb
+  - com.rephko.stha
+  - com.s2m
+  - com.s2m.seas
+  - com.sap4mobile
+  - com.smart
+  - com.smartback
+  - com.spy2mobile
+  - com.spy2mobile.light
+  - com.tccplos.spth
+  - com.trphwhat.prob
+  - com.viewcalls.rem
+  - com.viewsms.remb
+  websites:
+  - account.spytomobile.com
+  - forum.spytomobile.com
+  - spy2mobile.com
+  - spytomobile.com
+  - www.spy2mobile.com
+  - www.spytomobile.com
+  certificates:
+  - 0387135D057AEAA0F8BCFCE2AFA84D9BD1FA6F30
+  - 0C5AB4D05A2C804D3A4D0472CEAC50B89833E6E4
+  - 0F64B6EBB49849AC685FE5DF605908594623368E
+  - 14EE7779B2E84A0FF1309DEA72881670D78E98AB
+  - 1BB7F1E962C35F00BE2EF97A64C753CCA0993637
+  - 20948233C3EF1662E79850AE0AB959C4760114C2
+  - 26DDA9B261169FB0A63A6CEA5B682B7A190328B6
+  - 26FC20C25AF99E4B6C16ABAD8E8D76AFA55973BB
+  - 2919FF38F04D757BA6FE344F1729275739F43E89
+  - 2B02F9708FAD9017D9F709AB2C5C8B5BD0D29394
+  - 39DDEFD8261C1946E4F3160F6A9E200F59F06C11
+  - 4569A62308FA134A33A5DDCC065D6FDAE5653435
+  - 54E4D1ACDA9E3071D27AA7B6470E23F75BF1380B
+  - 5C9031E2340478521630198F3F90E5C8D38D3B64
+  - 76A90B5E41FA2AFE14478CDA24A0CA6B4F7FC5F3
+  - 7D9EDDE23B4D3D7AC459B06ECEBE8EA1350D4F8F
+  - 7DED7756C3DBE351A23BE061E989273888414FE6
+  - 8C76B4444DAE08ECF578AF51D295836F0D9BADC6
+  - 8D7FEC36654F6B35FA89E079685D637CCEE27755
+  - 9329632A70D41158EBAB6EED27B12D8CB0D47579
+  - 986E5892EFB97E807772698BAC701F49CE9CAEA8
+  - 98E76043B54DD7CB76E0E6E384A83646F1865BAE
+  - A2CD01EE20E3C25575D2D9B9645A52A1FA8C36C6
+  - A2CE290D98B66B577880F3D7807DC01EB7FCE01B
+  - ADF393A6628366341BA488B85A5AE738793BFD17
+  - B8C908630D7D1ED52FA4E5AEC2A2BDA0414F8B3F
+  - BB59FC701EAC40C51C9274EA6A8EE623F5002802
+  - CA6F27DDCBE5D7929C82F42F63FF24703A352756
+  - E401C172FE10C4893A13B38B1FABAA43473E2900
+  - F5EAEFDECAD39B93134E859BEDC7D3ED42FBE2B3
+  - FD4C2144DF6E431378A46EAEACC696AF94DE9D56
+  c2:
+    ips:
+    - 185.87.51.116
+    - 139.59.125.208
+    domains:
+    - 12d60.appspot.com
+    - 12d60.firebaseio.com
+    - 13-5.org
+    - 89685.firebaseio.com
+    - and.info-taxi.info
+    - best-spy-apps.com
+    - edlnc255s2q.s3.amazonaws.com  # edlnc255s2q.s3.amazonaws.com/databackup.apk
+    - info-taxi.info
+    - kokum.ru
+    - pi.info-taxi.info
+    - sap4mobile-89685.firebaseio.com
+    - sap4mobile.com
+    - smartback-12d60.appspot.com
+    - smartback-12d60.firebaseio.com
+    - spy2mobile-bb441.firebaseio.com
+    - spy2mobile.com
+    - spytomobile.com
+    - tagdps.ru
+    - tfk7r22klf8vtd8g90jq8qno1tpqhmpe.apps.googleusercontent.com
