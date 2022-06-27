@@ -1723,18 +1723,28 @@
 - name: AllTracker
   names:
   - AllTracker
+  - Russcity
   packages:
   - city.russ.alltrackercorp
   - city.russ.alltrackerfamily
+  - city.russ.alltrackerinstaller
+  - org.alltracker.security
   certificates:
+  - 219D2D7FEC2B2DA6E25693A75FC15D2C6F4F6E67
   - 43D45CE7BEE36E449434C14973B7D285209414C7
+  - 6C4E74FD002AEC131F8D05852566055C349E0A54
+  - B6A744B0E8AE049AC0C20402EBC137B1192699A9
+  - F1912CEE4B5D6C1EA4070B53B440E2F660FFCBBD
+  - F7871F09D6E58B9BEA5913FB2FA879E5427725E3
   websites:
   - alltracker.org
   c2:
     ips: []
     domains:
-    - 6-dot-all-tracker.appspot.com
     - 4-dot-all-tracker.appspot.com
+    - 6-dot-all-tracker.appspot.com
+    - all-tracker.appspot.com
+    - all-tracker.firebaseio.com
     - alltracker.org
     - staging-all-tracker.appspot.com
 
