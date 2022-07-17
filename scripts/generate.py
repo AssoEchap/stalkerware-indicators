@@ -4,6 +4,7 @@ import yaml
 import csv
 import json
 import argparse
+from pathlib import Path
 from collections import defaultdict
 from stix2.v21 import (Indicator, Malware, Relationship, Bundle, DomainName)
 from pymisp import MISPEvent
@@ -241,6 +242,49 @@ def generate_misp(folder, iocs):
     print(f"Generated {fpath}")
 
 
+def update_readme(output, iocs):
+    """
+    Update the README with an up to date list of stalkerware
+    """
+    dpath = Path(output).parent / 'README.md'
+    if not os.path.isfile(dpath):
+        print("README.md not found")
+        return
+
+    with open(dpath, "r") as f:
+        data = f.read().split("\n")
+
+    os.remove(dpath)
+    i = 0
+    fout = open(dpath, "w+")
+    while data[i] != "## Stalkerware":
+        fout.write(data[i] + "\n")
+        i += 1
+
+    fout.write("## Stalkerware\n\n")
+
+    fout.write("This repository includes indicators for {} stalkerware applications\n\n".format(len(iocs)))
+
+    for app in sorted(iocs, key= lambda x:x["name"]):
+        if len(app["websites"]) > 0:
+            fout.write("* {} ({})\n".format(
+                app["name"],
+                " ".join(["`" + a + "`" for a in app["websites"]])
+            ))
+        else:
+            fout.write("* {}\n".format(app["name"]))
+
+    fout.write("\n")
+    while data[i] != "## Contributions":
+        i += 1
+
+    while i < len(data):
+        fout.write(data[i] + "\n")
+        i += 1
+
+    print("README.md updated")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate several IOC format for stalkerware")
     parser.add_argument("--input", "-i", default=".", help="Folder with stalkerware IOCs")
@@ -256,3 +300,4 @@ if __name__ == "__main__":
     generate_stix(args.output, iocs)
     generate_suricata(args.output, iocs)
     generate_misp(args.output, iocs)
+    update_readme(args.output, iocs)

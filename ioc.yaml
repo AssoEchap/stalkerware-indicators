@@ -558,7 +558,6 @@
   certificates:
   - 2E104C33C8DA4DB32E59A45701D8E0C4CAD16BD3
   websites:
-  - 89.47.91.131
   - viptrack.ro
   c2:
     ips: []

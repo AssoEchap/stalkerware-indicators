@@ -49,92 +49,99 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for the following stalkerware :
+This repository includes indicators for 91 stalkerware applications
 
-* 1TopSpy : `www.1topspy.com`
-* AirSpyer
-* AllTracker : `alltracker.org` (also called [Russ City](https://www.zscaler.com/blogs/security-research/new-wave-stalkerware-apps))
-* AndroidLost : `androidlost.com`
-* AntiFurto Droid : `antifurtodroid.com`
-* AppMia
-* AppSpy : `www.appspy.com`
-* Android Monitor : `www.androidmonitor.com`
-* Bark : `www.bark.us`
-* BlurSpy : `www.blurspy.com`
-* CallSMSTracker : `callsmstracker.com`
-* Catwatchful : `catwatchful.com`
-* Cerberus : `www.cerberusapp.com`
-* ClevGuard : `www.clevguard.com`
-* Cocospy : `www.cocospy.com`
-* Copy9 : `copy9.com`
-* DDI Utilities : `ddiutilities.com`
-* EasyLogger : `logger.mobi`
-* EasyPhoneTrack : `easyphonetrack.com` (also `spappmonitoring.com`)
-* Espiao Android: `espiaoandroid.com.br`
-* EyeZy : `www.eyezy.com`
-* FlexiSpy : `www.flexispy.com`
-* Free Android Spy : `www.freeandroidspy.com`
-* FoneTracker : `fonetracker.com`
-* FoneMonitor : `fonemonitor.co`
-* ForeverSpy : `foreverspy.com`
-* GPSTrackerLoki : `asgardtech.ru`
-* GuestSpy : `guestspy.com` (now replaced by TheTruthSpy)
-* HelloSpy : `hellospy.com`
-* Highster Mobile : `highstermobile.com`
-* Hoverwatch : `www.hoverwatch.com`
-* iKeyMonitor : `ikeymonitor.com`
-* iMonitorSpy : `www.imonitorsoft.com`
-* iSpyoo : `ispyoo.com`
-* LetMeSpy : `www.letmespy.com`
-* Maxxspy: `maxxSpy.com`
-* Meuspy: `meuspy.com`
-* MinSpy : `minspy.com` (also called kuuvv, cocospy, spyier, …)
-* Mobispy : `www.mobispy.net`
-* Mobiispy : `mobiispy.com`
-* MobileTrackerFree : `mobile-tracker-free.com`
-* MobileTool : `mtoolapp.net`, `mobiletool.ru` and `mtoolapp.biz`
-* Mobistealth : `www.mobistealth.com`
-* mSpy : `www.mspy.com` (also called SpyBubble)
-* MxSpy : `mxspy.com`
-* NeatSpy : `neatspy.com`
-* NetSpy : `www.netspy.net`
-* NeoSpy : `neospy.net` (an analysis [here](https://www.zscaler.com/blogs/security-research/spyware-presence-enterprise-networks))
-* OneMonitar : `onemonitar.com` (also known as OneSpy)
-* OwnSpy : `en.ownspy.com`
-* pcTattletale : `www.pctattletale.com`
-* PhoneSpying : `www.phonespying.com`
-* PhoneSherif : `phonesheriff.com`
-* PanSpy : `panspy.com`
-* Repticulus : `reptilicus.net`
-* SafeSpy : `safespy.com`
-* SAP4Mobile : `sap4mobile.com`
-* ShadowSpy : `www.shadow-spy.com`
-* Snoopza : `snoopza.com`
-* Spy24 : `spy24.app`
-* SpyApp247 : `www.spyapp247.com`
-* SpyEra : `spyera.com`
-* SpyHide : `spyhide.com`
-* SpyHuman : `spyhuman.com`
-* Spyic : `spyic.com`
-* Spyier : `spyier.com`
-* Spyine : `spyine.com`
-* Spylive360 : `spylive360.com`
-* SpyMasterPro : `spymasterpro.com`
-* Spymie : `www.spymie.com` (analyzed by [ZScaler here](https://www.zscaler.com/blogs/research/why-you-shouldnt-trust-safe-spying-apps))
-* SpyPhoneApp : `spyphoneapp.org`
-* Spytoapp : `spytoapp.com`
-* Spyzie : `www.spyzie.com` `spyzie.io`
-* spy2mobile : `spytomobile.com`
-* TalkLog : `talklog.tools`
-* The One Spy : `theonespy.com`
-* TheTruthSpy : `thetruthspy.com`
-* TrackMyFone : `trackmyfone.com`
-* Track My Phones : `trackmyphones.com`
-* uMobix : `umobix.com`
-* WiseMo : `www.wisemo.com`
-* WtSpy : `wt-spy.com`
-* Xnore : `xnore.com`
-* XNSpy : `xnspy.com`
+* AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
+* AllTracker (`alltracker.org`)
+* AndroidLost (`androidlost.com` `www.androidlost.com`)
+* AndroidMonitor (`androidmonitor.com` `www.androidmonitor.com`)
+* AndroidPolice (`amon.android-monitor.ru` `amon1.android-monitor.ru` `andmon.name` `android-apk.android-monitor.ru` `android-monitor1.android-monitor.ru` `android-police.android-monitor.ru` `android-police.ru` `anmon.android-monitor.ru` `anmon.name` `anmon.ru` `anmon.su` `anmon1.android-monitor.ru` `droimon20.ru` `monitor-android.android-monitor.ru` `prog-money.android-monitor.ru` `prog-money.com` `www.android-monitor.ru`)
+* AndroidSpy (`a-spy.com` `www.a-spy.com`)
+* AntiFurtoDroid (`antifurtodroid.com`)
+* AppMia (`appmia.com` `appmia.com.es` `appmia.it` `appmia.fr` `cp.appmia.com`)
+* AppSpy (`app.appspy.net` `app.appspyfree.com` `app.freephonespy.net` `app.freephonespy.net` `app.mobilespyfree.net` `appspy.net` `appspyfree.com` `apptracker.net` `cellphonespyappon.com` `free-spy.com` `free.apptracker.net` `freemobilespy.net` `freephonespy.net` `justseries.net` `mobilespyfree.net` `spyadvice.com` `spyren.com` `trackerfree.net` `www.appspy.net` `www.apptracker.net` `www.cellphonespyappon.com` `www.freemobilespy.net` `www.freephonespy.net` `www.mobilespyfree.net` `www.spyadvice.com` `www.spyren.com` `www.trackerfree.net` `www.xvids.us` `xvids.us`)
+* BlurSpy (`www.blurspy.com` `blurspy.com` `xoxospy.com`)
+* Bulgok (`c-phone.ru`)
+* CallSMSTracker (`callsmstracker.com` `hiddensmstracker.com` `hiddensystemhealth.com` `registrations.smstracker.com` `smstracker.com` `smstrackerweb.com` `www.hiddensmstracker.com` `www.hiddensystemhealth.com` `www.smstrackerweb.com`)
+* CatWatchful (`catwatchful.com` `catwatchful.online`)
+* Cerberus (`cerberusapp.com` `www.cerberusapp.com`)
+* ClevGuard (`clevguard.net`)
+* Cocospy (`cocospy.com` `fonemonitor.co` `minspy.com` `neatspy.com` `safespy.com` `spyic.com` `spyine.com` `spyzie.com` `spyzie.io` `spyzie.online` `teensafe.net` `www.fonemonitor.co` `www.minspy.com` `www.spyic.com` `www.spyzie.com` `www.teensafe.net`)
+* CouplerTracker (`coupletracker.com`)
+* EasyLogger (`logger.mobi` `childsafetytrackerapp.com` `seniorsafetyapp.com` `www.childsafetytrackerapp.com` `www.seniorsafetyapp.com`)
+* EasyPhoneTrack (`spappmonitoring.com` `www.spappmonitoring.com` `mobil-kem.com`)
+* EspiaoAndroid (`foxspy.com.br`)
+* EvaSpy (`evaspy.com` `login.evaspy.com` `spyrix.com` `www.spyrix.com`)
+* FamiSafe (`famisafe.wondershare.com` `famisafeapp.wondershare.com` `accounts.wondershare.com`)
+* FindMyKids (`findmykids.org` `discount.findmykids.org`)
+* FindMyPhone (`find-myphone.com`)
+* FlexiSpy (`flexispy.com` `community.flexispy.com` `blog.flexispy.com` `www.flexispy.com`)
+* FreeAndroidSpy (`freeandroidspy.com`)
+* GPSTrackerLoki (`asgardtech.ru`)
+* HelloSpy (`1topspy.com` `hellospy.com` `maxxspy.com` `mobiispy.com` `innovaspy.com`)
+* HighsterMobile (`auto-forward.com` `cellphoneservices.info` `ddiutilities.com` `evt17.com` `highstermobile.com` `phonespector.com`)
+* Hoverwatch (`br.refog.com` `de.refog.com` `es.refog.com` `fr.refog.com` `hover.watch` `hoverwatch.com` `hu.refog.com` `hws.icu` `it.refog.com` `my.hws.icu` `nl.refog.com` `prospybubble.com` `refog.com` `refog.de` `refog.net` `refog.org` `ro.refog.com` `www.hoverwatch.com`)
+* KasperskySafeKids
+* KidsControl (`kid-control.com` `kid-control.ru`)
+* KidsShield (`backupsoft.eu` `freespyapp.com` `kidsshield.net` `pc.freespyapp.com` `pc.selfspy.com` `selfspy.com` `techinnovative.net` `tifamily.net` `tispy.net` `ua.tispy.net` `www.selfspy.com`)
+* LetMeSpy (`letmespy.com` `remotecommands.com` `www.letmespy.com` `www.teleszpieg.pl` `teleszpieg.pl` `bbiindia.com` `www.bbiindia.com`)
+* Metasploit (`foreverspy.com`)
+* MeuSpy (`servidor.in` `meuspy.com`)
+* MobiSpy (`mobispy.net`)
+* MobiStealth (`mobistealth.com` `www.mobistealth.com`)
+* MobileTool (`mobiletool.ru` `www.mobiletool.ru` `mtoolapp.net` `www.mtoolapp.net` `mtoolapp.biz`)
+* MobileTrackerFree (`br.mobile-tracker-free.com` `br.loverman.net` `celltracker.io` `loverman.net` `mobile-tracker-family.com` `mobile-tracker-free.be` `mobile-tracker-free.biz` `mobile-tracker-free.co` `mobile-tracker-free.com` `mobile-tracker-free.de` `mobile-tracker-free.es` `mobile-tracker-free.eu` `mobile-tracker-free.fr` `mobile-tracker-free.info` `mobile-tracker-free.ir` `mobile-tracker-free.it` `mobile-tracker-free.me` `mobile-tracker-free.mobi` `mobile-tracker-free.name` `mobile-tracker-free.net` `mobile-tracker-free.org` `support.mobile-tracker-free.com` `support.loverman.net`)
+* NemoSpy (`nemospy.com` `admin.nemospy.com`)
+* NeoSpy (`neospy.pro` `neospy.net` `neospy.tech`)
+* NetSpy (`www.netspy.net` `netspy.net`)
+* OneLocator (`locatorprivacy.com` `onelocator.com`)
+* OneMonitar (`onespy.com`)
+* OwnSpy (`mobileinnova.net` `ownspy.com` `en.ownspy.com` `webdetetive.com.br` `ownspy.es`)
+* PanSpy (`panspy.me` `panspy.com` `surveilstar.com`)
+* PhoneSheriff (`www.mobile-spy.com` `www.emobilespy.com` `phonesheriff.com` `www.phonesheriff.com`)
+* RealtimeSpy (`www.spytech-web.com` `spytech-web.com` `realtime-spy-mobile.com` `www.realtime-spy-mobile.com`)
+* Reptilicus (`reptilicus.net` `thecybernanny.com` `apollospy.com`)
+* SecretCamRecorder
+* ShadowSpy (`shadow-logs.com` `shadow-spy.com` `www.shadow-logs.com` `www.shadow-spy.com`)
+* Snoopza (`snoopza.com` `get.snoopza.com` `snoopza.zendesk.com` `demo.snoopza.com` `newdemo.snoopza.com`)
+* Spy24 (`spy24.net`)
+* SpyAdvice (`spyadvice.com` `freespyphone.net`)
+* SpyApp247
+* SpyEra (`spyera.com`)
+* SpyHide (`spyhide.com` `www.spyhide.com` `spyhide.ir` `www.spyhide.ir`)
+* SpyHuman (`spyhuman.com` `services.spyhuman.com`)
+* SpyKontrol (`www.spykontrol.com` `spykontrol.com` `androidapk.biz`)
+* SpyLive260 (`spylive360.com` `www.spylive360.com`)
+* SpyMasterPro (`spymasterpro.com` `www.spymasterpro.com`)
+* SpyMug
+* SpyPhoneApp
+* SpyToApp (`spytoapp.com`)
+* Spyier (`spyier.com`)
+* Spymie
+* SpyphoneMobileTracker (`phonetracker.com` `www.phonetracker.com` `spyfone.com` `spyphone.com` `www.spyphone.com`)
+* TalkLog (`talklog.tools`)
+* TheOneSpy (`theonespy.com` `www.theonespy.com`)
+* TheTruthSpy (`copy9.com` `exactspy.com` `fonetracker.com` `guestspy.com` `ispyoo.com` `mxspy.com` `phonespying.com` `phonetracking.net` `spyapps.net` `thetruthspy.com` `weysys.com`)
+* TrackMyPhones (`trackmyphones.com` `www.trackmyphones.com`)
+* TrackView (`chome.zstone.co` `lifecircle.app` `trackview.net` `trackview.recurly.com`)
+* TrackingSmartphone (`trackingsmartphone.com` `www.trackingsmartphone.com` `onlinefundb.com`)
+* Trackplus (`account.spytomobile.com` `forum.spytomobile.com` `spy2mobile.com` `spytomobile.com` `trackerplus.ru` `www.spy2mobile.com` `www.spytomobile.com`)
+* Tracku (`clues4.com` `hike.in` `e-spy.org` `www.e-spy.org`)
+* Unisafe (`usafe.ru` `unisafe.su` `unisafe.techmas.ru`)
+* VIPTrack (`viptrack.ro`)
+* WiseMo (`wisemo.com` `www.wisemo.com`)
+* WtSpy (`wtspy.com`)
+* XNSpy (`xnspy.com` `cp.xnspy.com`)
+* Xnore (`xnore.com`)
+* XySpy (`xyspy.com`)
+* bark (`bark.us` `www.bark.us`)
+* eyeZy (`www.eyezy.com`)
+* iKeyMonitor (`easemon.com`)
+* iMonitorSpy (`www.imonitorsoft.cn` `www.imonitorsoft.com` `imonitorsoft.cn`)
+* jjspy (`www.jjspy.com` `www.ttspy.com`)
+* mSpy (`www.mspyonline.com` `mspyonline.com` `mspylite.com` `mspy.nl` `mspy.co.uk` `mspy.net` `mspy.in` `mspy.it` `mspy.jp` `mspy.com.br` `mliteapp.com`)
+* pcTattletale (`www.pctattletale.com`)
+* uMobix (`umobix.com`)
 
 ## Contributions
 
@@ -180,3 +187,6 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+
+
+
