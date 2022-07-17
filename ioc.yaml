@@ -508,6 +508,7 @@
   - www.spyic.com
   - www.spyzie.com
   - www.teensafe.net
+  - teensafe.vip
   c2:
     ips: []
     domains:
@@ -922,7 +923,9 @@
   - mspy.it
   - mspy.jp
   - mspy.com.br
+  - mspy.com
   - mliteapp.com
+  - theispyoo.com
   c2:
     ips: []
     domains:
@@ -1163,6 +1166,7 @@
   - mobile-tracker-free.org
   - support.mobile-tracker-free.com
   - support.loverman.net
+  - mobile-tracker.mobi
   c2:
     ips:
     - 51.15.183.209
@@ -1586,14 +1590,18 @@
   - spappmonitoring.com
   - www.spappmonitoring.com
   - mobil-kem.com
+  - easyphonetrack.com
   c2:
-    ips: []
+    ips:
+    - 50.28.38.175
     domains:
     - studio11-7e288.firebaseio.com
     - trackmy.mobi
     - celltracker.mobi
     - spy-datacenter.com
     - cell-phones-tracker.net
+    - easyphonetrack.com
+    - www.spy-datacenter.com
 
 - name: bark
   names:
@@ -1928,7 +1936,7 @@
   certificates:
   - BB5E2C0E8DFDC54730C1E9B48754977E7DBCCCF9
   websites:
-  - wtspy.com
+  - wt-spy.com
   c2:
     ips: []
     domains: []
