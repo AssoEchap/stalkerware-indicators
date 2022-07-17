@@ -1025,7 +1025,7 @@
   - app.appspy.net
   - app.appspyfree.com
   - app.freephonespy.net
-  - app.freephonespy.net 
+  - app.freephonespy.net
   - app.mobilespyfree.net
   - appspy.net
   - appspyfree.com
@@ -1313,7 +1313,7 @@
   - 783B1880ECDC5E75620A4C484E3BDBE08D6D4397
   - 8E352F2EE18054DF97C238915C0375AA13305DEC
   - 92DF71DB15BEEAB77DF36FD879A89E5E0DEF4617
-  - 93135ABA6FF4B6CFE9B06153B9BDF769AEBC1D87 
+  - 93135ABA6FF4B6CFE9B06153B9BDF769AEBC1D87
   - 9FE876AF76CDCB685102A38528A3A732B0872DC6
   - B927DACA3BB3876523E2E8B1BDB56CE84B0DFFF7
   - F18B3369F152EC3C74EC884BE977B3CA0E0C996D
@@ -1973,11 +1973,14 @@
   - com.avi.scbase
   certificates:
   - 20F092BEC76C406223A7943371A1DBBB5BF66C13
-  websites: []
+  websites:
+  - www.pctattletale.com
   c2:
-    ips: []
+    ips:
+    - 67.227.193.142
     domains:
     - pctattletalev2.s3.amazonaws.com
+    - pctattletale.com
 
 - name: OneMonitar
   names:
