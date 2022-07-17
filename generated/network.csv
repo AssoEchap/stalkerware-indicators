@@ -599,6 +599,8 @@ domain,aovivo.foxspy.com.br,EspiaoAndroid
 domain,pc.foxspy.com.br,EspiaoAndroid
 domain,celular007.s3.amazonaws.com,EspiaoAndroid
 domain,pctattletalev2.s3.amazonaws.com,pcTattletale
+domain,pctattletale.com,pcTattletale
+ipv4,67.227.193.142,pcTattletale
 domain,send.onespy.com,OneMonitar
 domain,app.antifurtodroid.com,AntiFurtoDroid
 domain,beta.smstracker.com,CallSMSTracker

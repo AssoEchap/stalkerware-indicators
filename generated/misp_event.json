@@ -49459,6 +49459,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "33376c87-ed9d-4102-8fc4-893b2bd291f2",
+          "object_relation": "domain",
+          "value": "pctattletale.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
