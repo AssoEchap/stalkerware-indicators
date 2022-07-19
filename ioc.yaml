@@ -393,7 +393,6 @@
 - name: PhoneSheriff
   names:
   - PhoneSheriff
-  - MobileSpy
   - MobileNanny
   packages:
   - com.retina.phonesheriff
@@ -2836,3 +2835,22 @@
     - spytomobile.com
     - tagdps.ru
     - tfk7r22klf8vtd8g90jq8qno1tpqhmpe.apps.googleusercontent.com
+
+- name : MobileSpy
+  names: []
+  packages: []
+  websites:
+  - de.mobilespy.at
+  - es.mobilespy.at
+  - fr.mobilespy.at
+  - it.mobilespy.at
+  - mobilespy.at
+  - pt.mobilespy.at
+  - ro.mobilespy.at
+  - www.mobilespy.at
+  certificates: []
+  c2:
+    ips:
+    - 37.120.162.163
+    domains:
+    - api.mobilespy.at
