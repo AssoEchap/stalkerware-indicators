@@ -60899,6 +60899,36 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "a2d7993e-6477-42c0-a5dd-b9f8ab942904",
+      "Attribute": [
+        {
+          "uuid": "7b48a417-a614-40a6-beb7-93a38e4a94cd",
+          "object_relation": "name",
+          "value": "MobileSpy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "9a3cc3b6-47c7-418d-b9c2-8b09febc1887",
+          "object_relation": "domain",
+          "value": "api.mobilespy.at",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
