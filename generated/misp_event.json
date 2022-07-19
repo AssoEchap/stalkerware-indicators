@@ -59878,6 +59878,42 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "3fa9f68f-a6f8-4d72-a749-e0219c57d8a3",
+          "object_relation": "domain",
+          "value": "spyt.co",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "56761141-09c2-45f6-9db4-e29b3556a541",
+          "object_relation": "domain",
+          "value": "spytrac-app1.s3.amazonaws.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f81410c6-8b02-4d02-9574-6ceb3409651b",
+          "object_relation": "certificate",
+          "value": "A2EBDD14E2AE17F52363BCB751CCBE15BE5A2F8D",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "8d754316-47ab-4afe-935d-82fdc1108363",
+          "object_relation": "appid",
+          "value": "com.android.inputmethod.latinmy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -60925,6 +60961,288 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "040e3c28-4c3f-4945-8688-8ea36d0b3e7f",
+      "Attribute": [
+        {
+          "uuid": "1d37a4b1-9105-4f18-81ec-d564133b6c25",
+          "object_relation": "name",
+          "value": "WebWatcher",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "bedf4434-11ff-49c1-82d6-64646bc95615",
+          "object_relation": "domain",
+          "value": "webwatchernow.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "21572a38-c85e-49a5-8734-ee5254fa24cd",
+          "object_relation": "domain",
+          "value": "download.webwatcherdata.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5bf6b7ce-d153-48fc-9542-8d6bc6fa660a",
+          "object_relation": "domain",
+          "value": "apitest.awarenesstechnologies.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f246bc50-d3e6-49ee-98b0-70d3ff0cee45",
+          "object_relation": "domain",
+          "value": "rcomlogin.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8022381f-1231-4120-b40a-7ada1166619f",
+          "object_relation": "domain",
+          "value": "data.qa.webwatcherdata.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5208262c-9246-4f72-811f-f854d1b77e6f",
+          "object_relation": "domain",
+          "value": "data.webwatcherdata.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ccc5887d-71d5-44a7-83c6-eeafcab590da",
+          "object_relation": "domain",
+          "value": "login.webwatcher.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "238874e8-6105-4d37-8598-734fb6dfc17f",
+          "object_relation": "domain",
+          "value": "webwatcher-child-app.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "eddcef14-d66b-4bea-8298-22fa0c3c2b56",
+          "object_relation": "domain",
+          "value": "webwatcherdata.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e6ae91cb-7165-40e4-9d6d-e58a42124624",
+          "object_relation": "domain",
+          "value": "www.webwatchernow.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "091b1d24-a438-4b73-aa2a-6d8a124086f5",
+          "object_relation": "domain",
+          "value": "api.awarenesstechnologies.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "67a7c4e3-a234-4499-afec-f5a870592b14",
+          "object_relation": "domain",
+          "value": "data-webwatcherdata-alb-1451089636.us-west-2.elb.amazonaws.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "43b8b383-33f8-439d-96b5-f281b4448c3d",
+          "object_relation": "certificate",
+          "value": "FC786B8F918655D45245C685A471BD57F02FB366",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0472ea99-3050-4817-a70b-2e14f681ae2d",
+          "object_relation": "certificate",
+          "value": "35E90A29262F1E6CC25B6E483DEC67161513DE30",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "6bb7744f-128b-407b-85ce-387cafbf3de8",
+          "object_relation": "certificate",
+          "value": "AD62CBB4BD298CF69CDA40997C3E5D70112D7161",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "57dea8b4-4a21-4454-a5d4-21875128f1db",
+          "object_relation": "certificate",
+          "value": "B9D5BAEDCF0C711317E8B6E54D60F0A5EDEE9517",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "82dff70d-4607-4a66-870d-84ad4946ae93",
+          "object_relation": "certificate",
+          "value": "60277E8CE202D8023F2ECC86F1726A50D9990576",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "699b7861-a33b-4012-bf3d-0c2182961824",
+          "object_relation": "certificate",
+          "value": "4E6B680EF3B588EF53097BC7CEFB778833B8A475",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "700a019b-b355-45ff-9c35-7e7c7c2c5919",
+          "object_relation": "appid",
+          "value": "com.awti.slc",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "451010f8-ae7f-4f3a-acfb-7a5b2bcf5192",
+          "object_relation": "appid",
+          "value": "com.awarenesstech.monitor",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2e572b54-0be0-4444-a10b-398ae5e965d3",
+          "object_relation": "appid",
+          "value": "com.at.wwka",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "55e706ed-34cc-4e67-8de5-da40ddfc4f31",
+          "object_relation": "appid",
+          "value": "com.awarenesstech.wwpapp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e75c8d7b-fef3-4c9d-bae2-14bda4b8a8be",
+          "object_relation": "appid",
+          "value": "com.ati.client",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f14b4993-8225-44e6-a294-15b195a823ce",
+          "object_relation": "appid",
+          "value": "com.ww.companion",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2c895810-07b9-4f24-aa90-9c1a3339cd9b",
+          "object_relation": "appid",
+          "value": "com.ati.webwatcherconsole",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "253bf541-41bb-47d0-9485-970cd07764ab",
+          "object_relation": "appid",
+          "value": "com.atinc.slcompanion",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "4d649e23-a765-493c-855b-bf4d6a9d9711",
+          "object_relation": "appid",
+          "value": "com.awarenesstechnologies.sideloadedws",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "274d564c-6735-435e-ae84-9bdade3ca34d",
+          "object_relation": "appid",
+          "value": "com.atiw.wc",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "5daede05-1522-42ea-9760-5d6c2e912577",
+          "object_relation": "appid",
+          "value": "com.ati.monitor",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",

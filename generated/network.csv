@@ -756,6 +756,8 @@ domain,pc.selfspy.com,KidsShield
 domain,d.tispy.net,KidsShield
 domain,pc.freespyapp.com,KidsShield
 domain,freespyapp.com,KidsShield
+domain,spyt.co,KidsShield
+domain,spytrac-app1.s3.amazonaws.com,KidsShield
 domain,nemospy.com,NemoSpy
 domain,setup.nemospy.com,NemoSpy
 domain,pc.spykontrol.com,SpyKontrol
@@ -786,3 +788,15 @@ ipv4,185.87.51.116,Trackplus
 ipv4,139.59.125.208,Trackplus
 domain,api.mobilespy.at,MobileSpy
 ipv4,37.120.162.163,MobileSpy
+domain,api.awarenesstechnologies.com,WebWatcher
+domain,apitest.awarenesstechnologies.com,WebWatcher
+domain,data-webwatcherdata-alb-1451089636.us-west-2.elb.amazonaws.com,WebWatcher
+domain,data.qa.webwatcherdata.com,WebWatcher
+domain,data.webwatcherdata.com,WebWatcher
+domain,download.webwatcherdata.com,WebWatcher
+domain,login.webwatcher.com,WebWatcher
+domain,rcomlogin.com,WebWatcher
+domain,webwatcher-child-app.firebaseio.com,WebWatcher
+domain,webwatcherdata.com,WebWatcher
+domain,www.webwatchernow.com,WebWatcher
+domain,webwatchernow.com,WebWatcher
