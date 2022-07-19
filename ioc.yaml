@@ -914,16 +914,17 @@
   websites:
   - www.mspyonline.com
   - mspyonline.com
-  - mspylite.com
-  - mspy.nl
+  - mliteapp.com
   - mspy.co.uk
-  - mspy.net
+  - mspy.com
+  - mspy.com.br
   - mspy.in
   - mspy.it
   - mspy.jp
-  - mspy.com.br
-  - mspy.com
-  - mliteapp.com
+  - mspy.net
+  - mspy.nl
+  - mspylite.com
+  - myfonemate.com
   - theispyoo.com
   c2:
     ips: []
@@ -1556,7 +1557,6 @@
     - node3.theonespy.com
     - node4.theonespy.com
     - node5.theonespy.com
-
 
 - name: ClevGuard
   names:
@@ -2625,15 +2625,20 @@
 
 - name : KidsShield
   names:
-  - TiSpy
+  - KidLogger
   - MonitorMinor
   - SelfSpy
+  - SpyTrac
+  - TelcadoAndroid
   - TiFamily
+  - TiSpy
+  - Triada
   packages:
   - com.aixlunro.uqfhkagb
   - com.aixlunro.uqfhkagb
   - com.bzbqbkya.hgozttiu
   - com.gzomoyig.qwgawtaz
+  - com.android.inputmethod.latinmy
   - com.ntckdlhc.oifhnjwp
   - com.selgdg.febgdsra
   - com.selgdg.mardsdaf
@@ -2659,6 +2664,7 @@
   certificates:
   - 1A6D10E15280C6A938EED9BEF53A31DA0CEBA45A
   - FD84821C80C1499A2446F6F7E13BF8BDA6A66402
+  - A2EBDD14E2AE17F52363BCB751CCBE15BE5A2F8D 
   - 272CD0BC357FA03AF87940644CB8FFDECD2FDDC6
   - 35D1DB3904A84793394FE5DF7B678E263B1B33A0
   - 5EF38D0143F601FD01AA39BFE9079E9927920208
@@ -2680,6 +2686,8 @@
     - d.tispy.net
     - pc.freespyapp.com
     - freespyapp.com
+    - spyt.co
+    - spytrac-app1.s3.amazonaws.com
 
 - name : NemoSpy
   names:
