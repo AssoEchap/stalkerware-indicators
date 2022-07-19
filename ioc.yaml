@@ -2865,3 +2865,47 @@
     - 37.120.162.163
     domains:
     - api.mobilespy.at
+
+- name : WebWatcher
+  names:
+  - Atic
+  - Interguard
+  - atispy
+  packages:
+  - com.at.wwka
+  - com.ati.client
+  - com.ati.monitor
+  - com.ati.webwatcherconsole
+  - com.atinc.slcompanion
+  - com.atiw.wc
+  - com.awarenesstech.monitor
+  - com.awarenesstech.wwpapp
+  - com.awarenesstechnologies.sideloadedws
+  - com.awti.slc 
+  - com.ww.companion
+  websites:
+  - webwatcher.com
+  - interguardsoftware.com
+  - www.webwatcher.com
+  certificates:
+  - 35E90A29262F1E6CC25B6E483DEC67161513DE30 
+  - 4E6B680EF3B588EF53097BC7CEFB778833B8A475
+  - 60277E8CE202D8023F2ECC86F1726A50D9990576
+  - AD62CBB4BD298CF69CDA40997C3E5D70112D7161
+  - B9D5BAEDCF0C711317E8B6E54D60F0A5EDEE9517
+  - FC786B8F918655D45245C685A471BD57F02FB366
+  c2:
+    ips: []
+    domains:
+    - api.awarenesstechnologies.com
+    - apitest.awarenesstechnologies.com
+    - data-webwatcherdata-alb-1451089636.us-west-2.elb.amazonaws.com
+    - data.qa.webwatcherdata.com
+    - data.webwatcherdata.com
+    - download.webwatcherdata.com
+    - login.webwatcher.com
+    - rcomlogin.com
+    - webwatcher-child-app.firebaseio.com
+    - webwatcherdata.com
+    - www.webwatchernow.com
+    - webwatchernow.com
