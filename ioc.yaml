@@ -1692,6 +1692,7 @@
     domains:
     - dwn.vys.me
     - www.vys.me
+    - vys.me
 
 - name: MobiSpy
   names:
