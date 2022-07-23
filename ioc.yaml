@@ -2032,9 +2032,11 @@
   - 813A3AD37D87AA36120DFEC64146C311DB5F4CA9
   websites:
   - spyera.com
+  - login.spylogs.com
   c2:
     ips: []
-    domains: []
+    domains:
+    - spylogs.com
 
 - name: AntiFurtoDroid
   names:
