@@ -2870,6 +2870,7 @@
   names:
   - Atic
   - Interguard
+  - Screentime
   - atispy
   packages:
   - com.at.wwka
@@ -2882,10 +2883,12 @@
   - com.awarenesstech.wwpapp
   - com.awarenesstechnologies.sideloadedws
   - com.awti.slc 
+  - com.screentime
   - com.ww.companion
   websites:
-  - webwatcher.com
   - interguardsoftware.com
+  - screentimelabs.com
+  - webwatcher.com
   - www.webwatcher.com
   certificates:
   - 35E90A29262F1E6CC25B6E483DEC67161513DE30 
@@ -2893,6 +2896,7 @@
   - 60277E8CE202D8023F2ECC86F1726A50D9990576
   - AD62CBB4BD298CF69CDA40997C3E5D70112D7161
   - B9D5BAEDCF0C711317E8B6E54D60F0A5EDEE9517
+  - E689432F7C2A39379BD64CB0BD2A6028F3A666DD
   - FC786B8F918655D45245C685A471BD57F02FB366
   c2:
     ips: []
@@ -2905,6 +2909,7 @@
     - download.webwatcherdata.com
     - login.webwatcher.com
     - rcomlogin.com
+    - screentimelabs.appspot.com
     - webwatcher-child-app.firebaseio.com
     - webwatcherdata.com
     - www.webwatchernow.com
