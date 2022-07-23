@@ -59686,6 +59686,132 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "629da264-c4df-4040-a7d2-bd043df9e61e",
+          "object_relation": "domain",
+          "value": "www.apk7.biz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "2ae28a43-065f-41eb-a3f4-b5ef61f559d9",
+          "object_relation": "domain",
+          "value": "msafe.xyz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5d569bc4-9345-4807-ae93-447b5c6ca5d7",
+          "object_relation": "domain",
+          "value": "apk7.biz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e02ba22f-be8d-4fe2-a518-4b0ebfaf6954",
+          "object_relation": "domain",
+          "value": "www.msafe.xyz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bd3fe4f2-8598-43a0-870c-684d49d49c8a",
+          "object_relation": "domain",
+          "value": "izapk.xyz",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "16ea80cf-dee7-4439-9c25-2a553e2748a5",
+          "object_relation": "domain",
+          "value": "e-spy.app",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b4394d99-a627-4751-b383-df18ebe3ecd8",
+          "object_relation": "certificate",
+          "value": "5407E1CC26F28D6024E0384693045AEA2B24C5DA",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "921a0475-1952-4df2-b53b-4390b66459e1",
+          "object_relation": "certificate",
+          "value": "9427212B33E9D3636970EAB73E2845E0DC59B5AA",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "fc37aa7b-db25-43ab-a535-9d863cff3a01",
+          "object_relation": "certificate",
+          "value": "01EFA0C8FAE43215125ACA78308EFB1768FB4049",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "2cc7eb6e-3f81-43f8-9ebc-a9b9a4b94af8",
+          "object_relation": "certificate",
+          "value": "2A1C74FFFE33C7D867C7B284FFDBBA4DDD024450",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e3b8a304-49ef-4ed7-8061-7303a3d327ae",
+          "object_relation": "certificate",
+          "value": "BD3986483D9B962B029D65BF34BF4B7C568FF204",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "fc4cb24d-9010-4439-b13e-c8e0f5559f43",
+          "object_relation": "appid",
+          "value": "com.android.fystem.maps",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "9904b728-fe81-40fd-8b5b-e17026b417a7",
+          "object_relation": "appid",
+          "value": "com.android.system.maps",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c124f6f6-a636-479b-9bc1-239bb3c366a7",
+          "object_relation": "appid",
+          "value": "com.google.android.safe",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -61657,6 +61783,48 @@
       "Attribute": [
         {
           "uuid": "369ece3d-7287-44d7-9a55-89271cc9ab1d",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "f376e214-27ff-432c-a1b9-528ec37efacf",
+      "Attribute": [
+        {
+          "uuid": "0a818c09-12b0-484f-97cd-e06de59c1fb6",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "801911ec-5e36-4aaa-8df7-5e999f668a3b",
+      "Attribute": [
+        {
+          "uuid": "48bdf89a-2f1b-41ca-8c41-e627b391f7ba",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",
