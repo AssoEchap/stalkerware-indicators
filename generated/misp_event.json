@@ -38221,6 +38221,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "fb9994ce-0f52-4883-a66e-2d9d378551b0",
+          "object_relation": "domain",
+          "value": "smsandcalltracker.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -48619,6 +48628,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "d82b02dd-853d-494d-a44c-fa7ac35d8a63",
+          "object_relation": "domain",
+          "value": "phonetrack.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -61597,6 +61615,48 @@
       "Attribute": [
         {
           "uuid": "4d71c038-8f21-48ef-a932-97b5598ed188",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "d4b8672e-ea88-4f10-9060-2bce4ccda6ec",
+      "Attribute": [
+        {
+          "uuid": "3209ef8b-85ea-49a3-8806-282e55a4ef6c",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "6869255d-625d-413f-8a7f-9d5719953c61",
+      "Attribute": [
+        {
+          "uuid": "369ece3d-7287-44d7-9a55-89271cc9ab1d",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",

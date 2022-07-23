@@ -350,6 +350,7 @@ domain,cell-tracker-green.firebaseio.com,TrackMyPhones
 domain,cell-tracker-updated.firebaseio.com,TrackMyPhones
 domain,key-logger-90fff.firebaseio.com,TrackMyPhones
 domain,message-tracker-98822.firebaseio.com,TrackMyPhones
+domain,smsandcalltracker.firebaseio.com,TrackMyPhones
 domain,spyaudiorecorder.firebaseio.com,TrackMyPhones
 domain,trackmyphones-pro.firebaseio.com,TrackMyPhones
 domain,trackmyphones.com,TrackMyPhones
@@ -536,12 +537,13 @@ domain,api.clevguard.com,ClevGuard
 domain,kidsguard-6c6a9.firebaseio.com,ClevGuard
 domain,clevguard.net,ClevGuard
 ipv4,47.88.63.70,ClevGuard
+domain,cell-phones-tracker.net,EasyPhoneTrack
+domain,celltracker.mobi,EasyPhoneTrack
+domain,easyphonetrack.com,EasyPhoneTrack
+domain,phonetrack.com,EasyPhoneTrack
+domain,spy-datacenter.com,EasyPhoneTrack
 domain,studio11-7e288.firebaseio.com,EasyPhoneTrack
 domain,trackmy.mobi,EasyPhoneTrack
-domain,celltracker.mobi,EasyPhoneTrack
-domain,spy-datacenter.com,EasyPhoneTrack
-domain,cell-phones-tracker.net,EasyPhoneTrack
-domain,easyphonetrack.com,EasyPhoneTrack
 domain,www.spy-datacenter.com,EasyPhoneTrack
 ipv4,50.28.38.175,EasyPhoneTrack
 domain,bark-android-media.s3.amazonaws.com,bark
