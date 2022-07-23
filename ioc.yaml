@@ -1608,6 +1608,7 @@
 - name: EasyPhoneTrack
   names:
   - EasyPhoneTrack
+  - Ppapp
   packages:
   - com.spappm_mondow.alarm
   - com.monspap.alarm
@@ -1622,12 +1623,13 @@
     ips:
     - 50.28.38.175
     domains:
+    - cell-phones-tracker.net
+    - celltracker.mobi
+    - easyphonetrack.com
+    - phonetrack.com
+    - spy-datacenter.com
     - studio11-7e288.firebaseio.com
     - trackmy.mobi
-    - celltracker.mobi
-    - spy-datacenter.com
-    - cell-phones-tracker.net
-    - easyphonetrack.com
     - www.spy-datacenter.com
 
 - name: bark
