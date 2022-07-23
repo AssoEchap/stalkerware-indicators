@@ -2935,6 +2935,15 @@
     domains:
     - my.nexspy.com
     - api.mobilebackup.biz
-    - csapi.mobilebackup.biz
-    - csapi.topzaloha.cz
+    - topzaloha.cz
 
+- name : juju
+  names: []
+  packages: []
+  websites:
+  - www.juju.co.ke
+  - juju.co.ke
+  certificates: []
+  c2:
+    ips: []
+    domains: []
