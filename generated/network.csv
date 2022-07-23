@@ -560,6 +560,7 @@ domain,alert.bk128.com,XNSpy
 domain,bk128.com,XNSpy
 domain,dwn.vys.me,MobiStealth
 domain,www.vys.me,MobiStealth
+domain,vys.me,MobiStealth
 ipv4,5.79.71.114,MobiStealth
 domain,my.mobispy.net,MobiSpy
 domain,i6.clientreport.info,NeoSpy
@@ -605,6 +606,7 @@ domain,pctattletalev2.s3.amazonaws.com,pcTattletale
 domain,pctattletale.com,pcTattletale
 ipv4,67.227.193.142,pcTattletale
 domain,send.onespy.com,OneMonitar
+domain,spylogs.com,SpyEra
 domain,app.antifurtodroid.com,AntiFurtoDroid
 domain,beta.smstracker.com,CallSMSTracker
 domain,messages01.smstracker.com,CallSMSTracker
@@ -796,7 +798,11 @@ domain,data.webwatcherdata.com,WebWatcher
 domain,download.webwatcherdata.com,WebWatcher
 domain,login.webwatcher.com,WebWatcher
 domain,rcomlogin.com,WebWatcher
+domain,screentimelabs.appspot.com,WebWatcher
 domain,webwatcher-child-app.firebaseio.com,WebWatcher
 domain,webwatcherdata.com,WebWatcher
 domain,www.webwatchernow.com,WebWatcher
 domain,webwatchernow.com,WebWatcher
+domain,my.nexspy.com,NexSpy
+domain,api.mobilebackup.biz,NexSpy
+domain,topzaloha.cz,NexSpy
