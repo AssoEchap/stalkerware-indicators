@@ -2947,3 +2947,15 @@
   c2:
     ips: []
     domains: []
+
+- name : mSpyitaly
+  names: []
+  packages: []
+  websites:
+  - dc-407883c18502.mspyitaly.com
+  - mspyitaly.com
+  - www.mspyitaly.com
+  certificates: []
+  c2:
+    ips: []
+    domains: []
