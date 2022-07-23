@@ -2642,26 +2642,45 @@
   - Bakuf
   - Clues
   - IZSpy
+  - IzKid
   - ESpy
   packages:
+  - com.android.fystem.maps
+  - com.android.system.maps
   - com.google.android.bacfup
+  - com.google.android.safe
   websites:
+  - 2mata.net
   - clues4.com
-  - hike.in
+  - cluestr.com
   - e-spy.org
+  - hike.in
+  - izkid.com
   - www.e-spy.org
+  - www.izkid.com
   certificates:
-  - A9A302C9606AF4BE4468A4FC74F7873DDADA2AB0
+  - 01EFA0C8FAE43215125ACA78308EFB1768FB4049
+  - 2A1C74FFFE33C7D867C7B284FFDBBA4DDD024450
+  - 5407E1CC26F28D6024E0384693045AEA2B24C5DA
   - 7D0F4308B87223AEEFFA65060F0F752E84D363BE
+  - 9427212B33E9D3636970EAB73E2845E0DC59B5AA
+  - A9A302C9606AF4BE4468A4FC74F7873DDADA2AB0
+  - BD3986483D9B962B029D65BF34BF4B7C568FF204
   c2:
     ips: []
     domains:
+    - apk7.biz
     - clues.link
     - clues4.com
     - cluestr.com
+    - e-spy.app
     - e-spy.org
+    - izapk.xyz
     - izspy-1313.firebaseio.com
+    - msafe.xyz
+    - www.apk7.biz
     - www.e-spy.org
+    - www.msafe.xyz
 
 - name : KidsShield
   names:
