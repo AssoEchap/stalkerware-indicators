@@ -926,20 +926,25 @@
   - CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
   - 5EEC898F0DBBD70A9B33DD16EE5FF06B6DE26EA6
   websites:
-  - www.mspyonline.com
-  - mspyonline.com
   - mliteapp.com
+  - mspy.co.il
   - mspy.co.uk
   - mspy.com
+  - mspy.com.ar
   - mspy.com.br
+  - mspy.com.cn
+  - mspy.fr
   - mspy.in
   - mspy.it
   - mspy.jp
   - mspy.net
   - mspy.nl
+  - mspy.support
   - mspylite.com
+  - mspyonline.com
   - myfonemate.com
   - theispyoo.com
+  - www.mspyonline.com
   c2:
     ips: []
     domains:
