@@ -2914,3 +2914,24 @@
     - webwatcherdata.com
     - www.webwatchernow.com
     - webwatchernow.com
+
+- name : NexSpy
+  names:
+  - Oxy
+  - MobileBackup
+  packages: []
+  websites:
+  - nexspy.com
+  - oxy.nexspy.com
+  - mobilebackup.biz
+  - portal.mobilebackup.biz
+  - portal.topzaloha.cz
+  certificates: []
+  c2:
+    ips: []
+    domains:
+    - my.nexspy.com
+    - api.mobilebackup.biz
+    - csapi.mobilebackup.biz
+    - csapi.topzaloha.cz
+
