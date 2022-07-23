@@ -38149,6 +38149,78 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "a460dbe4-a370-46b8-a5a8-7215d0b83890",
+          "object_relation": "domain",
+          "value": "cell-tracker-updated.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a5dba108-a0f9-4e40-a576-38d302b3f2a3",
+          "object_relation": "certificate",
+          "value": "A93266E83B136CBC220062898D308213263E793A",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "58633099-df39-477c-9931-e1cf6fc988ee",
+          "object_relation": "certificate",
+          "value": "6DB1F33668AA745163DFB6C5614C3800BCA8D693",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0eadbb35-7f12-49d2-963d-21281d10e83b",
+          "object_relation": "certificate",
+          "value": "EBD3713DFB02D79ADC90C88DE1E0B547882F5A42",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e96e7be5-461d-422b-99f8-dc3c9da2954e",
+          "object_relation": "appid",
+          "value": "com.local_cell_tracker_updated",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "76c4aebf-7042-47f6-8cb6-9c57fa7ed97e",
+          "object_relation": "appid",
+          "value": "com.trackmyphones.livefamilytracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "a6b2bc9b-7aa2-4cac-904c-34430a4aabe1",
+          "object_relation": "appid",
+          "value": "com.gcm_call_tracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2a851b29-fd59-47e5-bb3b-875669cc3c62",
+          "object_relation": "appid",
+          "value": "com.gcm_celltracker",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -61483,6 +61555,48 @@
       "Attribute": [
         {
           "uuid": "a040061f-4bc6-49a2-8d6e-a538da676845",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "c8d55331-f594-47b8-9fbe-a1929ee62b6f",
+      "Attribute": [
+        {
+          "uuid": "6efe1d7a-3a53-4d3f-b8a8-c80d869e77e9",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "2164997f-d737-47aa-9268-a17a86e1a13d",
+      "Attribute": [
+        {
+          "uuid": "4d71c038-8f21-48ef-a932-97b5598ed188",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",
