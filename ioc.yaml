@@ -817,19 +817,27 @@
   - com.dev4playapps.whatsdeleted
   - com.gcm_call_sms_tracker
   - com.gcm_call_sms_tracker.updated
+  - com.gcm_call_tracker
+  - com.gcm_celltracker
   - com.local_cell_tracker
+  - com.local_cell_tracker_updated
   - com.soh
   - com.trackerapps.whatsaptracker
   - com.trackmyphone_pro
+  - com.trackmyphones.livefamilytracker
   - com.trackmyphones.recoverphoneusingchatmessages
   - com.trackmyphones.tmpusingchatmessages
   certificates:
   - 37ACE0321E8833F25BDDB363AB395C81354E88A0
   - 554137DEE63BE07CE9687C5886244954277227F5
   - 68AC78A7CD660ED204B4BC3C73A3F91DA1AE45FC
+  - 6DB1F33668AA745163DFB6C5614C3800BCA8D693
+  - 849D181E1BEE5084CBE1BACBA8442996A8B1F8C6
   - 849D181E1BEE5084CBE1BACBA8442996A8B1F8C6
   - 87EF370B8D6E3089E7F8CDDD6E830B5E4C8CF60B
+  - A93266E83B136CBC220062898D308213263E793A
   - B7285348B05EDAEFF7F032384E4F90182E1C1F27
+  - EBD3713DFB02D79ADC90C88DE1E0B547882F5A42
   - F5A5336B28456208EF357B4630A93A91206CF21A
   websites:
   - trackmyphones.com
@@ -837,14 +845,15 @@
   c2:
     ips: []
     domains:
-    - trackmyphones.com
-    - www.trackmyphones.com
-    - message-tracker-98822.firebaseio.com
     - cell-tracker-green.firebaseio.com
-    - trackmyphones-pro.firebaseio.com
+    - cell-tracker-updated.firebaseio.com
     - key-logger-90fff.firebaseio.com
+    - message-tracker-98822.firebaseio.com
     - spyaudiorecorder.firebaseio.com
+    - trackmyphones-pro.firebaseio.com
+    - trackmyphones.com
     - video-recorder-c0419.firebaseio.com
+    - www.trackmyphones.com
 
 - name: FlexiSpy
   names:
