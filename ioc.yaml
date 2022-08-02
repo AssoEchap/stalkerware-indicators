@@ -46,14 +46,17 @@
   - copy9.com
   - exactspy.com
   - fonetracker.com
+  - free.spycell.net
   - guestspy.com
   - ispyoo.com
   - mxspy.com
   - phonespying.com
   - phonetracking.net
   - spyapps.net
+  - spycell.net
   - thetruthspy.com
   - weysys.com
+  - www.mxspy.com
   c2:
     ips:
     - 69.64.74.239
@@ -291,6 +294,7 @@
     ips: []
     domains:
     - 1topspy.com
+    - copy9db.com
     - flushdata.1topspy.com
     - flushdata.hellospy.com
     - flushdata.copy9db.com
@@ -393,7 +397,6 @@
 - name: PhoneSheriff
   names:
   - PhoneSheriff
-  - MobileSpy
   - MobileNanny
   packages:
   - com.retina.phonesheriff
@@ -492,23 +495,28 @@
   - F25D72FCCB84BAF7F73467FC9571024B7E274CA3
   - 71BE35691A181E1524DDF83F931FBC62DC4E7EC6
   websites:
+  - best-mobile-spy.com
   - cocospy.com
+  - cocospy.net
   - fonemonitor.co
   - minspy.com
   - neatspy.com
   - safespy.com
+  - spyic.biz
   - spyic.com
+  - spyier.biz
+  - spyine.biz
   - spyine.com
   - spyzie.com
   - spyzie.io
   - spyzie.online
   - teensafe.net
+  - teensafe.vip
   - www.fonemonitor.co
   - www.minspy.com
   - www.spyic.com
   - www.spyzie.com
   - www.teensafe.net
-  - teensafe.vip
   c2:
     ips: []
     domains:
@@ -521,6 +529,7 @@
     - d.appjiagu.com
     - e.appjiagu.com
     - f.appjiagu.com
+    - fonemonitor.vip
     - g.appjiagu.com
     - data-api.spyzie.com
     - data.api.spyzie.wondershare.cn
@@ -543,6 +552,7 @@
     - s.appjiagu.com
     - safespy.vip
     - sp.kuuvv.com
+    - kuuvv.com
     - spyzie.com
     - trackier.vip
     - trackine.vip
@@ -808,19 +818,26 @@
   - com.dev4playapps.whatsdeleted
   - com.gcm_call_sms_tracker
   - com.gcm_call_sms_tracker.updated
+  - com.gcm_call_tracker
+  - com.gcm_celltracker
   - com.local_cell_tracker
+  - com.local_cell_tracker_updated
   - com.soh
   - com.trackerapps.whatsaptracker
   - com.trackmyphone_pro
+  - com.trackmyphones.livefamilytracker
   - com.trackmyphones.recoverphoneusingchatmessages
   - com.trackmyphones.tmpusingchatmessages
   certificates:
   - 37ACE0321E8833F25BDDB363AB395C81354E88A0
   - 554137DEE63BE07CE9687C5886244954277227F5
   - 68AC78A7CD660ED204B4BC3C73A3F91DA1AE45FC
+  - 6DB1F33668AA745163DFB6C5614C3800BCA8D693
   - 849D181E1BEE5084CBE1BACBA8442996A8B1F8C6
   - 87EF370B8D6E3089E7F8CDDD6E830B5E4C8CF60B
+  - A93266E83B136CBC220062898D308213263E793A
   - B7285348B05EDAEFF7F032384E4F90182E1C1F27
+  - EBD3713DFB02D79ADC90C88DE1E0B547882F5A42
   - F5A5336B28456208EF357B4630A93A91206CF21A
   websites:
   - trackmyphones.com
@@ -828,14 +845,16 @@
   c2:
     ips: []
     domains:
-    - trackmyphones.com
-    - www.trackmyphones.com
-    - message-tracker-98822.firebaseio.com
     - cell-tracker-green.firebaseio.com
-    - trackmyphones-pro.firebaseio.com
+    - cell-tracker-updated.firebaseio.com
     - key-logger-90fff.firebaseio.com
+    - message-tracker-98822.firebaseio.com
+    - smsandcalltracker.firebaseio.com
     - spyaudiorecorder.firebaseio.com
+    - trackmyphones-pro.firebaseio.com
+    - trackmyphones.com
     - video-recorder-c0419.firebaseio.com
+    - www.trackmyphones.com
 
 - name: FlexiSpy
   names:
@@ -856,6 +875,10 @@
   - community.flexispy.com
   - blog.flexispy.com
   - www.flexispy.com
+  - mobilefonex.com
+  - mobileapps.com.my
+  - flexispy.mobileapps.com.my
+  - svlogin.asia
   c2:
     ips:
     - 119.8.35.235
@@ -913,19 +936,25 @@
   - CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
   - 5EEC898F0DBBD70A9B33DD16EE5FF06B6DE26EA6
   websites:
-  - www.mspyonline.com
-  - mspyonline.com
-  - mspylite.com
-  - mspy.nl
+  - mliteapp.com
+  - mspy.co.il
   - mspy.co.uk
-  - mspy.net
+  - mspy.com
+  - mspy.com.ar
+  - mspy.com.br
+  - mspy.com.cn
+  - mspy.fr
   - mspy.in
   - mspy.it
   - mspy.jp
-  - mspy.com.br
-  - mspy.com
-  - mliteapp.com
+  - mspy.net
+  - mspy.nl
+  - mspy.support
+  - mspylite.com
+  - mspyonline.com
+  - myfonemate.com
   - theispyoo.com
+  - www.mspyonline.com
   c2:
     ips: []
     domains:
@@ -1029,6 +1058,8 @@
   - app.freephonespy.net
   - app.freephonespy.net
   - app.mobilespyfree.net
+  - app.phonespying.com
+  - appspy.com
   - appspy.net
   - appspyfree.com
   - apptracker.net
@@ -1039,15 +1070,18 @@
   - freephonespy.net
   - justseries.net
   - mobilespyfree.net
+  - phonespying.com
   - spyadvice.com
   - spyren.com
   - trackerfree.net
+  - www.appspy.com
   - www.appspy.net
   - www.apptracker.net
   - www.cellphonespyappon.com
   - www.freemobilespy.net
   - www.freephonespy.net
   - www.mobilespyfree.net
+  - www.phonespying.com
   - www.spyadvice.com
   - www.spyren.com
   - www.trackerfree.net
@@ -1167,6 +1201,7 @@
   - support.mobile-tracker-free.com
   - support.loverman.net
   - mobile-tracker.mobi
+  - mobitrackapps.com
   c2:
     ips:
     - 51.15.183.209
@@ -1558,7 +1593,6 @@
     - node4.theonespy.com
     - node5.theonespy.com
 
-
 - name: ClevGuard
   names:
   - ClevGuard
@@ -1581,6 +1615,7 @@
 - name: EasyPhoneTrack
   names:
   - EasyPhoneTrack
+  - Ppapp
   packages:
   - com.spappm_mondow.alarm
   - com.monspap.alarm
@@ -1595,12 +1630,13 @@
     ips:
     - 50.28.38.175
     domains:
+    - cell-phones-tracker.net
+    - celltracker.mobi
+    - easyphonetrack.com
+    - phonetrack.com
+    - spy-datacenter.com
     - studio11-7e288.firebaseio.com
     - trackmy.mobi
-    - celltracker.mobi
-    - spy-datacenter.com
-    - cell-phones-tracker.net
-    - easyphonetrack.com
     - www.spy-datacenter.com
 
 - name: bark
@@ -1687,6 +1723,7 @@
     domains:
     - dwn.vys.me
     - www.vys.me
+    - vys.me
 
 - name: MobiSpy
   names:
@@ -2027,9 +2064,11 @@
   - 813A3AD37D87AA36120DFEC64146C311DB5F4CA9
   websites:
   - spyera.com
+  - login.spylogs.com
   c2:
     ips: []
-    domains: []
+    domains:
+    - spylogs.com
 
 - name: AntiFurtoDroid
   names:
@@ -2604,38 +2643,62 @@
   - Bakuf
   - Clues
   - IZSpy
+  - IzKid
   - ESpy
   packages:
+  - com.android.fystem.maps
+  - com.android.system.maps
   - com.google.android.bacfup
+  - com.google.android.safe
   websites:
+  - 2mata.net
   - clues4.com
-  - hike.in
+  - cluestr.com
   - e-spy.org
+  - hike.in
+  - izkid.com
   - www.e-spy.org
+  - www.izkid.com
   certificates:
-  - A9A302C9606AF4BE4468A4FC74F7873DDADA2AB0
+  - 01EFA0C8FAE43215125ACA78308EFB1768FB4049
+  - 2A1C74FFFE33C7D867C7B284FFDBBA4DDD024450
+  - 5407E1CC26F28D6024E0384693045AEA2B24C5DA
   - 7D0F4308B87223AEEFFA65060F0F752E84D363BE
+  - 9427212B33E9D3636970EAB73E2845E0DC59B5AA
+  - A9A302C9606AF4BE4468A4FC74F7873DDADA2AB0
+  - BD3986483D9B962B029D65BF34BF4B7C568FF204
   c2:
     ips: []
     domains:
+    - apk7.biz
     - clues.link
     - clues4.com
     - cluestr.com
+    - e-spy.app
     - e-spy.org
+    - izapk.xyz
     - izspy-1313.firebaseio.com
+    - msafe.xyz
+    - www.apk7.biz
     - www.e-spy.org
+    - www.msafe.xyz
 
 - name : KidsShield
   names:
-  - TiSpy
+  - KidLogger
   - MonitorMinor
   - SelfSpy
+  - SpyTrac
+  - TelcadoAndroid
   - TiFamily
+  - TiSpy
+  - Triada
   packages:
   - com.aixlunro.uqfhkagb
   - com.aixlunro.uqfhkagb
   - com.bzbqbkya.hgozttiu
   - com.gzomoyig.qwgawtaz
+  - com.android.inputmethod.latinmy
   - com.ntckdlhc.oifhnjwp
   - com.selgdg.febgdsra
   - com.selgdg.mardsdaf
@@ -2661,6 +2724,7 @@
   certificates:
   - 1A6D10E15280C6A938EED9BEF53A31DA0CEBA45A
   - FD84821C80C1499A2446F6F7E13BF8BDA6A66402
+  - A2EBDD14E2AE17F52363BCB751CCBE15BE5A2F8D 
   - 272CD0BC357FA03AF87940644CB8FFDECD2FDDC6
   - 35D1DB3904A84793394FE5DF7B678E263B1B33A0
   - 5EF38D0143F601FD01AA39BFE9079E9927920208
@@ -2682,6 +2746,8 @@
     - d.tispy.net
     - pc.freespyapp.com
     - freespyapp.com
+    - spyt.co
+    - spytrac-app1.s3.amazonaws.com
 
 - name : NemoSpy
   names:
@@ -2837,3 +2903,113 @@
     - spytomobile.com
     - tagdps.ru
     - tfk7r22klf8vtd8g90jq8qno1tpqhmpe.apps.googleusercontent.com
+
+- name : MobileSpy
+  names: []
+  packages: []
+  websites:
+  - de.mobilespy.at
+  - es.mobilespy.at
+  - fr.mobilespy.at
+  - it.mobilespy.at
+  - mobilespy.at
+  - pt.mobilespy.at
+  - ro.mobilespy.at
+  - www.mobilespy.at
+  certificates: []
+  c2:
+    ips:
+    - 37.120.162.163
+    domains:
+    - api.mobilespy.at
+
+- name : WebWatcher
+  names:
+  - Atic
+  - Interguard
+  - Screentime
+  - atispy
+  packages:
+  - com.at.wwka
+  - com.ati.client
+  - com.ati.monitor
+  - com.ati.webwatcherconsole
+  - com.atinc.slcompanion
+  - com.atiw.wc
+  - com.awarenesstech.monitor
+  - com.awarenesstech.wwpapp
+  - com.awarenesstechnologies.sideloadedws
+  - com.awti.slc 
+  - com.screentime
+  - com.ww.companion
+  websites:
+  - interguardsoftware.com
+  - screentimelabs.com
+  - webwatcher.com
+  - www.webwatcher.com
+  certificates:
+  - 35E90A29262F1E6CC25B6E483DEC67161513DE30 
+  - 4E6B680EF3B588EF53097BC7CEFB778833B8A475
+  - 60277E8CE202D8023F2ECC86F1726A50D9990576
+  - AD62CBB4BD298CF69CDA40997C3E5D70112D7161
+  - B9D5BAEDCF0C711317E8B6E54D60F0A5EDEE9517
+  - E689432F7C2A39379BD64CB0BD2A6028F3A666DD
+  - FC786B8F918655D45245C685A471BD57F02FB366
+  c2:
+    ips: []
+    domains:
+    - api.awarenesstechnologies.com
+    - apitest.awarenesstechnologies.com
+    - data-webwatcherdata-alb-1451089636.us-west-2.elb.amazonaws.com
+    - data.qa.webwatcherdata.com
+    - data.webwatcherdata.com
+    - download.webwatcherdata.com
+    - login.webwatcher.com
+    - rcomlogin.com
+    - screentimelabs.appspot.com
+    - webwatcher-child-app.firebaseio.com
+    - webwatcherdata.com
+    - www.webwatchernow.com
+    - webwatchernow.com
+
+- name : NexSpy
+  names:
+  - Oxy
+  - MobileBackup
+  packages: []
+  websites:
+  - nexspy.com
+  - oxy.nexspy.com
+  - mobilebackup.biz
+  - portal.mobilebackup.biz
+  - portal.topzaloha.cz
+  certificates: []
+  c2:
+    ips: []
+    domains:
+    - my.nexspy.com
+    - api.mobilebackup.biz
+    - topzaloha.cz
+
+- name : juju
+  names: []
+  packages: []
+  websites:
+  - www.juju.co.ke
+  - juju.co.ke
+  certificates: []
+  c2:
+    ips: []
+    domains: []
+
+- name : mSpyitaly
+  names: []
+  packages: []
+  websites:
+  - dc-407883c18502.mspyitaly.com
+  - mspyitaly.com
+  - www.mspyitaly.com
+  certificates: []
+  c2:
+    ips: []
+    domains: []
