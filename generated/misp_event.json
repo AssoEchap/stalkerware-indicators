@@ -52954,6 +52954,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "9b8fd38e-dc64-49bc-9089-3e01ece45260",
+          "object_relation": "domain",
+          "value": "installam.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -62170,6 +62179,48 @@
       "Attribute": [
         {
           "uuid": "4106bee9-f051-4676-9841-4f2c95739d04",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "05224d4e-065b-4887-bfee-637e86e9b1cf",
+      "Attribute": [
+        {
+          "uuid": "f9e0e15a-a215-4497-96f3-584e596e5068",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "943ce16b-4e4d-497d-a12b-8fef6453c481",
+      "Attribute": [
+        {
+          "uuid": "235743a2-db0c-4f05-adee-39dd72967a54",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",
