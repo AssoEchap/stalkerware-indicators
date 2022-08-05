@@ -1654,9 +1654,9 @@
     - bark-android-media.s3.amazonaws.com
     - www.bark.us
 
-- name: SpyLive260
+- name: SpyLive360
   names:
-  - SpyLive260
+  - SpyLive360
   packages:
   - com.sl360
   - com.itqredn8dzrl
