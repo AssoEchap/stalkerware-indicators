@@ -62018,6 +62018,168 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "7ce3238c-811f-4bef-b8a2-9918d0889bbf",
+      "Attribute": [
+        {
+          "uuid": "5030db38-eec2-41f3-a5d3-6b75f506c422",
+          "object_relation": "name",
+          "value": "SpyLive360",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "6210f29e-501d-410b-84ba-fd5e95d5393e",
+          "object_relation": "domain",
+          "value": "spylive360.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ab305f39-d819-4e36-ac40-33a0c7bbdda9",
+          "object_relation": "domain",
+          "value": "s1.spylive360.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "396ef528-5ff6-4fba-9f70-301acf536234",
+          "object_relation": "domain",
+          "value": "sl360-7ba65.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4101f2a8-072e-40a4-b87e-d1ff38a5d821",
+          "object_relation": "domain",
+          "value": "s3.spylive360.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "11354936-395f-497d-9439-1c0c7a91f781",
+          "object_relation": "domain",
+          "value": "s2.spylive360.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "8aac92be-27de-4e81-9ff5-0ef7dcd09037",
+          "object_relation": "certificate",
+          "value": "73BF44A503427F7682C7136B109631E3BE4114DE",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "1e362a41-17c8-4c28-b5f0-d61486f0e2db",
+          "object_relation": "certificate",
+          "value": "630BB83172B184A6571126229E2B2DCA2EB4123F",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "8adad488-6eb9-4af9-8fc7-cd261e02b278",
+          "object_relation": "appid",
+          "value": "com.w1f1",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "cbe896ab-ec94-490e-a832-38d195c691a2",
+          "object_relation": "appid",
+          "value": "com.sl360",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f538bcdf-89cd-48c8-955f-af9e8ed31e26",
+          "object_relation": "appid",
+          "value": "com.wifi0",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "68b4a6e9-00ec-41a4-99aa-2bf19e41ddd2",
+          "object_relation": "appid",
+          "value": "com.itqredn8dzrl",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "dd3d8071-229b-43f5-8cba-9e63234aee6c",
+      "Attribute": [
+        {
+          "uuid": "7b0f0be5-d421-478d-baed-a2c40acc71f4",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "b3d428c4-2106-4cd9-b722-80acfbfc75db",
+      "Attribute": [
+        {
+          "uuid": "4106bee9-f051-4676-9841-4f2c95739d04",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
