@@ -1821,9 +1821,11 @@
   - androidmonitor.com
   - www.androidmonitor.com
   c2:
-    ips: []
+    ips:
+    - 178.33.203.110
     domains:
     - server.androidmonitor.com
+    - installam.com
 
 - name: TalkLog
   names:
