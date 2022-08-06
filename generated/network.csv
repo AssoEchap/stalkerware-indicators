@@ -548,11 +548,11 @@ domain,www.spy-datacenter.com,EasyPhoneTrack
 ipv4,50.28.38.175,EasyPhoneTrack
 domain,bark-android-media.s3.amazonaws.com,bark
 domain,www.bark.us,bark
-domain,s1.spylive360.com,SpyLive260
-domain,s2.spylive360.com,SpyLive260
-domain,s3.spylive360.com,SpyLive260
-domain,spylive360.com,SpyLive260
-domain,sl360-7ba65.firebaseio.com,SpyLive260
+domain,s1.spylive360.com,SpyLive360
+domain,s2.spylive360.com,SpyLive360
+domain,s3.spylive360.com,SpyLive360
+domain,spylive360.com,SpyLive360
+domain,sl360-7ba65.firebaseio.com,SpyLive360
 domain,xnspy.com,XNSpy
 domain,sync.xiz4me.com,XNSpy
 domain,alert.xiz4me.com,XNSpy
@@ -587,6 +587,8 @@ domain,staging-all-tracker.appspot.com,AllTracker
 domain,www.spy-phone-app.com,SpyPhoneApp
 domain,www.spappmonitoring.com,SpyPhoneApp
 domain,server.androidmonitor.com,AndroidMonitor
+domain,installam.com,AndroidMonitor
+ipv4,178.33.203.110,AndroidMonitor
 domain,talklog.tools,TalkLog
 domain,tchsrvce.com,TalkLog
 ipv4,78.46.34.14,TalkLog
