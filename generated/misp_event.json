@@ -32719,6 +32719,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "35470840-d977-4896-ab97-5c6acff31808",
+          "object_relation": "sha256",
+          "value": "bb2c39ec7dce3e1f30c1dbf55e5662f421adf968f3be7018b0c7946f1304a65b",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -41472,6 +41481,24 @@
           "uuid": "d45f649f-019e-422b-aacf-2e9b5203725f",
           "object_relation": "certificate",
           "value": "523C42BF2F6CBAFC78BE41043E8E3E3BB311CBA2",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "68ea1d0a-c4e9-4b80-a2f7-3f15f69397c1",
+          "object_relation": "sha256",
+          "value": "4601c28bb41bcc466c28a4f07d714bd9ee0a40923021ef6f80cffbb52e5b886a",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "c3e6d820-f982-4895-bb0f-9a80725a13bc",
+          "object_relation": "certificate",
+          "value": "77032E80CC0ECEE49B8F2F58F9999330026E0DB3",
           "type": "sha1",
           "disable_correlation": false,
           "to_ids": true,
@@ -53791,6 +53818,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "b4e88649-db14-48f7-8c23-6d40e1e63791",
+          "object_relation": "sha256",
+          "value": "96fa9419cfc95046327bf9d991a27dbc554f59de768221a246dfd6aa45a8fdf3",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -56850,6 +56886,24 @@
           "uuid": "7925e89f-ba97-4707-aea2-09d74dbb2c8c",
           "object_relation": "certificate",
           "value": "B8FCBCA563B1CD0E79CAC595002422C2E54072B7",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "57d8a495-e313-40b8-a98d-c1ad687b8bc6",
+          "object_relation": "sha256",
+          "value": "5b9067b08afe27a6e6afc939ed441e3c3575b7566698e59c647cd89ffc813169",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "986f5c18-969f-407b-bb61-9b357659f747",
+          "object_relation": "certificate",
+          "value": "CF627144481D3F1DCFBB6CF12291C540AE325FBE",
           "type": "sha1",
           "disable_correlation": false,
           "to_ids": true,
@@ -62407,6 +62461,48 @@
       "Attribute": [
         {
           "uuid": "7aa53639-ccaf-42ac-9abb-7e7e89fcc3ba",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "af414384-e468-443f-94ab-2f917d7697eb",
+      "Attribute": [
+        {
+          "uuid": "ccc310be-a846-4086-bf96-6802192f7838",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "ab9ca904-8117-4e64-84ef-99cd51eafd23",
+      "Attribute": [
+        {
+          "uuid": "6e711cd8-96ee-4a51-b98b-7159bde75d8a",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",
