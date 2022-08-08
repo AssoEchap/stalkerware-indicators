@@ -8,6 +8,8 @@ free time and many apps are likely missing. Use it carefully. No detection
 based on these indicators should not be understood as having no stalkerware
 installed._
 
+This repository is maintained by [Julien Voisin](https://dustri.org/) and [Tek](https://github.com/Te-k) for the [Echap](https://echap.eu.org/) non-profit organisation.
+
 ## What's a stalkerware?
 
 We're using the definition of the [Coalition Against Stalkerware](https://stopstalkerware.org/):
@@ -145,19 +147,16 @@ This repository includes indicators for 91 stalkerware applications
 
 ## Contributions
 
-This repository is maintained by the [Echap](https://echap.eu.org/) non-profit organisation.
-
 Contributors include:
 
 - [Abir Ghattas](https://twitter.com/AbirGhattas)
 - [Anne Roth](https://twitter.com/annalist)
 - [Jo Coscia](https://github.com/jcoscia)
-- [Julien Voisin](https://dustri.org/)
 - [Esther](https://twitter.com/U039b)
 - [Jurre van Bergen](https://twitter.com/DrWhax)
 - [@nscrutables](https://twitter.com/nscrutables)
 
-These indicators were largely based on research and analysis using [APKlab](https://www.apklab.io/), [Koodous](https://koodous.com/) and [VirusTotal](https://www.virustotal.com/).
+These indicators are largely based on research and analysis using [APKlab](https://www.apklab.io/), [Koodous](https://koodous.com/) and [VirusTotal](https://www.virustotal.com/).
 
 ## Please Contribute
 
@@ -187,6 +186,3 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
-
-
-
