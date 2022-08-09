@@ -40702,6 +40702,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "b375bcc7-536b-4488-8d34-b386b4ac3e00",
+          "object_relation": "sha256",
+          "value": "585ff51e2cb9cd41dd0c0c931f4804ab475cc73cf1aea718883d0e78a891f946",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -54544,6 +54553,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "dc567473-7157-436f-b0a7-306520dfbfc8",
+          "object_relation": "sha256",
+          "value": "0c40f1df2185f6a19126230eb474ad04ce4766c34d2184a9ef7f7f8b2822abd6",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -60481,6 +60499,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "d54f7041-3dec-4e95-99ff-b5c38598e8fe",
+          "object_relation": "sha256",
+          "value": "42c8b1ecc6d2928cff2206c1a7d5ab6360767ea8d75aa5dc837f9c58cf81e38c",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -62341,6 +62368,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "c4ec543e-6638-4b41-be60-7554f309bf2d",
+          "object_relation": "sha256",
+          "value": "fe3b4aa318a7f9c16c9afb8dda2d20fa92ce3c2e16573bffb5b7c21c4330e71f",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -62503,6 +62539,48 @@
       "Attribute": [
         {
           "uuid": "6e711cd8-96ee-4a51-b98b-7159bde75d8a",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "201c0e4a-1c1f-48c0-9e50-9213b16ff6fa",
+      "Attribute": [
+        {
+          "uuid": "79588942-5587-41b6-b132-6bf9b2364741",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "f9263c47-c9b1-4bc7-a4ed-11d209d49185",
+      "Attribute": [
+        {
+          "uuid": "d8a20aca-a469-497b-9ddd-60dcdd6b2b93",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",
