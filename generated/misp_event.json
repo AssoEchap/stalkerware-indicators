@@ -38959,6 +38959,114 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "532ad504-5148-480c-ac22-8874a9c1aac1",
+          "object_relation": "domain",
+          "value": "mlite-socket.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c5f4b895-bba5-4f7c-a950-9accaf11718d",
+          "object_relation": "domain",
+          "value": "mi.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "dcd8883a-c128-4c1c-96fd-00787c424a3c",
+          "object_relation": "domain",
+          "value": "mcloud-api.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "37c20af5-b8eb-419c-be73-dbfc8945bf8a",
+          "object_relation": "domain",
+          "value": "a-qa3.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "28eab7ea-8fad-4cd5-9ac0-5acc4af20189",
+          "object_relation": "domain",
+          "value": "eyezyapp.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3d6edb97-5892-4902-8cab-9e8fde484941",
+          "object_relation": "domain",
+          "value": "mlite-app.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "833a8968-706f-40aa-a8fd-21cd4810d4eb",
+          "object_relation": "domain",
+          "value": "s3.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "baf6c82d-51ce-484d-9c03-2d73c7e6eb58",
+          "object_relation": "domain",
+          "value": "hz-service.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "aa0f8172-e12c-4789-950c-41f32387d89a",
+          "object_relation": "domain",
+          "value": "bi.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "398dc447-e2c9-41d2-9f2a-5be7a0449e04",
+          "object_relation": "domain",
+          "value": "api.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6791b2f0-741c-45be-861f-4e83bf264f0f",
+          "object_relation": "domain",
+          "value": "jailbreak-gateway.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b17a0d81-1495-4062-93ed-c9ec7a58a010",
+          "object_relation": "domain",
+          "value": "hz7.thd.cc",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -53836,6 +53944,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "698abfcc-472e-441a-a84f-8bee339a42dd",
+          "object_relation": "domain",
+          "value": "spysetup.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -62668,6 +62785,48 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "fd01dfb9-6a73-4e95-9f33-fc9d603d51e8",
+      "Attribute": [
+        {
+          "uuid": "b60d15c2-8f70-4fc3-b1a6-2224e8b82271",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "bc2f8dde-fa2e-45e5-92a5-413509263164",
+      "Attribute": [
+        {
+          "uuid": "53cd2d78-abd1-40ed-9420-39785b86f77f",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",

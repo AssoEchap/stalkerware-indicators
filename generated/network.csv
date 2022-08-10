@@ -371,6 +371,19 @@ domain,trkps.com,FlexiSpy
 ipv4,119.8.35.235,FlexiSpy
 domain,api-project-999803017449.firebaseio.com,Cerberus
 domain,cerberusapp.com,Cerberus
+domain,mlite-app.thd.cc,mSpy
+domain,eyezyapp.thd.cc,mSpy
+domain,pipe.thd.cc,mSpy
+domain,mlite-socket.thd.cc,mSpy
+domain,jailbreak-gateway.thd.cc,mSpy
+domain,bi.thd.cc,mSpy
+domain,a-qa3.thd.cc,mSpy
+domain,hz-service.thd.cc,mSpy
+domain,hz7.thd.cc,mSpy
+domain,mi.thd.cc,mSpy
+domain,s3.thd.cc,mSpy
+domain,api.thd.cc,mSpy
+domain,mcloud-api.thd.cc,mSpy
 domain,a.thd.cc,mSpy
 domain,b55y.net,mSpy
 domain,cp.mspyonline.com,mSpy
@@ -597,6 +610,7 @@ domain,imobispy.com,SpyMasterPro
 domain,spymaster-e535b.firebaseio.com,SpyMasterPro
 ipv4,91.121.70.22,SpyMasterPro
 domain,server.freeandroidspy.com,FreeAndroidSpy
+domain,spysetup.com,FreeAndroidSpy
 ipv4,46.40.125.240,FreeAndroidSpy
 ipv4,199.38.181.70,FreeAndroidSpy
 domain,netspy-7b8ec.firebaseio.com,NetSpy
