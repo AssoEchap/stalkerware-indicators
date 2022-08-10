@@ -1,10 +1,3 @@
-#- name:
-#  names:
-#  packages:
-#  certificates:
-#  websites:
-#  c2:
-
 - name: TheTruthSpy
   names:
   - Copy9
@@ -922,19 +915,28 @@
 
 - name: mSpy
   names:
+  - celSpy
+  - eyeZy
   - mSpy
+  - mSpyOnline
+  - FakeSys
   packages:
-  - android.sys.process
-  - system.framework
-  - com.mspy.lite
-  - med.mspy.mspy
   - android.helper.system
+  - android.sys.process
+  - com.android.keyboardhelper
+  - com.mspy.lite
+  - core.framework
+  - com.eyezy.android
   - core.update.framework
+  - med.mspy.mspy
+  - system.framework
   certificates:
+  - 021985CEA754D8E58D538D2FEDFF6B1565A6B45B
   - 3930B621F30D13D24692CBBBBC67C59F92F1C9BD
-  - 7FFE6DA96346FEE822E1F791176CD6970A1DC770
-  - CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
   - 5EEC898F0DBBD70A9B33DD16EE5FF06B6DE26EA6
+  - 7FFE6DA96346FEE822E1F791176CD6970A1DC770
+  - 3E1A6646C93A7423A25104A88DA5BECE2F35EFF0
+  - CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
   websites:
   - mliteapp.com
   - mspy.co.il
@@ -951,39 +953,49 @@
   - mspy.nl
   - mspy.support
   - mspylite.com
+  - www.eyezy.com
   - mspyonline.com
   - myfonemate.com
   - theispyoo.com
   - www.mspyonline.com
+  - www.mspy.com
   c2:
     ips: []
     domains:
-    - mlite-app.thd.cc
-    - eyezyapp.thd.cc
-    - pipe.thd.cc
-    - mlite-socket.thd.cc
-    - jailbreak-gateway.thd.cc
-    - bi.thd.cc
     - a-qa3.thd.cc
+    - a.thd.cc
+    - api.thd.cc
+    - apiv4.alter757.info
+    - b55y.net
+    - bi.thd.cc
+    - cp.mspyonline.com
+    - cp.mspyonline.com
+    - eyezyapp.thd.cc
+    - getmspy.net
     - hz-service.thd.cc
     - hz7.thd.cc
-    - mi.thd.cc
-    - s3.thd.cc
-    - api.thd.cc
+    - jailbreak-gateway.thd.cc
+    - kypler.com
     - mcloud-api.thd.cc
-    - a.thd.cc
-    - b55y.net
-    - cp.mspyonline.com
-    - getmspy.net
+    - mi.thd.cc
+    - mlite-app.thd.cc
+    - mlite-socket.thd.cc
+    - mliteapp.alter757.info
+    - mspy.alter757.info
+    - mspyonline.com
+    - mspytrackercom.alter757.info
     - my.mspyonline.com
+    - update-service-7e59f.firebaseio.com
     - pipe.thd.cc
     - project-323448153542050953.firebaseio.com
     - q12z.net
     - repo.mspyonline.com
+    - s3.thd.cc
     - thd.cc
     - tracking.mliteapp.com
+    - tracking.mspyonline.com
     - www.mspyonline.com
-
+    - www.mspy.com
 
 - name: SpyHide
   names:
@@ -2062,18 +2074,6 @@
     domains:
     - send.onespy.com
 
-- name: eyeZy
-  names:
-  - eyeZy
-  packages:
-  - com.eyezy.android
-  certificates:
-  - 3E1A6646C93A7423A25104A88DA5BECE2F35EFF0
-  websites:
-  - www.eyezy.com
-  c2:
-    ips: []
-    domains: []
 
 - name: SpyEra
   names:
