@@ -958,6 +958,19 @@
   c2:
     ips: []
     domains:
+    - mlite-app.thd.cc
+    - eyezyapp.thd.cc
+    - pipe.thd.cc
+    - mlite-socket.thd.cc
+    - jailbreak-gateway.thd.cc
+    - bi.thd.cc
+    - a-qa3.thd.cc
+    - hz-service.thd.cc
+    - hz7.thd.cc
+    - mi.thd.cc
+    - s3.thd.cc
+    - api.thd.cc
+    - mcloud-api.thd.cc
     - a.thd.cc
     - b55y.net
     - cp.mspyonline.com
