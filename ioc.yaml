@@ -3022,3 +3022,16 @@
   c2:
     ips: []
     domains: []
+
+- name : MyCellSpy
+  names: []
+  packages: []
+  websites:
+  - mycellspy.com
+  - cezz.me
+  - user.mycellspy.com
+  certificates: []
+  c2:
+    ips: []
+    domains:
+    - api.mycellspy.com
