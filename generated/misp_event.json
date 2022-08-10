@@ -62591,6 +62591,87 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "328f3320-1eba-41fb-86e6-6cbf2adf09fd",
+      "Attribute": [
+        {
+          "uuid": "0308d65b-b608-4954-bf63-2f9f42537607",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "c43ff5d6-1e9f-473f-9933-3b05d6a14af2",
+      "Attribute": [
+        {
+          "uuid": "45597296-459f-4e04-8bec-702ba1c4eb9c",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "13b91adc-ca30-4d51-96a2-2809b6f92955",
+      "Attribute": [
+        {
+          "uuid": "2049b08b-d5ad-4cdc-bdb3-de4d608c7199",
+          "object_relation": "name",
+          "value": "MyCellSpy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "03ece49e-f567-4087-9db8-2f4f8b37ceeb",
+          "object_relation": "domain",
+          "value": "api.mycellspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e2f94771-1cb1-468d-ba86-d71f1d690eb3",
+          "object_relation": "sha256",
+          "value": "dbcd604e4f1899845f9cb82295bb43a8ac91b5a2d42f5611f72e9cef55575ece",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",

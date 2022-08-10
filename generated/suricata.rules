@@ -819,3 +819,4 @@ alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE WebWatcher (webwatchern
 alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE NexSpy (my[.]nexspy[.]com)"; dns.query; content:"my.nexspy.com"; depth:13; nocase; endswith; fast_pattern; classtype:targeted-activity; sid:1000818; rev:1;)
 alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE NexSpy (api[.]mobilebackup[.]biz)"; dns.query; content:"api.mobilebackup.biz"; depth:20; nocase; endswith; fast_pattern; classtype:targeted-activity; sid:1000819; rev:1;)
 alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE NexSpy (topzaloha[.]cz)"; dns.query; content:"topzaloha.cz"; depth:12; nocase; endswith; fast_pattern; classtype:targeted-activity; sid:1000820; rev:1;)
+alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE MyCellSpy (api[.]mycellspy[.]com)"; dns.query; content:"api.mycellspy.com"; depth:17; nocase; endswith; fast_pattern; classtype:targeted-activity; sid:1000821; rev:1;)
