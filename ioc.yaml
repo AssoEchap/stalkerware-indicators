@@ -3038,13 +3038,18 @@
     domains: []
 
 - name : MyCellSpy
-  names: []
-  packages: []
+  names:
+  - CellSpy
+  - MCSpy
+  packages:
+  - com.cryzp.leplluln
   websites:
   - mycellspy.com
   - cezz.me
   - user.mycellspy.com
   certificates: []
+  certificate_organizations:
+  - H20201128
   c2:
     ips: []
     domains:
