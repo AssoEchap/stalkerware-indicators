@@ -39067,6 +39067,132 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "6203c981-661d-46af-9a97-1699d3845890",
+          "object_relation": "domain",
+          "value": "mspytrackercom.alter757.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "caab8c89-26d7-4926-bff2-a663c04e135b",
+          "object_relation": "domain",
+          "value": "www.mspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "772f508f-e7cc-4eeb-ae00-31d4f29e9e04",
+          "object_relation": "domain",
+          "value": "apiv4.alter757.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "890ce653-bbac-4de6-bc7a-101da8e285a7",
+          "object_relation": "domain",
+          "value": "mliteapp.alter757.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1bdc8ae2-923b-46be-a4ed-f541de808fc8",
+          "object_relation": "domain",
+          "value": "kypler.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "22e072ee-ccca-4ec8-9345-7569172dd58a",
+          "object_relation": "domain",
+          "value": "update-service-7e59f.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6a7ff5b8-ba64-443d-89b4-139c9dc59fa7",
+          "object_relation": "domain",
+          "value": "mspy.alter757.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "25377c12-8104-4055-9ae8-ca9f9d068fec",
+          "object_relation": "domain",
+          "value": "tracking.mspyonline.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "814e2d09-3264-4db7-9063-5d74970fdc57",
+          "object_relation": "domain",
+          "value": "mspyonline.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5bf89a41-9d18-416a-a539-2ef718943590",
+          "object_relation": "certificate",
+          "value": "021985CEA754D8E58D538D2FEDFF6B1565A6B45B",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0624d55d-ae8b-4c34-a55c-fdd076ab42da",
+          "object_relation": "certificate",
+          "value": "3E1A6646C93A7423A25104A88DA5BECE2F35EFF0",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "42dd7623-10d1-426f-80b2-268f470c7e46",
+          "object_relation": "appid",
+          "value": "com.android.keyboardhelper",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c7f44ce2-1a61-4acd-8d5f-fc1b826103eb",
+          "object_relation": "appid",
+          "value": "com.eyezy.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "f4c7f39b-c6a0-4791-a265-de812c30e6ba",
+          "object_relation": "appid",
+          "value": "core.framework",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -62821,6 +62947,48 @@
       "Attribute": [
         {
           "uuid": "53cd2d78-abd1-40ed-9420-39785b86f77f",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "13cd64cf-3758-4b5e-9e18-0df5746db922",
+      "Attribute": [
+        {
+          "uuid": "2b99379c-424d-40e6-9bb1-4ea05ae40e04",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "520d3d16-69a2-472d-83b2-73c9ab0c12fb",
+      "Attribute": [
+        {
+          "uuid": "dfa42739-0bb5-4395-90cd-9a408bd5822e",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",
