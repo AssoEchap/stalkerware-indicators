@@ -21,7 +21,8 @@ jobs:
       run: |
         git config --local user.name  ${{ github.actor }}
         git add generated/
-        git commit -m "Updating generated indicator files"
+        git add README.md
+        git commit -m "Updating generated indicator files and README"
     - name: Push changes  # push the output folder to your repo
       uses: ad-m/github-push-action@master
       with:
