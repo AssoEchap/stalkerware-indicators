@@ -20,10 +20,25 @@ def check_ioc_format(folder):
     certs = []
     ips = []
     domains = []
+    names = []
     for entry in r:
         if "name" not in entry:
             print("Entry {} without name".format(", ".join(entry.get("names", []))))
             success = False
+
+        if entry["name"] not in names:
+            names.append(entry["name"])
+        else:
+            print("Duplicate name {}".format(entry["name"]))
+            success = False
+        if "names" in entry:
+            for n in entry["names"]:
+                if n != entry["name"]:
+                    if n not in names:
+                        names.append(n)
+                    else:
+                        print("Duplicate name {}".format(n))
+                        success = False
 
         # packages
         if not isinstance(entry.get("packages", []), list):
@@ -87,6 +102,15 @@ def check_samples_format(folder):
     """
     success = True
     print("Checking samples.csv format")
+
+    with open(os.path.join(folder, "ioc.yaml")) as f:
+        iocs = yaml.load(f, Loader=yaml.BaseLoader)
+    names = []
+    for app in iocs:
+        names.append(app["name"])
+        if "names" in app:
+            names += app["names"]
+
     indicators = []
     with open(os.path.join(folder, "samples.csv")) as f:
         reader = csv.reader(f, delimiter=',')
@@ -108,6 +132,13 @@ def check_samples_format(folder):
                 if not re.match(r"^[A-F0-9]{40}", row[2].strip()):
                     print("Invalid certificate format {}".format(row[2]))
                     success = False
+
+            if row[4].strip() == "":
+                print("No stalkerware name for {}".format(row[0]))
+                success = False
+            elif row[4] not in names:
+                print("{} is not a valid stalkerware name".format(row[4]))
+                success = False
 
     return success
 

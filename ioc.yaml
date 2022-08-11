@@ -448,9 +448,9 @@
   - NeatSpy
   - SafeSpy
   - Spyic
-  - Spyier
   - Spyine
   - Spyzie
+  - TeenSafe
   packages:
   - com.aiyi.admin
   - com.cocospy
@@ -968,7 +968,6 @@
     - apiv4.alter757.info
     - b55y.net
     - bi.thd.cc
-    - cp.mspyonline.com
     - cp.mspyonline.com
     - eyezyapp.thd.cc
     - getmspy.net
@@ -2557,7 +2556,6 @@
 - name: AndroidPolice
   names:
   - MonitorChecker
-  - AndroidMonitor
   - AndrMonitor
   - AndroidMon
   - Dromon

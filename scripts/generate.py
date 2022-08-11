@@ -22,14 +22,22 @@ def get_indicators(path):
             if row[0] == "SHA256":
                 continue
 
-            if row[4] not in samples.keys():
-                samples[row[4]] = []
+            appname = row[4].strip()
+            if appname not in samples.keys():
+                samples[appname] = []
 
-            samples[row[4]].append(row[0])
+            samples[appname].append(row[0])
 
     for d in data:
+        d["sha256"] = []
         if d["name"] in samples:
-            d["sha256"] = samples[d["name"]]
+            d["sha256"] += samples[d["name"]]
+        if "names" in d:
+            for name in d["names"]:
+                if name in samples:
+                    d["sha256"] += samples[name]
+
+        d["sha256"] = list(set(d["sha256"]))
 
     return data
 
@@ -263,7 +271,8 @@ def update_readme(output, iocs):
 
     fout.write("## Stalkerware\n\n")
 
-    fout.write("This repository includes indicators for {} stalkerware applications\n\n".format(len(iocs)))
+    nb_samples= sum([len(a["sha256"]) for a in iocs])
+    fout.write("This repository includes indicators for {} stalkerware applications ({} samples)\n\n".format(len(iocs), nb_samples))
 
     for app in sorted(iocs, key= lambda x:x["name"]):
         if len(app["websites"]) > 0:
