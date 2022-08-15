@@ -178,7 +178,7 @@ def generate_suricata(folder, iocs):
     with open(fpath, mode='w') as output:
         for app in iocs:
             for d in app.get("c2", {}).get("domains", []):
-                output.write('alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE {} ({})"; dns.query; content:"{}"; depth:{}; nocase; endswith; fast_pattern; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(app["name"], fang(d), d, len(d), sid))
+                output.write('alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE {} ({})"; dns.query; content:"{}"; depth:{}; nocase; endswith; fast_pattern; reference:url,github.com/AssoEchap/stalkerware-indicators; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(app["name"], fang(d), d, len(d), sid))
                 sid += 1
             for ip in app.get("c2", {}).get("ips", []):
                 output.write('alert ip $HOME_NET any -> [{}] any (msg:"PTS STALKERWARE {} ({})"; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(ip, fang(ip), app["name"], sid))
