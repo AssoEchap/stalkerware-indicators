@@ -3053,3 +3053,18 @@
     ips: []
     domains:
     - api.mycellspy.com
+
+- name : Spylix
+  names: []
+  packages:
+  - com.chaoqi.spyapp
+  websites:
+  - spylix.com
+  certificates:
+  - 2CF347EA59967F7799AA2C1FDB5D711B2B93D586
+  c2:
+    ips:
+    - 52.90.126.68
+    domains:
+    - api.spylix.com
+    - apidemo.spylix.com
