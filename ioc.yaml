@@ -2715,8 +2715,10 @@
   - TelcadoAndroid
   - TiFamily
   - TiSpy
+  - TracerSpy
   - Triada
   packages:
+  - com.protect
   - com.aixlunro.uqfhkagb
   - com.aixlunro.uqfhkagb
   - com.bzbqbkya.hgozttiu
@@ -2741,10 +2743,13 @@
   - selfspy.com
   - techinnovative.net
   - tifamily.net
+  - tracerspy.net
   - tispy.net
   - ua.tispy.net
   - www.selfspy.com
   certificates:
+  - 8B187B3EBEF7D1BC8E32BEC78D36CBF95505A1C1
+  - 789A24C1605F1BF2B6D64580C697BD38D9446A7E
   - 61ED377E85D386A8DFEE6B864BD85B0BFAA5AF81
   - 1A6D10E15280C6A938EED9BEF53A31DA0CEBA45A
   - FD84821C80C1499A2446F6F7E13BF8BDA6A66402
@@ -2762,6 +2767,9 @@
     ips: []
     domains:
     - apprtc.appspot.com
+    - quanly24h.net
+    - login.quanly24h.net
+    - theodoi24h.com
     - pc.backupsoft.eu
     - kidsshield.net
     - tispy.net
@@ -3070,3 +3078,4 @@
     domains:
     - api.spylix.com
     - apidemo.spylix.com
+
