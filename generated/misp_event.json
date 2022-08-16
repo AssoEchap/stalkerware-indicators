@@ -70952,6 +70952,114 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "ad94be59-041e-44eb-a4d5-6a9017d2424b",
+      "Attribute": [
+        {
+          "uuid": "bf1315c2-922e-46d0-b8eb-e52f0a4de6c2",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "e393990b-c9b8-408d-baac-f8ac0bcc2a22",
+      "Attribute": [
+        {
+          "uuid": "69ed78e2-d8ca-4d63-841c-45269e8ea751",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "406e405b-7e5d-4535-838c-f3187f07036e",
+      "Attribute": [
+        {
+          "uuid": "3f728d53-a68b-461a-9e18-31d8a87ed415",
+          "object_relation": "name",
+          "value": "Spylix",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "4a5522cb-88a1-467c-8c93-342fbf222aca",
+          "object_relation": "domain",
+          "value": "api.spylix.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "24f14bf2-8957-46e3-8ca9-483f32f5cf53",
+          "object_relation": "domain",
+          "value": "apidemo.spylix.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "70897cb9-38d8-4c28-8029-3b151afaf512",
+          "object_relation": "sha256",
+          "value": "adb2effde122c5784f0ff57974f33d03c5f78f40a32e9e45f55017ff7b2600c2",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "85994351-7335-4507-9554-fa32cf472707",
+          "object_relation": "certificate",
+          "value": "2CF347EA59967F7799AA2C1FDB5D711B2B93D586",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "2f01a0d9-c8f0-4cbb-beec-bec4412d5925",
+          "object_relation": "appid",
+          "value": "com.chaoqi.spyapp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",

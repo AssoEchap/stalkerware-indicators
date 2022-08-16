@@ -843,3 +843,6 @@ domain,my.nexspy.com,NexSpy
 domain,api.mobilebackup.biz,NexSpy
 domain,topzaloha.cz,NexSpy
 domain,api.mycellspy.com,MyCellSpy
+domain,api.spylix.com,Spylix
+domain,apidemo.spylix.com,Spylix
+ipv4,52.90.126.68,Spylix
