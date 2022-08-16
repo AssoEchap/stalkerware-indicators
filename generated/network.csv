@@ -850,3 +850,8 @@ domain,api.mycellspy.com,MyCellSpy
 domain,api.spylix.com,Spylix
 domain,apidemo.spylix.com,Spylix
 ipv4,52.90.126.68,Spylix
+domain,x1panel.com,MonitorUltra
+domain,xpcpanel.com,MonitorUltra
+domain,monitor-ultra.com,MonitorUltra
+ipv4,185.2.103.130,MonitorUltra
+ipv4,80.241.216.14,MonitorUltra

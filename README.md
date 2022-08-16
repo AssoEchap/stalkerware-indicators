@@ -51,7 +51,7 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for 97 stalkerware applications (2681 samples)
+This repository includes indicators for 98 stalkerware applications (2697 samples)
 
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
 * AllTracker (`alltracker.org`)
@@ -94,6 +94,7 @@ This repository includes indicators for 97 stalkerware applications (2681 sample
 * MobileSpy (`de.mobilespy.at` `es.mobilespy.at` `fr.mobilespy.at` `it.mobilespy.at` `mobilespy.at` `pt.mobilespy.at` `ro.mobilespy.at` `www.mobilespy.at`)
 * MobileTool (`mobiletool.ru` `www.mobiletool.ru` `mtoolapp.net` `www.mtoolapp.net` `mtoolapp.biz`)
 * MobileTrackerFree (`br.mobile-tracker-free.com` `br.loverman.net` `celltracker.io` `loverman.net` `mobile-tracker-family.com` `mobile-tracker-free.be` `mobile-tracker-free.biz` `mobile-tracker-free.co` `mobile-tracker-free.com` `mobile-tracker-free.de` `mobile-tracker-free.es` `mobile-tracker-free.eu` `mobile-tracker-free.fr` `mobile-tracker-free.info` `mobile-tracker-free.ir` `mobile-tracker-free.it` `mobile-tracker-free.me` `mobile-tracker-free.mobi` `mobile-tracker-free.name` `mobile-tracker-free.net` `mobile-tracker-free.org` `support.mobile-tracker-free.com` `support.loverman.net` `mobile-tracker.mobi` `mobitrackapps.com`)
+* MonitorUltra (`www.spyequipmentuk.co.uk`)
 * MyCellSpy (`mycellspy.com` `cezz.me` `user.mycellspy.com`)
 * NemoSpy (`nemospy.com` `admin.nemospy.com`)
 * NeoSpy (`neospy.pro` `neospy.net` `neospy.tech`)
@@ -192,6 +193,7 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+
 
 
 

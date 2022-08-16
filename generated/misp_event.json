@@ -71216,6 +71216,249 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "95445c80-df90-427e-8af3-621f927b59dc",
+      "Attribute": [
+        {
+          "uuid": "45e43fe8-b6f9-4df1-bec1-d9b2d9571dd3",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "e7657dea-e8f9-4d15-973e-24429c7b4676",
+      "Attribute": [
+        {
+          "uuid": "661bb403-f986-4e1a-989f-fc4d9e91a2ac",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "4b9dab9d-e26b-4e97-8391-f1c863ad4480",
+      "Attribute": [
+        {
+          "uuid": "647a0071-91e0-4e4f-bdd5-2b5657eef708",
+          "object_relation": "name",
+          "value": "MonitorUltra",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "01ebb654-cc3d-4332-849a-1988228ff95e",
+          "object_relation": "domain",
+          "value": "xpcpanel.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6e7faef8-f053-4bc7-acc8-8c68431db6e5",
+          "object_relation": "domain",
+          "value": "monitor-ultra.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "25195cea-b5ee-4f53-91ee-ef59401caca2",
+          "object_relation": "domain",
+          "value": "x1panel.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ce479913-0fc5-451b-9627-ad56a3acb9a0",
+          "object_relation": "sha256",
+          "value": "d6d8eff1d75ef137a3375d2bee75e17a5a6a5903a243bb9d8739416ee35b4042",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "afb57499-f6fd-4b3d-9b59-8e902f5d51b1",
+          "object_relation": "sha256",
+          "value": "f5eeace70bb735695e563191c85719782ae718f3699cd6c510ccb267def718da",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "936f375e-9bca-4656-8c47-dde5381bc497",
+          "object_relation": "sha256",
+          "value": "166fd3bbfd9902d2e2a4f422a58faf24a457823930bcfe7bed24d9896a1c0225",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "15bfb1be-c616-41b8-873f-70bac5aac51c",
+          "object_relation": "sha256",
+          "value": "ba667c1adb22fdfed6b08584297adb677d5b937478e3052c4ea879ca01663f31",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "9e0800e4-6888-4b5f-b59b-abf33a08b1b5",
+          "object_relation": "sha256",
+          "value": "f7a056d30fb9b268ff71cc928cd240be77c173d2284187e792613ea146dc7307",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "08d4efa2-da9c-4804-bae7-5bb65d560a5a",
+          "object_relation": "sha256",
+          "value": "d21b4957dae0be1341fa9ba8c8cff85fba31fe4e1af112e4b6c1befd6128e80d",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "3fd30f54-6e75-4549-b8b4-31cd8206416b",
+          "object_relation": "sha256",
+          "value": "909faeaebf4a55a8e4a6141c1f385f2f7d038188ada376f22feaa6a09dc9ed8c",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "5541dd14-0d21-4c9f-9b92-1e502dd0bcbe",
+          "object_relation": "sha256",
+          "value": "e46d1e50ceebdc2675537167e9ee7a25d65c5667cd9c5edbfb9c01f721ca349c",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "1d6e5eae-0fdf-4e57-b9cb-1585f8143264",
+          "object_relation": "sha256",
+          "value": "1c48a5d50c826af0c118b31269e2ca2a945b8a9449336b509da1dc83e7506bcc",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0e8f83b8-339b-4015-a5b9-e10551e7c74d",
+          "object_relation": "sha256",
+          "value": "bc137981085a51fe1a1dcbb9e90a4d1595dfcaec5cf1afeb737ad009dd1d4178",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "12730066-4648-4a30-b7ad-27ce04c4d40a",
+          "object_relation": "sha256",
+          "value": "8f0ae7dd7c5b955493475ded4f3e9dc9c597504192596129601954a722153ee5",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "dd548e14-ed34-42de-b183-a539791758bc",
+          "object_relation": "sha256",
+          "value": "307b23b32065b69dd2e7fd1ef1d74eb2923f717cff995c4884bde7c9b22b7c7d",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "cdba07f5-d3d5-4a42-b472-2de0f728d8ff",
+          "object_relation": "sha256",
+          "value": "6bff05743c62f03c1483e454afb1fbefe31b79d18834435d61644b4138de0c50",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "c0d1e751-e578-4d64-bd4d-82f3b8a45604",
+          "object_relation": "sha256",
+          "value": "763ef45d3cc1f7197c1ea6f2300b170ea7847de590b991e5944b4f9af4e770ab",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "1eed3c73-330e-4065-bb86-cb31e99ef6a5",
+          "object_relation": "sha256",
+          "value": "f23a8fe48ede5a405bddbeedd7bcc62ff899f05f509e771a4252dbf2a6d62bbf",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "f3e1df4f-e070-4d10-b5a3-b1f2e5d14fb9",
+          "object_relation": "sha256",
+          "value": "c6c3e7044725e55bf5a030b1331b10a48dd607d7223c74cf4bc41d25d0a74c07",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "5f1d4fe0-92e4-42c3-afe3-47cabada419a",
+          "object_relation": "appid",
+          "value": "com.sec.provider.mobile.android",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
