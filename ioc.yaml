@@ -3079,3 +3079,18 @@
     - api.spylix.com
     - apidemo.spylix.com
 
+- name: MonitorUltra
+  names: []
+  packages:
+  - com.sec.provider.mobile.android
+  certificates: []
+  websites:
+  - www.spyequipmentuk.co.uk
+  c2:
+    ips:
+    - 185.2.103.130
+    - 80.241.216.14
+    domains:
+    - x1panel.com
+    - xpcpanel.com
+    - monitor-ultra.com
