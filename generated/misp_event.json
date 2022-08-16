@@ -46318,6 +46318,24 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "57c92c6c-9680-4f3e-b386-fd20be00b056",
+          "object_relation": "domain",
+          "value": "reports.crashlytics.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "75930e0f-4ff0-4909-bd65-516b36282bc8",
+          "object_relation": "appid",
+          "value": "mobile.monitor.child2034",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -71052,6 +71070,48 @@
           "uuid": "2f01a0d9-c8f0-4cbb-beec-bec4412d5925",
           "object_relation": "appid",
           "value": "com.chaoqi.spyapp",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "666e5426-11d2-4acb-9430-344fcaa10bc9",
+      "Attribute": [
+        {
+          "uuid": "d99bb0eb-7934-46db-8b5d-b29e7297cf29",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "f513626f-89dd-470b-ace9-7b5dcff1ee0b",
+      "Attribute": [
+        {
+          "uuid": "b81c2b50-2db0-4c59-814f-2f7a3318c609",
+          "object_relation": "name",
+          "value": "mSpyitaly",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
