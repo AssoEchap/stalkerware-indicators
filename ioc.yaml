@@ -1160,6 +1160,7 @@
   - security.mobile.parental
   - service.download.app
   - tracker.mob.gps
+  - mobile.monitor.child2034
   certificates:
   - 021A3F097EDA780798DF5ECB16EF338C08236847
   - 0568E0400308CBFC58E11A324EA233F5B2E923BF
@@ -1244,6 +1245,7 @@
     - n6sm2m.celltracker.io
     - olurdaolurdediler.shop
     - sapient-flight-837.firebaseio.com
+    - reports.crashlytics.com
 
 - name: iKeyMonitor
   names:
