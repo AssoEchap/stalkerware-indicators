@@ -68347,6 +68347,60 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "5280e4a3-de7b-4702-856e-94f529925bfb",
+          "object_relation": "domain",
+          "value": "theodoi24h.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "12e11d6a-2c6a-4606-b0e4-17b05939db87",
+          "object_relation": "domain",
+          "value": "login.quanly24h.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "517f5aae-f815-4a89-9bd0-cd7b702233e7",
+          "object_relation": "domain",
+          "value": "quanly24h.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "104d1ca9-f142-44d1-9281-ead82b4c396b",
+          "object_relation": "certificate",
+          "value": "789A24C1605F1BF2B6D64580C697BD38D9446A7E",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "11675692-b9cd-40df-bfd1-710b42c30247",
+          "object_relation": "certificate",
+          "value": "8B187B3EBEF7D1BC8E32BEC78D36CBF95505A1C1",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "f88d7984-8adb-47b5-9adf-9492f3ffda09",
+          "object_relation": "appid",
+          "value": "com.protect",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -71110,6 +71164,48 @@
       "Attribute": [
         {
           "uuid": "b81c2b50-2db0-4c59-814f-2f7a3318c609",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "15ca64c4-85e8-4ceb-9369-961ed694f35b",
+      "Attribute": [
+        {
+          "uuid": "8b77dbb4-1cba-49e0-b4a0-c03b20435945",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "f53dc3a6-fbbb-4519-bc75-bb9524b39d11",
+      "Attribute": [
+        {
+          "uuid": "90f6b15a-38b3-43b1-9edd-f33fba27fe83",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",
