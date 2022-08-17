@@ -153,7 +153,7 @@ def generate_stix(folder, iocs):
             res.append(Relationship(i, 'indicates', malware))
 
         for c in app.get("certificates", []):
-            i = Indicator(indicator_types=["malicious-activity"], pattern="[app:cert.md5='{}']".format(c), pattern_type="stix")
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[app:cert.sha1='{}']".format(c), pattern_type="stix")
         res.append(i)
         res.append(Relationship(i, 'indicates', malware))
 
