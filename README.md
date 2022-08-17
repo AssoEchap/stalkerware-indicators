@@ -125,7 +125,7 @@ This repository includes indicators for 98 stalkerware applications (2697 sample
 * Spyier (`spyier.com`)
 * Spylix (`spylix.com`)
 * Spymie
-* SpyphoneMobileTracker (`phonetracker.com` `www.phonetracker.com` `spyfone.com` `spyphone.com` `www.spyphone.com`)
+* SpyphoneMobileTracker (`phonetracker.com` `www.phonetracker.com` `spyfone.com` `spyphone.com` `www.spyphone.com` `spy-phone-app.com`)
 * TalkLog (`talklog.tools`)
 * TheOneSpy (`theonespy.com` `www.theonespy.com`)
 * TheTruthSpy (`copy9.com` `exactspy.com` `fonetracker.com` `free.spycell.net` `guestspy.com` `ispyoo.com` `mxspy.com` `phonespying.com` `phonetracking.net` `spyapps.net` `spycell.net` `thetruthspy.com` `weysys.com` `www.mxspy.com`)
@@ -193,6 +193,7 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+
 
 
 
