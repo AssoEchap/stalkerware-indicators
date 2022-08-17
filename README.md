@@ -152,6 +152,11 @@ This repository includes indicators for 98 stalkerware applications (2697 sample
 * pcTattletale (`www.pctattletale.com`)
 * uMobix (`umobix.com`)
 
+## Notable users
+
+- [AdGuard](https://github.com/AdguardTeam/HostlistsRegistry/pull/35)
+- [Quad9 DNS resolver](https://www.quad9.net/)
+
 ## Contributions
 
 Contributors include:
