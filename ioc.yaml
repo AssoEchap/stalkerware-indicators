@@ -1041,6 +1041,7 @@
   - br.com.phonecell.go5ge
   - br.com.phonecell.maps
   - br.com.phonecell.radio
+  - br.com.daggers.toshtec
   certificates:
   - 3E929DB5941C185EA4FAC2B0D7BA7589D40A379E
   - B8CA103D22C39282D7A1E8028D93333E481CCA83
@@ -1049,6 +1050,7 @@
   - E0E02AD30F042E096A7A5654217B846EA08C02D1
   - 493812991A9A1CC7BEEFD45F2180CD2FC0AF8913
   - 35B05ACC96D02849E20D9ED3BA9CEA41C2B83FFA
+  - 6C0B8CF7F47DB7A82A2C06D410690935FDD912DF
   websites:
   - servidor.in
   - meuspy.com
@@ -1058,6 +1060,7 @@
     - servidor.in
     - n.servidor.in
     - l.servidor.in
+    - s.servidor.in
 
 - name: AppSpy
   names:
