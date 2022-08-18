@@ -417,6 +417,7 @@ ipv4,78.47.16.3,SpyHide
 domain,servidor.in,MeuSpy
 domain,n.servidor.in,MeuSpy
 domain,l.servidor.in,MeuSpy
+domain,s.servidor.in,MeuSpy
 domain,api.free-spy.com,AppSpy
 domain,app.appspy.net,AppSpy
 domain,appspy-net.firebaseio.com,AppSpy

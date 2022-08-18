@@ -51,7 +51,7 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for 98 stalkerware applications (2697 samples)
+This repository includes indicators for 98 stalkerware applications (2699 samples)
 
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
 * AllTracker (`alltracker.org`)
@@ -152,11 +152,6 @@ This repository includes indicators for 98 stalkerware applications (2697 sample
 * pcTattletale (`www.pctattletale.com`)
 * uMobix (`umobix.com`)
 
-## Notable users
-
-- [AdGuard](https://github.com/AdguardTeam/HostlistsRegistry/pull/35)
-- [Quad9 DNS resolver](https://www.quad9.net/)
-
 ## Contributions
 
 Contributors include:
@@ -198,6 +193,7 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+
 
 
 
