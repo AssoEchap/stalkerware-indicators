@@ -51,7 +51,7 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for 99 stalkerware applications (2700 samples)
+This repository includes indicators for 100 stalkerware applications (2701 samples)
 
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
 * AllTracker (`alltracker.org`)
@@ -130,6 +130,7 @@ This repository includes indicators for 99 stalkerware applications (2700 sample
 * TalkLog (`talklog.tools`)
 * TheOneSpy (`theonespy.com` `www.theonespy.com`)
 * TheTruthSpy (`copy9.com` `exactspy.com` `fonetracker.com` `free.spycell.net` `guestspy.com` `ispyoo.com` `mxspy.com` `phonespying.com` `phonetracking.net` `spyapps.net` `spycell.net` `thetruthspy.com` `weysys.com` `www.mxspy.com`)
+* TheWiSpy (`www.thewispy.com` `cp.thewispy.com` `childmonitoringsystem.com`)
 * TrackMyPhones (`trackmyphones.com` `www.trackmyphones.com`)
 * TrackView (`chome.zstone.co` `lifecircle.app` `trackview.net` `trackview.recurly.com`)
 * TrackingSmartphone (`trackingsmartphone.com` `www.trackingsmartphone.com` `onlinefundb.com`)
@@ -199,6 +200,7 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+
 
 
 

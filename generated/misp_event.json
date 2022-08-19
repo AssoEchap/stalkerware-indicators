@@ -71756,6 +71756,87 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "dcbb1c07-82bc-4993-95d8-b51f382c3f9a",
+      "Attribute": [
+        {
+          "uuid": "527e94b7-668a-42ca-840e-8b5af7ce9790",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "700d0add-16d7-4366-861a-6656d03a5393",
+      "Attribute": [
+        {
+          "uuid": "eb0ccbbe-2358-4f58-95af-ee488ff318e7",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "f99be6df-e9c4-4219-8d8b-5794e252a643",
+      "Attribute": [
+        {
+          "uuid": "e1962e25-d360-4b8a-9a5d-83b2f3c6ad13",
+          "object_relation": "name",
+          "value": "TheWiSpy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "7bc19f70-507e-4155-b62d-44142bdc87d3",
+          "object_relation": "sha256",
+          "value": "a1c210acafdae2b0ebbb4baf00d9ef523ed408c2fee782c91a0e3a63e7d3809d",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "c009c765-9f8f-42d9-9a54-f29d89fab6a7",
+          "object_relation": "appid",
+          "value": "com.thewispy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
