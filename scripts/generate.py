@@ -284,7 +284,7 @@ def update_readme(output, iocs):
             fout.write("* {}\n".format(app["name"]))
 
     fout.write("\n")
-    while data[i] != "## Contributions":
+    while data[i] != "## Notable users":
         i += 1
 
     while i < len(data):
