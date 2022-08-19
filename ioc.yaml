@@ -3116,3 +3116,16 @@
     - www.sentrypc.net
     - www.spclogs.com
     - www.sentrypc.download
+
+- name: TheWiSpy
+  names: []
+  packages:
+  - com.thewispy
+  certificates: []
+  websites:
+  - www.thewispy.com
+  - cp.thewispy.com
+  - childmonitoringsystem.com
+  c2:
+    ips: []
+    domains: []
