@@ -1635,6 +1635,8 @@
   - E48C6714DBFD2AB6E5CF85C87EFD05BD8E11E6FB
   websites:
   - clevguard.net
+  - www.clevguard.com
+  - clevguard.com
   c2:
     ips:
     - 47.88.63.70
@@ -2590,6 +2592,7 @@
   - E0FCD3E782FB859F7388E4F44A44A5D694114968
   - EAD44242A3C0A73DEF7976C56AC10A4530E8F67A
   websites:
+  - android-monitor.ru
   - amon.android-monitor.ru
   - amon1.android-monitor.ru
   - andmon.name
