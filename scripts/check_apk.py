@@ -55,7 +55,7 @@ def check(iocs, rules, path, verbose=False):
         sha1 = cert.sha1_fingerprint.replace(' ', '')
         if verbose:
             print("Certificate: {}".format(sha1))
-        res = search(sha1, iocs, lambda x:x.get("certificates", []))
+        res = search(sha1, iocs, lambda x: x.get("certificates", []))
         if res:
             if verbose:
                 print("Known Stalkerware certificate for {}".format(res))
@@ -87,7 +87,7 @@ if __name__ == '__main__':
     indicator_path = Path(__file__).parent.parent.absolute()
     indicators = get_indicators(indicator_path)
 
-    rules =  yara.compile(os.path.join(indicator_path, 'rules.yar'))
+    rules = yara.compile(os.path.join(indicator_path, 'rules.yar'))
     print("Loaded indicators for {} apps".format(len(indicators)))
 
     if os.path.isfile(args.APK):

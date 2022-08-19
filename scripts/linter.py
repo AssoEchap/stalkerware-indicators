@@ -13,7 +13,6 @@ def check_ioc_format(folder):
     """
     success = True
     print("Checking ioc.yaml format")
-    indicators = []
     with open(os.path.join(folder, "ioc.yaml")) as f:
         r = yaml.load(f, Loader=yaml.BaseLoader)
 
@@ -72,7 +71,7 @@ def check_ioc_format(folder):
         if "ips" in c2:
             for ip in c2["ips"]:
                 try:
-                    ipp = ipaddress.ip_address(ip)
+                    ipaddress.ip_address(ip)
                 except ValueError:
                     print("Invalid IP address : {}".format(ip))
                     success = False
@@ -161,4 +160,3 @@ if __name__ == "__main__":
     else:
         print("Oh noes, there are some issues")
         sys.exit(1)
-

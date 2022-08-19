@@ -1,0 +1,18 @@
+[flake8]
+max-complexity = 10
+max-line-length = 1000
+ignore =
+    C901,
+    E265,
+    F401,
+    E127,
+    W503,
+    E226
+exclude =
+    .git,
+    *Tests.py,
+    __pycache__,
+    venv,
+    old,
+    build,
+    dist
