@@ -71833,6 +71833,66 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "c108cb8b-2d3a-4057-8972-80e64c915326",
+          "object_relation": "domain",
+          "value": "cp.thewispy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c157772a-fbdb-4c6b-9d46-5971bb77c48a",
+          "object_relation": "certificate",
+          "value": "BFF94895A64AEB38B5278BC41B1DB242CD82DA62",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "8be507ad-e290-445e-a1fa-60151f2b8a7a",
+      "Attribute": [
+        {
+          "uuid": "0473a766-7ec6-44df-b7e9-c939922edc62",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "50cc4c7f-a02d-4ce1-8d63-bfb7e8724e1a",
+      "Attribute": [
+        {
+          "uuid": "9a4e57fa-d597-47e8-b88b-8a77ae838190",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
