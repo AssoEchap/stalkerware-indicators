@@ -57,7 +57,7 @@ This repository includes indicators for 100 stalkerware applications (2701 sampl
 * AllTracker (`alltracker.org`)
 * AndroidLost (`androidlost.com` `www.androidlost.com`)
 * AndroidMonitor (`androidmonitor.com` `www.androidmonitor.com`)
-* AndroidPolice (`amon.android-monitor.ru` `amon1.android-monitor.ru` `andmon.name` `android-apk.android-monitor.ru` `android-monitor1.android-monitor.ru` `android-police.android-monitor.ru` `android-police.ru` `anmon.android-monitor.ru` `anmon.name` `anmon.ru` `anmon.su` `anmon1.android-monitor.ru` `droimon20.ru` `monitor-android.android-monitor.ru` `prog-money.android-monitor.ru` `prog-money.com` `www.android-monitor.ru`)
+* AndroidPolice (`android-monitor.ru` `amon.android-monitor.ru` `amon1.android-monitor.ru` `andmon.name` `android-apk.android-monitor.ru` `android-monitor1.android-monitor.ru` `android-police.android-monitor.ru` `android-police.ru` `anmon.android-monitor.ru` `anmon.name` `anmon.ru` `anmon.su` `anmon1.android-monitor.ru` `droimon20.ru` `monitor-android.android-monitor.ru` `prog-money.android-monitor.ru` `prog-money.com` `www.android-monitor.ru`)
 * AndroidSpy (`a-spy.com` `www.a-spy.com`)
 * AntiFurtoDroid (`antifurtodroid.com`)
 * AppMia (`appmia.com` `appmia.com.es` `appmia.it` `appmia.fr` `cp.appmia.com`)
@@ -67,7 +67,7 @@ This repository includes indicators for 100 stalkerware applications (2701 sampl
 * CallSMSTracker (`callsmstracker.com` `hiddensmstracker.com` `hiddensystemhealth.com` `registrations.smstracker.com` `smstracker.com` `smstrackerweb.com` `www.hiddensmstracker.com` `www.hiddensystemhealth.com` `www.smstrackerweb.com`)
 * CatWatchful (`catwatchful.com` `catwatchful.online`)
 * Cerberus (`cerberusapp.com` `www.cerberusapp.com`)
-* ClevGuard (`clevguard.net`)
+* ClevGuard (`clevguard.net` `www.clevguard.com` `clevguard.com`)
 * Cocospy (`best-mobile-spy.com` `cocospy.com` `cocospy.net` `fonemonitor.co` `minspy.com` `neatspy.com` `safespy.com` `spyic.biz` `spyic.com` `spyier.biz` `spyine.biz` `spyine.com` `spyzie.com` `spyzie.io` `spyzie.online` `teensafe.net` `teensafe.vip` `www.fonemonitor.co` `www.minspy.com` `www.spyic.com` `www.spyzie.com` `www.teensafe.net`)
 * CouplerTracker (`coupletracker.com`)
 * EasyLogger (`logger.mobi` `childsafetytrackerapp.com` `seniorsafetyapp.com` `www.childsafetytrackerapp.com` `www.seniorsafetyapp.com`)
@@ -200,6 +200,7 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+
 
 
 
