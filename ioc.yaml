@@ -3121,11 +3121,13 @@
   names: []
   packages:
   - com.thewispy
-  certificates: []
+  certificates:
+  - BFF94895A64AEB38B5278BC41B1DB242CD82DA62
   websites:
   - www.thewispy.com
-  - cp.thewispy.com
   - childmonitoringsystem.com
   c2:
-    ips: []
-    domains: []
+    ips:
+    - 167.71.189.163
+    domains:
+    - cp.thewispy.com
