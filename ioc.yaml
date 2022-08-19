@@ -3098,3 +3098,21 @@
     - x1panel.com
     - xpcpanel.com
     - monitor-ultra.com
+
+- name: SentryPC
+  names: []
+  packages: []
+  certificates: []
+  websites:
+  - www.sentrypc.com
+  - sentrypc.com
+  c2:
+    ips:
+    - 108.178.9.124
+    domains:
+    - sentrypc.net
+    - spc-runtimes.s3.amazonaws.com
+    - www.sentrypconline.com
+    - www.sentrypc.net
+    - www.spclogs.com
+    - www.sentrypc.download
