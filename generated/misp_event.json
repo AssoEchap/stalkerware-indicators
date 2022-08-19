@@ -71588,6 +71588,123 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "b81c6e7b-2957-45e8-ba48-7fb0de6a7aa5",
+      "Attribute": [
+        {
+          "uuid": "5ae2252a-838d-401e-a0e9-d8359d93c27f",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "2609d95f-f6cc-4bef-ba3f-db1272b99dda",
+      "Attribute": [
+        {
+          "uuid": "719707ae-04a7-4b95-a4a4-eb165610aa45",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "a3d9473e-56c6-40c8-b312-53edd7b6d8c7",
+      "Attribute": [
+        {
+          "uuid": "7bb597dc-60f2-4d56-8421-bf53ff32d776",
+          "object_relation": "name",
+          "value": "SentryPC",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "824de03f-534b-42bf-b8a7-57f6e0f2208c",
+          "object_relation": "domain",
+          "value": "www.spclogs.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9d699e72-da45-41c7-86f1-c93b8c77bf8b",
+          "object_relation": "domain",
+          "value": "www.sentrypc.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "01f2ec07-ea09-40aa-ac7f-c792e47cfa50",
+          "object_relation": "domain",
+          "value": "sentrypc.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3ae4e890-45ba-4431-89a0-7fe6cf06ec20",
+          "object_relation": "domain",
+          "value": "www.sentrypconline.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "7f781871-a682-4568-94a0-54f265f90325",
+          "object_relation": "domain",
+          "value": "spc-runtimes.s3.amazonaws.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "eae42605-67b2-4b2b-9c15-b5521724ab47",
+          "object_relation": "domain",
+          "value": "www.sentrypc.download",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",

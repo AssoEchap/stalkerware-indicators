@@ -856,3 +856,10 @@ domain,xpcpanel.com,MonitorUltra
 domain,monitor-ultra.com,MonitorUltra
 ipv4,185.2.103.130,MonitorUltra
 ipv4,80.241.216.14,MonitorUltra
+domain,sentrypc.net,SentryPC
+domain,spc-runtimes.s3.amazonaws.com,SentryPC
+domain,www.sentrypconline.com,SentryPC
+domain,www.sentrypc.net,SentryPC
+domain,www.spclogs.com,SentryPC
+domain,www.sentrypc.download,SentryPC
+ipv4,108.178.9.124,SentryPC

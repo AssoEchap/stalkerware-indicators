@@ -51,7 +51,7 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for 98 stalkerware applications (2699 samples)
+This repository includes indicators for 99 stalkerware applications (2699 samples)
 
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
 * AllTracker (`alltracker.org`)
@@ -108,6 +108,7 @@ This repository includes indicators for 98 stalkerware applications (2699 sample
 * RealtimeSpy (`www.spytech-web.com` `spytech-web.com` `realtime-spy-mobile.com` `www.realtime-spy-mobile.com`)
 * Reptilicus (`reptilicus.net` `thecybernanny.com` `apollospy.com`)
 * SecretCamRecorder
+* SentryPC (`www.sentrypc.com` `sentrypc.com`)
 * ShadowSpy (`shadow-logs.com` `shadow-spy.com` `www.shadow-logs.com` `www.shadow-spy.com`)
 * Snoopza (`snoopza.com` `get.snoopza.com` `snoopza.zendesk.com` `demo.snoopza.com` `newdemo.snoopza.com`)
 * Spy24 (`spy24.net`)
@@ -193,6 +194,7 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+
 
 
 
