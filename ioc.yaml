@@ -2036,6 +2036,7 @@
     ips:
     - 162.144.212.52
     domains:
+    - spyapp.top
     - xnore.com
 
 - name: EspiaoAndroid
