@@ -47044,6 +47044,69 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "7caf9b48-3766-4b7f-88ca-02ed2b161092",
+          "object_relation": "domain",
+          "value": "android.spy24.app",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "7ecf3c23-3e0d-48f4-8536-63803183e771",
+          "object_relation": "sha256",
+          "value": "e01118a89e9a8bab0a36b93ad15caf1432fc615afa61d7dccd99773debeba818",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d3913bbe-9502-41fd-93ad-21f4784a1556",
+          "object_relation": "sha256",
+          "value": "780afa15f99c85055f93bff4ad40c5f4a7d7252cbc7dc1716c8db866d2a3ff53",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "025ce7a4-7725-4574-8efb-fee4b425e4a1",
+          "object_relation": "sha256",
+          "value": "b264075a58febc9c89a534723c543750e5f1df23aea03eafebba4b0ff8823599",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "576d6726-6fed-43fe-b56f-f08bab625f0f",
+          "object_relation": "sha256",
+          "value": "2f4c694c0cd43327da1d20781fa2e4a6e4467432b09c6050b0446007576a0f4a",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "7ac63694-cf3b-453d-beb9-6b277146925c",
+          "object_relation": "appid",
+          "value": "app.spy24.spy24installer",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "98bee343-71f9-40f6-90a1-967a7c9bc515",
+          "object_relation": "appid",
+          "value": "app.spy24.systemwifi",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -73159,6 +73222,48 @@
       "Attribute": [
         {
           "uuid": "f7d961dc-b529-4ef9-93c7-ef3e57dfd1de",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "ae2618ed-aea3-496c-9168-b825669c6eb6",
+      "Attribute": [
+        {
+          "uuid": "16055c3d-4efd-47c0-99e4-fa282fc1a36f",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "7cbaee2d-2a84-4615-bb6d-96b2b201e3c6",
+      "Attribute": [
+        {
+          "uuid": "c3220152-dcd9-44c6-a436-78aaf455bda0",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",

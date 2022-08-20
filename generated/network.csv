@@ -479,6 +479,8 @@ domain,app.foreverspy.com,Metasploit
 domain,spy24.net,Spy24
 domain,panel.spy24.net,Spy24
 domain,panel24.org,Spy24
+domain,android.spy24.app,Spy24
+ipv4,138.201.32.118,Spy24
 domain,catwatchful.com,CatWatchful
 domain,catwatchful-e03b8.firebaseio.com,CatWatchful
 domain,catwatchful-e03b8-2.firebaseio.com,CatWatchful
