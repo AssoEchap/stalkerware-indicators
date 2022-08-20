@@ -51,8 +51,9 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for 103 stalkerware applications (2701 samples)
+This repository includes indicators for 104 stalkerware applications (2701 samples)
 
+* Accountable2you (`accountable2you.com`)
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
 * AllTracker (`alltracker.org`)
 * AndroidLost (`androidlost.com` `www.androidlost.com`)
@@ -132,7 +133,7 @@ This repository includes indicators for 103 stalkerware applications (2701 sampl
 * SpyphoneMobileTracker (`phonetracker.com` `www.phonetracker.com` `spyfone.com` `spyphone.com` `www.spyphone.com` `spy-phone-app.com`)
 * TalkLog (`talklog.tools`)
 * TheOneSpy (`theonespy.com` `www.theonespy.com`)
-* TheTruthSpy (`copy9.com` `exactspy.com` `fonetracker.com` `free.spycell.net` `guestspy.com` `ispyoo.com` `mxspy.com` `phonespying.com` `phonetracking.net` `spyapps.net` `spycell.net` `thetruthspy.com - thespyapp.com` `weysys.com` `www.mxspy.com`)
+* TheTruthSpy (`copy9.com` `exactspy.com` `fonetracker.com` `free.spycell.net` `guestspy.com` `ispyoo.com` `mxspy.com` `phonespying.com` `phonetracking.net` `spyapps.net` `spycell.net` `thetruthspy.com` `thespyapp.com` `weysys.com` `www.mxspy.com`)
 * TheWiSpy (`www.thewispy.com` `childmonitoringsystem.com`)
 * TrackMyPhones (`trackmyphones.com` `www.trackmyphones.com`)
 * TrackView (`chome.zstone.co` `lifecircle.app` `trackview.net` `trackview.recurly.com`)
@@ -203,6 +204,7 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+
 
 
 
