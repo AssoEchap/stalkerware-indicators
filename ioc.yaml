@@ -3212,3 +3212,19 @@
     - 103.147.225.210
     - 175.126.146.147
     domains: []
+
+- name: Accountable2you
+  names: []
+  packages:
+  - com.accountable2you.ap1
+  certificates:
+  - 78CFFA689DD23FDD7E84DDFBF28F86D4843C6129
+  websites:
+  - accountable2you.com
+  c2:
+    ips: []
+    domains:
+    - accountable2you.com
+    - webservice.accountable2you.com
+    - accountable2you-android.firebaseio.com
+    - api.accountable2you.com
