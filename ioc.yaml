@@ -3249,3 +3249,19 @@
     domains:
     - pc.viptelefonprogrami.com
     - viptelefonprogrami.com
+
+- name: ShadySpy
+  names: []
+  packages:
+  - com.shadyspy.monitor
+  certificates:
+  - 91ED4F75A763A63471E1D1D39BA012DF867550D4
+  - C44894EE63F2E861A6960834A21EB27169150722
+  websites:
+  - shadyspy.com
+  - www.shadyspy.com
+  c2:
+    ips:
+    - 45.79.149.154
+    domains:
+    - www.shadyspy.com
