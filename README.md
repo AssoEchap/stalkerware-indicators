@@ -51,7 +51,7 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for 100 stalkerware applications (2701 samples)
+This repository includes indicators for 101 stalkerware applications (2701 samples)
 
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
 * AllTracker (`alltracker.org`)
@@ -100,6 +100,7 @@ This repository includes indicators for 100 stalkerware applications (2701 sampl
 * NeoSpy (`neospy.pro` `neospy.net` `neospy.tech`)
 * NetSpy (`www.netspy.net` `netspy.net`)
 * NexSpy (`nexspy.com` `oxy.nexspy.com` `mobilebackup.biz` `portal.mobilebackup.biz` `portal.topzaloha.cz`)
+* Observer (`www.observer.pw`)
 * OneLocator (`locatorprivacy.com` `onelocator.com`)
 * OneMonitar (`onespy.com`)
 * OwnSpy (`mobileinnova.net` `ownspy.com` `en.ownspy.com` `webdetetive.com.br` `ownspy.es`)
@@ -200,6 +201,7 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+
 
 
 

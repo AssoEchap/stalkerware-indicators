@@ -868,3 +868,4 @@ alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE SentryPC (www[.]sentryp
 alert ip $HOME_NET any -> [108.178.9.124] any (msg:"PTS STALKERWARE 108[.]178[.]9[.]124 (SentryPC)"; classtype:targeted-activity; sid:1000867; rev:1;)
 alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE TheWiSpy (cp[.]thewispy[.]com)"; dns.query; content:"cp.thewispy.com"; depth:15; nocase; endswith; fast_pattern; reference:url,github.com/AssoEchap/stalkerware-indicators; classtype:targeted-activity; sid:1000868; rev:1;)
 alert ip $HOME_NET any -> [167.71.189.163] any (msg:"PTS STALKERWARE 167[.]71[.]189[.]163 (TheWiSpy)"; classtype:targeted-activity; sid:1000869; rev:1;)
+alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE Observer (observer[.]back4app[.]io)"; dns.query; content:"observer.back4app.io"; depth:20; nocase; endswith; fast_pattern; reference:url,github.com/AssoEchap/stalkerware-indicators; classtype:targeted-activity; sid:1000870; rev:1;)
