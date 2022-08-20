@@ -1287,6 +1287,7 @@
     domains:
     - 83dd4.appspot.com
     - awsapi.io
+    - em.awsapi.io
     - ikm.awsapi.io
     - emcpanel.com
     - users.easemon.com
