@@ -3194,3 +3194,21 @@
     - package.mrec24.com
     - package2.mrec24.com
     - project-7991479181228723357.firebaseio.com
+
+- name: PhoneSpy
+  names: []
+  packages:
+  - com.popo.analyse
+  - com.wlset.info
+  certificates:
+  - 5EC970BC602D0EBB2F3C7A5135E24C330B71DE59
+  - FBC83FD67E3B534B8B03D3B341249DB3186374E2
+  websites:
+  - www.phone-spy.com
+  - phone-spy.com
+  - aksoft.gq
+  c2:
+    ips:
+    - 103.147.225.210
+    - 175.126.146.147
+    domains: []
