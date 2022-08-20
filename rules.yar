@@ -108,3 +108,36 @@ rule cerberus : stalkerware {
     condition:
         uint16(0) == 0x6564 and 4 of them
 }
+
+rule viptelefonprogrami : stalkerware {
+    meta:
+        author = "Tek"
+        email = "tek@randhome.io"
+
+    strings:
+        $b64 = /[a-zA-Z0-9+\/]{70,}==/
+        $re1 = /com\/[a-z]{8}\/[a-z]{8}\/protocol\/a;/
+        $re2 = /com\/[a-z]{8}\/[a-z]{8}\/registration\/a;/
+        $re3 = /com\/[a-z]{8}\/[a-z]{8}\/util\/a;/
+
+    condition:
+        uint16(0) == 0x6564 and #b64 > 1000 and all of ($re*)
+}
+
+rule viptelefonprogrami_jkl : stalkerware {
+    meta:
+        author = "Tek"
+        email = "tek@randhome.io"
+
+    strings:
+        $s1 = "base64_decode" ascii
+        $s2 = "MD5Transform" ascii
+        $s3 = "Java_com_example_hellojni_HelloJni_get2" ascii
+        $s4 = "tijni" ascii
+        $s5 = "error - 2" ascii
+        $s6 = "Success !!" ascii
+        $s7 = "Fail !!" ascii
+
+    condition:
+        uint16(0) == 0x457f and 6 of them
+}

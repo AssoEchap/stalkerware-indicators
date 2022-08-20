@@ -3244,8 +3244,8 @@
   websites:
   - viptelefonprogrami.com
   c2:
-    ips: []
+    ips:
+    - 52.22.130.9
     domains:
     - pc.viptelefonprogrami.com
     - viptelefonprogrami.com
-
