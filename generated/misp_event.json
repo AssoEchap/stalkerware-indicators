@@ -72437,6 +72437,105 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "dd36896c-1f80-4954-979a-b4de78f1a082",
+      "Attribute": [
+        {
+          "uuid": "e62528cd-bdbe-4b11-8bb9-2051f921fe3f",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "1395b0df-9d4b-4854-9719-64ad10b116e7",
+      "Attribute": [
+        {
+          "uuid": "1f13f459-7d4f-43fd-86a6-9ccb463e6ce2",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "1b27306d-6d74-4f34-98ab-f754660f074d",
+      "Attribute": [
+        {
+          "uuid": "0e4970d3-51f2-4dfe-b9a9-c526103a8c9d",
+          "object_relation": "name",
+          "value": "PhoneSpy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "53523e35-1d28-4318-87b0-95b037849557",
+          "object_relation": "certificate",
+          "value": "5EC970BC602D0EBB2F3C7A5135E24C330B71DE59",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "16c929b0-aec9-4691-bdc6-b4942c8f02ec",
+          "object_relation": "certificate",
+          "value": "FBC83FD67E3B534B8B03D3B341249DB3186374E2",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "a10f44c5-120c-4a73-85da-d29159f40885",
+          "object_relation": "appid",
+          "value": "com.popo.analyse",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "221d917f-ccc3-4e8f-bae7-25f33791f4ab",
+          "object_relation": "appid",
+          "value": "com.wlset.info",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
