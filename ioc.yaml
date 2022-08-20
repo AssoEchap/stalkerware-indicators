@@ -49,7 +49,7 @@
   - spyapps.net
   - spycell.net
   - thetruthspy.com
-    - thespyapp.com
+  - thespyapp.com
   - weysys.com
   - www.mxspy.com
   c2:
@@ -3156,7 +3156,7 @@
   websites:
   - www.observer.pw
   c2:
-    ips:
+    ips: []
     domains:
     - observer.back4app.io
 
@@ -3178,7 +3178,7 @@
   - mobilerecorder24.com
   - mrecorder.com
   c2:
-    ips:
+    ips: []
     domains:
     - d1gslyvqtipqvi.cloudfront.net
     - d24lo6rmha82nf.cloudfront.net
