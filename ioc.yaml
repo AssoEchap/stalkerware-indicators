@@ -3229,3 +3229,18 @@
     - webservice.accountable2you.com
     - accountable2you-android.firebaseio.com
     - api.accountable2you.com
+
+- name: VipTelefonProgrami
+  names: []
+  packages:
+  - com.mnwkvijy.wzyxgrft
+  certificates:
+  - 3953D3E3040FA50BCE09A08804ADC9CC643037F1
+  websites:
+  - viptelefonprogrami.com
+  c2:
+    ips: []
+    domains:
+    - pc.viptelefonprogrami.com
+    - viptelefonprogrami.com
+
