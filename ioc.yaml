@@ -3141,3 +3141,21 @@
     - 167.71.189.163
     domains:
     - cp.thewispy.com
+
+- name: Observer
+  names: []
+  packages:
+  - YWZiZDFjZTg2NTZlOGI4NDkyYWJjZDJjZDE5ZTM0Mjk.MzkwMmNhZGFiZGZhMjMyZjQzNTJkYmQ1ODg1ZjI1NzA
+  - com.system.settings
+  certificates:
+  - 3D4D65F3584201E74B186A90C3333C468D3C6A09
+  - 64AC17A447EB4BCAF556B57C5C66F232C489C7A7
+  - 85AF7A95F8A95541F6B6DE88A8EBC24FF1658E98
+  - D44524FA0D7866F1798C41C28953DA899B46BE65
+  - E906D462FA05007DE06423A10539C7E7EAB041CD
+  websites:
+  - www.observer.pw
+  c2:
+    ips:
+    domains:
+    - observer.back4app.io
