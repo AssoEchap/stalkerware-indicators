@@ -3159,3 +3159,38 @@
     ips:
     domains:
     - observer.back4app.io
+
+- name: Mrecorder
+  names:
+  - mobrec
+  packages:
+  - com.mobileservices2.synchronization
+  - com.mrecorder.callrecorder
+  - com.mobileservice.sync
+  - com.connection.manager
+  certificates:
+  - 718F3191938DA39D3A4EAC0EF0F44C70F32B0989
+  - 77142DA3A865C256FCDD24E187FDCEBA1B4EC587
+  certificate_organizations:
+  - mrecorder2
+  - MobileRecorder
+  websites:
+  - mobilerecorder24.com
+  - mrecorder.com
+  c2:
+    ips:
+    domains:
+    - d1gslyvqtipqvi.cloudfront.net
+    - d24lo6rmha82nf.cloudfront.net
+    - d3g4zswpacwtfb.cloudfront.net
+    - data240.mrec24.com
+    - data241.mrec24.com
+    - disp2.mrec24.com
+    - dispatcher.mrecorder.com
+    - mobi22.com
+    - mobilerecorder-1277.firebaseio.com
+    - mrec24.com
+    - my.mrec24.com
+    - package.mrec24.com
+    - package2.mrec24.com
+    - project-7991479181228723357.firebaseio.com
