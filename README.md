@@ -124,7 +124,7 @@ This repository includes indicators for 100 stalkerware applications (2701 sampl
 * SpyPhoneApp
 * SpyToApp (`spytoapp.com`)
 * Spyier (`spyier.com`)
-* Spylix (`spylix.com`)
+* Spylix (`spylix.com` `www.spylix.com`)
 * Spymie
 * SpyphoneMobileTracker (`phonetracker.com` `www.phonetracker.com` `spyfone.com` `spyphone.com` `www.spyphone.com` `spy-phone-app.com`)
 * TalkLog (`talklog.tools`)
@@ -200,6 +200,7 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+
 
 
 

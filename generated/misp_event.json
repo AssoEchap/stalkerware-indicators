@@ -71182,6 +71182,33 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "7675e666-94e3-4777-b95f-2b79bba98f76",
+          "object_relation": "domain",
+          "value": "getspylix.io",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "89d25a09-86a4-4e57-b555-3d7a9e22c7ca",
+          "object_relation": "domain",
+          "value": "my.spylix.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "19a3b68f-2dad-43a3-ad84-62bf073a49fd",
+          "object_relation": "domain",
+          "value": "d2nipadu1fr4ne.cloudfront.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -71929,6 +71956,48 @@
       "Attribute": [
         {
           "uuid": "e12f47db-9761-42fe-b9b6-2da1078255ff",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "cdefd143-9f8e-4a12-8ba2-4ccdd417ffbd",
+      "Attribute": [
+        {
+          "uuid": "d2918b32-bcc5-4ac3-b404-eebdf729f393",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "6e0d2223-d962-4f77-9b43-b2cf97b0b91a",
+      "Attribute": [
+        {
+          "uuid": "16ddb374-c0c1-40aa-b90a-e349b6951a83",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",
