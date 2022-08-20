@@ -34339,6 +34339,24 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
+        },
+        {
+          "uuid": "36e24126-14e3-4245-9f26-a319e3ad89a2",
+          "object_relation": "sha256",
+          "value": "ac75e69ce4cf35ca8dc492f25ff3bad6fd9ce1a46412dbf5a559f9234003fbcb",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "a9793300-1109-4fa5-bd70-a6be3603cfa4",
+          "object_relation": "certificate",
+          "value": "E6502D8A870C3F3910EA34F5B46D20D923047580",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -73101,6 +73119,48 @@
           "uuid": "e937f3ec-903d-486e-bc7a-f7ce83af034a",
           "object_relation": "appid",
           "value": "com.shadyspy.monitor",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "f0c5a486-6e66-4d87-8573-ab1c6cebbccc",
+      "Attribute": [
+        {
+          "uuid": "6d6d75b4-2443-425e-9a94-ae6b42d26e41",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "371d0e37-4aa7-4c5a-83db-ab0f9c6cbb81",
+      "Attribute": [
+        {
+          "uuid": "f7d961dc-b529-4ef9-93c7-ef3e57dfd1de",
+          "object_relation": "name",
+          "value": "mSpyitaly",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
