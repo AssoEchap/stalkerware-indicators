@@ -72194,6 +72194,249 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "2bd879c8-cc66-47a5-a991-8cd419011157",
+      "Attribute": [
+        {
+          "uuid": "3a6d44ed-bb11-48ea-8201-bc1b397eb0b5",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "573208de-1eb8-446e-af85-2dfb62b4553c",
+      "Attribute": [
+        {
+          "uuid": "830e9d2a-9816-4967-b263-ae127d31267d",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "b44d98fa-950a-4692-9eff-f45a59c97a79",
+      "Attribute": [
+        {
+          "uuid": "fae69e1d-856a-4c35-b34c-685bce27250c",
+          "object_relation": "name",
+          "value": "Mrecorder",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "15667f25-ada8-448e-b27e-1e83fc664d21",
+          "object_relation": "domain",
+          "value": "dispatcher.mrecorder.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "dfdcd731-2f59-4e70-b475-05c67f5eb030",
+          "object_relation": "domain",
+          "value": "package2.mrec24.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b3958925-2684-4030-b1a6-6acbb7fff941",
+          "object_relation": "domain",
+          "value": "mobi22.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3b8cc6a4-61e4-4f92-ac81-0a4749d22013",
+          "object_relation": "domain",
+          "value": "disp2.mrec24.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ba7a1284-ea59-4b31-aced-fd24cadf851a",
+          "object_relation": "domain",
+          "value": "d1gslyvqtipqvi.cloudfront.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cdf670ac-19ac-4659-aa6c-ebc15ac01b1f",
+          "object_relation": "domain",
+          "value": "my.mrec24.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "04d0535a-ad31-4d2b-8317-fdde995d36fb",
+          "object_relation": "domain",
+          "value": "mrec24.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "719778bd-336d-46ea-ac36-7e7caa293829",
+          "object_relation": "domain",
+          "value": "project-7991479181228723357.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f3658c70-bbe5-4ae9-a472-bd170a4cdcc0",
+          "object_relation": "domain",
+          "value": "package.mrec24.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "695a7a92-6204-4838-95b5-9d139074260a",
+          "object_relation": "domain",
+          "value": "data240.mrec24.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "488c5917-01bc-4602-8b36-10555c9c3529",
+          "object_relation": "domain",
+          "value": "d24lo6rmha82nf.cloudfront.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c4a3b285-15f0-4d26-b27b-03fc71aafb1e",
+          "object_relation": "domain",
+          "value": "mobilerecorder-1277.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "64568181-2782-4514-b198-50d647d9494d",
+          "object_relation": "domain",
+          "value": "d3g4zswpacwtfb.cloudfront.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "869c105f-9c4e-41cc-ab94-b45f1b2df22a",
+          "object_relation": "domain",
+          "value": "data241.mrec24.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bb97ad24-a401-499e-adc0-8fe8734f79ca",
+          "object_relation": "certificate",
+          "value": "718F3191938DA39D3A4EAC0EF0F44C70F32B0989",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "200ee214-d7f1-46ce-a3f1-b3ce662f6877",
+          "object_relation": "certificate",
+          "value": "77142DA3A865C256FCDD24E187FDCEBA1B4EC587",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "a502e1cd-e16b-4997-a563-0cbf832ccae2",
+          "object_relation": "appid",
+          "value": "com.connection.manager",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "1246363a-e392-448e-af99-5b9e62ac8806",
+          "object_relation": "appid",
+          "value": "com.mobileservices2.synchronization",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2aca033b-db76-4d47-af1c-0712b5e609be",
+          "object_relation": "appid",
+          "value": "com.mrecorder.callrecorder",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8c5e519e-d648-4d25-a427-57cdc6afe4aa",
+          "object_relation": "appid",
+          "value": "com.mobileservice.sync",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
