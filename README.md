@@ -143,7 +143,7 @@ This repository includes indicators for 105 stalkerware applications (2701 sampl
 * Unisafe (`usafe.ru` `unisafe.su` `unisafe.techmas.ru`)
 * VIPTrack (`viptrack.ro`)
 * VipTelefonProgrami (`viptelefonprogrami.com`)
-* WebWatcher (`interguardsoftware.com` `screentimelabs.com` `webwatcher.com` `www.webwatcher.com`)
+* WebWatcher (`awarenesstechnologies.com` `interguardsoftware.com` `screentimelabs.com` `webwatcher.com` `www.webwatcher.com`)
 * WiseMo (`wisemo.com` `www.wisemo.com`)
 * WtSpy (`wt-spy.com`)
 * XNSpy (`xnspy.com` `cp.xnspy.com`)
@@ -205,6 +205,7 @@ you're free to do whatever you want with it.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
+
 
 
 

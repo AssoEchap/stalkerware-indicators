@@ -374,6 +374,7 @@ domain,api-project-999803017449.firebaseio.com,Cerberus
 domain,cerberusapp.com,Cerberus
 domain,a-qa3.thd.cc,mSpy
 domain,a.thd.cc,mSpy
+domain,alter757.info,mSpy
 domain,api.thd.cc,mSpy
 domain,apiv4.alter757.info,mSpy
 domain,b55y.net,mSpy
@@ -443,6 +444,7 @@ domain,reports.crashlytics.com,MobileTrackerFree
 ipv4,51.15.183.209,MobileTrackerFree
 domain,83dd4.appspot.com,iKeyMonitor
 domain,awsapi.io,iKeyMonitor
+domain,em.awsapi.io,iKeyMonitor
 domain,ikm.awsapi.io,iKeyMonitor
 domain,emcpanel.com,iKeyMonitor
 domain,users.easemon.com,iKeyMonitor
@@ -491,6 +493,7 @@ domain,ddiutilities.com,HighsterMobile
 domain,device-ac480.appspot.com,HighsterMobile
 domain,device-ac480.firebaseio.com,HighsterMobile
 domain,evt17.com,HighsterMobile
+domain,ngc77.com,HighsterMobile
 domain,phonespector-b2f13.firebaseio.com,HighsterMobile
 domain,phonespector.com,HighsterMobile
 domain,imonitor-da8b2.firebaseio.com,iMonitorSpy
@@ -630,6 +633,7 @@ domain,v4vw4ytvo4.execute-api.us-east-2.amazonaws.com,Spyier
 domain,api.bytepioner.com,CouplerTracker
 domain,asgard-f8c53.firebaseio.com,GPSTrackerLoki
 domain,m.asgardtech.ru,GPSTrackerLoki
+domain,spyapp.top,Xnore
 domain,xnore.com,Xnore
 ipv4,162.144.212.52,Xnore
 domain,aovivo.foxspy.com.br,EspiaoAndroid

@@ -44161,6 +44161,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "ef6c2fbe-6b71-44d0-80e3-e5847a19e380",
+          "object_relation": "domain",
+          "value": "alter757.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -46609,6 +46618,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "f9791e1a-12e7-4e7d-bf12-52fea4d07758",
+          "object_relation": "domain",
+          "value": "em.awsapi.io",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -48139,6 +48157,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "4616d89a-bdba-4f29-977b-1ae27a7f59a9",
+          "object_relation": "domain",
+          "value": "ngc77.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -61936,6 +61963,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "8f22b052-e7d9-487a-be02-b24bf3ca62a1",
+          "object_relation": "domain",
+          "value": "spyapp.top",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -72786,6 +72822,48 @@
           "uuid": "9e99f766-7acb-4239-bf2b-a53a1227b273",
           "object_relation": "appid",
           "value": "com.mnwkvijy.wzyxgrft",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "cce3f1ef-d9a3-4763-a782-138b7fa21e65",
+      "Attribute": [
+        {
+          "uuid": "2024fb49-7c22-4711-ad99-cc03b9cfd453",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "d6dea73c-645e-4314-b708-030c4b6ab343",
+      "Attribute": [
+        {
+          "uuid": "90d3d4e3-784d-4075-afd6-b8e687eb0a01",
+          "object_relation": "name",
+          "value": "mSpyitaly",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
