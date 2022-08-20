@@ -909,6 +909,7 @@
   - F2633353631EE72F7B7A7B946FABE1EF0A339041
   - 409B589FDEAE073A94D609E2B41A6C0EA952B35A
   websites:
+  - cellphonetrackers.org
   - cerberusapp.com
   - www.cerberusapp.com
   c2:
@@ -968,6 +969,7 @@
     domains:
     - a-qa3.thd.cc
     - a.thd.cc
+    - alter757.info
     - api.thd.cc
     - apiv4.alter757.info
     - b55y.net
@@ -1285,6 +1287,7 @@
     domains:
     - 83dd4.appspot.com
     - awsapi.io
+    - em.awsapi.io
     - ikm.awsapi.io
     - emcpanel.com
     - users.easemon.com
@@ -1434,6 +1437,7 @@
     - device-ac480.appspot.com
     - device-ac480.firebaseio.com
     - evt17.com
+    - ngc77.com
     - phonespector-b2f13.firebaseio.com
     - phonespector.com
 
@@ -2033,6 +2037,7 @@
     ips:
     - 162.144.212.52
     domains:
+    - spyapp.top
     - xnore.com
 
 - name: EspiaoAndroid
@@ -2985,6 +2990,7 @@
   - com.screentime
   - com.ww.companion
   websites:
+  - awarenesstechnologies.com
   - interguardsoftware.com
   - screentimelabs.com
   - webwatcher.com
@@ -3156,7 +3162,7 @@
   websites:
   - www.observer.pw
   c2:
-    ips:
+    ips: []
     domains:
     - observer.back4app.io
 
@@ -3178,7 +3184,7 @@
   - mobilerecorder24.com
   - mrecorder.com
   c2:
-    ips:
+    ips: []
     domains:
     - d1gslyvqtipqvi.cloudfront.net
     - d24lo6rmha82nf.cloudfront.net
@@ -3228,3 +3234,18 @@
     - webservice.accountable2you.com
     - accountable2you-android.firebaseio.com
     - api.accountable2you.com
+
+- name: VipTelefonProgrami
+  names: []
+  packages:
+  - com.mnwkvijy.wzyxgrft
+  certificates:
+  - 3953D3E3040FA50BCE09A08804ADC9CC643037F1
+  websites:
+  - viptelefonprogrami.com
+  c2:
+    ips: []
+    domains:
+    - pc.viptelefonprogrami.com
+    - viptelefonprogrami.com
+

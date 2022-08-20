@@ -51,7 +51,7 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for 104 stalkerware applications (2701 samples)
+This repository includes indicators for 105 stalkerware applications (2701 samples)
 
 * Accountable2you (`accountable2you.com`)
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
@@ -67,7 +67,7 @@ This repository includes indicators for 104 stalkerware applications (2701 sampl
 * Bulgok (`c-phone.ru`)
 * CallSMSTracker (`callsmstracker.com` `hiddensmstracker.com` `hiddensystemhealth.com` `registrations.smstracker.com` `smstracker.com` `smstrackerweb.com` `www.hiddensmstracker.com` `www.hiddensystemhealth.com` `www.smstrackerweb.com`)
 * CatWatchful (`catwatchful.com` `catwatchful.online`)
-* Cerberus (`cerberusapp.com` `www.cerberusapp.com`)
+* Cerberus (`cellphonetrackers.org` `cerberusapp.com` `www.cerberusapp.com`)
 * ClevGuard (`clevguard.net` `www.clevguard.com` `clevguard.com`)
 * Cocospy (`best-mobile-spy.com` `cocospy.com` `cocospy.net` `fonemonitor.co` `minspy.com` `neatspy.com` `safespy.com` `spyic.biz` `spyic.com` `spyier.biz` `spyine.biz` `spyine.com` `spyzie.com` `spyzie.io` `spyzie.online` `teensafe.net` `teensafe.vip` `www.fonemonitor.co` `www.minspy.com` `www.spyic.com` `www.spyzie.com` `www.teensafe.net`)
 * CouplerTracker (`coupletracker.com`)
@@ -142,7 +142,8 @@ This repository includes indicators for 104 stalkerware applications (2701 sampl
 * Tracku (`2mata.net` `clues4.com` `cluestr.com` `e-spy.org` `hike.in` `izkid.com` `www.e-spy.org` `www.izkid.com`)
 * Unisafe (`usafe.ru` `unisafe.su` `unisafe.techmas.ru`)
 * VIPTrack (`viptrack.ro`)
-* WebWatcher (`interguardsoftware.com` `screentimelabs.com` `webwatcher.com` `www.webwatcher.com`)
+* VipTelefonProgrami (`viptelefonprogrami.com`)
+* WebWatcher (`awarenesstechnologies.com` `interguardsoftware.com` `screentimelabs.com` `webwatcher.com` `www.webwatcher.com`)
 * WiseMo (`wisemo.com` `www.wisemo.com`)
 * WtSpy (`wt-spy.com`)
 * XNSpy (`xnspy.com` `cp.xnspy.com`)
@@ -226,3 +227,9 @@ If it is useful to you, consider giving money to an organisation supporting viol
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b

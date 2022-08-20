@@ -44161,6 +44161,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "ef6c2fbe-6b71-44d0-80e3-e5847a19e380",
+          "object_relation": "domain",
+          "value": "alter757.info",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -46609,6 +46618,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "f9791e1a-12e7-4e7d-bf12-52fea4d07758",
+          "object_relation": "domain",
+          "value": "em.awsapi.io",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -48139,6 +48157,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "4616d89a-bdba-4f29-977b-1ae27a7f59a9",
+          "object_relation": "domain",
+          "value": "ngc77.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -61936,6 +61963,15 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "8f22b052-e7d9-487a-be02-b24bf3ca62a1",
+          "object_relation": "domain",
+          "value": "spyapp.top",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -72543,10 +72579,17 @@
       "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
       "description": "Indicators related to an Android app",
       "template_version": "1",
+<<<<<<< HEAD
       "uuid": "5cb5051f-1f76-47b8-b78f-189cf94e5fe0",
       "Attribute": [
         {
           "uuid": "d2498d7d-7d40-46df-ac53-e2d767a0f267",
+=======
+      "uuid": "647c4198-dd1a-4342-a888-075b3afe953a",
+      "Attribute": [
+        {
+          "uuid": "779975b0-00be-4c40-af20-94e66849e0a6",
+>>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b
           "object_relation": "name",
           "value": "juju",
           "type": "text",
@@ -72564,10 +72607,17 @@
       "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
       "description": "Indicators related to an Android app",
       "template_version": "1",
+<<<<<<< HEAD
       "uuid": "222b05c7-d220-46b2-bff4-9795f5897777",
       "Attribute": [
         {
           "uuid": "7d81fa30-3872-4772-b9c4-932846c288d3",
+=======
+      "uuid": "7efa75a6-4e48-491e-be30-54fb3566e538",
+      "Attribute": [
+        {
+          "uuid": "8ddbe857-5ebc-42de-a97a-8fc5c602196e",
+>>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",
@@ -72585,10 +72635,17 @@
       "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
       "description": "Indicators related to an Android app",
       "template_version": "1",
+<<<<<<< HEAD
       "uuid": "653c6040-0a45-4829-ae42-c45358b7ddd4",
       "Attribute": [
         {
           "uuid": "47dbc783-7d59-4212-8c56-893ec372c4dd",
+=======
+      "uuid": "d942fecf-ea37-441f-a66b-78620484535e",
+      "Attribute": [
+        {
+          "uuid": "69499872-6caa-49c8-8d10-bab6cef7f7a0",
+>>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b
           "object_relation": "name",
           "value": "Accountable2you",
           "type": "text",
@@ -72597,6 +72654,7 @@
           "category": "Other"
         },
         {
+<<<<<<< HEAD
           "uuid": "72bc22b8-68d4-4176-99ce-d073bb1e31f0",
           "object_relation": "domain",
           "value": "accountable2you-android.firebaseio.com",
@@ -72607,6 +72665,9 @@
         },
         {
           "uuid": "409f6ac2-2232-48c6-bf27-8a4269aece55",
+=======
+          "uuid": "e5e14552-1ab1-4234-a86a-5bcad82d6758",
+>>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b
           "object_relation": "domain",
           "value": "webservice.accountable2you.com",
           "type": "domain",
@@ -72615,16 +72676,26 @@
           "category": "Network activity"
         },
         {
+<<<<<<< HEAD
           "uuid": "be70f317-6b1b-4954-a8e1-e838a99258bc",
           "object_relation": "domain",
           "value": "accountable2you.com",
+=======
+          "uuid": "83e2d40f-244b-4633-86e7-6178bc092dc6",
+          "object_relation": "domain",
+          "value": "accountable2you-android.firebaseio.com",
+>>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b
           "type": "domain",
           "disable_correlation": false,
           "to_ids": true,
           "category": "Network activity"
         },
         {
+<<<<<<< HEAD
           "uuid": "ce1176b5-98a2-46d3-9909-f50716032881",
+=======
+          "uuid": "aa778895-10af-46e2-a37a-2f617c892f78",
+>>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b
           "object_relation": "domain",
           "value": "api.accountable2you.com",
           "type": "domain",
@@ -72633,7 +72704,20 @@
           "category": "Network activity"
         },
         {
+<<<<<<< HEAD
           "uuid": "32a96228-96a6-4a63-a4aa-4705dde87721",
+=======
+          "uuid": "a9f004c2-7307-4f19-be49-7df6c7b48392",
+          "object_relation": "domain",
+          "value": "accountable2you.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d62b4f65-bb5c-4d87-8885-65f5415a48f6",
+>>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b
           "object_relation": "certificate",
           "value": "78CFFA689DD23FDD7E84DDFBF28F86D4843C6129",
           "type": "sha1",
@@ -72642,7 +72726,11 @@
           "category": "Payload delivery"
         },
         {
+<<<<<<< HEAD
           "uuid": "4835387a-3726-4b86-8a44-aaf444c88b67",
+=======
+          "uuid": "b630c2fc-123c-41fa-a8fa-ea7f0fe7a084",
+>>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b
           "object_relation": "appid",
           "value": "com.accountable2you.ap1",
           "type": "text",
@@ -72653,6 +72741,192 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "07dafb31-eafd-4209-b32a-ec2045cfcc8f",
+      "Attribute": [
+        {
+          "uuid": "e3328a17-a265-40df-b5e6-8aa8b3d5f4e2",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "43ecc65c-c1f7-4d4e-9bd7-907b800c5265",
+      "Attribute": [
+        {
+          "uuid": "415a25c7-41bb-459b-b345-18a214ea6bfe",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "f7946db8-ca35-4a34-b51e-bd616d532461",
+      "Attribute": [
+        {
+          "uuid": "d2b1b9bd-8f00-449c-90ad-3409f7c5a69b",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "4489a029-6b1f-4ba3-92c3-8019e7088348",
+      "Attribute": [
+        {
+          "uuid": "e56cafd6-ccd6-4cbe-b9f9-2494dd105a15",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "30cf6683-752c-483e-822a-73d97330900c",
+      "Attribute": [
+        {
+          "uuid": "d13e64b4-dbd6-4760-8267-163c9371607b",
+          "object_relation": "name",
+          "value": "VipTelefonProgrami",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8700f34b-727e-400e-8308-cb5e26d2c04d",
+          "object_relation": "domain",
+          "value": "pc.viptelefonprogrami.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ce985e04-9514-4e4d-9fe2-4496f62b5ad3",
+          "object_relation": "domain",
+          "value": "viptelefonprogrami.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f25147ad-f20b-43f3-90d5-6ad0ca690bd5",
+          "object_relation": "certificate",
+          "value": "3953D3E3040FA50BCE09A08804ADC9CC643037F1",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "9e99f766-7acb-4239-bf2b-a53a1227b273",
+          "object_relation": "appid",
+          "value": "com.mnwkvijy.wzyxgrft",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "cce3f1ef-d9a3-4763-a782-138b7fa21e65",
+      "Attribute": [
+        {
+          "uuid": "2024fb49-7c22-4711-ad99-cc03b9cfd453",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "d6dea73c-645e-4314-b708-030c4b6ab343",
+      "Attribute": [
+        {
+          "uuid": "90d3d4e3-784d-4075-afd6-b8e687eb0a01",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+>>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b
     }
   ],
   "info": "Stalkerware indicators",
