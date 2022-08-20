@@ -72695,6 +72695,105 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "f7946db8-ca35-4a34-b51e-bd616d532461",
+      "Attribute": [
+        {
+          "uuid": "d2b1b9bd-8f00-449c-90ad-3409f7c5a69b",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "4489a029-6b1f-4ba3-92c3-8019e7088348",
+      "Attribute": [
+        {
+          "uuid": "e56cafd6-ccd6-4cbe-b9f9-2494dd105a15",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "30cf6683-752c-483e-822a-73d97330900c",
+      "Attribute": [
+        {
+          "uuid": "d13e64b4-dbd6-4760-8267-163c9371607b",
+          "object_relation": "name",
+          "value": "VipTelefonProgrami",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "8700f34b-727e-400e-8308-cb5e26d2c04d",
+          "object_relation": "domain",
+          "value": "pc.viptelefonprogrami.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ce985e04-9514-4e4d-9fe2-4496f62b5ad3",
+          "object_relation": "domain",
+          "value": "viptelefonprogrami.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "f25147ad-f20b-43f3-90d5-6ad0ca690bd5",
+          "object_relation": "certificate",
+          "value": "3953D3E3040FA50BCE09A08804ADC9CC643037F1",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "9e99f766-7acb-4239-bf2b-a53a1227b273",
+          "object_relation": "appid",
+          "value": "com.mnwkvijy.wzyxgrft",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
