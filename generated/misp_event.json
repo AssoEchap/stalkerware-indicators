@@ -72983,6 +72983,132 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "5ff50dd9-cad2-49b3-b485-004ef98ec947",
+      "Attribute": [
+        {
+          "uuid": "f987c852-c662-406b-8a70-f9c9ee60c70a",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "f8402082-1d4d-4feb-8f98-475cf96f69bf",
+      "Attribute": [
+        {
+          "uuid": "29aafcb1-8271-4fe5-b66b-d8e30927f186",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "01151ea9-7da0-4470-8c9e-7095854f2b0c",
+      "Attribute": [
+        {
+          "uuid": "af125821-68b7-4f88-9a67-9f904ced00eb",
+          "object_relation": "name",
+          "value": "ShadySpy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3624d728-7654-43e0-ad53-7af1dcb58454",
+          "object_relation": "domain",
+          "value": "www.shadyspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "399e5671-32b7-45be-870c-840ee9d22e17",
+          "object_relation": "sha256",
+          "value": "4d43ecaadc57910cd8df8ee7c280e411dba3089efe760cd5d001098e3e052cf3",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "88ea5ffc-e737-4978-8fd7-ff6aac97fd67",
+          "object_relation": "sha256",
+          "value": "c1e13d5848d621627dc6ca7b0194265cfc4e506860492747f08e853530443a54",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "20828c61-9bbc-4428-8999-67bf87319b6a",
+          "object_relation": "sha256",
+          "value": "e65a703f4d43dcabbe902e991fbad02b3eb4cd0e741528b1b50cc47347305103",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e3e1ab30-0c84-46c1-bd8f-b4fba308f827",
+          "object_relation": "certificate",
+          "value": "91ED4F75A763A63471E1D1D39BA012DF867550D4",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "0dadd2cc-19c0-4f1c-a06a-98f8f2166fe0",
+          "object_relation": "certificate",
+          "value": "C44894EE63F2E861A6960834A21EB27169150722",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e937f3ec-903d-486e-bc7a-f7ce83af034a",
+          "object_relation": "appid",
+          "value": "com.shadyspy.monitor",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",
