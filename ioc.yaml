@@ -1385,6 +1385,7 @@
   packages:
   - wosc.cwf
   - wosc.cwf2
+  - com.example.wosc.androidclient
   certificates:
   - 5037E917539B4F31E0B92EBB7A9089C5DC567518
   - 68E4A16FD2B8D41E817CC5A06BA95B9CED9BD9F9
@@ -1398,6 +1399,7 @@
   - F18B3369F152EC3C74EC884BE977B3CA0E0C996D
   - 523C42BF2F6CBAFC78BE41043E8E3E3BB311CBA2
   - 77032E80CC0ECEE49B8F2F58F9999330026E0DB3
+  - 7688EA09EE353ED077E0A90D401881B63F115A3F
   websites:
   - catwatchful.com
   - catwatchful.online
@@ -1409,6 +1411,7 @@
     - catwatchful.com
     - catwatchful-e03b8.firebaseio.com
     - catwatchful-e03b8-2.firebaseio.com
+    - us-central1-catwatchful-e03b8.cloudfunctions.net
 
 - name: HighsterMobile
   names:
