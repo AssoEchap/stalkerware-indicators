@@ -3372,3 +3372,38 @@
     domains:
     - www.shadyspy.com
 
+- name: AbsoluTrack
+  names:
+  - RemoteSecurity
+  packages:
+  - com.ass.antitheft
+  - com.ass.remotesecurity 
+  - com.ass.ladieschildprotection
+  - com.ots.ladieschildprotection
+  - com.ots.remotesecurity
+  - com.ots.antitheft 
+  - com.softalogy.thiefguard
+  - com.ots.womenchildsafety
+  certificates:
+  - 8851279B5177EF52B0B8540EE1FCED4BABDFB318
+  - 5D655F30DE8B8BDABCCDF660582C6369145E7A5A
+  websites:
+  - absolutesoftsystem.in
+  - absolutestoreindia.com
+  - ass.absolutesoftsystem.in
+  - geniesoftsystem.com
+  - onetouchsecurities.com
+  - smartguardapp.com
+  - thiefguardbd.com
+  - www.smartguardapp.com
+  c2:
+    ips: []
+    domains:
+    - absolutesoftsystem.in
+    - ass.absolutesoftsystem.in
+    - thiefguardbd.com
+    - antitheft-88554.firebaseio.com
+    - remotesecurity-629f2.firebaseio.com
+    - test.onetouchsecurities.com
+    - remotesecurityots.firebaseio.com
+
