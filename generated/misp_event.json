@@ -47551,6 +47551,42 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "e6223cee-25c9-488d-ada5-853bbda0bf3e",
+          "object_relation": "domain",
+          "value": "us-central1-catwatchful-e03b8.cloudfunctions.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "89faaaac-6596-4611-b6c9-8d3b4bd262d2",
+          "object_relation": "sha256",
+          "value": "47a2eeece313d88f73ec09b927c405edb232ba8d6a37b1df3b9990490f993590",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "9313b30d-5ece-4f3d-99f8-76a8b6650502",
+          "object_relation": "certificate",
+          "value": "7688EA09EE353ED077E0A90D401881B63F115A3F",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "117eea82-9fe6-4192-b1e7-6b376fa362f4",
+          "object_relation": "appid",
+          "value": "com.example.wosc.androidclient",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
         }
       ],
       "distribution": "5",
@@ -73264,6 +73300,48 @@
       "Attribute": [
         {
           "uuid": "c3220152-dcd9-44c6-a436-78aaf455bda0",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "937e5235-8aa8-48b2-8c55-7e863f3397c0",
+      "Attribute": [
+        {
+          "uuid": "58f0cc65-7087-4b47-98fd-c4e1bfdf0ff0",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "055fd5c2-cd65-4bba-9885-caec25f6c00c",
+      "Attribute": [
+        {
+          "uuid": "11d09f9c-e9dc-4de8-899b-307b3a994ada",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",
