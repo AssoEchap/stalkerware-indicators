@@ -795,6 +795,8 @@ domain,msafe.xyz,Tracku
 domain,www.apk7.biz,Tracku
 domain,www.e-spy.org,Tracku
 domain,www.msafe.xyz,Tracku
+domain,pc.viptelefonprogrami.com,KidsShield
+domain,viptelefonprogrami.com,KidsShield
 domain,apprtc.appspot.com,KidsShield
 domain,quanly24h.net,KidsShield
 domain,login.quanly24h.net,KidsShield
@@ -809,6 +811,7 @@ domain,pc.freespyapp.com,KidsShield
 domain,freespyapp.com,KidsShield
 domain,spyt.co,KidsShield
 domain,spytrac-app1.s3.amazonaws.com,KidsShield
+ipv4,52.22.130.9,KidsShield
 domain,nemospy.com,NemoSpy
 domain,setup.nemospy.com,NemoSpy
 domain,pc.spykontrol.com,SpyKontrol
@@ -897,8 +900,5 @@ domain,accountable2you.com,Accountable2you
 domain,webservice.accountable2you.com,Accountable2you
 domain,accountable2you-android.firebaseio.com,Accountable2you
 domain,api.accountable2you.com,Accountable2you
-domain,pc.viptelefonprogrami.com,VipTelefonProgrami
-domain,viptelefonprogrami.com,VipTelefonProgrami
-ipv4,52.22.130.9,VipTelefonProgrami
 domain,www.shadyspy.com,ShadySpy
 ipv4,45.79.149.154,ShadySpy
