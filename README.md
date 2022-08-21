@@ -51,7 +51,7 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for 106 stalkerware applications (2713 samples)
+This repository includes indicators for 105 stalkerware applications (2713 samples)
 
 * Accountable2you (`accountable2you.com`)
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
@@ -86,7 +86,7 @@ This repository includes indicators for 106 stalkerware applications (2713 sampl
 * Hoverwatch (`br.refog.com` `de.refog.com` `es.refog.com` `fr.refog.com` `hover.watch` `hoverwatch.com` `hu.refog.com` `hws.icu` `it.refog.com` `my.hws.icu` `nl.refog.com` `prospybubble.com` `refog.com` `refog.de` `refog.net` `refog.org` `ro.refog.com` `www.hoverwatch.com`)
 * KasperskySafeKids
 * KidsControl (`kid-control.com` `kid-control.ru`)
-* KidsShield (`backupsoft.eu` `freespyapp.com` `kidsshield.net` `pc.freespyapp.com` `pc.selfspy.com` `selfspy.com` `techinnovative.net` `tifamily.net` `tracerspy.net` `tispy.net` `ua.tispy.net` `www.selfspy.com`)
+* KidsShield (`backupsoft.eu` `freespyapp.com` `kidsshield.net` `pc.freespyapp.com` `pc.selfspy.com` `selfspy.com` `techinnovative.net` `tifamily.net` `tracerspy.net` `tispy.net` `ua.tispy.net` `www.selfspy.com` `viptelefonprogrami.com`)
 * LetMeSpy (`letmespy.com` `remotecommands.com` `www.letmespy.com` `www.teleszpieg.pl` `teleszpieg.pl` `bbiindia.com` `www.bbiindia.com`)
 * Metasploit (`foreverspy.com`)
 * MeuSpy (`servidor.in` `meuspy.com`)
@@ -143,7 +143,6 @@ This repository includes indicators for 106 stalkerware applications (2713 sampl
 * Tracku (`2mata.net` `clues4.com` `cluestr.com` `e-spy.org` `hike.in` `izkid.com` `www.e-spy.org` `www.izkid.com`)
 * Unisafe (`usafe.ru` `unisafe.su` `unisafe.techmas.ru`)
 * VIPTrack (`viptrack.ro`)
-* VipTelefonProgrami (`viptelefonprogrami.com`)
 * WebWatcher (`awarenesstechnologies.com` `interguardsoftware.com` `screentimelabs.com` `webwatcher.com` `www.webwatcher.com`)
 * WiseMo (`wisemo.com` `www.wisemo.com`)
 * WtSpy (`wt-spy.com`)
@@ -234,6 +233,9 @@ If it is useful to you, consider giving money to an organisation supporting viol
 
 
 >>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b
+
+
+
 
 
 
