@@ -73583,6 +73583,222 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "8121f093-023d-4ed9-a429-d2d263ad83ae",
+      "Attribute": [
+        {
+          "uuid": "7d9c48b9-ad44-4c5c-ad15-8ec61f858928",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "191c6a84-0f5b-42b6-a290-4aa3b3377fbc",
+      "Attribute": [
+        {
+          "uuid": "13603ace-344f-418f-b7b3-68e535268da5",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "e413d2d9-18fa-45f7-8bb9-d85120688399",
+      "Attribute": [
+        {
+          "uuid": "f9c5fe1b-b9df-43a4-a611-a799b4208882",
+          "object_relation": "name",
+          "value": "AbsoluTrack",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "2388e4e6-c9dd-4712-a367-4ccb3875cb31",
+          "object_relation": "domain",
+          "value": "thiefguardbd.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "bfc1cfe7-d43b-4e85-b702-a86e21946e31",
+          "object_relation": "domain",
+          "value": "test.onetouchsecurities.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c85f2783-2149-47fa-8bd6-4e8f4e7001ad",
+          "object_relation": "domain",
+          "value": "remotesecurity-629f2.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5bf40466-0821-4155-bb8e-80d81c60ec43",
+          "object_relation": "domain",
+          "value": "antitheft-88554.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "137f4c32-34a6-4bc8-a269-d26e819656e2",
+          "object_relation": "domain",
+          "value": "ass.absolutesoftsystem.in",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "70b5d338-54b4-4d5b-bcf7-bdf54abcb2d1",
+          "object_relation": "domain",
+          "value": "absolutesoftsystem.in",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a26907b1-8521-43b2-93e9-b505f195a68a",
+          "object_relation": "domain",
+          "value": "remotesecurityots.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5be3bd83-3262-446f-a338-285828678be7",
+          "object_relation": "certificate",
+          "value": "8851279B5177EF52B0B8540EE1FCED4BABDFB318",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "e9f674ed-06d2-4758-b310-4ed46001b226",
+          "object_relation": "certificate",
+          "value": "5D655F30DE8B8BDABCCDF660582C6369145E7A5A",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "50e72c62-a633-40c0-890e-d6f5885ee2c0",
+          "object_relation": "appid",
+          "value": "com.softalogy.thiefguard",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "157adb00-988f-4fc8-b1ea-6a4345a87f73",
+          "object_relation": "appid",
+          "value": "com.ass.antitheft",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "95a196c4-bcba-4841-9bee-9bdbc01217e2",
+          "object_relation": "appid",
+          "value": "com.ass.ladieschildprotection",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "0c997330-11c9-42de-b343-e3ab41bd3066",
+          "object_relation": "appid",
+          "value": "com.ots.ladieschildprotection",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "94a8a004-1595-44aa-b259-1c4e9424570d",
+          "object_relation": "appid",
+          "value": "com.ass.remotesecurity",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "92015694-cdda-4415-8b94-6292b93c9786",
+          "object_relation": "appid",
+          "value": "com.ots.antitheft",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "c508be2d-c892-412c-9769-bea74c4dfee5",
+          "object_relation": "appid",
+          "value": "com.ots.remotesecurity",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "af2f1c18-e59f-49af-8aa3-6b4e3601155d",
+          "object_relation": "appid",
+          "value": "com.ots.womenchildsafety",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",

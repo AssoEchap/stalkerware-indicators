@@ -51,8 +51,9 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for 105 stalkerware applications (2713 samples)
+This repository includes indicators for 106 stalkerware applications (2713 samples)
 
+* AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
 * AllTracker (`alltracker.org`)
@@ -233,6 +234,7 @@ If it is useful to you, consider giving money to an organisation supporting viol
 
 
 >>>>>>> a885289fa3aab8cc5e82831a7c084c685fe6809b
+
 
 
 
