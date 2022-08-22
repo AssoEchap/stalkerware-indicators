@@ -175,6 +175,7 @@ Contributors include:
 - [Esther](https://twitter.com/U039b)
 - [Jurre van Bergen](https://twitter.com/DrWhax)
 - [@nscrutables](https://twitter.com/nscrutables)
+- [Joan](https://github.com/j04n)
 
 These indicators are largely based on research and analysis using [APKlab](https://www.apklab.io/), [Koodous](https://koodous.com/) and [VirusTotal](https://www.virustotal.com/).
 
