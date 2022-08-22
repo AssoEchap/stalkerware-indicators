@@ -551,6 +551,7 @@
     - neatspy.vip
     - phonedata.me
     - app-api.phonedata.me
+    - data-api.phonedata.me
     - spyzie-a.firebaseio.com
     - mg-spyzie.oss-us-west-1.aliyuncs.com
     - s.appjiagu.com
@@ -1189,6 +1190,7 @@
   - service.download.app
   - tracker.mob.gps
   - mobile.monitor.child2034
+  - mobile.protect.children2020
   certificates:
   - 021A3F097EDA780798DF5ECB16EF338C08236847
   - 0568E0400308CBFC58E11A324EA233F5B2E923BF
@@ -1275,6 +1277,7 @@
     - olurdaolurdediler.shop
     - sapient-flight-837.firebaseio.com
     - reports.crashlytics.com
+    - mobile-tracker-free.com
 
 - name: iKeyMonitor
   names:
@@ -3186,7 +3189,8 @@
   certificate_organizations:
   - H20201128
   c2:
-    ips: []
+    ips:
+    - 47.252.23.40
     domains:
     - api.mycellspy.com
 
@@ -3377,16 +3381,22 @@
   - RemoteSecurity
   packages:
   - com.ass.antitheft
-  - com.ass.remotesecurity 
+  - com.ass.remotesecurity
   - com.ass.ladieschildprotection
   - com.ots.ladieschildprotection
   - com.ots.remotesecurity
-  - com.ots.antitheft 
+  - com.ots.antitheft
   - com.softalogy.thiefguard
   - com.ots.womenchildsafety
+  - com.gss.whereismyphone
+  - com.smart.guardoffline
   certificates:
   - 8851279B5177EF52B0B8540EE1FCED4BABDFB318
   - 5D655F30DE8B8BDABCCDF660582C6369145E7A5A
+  - 28393DBA55F5B08294D1E54962BE1648C1EFB4A2
+  - 40159690AF08A01670E3FA07A021F7B1C1437042
+  - C9BE6C42B975258DEA10EB6946A7986E4FE955E2
+  - D1BB66A93F621A66094F28856988C7A2AE9972D0
   websites:
   - absolutesoftsystem.in
   - absolutestoreindia.com
@@ -3397,7 +3407,7 @@
   - thiefguardbd.com
   - www.smartguardapp.com
   c2:
-    ips: []
+    ips:
     domains:
     - absolutesoftsystem.in
     - ass.absolutesoftsystem.in
