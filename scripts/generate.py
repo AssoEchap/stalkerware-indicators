@@ -260,7 +260,7 @@ def update_readme(output, iocs):
         return
 
     with open(dpath, "r") as f:
-        data = f.read().split("\n")
+        data = f.read().splitlines()
 
     os.remove(dpath)
     i = 0
