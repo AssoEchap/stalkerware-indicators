@@ -34366,6 +34366,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "2bcffb44-4edb-4599-b956-6913016d0ca5",
+          "object_relation": "sha256",
+          "value": "e22b036ac5a5b3ab78f236d51a40428cfcebff35a49cc28f075a63527a1c1783",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -37354,6 +37363,15 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "f529a276-18ec-4f1c-9de8-1f6a0a3697b9",
+          "object_relation": "domain",
+          "value": "data-api.phonedata.me",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -46431,6 +46449,33 @@
           "uuid": "75930e0f-4ff0-4909-bd65-516b36282bc8",
           "object_relation": "appid",
           "value": "mobile.monitor.child2034",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "4be413ef-3d83-4b65-8dc2-9d0dd4729bc6",
+          "object_relation": "domain",
+          "value": "mobile-tracker-free.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "0dba36e9-2510-430b-a446-1beec01c6e92",
+          "object_relation": "sha256",
+          "value": "c002b5ea002542055462150cf5b42e69b6ae34bb7b7b9247113986effe0eef91",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "86e27665-344d-4216-9387-a3496a99b4f4",
+          "object_relation": "appid",
+          "value": "mobile.protect.children2020",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,
@@ -73791,6 +73836,183 @@
           "uuid": "af2f1c18-e59f-49af-8aa3-6b4e3601155d",
           "object_relation": "appid",
           "value": "com.ots.womenchildsafety",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3c511f54-c5e2-4141-bcb0-856acebacc1f",
+          "object_relation": "sha256",
+          "value": "605964ddbaa59bf4953d7ae8b8ce247b0654694f12af99652fee824e21be8b76",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "6bec67c4-5c67-47ed-942c-1f6c64c524f9",
+          "object_relation": "sha256",
+          "value": "a36637a317d9d927ba6e784592d1da974a07d82d168b4cbc82d6c0b718278060",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "3e77cd8a-0202-4a97-b6d1-5f57bc8f2a4c",
+          "object_relation": "sha256",
+          "value": "1fd194b70894584bbb2d9f727663c29ab703a4dcb1eaff91e35af3817fe51dc4",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "55ef47b5-95d0-4542-b816-45e5e2e42038",
+          "object_relation": "sha256",
+          "value": "2cc4e9ceea8d398f051fbd2deb3fc2e7936b607ccb18cc940a526eb8cb5060e8",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "342bd92a-9f9e-45a3-b4f8-cef3ceb73a37",
+          "object_relation": "sha256",
+          "value": "64a27fac8b598f6e7bc79eabdc960c29290db1872fdc04319e7947e9f5661af7",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "39c71259-e1d4-4b7d-bd46-cb650bc0229d",
+          "object_relation": "sha256",
+          "value": "ce1632fe353d6e17e263378b4148308c5853e59813cd02a72c6eb54ab814a4c2",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d0b61baf-8e3d-4e91-9170-56fb9f8a11a7",
+          "object_relation": "sha256",
+          "value": "a8f53b99ff5159699e47ca6d4344866e249887326d5ee19360dfe9ee820a44c0",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "a3e4e2e3-7a92-4741-ad50-97f0dd72fa53",
+          "object_relation": "sha256",
+          "value": "e2833eff791982dbcd38cea8b68cb54f04b96a6842796727ad9f359cd86937e2",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "1f7d6c3b-8ea6-40f9-afdb-d34887ed39da",
+          "object_relation": "sha256",
+          "value": "c9c69ce4363f62b3255bffbd6872de9856d654994c10e5a75da517f68742561e",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "cb86a937-f2d8-47c4-b334-4abc0c6db052",
+          "object_relation": "certificate",
+          "value": "40159690AF08A01670E3FA07A021F7B1C1437042",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "38f9c666-eebf-4f3f-b83d-37240ab3ba5e",
+          "object_relation": "certificate",
+          "value": "28393DBA55F5B08294D1E54962BE1648C1EFB4A2",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "43d2360d-7bca-4f08-9174-a634bfa270fd",
+          "object_relation": "certificate",
+          "value": "C9BE6C42B975258DEA10EB6946A7986E4FE955E2",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "15922171-27e3-4e59-a240-740fac68c20d",
+          "object_relation": "certificate",
+          "value": "D1BB66A93F621A66094F28856988C7A2AE9972D0",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "c6f72679-6027-4dc8-923b-00ee39223a67",
+          "object_relation": "appid",
+          "value": "com.smart.guardoffline",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3399f6df-7efe-41b2-9b06-b020ffaa022b",
+          "object_relation": "appid",
+          "value": "com.gss.whereismyphone",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "85173b0e-f6b4-409c-810a-73e9c399630b",
+      "Attribute": [
+        {
+          "uuid": "fd55dda2-3687-4c3c-9190-922cf819b428",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "876620ff-1165-4000-bca9-e772b8e79fc6",
+      "Attribute": [
+        {
+          "uuid": "30e766e1-a554-4fc4-800b-89a2870a4063",
+          "object_relation": "name",
+          "value": "mSpyitaly",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,

@@ -271,6 +271,7 @@ domain,my.spyzie.com,Cocospy
 domain,neatspy.vip,Cocospy
 domain,phonedata.me,Cocospy
 domain,app-api.phonedata.me,Cocospy
+domain,data-api.phonedata.me,Cocospy
 domain,spyzie-a.firebaseio.com,Cocospy
 domain,mg-spyzie.oss-us-west-1.aliyuncs.com,Cocospy
 domain,s.appjiagu.com,Cocospy
@@ -441,6 +442,7 @@ domain,n6sm2m.celltracker.io,MobileTrackerFree
 domain,olurdaolurdediler.shop,MobileTrackerFree
 domain,sapient-flight-837.firebaseio.com,MobileTrackerFree
 domain,reports.crashlytics.com,MobileTrackerFree
+domain,mobile-tracker-free.com,MobileTrackerFree
 ipv4,51.15.183.209,MobileTrackerFree
 domain,83dd4.appspot.com,iKeyMonitor
 domain,awsapi.io,iKeyMonitor
@@ -859,6 +861,7 @@ domain,my.nexspy.com,NexSpy
 domain,api.mobilebackup.biz,NexSpy
 domain,topzaloha.cz,NexSpy
 domain,api.mycellspy.com,MyCellSpy
+ipv4,47.252.23.40,MyCellSpy
 domain,api.spylix.com,Spylix
 domain,apidemo.spylix.com,Spylix
 domain,d2nipadu1fr4ne.cloudfront.net,Spylix
