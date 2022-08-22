@@ -3407,7 +3407,7 @@
   - thiefguardbd.com
   - www.smartguardapp.com
   c2:
-    ips:
+    ips: []
     domains:
     - absolutesoftsystem.in
     - ass.absolutesoftsystem.in
@@ -3416,4 +3416,3 @@
     - remotesecurity-629f2.firebaseio.com
     - test.onetouchsecurities.com
     - remotesecurityots.firebaseio.com
-
