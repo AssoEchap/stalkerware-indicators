@@ -1,16 +1,23 @@
 name: 'Create-IOC-Files'
 on:
   push:
-    branches: ['master']
-    paths: ['ioc.yaml', 'samples.csv']
+    branches: ['research']
+    paths: ['ioc.yaml', 'samples.csv', 'README.tpl']
 
 jobs:
   build:
-    if: github.repository == 'AssoEchap/stalkerware-indicators'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: setup python
+      with:
+        ref: master
+        fetch-depth: 0
+    - name: Sync branches
+      run: |
+        git config --local user.name  ${{ github.actor }}
+        echo "Checkout required files"
+        git checkout origin/research -- ioc.yaml samples.csv README.tpl scripts
+    - name: Setup python
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
@@ -18,14 +25,16 @@ jobs:
       run: |
           pip install -r scripts/requirements.txt
           python scripts/generate.py
-    - name: Commit files  # transfer the json file in the repo
+    - name: Push changes
       run: |
-        git config --local user.name  ${{ github.actor }}
         git add generated/
+        git add ioc.yaml
         git add README.md
+        git rm -rf -- README.tpl scripts
         git commit -m "Updating generated indicator files and README"
     - name: Push changes  # push the output folder to your repo
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         force: true
+        branch: master
