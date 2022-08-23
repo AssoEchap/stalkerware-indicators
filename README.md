@@ -8,7 +8,7 @@ free time and many apps are likely missing. Use it carefully. No detection
 based on these indicators should not be understood as having no stalkerware
 installed._
 
-This repository is maintained by [Julien Voisin](https://dustri.org/) and [Tek](https://github.com/Te-k) for the [Echap](https://echap.eu.org/) non-profit organisation.
+This repository is maintained by [Julien Voisin](https://dustri.org/), [Tek](https://github.com/Te-k) and [Esther](https://github.com/u039b) for the [Echap](https://echap.eu.org/) non-profit organisation.
 
 ## What's a stalkerware?
 
@@ -182,6 +182,8 @@ These indicators are largely based on research and analysis using [APKlab](https
 ## Please Contribute
 
 This repository is not complete, new stalkerware apps appear and disappear all the time. Feel free to contribute to this database by opening an issue or submitting a Pull Request.
+
+If you want to contribute, fork this repository, make your changes into the branch `research` and submit a Pull Request. Once merged, a GitHub Action will automatically generate the different files available on the `master` branch.
 
 If you want to do further research on some apps and need access to the samples, feel free to [send me an email](https://www.randhome.io/contact/).
 
