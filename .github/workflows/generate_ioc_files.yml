@@ -16,7 +16,7 @@ jobs:
       run: |
         git config --local user.name  ${{ github.actor }}
         echo "Checkout required files"
-        git checkout origin/research -- ioc.yaml samples.csv README.tpl scripts
+        git checkout origin/research -- ioc.yaml samples.csv README.tpl scripts rules.yar quad9_blocklist.txt
     - name: Setup python
       uses: actions/setup-python@v2
       with:
