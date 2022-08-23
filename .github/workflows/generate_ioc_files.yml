@@ -24,6 +24,7 @@ jobs:
     - name: Build IOC Files
       run: |
           pip install -r scripts/requirements.txt
+          mkdir -p generated
           python scripts/generate.py
     - name: Push changes
       run: |

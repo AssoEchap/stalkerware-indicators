@@ -223,7 +223,7 @@ def generate_misp(folder, iocs):
         event.info = 'Stalkerware indicators'
         event.distribution = 3
         event.publish()
-        event.add_attribute('link', 'https://github.com/Te-k/stalkerware-indicators', comment='Source')
+        event.add_attribute('link', 'https://github.com/AssoEchap/stalkerware-indicators', comment='Source')
         current_iocs = defaultdict(lambda: defaultdict(dict, {k: set() for k in ('domains', 'appids', 'certificates', 'sha256', 'ips')}))
 
     # make objects
@@ -254,13 +254,14 @@ def update_readme(output, iocs):
     """
     Update the README with an up to date list of stalkerware
     """
+    opath = Path(output).parent / 'README.tpl'
     dpath = Path(output).parent / 'README.md'
-    if not os.path.isfile(dpath):
-        print("README.md not found")
+    if not os.path.isfile(opath):
+        print("README.tpl not found")
         return
 
-    with open(dpath, "r") as f:
-        data = f.read().splitlines()
+    with open(opath, "r") as f:
+        data = f.read().split("\n")
 
     os.remove(dpath)
     i = 0
