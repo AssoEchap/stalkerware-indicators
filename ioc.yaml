@@ -3422,3 +3422,20 @@
     - remotesecurity-629f2.firebaseio.com
     - test.onetouchsecurities.com
     - remotesecurityots.firebaseio.com
+
+- name: SmartKeylogger
+  names:
+  - Hiddad
+  packages:
+  - com.AwamiSolution.smartkeylogger
+  certificates:
+  - 842676B67005E6561808B650152F598035D12800
+  certificate_cname_re: []
+  certificate_organizations:
+  - AwamiSolution
+  websites:
+  - awamisolution.com
+  c2:
+    ips: []
+    domains:
+    - awamisolution.com

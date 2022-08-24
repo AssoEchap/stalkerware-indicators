@@ -42158,6 +42158,96 @@
       ],
       "distribution": "5",
       "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "b1b6b0c8-6955-45f4-aa95-3d1b23b3df4e",
+      "Attribute": [
+        {
+          "uuid": "885113b6-556f-4ac5-8ffd-55f3d1938fc7",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "a46ea516-edf1-40f6-9f7c-1a9c311a89a3",
+      "Attribute": [
+        {
+          "uuid": "bc5a559f-e149-4c63-a2db-8ca8483a5921",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "b2bcdc7e-1bb4-45a8-a12d-9a4739e79079",
+      "Attribute": [
+        {
+          "uuid": "d54c1ac0-0e47-42f1-be18-c38512e65c53",
+          "object_relation": "name",
+          "value": "SmartKeylogger",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "e35fed35-edef-4996-bf6b-f961254eb265",
+          "object_relation": "domain",
+          "value": "awamisolution.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e5846344-7cf8-4f0b-9dde-092258d6f3c5",
+          "object_relation": "certificate",
+          "value": "842676B67005E6561808B650152F598035D12800",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "7bca3cc4-1419-4999-ae0e-ad056faa0abd",
+          "object_relation": "appid",
+          "value": "com.AwamiSolution.smartkeylogger",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
     }
   ],
   "info": "Stalkerware indicators",

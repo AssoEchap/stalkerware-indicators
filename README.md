@@ -51,7 +51,7 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for 106 stalkerware applications (2727 samples)
+This repository includes indicators for 107 stalkerware applications (2727 samples)
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -116,6 +116,7 @@ This repository includes indicators for 106 stalkerware applications (2727 sampl
 * SentryPC (`www.sentrypc.com` `sentrypc.com`)
 * ShadowSpy (`shadow-logs.com` `shadow-spy.com` `www.shadow-logs.com` `www.shadow-spy.com`)
 * ShadySpy (`shadyspy.com` `www.shadyspy.com`)
+* SmartKeylogger (`awamisolution.com`)
 * Snoopza (`snoopza.com` `get.snoopza.com` `snoopza.zendesk.com` `demo.snoopza.com` `newdemo.snoopza.com`)
 * Spy24 (`spy24.net` `spy24.app`)
 * SpyAdvice (`spyadvice.com` `freespyphone.net`)
