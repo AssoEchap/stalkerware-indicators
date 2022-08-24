@@ -2681,6 +2681,7 @@
   - vmf.uxytqgrl
   - vn.ehkfqgvn
   - yr.tubjypbl
+  - com.dromon
   certificates:
   - 1CD94B411B5D4D2F5F525D775876FF0993B4B716
   - 5C77395F77E17F293CC8C4E3E1FDD48296EE4B28
@@ -2691,6 +2692,7 @@
   - B57FAAB701E26B4C92972442D3A428881E18441A
   - E0FCD3E782FB859F7388E4F44A44A5D694114968
   - EAD44242A3C0A73DEF7976C56AC10A4530E8F67A
+  - ED5BADBC20B1B027F5858D29DAFBF66535C46DB9
   certificate_cname_re: []
   websites:
   - android-monitor.ru
@@ -2731,6 +2733,7 @@
     - prog-money.android-monitor.ru
     - prog-money.com
     - www.android-monitor.ru
+    - android-monitor.ru
 
 - name : FindMyPhone
   names:
