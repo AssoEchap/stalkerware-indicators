@@ -34249,6 +34249,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "c2ec4c3f-55d0-43b2-99c8-282e5e307f57",
+          "object_relation": "domain",
+          "value": "relay1.trackview.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ebeda2ca-7448-47ea-8c0a-bba1b4ce9cf9",
+          "object_relation": "sha256",
+          "value": "267db01a354384d06d3108c8c7122e1dab03bf2364a3493b3b2f1a92a1e7d9ee",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -42088,6 +42106,48 @@
       "Attribute": [
         {
           "uuid": "48ce149d-541e-4abe-a71e-cc78f082a6b1",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "1f85f105-8f38-46f2-b954-76e5c61d5296",
+      "Attribute": [
+        {
+          "uuid": "2c2a35cd-f318-451f-89da-0e65c61544ed",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "8bc5d6da-e2cc-46e3-a191-b73b68ee69cf",
+      "Attribute": [
+        {
+          "uuid": "eaa46f18-eddf-4db4-99f4-ef065498f580",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",

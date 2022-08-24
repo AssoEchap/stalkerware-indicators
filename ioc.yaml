@@ -2408,6 +2408,7 @@
     - us-central1-api-project-285519687053.cloudfunctions.net
     - user.trackview.net
     - user2.trackview.net
+    - relay1.trackview.net
 
 - name: TrackingSmartphone
   names:
