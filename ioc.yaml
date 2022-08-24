@@ -1285,6 +1285,7 @@
   packages:
   - com.android.internet.a20200817
   - com.android.internet.a20210916
+  - com.android.internet.a20220729
   - com.sec.android.internet.im.service.im20190118
   - com.sec.android.internet.im.service.im20190419
   - com.sec.android.internet.im.service.im20210815
@@ -1295,6 +1296,7 @@
   - 9284CB43B87E9F9C77DA509F1672E884BD6CA876
   - 786325AB3E614F868CA2A7F2F0E75EC76A047311
   - F747F0BBEF33FFEE6AFC4E7CFA03B28215985F24
+  - 0C422F0025F866C311DF61A7549FCD519683898D
   certificate_cname_re: []
   websites:
   - easemon.com
