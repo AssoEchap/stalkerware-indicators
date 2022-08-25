@@ -186,7 +186,7 @@ This repository is not complete, new stalkerware apps appear and disappear all t
 
 If you want to contribute, fork this repository, make your changes into the branch `research` and submit a Pull Request. Once merged, a GitHub Action will automatically generate the different files available on the `master` branch.
 
-If you want to do further research on some apps and need access to the samples, feel free to [send me an email](https://www.randhome.io/contact/).
+If you want to do further research on some apps and need access to the samples, feel free to send us an email at contact AT echap.eu.org.
 
 ## Other stalkerware repositories
 
@@ -205,8 +205,7 @@ There are other repositories gathering stalkerware indicators:
 
 ## License
 
-The content of this repository is licensed under [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/),
-you're free to do whatever you want with it.
+The content of this repository is licensed under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/), you're free to do whatever you want with it as long as you give appropriate credit and share work built upon these IOCs under the same license. If this license is a problem for you, please reach out (contact AT echap.eu.org), we are happy to figure something out.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
