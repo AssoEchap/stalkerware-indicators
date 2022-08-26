@@ -11,6 +11,7 @@
   - TheTruthSpy
   - TheSpyApp
   - iSpyoo
+  - XySpy
   packages:
   - com.apspy.app
   - com.fone
@@ -36,6 +37,7 @@
   - D667A33203776F2285EBA3E826CD286356EF05D0
   - FF8CCD9816B0524A58FBDE1809FB227DBCDFD692
   - E6502D8A870C3F3910EA34F5B46D20D923047580
+  - DE648A3253C16692AF71141C069D15C87C3E5495
   certificate_cname_re: []
   websites:
   - copy9.com
@@ -257,6 +259,7 @@
     - sync-a941.thetruthspy.com
     - sync-a942.thetruthspy.com
     - thetruth-db94a.firebaseio.com
+    - app.xyspy.com
 
 - name: HelloSpy
   names:
@@ -380,20 +383,6 @@
     - vkur.se
     - vkur1.se
     - www.reptilicus.net
-
-- name: XySpy
-  names:
-  - XySpy
-  packages: []
-  certificates:
-  - DE648A3253C16692AF71141C069D15C87C3E5495
-  certificate_cname_re: []
-  websites:
-  - xyspy.com
-  c2:
-    ips: []
-    domains:
-    - app.xyspy.com
 
 - name: PhoneSheriff
   names:
