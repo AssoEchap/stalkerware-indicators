@@ -1,7 +1,6 @@
 rule snoopza : stalkerware {
     meta:
-        author = "Tek"
-        email = "tek@randhome.io"
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
 
     strings:
         $s1 = "Server changed to " ascii
@@ -21,8 +20,7 @@ rule snoopza : stalkerware {
 
 rule mspy : stalkerware {
     meta:
-        author = "Tek"
-        email = "tek@randhome.io"
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
 
     strings:
         $s1 = "mspy_keyboard_used" ascii
@@ -40,8 +38,7 @@ rule mspy : stalkerware {
 
 rule spyhide {
     meta:
-        author = "Tek"
-        email = "tek@randhome.io"
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
 
     strings:
         $s1 = "go_to_spyhide" ascii
@@ -62,8 +59,7 @@ rule spyhide {
 
 rule onetopspy : stalkerware {
     meta:
-        author = "Tek"
-        email = "tek@randhome.io"
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
 
     strings:
         $s1 = "spy-call-active" ascii
@@ -84,6 +80,7 @@ rule onetopspy : stalkerware {
 
 rule ikeymonitor : stalkerware {
     meta:
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
         author = "Jo Coscia"
 
     strings:
@@ -97,6 +94,7 @@ rule ikeymonitor : stalkerware {
 
 rule cerberus : stalkerware {
     meta:
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
         author = "Jo"
 
     strings:
@@ -111,8 +109,7 @@ rule cerberus : stalkerware {
 
 rule viptelefonprogrami : stalkerware {
     meta:
-        author = "Tek"
-        email = "tek@randhome.io"
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
 
     strings:
         $b64 = /[a-zA-Z0-9+\/]{70,}==/
@@ -126,8 +123,7 @@ rule viptelefonprogrami : stalkerware {
 
 rule viptelefonprogrami_jkl : stalkerware {
     meta:
-        author = "Tek"
-        email = "tek@randhome.io"
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
 
     strings:
         $s1 = "base64_decode" ascii
