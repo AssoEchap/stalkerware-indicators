@@ -6724,6 +6724,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "a36d042d-a013-4343-889e-50858e142a22",
+          "object_relation": "domain",
+          "value": "app.xyspy.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "3446c62e-a7c1-4dcf-bb18-d57dbb8c2755",
+          "object_relation": "certificate",
+          "value": "DE648A3253C16692AF71141C069D15C87C3E5495",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -42280,6 +42298,48 @@
       "Attribute": [
         {
           "uuid": "cd18d0ad-e8de-4a2e-bac9-1f53b98c6e0e",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "d61ae4ad-3c47-4783-8353-8fbece3432d8",
+      "Attribute": [
+        {
+          "uuid": "4b206ce4-0d68-4dc2-ab7a-dea523b56c10",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "8f73effe-573a-415d-bf96-370e3fe35a84",
+      "Attribute": [
+        {
+          "uuid": "b44e08c9-01a7-466f-a5c5-e86a79f9469f",
           "object_relation": "name",
           "value": "mSpyitaly",
           "type": "text",

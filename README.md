@@ -51,7 +51,7 @@ Scripts:
 
 ## Stalkerware
 
-This repository includes indicators for 107 stalkerware applications (2727 samples)
+This repository includes indicators for 106 stalkerware applications (2727 samples)
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -150,7 +150,6 @@ This repository includes indicators for 107 stalkerware applications (2727 sampl
 * WtSpy (`wt-spy.com`)
 * XNSpy (`xnspy.com` `cp.xnspy.com`)
 * Xnore (`xnore.com`)
-* XySpy (`xyspy.com`)
 * bark (`bark.us` `www.bark.us`)
 * iKeyMonitor (`easemon.com`)
 * iMonitorSpy (`www.imonitorsoft.cn` `www.imonitorsoft.com` `imonitorsoft.cn`)

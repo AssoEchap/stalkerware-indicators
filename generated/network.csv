@@ -195,6 +195,7 @@ domain,sync-a940.thetruthspy.com,TheTruthSpy
 domain,sync-a941.thetruthspy.com,TheTruthSpy
 domain,sync-a942.thetruthspy.com,TheTruthSpy
 domain,thetruth-db94a.firebaseio.com,TheTruthSpy
+domain,app.xyspy.com,TheTruthSpy
 ipv4,69.64.74.239,TheTruthSpy
 ipv4,69.64.81.166,TheTruthSpy
 ipv4,69.64.81.49,TheTruthSpy
@@ -239,7 +240,6 @@ domain,vkur.se,Reptilicus
 domain,vkur1.se,Reptilicus
 domain,www.reptilicus.net,Reptilicus
 ipv4,176.9.42.16,Reptilicus
-domain,app.xyspy.com,XySpy
 domain,mobilenannylogs.com,PhoneSheriff
 domain,phonesheriff.com,PhoneSheriff
 domain,6287970dd9.era3000.com,OwnSpy
