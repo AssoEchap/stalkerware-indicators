@@ -3363,3 +3363,15 @@
     domains:
     - traccar-client-app.firebaseio.com 
     - traccar.org
+
+- name: MicrosoftFamilySafe
+  type: watchware
+  packages:
+  - com.microsoft.familysafety
+  websites:
+  - family.microsoft.com
+  c2:
+    domains:
+    - location.family.microsoft.com
+    - mobileaggregator.family.microsoft.com
+    - safedriving.family.microsoft.com
