@@ -3393,3 +3393,20 @@
     - geozillafamily-c92d0.firebaseio.com
     - geozillafamily.firebaseio.com
     - iot.geozilla.com
+
+- name: KidsLox
+  type: watchware
+  packages:
+  - com.kidslox.app
+  certificates:
+  - EE74E09E40A324B806AE5ED68A4543E50C3B6FC2
+  websites:
+  - kidslox.com
+  - kidsloxsupport.zendesk.com
+  - www.advanced.kidslox.com
+  c2:
+    domains:
+    - kidslox.page.link
+    - kidslox.firebaseio.com
+    - activity.kdlparentalcontrol.com
+    - admin.kdlparentalcontrol.com
