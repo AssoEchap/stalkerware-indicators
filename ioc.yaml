@@ -3375,3 +3375,21 @@
     - location.family.microsoft.com
     - mobileaggregator.family.microsoft.com
     - safedriving.family.microsoft.com
+
+- name: GeoZilla
+  type: watchware
+  packages:
+  - com.geozilla.family
+  certificates:
+  - EE74E09E40A324B806AE5ED68A4543E50C3B6FC2
+  websites:
+  - geozilla.com
+  - geozillahelp.zendesk.com
+  c2:
+    domains:
+    - api.geozilla.com 
+    - files.geozilla.com
+    - geozilla.autosmartins.com
+    - geozillafamily-c92d0.firebaseio.com
+    - geozillafamily.firebaseio.com
+    - iot.geozilla.com
