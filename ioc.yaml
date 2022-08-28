@@ -3341,3 +3341,20 @@
     - life360feedback.typeform.com
     - api-cloudfront.life360.com
     - life360-com-l360safetycenter.firebaseio.com
+
+- name: Traccar
+  names:
+  - Traca
+  type: stalkerware
+  packages:
+  - org.traccar.client
+  certificates:
+  - AA752803419B66BC6D5CFCD61A7C88935FFE5511
+  websites:
+  - www.traccar.org
+  - demo.traccar.org
+  - traccar.org
+  c2:
+    domains:
+    - traccar-client-app.firebaseio.com 
+    - traccar.org
