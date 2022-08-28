@@ -12,6 +12,7 @@
   - TheSpyApp
   - iSpyoo
   - XySpy
+  type: stalkerware
   packages:
   - com.apspy.app
   - com.fone
@@ -38,7 +39,6 @@
   - FF8CCD9816B0524A58FBDE1809FB227DBCDFD692
   - E6502D8A870C3F3910EA34F5B46D20D923047580
   - DE648A3253C16692AF71141C069D15C87C3E5495
-  certificate_cname_re: []
   websites:
   - copy9.com
   - exactspy.com
@@ -267,6 +267,7 @@
   - HelloSPy
   - MaxxSpy
   - MobiiSpy
+  type: stalkerware
   packages:
   - com.example.hellospy
   - com.android.innovaspy
@@ -284,7 +285,6 @@
   - 656CD7890ED79CE8570D1B7156C31958D5AC1606
   - 6B660EAAEBA47793B7A1278D714669A6612BCA5B
   - A40D8FDC7953AD69D970FF00658EB0F58B3A052A
-  certificate_cname_re: []
   websites:
   - 1topspy.com
   - hellospy.com
@@ -292,7 +292,6 @@
   - mobiispy.com
   - innovaspy.com
   c2:
-    ips: []
     domains:
     - 1topspy.com
     - copy9db.com
@@ -313,16 +312,15 @@
   names:
   - SpyAdvice
   - FreeSpyPhone
+  type: stalkerware
   packages:
   - com.sa.app
   certificates:
   - B374A75F87F992A6F57CF99A24197ABCEB17A1E7
-  certificate_cname_re: []
   websites:
   - spyadvice.com
   - freespyphone.net
   c2:
-    ips: []
     domains:
     - phonetracking-dd226.firebaseio.com
     - spyadvice.com
@@ -333,6 +331,7 @@
   - Reptilicus
   - CyberNanny
   - Vkur
+  type: stalkerware
   packages:
   - com.brot.storage.work
   - com.cycle.start.mess
@@ -353,7 +352,6 @@
   - 6D0FF787BF4534F1077D1E4BF2E18BA381D97061
   - D3A7E0E542A3E1112741806AC31F341C4200FBA1
   - B61326887306E5A65726AE6BFD1D720D2760CEFF
-  certificate_cname_re: []
   websites:
   - reptilicus.net
   - thecybernanny.com
@@ -388,6 +386,7 @@
   names:
   - PhoneSheriff
   - MobileNanny
+  type: stalkerware
   packages:
   - com.retina.phonesheriff
   - com.retina21.ms41
@@ -404,14 +403,12 @@
   certificates:
   - F57CBB4CBB9834A14AF675222CECA6A0D26D838E
   - F28F3A97D25E51AB266E56D3B80F04747D242E50
-  certificate_cname_re: []
   websites:
   - www.mobile-spy.com
   - www.emobilespy.com
   - phonesheriff.com
   - www.phonesheriff.com
   c2:
-    ips: []
     domains:
     - mobilenannylogs.com
     - phonesheriff.com
@@ -420,13 +417,13 @@
   names:
   - OwnSpy
   - WebDetetive
+  type: stalkerware
   packages:
   - com.ownspy.android
   - org.system.kernel
   certificates:
   - CA5304E94F4BC97DA9D147E76858DBF70AB8B4E6
   - 14A071616D4BC37F08BE865D375101F4C963777A
-  certificate_cname_re: []
   websites:
   - mobileinnova.net
   - ownspy.com
@@ -434,7 +431,6 @@
   - webdetetive.com.br
   - ownspy.es
   c2:
-    ips: []
     domains:
     - 6287970dd9.era3000.com
     - user.ownspy.es
@@ -450,6 +446,7 @@
   - Spyine
   - Spyzie
   - TeenSafe
+  type: stalkerware
   packages:
   - com.aiyi.admin
   - com.cocospy
@@ -486,7 +483,6 @@
   - CC866E79BDAD431A2B1E07229B92E64808221610
   - F25D72FCCB84BAF7F73467FC9571024B7E274CA3
   - 71BE35691A181E1524DDF83F931FBC62DC4E7EC6
-  certificate_cname_re: []
   websites:
   - best-mobile-spy.com
   - cocospy.com
@@ -511,7 +507,6 @@
   - www.spyzie.com
   - www.teensafe.net
   c2:
-    ips: []
     domains:
     - alog.umeng.com
     - app-api.spyzie.com
@@ -557,22 +552,22 @@
 - name: VIPTrack
   names:
   - VIPTrack
+  type: stalkerware
   packages:
   - com.mit.viptrackpro
   - com.mit.networkadapter
   certificates:
   - 2E104C33C8DA4DB32E59A45701D8E0C4CAD16BD3
-  certificate_cname_re: []
   websites:
   - viptrack.ro
   c2:
-    ips: []
     domains:
     - android.viptrack.ro
 
 - name: EasyLogger
   names:
   - EasyLogger
+  type: stalkerware
   packages:
   - app.EasyLogger
   - app.Easylogger
@@ -587,7 +582,6 @@
   - 8F23E1457ADC6189F6ED504A60DF8896FEC6D970
   - D15A276F181C839E0390672A43065E8D97F140E9
   - 53FADDAF873B7BD00E5AD9F5F05E7888A398CE70
-  certificate_cname_re: []
   websites:
   - logger.mobi
   - childsafetytrackerapp.com
@@ -625,6 +619,7 @@
   names:
   - Hoverwatch
   - SpyBubble
+  type: stalkerware
   packages:
   - com.android.core.monitor.debug
   - com.android.core.monitor.null
@@ -667,7 +662,6 @@
   - 5284272445CE993DE601BB23CAE6BA9E43E4589C
   - 64403A61F41848F987D6FD0BE00392E9561A0EF7
   - 6144ED2E25B6F3A5FAFCF914965CA071A685674B
-  certificate_cname_re: []
   websites:
   - br.refog.com
   - de.refog.com
@@ -718,6 +712,7 @@
   - LetMeSpy
   - RemoteCommand
   - RemCmd
+  type: stalkerware
   packages:
   - pl.lidwin.letmespy
   - pl.lidwin.letmespy2
@@ -734,7 +729,6 @@
   - 69EE83CB3E0968B49E33849D40F7D91B0592C7DB
   - 8F0EAD4F1DA5DAAF8C0F7A51096CECEEF81D0C76
   - EF6BC4C13FE455CD98192E56D96317069BDF7658
-  certificate_cname_re: []
   websites:
   - letmespy.com
   - remotecommands.com
@@ -755,6 +749,7 @@
 - name: Snoopza
   names:
   - Snoopza
+  type: stalkerware
   packages:
   - com.android.core.mngi
   - com.android.core.mngj
@@ -779,7 +774,6 @@
   - 1988EDEA389D42983CEC8B5F8A9C27AE49F800F9
   - 5E16BA998632C1C3E4D4AE707D6EE2454ED2AEB5
   - E023517B163AAAE209CBD97E312752960F575D38
-  certificate_cname_re: []
   websites:
   - snoopza.com
   - get.snoopza.com
@@ -806,6 +800,7 @@
 - name: TrackMyPhones
   names:
   - TrackMyPhones
+  type: stalkerware
   packages:
   - com.app.audiorec
   - com.app.call_rec_hidden
@@ -839,12 +834,10 @@
   - B7285348B05EDAEFF7F032384E4F90182E1C1F27
   - EBD3713DFB02D79ADC90C88DE1E0B547882F5A42
   - F5A5336B28456208EF357B4630A93A91206CF21A
-  certificate_cname_re: []
   websites:
   - trackmyphones.com
   - www.trackmyphones.com
   c2:
-    ips: []
     domains:
     - cell-tracker-green.firebaseio.com
     - cell-tracker-updated.firebaseio.com
@@ -860,6 +853,7 @@
 - name: FlexiSpy
   names:
   - FlexiSpy
+  type: stalkerware
   packages:
   - com.vvt.android.syncmanager
   - com.telephony.android
@@ -871,7 +865,6 @@
   - 20C940625B322C487A89B1FEBF6C090845B040C1
   - 984F8786102D9BF26E5244BBC93733D3609948F4
   - 45DECBF059864164A4BC644D3EAB8127FC98238A
-  certificate_cname_re: []
   websites:
   - flexispy.com
   - community.flexispy.com
@@ -901,6 +894,7 @@
 - name: Cerberus
   names:
   - Cerberus
+  type: stalkerware
   packages:
   - com.lsdroid.cerberuss
   - com.lsdroid.cerberus.persona
@@ -913,13 +907,11 @@
   - 69C28343A4D0F2156D7B56AE4616E1386173A047
   - F2633353631EE72F7B7A7B946FABE1EF0A339041
   - 409B589FDEAE073A94D609E2B41A6C0EA952B35A
-  certificate_cname_re: []
   websites:
   - cellphonetrackers.org
   - cerberusapp.com
   - www.cerberusapp.com
   c2:
-    ips: []
     domains:
     - api-project-999803017449.firebaseio.com
     - cerberusapp.com
@@ -931,6 +923,7 @@
   - mSpy
   - mSpyOnline
   - FakeSys
+  type: stalkerware
   packages:
   - android.helper.system
   - android.sys.process
@@ -948,7 +941,6 @@
   - 7FFE6DA96346FEE822E1F791176CD6970A1DC770
   - 3E1A6646C93A7423A25104A88DA5BECE2F35EFF0
   - CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
-  certificate_cname_re: []
   websites:
   - mliteapp.com
   - mspy.co.il
@@ -972,7 +964,6 @@
   - www.mspyonline.com
   - www.mspy.com
   c2:
-    ips: []
     domains:
     - a-qa3.thd.cc
     - a.thd.cc
@@ -1012,6 +1003,7 @@
 - name: SpyHide
   names:
   - SpyHide
+  type: stalkerware
   packages:
   - com.wifiset.service
   - googlesettings.setting
@@ -1023,7 +1015,6 @@
   - F6914F044B9385D6005DC9C50A9AECDC2349F413
   - 7AFD651F96C7C938351396A53895C3C0704F6B96
   - 6EB49E72D6138B4210D1CA60247D419E5660315C
-  certificate_cname_re: []
   websites:
   - spyhide.com
   - www.spyhide.com
@@ -1046,6 +1037,7 @@
 - name: MeuSpy
   names:
   - MeuSpy
+  type: stalkerware
   packages:
   - in.servidor.service
   - com.app.insapp2
@@ -1064,12 +1056,10 @@
   - 493812991A9A1CC7BEEFD45F2180CD2FC0AF8913
   - 35B05ACC96D02849E20D9ED3BA9CEA41C2B83FFA
   - 6C0B8CF7F47DB7A82A2C06D410690935FDD912DF
-  certificate_cname_re: []
   websites:
   - servidor.in
   - meuspy.com
   c2:
-    ips: []
     domains:
     - servidor.in
     - n.servidor.in
@@ -1081,6 +1071,7 @@
   - AppSpy
   - MobileFindFree
   - FreeSpy
+  type: stalkerware
   packages:
   - com.atracker.app
   - com.agpstracker.app
@@ -1094,7 +1085,6 @@
   - 9E09874197988F20DB51EB6A34BFD908AC42C35B
   - D98C69B50C1092FE21F7CF748DC8B2F91BE56B64
   - FB926CF2937331BB8A46E2C5280233C04DA2342E
-  certificate_cname_re: []
   websites:
   - app.appspy.net
   - app.appspyfree.com
@@ -1147,6 +1137,7 @@
   - MTrack
   - CellTracker
   - TrackMobil
+  type: stalkerware
   packages:
   - a.tck.lvmchi
   - com.androdid.inteernet.aa21111227
@@ -1220,7 +1211,6 @@
   - DDCF7F1032E7D9DA4E3D245A5145363F69F9C393
   - E8395BE2A32B62C1BA21E37663E3BF1583E00FAA
   - FB2EEA183C183B486B3001EC5FC4E8C906593356
-  certificate_cname_re: []
   websites:
   - br.mobile-tracker-free.com
   - br.loverman.net
@@ -1271,6 +1261,7 @@
 - name: iKeyMonitor
   names:
   - iKeyMonitor
+  type: stalkerware
   packages:
   - com.android.internet.a20200817
   - com.android.internet.a20210916
@@ -1286,7 +1277,6 @@
   - 786325AB3E614F868CA2A7F2F0E75EC76A047311
   - F747F0BBEF33FFEE6AFC4E7CFA03B28215985F24
   - 0C422F0025F866C311DF61A7549FCD519683898D
-  certificate_cname_re: []
   websites:
   - easemon.com
   c2:
@@ -1315,17 +1305,16 @@
   names:
   - PanSpy
   - SurveilStar
+  type: stalkerware
   packages:
   - com.panspy.android
   certificates:
   - CCD5678FF73D6ECF4E74317166422AFE67D77406
-  certificate_cname_re: []
   websites:
   - panspy.me
   - panspy.com
   - surveilstar.com
   c2:
-    ips: []
     domains:
     - panspy.me
     - panspy.com
@@ -1339,17 +1328,16 @@
 - name: AndroidLost
   names:
   - AndroidLost
+  type: stalkerware
   packages:
   - com.androidlost
   - com.androidlost.smshandler
   certificates:
   - 9EECE9B4ECF4DC0C5981FEACFB271E1C0A2967FF
-  certificate_cname_re: []
   websites:
   - androidlost.com
   - www.androidlost.com
   c2:
-    ips: []
     domains:
     - androidlost.appspot.com
     - androidlost.firebaseio.com
@@ -1362,12 +1350,12 @@
   names:
   - Metasploit
   - ForeverSpy
+  type: stalkerware
   packages:
   - com.metasploit.stage
   websites:
   - foreverspy.com
   c2:
-    ips: []
     domains:
     - foreverspy.com
     - app.foreverspy.com
@@ -1375,6 +1363,7 @@
 - name: Spy24
   names:
   - Spy24
+  type: stalkerware
   packages:
   - net.spy24.wifi
   - com.example.openanotherapp
@@ -1384,7 +1373,6 @@
   certificates:
   - 79C395148C34F0826E04B37A6632A53A7977A1AA
   - F5C25A3B800311E8053295676ADB112753E03F0B
-  certificate_cname_re: []
   websites:
   - spy24.net
   - spy24.app
@@ -1400,6 +1388,7 @@
 - name: CatWatchful
   names:
   - CatWatchful
+  type: stalkerware
   packages:
   - wosc.cwf
   - wosc.cwf2
@@ -1418,7 +1407,6 @@
   - 523C42BF2F6CBAFC78BE41043E8E3E3BB311CBA2
   - 77032E80CC0ECEE49B8F2F58F9999330026E0DB3
   - 7688EA09EE353ED077E0A90D401881B63F115A3F
-  certificate_cname_re: []
   websites:
   - catwatchful.com
   - catwatchful.online
@@ -1438,6 +1426,7 @@
   - Highster
   - PhoneSpector
   - DDI
+  type: stalkerware
   packages:
   - org.secure.smsgps
   - com.autoforward.monitor
@@ -1446,7 +1435,6 @@
   certificates:
   - 683722A1C629AD5734B93E08ADFAA61775AD196F
   - 48A2190050B80F31E1E3CCFAF9909FAD238D9849
-  certificate_cname_re: []
   websites:
   - auto-forward.com
   - cellphoneservices.info
@@ -1455,7 +1443,6 @@
   - highstermobile.com
   - phonespector.com
   c2:
-    ips: []
     domains:
     - a71f4.firebaseio.com
     - ac480.firebaseio.com
@@ -1473,6 +1460,7 @@
 - name: iMonitorSpy
   names:
   - iMonitorSpy
+  type: stalkerware
   packages:
   - com.imonitor.ainfo
   - inc.imonitor
@@ -1480,13 +1468,11 @@
   - 3EA68714AE224B0C0EEED64A14B11D3983C3D6F8
   - BFC4C15E35E3506095B42E2B428E4016B1FFA1AB
   - 5C5EF3DFE98B02251A6EC82609F22A092562AFEE
-  certificate_cname_re: []
   websites:
   - www.imonitorsoft.cn
   - www.imonitorsoft.com
   - imonitorsoft.cn
   c2:
-    ips: []
     domains:
     - imonitor-da8b2.firebaseio.com
     - imonitorke.com
@@ -1500,6 +1486,7 @@
   - MobileTool
   - MobTool
   - Jopsik
+  type: stalkerware
   packages:
   - org.poleward.burghs.hydrotherapy.homonymously
   - org.urates.amirates.suffocate.chiliast
@@ -1507,7 +1494,6 @@
   certificates:
   - 3E9B3E5190F64BA9A952B7F57942AA21FFDA50BA
   - 7F11358AC560C5E90B735A21B907F1C8143353DF
-  certificate_cname_re: []
   websites:
   - mobiletool.ru
   - www.mobiletool.ru
@@ -1515,7 +1501,6 @@
   - www.mtoolapp.net
   - mtoolapp.biz
   c2:
-    ips: []
     domains:
     - 6kvses.com
     - bincdi.6kvses.com
@@ -1543,6 +1528,7 @@
 - name: ShadowSpy
   names:
   - ShadowSpy
+  type: stalkerware
   packages:
   - com.runaki.synclogs
   - com.client.requestlogs
@@ -1551,14 +1537,12 @@
   - FE7626A8D3C38FD78EA2A729B39B943BA814F014
   - 01E49C220A9776D4978C1D28D6C32F86D145B8AE
   - AD231A7CD57E2CEF8162F4D341C3573DE2B8F443
-  certificate_cname_re: []
   websites:
   - shadow-logs.com
   - shadow-spy.com
   - www.shadow-logs.com
   - www.shadow-spy.com
   c2:
-    ips: []
     domains:
     - downloads.shadow-spy.com
     - runaki-support.appspot.com
@@ -1571,6 +1555,7 @@
 - name: SpyHuman
   names:
   - SpyHuman
+  type: stalkerware
   packages:
   - com.cldprotect
   - m.mobile.control
@@ -1585,7 +1570,6 @@
   - 597C0169D8C27DE7C6B62C2C252F9ECAC0E562C4
   - E2AC495C52B9FBD49B83CFAE0C167878A2F796A5
   - E169250B134E5C46C3064F166E457CDBFCC16524
-  certificate_cname_re: []
   websites:
   - spyhuman.com
   - services.spyhuman.com
@@ -1614,6 +1598,7 @@
 - name: uMobix
   names:
   - uMobix
+  type: stalkerware
   packages:
   - com.tuner.funnelwebview
   - com.system.user
@@ -1622,34 +1607,27 @@
   - 575F8E8A04A5967E78BC5B5A3E31FDACF42F4FB1
   - 6696449AA96EBA57CDF4707F0F84274958BE4523
   - F4E6DA34F0071AEB70010EBB69875E5212D69140
-  certificate_cname_re: []
   websites:
   - umobix.com
   c2:
-    ips: []
     domains:
     - us.umobix.com
 
 - name: Spymie
   names:
   - Spymie
+  type: stalkerware
   packages:
   - com.ant.spymie.keylogger
   certificates:
   - 05B23C7E9156A4C55768DA27936FF2D7AF09BB8F
-  certificate_cname_re: []
-  websites: []
-  c2:
-    ips: []
-    domains: []
 
 - name: TheOneSpy
   names:
   - TheOneSpy
+  type: stalkerware
   packages:
   - com.android.services
-  certificates: []
-  certificate_cname_re: []
   websites:
   - theonespy.com
   - www.theonespy.com
@@ -1670,13 +1648,13 @@
 - name: ClevGuard
   names:
   - ClevGuard
+  type: stalkerware
   packages:
   - com.kids.pro
   - com.kids.whatsapp
   certificates:
   - CCE55D4C3E844E8A7542036D40BFBB4AA98B89D7
   - E48C6714DBFD2AB6E5CF85C87EFD05BD8E11E6FB
-  certificate_cname_re: []
   websites:
   - clevguard.net
   - www.clevguard.com
@@ -1693,12 +1671,12 @@
   names:
   - EasyPhoneTrack
   - Ppapp
+  type: stalkerware
   packages:
   - com.spappm_mondow.alarm
   - com.monspap.alarm
   certificates:
   - 4A3742E0C96AFB91954D613AAA637076750E5A0B
-  certificate_cname_re: []
   websites:
   - spappmonitoring.com
   - www.spappmonitoring.com
@@ -1720,16 +1698,15 @@
 - name: bark
   names:
   - bark
+  type: stalkerware
   packages:
   - com.pt.bark
   certificates:
   - 473F919A69BBAD3457AF2F0E3AFC34E513F103F1
-  certificate_cname_re: []
   websites:
   - bark.us
   - www.bark.us
   c2:
-    ips: []
     domains:
     - bark-android-media.s3.amazonaws.com
     - www.bark.us
@@ -1737,6 +1714,7 @@
 - name: SpyLive360
   names:
   - SpyLive360
+  type: stalkerware
   packages:
   - com.sl360
   - com.itqredn8dzrl
@@ -1745,12 +1723,10 @@
   certificates:
   - 73BF44A503427F7682C7136B109631E3BE4114DE
   - 630BB83172B184A6571126229E2B2DCA2EB4123F
-  certificate_cname_re: []
   websites:
   - spylive360.com
   - www.spylive360.com
   c2:
-    ips: []
     domains:
     - s1.spylive360.com
     - s2.spylive360.com
@@ -1765,18 +1741,17 @@
   - SpyXiz4
   - SpyXiz4Me
   - TrackMyPhone
+  type: stalkerware
   packages:
   - com.system.task
   - com.map.system
   - com.xnspy.dashboard
   certificates:
   - C276C3B087207C9D3CEEDA766C01E0BDEF7EAC71
-  certificate_cname_re: []
   websites:
   - xnspy.com
   - cp.xnspy.com
   c2:
-    ips: []
     domains:
     - xnspy.com
     - sync.xiz4me.com
@@ -1793,11 +1768,11 @@
 - name: MobiStealth
   names:
   - MobiStealth
+  type: stalkerware
   packages:
   - lookOut.Secure
   certificates:
   - FED69D6F09AE8C98DD4053C1934CCAF57D31824D
-  certificate_cname_re: []
   websites:
   - mobistealth.com
   - www.mobistealth.com
@@ -1812,33 +1787,31 @@
 - name: MobiSpy
   names:
   - MobiSpy
+  type: stalkerware
   packages:
   - com.psac.a.processservice
   certificates:
   - B5075AB201EE483C8ECADE1BC4FC711293D6932B
-  certificate_cname_re: []
   websites:
   - mobispy.net
   c2:
-    ips: []
     domains:
     - my.mobispy.net
 
 - name: NeoSpy
   names:
   - NeoSpy
+  type: stalkerware
   packages:
   - ns.antapp.module
   - com.nsmon.guard
   certificates:
   - 9ED8DD944D3EB545E1EEEEEC1D8174772CF37C07
-  certificate_cname_re: []
   websites:
   - neospy.pro
   - neospy.net
   - neospy.tech
   c2:
-    ips: []
     domains:
     - i6.clientreport.info
     - i7.clientreport.info
@@ -1854,6 +1827,7 @@
   names:
   - AllTracker
   - Russcity
+  type: stalkerware
   packages:
   - city.russ.alltrackercorp
   - city.russ.alltrackerfamily
@@ -1867,11 +1841,9 @@
   - F1912CEE4B5D6C1EA4070B53B440E2F660FFCBBD
   - F7871F09D6E58B9BEA5913FB2FA879E5427725E3
   - 6EF8C27EBCF808FFA377A391DB9892B997AF16C9
-  certificate_cname_re: []
   websites:
   - alltracker.org
   c2:
-    ips: []
     domains:
     - 4-dot-all-tracker.appspot.com
     - 6-dot-all-tracker.appspot.com
@@ -1883,15 +1855,13 @@
 - name: SpyPhoneApp
   names:
   - SpyPhoneApp
+  type: stalkerware
   packages:
   - com.spappm_mondow.alarm
   certificates:
   - 8C017FDB2A81807EC879A8E30F4AB05D5CA02034
   - 9477420001BC79500623374EC586B054AAC97BF9
-  certificate_cname_re: []
-  websites: []
   c2:
-    ips: []
     domains:
     - www.spy-phone-app.com
     - www.spappmonitoring.com
@@ -1899,12 +1869,12 @@
 - name: AndroidMonitor
   names:
   - AndroidMonitor
+  type: stalkerware
   packages:
   - com.ibm.fb
   certificates:
   - 92EBDB7D7C18A34705A6918B5F327DDB0E8C8452
   - 558765849658A3821FE4054ED2C1FF6E28B4B8A0
-  certificate_cname_re: []
   websites:
   - androidmonitor.com
   - www.androidmonitor.com
@@ -1918,6 +1888,7 @@
 - name: TalkLog
   names:
   - TalkLog
+  type: stalkerware
   packages:
   - tech.logsettings
   - t.tools.app
@@ -1925,7 +1896,6 @@
   certificates:
   - 08ACB92D02487EBC0CEA42B672A631BA7EA59ADF
   - AF821DD021558AEDF49730D2892063BD502DEA14
-  certificate_cname_re: []
   websites:
   - talklog.tools
   c2:
@@ -1938,6 +1908,7 @@
 - name: SpyMasterPro
   names:
   - SpyMasterPro
+  type: stalkerware
   packages:
   - iqual.calculadora.pro
   - com.semantic.childcontrol
@@ -1945,7 +1916,6 @@
   - 8AD595A53B76014B7B919ED231DB372096D358E7
   - C8BAE63357CA1DCD9B084BCC99399C96A5B67D49
   - 9B07A93BC509C0AE614AEAFFCD6B56797CD02166
-  certificate_cname_re: []
   websites:
   - spymasterpro.com
   - www.spymasterpro.com
@@ -1960,12 +1930,12 @@
 - name: FreeAndroidSpy
   names:
   - FreeAndroidSpy
+  type: stalkerware
   packages:
   - com.hp.vd
   - com.hp.vc
   certificates:
   - E0103BF20E95E826920A3F0F7B3BD03A899127D7
-  certificate_cname_re: []
   websites:
   - freeandroidspy.com
   c2:
@@ -1979,30 +1949,27 @@
 - name: NetSpy
   names:
   - NetSpy
+  type: stalkerware
   packages:
   - com.googleplay.settings
   certificates:
   - A4E169AAF0068A1FC5F7900B7F59A438B833364C
-  certificate_cname_re: []
   websites:
   - www.netspy.net
   - netspy.net
   c2:
-    ips: []
     domains:
     - netspy-7b8ec.firebaseio.com
 
 - name: Spyier
   names:
   - Spyier
+  type: stalkerware
   packages:
   - com.sc.spyier.v2
-  certificates: []
-  certificate_cname_re: []
   websites:
   - spyier.com
   c2:
-    ips: []
     domains:
     - i.spyier.com
     - v4vw4ytvo4.execute-api.us-east-2.amazonaws.com
@@ -2010,33 +1977,31 @@
 - name: CouplerTracker
   names:
   - CouplerTracker
+  type: stalkerware
   packages:
   - com.bettertomorrowapps.spyyourlovefree
   - com.bytepioneers.coupletracker
   certificates:
   - 18CD402CC43DF0BC03E9951B0F843DC4B1552DC6
   - BC53CC2A9996DE47BF72348F2A592DC0EBDAF06B
-  certificate_cname_re: []
   websites:
   - coupletracker.com
   c2:
-    ips: []
     domains:
     - api.bytepioner.com
 
 - name: GPSTrackerLoki
   names:
   - GPSTrackerLoki
+  type: stalkerware
   packages:
   - com.mobile.loki
   - com.mobile.asgard
   certificates:
   - 6156DB551938BB4560D4643B54527E4F169ED44F
-  certificate_cname_re: []
   websites:
   - asgardtech.ru
   c2:
-    ips: []
     domains:
     - asgard-f8c53.firebaseio.com
     - m.asgardtech.ru
@@ -2044,51 +2009,39 @@
 - name: SpyApp247
   names:
   - SpyApp247
+  type: stalkerware
   packages:
   - com.spyapp247.system
-  certificates: []
-  certificate_cname_re: []
-  websites: []
-  c2:
-    ips: []
-    domains: []
 
 - name: SpyMug
   names:
   - SpyMug
+  type: stalkerware
   packages:
   - com.service.mug
   certificates:
   - 56C8FA19250EDBA1A91A37F500DA91FBC0657B1F
-  certificate_cname_re: []
-  websites: []
-  c2:
-    ips: []
-    domains: []
 
 - name: WtSpy
   names:
   - WtSpy
+  type: stalkerware
   packages:
   - com.wwtspy
   - com.wtspy.apps
   certificates:
   - BB5E2C0E8DFDC54730C1E9B48754977E7DBCCCF9
-  certificate_cname_re: []
   websites:
   - wt-spy.com
-  c2:
-    ips: []
-    domains: []
 
 - name: Xnore
   names:
   - Xnore
+  type: stalkerware
   packages:
   - com.xno.systemservice
   certificates:
   - 9BCE25527FF174A4AD6CDE233B17038641A5EEF9
-  certificate_cname_re: []
   websites:
   - xnore.com
   c2:
@@ -2102,15 +2055,14 @@
   names:
   - EspiaoAndroid
   - FoxSpy
+  type: stalkerware
   packages:
   - com.kfhdha.fkjfgjdi
   certificates:
   - 60DA6A5B04C0100DFCE1213C850EFBDEB0D1E8D7
-  certificate_cname_re: []
   websites:
   - foxspy.com.br
   c2:
-    ips: []
     domains:
     - aovivo.foxspy.com.br
     - pc.foxspy.com.br
@@ -2119,12 +2071,12 @@
 - name: pcTattletale
   names:
   - pcTattletale
+  type: stalkerware
   packages:
   - com.avi.scbase
   certificates:
   - 20F092BEC76C406223A7943371A1DBBB5BF66C13
   - 934A3C0DC8912C4F2F8620F666FC7621BD7B97B8
-  certificate_cname_re: []
   websites:
   - www.pctattletale.com
   c2:
@@ -2138,15 +2090,14 @@
   names:
   - OneMonitar
   - OneSpy
+  type: stalkerware
   packages:
   - com.android.system.app
   certificates:
   - E458DC7CD8928A41865F502A884F0D51309E0BEF
-  certificate_cname_re: []
   websites:
   - onespy.com
   c2:
-    ips: []
     domains:
     - send.onespy.com
 
@@ -2154,31 +2105,29 @@
 - name: SpyEra
   names:
   - SpyEra
+  type: stalkerware
   packages:
   - com.wSpyEra
   certificates:
   - 813A3AD37D87AA36120DFEC64146C311DB5F4CA9
-  certificate_cname_re: []
   websites:
   - spyera.com
   - login.spylogs.com
   c2:
-    ips: []
     domains:
     - spylogs.com
 
 - name: AntiFurtoDroid
   names:
   - AntiFurtoDroid
+  type: stalkerware
   packages:
   - br.com.maceda.android.antifurtow
   certificates:
   - CE94B8512390676F62F3EC61BECEDDDE9AB5519F
-  certificate_cname_re: []
   websites:
   - antifurtodroid.com
   c2:
-    ips: []
     domains:
     - app.antifurtodroid.com
 
@@ -2188,13 +2137,13 @@
   - Quizmo
   - Multiverze
   - HiddenSMSTracker
+  type: stalkerware
   packages:
   - com.gcm_call_sms_tracker.updated
   - com.gizmoquip.smstracker
   certificates:
   - 0C01AEB7346C700D02613EBA513BD40E87A182F8
   - 8F576BEEB71EA74E5F27764917BFF5B508017B68
-  certificate_cname_re: []
   websites:
   - callsmstracker.com
   - hiddensmstracker.com
@@ -2217,18 +2166,17 @@
 - name: AiSpyer
   names:
   - AiSpyer
+  type: stalkerware
   packages:
   - com.aif.tracksp
   certificates:
   - F038CD90AFEA9C037A801FFAE67DF55A870879C4
   - BCA2BCB87F6E28FB403CED643311B135CA0DC0A2
-  certificate_cname_re: []
   websites:
   - aivideoedit.com
   - aispyer.com
   - www.aispyer.com
   c2:
-    ips: []
     domains:
     - ioi.life
     - api.corn-cob.com
@@ -2242,15 +2190,14 @@
 - name: SpyToApp
   names:
   - SpyToApp
+  type: stalkerware
   packages:
   - com.spytoapp.system
   certificates:
   - 6F93929AB60AC760000E873CD7C56BA79A9E6CAD
-  certificate_cname_re: []
   websites:
   - spytoapp.com
   c2:
-    ips: []
     domains:
     - android.spytoapp.com
     - apk01.spytoapp.com
@@ -2264,17 +2211,16 @@
   names:
   - BlurSpy
   - XOXOSpy
+  type: stalkerware
   packages:
   - com.saloomughal.spyapp
   certificates:
   - 4CACA12EB37B7A7F07AE380C7E1741D2C36531DF
-  certificate_cname_re: []
   websites:
   - www.blurspy.com
   - blurspy.com
   - xoxospy.com
   c2:
-    ips: []
     domains:
     - spyapp-8916f.firebaseio.com
     - blurspy.com
@@ -2283,11 +2229,11 @@
 - name: AppMia
   names:
   - AppMia
+  type: stalkerware
   packages:
   - com.android.system.devicelogs
   certificates:
   - C51C36FE4F1DFC0C5B8CD55F74773135C1C1E1E5
-  certificate_cname_re: []
   websites:
   - appmia.com
   - appmia.com.es
@@ -2295,35 +2241,28 @@
   - appmia.fr
   - cp.appmia.com
   c2:
-    ips: []
     domains:
     - tr.appmia.com
 
 - name: SecretCamRecorder
   names:
   - SecretCamRecorder
+  type: stalkerware
   packages:
   - com.tools.secretcamcorder
-  certificates: []
-  certificate_cname_re: []
-  websites: []
-  c2:
-    ips: []
-    domains: []
 
 - name: WiseMo
   names:
   - WiseMo
+  type: stalkerware
   packages:
   - com.wisemo.host.v10
   certificates:
   - 9B48840CBF93379410172B4B85989624D2B33D59
-  certificate_cname_re: []
   websites:
   - wisemo.com
   - www.wisemo.com
   c2:
-    ips: []
     domains:
     - mycloud1.wisemo.com
     - mycloud.wisemo.com
@@ -2337,6 +2276,7 @@
 - name: Unisafe
   names:
   - Unisafe
+  type: stalkerware
   packages:
   - ru.usafe.u_safe
   - ru.usafe.usafe
@@ -2348,13 +2288,11 @@
   - A519EF2B8C4E73A097065B322687C9D38DED610C
   - B5895930053256D408DE74B66BA132B73CB21527
   - FCB6F780EA8F2FE7249F66C6348572BDBD54F576
-  certificate_cname_re: []
   websites:
   - usafe.ru
   - unisafe.su
   - unisafe.techmas.ru
   c2:
-    ips: []
     domains:
     - a342f.appspot.com
     - unisafe-a342f.firebaseio.com
@@ -2365,6 +2303,7 @@
   names:
   - TrackView
   - LifeCircle
+  type: stalkerware
   packages:
   - app.cybrook.trackview
   - app.lifecircle
@@ -2376,14 +2315,12 @@
   certificates:
   - CB97E71AFA4665D6D28697B9197046C81E5E5D6C
   - B14E50E56D5D483031137FD247D4A5466D0E61B4
-  certificate_cname_re: []
   websites:
   - chome.zstone.co
   - lifecircle.app
   - trackview.net
   - trackview.recurly.com
   c2:
-    ips: []
     domains:
     - analytics.trackview.net
     - api-project-285519687053.firebaseio.com
@@ -2404,6 +2341,7 @@
   - XZBO
   - TrackSmart
   - TrackingSmart
+  type: stalkerware
   packages:
   - com.tracking_smartphone
   - com.app.remote_control
@@ -2413,13 +2351,11 @@
   - 603881E46350999FF7A5CBD68FE6A5897C50CEDE
   - 665D624FD53E4D538DFE9F7A87087C513CB40506
   - 86D94A8CE736F82D834FA588F34106AE7B69D325
-  certificate_cname_re: []
   websites:
   - trackingsmartphone.com
   - www.trackingsmartphone.com
   - onlinefundb.com
   c2:
-    ips: []
     domains:
     - trackingsmartphone.com
     - onlinefundb.com
@@ -2428,12 +2364,12 @@
 - name: SpyphoneMobileTracker
   names:
   - SpyphoneMobileTracker
+  type: stalkerware
   packages:
   - com.phonetrackerofficial
   - com.phonetrackerofficial1
   certificates:
   - 5F61BEB9591ADBDF9DA5B141A1EF35CDC0944C8C
-  certificate_cname_re: []
   websites:
   - phonetracker.com
   - www.phonetracker.com
@@ -2442,26 +2378,23 @@
   - www.spyphone.com
   - spy-phone-app.com
   c2:
-    ips: []
     domains:
     - phonetracker.com
     - phonetracker95gpsonly.firebaseio.com
 
 - name: FamiSafe
-  names: []
+  type: watchware
   packages:
   - com.wondershare.famisafe
   - com.wondershare.famisafe.kids
   certificates:
   - 61B90229F79F730043D06FEE46BB8FD9E3A0E70B
   - 095514BA4F28DBE521C74ABF77972BE3C86A50A5
-  certificate_cname_re: []
   websites:
   - famisafe.wondershare.com
   - famisafeapp.wondershare.com
   - accounts.wondershare.com
   c2:
-    ips: []
     domains:
     - api.wondershare.cc
     - app-api-pro.wondershare.cc
@@ -2471,32 +2404,26 @@
     - sparrow.wondershare.com
 
 - name: OneLocator
-  names: []
+  type: stalkerware
   packages:
   - mg.locations.track5
   certificates:
   - E43B5671CBA3F48619BF00D6E380BBC2F02A5DCA
-  certificate_cname_re: []
   websites:
   - locatorprivacy.com
   - onelocator.com
   c2:
-    ips: []
     domains:
     - locatorprivacy.com
 
 - name: EvaSpy
-  names: []
-  packages: []
-  certificates: []
-  certificate_cname_re: []
+  type: stalkerware
   websites:
   - evaspy.com
   - login.evaspy.com
   - spyrix.com
   - www.spyrix.com
   c2:
-    ips: []
     domains:
     - ua.evaspy.com
     - ub.evaspy.com
@@ -2518,12 +2445,11 @@
     - ur.evaspy.com
 
 - name: RealtimeSpy
-  names: []
+  type: stalkerware
   packages:
   - com.realtime.spyapp
   certificates:
   - 8CD8FB235EA7F9B0FC308C1A59AB561C3869878C
-  certificate_cname_re: []
   websites:
   - www.spytech-web.com
   - spytech-web.com
@@ -2536,28 +2462,21 @@
     - realtime-spy-mobile.com
 
 - name: KasperskySafeKids
-  names: []
+  type: watchware
   packages:
   - com.kaspersky.safekids
-  certificates: []
-  certificate_cname_re: []
-  websites: []
   c2:
-    ips: []
     domains:
     - kaspersky-safe-kids.firebaseio.com
 
 - name: KidsControl
-  names: []
+  type: watchware
   packages:
   - app.gpsme
-  certificates: []
-  certificate_cname_re: []
   websites:
   - kid-control.com
   - kid-control.ru
   c2:
-    ips: []
     domains:
     - api.kid-control.com
     - beta.kid-control.com
@@ -2575,17 +2494,15 @@
     - s10.kid-control.com
 
 - name: FindMyKids
-  names: []
+  type: watchware
   packages:
   - org.findmykids.app
   certificates:
   - 2A57777E3B9491A37392AFCE2E69D030DBF95037
-  certificate_cname_re: []
   websites:
   - findmykids.org
   - discount.findmykids.org
   c2:
-    ips: []
     domains:
     - r.findmychilds.org
     - wss.findmychilds.org
@@ -2594,6 +2511,7 @@
 - name : jjspy
   names:
   - ttspy
+  type: stalkerware
   packages:
   - com.backup.tt
   websites:
@@ -2608,9 +2526,7 @@
   - EE35E2740576480486307C991C762A3FBA8DA46D
   - B8FCBCA563B1CD0E79CAC595002422C2E54072B7
   - CF627144481D3F1DCFBB6CF12291C540AE325FBE
-  certificate_cname_re: []
   c2:
-    ips: []
     domains:
     - api.ttspy.com
     - cloud.ttspy.com
@@ -2631,6 +2547,7 @@
   names:
   - AndroSpy
   - ASpy
+  type: stalkerware
   packages:
   - apk.keylogger
   - apk.kgl
@@ -2648,9 +2565,7 @@
   - 56BD8EB8A20904E4766D99F6D38D87466C44B114
   - 839FBBE6F3DF8153BB6582247DBBC2A42864A87D
   - B7BB744C68FD6EB4C49298E7506BED53DC4773FF
-  certificate_cname_re: []
   c2:
-    ips: []
     domains:
     - a-spy.com
 
@@ -2660,6 +2575,7 @@
   - AndrMonitor
   - AndroidMon
   - Dromon
+  type: stalkerware
   packages:
   - afs.hbmoczc
   - bv.vemzye
@@ -2685,7 +2601,6 @@
   - E0FCD3E782FB859F7388E4F44A44A5D694114968
   - EAD44242A3C0A73DEF7976C56AC10A4530E8F67A
   - ED5BADBC20B1B027F5858D29DAFBF66535C46DB9
-  certificate_cname_re: []
   websites:
   - android-monitor.ru
   - amon.android-monitor.ru
@@ -2706,7 +2621,6 @@
   - prog-money.com
   - www.android-monitor.ru
   c2:
-    ips: []
     domains:
     - amon.android-monitor.ru
     - amon1.android-monitor.ru
@@ -2730,16 +2644,14 @@
 - name : FindMyPhone
   names:
   - InMobi
+  type: stalkerware
   packages:
   - com.mango.findmyphone
   - com.mango.findmyphone2
   - com.mango.findmyphone3
   websites:
   - find-myphone.com
-  certificates: []
-  certificate_cname_re: []
   c2:
-    ips: []
     domains:
     - find-my-phone-prod.herokuapp.com
     - findmyphone.mangobird.com
@@ -2747,6 +2659,7 @@
 - name : Bulgok
   names:
   - ControlPhone
+  type: stalkerware
   packages:
   - com.bulgakov.controlphone
   - com.bulgakov.bug
@@ -2757,9 +2670,7 @@
   - 71AD1F579C3DCF32AA1E00E02245D359F80C260B
   - FD5E1BBC94E5609F366DD4816C975C1CF4003F40
   - DBC4B607C3B07C48F40F9D184DE443D651436CA5
-  certificate_cname_re: []
   c2:
-    ips: []
     domains:
     - c-phone.ru
     - control-phone-a05a3.firebaseio.com
@@ -2773,6 +2684,7 @@
   - IZSpy
   - IzKid
   - ESpy
+  type: stalkerware
   packages:
   - com.android.fystem.maps
   - com.android.system.maps
@@ -2795,9 +2707,7 @@
   - 9427212B33E9D3636970EAB73E2845E0DC59B5AA
   - A9A302C9606AF4BE4468A4FC74F7873DDADA2AB0
   - BD3986483D9B962B029D65BF34BF4B7C568FF204
-  certificate_cname_re: []
   c2:
-    ips: []
     domains:
     - apk7.biz
     - clues.link
@@ -2824,6 +2734,7 @@
   - TracerSpy
   - Triada
   - VipTelefonProgrami
+  type: stalkerware
   packages:
   - com.protect
   - com.aixlunro.uqfhkagb
@@ -2898,22 +2809,20 @@
 - name : NemoSpy
   names:
   - Spyoo
-  packages: []
+  type: stalkerware
   websites:
   - nemospy.com
   - admin.nemospy.com
   certificates:
   - E871393054ED858ACB5854C0DB9F674C42160344
   - C7FBC97C3BD3949A6C19FF332E6CF2F2E5CEE561
-  certificate_cname_re: []
   c2:
-    ips: []
     domains:
       - nemospy.com
       - setup.nemospy.com
 
 - name : SpyKontrol
-  names: []
+  type: stalkerware
   packages:
   - com.ajygpxjy.bnthtjou
   - com.udxlbuno.plwnnhop
@@ -2926,9 +2835,7 @@
   - FB8F23C57D0AFD255FD255B290B2EF6DBB2EAFD8
   - A36C70833A8A796F94CCD56B810D2A123F4F0485
   - EA35FC50B3B0E0A9E5405BAC2D7E58D7F9559FD0
-  certificate_cname_re: []
   c2:
-    ips: []
     domains:
     - pc.spykontrol.com
     - androidapk.biz
@@ -2942,6 +2849,7 @@
   - Spymob
   - sap4mobile
   - spy2mobile
+  type: stalkerware
   packages:
   - com.callhist.calltr
   - com.catrsy.jaluc
@@ -3024,7 +2932,6 @@
   - EF8006163D09D176083936CFB068BB07A8918118
   - F5EAEFDECAD39B93134E859BEDC7D3ED42FBE2B3
   - FD4C2144DF6E431378A46EAEACC696AF94DE9D56
-  certificate_cname_re: []
   c2:
     ips:
     - 185.87.51.116
@@ -3054,8 +2961,7 @@
     - tfk7r22klf8vtd8g90jq8qno1tpqhmpe.apps.googleusercontent.com
 
 - name : MobileSpy
-  names: []
-  packages: []
+  type: stalkerware
   websites:
   - de.mobilespy.at
   - es.mobilespy.at
@@ -3065,8 +2971,6 @@
   - pt.mobilespy.at
   - ro.mobilespy.at
   - www.mobilespy.at
-  certificates: []
-  certificate_cname_re: []
   c2:
     ips:
     - 37.120.162.163
@@ -3079,6 +2983,7 @@
   - Interguard
   - Screentime
   - atispy
+  type: stalkerware
   packages:
   - com.at.wwka
   - com.ati.client
@@ -3106,9 +3011,7 @@
   - B9D5BAEDCF0C711317E8B6E54D60F0A5EDEE9517
   - E689432F7C2A39379BD64CB0BD2A6028F3A666DD
   - FC786B8F918655D45245C685A471BD57F02FB366
-  certificate_cname_re: []
   c2:
-    ips: []
     domains:
     - api.awarenesstechnologies.com
     - apitest.awarenesstechnologies.com
@@ -3128,59 +3031,43 @@
   names:
   - Oxy
   - MobileBackup
-  packages: []
+  type: stalkerware
   websites:
   - nexspy.com
   - oxy.nexspy.com
   - mobilebackup.biz
   - portal.mobilebackup.biz
   - portal.topzaloha.cz
-  certificates: []
-  certificate_cname_re: []
   c2:
-    ips: []
     domains:
     - my.nexspy.com
     - api.mobilebackup.biz
     - topzaloha.cz
 
 - name : juju
-  names: []
-  packages: []
+  type: stalkerware
   websites:
   - www.juju.co.ke
   - juju.co.ke
-  certificates: []
-  certificate_cname_re: []
-  c2:
-    ips: []
-    domains: []
 
 - name : mSpyitaly
-  names: []
-  packages: []
+  type: stalkerware
   websites:
   - dc-407883c18502.mspyitaly.com
   - mspyitaly.com
   - www.mspyitaly.com
-  certificates: []
-  certificate_cname_re: []
-  c2:
-    ips: []
-    domains: []
 
 - name : MyCellSpy
   names:
   - CellSpy
   - MCSpy
+  type: stalkerware
   packages:
   - com.cryzp.leplluln
   websites:
   - mycellspy.com
   - cezz.me
   - user.mycellspy.com
-  certificates: []
-  certificate_cname_re: []
   certificate_organizations:
   - H20201128
   c2:
@@ -3190,7 +3077,7 @@
     - api.mycellspy.com
 
 - name : Spylix
-  names: []
+  type: stalkerware
   packages:
   - com.chaoqi.spyapp
   websites:
@@ -3198,7 +3085,6 @@
   - www.spylix.com
   certificates:
   - 2CF347EA59967F7799AA2C1FDB5D711B2B93D586
-  certificate_cname_re: []
   c2:
     ips:
     - 52.90.126.68
@@ -3210,11 +3096,9 @@
     - my.spylix.com
 
 - name: MonitorUltra
-  names: []
+  type: stalkerware
   packages:
   - com.sec.provider.mobile.android
-  certificates: []
-  certificate_cname_re: []
   websites:
   - www.spyequipmentuk.co.uk
   c2:
@@ -3227,10 +3111,7 @@
     - monitor-ultra.com
 
 - name: SentryPC
-  names: []
-  packages: []
-  certificates: []
-  certificate_cname_re: []
+  type: stalkerware
   websites:
   - www.sentrypc.com
   - sentrypc.com
@@ -3246,12 +3127,11 @@
     - www.sentrypc.download
 
 - name: TheWiSpy
-  names: []
+  type: stalkerware
   packages:
   - com.thewispy
   certificates:
   - BFF94895A64AEB38B5278BC41B1DB242CD82DA62
-  certificate_cname_re: []
   websites:
   - www.thewispy.com
   - childmonitoringsystem.com
@@ -3262,7 +3142,7 @@
     - cp.thewispy.com
 
 - name: Observer
-  names: []
+  type: stalkerware
   packages:
   - YWZiZDFjZTg2NTZlOGI4NDkyYWJjZDJjZDE5ZTM0Mjk.MzkwMmNhZGFiZGZhMjMyZjQzNTJkYmQ1ODg1ZjI1NzA
   - com.system.settings
@@ -3272,17 +3152,16 @@
   - 85AF7A95F8A95541F6B6DE88A8EBC24FF1658E98
   - D44524FA0D7866F1798C41C28953DA899B46BE65
   - E906D462FA05007DE06423A10539C7E7EAB041CD
-  certificate_cname_re: []
   websites:
   - www.observer.pw
   c2:
-    ips: []
     domains:
     - observer.back4app.io
 
 - name: Mrecorder
   names:
   - mobrec
+  type: stalkerware
   packages:
   - com.mobileservices2.synchronization
   - com.mrecorder.callrecorder
@@ -3291,7 +3170,6 @@
   certificates:
   - 718F3191938DA39D3A4EAC0EF0F44C70F32B0989
   - 77142DA3A865C256FCDD24E187FDCEBA1B4EC587
-  certificate_cname_re: []
   certificate_organizations:
   - mrecorder2
   - MobileRecorder
@@ -3299,7 +3177,6 @@
   - mobilerecorder24.com
   - mrecorder.com
   c2:
-    ips: []
     domains:
     - d1gslyvqtipqvi.cloudfront.net
     - d24lo6rmha82nf.cloudfront.net
@@ -3317,14 +3194,13 @@
     - project-7991479181228723357.firebaseio.com
 
 - name: PhoneSpy
-  names: []
+  type: stalkerware
   packages:
   - com.popo.analyse
   - com.wlset.info
   certificates:
   - 5EC970BC602D0EBB2F3C7A5135E24C330B71DE59
   - FBC83FD67E3B534B8B03D3B341249DB3186374E2
-  certificate_cname_re: []
   websites:
   - www.phone-spy.com
   - phone-spy.com
@@ -3333,35 +3209,29 @@
     ips:
     - 103.147.225.210
     - 175.126.146.147
-    domains: []
 
 - name: Accountable2you
-  names: []
+  type: stalkerware
   packages:
   - com.accountable2you.ap1
   certificates:
   - 78CFFA689DD23FDD7E84DDFBF28F86D4843C6129
-  certificate_cname_re: []
   websites:
   - accountable2you.com
   c2:
-    ips: []
     domains:
     - accountable2you.com
     - webservice.accountable2you.com
     - accountable2you-android.firebaseio.com
     - api.accountable2you.com
 
-
-
 - name: ShadySpy
-  names: []
+  type: stalkerware
   packages:
   - com.shadyspy.monitor
   certificates:
   - 91ED4F75A763A63471E1D1D39BA012DF867550D4
   - C44894EE63F2E861A6960834A21EB27169150722
-  certificate_cname_re: []
   websites:
   - shadyspy.com
   - www.shadyspy.com
@@ -3374,6 +3244,7 @@
 - name: AbsoluTrack
   names:
   - RemoteSecurity
+  type: stalkerware
   packages:
   - com.ass.antitheft
   - com.ass.remotesecurity
@@ -3402,7 +3273,6 @@
   - thiefguardbd.com
   - www.smartguardapp.com
   c2:
-    ips: []
     domains:
     - absolutesoftsystem.in
     - ass.absolutesoftsystem.in
@@ -3415,16 +3285,15 @@
 - name: SmartKeylogger
   names:
   - Hiddad
+  type: stalkerware
   packages:
   - com.AwamiSolution.smartkeylogger
   certificates:
   - 842676B67005E6561808B650152F598035D12800
-  certificate_cname_re: []
   certificate_organizations:
   - AwamiSolution
   websites:
   - awamisolution.com
   c2:
-    ips: []
     domains:
     - awamisolution.com
