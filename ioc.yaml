@@ -3317,3 +3317,13 @@
     domains:
     - apis.zoemob.com
     - zoemob.firebaseio.com
+
+- name: Life360
+  type: watchware
+  packages:
+  - com.life360.android.safetymapd
+  certificates:
+  - 19C0868F028757F49FD8F7BDF39FF70C771D622B
+  websites:
+  - www.life360.com
+  - life360.com
