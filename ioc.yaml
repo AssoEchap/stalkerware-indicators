@@ -3297,3 +3297,8 @@
   c2:
     domains:
     - awamisolution.com
+
+- name: KidSecured
+  type: stalkerware
+  websites:
+  - kidsecured.com
