@@ -3327,3 +3327,17 @@
   websites:
   - www.life360.com
   - life360.com
+  - life360-wordpress.s3.amazonaws.com
+  - life360.zendesk.com
+  c2:
+    domains:
+    - gpi4.life360.com
+    - life360-dev.tile-api.com
+    - life360.atlassian.net
+    - life360-location-dev.tile-api.com
+    - gpi3.life360.com
+    - i.lf360.co
+    - gpi4.dev.life360.com
+    - life360feedback.typeform.com
+    - api-cloudfront.life360.com
+    - life360-com-l360safetycenter.firebaseio.com
