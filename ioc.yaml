@@ -2396,14 +2396,19 @@
   - accounts.wondershare.com
   c2:
     domains:
+    - 300624.com
+    - analytics.300624.com
     - api.wondershare.cc
     - app-api-pro.wondershare.cc
-    - dc.wondershare.cc
     - data-api.famisafe.com
+    - dc.wondershare.cc
     - famisafe-b6807.firebaseio.com
     - sparrow.wondershare.com
 
 - name: OneLocator
+  names:
+  - PhoneTrackerByNumber
+  - FamilyLocator
   type: stalkerware
   packages:
   - mg.locations.track5
