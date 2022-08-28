@@ -3302,3 +3302,18 @@
   type: stalkerware
   websites:
   - kidsecured.com
+
+- name: ZoeMob
+  type: watchware
+  packages:
+  - com.zoemob.gpstracking
+  certificates:
+  - F9761F7C7AA6317B667671CB8F66479970630EAD
+  websites:
+  - www.zoemob.com
+  - zoemob.com
+  - panel.zoemob.com 
+  c2:
+    domains:
+    - apis.zoemob.com
+    - zoemob.firebaseio.com
