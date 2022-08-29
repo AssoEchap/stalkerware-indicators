@@ -34573,6 +34573,24 @@
           "disable_correlation": false,
           "to_ids": false,
           "category": "Other"
+        },
+        {
+          "uuid": "0625c025-d296-4be6-9f9a-cbd86da1ba7c",
+          "object_relation": "domain",
+          "value": "analytics.300624.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4dd5d9e9-6653-46e8-8bdc-9ade77dc260a",
+          "object_relation": "domain",
+          "value": "300624.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
         }
       ],
       "distribution": "5",
@@ -42342,6 +42360,537 @@
           "uuid": "b44e08c9-01a7-466f-a5c5-e86a79f9469f",
           "object_relation": "name",
           "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "8f0b3456-b577-46ee-b6c7-ff4d0715ebcd",
+      "Attribute": [
+        {
+          "uuid": "7d9c5d75-7e5c-4997-93ee-2e30b748d275",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "ca2a1039-5aec-40f3-bf37-65b200136b7d",
+      "Attribute": [
+        {
+          "uuid": "40a7f205-7f54-47d7-b618-ee94c2607e9e",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "3e63d58a-4b62-40fc-a1f0-bccd730b2a29",
+      "Attribute": [
+        {
+          "uuid": "33766e35-64a1-4495-83af-42f6131c4fea",
+          "object_relation": "name",
+          "value": "KidSecured",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "dc8a5eef-7eee-4fb5-b84f-4f874bdce3e1",
+      "Attribute": [
+        {
+          "uuid": "97364e63-2f30-40bb-b6da-e1beb6498f26",
+          "object_relation": "name",
+          "value": "ZoeMob",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "83d979ac-8baa-4846-a7c1-4890c24ef26d",
+          "object_relation": "domain",
+          "value": "apis.zoemob.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "d53fec3d-f63f-40c4-a11d-0ce0e1171346",
+          "object_relation": "domain",
+          "value": "zoemob.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "cb983614-d117-4f18-b9b4-b877b15606e1",
+          "object_relation": "certificate",
+          "value": "F9761F7C7AA6317B667671CB8F66479970630EAD",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "b068afd4-391f-4388-a3f1-efb312d4a615",
+          "object_relation": "appid",
+          "value": "com.zoemob.gpstracking",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "a26b0116-c669-4d05-9ce9-bfae726cbe68",
+      "Attribute": [
+        {
+          "uuid": "ec382975-0e04-46a7-9c30-76628d838a16",
+          "object_relation": "name",
+          "value": "Life360",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "47e07590-f6a7-4581-850f-0edc623bf5db",
+          "object_relation": "domain",
+          "value": "api-cloudfront.life360.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4d3bfd3b-8e90-42b1-b940-60944ece93f3",
+          "object_relation": "domain",
+          "value": "life360-com-l360safetycenter.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b6cb0520-5713-440c-9d15-8ffbf07c0a1d",
+          "object_relation": "domain",
+          "value": "i.lf360.co",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "4067bb39-74eb-4a28-970d-1d3bbd231603",
+          "object_relation": "domain",
+          "value": "life360-dev.tile-api.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "1aa2819c-39eb-471e-bb40-b779baf8cc3f",
+          "object_relation": "domain",
+          "value": "gpi4.life360.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "e425dddf-6171-4a75-877e-9146844e8793",
+          "object_relation": "domain",
+          "value": "gpi4.dev.life360.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "953f4e96-7a4e-42ce-92f5-5ecfafd3643b",
+          "object_relation": "domain",
+          "value": "gpi3.life360.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "7eb65a20-cc75-4cd7-bdc8-3bfb8d1d70e6",
+          "object_relation": "domain",
+          "value": "life360feedback.typeform.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "880bb8fc-eeaf-4ec0-8272-3d6ce6abd06e",
+          "object_relation": "domain",
+          "value": "life360.atlassian.net",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "5549cce4-6710-4a33-b18d-9430d20f3216",
+          "object_relation": "domain",
+          "value": "life360-location-dev.tile-api.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "c43b1b9f-d944-4300-bffa-f19b5c8fb343",
+          "object_relation": "certificate",
+          "value": "19C0868F028757F49FD8F7BDF39FF70C771D622B",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "032fcc89-47c5-4081-9b29-cd257ffb8534",
+          "object_relation": "appid",
+          "value": "com.life360.android.safetymapd",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "fe554109-f837-4cde-b9d3-909c1b35c1bf",
+      "Attribute": [
+        {
+          "uuid": "7f462f2f-d397-4d5a-8715-27d0e99c29b6",
+          "object_relation": "name",
+          "value": "Traccar",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "6facfd98-2969-4ad6-a748-f6fb6e99faa4",
+          "object_relation": "domain",
+          "value": "traccar-client-app.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "412d0ac0-960f-4eeb-aab4-460f9052f0c3",
+          "object_relation": "domain",
+          "value": "traccar.org",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "03ce9c91-45da-4d32-8f3f-f36949be1f42",
+          "object_relation": "certificate",
+          "value": "AA752803419B66BC6D5CFCD61A7C88935FFE5511",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d52640eb-2e09-4aa0-9d63-2dd780991bfc",
+          "object_relation": "appid",
+          "value": "org.traccar.client",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "ccdcdb60-695c-4924-8c49-54ccb92afeb4",
+      "Attribute": [
+        {
+          "uuid": "28078328-946b-4cce-a511-2fb76e8ba75a",
+          "object_relation": "name",
+          "value": "MicrosoftFamilySafe",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "026384d5-f744-4567-86b5-23a127b224ed",
+          "object_relation": "domain",
+          "value": "mobileaggregator.family.microsoft.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "465808fe-70d2-421b-ae2a-b62c6826509d",
+          "object_relation": "domain",
+          "value": "location.family.microsoft.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "ec94a3fe-6983-4e2f-a9bb-028c24422c8b",
+          "object_relation": "domain",
+          "value": "safedriving.family.microsoft.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b581236a-17bc-484f-8e2b-1c34359b813e",
+          "object_relation": "appid",
+          "value": "com.microsoft.familysafety",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "02e589ee-4225-4f1a-a872-b5af183710b2",
+      "Attribute": [
+        {
+          "uuid": "bd63f916-7256-42ca-9f66-75d6a18d668c",
+          "object_relation": "name",
+          "value": "GeoZilla",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "897d72dc-babe-4da9-8d7a-8c931d1e5457",
+          "object_relation": "domain",
+          "value": "geozilla.autosmartins.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "171651e6-4004-4c45-952b-4f48bd417e2a",
+          "object_relation": "domain",
+          "value": "api.geozilla.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "a5cf07ab-c1fa-4a7a-a61a-78a35bd66be5",
+          "object_relation": "domain",
+          "value": "files.geozilla.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "6ecf9b9f-8606-48f4-85f4-29e24932b4b4",
+          "object_relation": "domain",
+          "value": "geozillafamily-c92d0.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "24d305c2-1593-4875-ac15-471ad6e5f3d6",
+          "object_relation": "domain",
+          "value": "iot.geozilla.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "9ac1aec2-2cc0-4044-a2e0-91fa7fac8a6b",
+          "object_relation": "domain",
+          "value": "geozillafamily.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "718c0f0b-7eb6-4f3a-8908-2ac53379b273",
+          "object_relation": "certificate",
+          "value": "EE74E09E40A324B806AE5ED68A4543E50C3B6FC2",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "d5283571-9fb1-4b6c-9217-d1eaa8e6cec6",
+          "object_relation": "appid",
+          "value": "com.geozilla.family",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "1febe16f-8fa9-4ed8-8a26-485877e85bd1",
+      "Attribute": [
+        {
+          "uuid": "4bb08ded-a6f7-4a09-a5c2-b91e66671c9a",
+          "object_relation": "name",
+          "value": "KidsLox",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        },
+        {
+          "uuid": "3a5fb5b6-f319-466c-8316-3c5206837bf6",
+          "object_relation": "domain",
+          "value": "kidslox.page.link",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "b95f10d1-57a2-4698-91f8-c6c4fd1a2f22",
+          "object_relation": "domain",
+          "value": "admin.kdlparentalcontrol.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "79e09f93-0ad0-4871-b801-4bab3c5c7cd3",
+          "object_relation": "domain",
+          "value": "activity.kdlparentalcontrol.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "98aeeb40-8585-4347-93f2-9de6dfd86293",
+          "object_relation": "domain",
+          "value": "kidslox.firebaseio.com",
+          "type": "domain",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Network activity"
+        },
+        {
+          "uuid": "29c958fc-e3a4-4ddf-ac36-2d53fe8f4334",
+          "object_relation": "certificate",
+          "value": "EE74E09E40A324B806AE5ED68A4543E50C3B6FC2",
+          "type": "sha1",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "07d423ba-9e3f-4abf-9405-2f96994978d0",
+          "object_relation": "appid",
+          "value": "com.kidslox.app",
           "type": "text",
           "disable_correlation": false,
           "to_ids": false,

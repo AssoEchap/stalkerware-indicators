@@ -1,12 +1,14 @@
 # Stalkerware Indicators of Compromise
 
-Indicators of compromise (IOC) on Stalkerware applications for Android and iOS
+Indicators of compromise (IOC) for Stalkerware and Watchware applications for Android and iOS
 
 _Warning: these indicators are not providing a complete detection of
 stalkerware applications. They are based on research from a few people on their
 free time and many apps are likely missing. Use it carefully. No detection
 based on these indicators should not be understood as having no stalkerware
 installed._
+
+**If you think you may be victim of a stalkerware application, check [this page](https://stopstalkerware.org/information-for-survivors/)**
 
 This repository is maintained by [Julien Voisin](https://dustri.org/), [Tek](https://github.com/Te-k) and [Esther](https://github.com/u039b) for the [Echap](https://echap.eu.org/) non-profit organisation.
 
@@ -23,6 +25,8 @@ without the affected person knowing or giving their consent. Regardless of
 stalkerware’s availability, the abuser is accountable for using it as a tool
 and hence for committing this crime.
 
+We are classifying as watchware any application that is developed for surveillance and is not trying to hide its activity (like a child monitoring application).
+
 ## IOC
 
 Main files:
@@ -37,21 +41,17 @@ Main files:
 
 Files generated automatically from previous IOC files:
 
-* `generated/hosts`: network indicators (C2 domains only) in hosts format
+* `generated/hosts`: network indicators (C2 stalkerware domains only) in hosts format
+* `generated/hosts_full`: network indicators (C2 domains only for both stalkerware and watchware) in hosts format
 * `generated/indicators-for-tinycheck.json`: indicators in [TinyCheck](https://github.com/KasperskyLab/TinyCheck) compatible format
 * `generated/misp_event.json`: indicators in [MISP](https://www.misp-project.org/) compatible format
 * `generated/network.csv`: network indicators in a more grepable CSV format
 * `generated/stalkerware.stix2`: indicators in [STIX2](https://oasis-open.github.io/cti-documentation/stix/intro) format
 * `generated/suricata.rules`: [Suricata](https://suricata.io/) rules for network indicators (C2 only)
 
-Scripts:
-* `scripts/check_apk.py`: check an APK file or APKs in a folder with the indicators from this repository
-* `scripts/generate.py`: creates all the files in the `generated` folder (automatically done through github actions)
-* `scripts/linter.py`: linter to check the format of the different indicator files (automtaically done through github actions)
-
 ## Stalkerware
 
-This repository includes indicators for 106 stalkerware applications (2727 samples)
+This repository includes indicators for 113 stalkerware and watchware applications (2727 samples)
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -82,15 +82,20 @@ This repository includes indicators for 106 stalkerware applications (2727 sampl
 * FlexiSpy (`flexispy.com` `community.flexispy.com` `blog.flexispy.com` `www.flexispy.com` `mobilefonex.com` `mobileapps.com.my` `flexispy.mobileapps.com.my` `svlogin.asia`)
 * FreeAndroidSpy (`freeandroidspy.com`)
 * GPSTrackerLoki (`asgardtech.ru`)
+* GeoZilla (`geozilla.com` `geozillahelp.zendesk.com`)
 * HelloSpy (`1topspy.com` `hellospy.com` `maxxspy.com` `mobiispy.com` `innovaspy.com`)
 * HighsterMobile (`auto-forward.com` `cellphoneservices.info` `ddiutilities.com` `evt17.com` `highstermobile.com` `phonespector.com`)
 * Hoverwatch (`br.refog.com` `de.refog.com` `es.refog.com` `fr.refog.com` `hover.watch` `hoverwatch.com` `hu.refog.com` `hws.icu` `it.refog.com` `my.hws.icu` `nl.refog.com` `prospybubble.com` `refog.com` `refog.de` `refog.net` `refog.org` `ro.refog.com` `www.hoverwatch.com`)
 * KasperskySafeKids
+* KidSecured (`kidsecured.com`)
 * KidsControl (`kid-control.com` `kid-control.ru`)
+* KidsLox (`kidslox.com` `kidsloxsupport.zendesk.com` `www.advanced.kidslox.com`)
 * KidsShield (`backupsoft.eu` `freespyapp.com` `kidsshield.net` `pc.freespyapp.com` `pc.selfspy.com` `selfspy.com` `techinnovative.net` `tifamily.net` `tracerspy.net` `tispy.net` `ua.tispy.net` `www.selfspy.com` `viptelefonprogrami.com`)
 * LetMeSpy (`letmespy.com` `remotecommands.com` `www.letmespy.com` `www.teleszpieg.pl` `teleszpieg.pl` `bbiindia.com` `www.bbiindia.com`)
+* Life360 (`www.life360.com` `life360.com` `life360-wordpress.s3.amazonaws.com` `life360.zendesk.com`)
 * Metasploit (`foreverspy.com`)
 * MeuSpy (`servidor.in` `meuspy.com`)
+* MicrosoftFamilySafe (`family.microsoft.com`)
 * MobiSpy (`mobispy.net`)
 * MobiStealth (`mobistealth.com` `www.mobistealth.com`)
 * MobileSpy (`de.mobilespy.at` `es.mobilespy.at` `fr.mobilespy.at` `it.mobilespy.at` `mobilespy.at` `pt.mobilespy.at` `ro.mobilespy.at` `www.mobilespy.at`)
@@ -138,6 +143,7 @@ This repository includes indicators for 106 stalkerware applications (2727 sampl
 * TheOneSpy (`theonespy.com` `www.theonespy.com`)
 * TheTruthSpy (`copy9.com` `exactspy.com` `fonetracker.com` `free.spycell.net` `guestspy.com` `ispyoo.com` `mxspy.com` `phonespying.com` `phonetracking.net` `spyapps.net` `spycell.net` `thetruthspy.com` `thespyapp.com` `weysys.com` `www.mxspy.com`)
 * TheWiSpy (`www.thewispy.com` `childmonitoringsystem.com`)
+* Traccar (`www.traccar.org` `demo.traccar.org` `traccar.org`)
 * TrackMyPhones (`trackmyphones.com` `www.trackmyphones.com`)
 * TrackView (`chome.zstone.co` `lifecircle.app` `trackview.net` `trackview.recurly.com`)
 * TrackingSmartphone (`trackingsmartphone.com` `www.trackingsmartphone.com` `onlinefundb.com`)
@@ -150,6 +156,7 @@ This repository includes indicators for 106 stalkerware applications (2727 sampl
 * WtSpy (`wt-spy.com`)
 * XNSpy (`xnspy.com` `cp.xnspy.com`)
 * Xnore (`xnore.com`)
+* ZoeMob (`www.zoemob.com` `zoemob.com` `panel.zoemob.com`)
 * bark (`bark.us` `www.bark.us`)
 * iKeyMonitor (`easemon.com`)
 * iMonitorSpy (`www.imonitorsoft.cn` `www.imonitorsoft.com` `imonitorsoft.cn`)
