@@ -52,6 +52,22 @@ def generate_hosts(output, iocs):
 
     domains = []
     for app in iocs:
+        if app.get("type", "") != "stalkerware":
+            continue
+        for d in app.get("c2", {}).get("domains", []):
+            domains.append(d)
+
+    with open(fpath, 'w') as f:
+        for d in sorted(domains):
+            f.write("{}\n".format(d))
+    print(f"Generated {fpath}")
+
+    fpath = os.path.join(output, "hosts_full")
+    if os.path.isfile(fpath):
+        os.remove(fpath)
+
+    domains = []
+    for app in iocs:
         for d in app.get("c2", {}).get("domains", []):
             domains.append(d)
 
@@ -178,10 +194,10 @@ def generate_suricata(folder, iocs):
     with open(fpath, mode='w') as output:
         for app in iocs:
             for d in app.get("c2", {}).get("domains", []):
-                output.write('alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE {} ({})"; dns.query; content:"{}"; depth:{}; nocase; endswith; fast_pattern; reference:url,github.com/AssoEchap/stalkerware-indicators; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(app["name"], fang(d), d, len(d), sid))
+                output.write('alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE {} ({})"; metdata: type {}; dns.query; content:"{}"; depth:{}; nocase; endswith; fast_pattern; reference:url,github.com/AssoEchap/stalkerware-indicators; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(app["name"], fang(d), app.get("type", "-"), d, len(d), sid))
                 sid += 1
             for ip in app.get("c2", {}).get("ips", []):
-                output.write('alert ip $HOME_NET any -> [{}] any (msg:"PTS STALKERWARE {} ({})"; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(ip, fang(ip), app["name"], sid))
+                output.write('alert ip $HOME_NET any -> [{}] any (msg:"PTS STALKERWARE {} ({})"; metdata: type {}; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(ip, fang(ip), app.get("type", "-"), app["name"], sid))
                 sid += 1
 
     print(f"Generated {fpath}")
@@ -242,7 +258,7 @@ def generate_misp(folder, iocs):
         #o.add_attributes('ip', *list(set([e['indicator'] for e in entries['ips']]) - current_iocs[app_name]['ips']))
         o.add_attributes('sha256', *list(set(app.get('sha256', [])) - current_iocs[app["name"]]['sha256']))
         o.add_attributes('certificate', *list(set(app.get('certificates', [])) - current_iocs[app["name"]]['certificates']))
-        o.add_attributes('appid', *list(set(app['packages']) - current_iocs[app["name"]]['appids']))
+        o.add_attributes('appid', *list(set(app.get("packages", [])) - current_iocs[app["name"]]['appids']))
 
     with open(fpath, 'w') as f:
         f.write(event.to_json(indent=2))
@@ -273,10 +289,10 @@ def update_readme(output, iocs):
     fout.write("## Stalkerware\n\n")
 
     nb_samples = sum([len(a["sha256"]) for a in iocs])
-    fout.write("This repository includes indicators for {} stalkerware applications ({} samples)\n\n".format(len(iocs), nb_samples))
+    fout.write("This repository includes indicators for {} stalkerware and watchware applications ({} samples)\n\n".format(len(iocs), nb_samples))
 
     for app in sorted(iocs, key=lambda x: x["name"]):
-        if len(app["websites"]) > 0:
+        if len(app.get("websites", [])) > 0:
             fout.write("* {} ({})\n".format(
                 app["name"],
                 " ".join(["`" + a + "`" for a in app["websites"]])

@@ -1,12 +1,14 @@
 # Stalkerware Indicators of Compromise
 
-Indicators of compromise (IOC) on Stalkerware applications for Android and iOS
+Indicators of compromise (IOC) for Stalkerware and Watchware applications for Android and iOS
 
 _Warning: these indicators are not providing a complete detection of
 stalkerware applications. They are based on research from a few people on their
 free time and many apps are likely missing. Use it carefully. No detection
 based on these indicators should not be understood as having no stalkerware
 installed._
+
+**If you think you may be victim of a stalkerware application, check [this page](https://stopstalkerware.org/information-for-survivors/)**
 
 This repository is maintained by [Julien Voisin](https://dustri.org/), [Tek](https://github.com/Te-k) and [Esther](https://github.com/u039b) for the [Echap](https://echap.eu.org/) non-profit organisation.
 
@@ -23,6 +25,8 @@ without the affected person knowing or giving their consent. Regardless of
 stalkerware’s availability, the abuser is accountable for using it as a tool
 and hence for committing this crime.
 
+We are classifying as watchware any application that is developed for surveillance and is not trying to hide its activity (like a child monitoring application).
+
 ## IOC
 
 Main files:
@@ -37,21 +41,17 @@ Main files:
 
 Files generated automatically from previous IOC files:
 
-* `generated/hosts`: network indicators (C2 domains only) in hosts format
+* `generated/hosts`: network indicators (C2 stalkerware domains only) in hosts format
+* `generated/hosts_full`: network indicators (C2 domains only for both stalkerware and watchware) in hosts format
 * `generated/indicators-for-tinycheck.json`: indicators in [TinyCheck](https://github.com/KasperskyLab/TinyCheck) compatible format
 * `generated/misp_event.json`: indicators in [MISP](https://www.misp-project.org/) compatible format
 * `generated/network.csv`: network indicators in a more grepable CSV format
 * `generated/stalkerware.stix2`: indicators in [STIX2](https://oasis-open.github.io/cti-documentation/stix/intro) format
 * `generated/suricata.rules`: [Suricata](https://suricata.io/) rules for network indicators (C2 only)
 
-Scripts:
-* `scripts/check_apk.py`: check an APK file or APKs in a folder with the indicators from this repository
-* `scripts/generate.py`: creates all the files in the `generated` folder (automatically done through github actions)
-* `scripts/linter.py`: linter to check the format of the different indicator files (automtaically done through github actions)
-
 ## Stalkerware
 
-This repository includes indicators for 106 stalkerware applications (2724 samples)
+This repository includes indicators for 106 stalkerware and watchware applications (2724 samples)
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
