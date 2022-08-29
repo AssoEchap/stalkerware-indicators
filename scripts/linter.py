@@ -1,10 +1,23 @@
-import yaml
 import csv
 import argparse
 import os
 import sys
 import re
 import ipaddress
+import yaml
+
+
+ALL_ENTRIES = [
+    "name",
+    "names",
+    "type",
+    "packages",
+    "certificates",
+    "websites",
+    "c2",
+    "certificate_cname_re",
+    "certificate_organizations"
+]
 
 
 def check_ioc_format(folder):
@@ -20,6 +33,7 @@ def check_ioc_format(folder):
     ips = []
     domains = []
     names = []
+    websites = []
     for entry in r:
         if "name" not in entry:
             print("Entry {} without name".format(", ".join(entry.get("names", []))))
@@ -58,39 +72,66 @@ def check_ioc_format(folder):
                 print("Duplicated cert {}".format(cert))
                 success = False
 
+        if "type" not in entry:
+            print("Missing app type for {}".format(entry.get("name", "")))
+            success = False
+        else:
+            if entry.get("type", "") not in ["stalkerware", "watchware"]:
+                print("Invalid type {} for {}".format(entry.get("type", ""), entry.get("name", "")))
+                success = False
+
         # websites
         if not isinstance(entry.get("websites", []), list):
             print("Invalid websites format for {}".format(entry["name"]))
             success = False
+        for w in entry.get("websites", []):
+            if w in websites:
+                print("Duplicated website {}".format(w))
+                success = False
+            websites.append(w)
 
         for ws in entry.get("websites", []):
             if not re.match(r"^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]$", ws):
                 print("Invalid website {}".format(ws))
                 success = False
+
+        # C2 IPs
         c2 = entry.get("c2", {})
-        if "ips" in c2:
-            for ip in c2["ips"]:
-                try:
-                    ipaddress.ip_address(ip)
-                except ValueError:
-                    print("Invalid IP address : {}".format(ip))
-                    success = False
-                if ip not in ips:
-                    ips.append(ip)
-                else:
-                    print("Duplicated IP {}".format(ip))
-                    success = False
+        for ip in c2.get("ips", []):
+            try:
+                ipaddress.ip_address(ip)
+            except ValueError:
+                print("Invalid IP address : {}".format(ip))
+                success = False
 
-        if "domains" in c2:
-            for d in c2["domains"]:
-                if not re.match(r"^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]$", d):
-                    print("Invalid domain format {}".foramt(d))
-                    success = False
+            if ip not in ips:
+                ips.append(ip)
+            else:
+                print("Duplicated IP {}".format(ip))
+                success = False
 
-                if d not in domains:
-                    domains.append(d)
-                else:
-                    print("Duplicated domain {}".format(d))
+        # C2 domains
+        for d in c2.get("domains", []):
+            if not re.match(r"^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]$", d):
+                print("Invalid domain format {}".foramt(d))
+                success = False
+
+            if d not in domains:
+                domains.append(d)
+            else:
+                print("Duplicated domain {}".format(d))
+                success = False
+
+        # Check certificate_organizations
+        if not isinstance(entry.get("certificate_organizations", []), list):
+            print("certificate_organizations must be a list for {}".format(entry.get("name", "")))
+            success = False
+
+        # Check entry names
+        for key in entry:
+            if key not in ALL_ENTRIES:
+                print("Invalid attribute {} for {}".format(key, entry.get("name", "")))
+                success = False
 
     return success
 
