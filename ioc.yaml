@@ -48,6 +48,7 @@
   - ispyoo.com
   - mxspy.com
   - phonespying.com
+  - app.phonespying.com
   - phonetracking.net
   - spyapps.net
   - spycell.net
@@ -1089,9 +1090,7 @@
   - app.appspy.net
   - app.appspyfree.com
   - app.freephonespy.net
-  - app.freephonespy.net
   - app.mobilespyfree.net
-  - app.phonespying.com
   - appspy.com
   - appspy.net
   - appspyfree.com
@@ -1103,7 +1102,6 @@
   - freephonespy.net
   - justseries.net
   - mobilespyfree.net
-  - phonespying.com
   - spyadvice.com
   - spyren.com
   - trackerfree.net
@@ -1114,7 +1112,6 @@
   - www.freemobilespy.net
   - www.freephonespy.net
   - www.mobilespyfree.net
-  - www.phonespying.com
   - www.spyadvice.com
   - www.spyren.com
   - www.trackerfree.net
@@ -3317,7 +3314,7 @@
   websites:
   - www.zoemob.com
   - zoemob.com
-  - panel.zoemob.com 
+  - panel.zoemob.com
   c2:
     domains:
     - apis.zoemob.com
@@ -3361,7 +3358,7 @@
   - traccar.org
   c2:
     domains:
-    - traccar-client-app.firebaseio.com 
+    - traccar-client-app.firebaseio.com
     - traccar.org
 
 - name: MicrosoftFamilySafe
@@ -3387,7 +3384,7 @@
   - geozillahelp.zendesk.com
   c2:
     domains:
-    - api.geozilla.com 
+    - api.geozilla.com
     - files.geozilla.com
     - geozilla.autosmartins.com
     - geozillafamily-c92d0.firebaseio.com
@@ -3399,7 +3396,7 @@
   packages:
   - com.kidslox.app
   certificates:
-  - EE74E09E40A324B806AE5ED68A4543E50C3B6FC2
+  - 4BBD8F7E244B86B6B82F2A343EE8EDB5E797FEF8
   websites:
   - kidslox.com
   - kidsloxsupport.zendesk.com

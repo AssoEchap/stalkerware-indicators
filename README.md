@@ -51,7 +51,7 @@ Files generated automatically from previous IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 113 stalkerware and watchware applications (2727 samples)
+This repository includes indicators for 113 stalkerware and watchware applications (2818 samples)
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -63,7 +63,7 @@ This repository includes indicators for 113 stalkerware and watchware applicatio
 * AndroidSpy (`a-spy.com` `www.a-spy.com`)
 * AntiFurtoDroid (`antifurtodroid.com`)
 * AppMia (`appmia.com` `appmia.com.es` `appmia.it` `appmia.fr` `cp.appmia.com`)
-* AppSpy (`app.appspy.net` `app.appspyfree.com` `app.freephonespy.net` `app.freephonespy.net` `app.mobilespyfree.net` `app.phonespying.com` `appspy.com` `appspy.net` `appspyfree.com` `apptracker.net` `cellphonespyappon.com` `free-spy.com` `free.apptracker.net` `freemobilespy.net` `freephonespy.net` `justseries.net` `mobilespyfree.net` `phonespying.com` `spyadvice.com` `spyren.com` `trackerfree.net` `www.appspy.com` `www.appspy.net` `www.apptracker.net` `www.cellphonespyappon.com` `www.freemobilespy.net` `www.freephonespy.net` `www.mobilespyfree.net` `www.phonespying.com` `www.spyadvice.com` `www.spyren.com` `www.trackerfree.net` `www.xvids.us` `xvids.us`)
+* AppSpy (`app.appspy.net` `app.appspyfree.com` `app.freephonespy.net` `app.mobilespyfree.net` `appspy.com` `appspy.net` `appspyfree.com` `apptracker.net` `cellphonespyappon.com` `free-spy.com` `free.apptracker.net` `freemobilespy.net` `freephonespy.net` `justseries.net` `mobilespyfree.net` `spyadvice.com` `spyren.com` `trackerfree.net` `www.appspy.com` `www.appspy.net` `www.apptracker.net` `www.cellphonespyappon.com` `www.freemobilespy.net` `www.freephonespy.net` `www.mobilespyfree.net` `www.spyadvice.com` `www.spyren.com` `www.trackerfree.net` `www.xvids.us` `xvids.us`)
 * BlurSpy (`www.blurspy.com` `blurspy.com` `xoxospy.com`)
 * Bulgok (`c-phone.ru`)
 * CallSMSTracker (`callsmstracker.com` `hiddensmstracker.com` `hiddensystemhealth.com` `registrations.smstracker.com` `smstracker.com` `smstrackerweb.com` `www.hiddensmstracker.com` `www.hiddensystemhealth.com` `www.smstrackerweb.com`)
@@ -141,7 +141,7 @@ This repository includes indicators for 113 stalkerware and watchware applicatio
 * SpyphoneMobileTracker (`phonetracker.com` `www.phonetracker.com` `spyfone.com` `spyphone.com` `www.spyphone.com` `spy-phone-app.com`)
 * TalkLog (`talklog.tools`)
 * TheOneSpy (`theonespy.com` `www.theonespy.com`)
-* TheTruthSpy (`copy9.com` `exactspy.com` `fonetracker.com` `free.spycell.net` `guestspy.com` `ispyoo.com` `mxspy.com` `phonespying.com` `phonetracking.net` `spyapps.net` `spycell.net` `thetruthspy.com` `thespyapp.com` `weysys.com` `www.mxspy.com`)
+* TheTruthSpy (`copy9.com` `exactspy.com` `fonetracker.com` `free.spycell.net` `guestspy.com` `ispyoo.com` `mxspy.com` `phonespying.com` `app.phonespying.com` `phonetracking.net` `spyapps.net` `spycell.net` `thetruthspy.com` `thespyapp.com` `weysys.com` `www.mxspy.com`)
 * TheWiSpy (`www.thewispy.com` `childmonitoringsystem.com`)
 * Traccar (`www.traccar.org` `demo.traccar.org` `traccar.org`)
 * TrackMyPhones (`trackmyphones.com` `www.trackmyphones.com`)
