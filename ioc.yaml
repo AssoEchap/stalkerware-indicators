@@ -1263,6 +1263,7 @@
   - com.android.internet.a20200817
   - com.android.internet.a20210916
   - com.android.internet.a20220729
+  - com.android.internet.a20220829
   - com.sec.android.internet.im.service.im20190118
   - com.sec.android.internet.im.service.im20190419
   - com.sec.android.internet.im.service.im20210815
@@ -1274,6 +1275,7 @@
   - 786325AB3E614F868CA2A7F2F0E75EC76A047311
   - F747F0BBEF33FFEE6AFC4E7CFA03B28215985F24
   - 0C422F0025F866C311DF61A7549FCD519683898D
+  - 98ED5841256A44FB1525FE154C0516ACED82FFF3
   websites:
   - easemon.com
   c2:
@@ -3265,6 +3267,7 @@
   - 40159690AF08A01670E3FA07A021F7B1C1437042
   - C9BE6C42B975258DEA10EB6946A7986E4FE955E2
   - D1BB66A93F621A66094F28856988C7A2AE9972D0
+  - 1C6E171D3A6E51947DF9E83946BB115ED4A41C6A
   websites:
   - absolutesoftsystem.in
   - absolutestoreindia.com
