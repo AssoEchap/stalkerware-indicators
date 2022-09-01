@@ -171,6 +171,7 @@ This repository includes indicators for 113 stalkerware and watchware applicatio
 
 - [AdGuard](https://github.com/AdguardTeam/HostlistsRegistry/pull/35)
 - [Quad9 DNS resolver](https://www.quad9.net/)
+- [oisd blocklist full](https://oisd.nl/downloads)
 
 ## Contributions
 
