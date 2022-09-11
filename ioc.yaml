@@ -3415,3 +3415,18 @@
     - kidslox.firebaseio.com
     - activity.kdlparentalcontrol.com
     - admin.kdlparentalcontrol.com
+
+- name: SpyNote
+  names:
+  - Scream
+  - Screamon
+  type: stalkerware
+  packages:
+  - dell.scream.application
+  - com.spynote.software.stubspynote
+  websites:
+  - www.spynote.us
+  - spynote.us
+  c2:
+    domains:
+    - spynote.us
