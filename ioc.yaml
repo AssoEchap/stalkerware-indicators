@@ -3437,3 +3437,17 @@
   c2:
     domains:
     - spynote.us
+
+- name: FamiShield
+  names:
+  - Mitbe
+  type: watchware
+  packages:
+  - com.USIB.Child.ChildControl
+  certificates:
+  - 4598FFB867E28560BC1198D61EC83A1CCA0F1612
+  websites:
+  - famishield.usibtheteam.com
+  c2:
+    domains:
+    - parental-control-d4a98-default-rtdb.asia-southeast1.firebasedatabase.app
