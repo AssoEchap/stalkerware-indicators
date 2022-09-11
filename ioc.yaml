@@ -3069,10 +3069,14 @@
   type: stalkerware
   packages:
   - com.cryzp.leplluln
+  - com.pser.sysutils
+  - com.sev.android.systemdev
   websites:
   - mycellspy.com
   - cezz.me
   - user.mycellspy.com
+  certificates: 
+  - D09EE9D79FF75E737429DDE34FD13EDFDDA34E78
   certificate_organizations:
   - H20201128
   c2:
