@@ -3223,7 +3223,7 @@
     - 175.126.146.147
 
 - name: Accountable2you
-  type: stalkerware
+  type: watchware
   packages:
   - com.accountable2you.ap1
   certificates:
