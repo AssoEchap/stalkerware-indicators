@@ -3466,3 +3466,19 @@
   websites:
   - flashkeylogger.com
  
+- name: Stealthcell
+  names:
+  - MobiStealth
+  type: stalkerware
+  packages:
+  -	stealthLight.sys
+  certificates:
+  - 5AD2ACB089F8BE5112FF5125D94036983DE3E8D5
+  websites:
+  - mobistealth.com
+  - www.mobistealth.com
+  - www.mobilestealthreview.com
+  c2:
+    ip:
+    - 72.167.46.196
+ 
