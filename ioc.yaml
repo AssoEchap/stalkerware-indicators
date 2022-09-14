@@ -3461,6 +3461,7 @@
   type: stalkerware
   packages:
   - tej.flashkeylogger
+  - tej.flashkeyloggerpro
   - tej.flashkeylogges
   certificates:
   - 340FE1F4AA4A401AD8E326907E35FB9E0C2486BD
