@@ -3475,8 +3475,13 @@
   type: stalkerware
   packages:
   - stealthLight.sys
+  - phone.Secure
+  - and.LocatorTrial
+  - and.GuardTrial
   certificates:
   - 5AD2ACB089F8BE5112FF5125D94036983DE3E8D5
+  certificate_organizations:
+  - mobizim
   websites:
   - mobistealth.com
   - www.mobistealth.com
@@ -3484,4 +3489,7 @@
   c2:
     ip:
     - 72.167.46.196
+    domains:
+    - einformatiks.com
+    - www.einformatiks.com
  
