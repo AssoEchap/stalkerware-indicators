@@ -3492,4 +3492,13 @@
     domains:
     - einformatiks.com
     - www.einformatiks.com
+
+- name: SMSForward
+  names:
+  - SMForw
+  type: stalkerware
+  packages:
+  - one.enix.smsforward
+  certificates:
+  - 1E15B0D27C0551061885340A3990D52A93F646B8
  
