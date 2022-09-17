@@ -2765,58 +2765,65 @@
   - com.uzoifhzk.qmqnpwaf
   - com.zkftwsel.fqnoquuv
   - com.mnwkvijy.wzyxgrft
+  - net.teslineservice.kidl5
+  - net.someapp1.somecorp2
   websites:
   - backupsoft.eu
   - freespyapp.com
+  - kidlogger.net
   - kidsshield.net
   - pc.freespyapp.com
   - pc.selfspy.com
   - selfspy.com
   - techinnovative.net
   - tifamily.net
-  - tracerspy.net
   - tispy.net
+  - tracerspy.net
   - ua.tispy.net
-  - www.selfspy.com
   - viptelefonprogrami.com
+  - www.kidlogger.net
+  - www.selfspy.com
   certificates:
-  - 8B187B3EBEF7D1BC8E32BEC78D36CBF95505A1C1
-  - 789A24C1605F1BF2B6D64580C697BD38D9446A7E
-  - 61ED377E85D386A8DFEE6B864BD85B0BFAA5AF81
+  - 0D025A887A1546585D9BBA6F023F42B8BE0274E1
   - 1A6D10E15280C6A938EED9BEF53A31DA0CEBA45A
-  - FD84821C80C1499A2446F6F7E13BF8BDA6A66402
-  - A2EBDD14E2AE17F52363BCB751CCBE15BE5A2F8D
   - 272CD0BC357FA03AF87940644CB8FFDECD2FDDC6
+  - 3397C095EAD93B13CC5B9979D1F3B4FAEF1D194C
   - 35D1DB3904A84793394FE5DF7B678E263B1B33A0
   - 5EF38D0143F601FD01AA39BFE9079E9927920208
-  - 3397C095EAD93B13CC5B9979D1F3B4FAEF1D194C
+  - 61ED377E85D386A8DFEE6B864BD85B0BFAA5AF81
   - 6CA8C06D7DAC5F5685E014AE5C4D2062F77B42D6
+  - 789A24C1605F1BF2B6D64580C697BD38D9446A7E
   - 8AE2267AEEA0DBFF7D7CC1C82E54343B1B0CFA22
+  - 8B187B3EBEF7D1BC8E32BEC78D36CBF95505A1C1
   - 95D589A90971992A2038E5961B39C8B6BC77CF19
+  - A2EBDD14E2AE17F52363BCB751CCBE15BE5A2F8D
   - AA4F85CD7C24116BB51FA733BE59290B7BB8C204
   - F575CA9980D3075CF728F2081D9EC5F910CC17E8
+  - FD84821C80C1499A2446F6F7E13BF8BDA6A66402
   certificate_cname_re:
   - ^Kids\WSafety\W[0-9]{2}-[0-9]{2}-[0-9]{2,4}\W[0-9]{2}:[0-9]{2}:[0-9]{2}$
+  certificate_organizations:
+  - Tesline-Service SRL
   c2:
     ips:
     - 52.22.130.9
     domains:
-    - pc.viptelefonprogrami.com
-    - viptelefonprogrami.com
     - apprtc.appspot.com
-    - quanly24h.net
-    - login.quanly24h.net
-    - theodoi24h.com
-    - pc.backupsoft.eu
-    - kidsshield.net
-    - tispy.net
-    - ua.tispy.net
-    - pc.selfspy.com
     - d.tispy.net
-    - pc.freespyapp.com
     - freespyapp.com
+    - kidsshield.net
+    - login.quanly24h.net
+    - pc.backupsoft.eu
+    - pc.freespyapp.com
+    - pc.selfspy.com
+    - pc.viptelefonprogrami.com
+    - quanly24h.net
     - spyt.co
     - spytrac-app1.s3.amazonaws.com
+    - theodoi24h.com
+    - tispy.net
+    - ua.tispy.net
+    - viptelefonprogrami.com
 
 - name : NemoSpy
   names:
