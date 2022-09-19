@@ -2311,7 +2311,19 @@
   - LifeCircle
   type: stalkerware
   packages:
+  - app.cybrook.trackvieo
+  - app.cybrook.trackviep
+  - app.cybrook.trackvieq
+  - app.cybrook.trackvier
+  - app.cybrook.trackvies
+  - app.cybrook.trackviet
+  - app.cybrook.trackvieu
+  - app.cybrook.trackviev
   - app.cybrook.trackview
+  - app.cybrook.trackviex
+  - app.cybrook.trackviey
+  - app.cybrook.trackviez
+  - app.cybrook.trustserv
   - app.lifecircle
   - cn.trackview.shentan
   - com.trackview
