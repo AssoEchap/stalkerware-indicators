@@ -3553,3 +3553,7 @@
     ip:
     - 85.10.199.40
  
+- name: xHunter
+  type: stalkerware
+  packages:
+  - com.xhunter.client
