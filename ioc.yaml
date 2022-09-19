@@ -1160,6 +1160,7 @@
   - m.protect.children
   - m.protect.parental
   - m.secu.children
+  - m.security.parental
   - mob.protect.children
   - mob.service.parental2020
   - mobile.controlparental2020
@@ -1373,6 +1374,7 @@
   - net.spy24.wifi
   - com.example.openanotherapp
   - ir.spy24.updater
+  - ir.spy24.wifi
   - app.spy24.systemwifi
   - app.spy24.spy24installer
   certificates:
@@ -2329,6 +2331,7 @@
   - app.trackview.pro
   - cn.trackview.shentan
   - com.trackview
+  - cybrook.trackview
   - net.cybrook.trackvieo
   - net.cybrook.trackviep
   - net.cybrook.trackvieq
