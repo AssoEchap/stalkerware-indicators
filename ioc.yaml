@@ -869,6 +869,8 @@
   - 20C940625B322C487A89B1FEBF6C090845B040C1
   - 984F8786102D9BF26E5244BBC93733D3609948F4
   - 45DECBF059864164A4BC644D3EAB8127FC98238A
+  - 0B6C1B010FBEA4316EB01602F71CDD6A8F365023
+  - 636F6FE622D3059B569C9989F3CD491607F23A5D
   websites:
   - flexispy.com
   - community.flexispy.com
@@ -1051,6 +1053,8 @@
   - br.com.phonecell.maps
   - br.com.phonecell.radio
   - br.com.daggers.toshtec
+  - br.com.daggers.gameap
+  - com.app.com.app.com.app.aplintal
   certificates:
   - 3E929DB5941C185EA4FAC2B0D7BA7589D40A379E
   - B8CA103D22C39282D7A1E8028D93333E481CCA83
@@ -1060,6 +1064,8 @@
   - 493812991A9A1CC7BEEFD45F2180CD2FC0AF8913
   - 35B05ACC96D02849E20D9ED3BA9CEA41C2B83FFA
   - 6C0B8CF7F47DB7A82A2C06D410690935FDD912DF
+  - 18C94FAB82F77F89546600F84D2D2B48A0C0B927
+  - 0AF3219D3A9525CB4A618215DB7A29CBFD9FFE78
   websites:
   - servidor.in
   - meuspy.com
@@ -1105,7 +1111,6 @@
   - freephonespy.net
   - justseries.net
   - mobilespyfree.net
-  - spyadvice.com
   - spyren.com
   - trackerfree.net
   - www.appspy.com
@@ -1115,7 +1120,6 @@
   - www.freemobilespy.net
   - www.freephonespy.net
   - www.mobilespyfree.net
-  - www.spyadvice.com
   - www.spyren.com
   - www.trackerfree.net
   - www.xvids.us
@@ -1271,6 +1275,7 @@
   - com.android.internet.a20210916
   - com.android.internet.a20220729
   - com.android.internet.a20220829
+  - com.android.internet.a20220914
   - com.sec.android.internet.im.service.im20190118
   - com.sec.android.internet.im.service.im20190419
   - com.sec.android.internet.im.service.im20210815
@@ -1283,6 +1288,7 @@
   - F747F0BBEF33FFEE6AFC4E7CFA03B28215985F24
   - 0C422F0025F866C311DF61A7549FCD519683898D
   - 98ED5841256A44FB1525FE154C0516ACED82FFF3
+  - ACB2CA50376456FD81B5C6C19CF6D717CFBB888B
   websites:
   - easemon.com
   c2:
@@ -1771,25 +1777,6 @@
     - asset.bk128.com
     - alert.bk128.com
     - bk128.com
-
-- name: MobiStealth
-  names:
-  - MobiStealth
-  type: stalkerware
-  packages:
-  - lookOut.Secure
-  certificates:
-  - FED69D6F09AE8C98DD4053C1934CCAF57D31824D
-  websites:
-  - mobistealth.com
-  - www.mobistealth.com
-  c2:
-    ips:
-    - 5.79.71.114
-    domains:
-    - dwn.vys.me
-    - www.vys.me
-    - vys.me
 
 - name: MobiSpy
   names:
@@ -2647,6 +2634,7 @@
   - EAD44242A3C0A73DEF7976C56AC10A4530E8F67A
   - ED5BADBC20B1B027F5858D29DAFBF66535C46DB9
   - 339B5C1746A1CDEA945D51BBE967C1320AE73CC4
+  - 16226330EBB138A5D47913151827A86567AD9CD4
   websites:
   - android-monitor.ru
   - amon.android-monitor.ru
@@ -2753,6 +2741,7 @@
   - 9427212B33E9D3636970EAB73E2845E0DC59B5AA
   - A9A302C9606AF4BE4468A4FC74F7873DDADA2AB0
   - BD3986483D9B962B029D65BF34BF4B7C568FF204
+  - 4474D3395029E6C6744A470EE5F2107DBAEF16A0
   c2:
     domains:
     - apk7.biz
@@ -3124,7 +3113,7 @@
   - mycellspy.com
   - cezz.me
   - user.mycellspy.com
-  certificates: 
+  certificates:
   - D09EE9D79FF75E737429DDE34FD13EDFDDA34E78
   certificate_organizations:
   - H20201128
@@ -3510,18 +3499,21 @@
   - 340FE1F4AA4A401AD8E326907E35FB9E0C2486BD
   websites:
   - flashkeylogger.com
- 
-- name: Stealthcell
+
+- name: MobiStealth
   names:
   - MobiStealth
+  - Stealthcell
   type: stalkerware
   packages:
   - stealthLight.sys
   - phone.Secure
   - and.LocatorTrial
   - and.GuardTrial
+  - lookOut.Secure
   certificates:
   - 5AD2ACB089F8BE5112FF5125D94036983DE3E8D5
+  - FED69D6F09AE8C98DD4053C1934CCAF57D31824D
   certificate_organizations:
   - mobizim
   websites:
@@ -3531,9 +3523,13 @@
   c2:
     ip:
     - 72.167.46.196
+    - 5.79.71.114
     domains:
     - einformatiks.com
     - www.einformatiks.com
+    - dwn.vys.me
+    - www.vys.me
+    - vys.me
 
 - name: SMSForward
   names:
@@ -3543,7 +3539,7 @@
   - one.enix.smsforward
   certificates:
   - 1E15B0D27C0551061885340A3990D52A93F646B8
- 
+
 - name: Ahmyth
   type: stalkerware
   packages:
@@ -3553,7 +3549,7 @@
   c2:
     ip:
     - 85.10.199.40
- 
+
 - name: xHunter
   type: stalkerware
   packages:
