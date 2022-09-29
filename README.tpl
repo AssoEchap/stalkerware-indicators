@@ -10,7 +10,7 @@ installed._
 
 **If you think you may be victim of a stalkerware application, check [this page](https://stopstalkerware.org/information-for-survivors/)**
 
-This repository is maintained by [Julien Voisin](https://dustri.org/), [Tek](https://github.com/Te-k) and [Esther](https://github.com/u039b) for the [Echap](https://echap.eu.org/) non-profit organisation.
+This repository is maintained by [Julien Voisin](https://dustri.org/), and [Tek](https://github.com/Te-k) for the [Echap](https://echap.eu.org/) non-profit organisation.
 
 ## What's a stalkerware?
 
@@ -174,7 +174,6 @@ Contributors include:
 - [Abir Ghattas](https://twitter.com/AbirGhattas)
 - [Anne Roth](https://twitter.com/annalist)
 - [Jo Coscia](https://github.com/jcoscia)
-- [Esther](https://twitter.com/U039b)
 - [Jurre van Bergen](https://twitter.com/DrWhax)
 - [@nscrutables](https://twitter.com/nscrutables)
 - [Joan](https://github.com/j04n)
