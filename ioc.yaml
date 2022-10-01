@@ -389,6 +389,10 @@
   names:
   - PhoneSheriff
   - MobileNanny
+  - MobileSpy
+  - PeekTab
+  - RetinaX
+  - RetinaSpy
   type: stalkerware
   packages:
   - com.retina.phonesheriff
@@ -411,10 +415,14 @@
   - www.emobilespy.com
   - phonesheriff.com
   - www.phonesheriff.com
+  - www.retinax.com
+  - retinax.com
   c2:
     domains:
     - mobilenannylogs.com
     - phonesheriff.com
+    - cellmonitoring.co
+    - www.cellmonitoring.co
 
 - name: OwnSpy
   names:
