@@ -3556,3 +3556,21 @@
   type: stalkerware
   packages:
   - com.xhunter.client
+
+- name: SpyTec
+  type: stalkerware
+  websites:
+  - spytecgps.io
+  - spytecgl300.com
+  - www.spytec.com
+  - spytec.com
+  - activation.spytec.com
+
+- name: SpyTek
+  type: stalkerware
+  websites:
+  - spytekonline.co.za
+  - spytek.co.za
+  - portal.spytek.co.za
+
+
