@@ -3592,4 +3592,13 @@
   packages:
   - com.qustodio.qustodioapp
 
+- name: BosSpy
+  type: stalkerware
+  websites:
+  - bosspy.com
+  packages:
+  - com.android.preference.help.mole
+  certificates:
+  - 32570AD62B2DF951A67251ACB49E39E96B8A43BA
+
 
