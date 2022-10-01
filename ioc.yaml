@@ -2111,9 +2111,12 @@
   websites:
   - spyera.com
   - login.spylogs.com
+  - support.spyera.com
+  - affiliate.spyera.com
   c2:
     domains:
     - spylogs.com
+    - spyera.postaffiliatepro.com
 
 - name: AntiFurtoDroid
   names:
