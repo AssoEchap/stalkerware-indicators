@@ -3584,4 +3584,12 @@
   - spytek.co.za
   - portal.spytek.co.za
 
+- name: Qustodio
+  type: watchware
+  websites:
+  - qustodio.com
+  - www.qustodio.com
+  packages:
+  - com.qustodio.qustodioapp
+
 
