@@ -1,0 +1,31 @@
+- phone_numbers:
+  - "+18 558 96  00 41"
+  - "+33 970 73  81 15"
+  - "+35 130 880 22 23"
+  - "+39 064 521 73 43"
+  - "+42 023 407 63 41"
+  - "+52 800 461 04 54"
+  - "+55 800 591 51 00"
+  - "+55 800 591 51 00"
+  - "+90 850 252 65 14"
+  emails:
+  - "sales@mspy.com"
+  - "support@mspy.com"
+  - "billing@mspy.com"
+  - "media@mspy.com"
+  - "affiliates@mspy.com"
+  company:
+  - name: "Altercon Group s.r.o."
+  - address: "Londynska 730/59, Vinohrady, 120 00 Praha"
+  - country: "Czech Republic"
+  - registration_number: "06746764"
+  providers:
+  - affiliates:
+    - company:
+      - name: "BizzOffers"
+      - website: "bizzoffers.com"
+  - payment:
+    - company:
+      - name: "Maxpay"
+      - website: "maxpay.com"
+
