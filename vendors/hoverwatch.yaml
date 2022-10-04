@@ -1,0 +1,33 @@
+- company:
+  - name: "Refog"
+  - address: "901 North Pitt Street Alexandria, Virginia 22314"
+  - country: "United States of America"
+  - creation_date: "2002"
+  - facebook: "refog"
+  - email: "info@refog.com"
+  - people:
+    - VP:
+      - name: "Yuri Bakay"
+    - CEO:
+      - name: "Pavel Mikhailov"
+      - email: "pavel@refog.com"
+  - phone_number: "+79113514606"
+  providers:
+  - affiliates:
+    - company:
+      - name: "PayPro"
+      - website: "payproglobal.com"
+      - url: "http://cc.payproglobal.com/AffiliateSignup/8D36D8E652C839E"
+  - payment:
+    - company:
+      - name: "payproglobal"
+      - website: "payproglobal.com"
+      - url: "https://store.payproglobal.com/checkout?products[1][id]=29369"
+  - support:
+    - company:
+      - name: "zendesk"
+      - website: "zendesk.com"
+      - url: "refoghelp.zendesk.com"
+  facebook: hoverwatch
+  twitter: hoverwatchcom
+  youtube: "https://www.youtube.com/channel/UC-3vAsy4_2Lmo_F2wV5bDGg/"
