@@ -1,0 +1,26 @@
+- emails:
+  - "contato@meuspy.com"
+  company:
+  - name: "CrieDescrie"
+  - website: "criedescrie.com.br"
+  - address: "Rua Otávio Pereira Lima 2411, 78555/78553-682, Sinop Mato Grosso"
+  - email:
+    - "criedescrieapp@gmail.com"
+    - "criedescrie@msn.com"
+  - country: "Brazil"
+  - twitter: criedescrie
+  - founder: "Douglas Rafael Machado da Silva"
+  - facebook: criedescrie
+  - instagram: criedescrie
+  - registration_number:
+    - CNPJ: "29.748.983/0001-20 - 29748983000120"
+  - creation_date: "2018-02-22"
+  - app_store:
+    - play_store: 6436114970086844814
+  - phone_number:
+    - "+66 996 57 47 54"
+- facebook: appespiaodecelular
+- twitter:
+  - appespiaogratis
+  - MeuSPY
+- instagram: appespiao
