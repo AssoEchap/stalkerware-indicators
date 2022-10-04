@@ -1057,16 +1057,17 @@
   - MeuSpy
   type: stalkerware
   packages:
-  - in.servidor.service
-  - com.app.insapp2
-  - br.com.phonecell.services
+  - br.com.daggers.gameap
+  - br.com.daggers.toshtec
   - br.com.phonecell.cloud1
   - br.com.phonecell.go5ge
   - br.com.phonecell.maps
   - br.com.phonecell.radio
-  - br.com.daggers.toshtec
-  - br.com.daggers.gameap
+  - br.com.phonecell.services
   - com.app.com.app.com.app.aplintal
+  - com.app.insapp2
+  - com.meuspy
+  - in.servidor.service
   certificates:
   - 3E929DB5941C185EA4FAC2B0D7BA7589D40A379E
   - B8CA103D22C39282D7A1E8028D93333E481CCA83
@@ -1081,6 +1082,10 @@
   websites:
   - servidor.in
   - meuspy.com
+  - monitorecell.com.br
+  - espiao.meuspy.com
+  - www.espiaodecelulargratis.com.br
+  - espiaodecelulargratis.com.br
   c2:
     domains:
     - servidor.in
