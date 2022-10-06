@@ -19,6 +19,12 @@
     - play_store: 6436114970086844814
   - phone_number:
     - "+66 996 57 47 54"
+  providers:
+  - emails:
+    - company:
+      - name: "SmartSender"
+      - website: "smartsender.io"
+      - url: "sndmart.info"
   facebook: appespiaodecelular
   twitter:
   - appespiaogratis
