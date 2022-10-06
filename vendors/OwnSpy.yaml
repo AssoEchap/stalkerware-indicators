@@ -1,0 +1,22 @@
+- company:
+  - name: "Mobile Innovations SL"
+  - address: "Mariano Benlliure 49, 28850 Torrejon de Ardoz - Madrid"
+  - country: "Spain"
+  - email: "info@mobileinnova.com"
+  - registry_number: "B85844025"
+  - creation_date: "2009"
+  - phone_number: "+34955292992"
+  - people:
+    - CEO:
+      - name: "Calatrava Perez Antonio Jose"
+  facebook: OwnSpyApp
+  twitter: spyiphone
+  youtube: "https://www.youtube.com/channel/UCGgwpyVamNsUB5Y530OsIkA/about"
+  linkedin: "https://cl.linkedin.com/organization-guest/company/mobile-innovations-sl"
+  pinterest: ownspy
+  instagram: ownspy1
+  paypal:
+    client_id: "AVyFs-4RcprF7Or0QEmzD8xBFBduTqQV61e4kLCl3wWb5zYAaYYpEGRbNiuce72n7Bu2mjNIlnIcy_Hr"
+    business: "3QYMC54P9NTQN"
+  stripe: "pk_live_bEFQKjHt4OllWDhCwRrDIPmE"
+

@@ -1,0 +1,12 @@
+- company:
+  - name: "Router GPS"
+  - address: "Masina de Paine Street no. 2B Bucharest, district 2"
+  - country: "Romania"
+  - phone_number:
+    - "+40318057536"
+  - email:
+    - "office@routergps.ro"
+    - "info@routergps.ro"
+  - website:
+    - "http://www.routergps.ro/"
+    - "http://89.47.91.131/viptrack/"
