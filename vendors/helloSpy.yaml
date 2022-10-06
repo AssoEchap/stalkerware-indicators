@@ -1,0 +1,17 @@
+- company:
+  - name: "Minoyou Solution"
+  - address: "227 East Santa Clara San Jose California 95113"
+  - country: "United States of America"
+  - email:
+    - "phuchha@gmail.com"
+- company:
+  - name: "Inoline Solutions"
+- people:
+  - name: "John Nguyen"
+  - youtube: "https://www.youtube.com/channel/UCdxoXHKNXjBWpqThBLJrhzw"
+  - email: "johnnguyen778899@gmail.com"
+- twitter:
+  - HelloSpyPro
+  - MobiiSpy
+  - MaxxSpy
+  - iSpytic
