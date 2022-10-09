@@ -1,0 +1,20 @@
+- company:
+  - name: "Copy9"
+  - email: "support@copy9.com"
+  providers:
+  - payment:
+    - company:
+      - name: "Affiligate"
+      - website: "affiligate.com"
+      - url: "https://secure.affiligate.com/Checkout/p%7C1909"
+- company:
+  - name: "ExactSpy"
+  - facebook: "ExactSpyApp"
+- company:
+  - name: "FoneTracker"
+  - tumblr: "fonetracker.tumblr.com"
+  - providers:
+    - domain:
+      - company:
+        - name: "Godaddy"
+        - website: "godaddy.com"
