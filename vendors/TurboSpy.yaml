@@ -3,6 +3,12 @@
   - address: "1615 S Congress Ave, Suite 103, Delray Beach, FL 33445"
   - country: "United States of America"
   - twitter: bfgcom
+  providers:
+  - payment:
+    - company:
+      - name: "BlueSnap"
+      - website: "bluesnap.com"
+      - url: "https://checkout.bluesnap.com/buynow/checkout?sku4034642=1&storeid=265968&sku3993554=1&sku4014222=1"
 - facebook: turbophonemonitoring
 - twitter: turbomonitorapp
 - instagram: turbophonemonitoring
