@@ -299,7 +299,7 @@
   - mobellspy.com
   - mobiispy.com
   - mobilespyblog.com
-  - mspymax.com 
+  - mspymax.com
   - opispy.net
   - spyacellphone.com
   - spyios8x.com
@@ -1066,6 +1066,7 @@
   - MeuSpy
   type: stalkerware
   packages:
+  - br.com.sistema.aplicativo
   - br.com.daggers.gameap
   - br.com.daggers.toshtec
   - br.com.phonecell.cloud1
@@ -1088,6 +1089,7 @@
   - 6C0B8CF7F47DB7A82A2C06D410690935FDD912DF
   - 18C94FAB82F77F89546600F84D2D2B48A0C0B927
   - 0AF3219D3A9525CB4A618215DB7A29CBFD9FFE78
+  - 6B1DC3EAE0E8C59E7769A6E0A1BAA1938620A191
   websites:
   - servidor.in
   - meuspy.com
