@@ -1,10 +1,10 @@
 name: 'Lint-Indicators'
 on:
   push:
-    branches: ['master']
+    branches: ['master', 'research']
     paths: ['ioc.yaml', 'samples.csv']
   pull_request:
-    branches: [ 'master' ]
+    branches: [ 'master', 'research']
     paths: ['ioc.yaml', 'samples.csv']
 
 jobs:
