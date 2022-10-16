@@ -3,6 +3,7 @@ on:
   push:
     branches: ['research']
     paths: ['ioc.yaml', 'samples.csv', 'README.tpl']
+  workflow_dispatch:
 
 jobs:
   build:
