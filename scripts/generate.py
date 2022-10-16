@@ -9,6 +9,8 @@ from collections import defaultdict
 from stix2.v21 import (Indicator, Malware, Relationship, Bundle, DomainName)
 from pymisp import MISPEvent
 
+QUAD9_ALLOWLIST = []
+
 
 def get_indicators(path):
     with open(os.path.join(path, 'ioc.yaml')) as f:
@@ -266,6 +268,24 @@ def generate_misp(folder, iocs):
     print(f"Generated {fpath}")
 
 
+def generate_quad9_blocklist(folder, iocs):
+    """
+    Generate the block list for Quad9 that contains all stakerware C2 domains
+    """
+    fpath = os.path.join(folder, "quad9_blocklist.txt")
+    if os.path.isfile(fpath):
+        os.remove(fpath)
+
+    with open(fpath, "w+") as f:
+        for app in iocs:
+            for domain in app.get("c2", {}).get("domains", []):
+                if domain in QUAD9_ALLOWLIST:
+                    continue
+                f.write(f"{domain}\n")
+
+    print(f"Generated {fpath}")
+
+
 def update_readme(output, iocs):
     """
     Update the README with an up to date list of stalkerware
@@ -320,6 +340,7 @@ if __name__ == "__main__":
     # Read all indicators
     iocs = get_indicators(args.input)
 
+    generate_quad9_blocklist(args.output, iocs)
     generate_hosts(args.output, iocs)
     generate_tinycheck(args.output, iocs)
     generate_network_csv(args.output, iocs)
