@@ -278,6 +278,8 @@ def generate_quad9_blocklist(folder, iocs):
 
     with open(fpath, "w+") as f:
         for app in iocs:
+            if app.get("type", "") != "stalkerware":
+                continue
             for domain in app.get("c2", {}).get("domains", []):
                 if domain in QUAD9_ALLOWLIST:
                     continue
