@@ -8,15 +8,16 @@ import yaml
 
 
 ALL_ENTRIES = [
-    "name",
-    "names",
-    "type",
-    "packages",
-    "certificates",
-    "websites",
     "c2",
     "certificate_cname_re",
     "certificate_organizations"
+    "certificates",
+    "distribution",
+    "name",
+    "names",
+    "packages",
+    "type",
+    "websites",
 ]
 
 
