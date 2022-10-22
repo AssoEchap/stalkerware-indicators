@@ -3619,7 +3619,7 @@
   certificates:
   - 32570AD62B2DF951A67251ACB49E39E96B8A43BA
 
-- name: MobileSpy
+- name: MobileSpyIo
   type: stalkerware
   websites:
   - mobilespy.io
