@@ -1,0 +1,22 @@
+- company:
+  - name: "MobileSpyIo"
+  - email:
+    - "support@mobilespy.io"
+    - "info@mobilespy.io"
+  - website: "mobilespy.io"
+  - address: "Melbourne, VIC 3028, Australia"
+  - twitter: "mobilespy2020"
+  - instagram: "mobilespy2020"
+  - linkedin: "https://www.linkedin.com/company/mobilespy"
+  - googletagmanager: "G-58R7CSZVRB"
+  providers:
+  - emails:
+    - company:
+      - name: "Sendinblue"
+      - website: "sendinblue.com"
+      - url: "Return-Path: <bounces-114997018-noreply=mobilespy.io@gz.d.sender-sib.com>"
+  - payments:
+    - company:
+      - name: "ChargeBee"
+      - website: "chargebee.com"
+      - url: "https://admin.mobilespy.io/api/v1/chargebee/subscribe/"
