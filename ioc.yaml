@@ -3619,11 +3619,19 @@
   certificates:
   - 32570AD62B2DF951A67251ACB49E39E96B8A43BA
 
-- name: MobileSpyIo
+- name: Fenced
+  names:
+  - MobileSpy
   type: stalkerware
   websites:
   - mobilespy.io
+  - fenced.ai
+  - web.mobilespy.io
+  - demo.fenced.ai
+  - web.fenced.ai
+  - admin.fenced.ai
   packages:
   - com.mobilespy.io
+  - com.fenced.ai
   certificates:
   - 5F2DCC133AF3E19D3935A85A3E2871856602A21D

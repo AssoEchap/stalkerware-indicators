@@ -1,0 +1,94 @@
+- company:
+  - name: "fenced.ai"
+  - email:
+    - "support@mobilespy.io"
+    - "info@mobilespy.io"
+  - website: "mobilespy.io"
+  - address: "Melbourne, VIC 3028, Australia"
+  - twitter: "mobilespy2020"
+  - instagram: "mobilespy2020"
+  - linkedin: "https://www.linkedin.com/company/mobilespy"
+  - googletagmanager: "G-58R7CSZVRB"
+  providers:
+  - emails:
+    - company:
+      - name: "Sendinblue"
+      - website: "sendinblue.com"
+      - url: "Return-Path: <bounces-114997018-noreply=mobilespy.io@gz.d.sender-sib.com>"
+  - payments:
+    - company:
+      - name: "ChargeBee"
+      - website: "chargebee.com"
+      - url: "https://admin.mobilespy.io/api/v1/chargebee/subscribe/"
+- company:
+  - name: "Fenced.ai"
+  - email:
+    - "info@fenced.ai"
+    - "affiliate@fenced.ai"
+    - "support@fenced.ai"
+  - address: "Melbourne, VIC 3028, Australia"
+  - created: "January 2020"
+  - crispwebsiteid: "3026f1b4-92a2-4835-a711-d93d4da816f9"
+  - facebook: "https://www.facebook.com/fencedapp"
+  - googletagmanager: "GTM-KZSBBRJ"
+  - instagram: "fencedai"
+  - linkedin: "https://www.linkedin.com/company/fenced-ai"
+  - playstore: "https://play.google.com/store/apps/developer?id=FENCED+APP+PTY+LTD"
+  - quora: "fenced.quora.com"
+  - reddit: "/r/fencedAI"
+  - saleshubtoken: "10caefde-3ec0-4d4c-b5c9-f9deddad9fe8"
+  - segment: "A5sFHu3F6plh8lli4TovLhFzmx4qMRN9"
+  - twitter: "fencedai"
+  - website: "fenced.ai"
+  - youtube: "https://www.youtube.com/channel/UCVPVSSzLmT_UJz4W5ERquCA"
+  - people:
+    - cofounder:
+      - name: "Prasanta Raut"
+      - linkedin: "https://au.linkedin.com/in/prasantaraut"
+      - medium: "prasantaraut.medium.com"
+      - twitter: "prasantaraut333"
+      - reddit: "/u/prasantaraut"
+    - second_cofounder:
+      - name: "Dinesh Silwal"
+      - linkedin: "https://au.linkedin.com/in/dsilwal"
+    - marketing:
+      - name: "Samir Basnet"
+      - linkedin: "https://www.linkedin.com/in/samirbasnet7"
+      - joined: "February 2021"
+    - partner_relation_manager:
+      - name: "Shishir Khadka"
+      - linkedin: "https://www.linkedin.com/in/khdshishir"
+      - joined: "January 2022"
+    - mobile_team_lead:
+      - name: "Aabesh Subedi"
+      - linkedin: "https://au.linkedin.com/in/aabesh-subedi-673b59169"
+      - joined: "March 2021"
+    - account_executive:
+      - name: "Malvika Olee"
+      - linkedin: "https://www.linkedin.com/in/malvika-olee"
+      - joined: "August 2021"
+  - providers:
+    - hosting:
+      - company:
+        - name: "AWS"
+        - website: "amazon.com"
+        - url: "https://staticfenced.s3.amazonaws.com/"
+    - support:
+      - company:
+        - name: "Crisp"
+        - website: "crisp.chat"
+    - referral:
+      - company:
+        - name: "Remonkey"
+        - website: "refmonkey.com"
+        - url: "https://fenced.refmonkey.com"
+    - analytics:
+      - company:
+        - name: "simpleanalytics"
+        - website: "simpleanalytics.com"
+      - company:
+        - name: "SalesHub"
+        - website: "saleshub.ai"
+      - company:
+        - name: "Segment"
+        - website: "segment.com"
