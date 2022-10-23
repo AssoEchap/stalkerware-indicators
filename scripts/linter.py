@@ -10,7 +10,7 @@ import yaml
 ALL_ENTRIES = [
     "c2",
     "certificate_cname_re",
-    "certificate_organizations"
+    "certificate_organizations",
     "certificates",
     "distribution",
     "name",
