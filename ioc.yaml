@@ -3702,3 +3702,11 @@
   type: stalkerware
   websites:
   - recomspy.com
+
+- name: SwiftMobileSpy
+  type: stalkerware
+  websites:
+  - pc.myswiftmobilespy.co.za
+  - swiftmobilespy.co.za
+  certificates:
+  - 795C30FAD432EE48EDF52B0748BA2749F0915CA3
