@@ -3660,3 +3660,10 @@
   - com.fenced.ai
   certificates:
   - 5F2DCC133AF3E19D3935A85A3E2871856602A21D
+
+- name: RastreadorDeNamorado
+  type: stalkerware
+  websites:
+  - rastreadordenamorado.com.br
+  packages:
+  - br.com.rastreadordenamorado
