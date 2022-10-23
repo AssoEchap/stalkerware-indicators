@@ -3677,3 +3677,8 @@
   type: stalkerware
   websites:
   - spyfly.co.za
+
+- name: MocoSpy
+  type: stalkerware
+  websites:
+  - mocospy.com
