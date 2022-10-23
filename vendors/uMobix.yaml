@@ -1,0 +1,37 @@
+- company:
+  - name: "Ersten Group Ltd"
+  - address: "63-66 Hatton Garden, 5th Floor, Suite 23, London, United Kingdom, EC1N 8LE"
+  - country: "United Kingdom"
+  - registration_number: "12820821"
+  - phone:
+    - "+13239176121"
+    - "+16789167336"
+  - creation_date: "August 2020"
+  - email:
+    - "affiliates@umobix.com"
+    - "billing@umobix.com"
+    - "resellers@umobix.com"
+    - "support@umobix.com"
+  - google_tag:
+    - "UA-158090522-1"
+    - "GTM-M2P4VWM"
+  - twitter: "u_mobix"
+  - facebook: "https://www.facebook.com/UMobix"
+  - youtube: "https://www.youtube.com/channel/UCCXf4XI-l03v8eTIN5bB8jg"
+  - instagram: "https://www.instagram.com/umobix"
+  - linkedin: "https://www.linkedin.com/company/umobix/"
+  - telegram: "@umobixaff"  # affiliates
+  - people:
+    - previous_director:
+      - name: "Vladyslav Sakharchuk"
+    - director:
+      - name: "Oleksii Maksymenko"
+    - lead_dev:
+      - name: "Dmitry Los"
+      - linkedin: "https://www.linkedin.com/in/dmitry-los-b83105162"
+  providers:
+  - support:
+    - company:
+      - name: "Jivochat"
+      - website: "jivochat.com"
+      - proof: "window.umobixJivoChatHash = '9CzJn8ErCh';"
