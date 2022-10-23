@@ -1909,6 +1909,7 @@
 - name: AndroidMonitor
   names:
   - AndroidMonitor
+  - UltimatePhoneSpy
   type: stalkerware
   packages:
   - com.ibm.fb
@@ -1917,13 +1918,17 @@
   - 558765849658A3821FE4054ED2C1FF6E28B4B8A0
   websites:
   - androidmonitor.com
+  - demo.ultimatephonespy.com
+  - ultimatephonespy.com
   - www.androidmonitor.com
+  - my.androidmonitor.com
+  distribution:
+  - installam.com
   c2:
     ips:
     - 178.33.203.110
     domains:
     - server.androidmonitor.com
-    - installam.com
 
 - name: TalkLog
   names:
