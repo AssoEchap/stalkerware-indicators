@@ -1704,6 +1704,7 @@
 - name: ClevGuard
   names:
   - ClevGuard
+  - KidsGuard
   type: stalkerware
   packages:
   - com.kids.pro
@@ -1715,6 +1716,7 @@
   - clevguard.net
   - www.clevguard.com
   - clevguard.com
+  - panel.clevguard.com
   c2:
     ips:
     - 47.88.63.70
