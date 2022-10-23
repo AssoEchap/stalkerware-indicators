@@ -57,6 +57,11 @@
   - weysys.com
   - www.mxspy.com
   - www.phonespying.com
+  - xpspy.com
+  distribution:
+    - app.fonetracker.com
+    - app.mobiletracking.app
+    - app.xpspy.com
   c2:
     ips:
     - 69.64.74.239
@@ -66,8 +71,6 @@
     - 69.64.91.29
     domains:
     - 1ca43.appspot.com
-    - app.fonetracker.com
-    - app.mobiletracking.app
     - copy9.com
     - guestspy.com
     - icloudappe.com
