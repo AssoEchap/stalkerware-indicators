@@ -2304,7 +2304,7 @@
 - name: WiseMo
   names:
   - WiseMo
-  type: stalkerware
+  type: watchware
   packages:
   - com.wisemo.host.v10
   certificates:
