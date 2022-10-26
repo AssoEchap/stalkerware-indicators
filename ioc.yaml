@@ -3688,11 +3688,6 @@
   websites:
   - mocospy.com
 
-- name: TheOneSpy
-  type: stalkerware
-  websites:
-  - theonespy.com
-
 - name: MzanziSpy
   type: stalkerware
   websites:
