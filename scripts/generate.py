@@ -311,7 +311,12 @@ def update_readme(output, iocs):
     fout.write("## Stalkerware\n\n")
 
     nb_samples = sum([len(a["sha256"]) for a in iocs])
-    fout.write("This repository includes indicators for {} stalkerware and watchware applications ({} samples)\n\n".format(len(iocs), nb_samples))
+    fout.write("This repository includes indicators for {} applications ({} stalkerware and {} watchware) and {} samples\n\n".format(
+        len(iocs),
+        len([i for i in iocs if i["type"] == "stalkerware"]),
+        len([i for i in iocs if i["type"] == "watchware"]),
+        nb_samples)
+    )
 
     for app in sorted(iocs, key=lambda x: x["name"]):
         if len(app.get("websites", [])) > 0:
