@@ -23,6 +23,7 @@ def check(iocs, rules, path, verbose=False):
     Check an APK with given indicators
     Returns True/False, string (explanation of the discovery)
     """
+    stalkerware = False
     m = hashlib.sha256()
     with open(path, 'rb') as f:
         data = f.read()
@@ -33,7 +34,7 @@ def check(iocs, rules, path, verbose=False):
     if res:
         if verbose:
             print("Known Stalkerware hash for {}".format(res))
-            return True, "Known Stalkerware hash for {}".format(res)
+            stalkerware = True
     else:
         if verbose:
             print("App hash not in the indicator database")
@@ -45,7 +46,7 @@ def check(iocs, rules, path, verbose=False):
     if res:
         if verbose:
             print("Known stalkerware package id for {}".format(res))
-        return True, "Known stalkerware package id for {}".format(res)
+        stalkerware = True
     else:
         if verbose:
             print("Package id not in the indicators")
@@ -59,24 +60,25 @@ def check(iocs, rules, path, verbose=False):
         if res:
             if verbose:
                 print("Known Stalkerware certificate for {}".format(res))
-            return True, "Known Stalkerware certificate for {}".format(res)
+                stalkerware = True
         else:
             if verbose:
                 print("Certificate not in the indicators")
     else:
         if verbose:
             print("No certificate in this APK")
+
     if rules:
         for dex in apk.get_all_dex():
             res = rules.match(data=dex)
             if len(res) > 0:
                 if verbose:
                     print("Matches yara rules {}".format(res[0]))
-                return True, "Yara rule {}".format(res[0])
+                stalkerware = True
             else:
                 if verbose:
                     print("Does not match any yara rules")
-    return False, ""
+    return stalkerware
 
 
 if __name__ == '__main__':
@@ -91,16 +93,16 @@ if __name__ == '__main__':
     print("Loaded indicators for {} apps".format(len(indicators)))
 
     if os.path.isfile(args.APK):
-        res, ex = check(indicators, rules, args.APK, verbose=True)
+        res = check(indicators, rules, args.APK, verbose=True)
     elif os.path.isdir(args.APK):
         suspicious = []
         for f in os.listdir(args.APK):
             apk_path = os.path.join(args.APK, f)
             if os.path.isfile(apk_path):
                 if androconf.is_android(apk_path) == 'APK':
-                    res, ex = check(indicators, rules, apk_path)
+                    res = check(indicators, rules, apk_path)
                     if res:
-                        suspicious.append([f, ex])
+                        suspicious.append(f)
                         print("{} : identified as {} stalkerware ({})".format(f, "", ex))
                     else:
                         print("{} : OK".format(f))
@@ -111,6 +113,6 @@ if __name__ == '__main__':
         else:
             print("{} suspicious applications identified:".format(len(suspicious)))
             for p in suspicious:
-                print("- {} : {}".format(p[0], p[1]))
+                print("- {}".format(p))
     else:
         print("This file does not exist")
