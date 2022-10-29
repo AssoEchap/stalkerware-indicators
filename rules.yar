@@ -137,3 +137,23 @@ rule viptelefonprogrami_jkl : stalkerware {
     condition:
         uint16(0) == 0x457f and 6 of them
 }
+
+rule android_police : stalkerware {
+    meta:
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
+
+    strings:
+        $s1 = "ANDROID_MONITOR_CHECKER" ascii
+        $s2 = "AudioRecordThread" ascii
+        $s3 = "CameraCapturer.java" ascii
+        $s4 = "Not on camera thread." ascii
+        $s5 = "Stop camera1 session on camera" ascii
+        $s6 = "Wrong thread." ascii
+        $s7 = "YuvConverter.convert" ascii
+        $s8 = "bb392ec0-8d4d-11e0-a896-0002a5d5c51b" ascii
+        $s9 = "disableNetworkMonitor" ascii
+        $s10 = "info_prog_rec_screen_whatch_start" ascii
+
+    condition:
+        uint16(0) == 0x6564 and 8 of them
+}

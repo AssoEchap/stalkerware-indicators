@@ -582,13 +582,18 @@
   packages:
   - com.mit.viptrackpro
   - com.mit.networkadapter
+  - com.tag.viptrack
   certificates:
   - 2E104C33C8DA4DB32E59A45701D8E0C4CAD16BD3
+  - 5A73C8FE7CBA5C9E70B0DF69B3A111C42A10B215
+  - 437940A417B58B1C2CDB85EDE4D37C3DE6EFDC95
   websites:
   - viptrack.ro
   c2:
     domains:
     - android.viptrack.ro
+    ips:
+    - 89.33.190.8
 
 - name: EasyLogger
   names:
@@ -897,6 +902,7 @@
   - 45DECBF059864164A4BC644D3EAB8127FC98238A
   - 0B6C1B010FBEA4316EB01602F71CDD6A8F365023
   - 636F6FE622D3059B569C9989F3CD491607F23A5D
+  - 284E4AF2E92E8E49EDC2C8792D7008759813CB68
   websites:
   - flexispy.com
   - community.flexispy.com
@@ -2676,6 +2682,7 @@
   - vn.ehkfqgvn
   - yr.tubjypbl
   - com.dromon
+  - kenkbltcf.pwpwkvdwmjk
   certificates:
   - 1CD94B411B5D4D2F5F525D775876FF0993B4B716
   - 5C77395F77E17F293CC8C4E3E1FDD48296EE4B28
@@ -2689,6 +2696,7 @@
   - ED5BADBC20B1B027F5858D29DAFBF66535C46DB9
   - 339B5C1746A1CDEA945D51BBE967C1320AE73CC4
   - 16226330EBB138A5D47913151827A86567AD9CD4
+  - 3BA583488F36C708025C078D9EB4BEDC3918B098
   websites:
   - android-monitor.ru
   - amon.android-monitor.ru
