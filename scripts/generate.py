@@ -110,6 +110,13 @@ def generate_tinycheck(output, iocs):
                 'tlp': 'white',
                 'value': ip
             })
+        for domain in app.get("distribution", []):
+            res['iocs'].append({
+                'type': 'domain',
+                'tag': 'stalkerware',
+                'tlp': 'white',
+                'value': domain
+            })
 
     with open(fpath, 'w') as f:
         f.write(json.dumps(res))
@@ -133,6 +140,8 @@ def generate_network_csv(output, iocs):
                 writer.writerow(["domain", domain, app["name"]])
             for ip in app.get("c2", {}).get("ips", []):
                 writer.writerow(["ipv4", ip, app["name"]])
+            for domain in app.get("distribution", []):
+                writer.writerow(["domain", domain, app["name"]])
 
     print(f"Generated {fpath}")
 
@@ -156,6 +165,11 @@ def generate_stix(folder, iocs):
             res.append(Relationship(i, 'indicates', malware))
 
         for d in app.get("websites", []):
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
+            res.append(i)
+            res.append(Relationship(i, 'indicates', malware))
+
+        for d in app.get("distribution", []):
             i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
             res.append(i)
             res.append(Relationship(i, 'indicates', malware))
@@ -281,6 +295,10 @@ def generate_quad9_blocklist(folder, iocs):
             if app.get("type", "") != "stalkerware":
                 continue
             for domain in app.get("c2", {}).get("domains", []):
+                if domain in QUAD9_ALLOWLIST:
+                    continue
+                f.write(f"{domain}\n")
+            for domain in app.get("distribution", []):
                 if domain in QUAD9_ALLOWLIST:
                     continue
                 f.write(f"{domain}\n")
