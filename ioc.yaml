@@ -3713,3 +3713,16 @@
   - swiftmobilespy.co.za
   certificates:
   - 795C30FAD432EE48EDF52B0748BA2749F0915CA3
+
+- name: Trackji
+  type: stalkerware
+  websites:
+  - trackji.com
+  certificates:
+  - DBA6211533A354E4BBF685A2EA458AC372C4ECE4
+  packages:
+  - com.android.wifi.tracker
+  c2:
+    domains:
+    - trackji.com
+
