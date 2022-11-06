@@ -157,3 +157,24 @@ rule android_police : stalkerware {
     condition:
         uint16(0) == 0x6564 and 8 of them
 }
+
+rule tracku : stalkerware {
+    meta:
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
+
+    strings:
+        $s1 = "/Hike/Media/hike Voice Messages" ascii
+        $s2 = "/viber/media/Viber Images" ascii
+        $s3 = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11" ascii
+        $s4 = "AudioTrackJavaThread" ascii
+        $s5 = "Bxt2y1rUKoGVnD3pi73LivcES" ascii
+        $s6 = "Camera device is in use already." ascii
+        $s7 = "FITNESS_LOCATION_READ" ascii
+        $s8 = "GetBucketLocation" ascii
+        $s9 = "c/c/a/b/b$a" ascii
+        $s10 = "org/webrtc/VideoFrameDrawer" ascii
+        $s11 = "T56yAzZC2uHe7k" ascii
+
+    condition:
+        uint16(0) == 0x6564 and 9 of them
+}
