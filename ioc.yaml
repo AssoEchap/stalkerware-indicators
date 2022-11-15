@@ -3729,3 +3729,16 @@
     domains:
     - trackji.com
 
+- name: XDSpy
+  type: stalkerware
+  websites:
+  - xdspy.app
+  - androidspy.info
+  packages:
+  - xd.spy.app
+  certificates:
+  - 06A49FE1347C7D2E596DF2F08B8C235C00975AF8
+  - 7A22EB86FD8D817ED7BFAA03E7A280A03AF20779
+  c2:
+    domains:
+    - app.xdspy.app
