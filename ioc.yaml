@@ -1687,17 +1687,26 @@
 - name: TheOneSpy
   names:
   - TheOneSpy
+  - OgyMogy
   type: stalkerware
+  certificates:
+  - D46492F02F25877E9F5D6CFFA4CE99DAC64D981A
+  - 9DE8D6C6757152EC819C1A09F5665B77F72493A2
   packages:
   - com.android.services
+  -	com.android.omg
+  distribution:
+  - tos-assigned-build.sfo2.digitaloceanspaces.com
   websites:
   - theonespy.com
+  - ogymogy.com
   - www.theonespy.com
   c2:
     ips:
     - 85.13.218.229
     - 85.13.206.195
     domains:
+    - api.ogymogy.com
     - lb.theonespy.com
     - im.theonespy.com
     - node-api.theonespy.com
@@ -1706,6 +1715,7 @@
     - node3.theonespy.com
     - node4.theonespy.com
     - node5.theonespy.com
+    - ogymoggy.firebaseio.com
 
 - name: ClevGuard
   names:
