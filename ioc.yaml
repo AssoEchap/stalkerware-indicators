@@ -1694,7 +1694,7 @@
   - 9DE8D6C6757152EC819C1A09F5665B77F72493A2
   packages:
   - com.android.services
-  -	com.android.omg
+  - com.android.omg
   distribution:
   - tos-assigned-build.sfo2.digitaloceanspaces.com
   websites:
