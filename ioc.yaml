@@ -438,6 +438,7 @@
 - name: OwnSpy
   names:
   - OwnSpy
+  - SaferSpy
   - WebDetetive
   type: stalkerware
   packages:
@@ -452,9 +453,14 @@
   - en.ownspy.com
   - webdetetive.com.br
   - ownspy.es
+  - saferspy.com
+  - panel.webdetetive.com.br
+  - era3000.com
+  distribution:
+  - 6287970dd9.era3000.com
+  - c9db9bbc8d.era3000.com
   c2:
     domains:
-    - 6287970dd9.era3000.com
     - user.ownspy.es
 
 - name: Cocospy
