@@ -2,7 +2,7 @@ name: 'Create-IOC-Files'
 on:
   push:
     branches: ['research']
-    paths: ['ioc.yaml', 'samples.csv', 'README.tpl']
+    paths: ['ioc.yaml', 'samples.csv', 'README.tpl', 'vendors/']
   workflow_dispatch:
 
 jobs:
@@ -17,7 +17,7 @@ jobs:
       run: |
         git config --local user.name  ${{ github.actor }}
         echo "Checkout required files"
-        git checkout origin/research -- ioc.yaml samples.csv README.tpl scripts rules.yar quad9_blocklist.txt
+        git checkout origin/research -- ioc.yaml samples.csv README.tpl scripts rules.yar quad9_blocklist.txt vendors/*.yaml
     - name: Setup python
       uses: actions/setup-python@v2
       with:
