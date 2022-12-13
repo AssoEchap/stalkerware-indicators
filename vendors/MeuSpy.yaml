@@ -1,6 +1,6 @@
-- emails:
+emails:
   - "contato@meuspy.com"
-  company:
+company:
   - name: "CrieDescrie"
   - website: "criedescrie.com.br"
   - address: "Rua Otávio Pereira Lima 2411, 78555/78553-682, Sinop Mato Grosso"
@@ -19,14 +19,14 @@
     - play_store: 6436114970086844814
   - phone_number:
     - "+66 996 57 47 54"
-  providers:
+providers:
   - emails:
     - company:
       - name: "SmartSender"
       - website: "smartsender.io"
       - url: "sndmart.info"
-  facebook: appespiaodecelular
-  twitter:
+facebook: appespiaodecelular
+twitter:
   - appespiaogratis
   - MeuSPY
-  instagram: appespiao
+instagram: appespiao
