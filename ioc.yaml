@@ -3772,3 +3772,70 @@
   c2:
     domains:
     - app.xdspy.app
+
+- name: XploitSPY
+  type: stalkerware
+  websites:
+  - xploitwizer.com
+  packages:
+  - com.remote.app
+
+- name: SpySMS
+  type: stalkerware
+  packages:
+  - com.devspark.securityotp
+
+- name: DroidWatcher
+  type: stalkerware
+  packages:
+  - com.droidwatcher
+
+- name: Spyzier
+  type: stalkerware
+  packages:
+  - com.rana_aditya.child
+
+- name: AndroidSpyApp
+  type: stalkerware
+  packages:
+  - me.hawkshaw
+
+- name: SpyDroid
+  type: stalkerware
+  packages:
+  - net.majorkernelpanic.spydroid
+
+- name: SpyApp
+  type: stalkerware
+  packages:
+  - com.example.ghazi.sms
+
+- name: Curiosus
+  type: stalkerware
+  packages:
+  - com.hyadesinc.curiosus
+
+- name: LoveSpy
+  type: stalkerware
+  packages:
+  - com.example.lovespy.app
+
+- name: ISpy
+  type: stalkerware
+  packages:
+  - edu.virginia.cs.cs4720.ispy
+
+- name: PhoneMonitor
+  type: stalkerware
+  packages:
+  - com.monitor.phone.s0ft.phonemonitor
+
+- name: PatanSpyApp
+  type: stalkerware
+  packages:
+  - in.spyapp.patanjali.android
+
+- name: Dash
+  type: stalkerware
+  packages:
+  - com.github.muneebwanee.dash
