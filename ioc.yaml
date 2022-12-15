@@ -1093,7 +1093,11 @@
   - MeuSpy
   type: stalkerware
   packages:
-  - br.com.sistema.aplicativo
+  - com.app.com.app.com.app.aplintal
+  - com.app.insapp2
+  - com.meuspy
+  - br.com.cloud.aplicativo
+  - br.com.cloud.backup
   - br.com.daggers.gameap
   - br.com.daggers.toshtec
   - br.com.phonecell.cloud1
@@ -1101,11 +1105,10 @@
   - br.com.phonecell.maps
   - br.com.phonecell.radio
   - br.com.phonecell.services
-  - com.app.com.app.com.app.aplintal
-  - com.app.insapp2
-  - com.meuspy
+  - br.com.sistema.aplicativo
   - in.servidor.service
   certificates:
+  - 77E86A5C583256B5A52A5AEEB70542CD1BE34A99
   - 3E929DB5941C185EA4FAC2B0D7BA7589D40A379E
   - B8CA103D22C39282D7A1E8028D93333E481CCA83
   - 018D06B4A5679892572CB9DA44BA1A8C1E3B68A5
@@ -1131,6 +1134,7 @@
     - n.servidor.in
     - l.servidor.in
     - s.servidor.in
+    - play-store-3bb64.firebaseio.com
 
 - name: AppSpy
   names:
