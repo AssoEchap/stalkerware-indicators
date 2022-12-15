@@ -30,7 +30,7 @@ jobs:
     - name: Push changes
       run: |
         git add generated/
-        git add -r vendors/
+        git add  vendors/*.yaml
         git add ioc.yaml
         git add README.md
         git rm -rf -- README.tpl scripts
