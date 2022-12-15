@@ -964,6 +964,7 @@
     domains:
     - api-project-999803017449.firebaseio.com
     - cerberusapp.com
+    - www.cerberusapp.com
 
 - name: mSpy
   names:
