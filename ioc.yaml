@@ -1106,6 +1106,7 @@
   - br.com.phonecell.radio
   - br.com.phonecell.services
   - br.com.sistema.aplicativo
+  - br.com.monsthers.gameap
   - in.servidor.service
   certificates:
   - 77E86A5C583256B5A52A5AEEB70542CD1BE34A99
@@ -1120,6 +1121,7 @@
   - 18C94FAB82F77F89546600F84D2D2B48A0C0B927
   - 0AF3219D3A9525CB4A618215DB7A29CBFD9FFE78
   - 6B1DC3EAE0E8C59E7769A6E0A1BAA1938620A191
+  - 8508603AE680C3BCDE91E6F909BF400F6DC878B4
   distribution:
   - servidor.in
   websites:
@@ -2648,6 +2650,7 @@
   - B8FCBCA563B1CD0E79CAC595002422C2E54072B7
   - CF627144481D3F1DCFBB6CF12291C540AE325FBE
   - 34B791B5D35A874D189202EEA1FA99188F58A4C1
+  - 933C19015525266982AC6D830CB6B3D25079777B
   c2:
     domains:
     - api.ttspy.com
@@ -2656,7 +2659,7 @@
     - jjspy.ml
     - my.jjspy.com
     - phone-backup-service.firebaseio.com
-    - rrspy.com 
+    - rrspy.com
     - rtc.ttspy.com
     - service.n.weiguanai.cn
     - service.weiguanai.cn
