@@ -1,5 +1,0 @@
-pymisp==2.4.134
-PyYAML>=5.4
-androguard==3.3.5
-yara-python==3.11.0
-stix2>=2.1.0
