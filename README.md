@@ -92,7 +92,7 @@ This repository includes indicators for 146 applications (133 stalkerware and 13
 * FreeAndroidSpy (`freeandroidspy.com`)
 * GPSTrackerLoki (`asgardtech.ru`)
 * GeoZilla (`geozilla.com` `geozillahelp.zendesk.com`)
-* HelloSpy (`1topspy.com` `alospy.com` `getspyapps.com` `hellospy.com` `innovaspy.com` `ispytic.com` `maxxspy.com` `mobeespy.com` `mobellspy.com` `mobiispy.com` `mobilespyblog.com` `mspymax.com` `opispy.net` `spyacellphone.com` `spyios8x.com` `mobile-remote-tracker.com` `account.mobile-remote-tracker.com`)
+* HelloSpy (`1topspy.com` `account.mobile-remote-tracker.com` `alospy.com` `getspyapps.com` `hellospy.com` `innovaspy.com` `ispytic.com` `maxxspy.com` `mobeespy.com` `mobellspy.com` `mobiispy.com` `mobile-remote-tracker.com` `mobilespyblog.com` `mspymax.com` `opispy.net` `spyacellphone.com` `spyios8x.com`)
 * HighsterMobile (`auto-forward.com` `cellphoneservices.info` `ddiutilities.com` `evt17.com` `highstermobile.com` `phonespector.com`)
 * Hoverwatch (`br.refog.com` `de.refog.com` `es.refog.com` `fr.refog.com` `hover.watch` `hoverwatch.com` `hu.refog.com` `hws.icu` `it.refog.com` `my.hws.icu` `nl.refog.com` `prospybubble.com` `refog.com` `refog.de` `refog.net` `refog.org` `ro.refog.com` `www.hoverwatch.com` `www.refog.com`)
 * ISpy

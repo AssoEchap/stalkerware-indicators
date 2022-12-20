@@ -281,14 +281,14 @@
   packages:
   - com.example.hellospy
   - com.android.innovaspy
-  - com.topspy.system
-  - com.topspy
   - com.hellospy
   - com.hellospy.system
   - com.maxxspy
   - com.maxxspy.system
   - com.mobiispy
   - com.mobiispy.system
+  - com.topspy
+  - com.topspy.system
   certificates:
   - 7F5C0D54A813BA9B87A91420CA2C3DE5E7948F09
   - 1EBFFD9FE9463B2ED24582D2846990A5ABEF79B9
@@ -297,6 +297,7 @@
   - A40D8FDC7953AD69D970FF00658EB0F58B3A052A
   websites:
   - 1topspy.com
+  - account.mobile-remote-tracker.com
   - alospy.com
   - getspyapps.com
   - hellospy.com
@@ -306,13 +307,12 @@
   - mobeespy.com
   - mobellspy.com
   - mobiispy.com
+  - mobile-remote-tracker.com
   - mobilespyblog.com
   - mspymax.com
   - opispy.net
   - spyacellphone.com
   - spyios8x.com
-  - mobile-remote-tracker.com
-  - account.mobile-remote-tracker.com
   distribution:
   - profotoeditor.com
   c2:
@@ -320,8 +320,8 @@
     - 1topspy.com
     - copy9db.com
     - flushdata.1topspy.com
-    - flushdata.hellospy.com
     - flushdata.copy9db.com
+    - flushdata.hellospy.com
     - flushdata2.hellospy.com
     - flushdata3.hellospy.com
     - flushdata4.hellospy.com
