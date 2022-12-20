@@ -311,6 +311,10 @@
   - opispy.net
   - spyacellphone.com
   - spyios8x.com
+  - mobile-remote-tracker.com
+  - account.mobile-remote-tracker.com
+  distribution:
+  - profotoeditor.com
   c2:
     domains:
     - 1topspy.com
@@ -1061,7 +1065,9 @@
   packages:
   - com.wifiset.service
   - googlesettings.setting
+  - com.googlesettings.setting
   - com.mrblue.setting
+  - com.mrbluetooth.setting
   - com.wifisettings.service
   - com.virsys.tracker
   certificates:
