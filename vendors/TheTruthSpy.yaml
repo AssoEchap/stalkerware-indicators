@@ -7,11 +7,25 @@
       - name: "Affiligate"
       - website: "affiligate.com"
       - url: "https://secure.affiligate.com/Checkout/p%7C1909"
+
 - company:
   - name: "ExactSpy"
   - facebook: "ExactSpyApp"
+
+- company:
+  - name: "iYoo Global"
+  - website: "iyooglobal.com"
+
+- company:
+  - name: "MobileLeak"
+  - website: "mobileleak.com"
+
 - company:
   - name: "1BYTE"
+  - website:
+    - "1byte.vn"
+    - "1bytesoftware.com"
+
 - company:
   - name: "FoneTracker"
   - tumblr: "fonetracker.tumblr.com"
@@ -20,6 +34,7 @@
       - company:
         - name: "Godaddy"
         - website: "godaddy.com"
+
 - article:
   - "https://techcrunch.com/pages/thetruthspy-investigation/"
   - "https://www.vice.com/en/article/mb4y5x/thetruthspy-spyware-domestic-abusers-hacked-data-breach"
