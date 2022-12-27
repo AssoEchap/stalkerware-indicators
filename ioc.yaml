@@ -963,7 +963,10 @@
   websites:
   - cellphonetrackers.org
   - cerberusapp.com
+  - cerberusbrasil.com
+  - enterprise.cerberusapp.com
   - www.cerberusapp.com
+  - www.cerberusbrasil.com
   c2:
     domains:
     - api-project-999803017449.firebaseio.com

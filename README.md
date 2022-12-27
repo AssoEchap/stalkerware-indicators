@@ -71,7 +71,7 @@ This repository includes indicators for 146 applications (133 stalkerware and 13
 * Bulgok (`c-phone.ru`)
 * CallSMSTracker (`callsmstracker.com` `hiddensmstracker.com` `hiddensystemhealth.com` `registrations.smstracker.com` `smstracker.com` `smstrackerweb.com` `www.hiddensmstracker.com` `www.hiddensystemhealth.com` `www.smstrackerweb.com`)
 * CatWatchful (`catwatchful.com` `catwatchful.online`)
-* Cerberus (`cellphonetrackers.org` `cerberusapp.com` `www.cerberusapp.com`)
+* Cerberus (`cellphonetrackers.org` `cerberusapp.com` `cerberusbrasil.com` `enterprise.cerberusapp.com` `www.cerberusapp.com` `www.cerberusbrasil.com`)
 * ClevGuard (`clevguard.net` `www.clevguard.com` `clevguard.com` `panel.clevguard.com`)
 * Cocospy (`best-mobile-spy.com` `cocospy.com` `cocospy.net` `fonemonitor.co` `minspy.com` `neatspy.com` `safespy.com` `spyic.biz` `spyic.com` `spyier.biz` `spyine.biz` `spyine.com` `spyzie.com` `spyzie.io` `spyzie.online` `teensafe.net` `teensoftware.com` `www.fonemonitor.co` `www.minspy.com` `www.spyic.com` `www.spyzie.com` `www.teensafe.net` `www.teensoftware.com`)
 * CouplerTracker (`coupletracker.com`)
