@@ -1,0 +1,12 @@
+company:
+  - name: "LSDroid"
+  - google_play: "https://play.google.com/store/apps/dev?id=5201782097114718926"
+  - created: "04-2011"
+  - location: "Milan"
+  - country: "Italy"
+  - website: "lsdroid.com"
+  - people:
+    - name: "Luca Sagaria"
+    - linkedin: "linkedin.com/in/propriolui"
+articles:
+  - "https://darkport.co.uk/blog/cerberus-exploit-accessing-any-device/"
