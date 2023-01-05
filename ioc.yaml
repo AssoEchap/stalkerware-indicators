@@ -3864,6 +3864,9 @@
   - com.femimesusu.libapasopi
   certificates:
   - 38819265668EEAE6AC3C6C80D1A6530EAE99AD0E
+  - E3620714FB24A45614A456DF1176D482BCD1B032
+  distribution:
+  - m.pgv4.com
   websites:
   - spyapp.ch
   - sys.spyapp.ch
@@ -3878,5 +3881,10 @@
   - spyapp.uk
   - www.spyapp.ro
   - spyapp.ro
-  - x.pgv4.com
   - accounts.spyapp.ro
+  - spybrother.com
+  c2:
+    domains:
+    - x.pgv4.com
+    - pgv4.com
+    - www.pgv4.com

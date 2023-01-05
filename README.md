@@ -146,7 +146,7 @@ This repository includes indicators for 147 applications (134 stalkerware and 13
 * Spy24 (`spy24.net` `spy24.app`)
 * SpyAdvice (`spyadvice.com` `freespyphone.net`)
 * SpyApp
-* SpyApp (`spyapp.ch` `sys.spyapp.ch` `area.spyapp.ch` `www.spyapp.ch` `pgv4.com` `accounts.pgv4.com` `mespiao.com.br` `compte.applispy.com` `applispy.com` `pin.pgv4.com` `spyapp.uk` `www.spyapp.ro` `spyapp.ro` `x.pgv4.com` `accounts.spyapp.ro`)
+* SpyApp (`spyapp.ch` `sys.spyapp.ch` `area.spyapp.ch` `www.spyapp.ch` `pgv4.com` `accounts.pgv4.com` `mespiao.com.br` `compte.applispy.com` `applispy.com` `pin.pgv4.com` `spyapp.uk` `www.spyapp.ro` `spyapp.ro` `accounts.spyapp.ro` `spybrother.com`)
 * SpyApp247
 * SpyDroid
 * SpyEra (`spyera.com` `login.spylogs.com` `support.spyera.com` `affiliate.spyera.com`)
