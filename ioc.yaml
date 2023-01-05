@@ -3857,3 +3857,8 @@
   type: stalkerware
   packages:
   - com.github.muneebwanee.dash
+
+- name: spyapp
+  type: stalkerware
+  website:
+    - spyapp.ch

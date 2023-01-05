@@ -178,3 +178,17 @@ rule tracku : stalkerware {
     condition:
         uint16(0) == 0x6564 and 9 of them
 }
+
+rule italianstalkerware : stalkerware {
+    meta:
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
+
+    strings:
+        $s1 = "DataMariaDbSalentoBellaSarda" nocase ascii
+        $s2 = "IsScreenOnServiceMarinellaBella" ascii
+        $s3 = "preInstallServiceAnacondameritocronicavolenzia" nocase ascii
+        $s4 = "ScreenIsOnReceiverMarinellaBella" ascii
+
+    condition:
+        uint16(0) == 0x6564 and 4 of them
+}
