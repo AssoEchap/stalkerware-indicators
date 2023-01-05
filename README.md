@@ -51,7 +51,7 @@ Files generated automatically from previous IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 147 applications (134 stalkerware and 13 watchware) and 2874 samples
+This repository includes indicators for 147 applications (134 stalkerware and 13 watchware) and 2870 samples
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -146,6 +146,7 @@ This repository includes indicators for 147 applications (134 stalkerware and 13
 * Spy24 (`spy24.net` `spy24.app`)
 * SpyAdvice (`spyadvice.com` `freespyphone.net`)
 * SpyApp
+* SpyApp (`spyapp.ch` `sys.spyapp.ch` `area.spyapp.ch` `www.spyapp.ch` `pgv4.com` `accounts.pgv4.com` `mespiao.com.br` `compte.applispy.com` `applispy.com` `pin.pgv4.com` `spyapp.uk` `www.spyapp.ro` `spyapp.ro` `x.pgv4.com` `accounts.spyapp.ro`)
 * SpyApp247
 * SpyDroid
 * SpyEra (`spyera.com` `login.spylogs.com` `support.spyera.com` `affiliate.spyera.com`)
@@ -197,7 +198,6 @@ This repository includes indicators for 147 applications (134 stalkerware and 13
 * mSpy (`cart.mspy.com` `mliteapp.com` `mspy.co.il` `mspy.co.uk` `mspy.com` `mspy.com.ar` `mspy.com.br` `mspy.com.cn` `mspy.fr` `mspy.in` `mspy.it` `mspy.jp` `mspy.net` `mspy.nl` `mspy.support` `mspylite.com` `www.eyezy.com` `mspyonline.com` `myfonemate.com` `theispyoo.com` `www.mspyonline.com` `www.mspy.com` `freefonespy.com`)
 * mSpyitaly (`dc-407883c18502.mspyitaly.com` `mspyitaly.com` `www.mspyitaly.com`)
 * pcTattletale (`www.pctattletale.com`)
-* spyapp (`spyapp.ch`)
 * uMobix (`umobix.com` `spyfer.info` `surveillance-enfants.com`)
 * xHunter
 
