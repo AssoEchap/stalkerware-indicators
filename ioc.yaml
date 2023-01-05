@@ -3865,24 +3865,41 @@
   certificates:
   - 38819265668EEAE6AC3C6C80D1A6530EAE99AD0E
   - E3620714FB24A45614A456DF1176D482BCD1B032
+  - F3E17DFDB98B1F7774A16967FD1D84D3D9D59389
   distribution:
   - m.pgv4.com
   websites:
-  - spyapp.ch
-  - sys.spyapp.ch
-  - area.spyapp.ch
-  - www.spyapp.ch 
-  - pgv4.com
-  - accounts.pgv4.com
-  - mespiao.com.br
-  - compte.applispy.com
-  - applispy.com
-  - pin.pgv4.com
-  - spyapp.uk
-  - www.spyapp.ro
-  - spyapp.ro
   - accounts.spyapp.ro
+  - accounts.pgv4.com
+  - applispy.com
+  - area.spyapp.ch
+  - beta.spyapp.ro
+  - br.pgv4.com
+  - clienti.securspy.com
+  - compte.applispy.com
+  - controllo.spystoreitalia.com
+  - tel.forensis-lab.com
+  - mespiao.com.br
+  - partner.securspy.com
+  - pgv4.com
+  - pin.pgv4.com
+  - pin.spyapp.ro
+  - ro.pgv4.com
+  - roaccount.pgv4.com
+  - securspy.com
+  - server.pgv4.com
+  - spyapp.at
+  - spyapp.ch
+  - spyapp.es
+  - spyapp.fr
+  - spyapp.uk
+  - spyapp.ro
   - spybrother.com
+  - sys.spyapp.ch
+  - www.spyapp.ch
+  - www.spyapp.ro
+  - x.securspy.com
+  - x.spyapp.ro
   c2:
     domains:
     - x.pgv4.com
