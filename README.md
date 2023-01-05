@@ -51,7 +51,7 @@ Files generated automatically from previous IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 147 applications (134 stalkerware and 13 watchware) and 2870 samples
+This repository includes indicators for 147 applications (134 stalkerware and 13 watchware) and 2874 samples
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
