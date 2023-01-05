@@ -159,6 +159,7 @@ This repository includes indicators for 106 stalkerware and watchware applicatio
 * mSpyitaly (`dc-407883c18502.mspyitaly.com` `mspyitaly.com` `www.mspyitaly.com`)
 * pcTattletale (`www.pctattletale.com`)
 * uMobix (`umobix.com`)
+* spyapp (`spyapp.ch`)
 
 ## Notable users
 
