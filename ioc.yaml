@@ -3858,7 +3858,25 @@
   packages:
   - com.github.muneebwanee.dash
 
-- name: spyapp
+- name: SpyApp
   type: stalkerware
+  packages:
+  - com.femimesusu.libapasopi
+  certificates:
+  - 38819265668EEAE6AC3C6C80D1A6530EAE99AD0E
   websites:
-    - spyapp.ch
+  - spyapp.ch
+  - sys.spyapp.ch
+  - area.spyapp.ch
+  - www.spyapp.ch 
+  - pgv4.com
+  - accounts.pgv4.com
+  - mespiao.com.br
+  - compte.applispy.com
+  - applispy.com
+  - pin.pgv4.com
+  - spyapp.uk
+  - www.spyapp.ro
+  - spyapp.ro
+  - x.pgv4.com
+  - accounts.spyapp.ro
