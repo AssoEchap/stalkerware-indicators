@@ -146,7 +146,7 @@ This repository includes indicators for 147 applications (134 stalkerware and 13
 * Spy24 (`spy24.net` `spy24.app`)
 * SpyAdvice (`spyadvice.com` `freespyphone.net`)
 * SpyApp
-* SpyApp (`spyapp.ch` `sys.spyapp.ch` `area.spyapp.ch` `www.spyapp.ch` `pgv4.com` `accounts.pgv4.com` `mespiao.com.br` `compte.applispy.com` `applispy.com` `pin.pgv4.com` `spyapp.uk` `www.spyapp.ro` `spyapp.ro` `accounts.spyapp.ro` `spybrother.com`)
+* SpyApp (`accounts.spyapp.ro` `accounts.pgv4.com` `applispy.com` `area.spyapp.ch` `beta.spyapp.ro` `br.pgv4.com` `clienti.securspy.com` `compte.applispy.com` `controllo.spystoreitalia.com` `tel.forensis-lab.com` `mespiao.com.br` `partner.securspy.com` `pgv4.com` `pin.pgv4.com` `pin.spyapp.ro` `ro.pgv4.com` `roaccount.pgv4.com` `securspy.com` `server.pgv4.com` `spyapp.at` `spyapp.ch` `spyapp.es` `spyapp.fr` `spyapp.uk` `spyapp.ro` `spybrother.com` `sys.spyapp.ch` `www.spyapp.ch` `www.spyapp.ro` `x.securspy.com` `x.spyapp.ro`)
 * SpyApp247
 * SpyDroid
 * SpyEra (`spyera.com` `login.spylogs.com` `support.spyera.com` `affiliate.spyera.com`)
