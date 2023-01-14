@@ -277,10 +277,12 @@
   - HelloSPy
   - MaxxSpy
   - MobiiSpy
+  - SpyHide
   type: stalkerware
   packages:
-  - com.example.hellospy
   - com.android.innovaspy
+  - com.example.hellospy
+  - com.googlesettings.setting
   - com.hellospy
   - com.hellospy.system
   - com.maxxspy
@@ -288,17 +290,25 @@
   - com.mobiispy
   - com.mobiispy.system
   - com.mrblue.setting
+  - com.mrbluetooth.setting
   - com.mrtred.setred
   - com.prophoto.editor
   - com.topspy
   - com.topspy.system
+  - com.virsys.tracker
+  - com.wifiset.service
+  - com.wifisettings.service
+  - googlesettings.setting
   certificates:
-  - 7F5C0D54A813BA9B87A91420CA2C3DE5E7948F09
   - 1EBFFD9FE9463B2ED24582D2846990A5ABEF79B9
   - 656CD7890ED79CE8570D1B7156C31958D5AC1606
   - 6B660EAAEBA47793B7A1278D714669A6612BCA5B
+  - 6EB49E72D6138B4210D1CA60247D419E5660315C
+  - 7AFD651F96C7C938351396A53895C3C0704F6B96
+  - 7F5C0D54A813BA9B87A91420CA2C3DE5E7948F09
   - A40D8FDC7953AD69D970FF00658EB0F58B3A052A
   - CD8F39DAECC7793F33D8D847A598373B8F25A7B7
+  - F6914F044B9385D6005DC9C50A9AECDC2349F413
   websites:
   - 1topspy.com
   - account.mobile-remote-tracker.com
@@ -316,13 +326,21 @@
   - mspymax.com
   - opispy.net
   - spyacellphone.com
+  - spyhide.com
+  - spyhide.ir
   - spyios8x.com
+  - www.spyhide.com
+  - www.spyhide.ir
   distribution:
   - profotoeditor.com
   - 178.63.71.15
   c2:
     domains:
     - 1topspy.com
+    - account.cellphone-remote-tracker.com
+    - cellphone-remote-tracker.com
+    - client.spyhide.com
+    - client.spyhide.ir
     - copy9db.com
     - flushdata.1topspy.com
     - flushdata.copy9db.com
@@ -335,7 +353,14 @@
     - hellospy.com
     - maxxspy.com
     - mobiispy.com
+    - spyhide.com
+    - spyhide.ir
+    - virsis.net
     - webservicesdb.mobiispy.com
+    - www.spyhide.com
+    - www.spyhide.ir
+    ips:
+    - 78.47.16.3
 
 - name: SpyAdvice
   names:
@@ -1068,42 +1093,6 @@
     - tracking.mspyonline.com
     - www.mspyonline.com
     - www.mspy.com
-
-- name: SpyHide
-  names:
-  - SpyHide
-  type: stalkerware
-  packages:
-  - com.wifiset.service
-  - googlesettings.setting
-  - com.googlesettings.setting
-  - com.mrblue.setting
-  - com.mrbluetooth.setting
-  - com.wifisettings.service
-  - com.virsys.tracker
-  certificates:
-  - CD8F39DAECC7793F33D8D847A598373B8F25A7B7
-  - F6914F044B9385D6005DC9C50A9AECDC2349F413
-  - 7AFD651F96C7C938351396A53895C3C0704F6B96
-  - 6EB49E72D6138B4210D1CA60247D419E5660315C
-  websites:
-  - spyhide.com
-  - www.spyhide.com
-  - spyhide.ir
-  - www.spyhide.ir
-  c2:
-    ips:
-    - 78.47.16.3
-    domains:
-    - client.spyhide.com
-    - spyhide.com
-    - account.cellphone-remote-tracker.com
-    - cellphone-remote-tracker.com
-    - www.spyhide.com
-    - spyhide.ir
-    - www.spyhide.ir
-    - client.spyhide.ir
-    - virsis.net
 
 - name: MeuSpy
   names:

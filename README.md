@@ -51,7 +51,7 @@ Files generated automatically from previous IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 147 applications (134 stalkerware and 13 watchware) and 2870 samples
+This repository includes indicators for 146 applications (133 stalkerware and 13 watchware) and 2870 samples
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -92,7 +92,7 @@ This repository includes indicators for 147 applications (134 stalkerware and 13
 * FreeAndroidSpy (`freeandroidspy.com`)
 * GPSTrackerLoki (`asgardtech.ru`)
 * GeoZilla (`geozilla.com` `geozillahelp.zendesk.com`)
-* HelloSpy (`1topspy.com` `account.mobile-remote-tracker.com` `alospy.com` `getspyapps.com` `hellospy.com` `innovaspy.com` `ispytic.com` `maxxspy.com` `mobeespy.com` `mobellspy.com` `mobiispy.com` `mobile-remote-tracker.com` `mobilespyblog.com` `mspymax.com` `opispy.net` `spyacellphone.com` `spyios8x.com`)
+* HelloSpy (`1topspy.com` `account.mobile-remote-tracker.com` `alospy.com` `getspyapps.com` `hellospy.com` `innovaspy.com` `ispytic.com` `maxxspy.com` `mobeespy.com` `mobellspy.com` `mobiispy.com` `mobile-remote-tracker.com` `mobilespyblog.com` `mspymax.com` `opispy.net` `spyacellphone.com` `spyhide.com` `spyhide.ir` `spyios8x.com` `www.spyhide.com` `www.spyhide.ir`)
 * HighsterMobile (`auto-forward.com` `cellphoneservices.info` `ddiutilities.com` `evt17.com` `highstermobile.com` `phonespector.com`)
 * Hoverwatch (`br.refog.com` `de.refog.com` `es.refog.com` `fr.refog.com` `hover.watch` `hoverwatch.com` `hu.refog.com` `hws.icu` `it.refog.com` `my.hws.icu` `nl.refog.com` `prospybubble.com` `refog.com` `refog.de` `refog.net` `refog.org` `ro.refog.com` `www.hoverwatch.com` `www.refog.com`)
 * ISpy
@@ -151,7 +151,6 @@ This repository includes indicators for 147 applications (134 stalkerware and 13
 * SpyDroid
 * SpyEra (`spyera.com` `login.spylogs.com` `support.spyera.com` `affiliate.spyera.com`)
 * SpyFly (`spyfly.co.za`)
-* SpyHide (`spyhide.com` `www.spyhide.com` `spyhide.ir` `www.spyhide.ir`)
 * SpyHuman (`spyhuman.com` `services.spyhuman.com`)
 * SpyKontrol (`www.spykontrol.com` `spykontrol.com` `androidapk.biz`)
 * SpyLive360 (`spylive360.com` `www.spylive360.com`)
