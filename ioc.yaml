@@ -287,6 +287,9 @@
   - com.maxxspy.system
   - com.mobiispy
   - com.mobiispy.system
+  - com.mrblue.setting
+  - com.mrtred.setred
+  - com.prophoto.editor
   - com.topspy
   - com.topspy.system
   certificates:
@@ -295,6 +298,7 @@
   - 656CD7890ED79CE8570D1B7156C31958D5AC1606
   - 6B660EAAEBA47793B7A1278D714669A6612BCA5B
   - A40D8FDC7953AD69D970FF00658EB0F58B3A052A
+  - CD8F39DAECC7793F33D8D847A598373B8F25A7B7
   websites:
   - 1topspy.com
   - account.mobile-remote-tracker.com
@@ -315,6 +319,7 @@
   - spyios8x.com
   distribution:
   - profotoeditor.com
+  - 178.63.71.15
   c2:
     domains:
     - 1topspy.com
