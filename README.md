@@ -51,7 +51,7 @@ Files generated automatically from previous IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 146 applications (133 stalkerware and 13 watchware) and 2870 samples
+This repository includes indicators for 146 applications (133 stalkerware and 13 watchware) and 2874 samples
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -145,9 +145,9 @@ This repository includes indicators for 146 applications (133 stalkerware and 13
 * Snoopza (`snoopza.com` `get.snoopza.com` `snoopza.zendesk.com` `demo.snoopza.com` `newdemo.snoopza.com`)
 * Spy24 (`spy24.net` `spy24.app`)
 * SpyAdvice (`spyadvice.com` `freespyphone.net`)
-* SpyApp
 * SpyApp (`accounts.spyapp.ro` `accounts.pgv4.com` `applispy.com` `area.spyapp.ch` `beta.spyapp.ro` `br.pgv4.com` `clienti.securspy.com` `compte.applispy.com` `controllo.spystoreitalia.com` `tel.forensis-lab.com` `mespiao.com.br` `partner.securspy.com` `pgv4.com` `pin.pgv4.com` `pin.spyapp.ro` `ro.pgv4.com` `roaccount.pgv4.com` `securspy.com` `server.pgv4.com` `spyapp.at` `spyapp.ch` `spyapp.es` `spyapp.fr` `spyapp.uk` `spyapp.ro` `spybrother.com` `sys.spyapp.ch` `www.spyapp.ch` `www.spyapp.ro` `x.securspy.com` `x.spyapp.ro`)
 * SpyApp247
+* SpyAppGhazi
 * SpyDroid
 * SpyEra (`spyera.com` `login.spylogs.com` `support.spyera.com` `affiliate.spyera.com`)
 * SpyFly (`spyfly.co.za`)
