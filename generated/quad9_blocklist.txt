@@ -222,6 +222,7 @@ cabinet.kfnm.ru
 cabinet.vegosm.ru
 cabinet.vkur.se
 cabinet.vkur1.se
+cabinet.thecybernanny.com
 data.reptilicus.net
 e2c64.firebaseio.com
 labrador.ua
