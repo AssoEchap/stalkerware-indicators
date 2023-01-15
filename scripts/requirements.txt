@@ -1,0 +1,3 @@
+androguard==3.3.5
+yara-python>=4.2.3
+PyYAML==6.0
