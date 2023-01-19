@@ -246,7 +246,7 @@ There are other repositories gathering stalkerware indicators:
 
 ## License
 
-The content of this repository is licensed under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/), you're free to do whatever you want with it as long as you give appropriate credit and share work built upon these IOCs under the same license. If this license is a problem for you, please reach out (contact AT echap.eu.org), we are happy to figure something out.
+The content of this repository is licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/). If this license is a problem for you, please reach out (contact AT echap.eu.org), we are happy to figure something out.
 
 Please note that while we're doing our very best, there is no guarantee that it is accurate.
 If it is useful to you, consider giving money to an organisation supporting violence against women in your country.
