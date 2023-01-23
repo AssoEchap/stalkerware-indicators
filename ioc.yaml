@@ -1694,10 +1694,12 @@
   - F4E6DA34F0071AEB70010EBB69875E5212D69140
   websites:
   - umobix.com
+  - n.umobix.com
   - spyfer.info
   - surveillance-enfants.com
   c2:
     domains:
+    - android-api.umobix.com
     - us.umobix.com
 
 - name: Spymie
