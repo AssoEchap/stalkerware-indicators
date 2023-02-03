@@ -1,0 +1,21 @@
+company:
+  - name: "Traccar"
+  - website: "www.traccar.org"
+  - facebook: "https://www.facebook.com/traccar"
+  - github: "https://github.com/traccar/"
+  - twitter: "https://twitter.com/TraccarOrg"
+  - youtube: "https://www.youtube.com/c/TraccarOrg"
+  - phone: "+1 347 603-0304"
+  - people:
+    - name: "Anton Tananaev"
+      github: "https://github.com/tananaev"
+      email: "anton.tananaev@gmail.com"
+      website: "tananaev.com"
+      playstore: "https://play.google.com/store/apps/developer?id=Anton+Tananaev"
+      linkedin: "https://www.linkedin.com/in/tananaev"
+      applestore: "https://apps.apple.com/us/developer/anton-tananaev/id843156982"
+    - name: "Maxim Zalysin"
+      email: "zalysin.m@gmail.com"
+      linkedin: "http://lnkd.in/in/maxim-zalysin"
+articles:
+  - "https://en.wikipedia.org/wiki/Traccar"
