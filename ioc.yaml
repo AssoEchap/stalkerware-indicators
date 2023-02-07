@@ -2688,12 +2688,17 @@
   - ASpy
   type: stalkerware
   packages:
+  - apk.screenshotrecorder
   - apk.keylogger
   - apk.kgl
   - apk.kwoapsnde
+  - com.as.clipboardmanager
+  - com.as.facecapture
+  - com.as.gpstracker
   - com.as.keylogger
   - com.as.keylogger2
   - com.as.klogger
+  - com.as.screenrecorder
   - com.as.urllogger
   websites:
   - a-spy.com
@@ -2704,9 +2709,14 @@
   - 56BD8EB8A20904E4766D99F6D38D87466C44B114
   - 839FBBE6F3DF8153BB6582247DBBC2A42864A87D
   - B7BB744C68FD6EB4C49298E7506BED53DC4773FF
+  - C863D800B89648724CD483911FBF756F36497CC9
+  - F57CACB890BE22907709DDE69ED3887F6943734E 
   c2:
     domains:
     - a-spy.com
+    - m.a-spy.com
+    - klg.a-spy.com
+    - my.a-spy.com
 
 - name: AndroidPolice
   names:
