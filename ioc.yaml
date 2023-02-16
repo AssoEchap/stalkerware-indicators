@@ -1510,6 +1510,12 @@
   - Highster
   - PhoneSpector
   - DDI
+  - AutoForward
+  - EasySpy
+  - DDIUtilities
+  - HighsterMobile
+  - SurePoint
+  - TurboSpy
   type: stalkerware
   packages:
   - org.secure.smsgps
