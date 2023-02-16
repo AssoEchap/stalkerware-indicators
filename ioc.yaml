@@ -1506,14 +1506,15 @@
 
 - name: HighsterMobile
   names:
-  - HighsterSpy
-  - Highster
-  - PhoneSpector
-  - DDI
   - AutoForward
-  - EasySpy
+  - DDI
   - DDIUtilities
+  - EasySpy
+  - Highster
   - HighsterMobile
+  - HighsterSpy
+  - PhoneSpector
+  - SafeGuarde
   - SurePoint
   - TurboSpy
   type: stalkerware
@@ -1527,17 +1528,32 @@
   - 48A2190050B80F31E1E3CCFAF9909FAD238D9849
   websites:
   - auto-forward.com
+  - autoforward.app
+  - autoforward.co
+  - bestcellphonespyapps.com
+  - buyeasyspy.com
   - cellphoneservices.info
   - ddiutilities.com
+  - dev.safeguarde.com
+  - digitalsecurityworld.com
   - evt17.com
+  - highstermobile.co
   - highstermobile.com
+  - ilfmobileapps.com
+  - m.surepointspy.com
   - phonespector.com
+  - safeguarde.com
+  - surepointspy.com
+  - thepowerlinegroup.com
+  - turbophonepsy.com
+  - www.surepointspy.com
   c2:
     domains:
     - a71f4.firebaseio.com
     - ac480.firebaseio.com
     - auto-forward.com
     - autoforward-8433d.firebaseio.com
+    - backup-a71f4.firebaseio.com
     - cellphoneservices.info
     - ddiutilities.com
     - device-ac480.appspot.com
