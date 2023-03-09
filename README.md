@@ -125,7 +125,7 @@ This repository includes indicators for 147 applications (134 stalkerware and 13
 * NexSpy (`nexspy.com` `oxy.nexspy.com` `mobilebackup.biz` `portal.mobilebackup.biz` `portal.topzaloha.cz`)
 * Observer (`www.observer.pw`)
 * OneLocator (`locatorprivacy.com` `onelocator.com`)
-* OneMonitar (`onespy.com`)
+* OneSpy (`onemonitar.com` `onespy.com` `cloud.onemonitar.com` `send.onemonitar.com` `test.send.onemonitar.com` `superuser.onemonitar.com` `su.onemonitar.com` `cp.onemonitar.com` `app.onemonitar.com` `send.onespy.com`)
 * OwnSpy (`mobileinnova.net` `ownspy.com` `en.ownspy.com` `webdetetive.com.br` `ownspy.es` `saferspy.com` `panel.webdetetive.com.br` `era3000.com`)
 * PanSpy (`panspy.com` `surveilstar.com`)
 * PatanSpyApp

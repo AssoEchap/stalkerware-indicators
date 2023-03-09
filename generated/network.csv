@@ -668,7 +668,6 @@ domain,pctattletalev2.s3.amazonaws.com,pcTattletale
 domain,pctattletale.com,pcTattletale
 domain,truewebmedia.com,pcTattletale
 ipv4,67.227.193.142,pcTattletale
-domain,send.onespy.com,OneMonitar
 domain,spylogs.com,SpyEra
 domain,spyera.postaffiliatepro.com,SpyEra
 domain,app.antifurtodroid.com,AntiFurtoDroid
@@ -992,3 +991,5 @@ domain,pgv4.com,SpyApp
 domain,www.pgv4.com,SpyApp
 domain,m.pgv4.com,SpyApp
 domain,my-spy-a9c92.firebaseio.com,MySpyApps
+domain,api.cp.onemonitar.com,OneSpy
+domain,onespy-in-d.s3.eu-central-1.amazonaws.com,OneSpy

@@ -618,7 +618,6 @@ celular007.s3.amazonaws.com
 pctattletalev2.s3.amazonaws.com
 pctattletale.com
 truewebmedia.com
-send.onespy.com
 spylogs.com
 spyera.postaffiliatepro.com
 app.antifurtodroid.com
@@ -863,3 +862,5 @@ pgv4.com
 www.pgv4.com
 m.pgv4.com
 my-spy-a9c92.firebaseio.com
+api.cp.onemonitar.com
+onespy-in-d.s3.eu-central-1.amazonaws.com
