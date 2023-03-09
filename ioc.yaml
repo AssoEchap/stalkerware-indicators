@@ -3940,3 +3940,15 @@
     - x.pgv4.com
     - pgv4.com
     - www.pgv4.com
+
+- name: MySpyApps
+  type: stalkerware
+  websites:
+  - myspyapps.com
+  certificates:
+  - CCCD74B31E53685BFA5A23AD0AE020AF74689085
+  packages:
+  - com.my.spy.app
+  c2:
+    domains:
+    - my-spy-a9c92.firebaseio.com

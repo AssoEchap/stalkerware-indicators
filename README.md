@@ -51,7 +51,7 @@ Files generated automatically from previous IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 146 applications (133 stalkerware and 13 watchware) and 2886 samples
+This repository includes indicators for 147 applications (134 stalkerware and 13 watchware) and 2886 samples
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -117,6 +117,7 @@ This repository includes indicators for 146 applications (133 stalkerware and 13
 * MonitorUltra (`www.spyequipmentuk.co.uk`)
 * Mrecorder (`mobilerecorder24.com` `mrecorder.com`)
 * MyCellSpy (`mycellspy.com` `cezz.me` `user.mycellspy.com`)
+* MySpyApps (`myspyapps.com`)
 * MzanziSpy (`mzanzispy.co.za`)
 * NemoSpy (`nemospy.com` `admin.nemospy.com`)
 * NeoSpy (`neospy.pro` `neospy.net` `neospy.tech` `ru.neospy.net`)
