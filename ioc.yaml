@@ -1745,10 +1745,12 @@
   certificates:
   - D46492F02F25877E9F5D6CFFA4CE99DAC64D981A
   - 9DE8D6C6757152EC819C1A09F5665B77F72493A2
+  - B6D2D36C75931CCA18538B79C5DE3A04EF4AF777
   packages:
   - com.android.services
   - com.android.omg
   distribution:
+  - app.ogymogy.com
   - tos-assigned-build.sfo2.digitaloceanspaces.com
   websites:
   - theonespy.com
@@ -3962,5 +3964,3 @@
   c2:
     domains:
     - api.cp.onemonitar.com
-
-
