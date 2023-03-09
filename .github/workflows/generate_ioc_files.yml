@@ -16,6 +16,7 @@ jobs:
     - name: Sync branches
       run: |
         git config --local user.name  ${{ github.actor }}
+        git config --local user.email  ${{ github.actor }}@localhost
         echo "Checkout required files"
         git checkout origin/research -- ioc.yaml samples.csv README.tpl scripts rules.yar quad9_blocklist.txt vendors/*.yaml
     - name: Setup python
