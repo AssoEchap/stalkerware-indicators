@@ -773,6 +773,7 @@
     - 198.100.150.203
     domains:
     - a.hw.cab
+    - hw.cab
     - a.hwa.cab
     - account.refog.com
     - dev.hoverwatch.com
@@ -2931,6 +2932,7 @@
   - freespyapp.com
   - kidlogger.net
   - kidsshield.net
+  - monitorminor.com.tr
   - pc.freespyapp.com
   - pc.selfspy.com
   - selfspy.com
@@ -2966,6 +2968,7 @@
   - Tesline-Service SRL
   distribution:
   - spyt.co
+  - kidsshield.net
   c2:
     ips:
     - 52.22.130.9
