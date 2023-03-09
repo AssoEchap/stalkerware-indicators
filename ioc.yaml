@@ -2203,23 +2203,6 @@
     - pctattletale.com
     - truewebmedia.com
 
-- name: OneMonitar
-  names:
-  - OneMonitar
-  - OneSpy
-  type: stalkerware
-  packages:
-  - com.android.system.app
-  - seC.fqjx.sqBB
-  certificates:
-  - E458DC7CD8928A41865F502A884F0D51309E0BEF
-  websites:
-  - onespy.com
-  c2:
-    domains:
-    - send.onespy.com
-
-
 - name: SpyEra
   names:
   - SpyEra
@@ -3952,3 +3935,32 @@
   c2:
     domains:
     - my-spy-a9c92.firebaseio.com
+
+- name: OneSpy
+  names:
+  - OneMonitar
+  - OneSpy
+  type: stalkerware
+  packages:
+  - com.android.system.app
+  - seC.fqjx.sqBB
+  certificates:
+  - E458DC7CD8928A41865F502A884F0D51309E0BEF
+  websites:
+  - onemonitar.com
+  - onespy.com
+  - cloud.onemonitar.com
+  - send.onemonitar.com
+  - test.send.onemonitar.com
+  - superuser.onemonitar.com
+  - su.onemonitar.com
+  - cp.onemonitar.com
+  - app.onemonitar.com
+  - send.onespy.com
+  distribution:
+  - onespy-in-d.s3.eu-central-1.amazonaws.com
+  c2:
+    domains:
+    - api.cp.onemonitar.com
+
+
