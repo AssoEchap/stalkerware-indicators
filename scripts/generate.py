@@ -210,10 +210,10 @@ def generate_suricata(folder, iocs):
     with open(fpath, mode='w') as output:
         for app in iocs:
             for d in app.get("c2", {}).get("domains", []):
-                output.write('alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE {} ({})"; metdata: type {}; dns.query; content:"{}"; depth:{}; nocase; endswith; fast_pattern; reference:url,github.com/AssoEchap/stalkerware-indicators; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(app["name"], fang(d), app.get("type", "-"), d, len(d), sid))
+                output.write('alert dns $HOME_NET any -> any any (msg:"PTS STALKERWARE {} ({})"; metadata: type {}; dns.query; content:"{}"; depth:{}; nocase; endswith; fast_pattern; reference:url,github.com/AssoEchap/stalkerware-indicators; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(app["name"], fang(d), app.get("type", "-"), d, len(d), sid))
                 sid += 1
             for ip in app.get("c2", {}).get("ips", []):
-                output.write('alert ip $HOME_NET any -> [{}] any (msg:"PTS STALKERWARE {} ({})"; metdata: type {}; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(ip, fang(ip), app.get("type", "-"), app["name"], sid))
+                output.write('alert ip $HOME_NET any -> [{}] any (msg:"PTS STALKERWARE {} ({})"; metadata: type {}; classtype:targeted-activity; sid:{}; rev:1;)\n'.format(ip, fang(ip), app.get("type", "-"), app["name"], sid))
                 sid += 1
 
     print(f"Generated {fpath}")
