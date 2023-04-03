@@ -773,6 +773,7 @@
     - 198.100.150.203
     domains:
     - a.hw.cab
+    - hw.cab
     - a.hwa.cab
     - account.refog.com
     - dev.hoverwatch.com
@@ -2856,6 +2857,7 @@
   - com.google.android.bacfup
   - com.google.android.safe
   - com.wzogle.zndroid.yacfup
+  - com.qzogle.xndroid.jacfup
   websites:
   - 2mata.net
   - clues4.com
@@ -2875,6 +2877,7 @@
   - BD3986483D9B962B029D65BF34BF4B7C568FF204
   - 4474D3395029E6C6744A470EE5F2107DBAEF16A0
   - 6F1FDA1889463BFA646A950E49E121B7829A884D
+  - 5051413BB7C4931F5CD25260FFF173739CBE0F3A
   distribution:
   - e-spy.org
   c2:
@@ -2931,6 +2934,7 @@
   - freespyapp.com
   - kidlogger.net
   - kidsshield.net
+  - monitorminor.com.tr
   - pc.freespyapp.com
   - pc.selfspy.com
   - selfspy.com
@@ -2966,6 +2970,7 @@
   - Tesline-Service SRL
   distribution:
   - spyt.co
+  - kidsshield.net
   c2:
     ips:
     - 52.22.130.9

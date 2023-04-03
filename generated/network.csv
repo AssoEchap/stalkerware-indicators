@@ -331,6 +331,7 @@ ipv4,104.25.29.15,EasyLogger
 domain,inv.logger.mobi,EasyLogger
 domain,pro.logger.mobi,EasyLogger
 domain,a.hw.cab,Hoverwatch
+domain,hw.cab,Hoverwatch
 domain,a.hwa.cab,Hoverwatch
 domain,account.refog.com,Hoverwatch
 domain,dev.hoverwatch.com,Hoverwatch
@@ -851,6 +852,7 @@ domain,ua.tispy.net,KidsShield
 domain,viptelefonprogrami.com,KidsShield
 ipv4,52.22.130.9,KidsShield
 domain,spyt.co,KidsShield
+domain,kidsshield.net,KidsShield
 domain,nemospy.com,NemoSpy
 domain,setup.nemospy.com,NemoSpy
 domain,pc.spykontrol.com,SpyKontrol

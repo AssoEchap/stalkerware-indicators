@@ -319,6 +319,7 @@ waws-prod-blu-247.sip.azurewebsites.windows.net
 inv.logger.mobi
 pro.logger.mobi
 a.hw.cab
+hw.cab
 a.hwa.cab
 account.refog.com
 dev.hoverwatch.com
@@ -764,6 +765,7 @@ tispy.net
 ua.tispy.net
 viptelefonprogrami.com
 spyt.co
+kidsshield.net
 nemospy.com
 setup.nemospy.com
 pc.spykontrol.com

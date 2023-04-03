@@ -51,7 +51,7 @@ Files generated automatically from previous IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 147 applications (134 stalkerware and 13 watchware) and 2886 samples
+This repository includes indicators for 147 applications (134 stalkerware and 13 watchware) and 2892 samples
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -101,7 +101,7 @@ This repository includes indicators for 147 applications (134 stalkerware and 13
 * KidSecured (`kidsecured.com`)
 * KidsControl (`kid-control.com` `kid-control.ru`)
 * KidsLox (`kidslox.com` `kidsloxsupport.zendesk.com` `www.advanced.kidslox.com`)
-* KidsShield (`backupsoft.eu` `freespyapp.com` `kidlogger.net` `kidsshield.net` `pc.freespyapp.com` `pc.selfspy.com` `selfspy.com` `spytrac.com` `techinnovative.net` `tifamily.net` `tispy.net` `tracerspy.net` `ua.tispy.net` `viptelefonprogrami.com` `www.kidlogger.net` `www.selfspy.com`)
+* KidsShield (`backupsoft.eu` `freespyapp.com` `kidlogger.net` `kidsshield.net` `monitorminor.com.tr` `pc.freespyapp.com` `pc.selfspy.com` `selfspy.com` `spytrac.com` `techinnovative.net` `tifamily.net` `tispy.net` `tracerspy.net` `ua.tispy.net` `viptelefonprogrami.com` `www.kidlogger.net` `www.selfspy.com`)
 * LetMeSpy (`letmespy.com` `remotecommands.com` `www.letmespy.com` `www.teleszpieg.pl` `teleszpieg.pl` `bbiindia.com` `www.bbiindia.com`)
 * Life360 (`www.life360.com` `life360.com` `life360-wordpress.s3.amazonaws.com` `life360.zendesk.com`)
 * LoveSpy
