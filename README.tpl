@@ -167,6 +167,7 @@ This repository includes indicators for 106 stalkerware and watchware applicatio
 - [oisd blocklist full](https://oisd.nl/downloads)
 - [The Mobile Verification Toolkit](https://github.com/mvt-project/mvt)
 - [StratosphereIPS](https://github.com/stratosphereips/StratosphereLinuxIPS)
+- [the Hypatia malware scanner](https://github.com/Divested-Mobile/Hypatia)
 
 ## Contributions
 
