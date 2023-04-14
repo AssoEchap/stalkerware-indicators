@@ -157,6 +157,8 @@ def generate_stix(folder, iocs):
 
     res = []
     for app in iocs:
+        if app.get("type", "") != "stalkerware":
+            continue
         malware = Malware(name=app["name"], is_family=False, description="Stalkerware applications")
         res.append(malware)
         for d in app.get("c2", {}).get("domains", []):
