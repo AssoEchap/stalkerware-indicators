@@ -51,13 +51,14 @@ Files generated automatically from previous IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 148 applications (134 stalkerware and 14 watchware) and 2910 samples
+This repository includes indicators for 150 applications (136 stalkerware and 14 watchware) and 2910 samples
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
 * Ahmyth
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
 * AllTracker (`alltracker.org`)
+* Android007 (`android007.com` `www.android007.com` `portal.android007.com` `spybunker.com` `www.spybunker.com`)
 * AndroidLost (`androidlost.com` `www.androidlost.com`)
 * AndroidMonitor (`androidmonitor.com` `demo.ultimatephonespy.com` `ultimatephonespy.com` `www.androidmonitor.com` `my.androidmonitor.com`)
 * AndroidPolice (`amon.android-monitor.ru` `amon1.android-monitor.ru` `andmon.name` `android-apk.android-monitor.ru` `android-monitor.ru` `android-monitor1.android-monitor.ru` `android-police.android-monitor.ru` `android-police.ru` `anmon.android-monitor.ru` `anmon.name` `anmon.ru` `anmon.su` `anmon1.android-monitor.ru` `droimon20.ru` `monitor-android.android-monitor.ru` `prog-money.android-monitor.ru` `prog-money.com` `www.android-monitor.ru`)
@@ -138,6 +139,7 @@ This repository includes indicators for 148 applications (134 stalkerware and 14
 * RealtimeSpy (`www.spytech-web.com` `spytech-web.com` `realtime-spy-mobile.com` `www.realtime-spy-mobile.com`)
 * RecomSpy (`recomspy.com`)
 * Reptilicus (`reptilicus.net` `thecybernanny.com` `apollospy.com`)
+* RioSPY (`www.riospy.net` `riospy.net`)
 * SMSForward
 * SecretCamRecorder
 * SentryPC (`www.sentrypc.com` `sentrypc.com`)
