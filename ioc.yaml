@@ -4002,3 +4002,9 @@
   - portal.android007.com
   - spybunker.com
   - www.spybunker.com
+
+- name: RioSPY
+  type: stalkerware
+  websites:
+  - www.riospy.net
+  - riospy.net
