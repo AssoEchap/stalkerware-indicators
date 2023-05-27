@@ -206,6 +206,7 @@ This repository includes indicators for 147 applications (134 stalkerware and 13
 - [AdGuard](https://github.com/AdguardTeam/HostlistsRegistry/pull/35)
 - [Quad9 DNS resolver](https://www.quad9.net/)
 - [oisd blocklist full](https://oisd.nl/downloads)
+- [IPV Spyware Discovery](https://github.com/stopipv/isdi)
 - [The Mobile Verification Toolkit](https://github.com/mvt-project/mvt)
 - [StratosphereIPS](https://github.com/stratosphereips/StratosphereLinuxIPS)
 - [the Hypatia malware scanner](https://github.com/Divested-Mobile/Hypatia)
