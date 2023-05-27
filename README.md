@@ -51,7 +51,7 @@ Files generated automatically from previous IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 147 applications (134 stalkerware and 13 watchware) and 2910 samples
+This repository includes indicators for 148 applications (134 stalkerware and 14 watchware) and 2910 samples
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -105,6 +105,7 @@ This repository includes indicators for 147 applications (134 stalkerware and 13
 * LetMeSpy (`letmespy.com` `remotecommands.com` `www.letmespy.com` `www.teleszpieg.pl` `teleszpieg.pl` `bbiindia.com` `www.bbiindia.com`)
 * Life360 (`www.life360.com` `life360.com` `life360-wordpress.s3.amazonaws.com` `life360.zendesk.com`)
 * LoveSpy
+* MMGuardian (`www.mmguardian.com` `mmguardian.com` `family.mmguardian.com`)
 * Metasploit (`foreverspy.com`)
 * MeuSpy (`meuspy.com` `monitorecell.com.br` `espiao.meuspy.com` `www.espiaodecelulargratis.com.br` `espiaodecelulargratis.com.br`)
 * MicrosoftFamilySafe (`family.microsoft.com`)

@@ -3978,3 +3978,16 @@
   c2:
     domains:
     - api.cp.onemonitar.com
+
+- name: MMGuardian
+  type: watchware
+  packages:
+  - com.mmguardian.parentapp
+  - com.mmguardian.tabletsecurity
+  - com.mmguardian.childapp
+  certificates:
+  - 842933609E604063B55C04BBB47763AC7C0FC327
+  websites:
+  - www.mmguardian.com
+  - mmguardian.com
+  - family.mmguardian.com
