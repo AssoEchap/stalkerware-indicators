@@ -866,3 +866,4 @@ m.pgv4.com
 my-spy-a9c92.firebaseio.com
 api.cp.onemonitar.com
 onespy-in-d.s3.eu-central-1.amazonaws.com
+wmdcommander.appspot.com

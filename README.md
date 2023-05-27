@@ -51,7 +51,7 @@ Files generated automatically from previous IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 150 applications (136 stalkerware and 14 watchware) and 2910 samples
+This repository includes indicators for 151 applications (137 stalkerware and 14 watchware) and 2910 samples
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -186,6 +186,7 @@ This repository includes indicators for 150 applications (136 stalkerware and 14
 * Unisafe (`usafe.ru` `unisafe.su` `unisafe.techmas.ru`)
 * VIPTrack (`viptrack.ro`)
 * WebWatcher (`awarenesstechnologies.com` `interguardsoftware.com` `screentimelabs.com` `webwatcher.com` `www.webwatcher.com`)
+* WheresMyDroid (`wheresmydroid.com` `www.wheresmydroid.com` `wmdcommander.appspot.com`)
 * WiseMo (`wisemo.com` `www.wisemo.com`)
 * WtSpy (`wt-spy.com`)
 * XDSpy (`xdspy.app` `androidspy.info`)
@@ -198,7 +199,7 @@ This repository includes indicators for 150 applications (136 stalkerware and 14
 * iMonitorSpy (`www.imonitorsoft.cn` `www.imonitorsoft.com` `imonitorsoft.cn`)
 * jjspy (`www.jjspy.com` `www.ttspy.com`)
 * juju (`www.juju.co.ke` `juju.co.ke`)
-* mSpy (`cart.mspy.com` `mliteapp.com` `mspy.co.il` `mspy.co.uk` `mspy.com` `mspy.com.ar` `mspy.com.br` `mspy.com.cn` `mspy.fr` `mspy.in` `mspy.it` `mspy.jp` `mspy.net` `mspy.nl` `mspy.support` `mspylite.com` `www.eyezy.com` `mspyonline.com` `myfonemate.com` `theispyoo.com` `www.mspyonline.com` `www.mspy.com` `freefonespy.com`)
+* mSpy (`cart.mspy.com` `mliteapp.com` `mspy.co.il` `mspy.co.uk` `mspy.com` `mspy.com.ar` `mspy.com.br` `mspy.com.cn` `mspy.fr` `mspy.in` `mspy.it` `mspy.jp` `mspy.net` `mspy.nl` `mspy.support` `mspylite.com` `mspyplus.com` `www.eyezy.com` `mspyonline.com` `myfonemate.com` `theispyoo.com` `www.mspyonline.com` `www.mspy.com` `freefonespy.com`)
 * mSpyitaly (`dc-407883c18502.mspyitaly.com` `mspyitaly.com` `www.mspyitaly.com`)
 * pcTattletale (`www.pctattletale.com`)
 * uMobix (`umobix.com` `n.umobix.com` `spyfer.info` `surveillance-enfants.com`)
