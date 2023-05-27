@@ -4009,3 +4009,17 @@
   websites:
   - www.riospy.net
   - riospy.net
+
+- name: WheresMyDroid
+  type: stalkerware
+  websites:
+  - wheresmydroid.com
+  - www.wheresmydroid.com
+  - wmdcommander.appspot.com
+  packages:
+  - com.alienmanfc6.wheresmyandroid
+  certificates:
+  - F8FC21D0709C3C0A3E4FBA81D24AB50979F25C19
+  c2:
+    domains:
+    - wmdcommander.appspot.com
