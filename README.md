@@ -51,7 +51,7 @@ Files generated automatically from previous IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 151 applications (137 stalkerware and 14 watchware) and 2910 samples
+This repository includes indicators for 161 applications (137 stalkerware and 24 watchware) and 2910 samples
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Accountable2you (`accountable2you.com`)
@@ -68,6 +68,7 @@ This repository includes indicators for 151 applications (137 stalkerware and 14
 * AppMia (`appmia.com` `appmia.com.es` `appmia.it` `appmia.fr` `cp.appmia.com`)
 * AppSpy (`app.appspy.net` `app.appspyfree.com` `app.freephonespy.net` `app.mobilespyfree.net` `appspy.com` `appspy.net` `appspyfree.com` `apptracker.net` `cellphonespyappon.com` `free-spy.com` `free.apptracker.net` `freemobilespy.net` `freephonespy.net` `justseries.net` `mobilespyfree.net` `spyren.com` `trackerfree.net` `www.appspy.com` `www.appspy.net` `www.apptracker.net` `www.cellphonespyappon.com` `www.freemobilespy.net` `www.freephonespy.net` `www.mobilespyfree.net` `www.spyren.com` `www.trackerfree.net` `www.xvids.us` `xvids.us`)
 * BlurSpy (`www.blurspy.com` `blurspy.com` `xoxospy.com`)
+* Boomrang (`useboomerang.com`)
 * BosSpy (`bosspy.com`)
 * Bulgok (`c-phone.ru`)
 * CallSMSTracker (`callsmstracker.com` `hiddensmstracker.com` `hiddensystemhealth.com` `registrations.smstracker.com` `smstracker.com` `smstrackerweb.com` `www.hiddensmstracker.com` `www.hiddensystemhealth.com` `www.smstrackerweb.com`)
@@ -85,9 +86,11 @@ This repository includes indicators for 151 applications (137 stalkerware and 14
 * EvaSpy (`evaspy.com` `login.evaspy.com` `spyrix.com` `www.spyrix.com`)
 * FamiSafe (`famisafe.wondershare.com` `famisafeapp.wondershare.com` `accounts.wondershare.com`)
 * FamiShield (`famishield.usibtheteam.com`)
+* FamilyOrbit (`familyorbit.com` `www.familyorbit.com`)
 * Fenced (`mobilespy.io` `fenced.ai` `web.mobilespy.io` `demo.fenced.ai` `web.fenced.ai` `admin.fenced.ai`)
 * FindMyKids (`findmykids.org` `discount.findmykids.org`)
 * FindMyPhone (`find-myphone.com`)
+* FlareFamilyLocator
 * FlashKeylogger (`flashkeylogger.com`)
 * FlexiSpy (`flexispy.com` `community.flexispy.com` `blog.flexispy.com` `www.flexispy.com` `mobilefonex.com` `mobileapps.com.my` `flexispy.mobileapps.com.my` `svlogin.asia`)
 * FreeAndroidSpy (`freeandroidspy.com`)
@@ -100,11 +103,14 @@ This repository includes indicators for 151 applications (137 stalkerware and 14
 * Intertel (`mobile-spy.co.za`)
 * KasperskySafeKids
 * KidSecured (`kidsecured.com`)
+* Kiddoware (`kiddoware.com`)
+* Kidgy (`kidgy.com`)
 * KidsControl (`kid-control.com` `kid-control.ru`)
 * KidsLox (`kidslox.com` `kidsloxsupport.zendesk.com` `www.advanced.kidslox.com`)
 * KidsShield (`backupsoft.eu` `freespyapp.com` `kidlogger.net` `kidsshield.net` `monitorminor.com.tr` `pc.freespyapp.com` `pc.selfspy.com` `selfspy.com` `spytrac.com` `techinnovative.net` `tifamily.net` `tispy.net` `tracerspy.net` `ua.tispy.net` `viptelefonprogrami.com` `www.kidlogger.net` `www.selfspy.com`)
 * LetMeSpy (`letmespy.com` `remotecommands.com` `www.letmespy.com` `www.teleszpieg.pl` `teleszpieg.pl` `bbiindia.com` `www.bbiindia.com`)
 * Life360 (`www.life360.com` `life360.com` `life360-wordpress.s3.amazonaws.com` `life360.zendesk.com`)
+* LockItTight (`www.lockittight.com` `lockittight.com`)
 * LoveSpy
 * MMGuardian (`www.mmguardian.com` `mmguardian.com` `family.mmguardian.com`)
 * Metasploit (`foreverspy.com`)
@@ -112,6 +118,7 @@ This repository includes indicators for 151 applications (137 stalkerware and 14
 * MicrosoftFamilySafe (`family.microsoft.com`)
 * MobiSpy (`mobispy.net`)
 * MobiStealth (`mobistealth.com` `www.mobistealth.com` `www.mobilestealthreview.com`)
+* MobileFence (`www.mobilefence.com` `mobilefence.com`)
 * MobileSpy (`de.mobilespy.at` `es.mobilespy.at` `fr.mobilespy.at` `it.mobilespy.at` `mobilespy.at` `pt.mobilespy.at` `ro.mobilespy.at` `www.mobilespy.at`)
 * MobileTool (`mobiletool.ru` `www.mobiletool.ru` `mtoolapp.net` `www.mtoolapp.net` `mtoolapp.biz`)
 * MobileTrackerFree (`br.mobile-tracker-free.com` `br.loverman.net` `celltracker.io` `loverman.net` `mobile-tracker-family.com` `mobile-tracker-free.be` `mobile-tracker-free.biz` `mobile-tracker-free.co` `mobile-tracker-free.com` `mobile-tracker-free.de` `mobile-tracker-free.es` `mobile-tracker-free.eu` `mobile-tracker-free.fr` `mobile-tracker-free.info` `mobile-tracker-free.ir` `mobile-tracker-free.it` `mobile-tracker-free.me` `mobile-tracker-free.mobi` `mobile-tracker-free.name` `mobile-tracker-free.net` `mobile-tracker-free.org` `support.mobile-tracker-free.com` `support.loverman.net` `mobile-tracker.mobi` `mobitrackapps.com`)
@@ -124,6 +131,7 @@ This repository includes indicators for 151 applications (137 stalkerware and 14
 * NemoSpy (`nemospy.com` `admin.nemospy.com`)
 * NeoSpy (`neospy.pro` `neospy.net` `neospy.tech` `ru.neospy.net`)
 * NetSpy (`www.netspy.net` `netspy.net`)
+* Netnanny (`www.netnanny.com` `netnanny.com`)
 * NexSpy (`nexspy.com` `oxy.nexspy.com` `mobilebackup.biz` `portal.mobilebackup.biz` `portal.topzaloha.cz`)
 * Observer (`www.observer.pw`)
 * OneLocator (`locatorprivacy.com` `onelocator.com`)
@@ -142,6 +150,7 @@ This repository includes indicators for 151 applications (137 stalkerware and 14
 * RioSPY (`www.riospy.net` `riospy.net`)
 * SMSForward
 * SecretCamRecorder
+* SeekDroid (`seekdroid.com`)
 * SentryPC (`www.sentrypc.com` `sentrypc.com`)
 * ShadowSpy (`shadow-logs.com` `shadow-spy.com` `www.shadow-logs.com` `www.shadow-spy.com`)
 * ShadySpy (`shadyspy.com` `www.shadyspy.com`)
@@ -183,6 +192,7 @@ This repository includes indicators for 151 applications (137 stalkerware and 14
 * Trackji (`trackji.com`)
 * Trackplus (`account.spytomobile.com` `forum.spytomobile.com` `spy2mobile.com` `spytomobile.com` `trackerplus.ru` `www.spy2mobile.com` `www.spytomobile.com`)
 * Tracku (`2mata.net` `clues4.com` `cluestr.com` `e-spy.org` `hike.in` `izkid.com` `www.e-spy.org` `www.izkid.com`)
+* Trulpe (`truple.io` `app.truple.io`)
 * Unisafe (`usafe.ru` `unisafe.su` `unisafe.techmas.ru`)
 * VIPTrack (`viptrack.ro`)
 * WebWatcher (`awarenesstechnologies.com` `interguardsoftware.com` `screentimelabs.com` `webwatcher.com` `www.webwatcher.com`)

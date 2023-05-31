@@ -4023,3 +4023,84 @@
   c2:
     domains:
     - wmdcommander.appspot.com
+
+- name: FlareFamilyLocator
+  type: watchware
+  packages:
+  - com.probit.flare
+
+- name: FamilyOrbit
+  type: watchware
+  websites:
+  - familyorbit.com
+  - www.familyorbit.com
+  c2:
+    domains:
+    - www.familyorbit.com
+
+- name: Trulpe
+  type: watchware
+  websites:
+  - truple.io
+  - app.truple.io
+  packages:
+  - com.camhart.netcountable
+
+- name: Boomrang
+  type: watchware
+  websites:
+  - useboomerang.com
+  packages:
+  - com.nationaledtech.Boomerang
+  certificates:
+  - E6157A76E1DCF43159529212009A0AA335499B7D
+
+- name: MobileFence
+  type: watchware
+  websites:
+  - www.mobilefence.com
+  - mobilefence.com
+  packages:
+  - com.mobilefence.family
+
+- name: Kidgy
+  type: watchware
+  websites:
+  - kidgy.com
+  packages:
+  - com.parental.control.kidgy
+
+- name: Kiddoware
+  type: watchware
+  websites:
+  - kiddoware.com
+  packages:
+  - com.kiddoware.kidsplace
+
+- name: Netnanny
+  type: watchware
+  websites:
+  - www.netnanny.com
+  - netnanny.com
+  packages:
+  - com.contentwatch.ghoti.cp2.child
+  distribution:
+  - install.netnanny.com
+  c2:
+    domains:
+    - parent.netnanny.com
+
+- name: SeekDroid
+  type: watchware
+  websites:
+  - seekdroid.com
+  packages:
+  - org.gtmedia.seekdroid
+
+- name: LockItTight
+  type: watchware
+  websites:
+  - www.lockittight.com
+  - lockittight.com
+  packages:
+  - com.timeon.litclient
