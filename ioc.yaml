@@ -1120,6 +1120,7 @@
   - br.com.galaxys.gameap
   - br.com.gamelevel.playstart
   - br.com.gamelevel.cloudv3
+  - com.tutorial.instalao
   certificates:
   - 77E86A5C583256B5A52A5AEEB70542CD1BE34A99
   - 3E929DB5941C185EA4FAC2B0D7BA7589D40A379E
@@ -1134,6 +1135,7 @@
   - 0AF3219D3A9525CB4A618215DB7A29CBFD9FFE78
   - 6B1DC3EAE0E8C59E7769A6E0A1BAA1938620A191
   - 8508603AE680C3BCDE91E6F909BF400F6DC878B4
+  - DD34B4E5125F07BA50738192FBE7B745785FC15A
   - AF113D18054A6B8DE74644BCE3F0AE41206B16AC
   - A7E75010B3709D54D52CCE914AF06946744F5F67
   - 53486B8F8790D1848E0842F37B5C6DFA15CD3EBB
@@ -2363,28 +2365,6 @@
   packages:
   - com.tools.secretcamcorder
 
-- name: WiseMo
-  names:
-  - WiseMo
-  type: watchware
-  packages:
-  - com.wisemo.host.v10
-  certificates:
-  - 9B48840CBF93379410172B4B85989624D2B33D59
-  websites:
-  - wisemo.com
-  - www.wisemo.com
-  c2:
-    domains:
-    - mycloud1.wisemo.com
-    - mycloud.wisemo.com
-    - mtracker.fortess.net
-    - mycloud-cs10.wisemo.com
-    - mycloud-cs17.wisemo.com
-    - mycloud-cs17a.wisemo.com
-    - mycloud-cs5a.wisemo.com
-    - mycloud-cs9.wisemo.com
-
 - name: Unisafe
   names:
   - Unisafe
@@ -2526,29 +2506,6 @@
     - phonetracker.com
     - phonetracker95gpsonly.firebaseio.com
 
-- name: FamiSafe
-  type: watchware
-  packages:
-  - com.wondershare.famisafe
-  - com.wondershare.famisafe.kids
-  certificates:
-  - 61B90229F79F730043D06FEE46BB8FD9E3A0E70B
-  - 095514BA4F28DBE521C74ABF77972BE3C86A50A5
-  websites:
-  - famisafe.wondershare.com
-  - famisafeapp.wondershare.com
-  - accounts.wondershare.com
-  c2:
-    domains:
-    - 300624.com
-    - analytics.300624.com
-    - api.wondershare.cc
-    - app-api-pro.wondershare.cc
-    - data-api.famisafe.com
-    - dc.wondershare.cc
-    - famisafe-b6807.firebaseio.com
-    - sparrow.wondershare.com
-
 - name: OneLocator
   names:
   - PhoneTrackerByNumber
@@ -2609,53 +2566,6 @@
     - 184.154.69.210
     domains:
     - realtime-spy-mobile.com
-
-- name: KasperskySafeKids
-  type: watchware
-  packages:
-  - com.kaspersky.safekids
-  c2:
-    domains:
-    - kaspersky-safe-kids.firebaseio.com
-
-- name: KidsControl
-  type: watchware
-  packages:
-  - app.gpsme
-  websites:
-  - kid-control.com
-  - kid-control.ru
-  c2:
-    domains:
-    - api.kid-control.com
-    - beta.kid-control.com
-    - ios.kid-control.com
-    - go.kid-control.com
-    - go2.kid-control.com
-    - gpsme1.kid-control.com
-    - s.kid-control.com
-    - s4.kid-control.com
-    - s5.kid-control.com
-    - s6.kid-control.com
-    - s7.kid-control.com
-    - s8.kid-control.com
-    - s9.kid-control.com
-    - s10.kid-control.com
-
-- name: FindMyKids
-  type: watchware
-  packages:
-  - org.findmykids.app
-  certificates:
-  - 2A57777E3B9491A37392AFCE2E69D030DBF95037
-  websites:
-  - findmykids.org
-  - discount.findmykids.org
-  c2:
-    domains:
-    - r.findmychilds.org
-    - wss.findmychilds.org
-    - where-is-my-children.firebaseio.com
 
 - name : jjspy
   names:
@@ -3410,21 +3320,6 @@
     - 103.147.225.210
     - 175.126.146.147
 
-- name: Accountable2you
-  type: watchware
-  packages:
-  - com.accountable2you.ap1
-  certificates:
-  - 78CFFA689DD23FDD7E84DDFBF28F86D4843C6129
-  websites:
-  - accountable2you.com
-  c2:
-    domains:
-    - accountable2you.com
-    - webservice.accountable2you.com
-    - accountable2you-android.firebaseio.com
-    - api.accountable2you.com
-
 - name: ShadySpy
   type: stalkerware
   packages:
@@ -3506,45 +3401,6 @@
   websites:
   - kidsecured.com
 
-- name: ZoeMob
-  type: watchware
-  packages:
-  - com.zoemob.gpstracking
-  certificates:
-  - F9761F7C7AA6317B667671CB8F66479970630EAD
-  websites:
-  - www.zoemob.com
-  - zoemob.com
-  - panel.zoemob.com
-  c2:
-    domains:
-    - apis.zoemob.com
-    - zoemob.firebaseio.com
-
-- name: Life360
-  type: watchware
-  packages:
-  - com.life360.android.safetymapd
-  certificates:
-  - 19C0868F028757F49FD8F7BDF39FF70C771D622B
-  websites:
-  - www.life360.com
-  - life360.com
-  - life360-wordpress.s3.amazonaws.com
-  - life360.zendesk.com
-  c2:
-    domains:
-    - gpi4.life360.com
-    - life360-dev.tile-api.com
-    - life360.atlassian.net
-    - life360-location-dev.tile-api.com
-    - gpi3.life360.com
-    - i.lf360.co
-    - gpi4.dev.life360.com
-    - life360feedback.typeform.com
-    - api-cloudfront.life360.com
-    - life360-com-l360safetycenter.firebaseio.com
-
 - name: Traccar
   names:
   - Traca
@@ -3566,53 +3422,6 @@
     - traccar-client-app.firebaseio.com
     - traccar.org
 
-- name: MicrosoftFamilySafe
-  type: watchware
-  packages:
-  - com.microsoft.familysafety
-  websites:
-  - family.microsoft.com
-  c2:
-    domains:
-    - location.family.microsoft.com
-    - mobileaggregator.family.microsoft.com
-    - safedriving.family.microsoft.com
-
-- name: GeoZilla
-  type: watchware
-  packages:
-  - com.geozilla.family
-  certificates:
-  - EE74E09E40A324B806AE5ED68A4543E50C3B6FC2
-  websites:
-  - geozilla.com
-  - geozillahelp.zendesk.com
-  c2:
-    domains:
-    - api.geozilla.com
-    - files.geozilla.com
-    - geozilla.autosmartins.com
-    - geozillafamily-c92d0.firebaseio.com
-    - geozillafamily.firebaseio.com
-    - iot.geozilla.com
-
-- name: KidsLox
-  type: watchware
-  packages:
-  - com.kidslox.app
-  certificates:
-  - 4BBD8F7E244B86B6B82F2A343EE8EDB5E797FEF8
-  websites:
-  - kidslox.com
-  - kidsloxsupport.zendesk.com
-  - www.advanced.kidslox.com
-  c2:
-    domains:
-    - kidslox.page.link
-    - kidslox.firebaseio.com
-    - activity.kdlparentalcontrol.com
-    - admin.kdlparentalcontrol.com
-
 - name: SpyNote
   names:
   - Scream
@@ -3627,20 +3436,6 @@
   c2:
     domains:
     - spynote.us
-
-- name: FamiShield
-  names:
-  - Mitbe
-  type: watchware
-  packages:
-  - com.USIB.Child.ChildControl
-  certificates:
-  - 4598FFB867E28560BC1198D61EC83A1CCA0F1612
-  websites:
-  - famishield.usibtheteam.com
-  c2:
-    domains:
-    - parental-control-d4a98-default-rtdb.asia-southeast1.firebasedatabase.app
 
 - name: FlashKeylogger
   names:
@@ -3725,14 +3520,6 @@
   - spytekonline.co.za
   - spytek.co.za
   - portal.spytek.co.za
-
-- name: Qustodio
-  type: watchware
-  websites:
-  - qustodio.com
-  - www.qustodio.com
-  packages:
-  - com.qustodio.qustodioapp
 
 - name: BosSpy
   type: stalkerware
@@ -3980,19 +3767,6 @@
     domains:
     - api.cp.onemonitar.com
 
-- name: MMGuardian
-  type: watchware
-  packages:
-  - com.mmguardian.parentapp
-  - com.mmguardian.tabletsecurity
-  - com.mmguardian.childapp
-  certificates:
-  - 842933609E604063B55C04BBB47763AC7C0FC327
-  websites:
-  - www.mmguardian.com
-  - mmguardian.com
-  - family.mmguardian.com
-
 - name: Android007
   names:
     - SpyBunker
@@ -4023,84 +3797,3 @@
   c2:
     domains:
     - wmdcommander.appspot.com
-
-- name: FlareFamilyLocator
-  type: watchware
-  packages:
-  - com.probit.flare
-
-- name: FamilyOrbit
-  type: watchware
-  websites:
-  - familyorbit.com
-  - www.familyorbit.com
-  c2:
-    domains:
-    - www.familyorbit.com
-
-- name: Trulpe
-  type: watchware
-  websites:
-  - truple.io
-  - app.truple.io
-  packages:
-  - com.camhart.netcountable
-
-- name: Boomrang
-  type: watchware
-  websites:
-  - useboomerang.com
-  packages:
-  - com.nationaledtech.Boomerang
-  certificates:
-  - E6157A76E1DCF43159529212009A0AA335499B7D
-
-- name: MobileFence
-  type: watchware
-  websites:
-  - www.mobilefence.com
-  - mobilefence.com
-  packages:
-  - com.mobilefence.family
-
-- name: Kidgy
-  type: watchware
-  websites:
-  - kidgy.com
-  packages:
-  - com.parental.control.kidgy
-
-- name: Kiddoware
-  type: watchware
-  websites:
-  - kiddoware.com
-  packages:
-  - com.kiddoware.kidsplace
-
-- name: Netnanny
-  type: watchware
-  websites:
-  - www.netnanny.com
-  - netnanny.com
-  packages:
-  - com.contentwatch.ghoti.cp2.child
-  distribution:
-  - install.netnanny.com
-  c2:
-    domains:
-    - parent.netnanny.com
-
-- name: SeekDroid
-  type: watchware
-  websites:
-  - seekdroid.com
-  packages:
-  - org.gtmedia.seekdroid
-
-- name: LockItTight
-  type: watchware
-  websites:
-  - www.lockittight.com
-  - lockittight.com
-  packages:
-  - com.timeon.litclient
