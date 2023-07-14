@@ -3211,6 +3211,8 @@
   - com.sec.provider.mobile.android
   websites:
   - www.spyequipmentuk.co.uk
+  certificates:
+  - 0DCD7C9CC6A76AD28D7D992C4EF3DF2F768EA473
   c2:
     ips:
     - 185.2.103.130
