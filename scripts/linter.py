@@ -21,13 +21,13 @@ ALL_ENTRIES = [
 ]
 
 
-def check_ioc_format(folder):
+def check_ioc_format(fpath):
     """
     Check format of network.yaml file
     """
     success = True
-    print("Checking ioc.yaml format")
-    with open(os.path.join(folder, "ioc.yaml")) as f:
+    print("Checking {} format".format(fpath))
+    with open(fpath) as f:
         r = yaml.load(f, Loader=yaml.BaseLoader)
 
     certs = []
@@ -193,7 +193,8 @@ if __name__ == "__main__":
         print("Invalid folder")
         sys.exit(1)
 
-    success = check_ioc_format(args.folder)
+    success = check_ioc_format(os.path.join(args.folder, "ioc.yaml"))
+    success = check_ioc_format(os.path.join(args.folder, "watchware.yaml"))
     success &= check_samples_format(args.folder)
 
     if success:

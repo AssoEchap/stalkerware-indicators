@@ -2,7 +2,7 @@ name: 'Create-IOC-Files'
 on:
   push:
     branches: ['research']
-    paths: ['ioc.yaml', 'samples.csv', 'README.tpl', 'vendors/']
+    paths: ['ioc.yaml', 'watchware.yaml', 'samples.csv', 'README.tpl', 'vendors/']
   workflow_dispatch:
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
         git config --local user.name  ${{ github.actor }}
         git config --local user.email  ${{ github.actor }}@localhost
         echo "Checkout required files"
-        git checkout origin/research -- ioc.yaml samples.csv README.tpl scripts rules.yar quad9_blocklist.txt vendors/*.yaml
+        git checkout origin/research -- ioc.yaml samples.csv README.tpl scripts rules.yar watchware.yaml vendors/*.yaml
     - name: Setup python
       uses: actions/setup-python@v2
       with:
@@ -33,6 +33,7 @@ jobs:
         git add generated/
         git add vendors/*.yaml
         git add ioc.yaml
+        git add watchware.yaml
         git add README.md
         git rm -rf -- README.tpl scripts
         git commit -m "Updating generated indicator files and README"
