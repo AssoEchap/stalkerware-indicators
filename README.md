@@ -54,6 +54,8 @@ Files generated automatically from previous Stalkerware IOC files:
 
 This repository includes indicators for 161 applications (137 stalkerware and 24 watchware) and 2912 samples
 
+List of stalkerware apps:
+
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Ahmyth
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
@@ -233,6 +235,7 @@ There are other repositories gathering stalkerware indicators:
 
 ## References
 
+* [Echap - Lutter contre les stalkerware](https://echap.eu.org/lutter-contre-les-stalkerwares/)
 * [Coalition against stalkerware](https://stopstalkerware.org/)
 * [Resources from the Clinic to End Tech Abuse](https://www.ceta.tech.cornell.edu/resources)
 * [The Predator in Your Pocket - A Multidisciplinary Assessment of the Stalkerware Application Industry](https://citizenlab.ca/2019/06/the-predator-in-your-pocket-a-multidisciplinary-assessment-of-the-stalkerware-application-industry/) by the Citizen Lab
