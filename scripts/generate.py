@@ -1,15 +1,24 @@
-import sys
-import os
-import yaml
+import argparse
 import csv
 import json
-import argparse
-from pathlib import Path
+import os
+import sys
 from collections import defaultdict
-from stix2.v21 import (Indicator, Malware, Relationship, Bundle, DomainName)
+from pathlib import Path
+
+import yaml
 from pymisp import MISPEvent
+from stix2.v21 import Bundle, DomainName, Indicator, Malware, Relationship
 
 QUAD9_ALLOWLIST = []
+
+
+def get_watchware(path):
+    with open(os.path.join(path, 'watchware.yaml')) as f:
+        r = yaml.load(f, Loader=yaml.BaseLoader)
+        data = list(r)
+
+    return data
 
 
 def get_indicators(path):
@@ -44,7 +53,7 @@ def get_indicators(path):
     return data
 
 
-def generate_hosts(output, iocs):
+def generate_hosts(output, iocs, watchware):
     """
     Generate host file
     """
@@ -54,10 +63,9 @@ def generate_hosts(output, iocs):
 
     domains = []
     for app in iocs:
-        if app.get("type", "") != "stalkerware":
-            continue
         for d in app.get("c2", {}).get("domains", []):
             domains.append(d)
+    domains = sorted(list(set(domains)))
 
     with open(fpath, 'w') as f:
         for d in sorted(domains):
@@ -72,6 +80,10 @@ def generate_hosts(output, iocs):
     for app in iocs:
         for d in app.get("c2", {}).get("domains", []):
             domains.append(d)
+    for app in watchware:
+        for d in app.get("c2", {}).get("domains", []):
+            domains.append(d)
+    domains = sorted(list(set(domains)))
 
     with open(fpath, 'w') as f:
         for d in sorted(domains):
@@ -146,7 +158,7 @@ def generate_network_csv(output, iocs):
     print(f"Generated {fpath}")
 
 
-def generate_stix(folder, iocs):
+def generate_stix(folder, iocs, watchware):
     """
     Generate STIX file
     FIXME: add IPs
@@ -157,9 +169,7 @@ def generate_stix(folder, iocs):
 
     res = []
     for app in iocs:
-        if app.get("type", "") != "stalkerware":
-            continue
-        malware = Malware(name=app["name"], is_family=False, description="Stalkerware applications")
+        malware = Malware(name=app["name"], is_family=False, description="Stalkerware application")
         res.append(malware)
         for d in app.get("c2", {}).get("domains", []):
             i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
@@ -188,8 +198,41 @@ def generate_stix(folder, iocs):
 
         for c in app.get("certificates", []):
             i = Indicator(indicator_types=["malicious-activity"], pattern="[app:cert.sha1='{}']".format(c), pattern_type="stix")
-        res.append(i)
-        res.append(Relationship(i, 'indicates', malware))
+            res.append(i)
+            res.append(Relationship(i, 'indicates', malware))
+
+    for app in watchware:
+        malware = Malware(name=app["name"], is_family=False, description="Watchware application")
+        res.append(malware)
+        for d in app.get("c2", {}).get("domains", []):
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
+            res.append(i)
+            res.append(Relationship(i, 'indicates', malware))
+
+        for d in app.get("websites", []):
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
+            res.append(i)
+            res.append(Relationship(i, 'indicates', malware))
+
+        for d in app.get("distribution", []):
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
+            res.append(i)
+            res.append(Relationship(i, 'indicates', malware))
+
+        for h in app.get("sha256", []):
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[file:hashes.sha256='{}']".format(h), pattern_type="stix")
+            res.append(i)
+            res.append(Relationship(i, 'indicates', malware))
+
+        for a in app.get("packages", []):
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[app:id='{}']".format(a), pattern_type="stix")
+            res.append(i)
+            res.append(Relationship(i, 'indicates', malware))
+
+        for c in app.get("certificates", []):
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[app:cert.sha1='{}']".format(c), pattern_type="stix")
+            res.append(i)
+            res.append(Relationship(i, 'indicates', malware))
 
     bundle = Bundle(objects=res)
     with open(fpath, "w+", encoding="utf-8") as f:
@@ -231,9 +274,6 @@ def load_mispevent(mispevent):
         domains = obj.get_attributes_by_relation('domain')
         for domain in domains:
             current_indicators_by_name[appname]['domains'].add(domain.value)
-        #ips = obj.get_attributes_by_relation('ip-dst')
-        #for ip in ips:
-            #current_indicators_by_name[appname]['ips'].add(ip.value)
         appids = obj.get_attributes_by_relation('appid')
         for appid in appids:
             current_indicators_by_name[appname]['appids'].add(appid.value)
@@ -294,8 +334,6 @@ def generate_quad9_blocklist(folder, iocs):
 
     with open(fpath, "w+") as f:
         for app in iocs:
-            if app.get("type", "") != "stalkerware":
-                continue
             for domain in app.get("c2", {}).get("domains", []):
                 if domain in QUAD9_ALLOWLIST:
                     continue
@@ -308,10 +346,11 @@ def generate_quad9_blocklist(folder, iocs):
     print(f"Generated {fpath}")
 
 
-def update_readme(output, iocs):
+def update_readme(output, iocs, watchware):
     """
     Update the README with an up to date list of stalkerware
     """
+
     opath = Path(output).parent / 'README.tpl'
     dpath = Path(output).parent / 'README.md'
     if not os.path.isfile(opath):
@@ -332,9 +371,9 @@ def update_readme(output, iocs):
 
     nb_samples = sum([len(a["sha256"]) for a in iocs])
     fout.write("This repository includes indicators for {} applications ({} stalkerware and {} watchware) and {} samples\n\n".format(
+        len(iocs) + len(watchware),
         len(iocs),
-        len([i for i in iocs if i["type"] == "stalkerware"]),
-        len([i for i in iocs if i["type"] == "watchware"]),
+        len(watchware),
         nb_samples)
     )
 
@@ -366,12 +405,13 @@ if __name__ == "__main__":
 
     # Read all indicators
     iocs = get_indicators(args.input)
+    watchware = get_watchware(args.input)
 
     generate_quad9_blocklist(args.output, iocs)
-    generate_hosts(args.output, iocs)
+    generate_hosts(args.output, iocs, watchware)
     generate_tinycheck(args.output, iocs)
     generate_network_csv(args.output, iocs)
-    generate_stix(args.output, iocs)
+    generate_stix(args.output, iocs, watchware)
     generate_suricata(args.output, iocs)
     generate_misp(args.output, iocs)
-    update_readme(args.output, iocs)
+    update_readme(args.output, iocs, watchware)

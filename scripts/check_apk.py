@@ -1,13 +1,14 @@
 import argparse
+import hashlib
 import os
 import sys
-import yaml
-import hashlib
-import yara
 from pathlib import Path
-from generate import get_indicators
-from androguard.core.bytecodes.apk import APK
+
+import yaml
+import yara
 from androguard.core import androconf
+from androguard.core.bytecodes.apk import APK
+from generate import get_indicators
 
 
 def search(value: str, db: dict, getter: type) -> str:
@@ -103,7 +104,7 @@ if __name__ == '__main__':
                     res = check(indicators, rules, apk_path)
                     if res:
                         suspicious.append(f)
-                        print("{} : identified as {} stalkerware ({})".format(f, "", ex))
+                        print("{} : identified as {} stalkerware ({})".format(f, "", res))
                     else:
                         print("{} : OK".format(f))
 

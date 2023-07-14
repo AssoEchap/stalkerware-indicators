@@ -36,18 +36,19 @@ Main files:
     * [Android Application Certificates](https://support.google.com/googleplay/android-developer/answer/9842756?hl=en)
     * List of websites
     * List of domains and IPs of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control)
-* `quad9_blocklist.txt`: blocklist for [Quad9 DNS resolver](https://www.quad9.net/) (include a more limited set of domains for apps clearly for stalking and only C2 domains, not app websites)
+* `watchware.yaml` : Indicators of compromise of watchware apps
 * `samples.csv`: List of samples with hashes, package name, certificate and version.
 
-Files generated automatically from previous IOC files:
+Files generated automatically from previous Stalkerware IOC files:
 
 * `generated/hosts`: network indicators (C2 stalkerware domains only) in hosts format
 * `generated/hosts_full`: network indicators (C2 domains only for both stalkerware and watchware) in hosts format
-* `generated/indicators-for-tinycheck.json`: indicators in [TinyCheck](https://github.com/KasperskyLab/TinyCheck) compatible format
-* `generated/misp_event.json`: indicators in [MISP](https://www.misp-project.org/) compatible format
-* `generated/network.csv`: network indicators in a more grepable CSV format
-* `generated/stalkerware.stix2`: indicators in [STIX2](https://oasis-open.github.io/cti-documentation/stix/intro) format
-* `generated/suricata.rules`: [Suricata](https://suricata.io/) rules for network indicators (C2 only)
+* `generated/indicators-for-tinycheck.json`: indicators in [TinyCheck](https://github.com/KasperskyLab/TinyCheck) compatible format (Stalkerware only)
+* `generated/misp_event.json`: indicators in [MISP](https://www.misp-project.org/) compatible format (Stalkerware only)
+* `generated/network.csv`: network indicators in a more grepable CSV format (Stalkerware only)
+* `generated/quad9_blocklist.txt`: blocklist for [Quad9 DNS resolver](https://www.quad9.net/)
+* `generated/stalkerware.stix2`: indicators in [STIX2](https://oasis-open.github.io/cti-documentation/stix/intro) format (stalkerware and watchware)
+* `generated/suricata.rules`: [Suricata](https://suricata.io/) rules for network indicators (Stalkerware C2 only)
 
 ## Stalkerware
 

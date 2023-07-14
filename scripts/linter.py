@@ -1,11 +1,11 @@
-import csv
 import argparse
-import os
-import sys
-import re
+import csv
 import ipaddress
-import yaml
+import os
+import re
+import sys
 
+import yaml
 
 ALL_ENTRIES = [
     "c2",

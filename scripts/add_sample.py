@@ -1,12 +1,13 @@
 import argparse
+import csv
+import hashlib
 import os
 import sys
-import hashlib
-import csv
 from pathlib import Path
-from generate import get_indicators
-from androguard.core.bytecodes.apk import APK
+
 from androguard.core import androconf
+from androguard.core.bytecodes.apk import APK
+from generate import get_indicators
 
 
 def get_infos(path):
