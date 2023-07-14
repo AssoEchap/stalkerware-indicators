@@ -376,6 +376,7 @@ def update_readme(output, iocs, watchware):
         len(watchware),
         nb_samples)
     )
+    fout.write("List of stalkerware apps:\n\n")
 
     for app in sorted(iocs, key=lambda x: x["name"]):
         if len(app.get("websites", [])) > 0:

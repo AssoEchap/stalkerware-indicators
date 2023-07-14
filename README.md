@@ -37,7 +37,6 @@ Main files:
     * List of websites
     * List of domains and IPs of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control)
 * `watchware.yaml` : Indicators of compromise of watchware apps
-* `quad9_blocklist.txt`: blocklist for [Quad9 DNS resolver](https://www.quad9.net/) (include a more limited set of domains for apps clearly for stalking and only C2 domains, not app websites)
 * `samples.csv`: List of samples with hashes, package name, certificate and version.
 
 Files generated automatically from previous Stalkerware IOC files:
@@ -47,12 +46,15 @@ Files generated automatically from previous Stalkerware IOC files:
 * `generated/indicators-for-tinycheck.json`: indicators in [TinyCheck](https://github.com/KasperskyLab/TinyCheck) compatible format (Stalkerware only)
 * `generated/misp_event.json`: indicators in [MISP](https://www.misp-project.org/) compatible format (Stalkerware only)
 * `generated/network.csv`: network indicators in a more grepable CSV format (Stalkerware only)
+* `generated/quad9_blocklist.txt`: blocklist for [Quad9 DNS resolver](https://www.quad9.net/)
 * `generated/stalkerware.stix2`: indicators in [STIX2](https://oasis-open.github.io/cti-documentation/stix/intro) format (stalkerware and watchware)
 * `generated/suricata.rules`: [Suricata](https://suricata.io/) rules for network indicators (Stalkerware C2 only)
 
 ## Stalkerware
 
-This repository includes indicators for 161 applications (137 stalkerware and 24 watchware) and 2910 samples
+This repository includes indicators for 161 applications (137 stalkerware and 24 watchware) and 2912 samples
+
+List of stalkerware apps:
 
 * AbsoluTrack (`absolutesoftsystem.in` `absolutestoreindia.com` `ass.absolutesoftsystem.in` `geniesoftsystem.com` `onetouchsecurities.com` `smartguardapp.com` `thiefguardbd.com` `www.smartguardapp.com`)
 * Ahmyth
@@ -233,6 +235,7 @@ There are other repositories gathering stalkerware indicators:
 
 ## References
 
+* [Echap - Lutter contre les stalkerware](https://echap.eu.org/lutter-contre-les-stalkerwares/)
 * [Coalition against stalkerware](https://stopstalkerware.org/)
 * [Resources from the Clinic to End Tech Abuse](https://www.ceta.tech.cornell.edu/resources)
 * [The Predator in Your Pocket - A Multidisciplinary Assessment of the Stalkerware Application Industry](https://citizenlab.ca/2019/06/the-predator-in-your-pocket-a-multidisciplinary-assessment-of-the-stalkerware-application-industry/) by the Citizen Lab
