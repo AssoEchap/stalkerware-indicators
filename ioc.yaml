@@ -3813,3 +3813,21 @@
   c2:
     domains:
     - mycloud.wisemo.com
+    - mycloud.wisemo.com
+
+- name: FindMyKids
+  type: stalkerware
+  websites:
+  - findmykids.org
+  packages:
+  - org.findmykids.app
+  - org.findmykids.child
+  certificates:
+  - 9B48840CBF93379410172B4B85989624D2B33D59
+  c2:
+    domains:
+    - api.findmykids.org
+    - r.findmykids.org
+    - wss.findmykids.org
+  distribution:
+  - fmk.god-xc.com
