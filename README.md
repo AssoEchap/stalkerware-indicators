@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 161 applications (137 stalkerware and 24 watchware) and 2914 samples
+This repository includes indicators for 162 applications (138 stalkerware and 24 watchware) and 2914 samples
 
 List of stalkerware apps:
 
@@ -178,6 +178,7 @@ List of stalkerware apps:
 * VIPTrack (`viptrack.ro`)
 * WebWatcher (`awarenesstechnologies.com` `interguardsoftware.com` `screentimelabs.com` `webwatcher.com` `www.webwatcher.com`)
 * WheresMyDroid (`wheresmydroid.com` `www.wheresmydroid.com` `wmdcommander.appspot.com`)
+* WiseMo (`www.wisemo.com` `wisemo.com`)
 * WtSpy (`wt-spy.com`)
 * XDSpy (`xdspy.app` `androidspy.info`)
 * XNSpy (`xnspy.com` `cp.xnspy.com`)
