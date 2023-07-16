@@ -3799,3 +3799,17 @@
   c2:
     domains:
     - wmdcommander.appspot.com
+
+- name: WiseMo
+  type: stalkerware
+  websites:
+  - www.wisemo.com
+  - wisemo.com
+  packages:
+  - com.wisemo.wsmguest.v18
+  - com.wisemo.host.v10
+  certificates:
+  - 9B48840CBF93379410172B4B85989624D2B33D59
+  c2:
+    domains:
+    - mycloud.wisemo.com
