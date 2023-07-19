@@ -868,6 +868,7 @@ api.cp.onemonitar.com
 onespy-in-d.s3.eu-central-1.amazonaws.com
 wmdcommander.appspot.com
 mycloud.wisemo.com
+mycloud1.wisemo.com
 mtracker.fortess.net
 api.findmykids.org
 r.findmykids.org

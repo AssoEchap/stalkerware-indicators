@@ -3813,6 +3813,7 @@
   c2:
     domains:
     - mycloud.wisemo.com
+    - mycloud1.wisemo.com
     - mtracker.fortess.net
 
 - name: FindMyKids
