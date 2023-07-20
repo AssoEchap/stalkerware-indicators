@@ -34,6 +34,7 @@ Main files:
 * `ioc.yaml` : Indicators of compromise of many Stalkerware apps. Includes
     * [Applications Package names](https://support.google.com/admob/answer/9972781)
     * [Android Application Certificates](https://support.google.com/googleplay/android-developer/answer/9842756?hl=en)
+    * [iOS Application bundle IDs](https://support.apple.com/guide/deployment/bundle-ids-for-native-iphone-and-ipad-apps-depece748c41/web)
     * List of websites
     * List of domains and IPs of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control)
 * `watchware.yaml` : Indicators of compromise of watchware apps

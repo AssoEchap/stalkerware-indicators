@@ -79,6 +79,8 @@
   type: watchware
   packages:
   - org.findmykids.app
+  ios_bundles:
+  - com.wheremychildren.ios
   certificates:
   - 2A57777E3B9491A37392AFCE2E69D030DBF95037
   websites:
@@ -124,6 +126,8 @@
   type: watchware
   packages:
   - com.life360.android.safetymapd
+  ios_bundles:
+  - com.life360.safetymap
   certificates:
   - 19C0868F028757F49FD8F7BDF39FF70C771D622B
   websites:
