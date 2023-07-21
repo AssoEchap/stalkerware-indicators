@@ -18,6 +18,7 @@ ALL_ENTRIES = [
     "packages",
     "type",
     "websites",
+    "ios_bundles",
 ]
 
 
@@ -30,11 +31,11 @@ def check_ioc_format(fpath):
     with open(fpath) as f:
         r = yaml.load(f, Loader=yaml.BaseLoader)
 
-    certs = []
     ips = []
     domains = []
     names = []
     websites = []
+    bundles = []
     for entry in r:
         if "name" not in entry:
             print("Entry {} without name".format(", ".join(entry.get("names", []))))
@@ -60,6 +61,7 @@ def check_ioc_format(fpath):
             success = False
 
         # Certificates
+        certs = []
         if not isinstance(entry.get("certificates", []), list):
             print("Invalid certificates format for {}".format(entry["name"]))
             success = False
@@ -127,6 +129,20 @@ def check_ioc_format(fpath):
         if not isinstance(entry.get("certificate_organizations", []), list):
             print("certificate_organizations must be a list for {}".format(entry.get("name", "")))
             success = False
+
+        # Check ios_bundles
+        if not isinstance(entry.get("ios_bundles", []), list):
+            print("ios_bundles of {} must be a list".format(entry.get("name", "")))
+            success = False
+
+        for b in entry.get("ios_bundles", []):
+            if b in bundles:
+                print("Duplicated ios bundle: {}".format(b))
+                success = False
+            else:
+                bundles.append(b)
+
+
 
         # Check entry names
         for key in entry:
