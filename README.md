@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 163 applications (139 stalkerware and 24 watchware) and 2914 samples
+This repository includes indicators for 164 applications (139 stalkerware and 25 watchware) and 2914 samples
 
 List of stalkerware apps:
 

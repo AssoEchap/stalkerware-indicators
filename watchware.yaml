@@ -216,6 +216,18 @@
   - www.qustodio.com
   packages:
   - com.qustodio.qustodioapp
+  ios_bundles:
+  - com.qustodio.par.qustodio-family-parental-control-app
+  - com.qustodio.mdm.app.family.pro
+
+- name: ScreenTime
+  type: watchware
+  websites:
+  - screentimelabs.com
+  packages:
+  - com.screentime.rc
+  ios_bundles:
+  - com.screentime
 
 - name: MMGuardian
   type: watchware
@@ -290,6 +302,8 @@
   - netnanny.com
   packages:
   - com.contentwatch.ghoti.cp2.child
+  ios_bundles:
+  - com.contentwatch.ghoti.cp2.parent
   distribution:
   - install.netnanny.com
   c2:
