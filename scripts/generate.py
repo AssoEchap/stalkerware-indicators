@@ -196,6 +196,11 @@ def generate_stix(folder, iocs, watchware):
             res.append(i)
             res.append(Relationship(i, 'indicates', malware))
 
+        for a in app.get("ios_bundles", []):
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[app:id='{}']".format(a), pattern_type="stix")
+            res.append(i)
+            res.append(Relationship(i, 'indicates', malware))
+
         for c in app.get("certificates", []):
             i = Indicator(indicator_types=["malicious-activity"], pattern="[app:cert.sha1='{}']".format(c), pattern_type="stix")
             res.append(i)
@@ -225,6 +230,11 @@ def generate_stix(folder, iocs, watchware):
             res.append(Relationship(i, 'indicates', malware))
 
         for a in app.get("packages", []):
+            i = Indicator(indicator_types=["malicious-activity"], pattern="[app:id='{}']".format(a), pattern_type="stix")
+            res.append(i)
+            res.append(Relationship(i, 'indicates', malware))
+
+        for a in app.get("ios_bundles", []):
             i = Indicator(indicator_types=["malicious-activity"], pattern="[app:id='{}']".format(a), pattern_type="stix")
             res.append(i)
             res.append(Relationship(i, 'indicates', malware))
