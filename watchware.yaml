@@ -255,6 +255,11 @@
   c2:
     domains:
     - www.familyorbit.com
+    - www.familyorbit.net
+  packages:
+  - com.familyorbit.child
+  certificates:
+  - DB8DF9C3D6524B298F3EAD22E6A77D7FB2F1003A
 
 - name: Trulpe
   type: watchware
