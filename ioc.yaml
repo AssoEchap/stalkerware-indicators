@@ -2070,8 +2070,10 @@
     ips:
     - 91.121.70.22
     domains:
-    - senseye.spymasterpro.com
+    - cpcalendars.spymasterpro.com
+    - cpcontacts.spymasterpro.com
     - imobispy.com
+    - senseye.spymasterpro.com
     - spymaster-e535b.firebaseio.com
 
 - name: FreeAndroidSpy
