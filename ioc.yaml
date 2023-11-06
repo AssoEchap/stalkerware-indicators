@@ -1080,11 +1080,13 @@
     - hz7.thd.cc
     - jailbreak-gateway.thd.cc
     - kypler.com
+    - m-media.thd.cc
     - mcloud-api.thd.cc
     - mi.thd.cc
     - mlite-app.thd.cc
     - mlite-socket.thd.cc
     - mliteapp.alter757.info
+    - mobile-gw.thd.cc
     - mspy.alter757.info
     - mspyonline.com
     - mspytrackercom.alter757.info
@@ -1095,6 +1097,13 @@
     - q12z.net
     - repo.mspyonline.com
     - s3.thd.cc
+    - sentry-01.thd.cc
+    - sentry-02.thd.cc
+    - sentry-03.thd.cc
+    - sentry-04.thd.cc
+    - sentry-05.thd.cc
+    - sentry-06.thd.cc
+    - sentry-07.thd.cc
     - thd.cc
     - tracking.mliteapp.com
     - tracking.mspyonline.com
@@ -2199,6 +2208,7 @@
   c2:
     domains:
     - aovivo.foxspy.com.br
+    - api007.foxspy.com.br
     - pc.foxspy.com.br
     - celular007.s3.amazonaws.com
 
