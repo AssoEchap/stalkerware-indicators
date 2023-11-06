@@ -2208,6 +2208,7 @@
   c2:
     domains:
     - aovivo.foxspy.com.br
+    - api007.foxspy.com.br
     - pc.foxspy.com.br
     - celular007.s3.amazonaws.com
 
