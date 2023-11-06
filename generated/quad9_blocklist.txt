@@ -38,6 +38,11 @@ media-sync-a935.thetruthspy.com
 media-sync-a940.thetruthspy.com
 media-sync-a941.thetruthspy.com
 media-sync-a942.thetruthspy.com
+media-sync-a943.thetruthspy.com
+media-sync-a944.thetruthspy.com
+media-sync-a945.thetruthspy.com
+media-sync-a946.thetruthspy.com
+media-sync-a947.thetruthspy.com
 media-sync.systemserviceprovider.com
 media.thetruthspy.com
 microtracker-1ca43.firebaseio.com
