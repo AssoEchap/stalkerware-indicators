@@ -614,8 +614,10 @@ server.androidmonitor.com
 installam.com
 talklog.tools
 tchsrvce.com
-senseye.spymasterpro.com
+cpcalendars.spymasterpro.com
+cpcontacts.spymasterpro.com
 imobispy.com
+senseye.spymasterpro.com
 spymaster-e535b.firebaseio.com
 server.freeandroidspy.com
 spysetup.com

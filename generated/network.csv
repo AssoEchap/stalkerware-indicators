@@ -658,8 +658,10 @@ domain,installam.com,AndroidMonitor
 domain,talklog.tools,TalkLog
 domain,tchsrvce.com,TalkLog
 ipv4,78.46.34.14,TalkLog
-domain,senseye.spymasterpro.com,SpyMasterPro
+domain,cpcalendars.spymasterpro.com,SpyMasterPro
+domain,cpcontacts.spymasterpro.com,SpyMasterPro
 domain,imobispy.com,SpyMasterPro
+domain,senseye.spymasterpro.com,SpyMasterPro
 domain,spymaster-e535b.firebaseio.com,SpyMasterPro
 ipv4,91.121.70.22,SpyMasterPro
 domain,server.freeandroidspy.com,FreeAndroidSpy

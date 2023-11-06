@@ -193,7 +193,7 @@ List of stalkerware apps:
 * mSpy (`cart.mspy.com` `mliteapp.com` `mspy.co.il` `mspy.co.uk` `mspy.com` `mspy.com.ar` `mspy.com.br` `mspy.com.cn` `mspy.fr` `mspy.in` `mspy.it` `mspy.jp` `mspy.net` `mspy.nl` `mspy.support` `mspylite.com` `mspyplus.com` `www.eyezy.com` `mspyonline.com` `myfonemate.com` `theispyoo.com` `www.mspyonline.com` `www.mspy.com` `freefonespy.com`)
 * mSpyitaly (`dc-407883c18502.mspyitaly.com` `mspyitaly.com` `www.mspyitaly.com`)
 * pcTattletale (`www.pctattletale.com`)
-* uMobix (`umobix.com` `n.umobix.com` `spyfer.info` `surveillance-enfants.com`)
+* uMobix (`umobix.com` `n.umobix.com` `tt.umobix.com` `spyfer.info` `surveillance-enfants.com`)
 * xHunter
 
 ## Notable users
