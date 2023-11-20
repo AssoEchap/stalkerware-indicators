@@ -116,6 +116,11 @@
     - media-sync-a940.thetruthspy.com
     - media-sync-a941.thetruthspy.com
     - media-sync-a942.thetruthspy.com
+    - media-sync-a943.thetruthspy.com
+    - media-sync-a944.thetruthspy.com
+    - media-sync-a945.thetruthspy.com
+    - media-sync-a946.thetruthspy.com
+    - media-sync-a947.thetruthspy.com
     - media-sync.systemserviceprovider.com
     - media.thetruthspy.com
     - microtracker-1ca43.firebaseio.com
@@ -1080,11 +1085,13 @@
     - hz7.thd.cc
     - jailbreak-gateway.thd.cc
     - kypler.com
+    - m-media.thd.cc
     - mcloud-api.thd.cc
     - mi.thd.cc
     - mlite-app.thd.cc
     - mlite-socket.thd.cc
     - mliteapp.alter757.info
+    - mobile-gw.thd.cc
     - mspy.alter757.info
     - mspyonline.com
     - mspytrackercom.alter757.info
@@ -1095,6 +1102,13 @@
     - q12z.net
     - repo.mspyonline.com
     - s3.thd.cc
+    - sentry-01.thd.cc
+    - sentry-02.thd.cc
+    - sentry-03.thd.cc
+    - sentry-04.thd.cc
+    - sentry-05.thd.cc
+    - sentry-06.thd.cc
+    - sentry-07.thd.cc
     - thd.cc
     - tracking.mliteapp.com
     - tracking.mspyonline.com
@@ -1737,6 +1751,7 @@
   websites:
   - umobix.com
   - n.umobix.com
+  - tt.umobix.com
   - spyfer.info
   - surveillance-enfants.com
   c2:
@@ -2056,8 +2071,10 @@
     ips:
     - 91.121.70.22
     domains:
-    - senseye.spymasterpro.com
+    - cpcalendars.spymasterpro.com
+    - cpcontacts.spymasterpro.com
     - imobispy.com
+    - senseye.spymasterpro.com
     - spymaster-e535b.firebaseio.com
 
 - name: FreeAndroidSpy
@@ -2199,6 +2216,7 @@
   c2:
     domains:
     - aovivo.foxspy.com.br
+    - api007.foxspy.com.br
     - pc.foxspy.com.br
     - celular007.s3.amazonaws.com
 
