@@ -231,7 +231,7 @@ If you want to do further research on some apps and need access to the samples, 
 
 There are other repositories gathering stalkerware indicators:
 * [ch33r10 stalkerware list](https://github.com/ch33r10/Stalkerware/tree/master/IOCs)
-* [astryzia](https://github.com/astryzia/stalkerware-urls)
+* [astryzia](https://web.archive.org/web/20210628103647/https://github.com/astryzia/stalkerware-urls) (no longer exists)
 * [diskurse android stalkerware](https://github.com/diskurse/android-stalkerware)
 * [TinyCheck IOCs](https://github.com/KasperskyLab/TinyCheck/blob/main/assets/iocs.json)
 
