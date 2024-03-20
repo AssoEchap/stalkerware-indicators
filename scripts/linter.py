@@ -60,6 +60,11 @@ def check_ioc_format(fpath):
             print("Invalid packages format for {}".format(entry["name"]))
             success = False
 
+        packages = entry.get("packages", [])
+        if len(packages) != len(set(packages)):
+            print("Duplicated package name for {}".format(entry["name"]))
+            success = False
+
         # Certificates
         certs = []
         if not isinstance(entry.get("certificates", []), list):

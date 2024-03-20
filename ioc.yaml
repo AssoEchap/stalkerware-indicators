@@ -2863,7 +2863,6 @@
   packages:
   - com.protect
   - com.aixlunro.uqfhkagb
-  - com.aixlunro.uqfhkagb
   - com.bzbqbkya.hgozttiu
   - com.gzomoyig.qwgawtaz
   - com.android.inputmethod.latinmy
@@ -2881,6 +2880,7 @@
   - net.kidlogger.kidlogger
   - net.teslineservice.kidl5
   - net.someapp1.somecorp2
+  - com.fhekpqbq.otlzonjx
   websites:
   - backupsoft.eu
   - freespyapp.com
@@ -2916,6 +2916,7 @@
   - AA4F85CD7C24116BB51FA733BE59290B7BB8C204
   - F575CA9980D3075CF728F2081D9EC5F910CC17E8
   - FD84821C80C1499A2446F6F7E13BF8BDA6A66402
+  - 77C411957F307F6B971C7C07825CA5EA06F0E36D
   certificate_cname_re:
   - ^Kids\WSafety\W[0-9]{2}-[0-9]{2}-[0-9]{2,4}\W[0-9]{2}:[0-9]{2}:[0-9]{2}$
   certificate_organizations:
