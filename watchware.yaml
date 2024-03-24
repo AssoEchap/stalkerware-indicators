@@ -329,3 +329,15 @@
   - lockittight.com
   packages:
   - com.timeon.litclient
+
+- name: SafeNet
+  type: watchware
+  websites:
+    - safenet.family
+  packages:
+    - com.cisai.safenetchild
+  certificates:
+    - 7F0D7ED5D614B03962014483E654A215A40F029F
+  c2:
+    ips:
+      - 103.10.24.124
