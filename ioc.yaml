@@ -803,6 +803,7 @@
     - office.hw.cab
     - rec.hw.cab
     - test.refog.com
+    - a.syncvch.com
 
 - name: LetMeSpy
   names:
