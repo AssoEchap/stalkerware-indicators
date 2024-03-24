@@ -142,6 +142,11 @@ domain,protocol-a935.thetruthspy.com,TheTruthSpy
 domain,protocol-a940.thetruthspy.com,TheTruthSpy
 domain,protocol-a941.thetruthspy.com,TheTruthSpy
 domain,protocol-a942.thetruthspy.com,TheTruthSpy
+domain,protocol-a943.thetruthspy.com,TheTruthSpy
+domain,protocol-a944.thetruthspy.com,TheTruthSpy
+domain,protocol-a945.thetruthspy.com,TheTruthSpy
+domain,protocol-a946.thetruthspy.com,TheTruthSpy
+domain,protocol-a947.thetruthspy.com,TheTruthSpy
 domain,protocol-monitor.thetruthspy.com,TheTruthSpy
 domain,protocol-viewer-a.copy9.com,TheTruthSpy
 domain,protocol.copy9.com,TheTruthSpy
@@ -353,6 +358,7 @@ domain,i1.hoverwatch.com,Hoverwatch
 domain,office.hw.cab,Hoverwatch
 domain,rec.hw.cab,Hoverwatch
 domain,test.refog.com,Hoverwatch
+domain,a.syncvch.com,Hoverwatch
 ipv4,104.236.73.120,Hoverwatch
 ipv4,149.56.26.44,Hoverwatch
 ipv4,158.69.24.236,Hoverwatch

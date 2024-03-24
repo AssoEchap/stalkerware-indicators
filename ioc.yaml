@@ -220,6 +220,11 @@
     - protocol-a940.thetruthspy.com
     - protocol-a941.thetruthspy.com
     - protocol-a942.thetruthspy.com
+    - protocol-a943.thetruthspy.com
+    - protocol-a944.thetruthspy.com
+    - protocol-a945.thetruthspy.com
+    - protocol-a946.thetruthspy.com
+    - protocol-a947.thetruthspy.com
     - protocol-monitor.thetruthspy.com
     - protocol-viewer-a.copy9.com
     - protocol.copy9.com
@@ -715,6 +720,7 @@
   - com.android.core.monitor
   - com.android.core.mnt
   - com.android.core.mnta
+  - com.android.core.mntah
   - com.android.core.mntb
   - com.android.core.mntd
   - com.android.core.mnte
@@ -741,15 +747,16 @@
   - com.android.core.mntz
   - cmf0.c3b5bm90zq.patch
   certificates:
-  - CC4A78DBE96AC1FA5977E03C97052A9A334113B4
-  - E8FF1077D207E47AB4B53F275C437C0889579658
-  - F21ECAFCFF000686E8EC090F1ECDAECE08798BFF
-  - AFC457A96258490FBC284EE889634B5F3E325B8E
   - 0E0BE37D31CA21F19095FC38F9F1BEF310CE227C
   - 4F6AD2383DADACCF93EA5BE4300571C315DBDF5B
   - 5284272445CE993DE601BB23CAE6BA9E43E4589C
-  - 64403A61F41848F987D6FD0BE00392E9561A0EF7
   - 6144ED2E25B6F3A5FAFCF914965CA071A685674B
+  - 64403A61F41848F987D6FD0BE00392E9561A0EF7
+  - AFC457A96258490FBC284EE889634B5F3E325B8E
+  - B6B58148F1B2198C94BDE546FD2E0734EC7838D6
+  - CC4A78DBE96AC1FA5977E03C97052A9A334113B4
+  - E8FF1077D207E47AB4B53F275C437C0889579658
+  - F21ECAFCFF000686E8EC090F1ECDAECE08798BFF
   websites:
   - br.refog.com
   - de.refog.com
@@ -796,6 +803,7 @@
     - office.hw.cab
     - rec.hw.cab
     - test.refog.com
+    - a.syncvch.com
 
 - name: LetMeSpy
   names:
@@ -1043,6 +1051,7 @@
   - 7FFE6DA96346FEE822E1F791176CD6970A1DC770
   - 3E1A6646C93A7423A25104A88DA5BECE2F35EFF0
   - CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
+  - FE821A533BDC31822D9EB5F98243EB16917C8EE7
   websites:
   - cart.mspy.com
   - mliteapp.com
