@@ -2859,13 +2859,13 @@
 
 - name : KidsShield
   names:
+  - TiSpy
   - KidLogger
   - MonitorMinor
   - SelfSpy
   - SpyTrac
   - TelcadoAndroid
   - TiFamily
-  - TiSpy
   - TracerSpy
   - Triada
   - VipTelefonProgrami
@@ -2909,6 +2909,7 @@
   - viptelefonprogrami.com
   - www.kidlogger.net
   - www.selfspy.com
+  - ua.tispy.me
   certificates:
   - 0D025A887A1546585D9BBA6F023F42B8BE0274E1
   - 1A6D10E15280C6A938EED9BEF53A31DA0CEBA45A

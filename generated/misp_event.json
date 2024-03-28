@@ -41302,6 +41302,24 @@
           "disable_correlation": false,
           "to_ids": true,
           "category": "Payload delivery"
+        },
+        {
+          "uuid": "7ba7d84c-4b66-4b18-b1fe-ed2e3d5d844b",
+          "object_relation": "sha256",
+          "value": "0d8befa2d86f456dcaea8e14ed3d3d84fb3f523eb1168530660027be6bbc516f",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
+        },
+        {
+          "uuid": "3af16745-8bb0-4fe3-aad9-d2e05b11f1e8",
+          "object_relation": "sha256",
+          "value": "6036c7a66bfc662470d6cf33890a4b8921fa0cb373dedb398c11b7ebe4d35d46",
+          "type": "sha256",
+          "disable_correlation": false,
+          "to_ids": true,
+          "category": "Payload delivery"
         }
       ],
       "distribution": "5",
@@ -69004,6 +69022,258 @@
       "Attribute": [
         {
           "uuid": "1b47c68a-8634-4e65-8931-7486ef7b2bc5",
+          "object_relation": "name",
+          "value": "RioSPY",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "da2b3fa4-7c5c-4f0e-8498-f815552b6558",
+      "Attribute": [
+        {
+          "uuid": "ae68d940-96d5-4577-aacc-358469048648",
+          "object_relation": "name",
+          "value": "juju",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "fabede01-ccf7-41ea-aac4-d54b79b71d5d",
+      "Attribute": [
+        {
+          "uuid": "4aab5619-16c0-4ef3-b8da-ca4f1c356a92",
+          "object_relation": "name",
+          "value": "mSpyitaly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "a9a75081-9df8-4cad-904f-86400aa3ad09",
+      "Attribute": [
+        {
+          "uuid": "4b1a9669-ead1-4d52-9a28-b7839b3038e6",
+          "object_relation": "name",
+          "value": "KidSecured",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "624d1145-5a26-4bd5-a4da-c714234cfc61",
+      "Attribute": [
+        {
+          "uuid": "a1e2dd4f-610f-4458-84a9-42500ae859eb",
+          "object_relation": "name",
+          "value": "SpyTec",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "1e7574b6-35c4-458f-a6af-551d9357ce3e",
+      "Attribute": [
+        {
+          "uuid": "bd4f16df-3f55-4a15-ba06-75ad4831fcc9",
+          "object_relation": "name",
+          "value": "SpyTek",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "d19ad263-55b2-4e5a-9b61-75276a96bcc5",
+      "Attribute": [
+        {
+          "uuid": "fad925dc-2d29-4271-8442-48145becdbb0",
+          "object_relation": "name",
+          "value": "Intertel",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "c5ba723a-7d58-4245-b22f-0a6edcbfb349",
+      "Attribute": [
+        {
+          "uuid": "c12f2aef-e609-4204-9d5c-d07e1a02292b",
+          "object_relation": "name",
+          "value": "SpyFly",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "b5ef4088-52fa-4c0e-bed8-448bffa134ef",
+      "Attribute": [
+        {
+          "uuid": "65b16d0e-19d5-4763-8dbf-8b6898009816",
+          "object_relation": "name",
+          "value": "MocoSpy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "510d9b13-97a1-43c1-a31a-32667d4eb285",
+      "Attribute": [
+        {
+          "uuid": "5b778538-81ac-4453-abb7-878ba7211f9d",
+          "object_relation": "name",
+          "value": "MzanziSpy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "364070db-2bc3-47c1-9f23-52e6641a32ea",
+      "Attribute": [
+        {
+          "uuid": "77416951-f3ed-454a-ae6a-ec26d4cbd859",
+          "object_relation": "name",
+          "value": "RecomSpy",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "40ace6de-b478-40bc-975e-819ec9afe895",
+      "Attribute": [
+        {
+          "uuid": "e083c35f-4e2a-4843-9904-50e2ba7c2806",
+          "object_relation": "name",
+          "value": "Android007",
+          "type": "text",
+          "disable_correlation": false,
+          "to_ids": false,
+          "category": "Other"
+        }
+      ],
+      "distribution": "5",
+      "sharing_group_id": "0"
+    },
+    {
+      "name": "android-app",
+      "meta-category": "file",
+      "template_uuid": "92836f23-4730-4eae-82ac-9f00d5299735",
+      "description": "Indicators related to an Android app",
+      "template_version": "1",
+      "uuid": "50673443-8b26-4cfb-818e-4ed1b016bbe6",
+      "Attribute": [
+        {
+          "uuid": "7b7a5baf-149e-4212-b00e-1f2673d23083",
           "object_relation": "name",
           "value": "RioSPY",
           "type": "text",
