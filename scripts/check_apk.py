@@ -6,8 +6,9 @@ from pathlib import Path
 
 import yaml
 import yara
+from loguru import logger
 from androguard.core import androconf
-from androguard.core.bytecodes.apk import APK
+from androguard.core.apk import APK
 from generate import get_indicators
 
 
@@ -86,6 +87,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Check an APK for known malicious indicators')
     parser.add_argument('APK', help='APK file or folder with APKs in it')
     args = parser.parse_args()
+
+    # Disable androguard logging
+    logger.disable("androguard")
 
     indicator_path = Path(__file__).parent.parent.absolute()
     indicators = get_indicators(indicator_path)

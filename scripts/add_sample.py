@@ -4,9 +4,10 @@ import hashlib
 import os
 import sys
 from pathlib import Path
+from loguru import logger
 
 from androguard.core import androconf
-from androguard.core.bytecodes.apk import APK
+from androguard.core.apk import APK
 from generate import get_indicators
 
 
@@ -44,6 +45,9 @@ if __name__ == '__main__':
     parser.add_argument("APK", help="APK file")
     parser.add_argument("NAME", help="App name")
     args = parser.parse_args()
+
+    # Disable androguard logging
+    logger.disable("androguard")
 
     sample_path = os.path.join(Path(__file__).parent.parent.absolute(), "samples.csv")
 
