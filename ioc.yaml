@@ -2859,13 +2859,13 @@
 
 - name : KidsShield
   names:
+  - TiSpy
   - KidLogger
   - MonitorMinor
   - SelfSpy
   - SpyTrac
   - TelcadoAndroid
   - TiFamily
-  - TiSpy
   - TracerSpy
   - Triada
   - VipTelefonProgrami
