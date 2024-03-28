@@ -192,3 +192,15 @@ rule italianstalkerware : stalkerware {
     condition:
         uint16(0) == 0x6564 and 4 of them
 }
+
+rule tispy : stalkerware {
+    meta:
+        ref = "https://github.com/AssoEchap/stalkerware-indicators"
+        sha256 = "0d8befa2d86f456dcaea8e14ed3d3d84fb3f523eb1168530660027be6bbc516f"
+
+    strings:
+        $func = { 6E 10 3? 01 06 00 0C 02 6E 10 3? 01 05 00 0C 00 71 10 ?? 00 00 00 0C 03 12 00 21 31 35 10 1A 00 48 01 03 00 21 24 94 04 00 04 48 04 02 04 B1 41 13 04 80 FF 35 41 08 00 D9 01 01 80 D9 01 01 7F }
+
+    condition:
+        uint16(0) == 0x6564 and $func
+}
