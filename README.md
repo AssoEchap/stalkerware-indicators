@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 165 applications (139 stalkerware and 26 watchware) and 2961 samples
+This repository includes indicators for 166 applications (140 stalkerware and 26 watchware) and 2961 samples
 
 List of stalkerware apps:
 
@@ -101,6 +101,7 @@ List of stalkerware apps:
 * KidsShield (`backupsoft.eu` `freespyapp.com` `kidlogger.net` `kidsshield.net` `monitorminor.com.tr` `pc.freespyapp.com` `pc.selfspy.com` `selfspy.com` `spytrac.com` `techinnovative.net` `tifamily.net` `tispy.net` `tracerspy.net` `ua.tispy.net` `viptelefonprogrami.com` `www.kidlogger.net` `www.selfspy.com` `ua.tispy.me`)
 * LetMeSpy (`letmespy.com` `remotecommands.com` `www.letmespy.com` `www.teleszpieg.pl` `teleszpieg.pl` `bbiindia.com` `www.bbiindia.com`)
 * LoveSpy
+* MagMonitor (`maglook.eu`)
 * Metasploit (`foreverspy.com`)
 * MeuSpy (`meuspy.com` `monitorecell.com.br` `espiao.meuspy.com` `www.espiaodecelulargratis.com.br` `espiaodecelulargratis.com.br`)
 * MobiSpy (`mobispy.net`)
