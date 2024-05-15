@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 167 applications (141 stalkerware and 26 watchware) and 2961 samples
+This repository includes indicators for 168 applications (142 stalkerware and 26 watchware) and 2961 samples
 
 List of stalkerware apps:
 
@@ -163,12 +163,13 @@ List of stalkerware apps:
 * Spyier (`spyier.com`)
 * Spylix (`spylix.com` `www.spylix.com`)
 * Spymie
+* Spyone (`spyone.pl`)
 * SpyphoneMobileTracker (`phonetracker.com` `www.phonetracker.com` `spyfone.com` `spyphone.com` `www.spyphone.com` `spy-phone-app.com`)
 * Spyzier
 * SwiftMobileSpy (`pc.myswiftmobilespy.co.za` `swiftmobilespy.co.za`)
 * TalkLog (`talklog.tools`)
 * TheOneSpy (`theonespy.com` `ogymogy.com` `www.theonespy.com`)
-* TheTruthSpy (`app.phonespying.com` `copy9.com` `exactspy.com` `fonetracker.com` `free.spycell.net` `guestspy.com` `hespyapp.com` `innoaspy.com` `ispyoo.com` `mobidad.app` `mobilespyonline.com` `mxspy.com` `phonespying.com` `phonetracking.net` `secondclone.com` `spyapps.net` `spycell.net` `thespyapp.com` `thetruthspy.com` `weysys.com` `www.mxspy.com` `www.phonespying.com` `xpspy.com`)
+* TheTruthSpy (`app.phonespying.com` `copy9.com` `exactspy.com` `fonetracker.com` `free.spycell.net` `guestspy.com` `hespyapp.com` `innoaspy.com` `ispyoo.com` `mobidad.app` `mobilespyonline.com` `mxspy.com` `phonespying.com` `phonetracking.net` `secondclone.com` `spyapps.net` `spycell.net` `thespyapp.com` `thetruthspy.com` `weysys.com` `www.mxspy.com` `www.phonespying.com` `xpspy.com` `inospy.com`)
 * TheWiSpy (`www.thewispy.com` `childmonitoringsystem.com`)
 * Traccar (`www.traccar.org` `demo.traccar.org` `traccar.org`)
 * TrackMyPhones (`trackmyphones.com` `www.trackmyphones.com`)

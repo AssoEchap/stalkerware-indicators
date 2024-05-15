@@ -1,6 +1,7 @@
 - name: TheTruthSpy
   names:
   - Copy9
+  - InoSPy
   - ExactSpy
   - FoneTracker
   - GuestSpy
@@ -65,6 +66,7 @@
   - www.mxspy.com
   - www.phonespying.com
   - xpspy.com
+  - inospy.com
   distribution:
     - app.fonetracker.com
     - app.mobiletracking.app
@@ -132,6 +134,7 @@
     - my.thespyapp.com
     - phonespying.com
     - phonetracking.net
+    - protocol.inospy.com
     - protocol-a.copy9.com
     - protocol-a.exactspy.com
     - protocol-a.fonetracker.com
@@ -3917,3 +3920,29 @@
     - www.brunoespiao.com.br 
   distribution:
   - sbt.tv
+
+- name: Spyone
+  type: stalkerware
+  websites:
+  - spyone.pl
+  packages:
+  - com.jgeuhcex.ejcxndak
+  - com.eytewqrm.wvdkgmrl 
+  - com.epbzrqcg.syzzkuqx 
+  - com.laucass.phonecontrolenabler
+  - com.laucass.phonecontroltarget 
+  certificates:
+  - C4B56E3768543190FDBE0AA01DD628E579F5514C
+  - 28AFF3C41C0D42ACBB6B73C6C08868C442088640
+  - 2441F6D331D6CFD8624346ED4B1987EAE6534FA3 
+  - 123C09B261DFA0F67D817E9BA079942830C31D54 
+  - 32F6E28DD3E2E61ED94446591E31F89AEE3A9BD2
+  c2:
+    domains:
+    - pc.spyone.pl
+    - ur.spyone.pl
+    - laucass.forumactif.org
+  distribution:
+  - 11111.pl
+  - www.11111.pl
+  - 4jslg.11111.pl

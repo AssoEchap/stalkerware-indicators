@@ -53,6 +53,7 @@ my.thetruthspy.com
 my.thespyapp.com
 phonespying.com
 phonetracking.net
+protocol.inospy.com
 protocol-a.copy9.com
 protocol-a.exactspy.com
 protocol-a.fonetracker.com
@@ -915,3 +916,9 @@ uf1.brunoespiao.com.br
 ur.brunoespiao.com.br
 www.brunoespiao.com.br
 sbt.tv
+pc.spyone.pl
+ur.spyone.pl
+laucass.forumactif.org
+11111.pl
+www.11111.pl
+4jslg.11111.pl
