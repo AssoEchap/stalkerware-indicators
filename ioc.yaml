@@ -3878,3 +3878,16 @@
     - where-is-my-children.firebase.io
   distribution:
   - fmk.god-xc.com
+
+- name: MagMonitor
+  type: stalkerware
+  names:
+  - maglook
+  websites:
+  - maglook.eu
+  c2:
+    domains:
+    - www.maglook.eu
+    - maglook.eu
+    - ue.maglook.eu
+    - uf.maglook.eu
