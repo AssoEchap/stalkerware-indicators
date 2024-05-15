@@ -3891,3 +3891,29 @@
     - maglook.eu
     - ue.maglook.eu
     - uf.maglook.eu
+
+- name: BrunoEspiao
+  type: stalkerware
+  websites:
+  - brunoespiao.com.br
+  packages:
+  - com.moxlndmp.uhzhgzjh
+  - com.fzvsdrtb.qamlhxri
+  certificates:
+  - 159B64B29BC8842ACDF8022B70730B13E288044B
+  - 8E38D577187544D4E0F747CAEF32B47FD15B07E5
+  c2:
+    domains:
+    - back.brunoespiao.com.br
+    - brunoespiao.com.br
+    - im.brunoespiao.com.br
+    - pc.brunoespiao.com.br
+    - pc1.brunoespiao.com.br
+    - ua.brunoespiao.com.br
+    - ue.brunoespiao.com.br
+    - uf.brunoespiao.com.br
+    - uf1.brunoespiao.com.br
+    - ur.brunoespiao.com.br
+    - www.brunoespiao.com.br 
+  distribution:
+  - sbt.tv

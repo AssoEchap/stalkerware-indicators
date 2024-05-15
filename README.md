@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 166 applications (140 stalkerware and 26 watchware) and 2961 samples
+This repository includes indicators for 167 applications (141 stalkerware and 26 watchware) and 2961 samples
 
 List of stalkerware apps:
 
@@ -71,6 +71,7 @@ List of stalkerware apps:
 * AppSpy (`app.appspy.net` `app.appspyfree.com` `app.freephonespy.net` `app.mobilespyfree.net` `appspy.com` `appspy.net` `appspyfree.com` `apptracker.net` `cellphonespyappon.com` `free-spy.com` `free.apptracker.net` `freemobilespy.net` `freephonespy.net` `justseries.net` `mobilespyfree.net` `spyren.com` `trackerfree.net` `www.appspy.com` `www.appspy.net` `www.apptracker.net` `www.cellphonespyappon.com` `www.freemobilespy.net` `www.freephonespy.net` `www.mobilespyfree.net` `www.spyren.com` `www.trackerfree.net` `www.xvids.us` `xvids.us`)
 * BlurSpy (`www.blurspy.com` `blurspy.com` `xoxospy.com`)
 * BosSpy (`bosspy.com`)
+* BrunoEspiao (`brunoespiao.com.br`)
 * Bulgok (`c-phone.ru`)
 * CallSMSTracker (`callsmstracker.com` `hiddensmstracker.com` `hiddensystemhealth.com` `registrations.smstracker.com` `smstracker.com` `smstrackerweb.com` `www.hiddensmstracker.com` `www.hiddensystemhealth.com` `www.smstrackerweb.com`)
 * CatWatchful (`catwatchful.com` `catwatchful.online`)
