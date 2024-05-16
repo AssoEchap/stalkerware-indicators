@@ -905,6 +905,7 @@ maglook.eu
 ue.maglook.eu
 uf.maglook.eu
 back.brunoespiao.com.br
+brunoespiao.com
 brunoespiao.com.br
 im.brunoespiao.com.br
 pc.brunoespiao.com.br
