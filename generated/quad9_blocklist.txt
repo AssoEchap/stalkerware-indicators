@@ -383,6 +383,7 @@ portal.flexispy.com
 push.mobilefonex.com
 test-client.mobilefonex.com
 trkps.com
+store.mycustomdevice.com
 api-project-999803017449.firebaseio.com
 cerberusapp.com
 www.cerberusapp.com
@@ -890,7 +891,12 @@ www.pgv4.com
 m.pgv4.com
 my-spy-a9c92.firebaseio.com
 api.cp.onemonitar.com
+onespy-in-196211.firebaseio.com
+android.chyldmonitor.com
+web.chyldmonitor.com
+sse.chyldmonitor.com
 onespy-in-d.s3.eu-central-1.amazonaws.com
+android-apps.s3.amazonaws.com
 wmdcommander.appspot.com
 mycloud.wisemo.com
 mycloud1.wisemo.com

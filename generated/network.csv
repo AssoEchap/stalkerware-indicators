@@ -406,6 +406,7 @@ domain,push.mobilefonex.com,FlexiSpy
 domain,test-client.mobilefonex.com,FlexiSpy
 domain,trkps.com,FlexiSpy
 ipv4,119.8.35.235,FlexiSpy
+domain,store.mycustomdevice.com,FlexiSpy
 domain,api-project-999803017449.firebaseio.com,Cerberus
 domain,cerberusapp.com,Cerberus
 domain,www.cerberusapp.com,Cerberus
@@ -955,7 +956,12 @@ domain,www.pgv4.com,SpyApp
 domain,m.pgv4.com,SpyApp
 domain,my-spy-a9c92.firebaseio.com,MySpyApps
 domain,api.cp.onemonitar.com,OneSpy
+domain,onespy-in-196211.firebaseio.com,OneSpy
+domain,android.chyldmonitor.com,OneSpy
+domain,web.chyldmonitor.com,OneSpy
+domain,sse.chyldmonitor.com,OneSpy
 domain,onespy-in-d.s3.eu-central-1.amazonaws.com,OneSpy
+domain,android-apps.s3.amazonaws.com,OneSpy
 domain,wmdcommander.appspot.com,WheresMyDroid
 domain,mycloud.wisemo.com,WiseMo
 domain,mycloud1.wisemo.com,WiseMo

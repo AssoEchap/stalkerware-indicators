@@ -62,10 +62,13 @@
   - spycell.net
   - thespyapp.com
   - thetruthspy.com
+  - thetruthspys.com
+  - us.xnspy.pro
   - weysys.com
   - www.mxspy.com
   - www.phonespying.com
   - xpspy.com
+  - xnspy.pro
   - inospy.com
   distribution:
     - app.fonetracker.com
@@ -715,6 +718,7 @@
   names:
   - Hoverwatch
   - SpyBubble
+  - Refog
   type: stalkerware
   packages:
   - com.android.core.monitor.debug
@@ -765,6 +769,7 @@
   - de.refog.com
   - es.refog.com
   - fr.refog.com
+  - highstermobi.com
   - hover.watch
   - hoverwatch.com
   - hu.refog.com
@@ -977,7 +982,10 @@
   - mobilefonex.com
   - mobileapps.com.my
   - flexispy.mobileapps.com.my
+  - support.flexispy.com
   - svlogin.asia
+  - www.spyphonereview.com
+  - spyphonereview.com
   c2:
     ips:
     - 119.8.35.235
@@ -994,6 +1002,8 @@
     - push.mobilefonex.com
     - test-client.mobilefonex.com
     - trkps.com
+  distribution:
+    - store.mycustomdevice.com
 
 - name: Cerberus
   names:
@@ -3794,28 +3804,41 @@
   names:
   - OneMonitar
   - OneSpy
+  - ChyldMonitor
   type: stalkerware
   packages:
   - com.android.system.app
+  - com.android.settings.app
   - seC.fqjx.sqBB
   certificates:
   - E458DC7CD8928A41865F502A884F0D51309E0BEF
+  - E7D395DF3B8077C733D9BE67D841FDF271F49406 
   websites:
+  - app.onemonitar.com
+  - ap.chyldmonitor.com 
+  - cockpit.chyldmonitor.com 
+  - chyldmonitor.com
+  - cloud.onemonitar.com
+  - cp.onemonitar.com
   - onemonitar.com
   - onespy.com
-  - cloud.onemonitar.com
+  - pma-234fsfsddfsdfds09.onemonitar.com
   - send.onemonitar.com
-  - test.send.onemonitar.com
-  - superuser.onemonitar.com
-  - su.onemonitar.com
-  - cp.onemonitar.com
-  - app.onemonitar.com
   - send.onespy.com
+  - su.onemonitar.com
+  - superuser.onemonitar.com
+  - test.send.onemonitar.com
+  - billing.chyldmonitor.com 
   distribution:
   - onespy-in-d.s3.eu-central-1.amazonaws.com
+  - android-apps.s3.amazonaws.com
   c2:
     domains:
     - api.cp.onemonitar.com
+    - onespy-in-196211.firebaseio.com
+    - android.chyldmonitor.com
+    - web.chyldmonitor.com
+    - sse.chyldmonitor.com
 
 - name: Android007
   names:
