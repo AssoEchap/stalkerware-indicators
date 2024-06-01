@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 168 applications (142 stalkerware and 26 watchware) and 2961 samples
+This repository includes indicators for 167 applications (141 stalkerware and 26 watchware) and 2961 samples
 
 List of stalkerware apps:
 
@@ -98,7 +98,6 @@ List of stalkerware apps:
 * Hoverwatch (`br.refog.com` `de.refog.com` `es.refog.com` `fr.refog.com` `highstermobi.com` `hover.watch` `hoverwatch.com` `hu.refog.com` `hws.icu` `it.refog.com` `my.hws.icu` `nl.refog.com` `prospybubble.com` `refog.com` `refog.de` `refog.net` `refog.org` `ro.refog.com` `www.hoverwatch.com` `www.refog.com`)
 * ISpy
 * Intertel (`mobile-spy.co.za`)
-* KidSecured (`kidsecured.com`)
 * KidsShield (`backupsoft.eu` `freespyapp.com` `kidlogger.net` `kidsshield.net` `monitorminor.com.tr` `pc.freespyapp.com` `pc.selfspy.com` `selfspy.com` `spytrac.com` `techinnovative.net` `tifamily.net` `tispy.net` `tracerspy.net` `ua.tispy.net` `viptelefonprogrami.com` `www.kidlogger.net` `www.selfspy.com` `ua.tispy.me`)
 * LetMeSpy (`letmespy.com` `remotecommands.com` `www.letmespy.com` `www.teleszpieg.pl` `teleszpieg.pl` `bbiindia.com` `www.bbiindia.com`)
 * LoveSpy
@@ -193,7 +192,7 @@ List of stalkerware apps:
 * iMonitorSpy (`www.imonitorsoft.cn` `www.imonitorsoft.com` `imonitorsoft.cn`)
 * jjspy (`www.jjspy.com` `www.ttspy.com`)
 * juju (`www.juju.co.ke` `juju.co.ke`)
-* mSpy (`cart.mspy.com` `mliteapp.com` `mspy.co.il` `mspy.co.uk` `mspy.com` `mspy.com.ar` `mspy.com.br` `mspy.com.cn` `mspy.fr` `mspy.in` `mspy.it` `mspy.jp` `mspy.net` `mspy.nl` `mspy.support` `mspylite.com` `mspyplus.com` `www.eyezy.com` `mspyonline.com` `myfonemate.com` `theispyoo.com` `www.mspyonline.com` `www.mspy.com` `freefonespy.com`)
+* mSpy (`bill-msp.app` `cart.mspy.com` `ctrl-msp.app` `freefonespy.com` `kidsecured.com` `m-services.app` `mbill.app` `mcontrolapp.com` `mkid.app` `mkidctrl.app` `mkidsecure.com` `mliteapp.com` `mpotect.app` `msafety.app` `msecureapp.com` `msp-control.app` `mspkid.app` `mspy.co.il` `mspy.co.uk` `mspy.com` `mspy.com.ar` `mspy.com.br` `mspy.com.cn` `mspy.com.es` `mspy.fr` `mspy.in` `mspy.it` `mspy.jp` `mspy.net` `mspy.nl` `mspy.support` `mspylite.com` `mspyonline.com` `mspyplus.com` `myfonemate.com` `onlinecontrol.app` `onlinesecure.app` `parent-msp.app` `phonsee.com` `safe-root.com` `secure-msp.app` `securechildren.online` `theispyoo.com` `www.eyezy.com` `www.mspy.com` `www.mspyonline.com`)
 * mSpyitaly (`dc-407883c18502.mspyitaly.com` `mspyitaly.com` `www.mspyitaly.com`)
 * pcTattletale (`www.pctattletale.com`)
 * uMobix (`umobix.com` `n.umobix.com` `tt.umobix.com` `spyfer.info` `surveillance-enfants.com`)

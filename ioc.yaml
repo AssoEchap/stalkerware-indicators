@@ -1041,11 +1041,14 @@
 
 - name: mSpy
   names:
+  - FakeSys
+  - KidSecured
+  - Phonsee
+  - SecureChildren
   - celSpy
   - eyeZy
   - mSpy
   - mSpyOnline
-  - FakeSys
   type: stalkerware
   packages:
   - android.helper.system
@@ -1066,14 +1069,30 @@
   - CB28ADFD818FBFFDF5542F2EFC5140D596EE957E
   - FE821A533BDC31822D9EB5F98243EB16917C8EE7
   websites:
+  - bill-msp.app
   - cart.mspy.com
+  - ctrl-msp.app
+  - freefonespy.com
+  - kidsecured.com
+  - m-services.app
+  - mbill.app
+  - mcontrolapp.com
+  - mkid.app
+  - mkidctrl.app
+  - mkidsecure.com
   - mliteapp.com
+  - mpotect.app
+  - msafety.app
+  - msecureapp.com
+  - msp-control.app
+  - mspkid.app
   - mspy.co.il
   - mspy.co.uk
   - mspy.com
   - mspy.com.ar
   - mspy.com.br
   - mspy.com.cn
+  - mspy.com.es
   - mspy.fr
   - mspy.in
   - mspy.it
@@ -1082,14 +1101,20 @@
   - mspy.nl
   - mspy.support
   - mspylite.com
-  - mspyplus.com
-  - www.eyezy.com
   - mspyonline.com
+  - mspyplus.com
   - myfonemate.com
+  - onlinecontrol.app
+  - onlinesecure.app
+  - parent-msp.app
+  - phonsee.com
+  - safe-root.com
+  - secure-msp.app
+  - securechildren.online
   - theispyoo.com
-  - www.mspyonline.com
+  - www.eyezy.com
   - www.mspy.com
-  - freefonespy.com
+  - www.mspyonline.com
   distribution:
   - q12z.net
   c2:
@@ -1100,17 +1125,20 @@
     - api.thd.cc
     - apiv4.alter757.info
     - b55y.net
+    - bbrp.co
     - bi.thd.cc
     - cp.mspyonline.com
     - eyezyapp.thd.cc
     - getmspy.net
     - hz-service.thd.cc
     - hz7.thd.cc
+    - idevs.co
     - jailbreak-gateway.thd.cc
     - kypler.com
     - m-media.thd.cc
     - mcloud-api.thd.cc
     - mi.thd.cc
+    - mlite-app.livekit.cloud
     - mlite-app.thd.cc
     - mlite-socket.thd.cc
     - mliteapp.alter757.info
@@ -1118,12 +1146,16 @@
     - mspy.alter757.info
     - mspyonline.com
     - mspytrackercom.alter757.info
+    - mtechn.zendesk.com
+    - my.kidsecured.com
     - my.mspyonline.com
-    - update-service-7e59f.firebaseio.com
+    - my.phonsee.com
+    - my.securechildren.online
     - pipe.thd.cc
     - project-323448153542050953.firebaseio.com
     - q12z.net
     - repo.mspyonline.com
+    - rockalab.com
     - s3.thd.cc
     - sentry-01.thd.cc
     - sentry-02.thd.cc
@@ -1132,11 +1164,14 @@
     - sentry-05.thd.cc
     - sentry-06.thd.cc
     - sentry-07.thd.cc
+    - sentry-product-new.bbrp.co
     - thd.cc
     - tracking.mliteapp.com
     - tracking.mspyonline.com
-    - www.mspyonline.com
+    - update-service-7e59f.firebaseio.com
+    - webrtc.thd.cc
     - www.mspy.com
+    - www.mspyonline.com
 
 - name: MeuSpy
   names:
@@ -3455,11 +3490,6 @@
   c2:
     domains:
     - awamisolution.com
-
-- name: KidSecured
-  type: stalkerware
-  websites:
-  - kidsecured.com
 
 - name: Traccar
   names:
