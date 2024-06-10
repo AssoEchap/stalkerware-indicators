@@ -19,6 +19,16 @@
   - address: "Londynska 730/59, Vinohrady, 120 00 Praha"
   - country: "Czech Republic"
   - registration_number: "06746764"
+  parent-company:
+  - name: "BrainStack"
+  - website: "https://www.brainstack.team/"
+  - people:
+    - CEO:
+      - name: "Vladimir Sytnikov"
+      - linkedin: "https://www.linkedin.com/in/volodymyr-sytnikov/"
+    - HRD:
+      - name: "Katerina Yurchuk"
+      - linkedin: "https://www.linkedin.com/in/kateryna-yurchuk-237874151/"
   providers:
   - affiliates:
     - company:
@@ -31,4 +41,5 @@
 - article:
   - https://www.vice.com/en/article/3k3wx5/twitter-pushed-adverts-for-spyware-to-track-girlfriends
   - https://www.nextinpact.com/article/70198/comment-meilleur-stalkerware-grand-public-sadresse-aux-hommes-en-mal-controle
+  - https://maia.crimew.gay/posts/fuckstalkerware-7/
 
