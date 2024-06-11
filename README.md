@@ -122,7 +122,7 @@ List of stalkerware apps:
 * Observer (`www.observer.pw`)
 * OneLocator (`locatorprivacy.com` `onelocator.com`)
 * OneSpy (`app.onemonitar.com` `ap.chyldmonitor.com` `cockpit.chyldmonitor.com` `chyldmonitor.com` `cloud.onemonitar.com` `cp.onemonitar.com` `onemonitar.com` `onespy.com` `pma-234fsfsddfsdfds09.onemonitar.com` `send.onemonitar.com` `send.onespy.com` `su.onemonitar.com` `superuser.onemonitar.com` `test.send.onemonitar.com` `billing.chyldmonitor.com`)
-* OwnSpy (`mobileinnova.net` `ownspy.com` `en.ownspy.com` `webdetetive.com.br` `ownspy.es` `saferspy.com` `panel.webdetetive.com.br` `era3000.com`)
+* OwnSpy (`mobileinnova.net` `ownspy.com` `en.ownspy.com` `webdetetive.com.br` `ownspy.es` `saferspy.com` `panel.webdetetive.com.br` `era3000.com` `admin.webdetetive.com.br` `webdetetive.era3000.com`)
 * PanSpy (`panspy.com` `surveilstar.com`)
 * PatanSpyApp
 * PhoneMonitor
