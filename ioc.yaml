@@ -1014,6 +1014,7 @@
   packages:
   - com.lsdroid.cerberuss
   - com.lsdroid.cerberus.persona
+  - com.lsdroid.cerberus.persona2
   - com.lsdroid.cerberus.kids
   - com.lsdroid.cerberus.client
   - com.lsdroid.cerberus
@@ -3844,11 +3845,11 @@
   - seC.fqjx.sqBB
   certificates:
   - E458DC7CD8928A41865F502A884F0D51309E0BEF
-  - E7D395DF3B8077C733D9BE67D841FDF271F49406 
+  - E7D395DF3B8077C733D9BE67D841FDF271F49406
   websites:
   - app.onemonitar.com
-  - ap.chyldmonitor.com 
-  - cockpit.chyldmonitor.com 
+  - ap.chyldmonitor.com
+  - cockpit.chyldmonitor.com
   - chyldmonitor.com
   - cloud.onemonitar.com
   - cp.onemonitar.com
@@ -3860,7 +3861,7 @@
   - su.onemonitar.com
   - superuser.onemonitar.com
   - test.send.onemonitar.com
-  - billing.chyldmonitor.com 
+  - billing.chyldmonitor.com
   distribution:
   - onespy-in-d.s3.eu-central-1.amazonaws.com
   - android-apps.s3.amazonaws.com
@@ -3973,7 +3974,7 @@
     - uf.brunoespiao.com.br
     - uf1.brunoespiao.com.br
     - ur.brunoespiao.com.br
-    - www.brunoespiao.com.br 
+    - www.brunoespiao.com.br
   distribution:
   - sbt.tv
 
@@ -3983,15 +3984,15 @@
   - spyone.pl
   packages:
   - com.jgeuhcex.ejcxndak
-  - com.eytewqrm.wvdkgmrl 
-  - com.epbzrqcg.syzzkuqx 
+  - com.eytewqrm.wvdkgmrl
+  - com.epbzrqcg.syzzkuqx
   - com.laucass.phonecontrolenabler
-  - com.laucass.phonecontroltarget 
+  - com.laucass.phonecontroltarget
   certificates:
   - C4B56E3768543190FDBE0AA01DD628E579F5514C
   - 28AFF3C41C0D42ACBB6B73C6C08868C442088640
-  - 2441F6D331D6CFD8624346ED4B1987EAE6534FA3 
-  - 123C09B261DFA0F67D817E9BA079942830C31D54 
+  - 2441F6D331D6CFD8624346ED4B1987EAE6534FA3
+  - 123C09B261DFA0F67D817E9BA079942830C31D54
   - 32F6E28DD3E2E61ED94446591E31F89AEE3A9BD2
   c2:
     domains:
