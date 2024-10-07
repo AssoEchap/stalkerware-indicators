@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 167 applications (141 stalkerware and 26 watchware) and 2976 samples
+This repository includes indicators for 168 applications (142 stalkerware and 26 watchware) and 2976 samples
 
 List of stalkerware apps:
 
@@ -188,6 +188,7 @@ List of stalkerware apps:
 * Xnore (`xnore.com`)
 * XploitSPY (`xploitwizer.com`)
 * bark (`bark.us` `www.bark.us`)
+* eagleSPY (`prontodigital.com.br` `eaglespy.com.br`)
 * iKeyMonitor (`easemon.com`)
 * iMonitorSpy (`www.imonitorsoft.cn` `www.imonitorsoft.com` `imonitorsoft.cn`)
 * jjspy (`www.jjspy.com` `www.ttspy.com`)

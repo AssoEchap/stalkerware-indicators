@@ -4022,3 +4022,18 @@
   - 11111.pl
   - www.11111.pl
   - 4jslg.11111.pl
+
+- name: eagleSPY
+  type: stalkerware
+  websites:
+  - prontodigital.com.br
+  - eaglespy.com.br
+  packages:
+  - br.com.eaglespy
+  certificates:
+  - B7B561250288C8BB44932B591B5451D852A95109
+  c2:
+    domains:
+    - eaglespy.com.br
+    ips:
+    - 201.33.21.62
