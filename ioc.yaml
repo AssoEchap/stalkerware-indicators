@@ -2618,12 +2618,16 @@
     - locatorprivacy.com
 
 - name: EvaSpy
+  names:
+    - Spyrix
   type: stalkerware
   websites:
   - evaspy.com
   - login.evaspy.com
   - spyrix.com
   - www.spyrix.com
+  - www.spyrix.com
+  - spyrix.com
   c2:
     domains:
     - ua.evaspy.com
@@ -2644,6 +2648,10 @@
     - up.evaspy.com
     - uq.evaspy.com
     - ur.evaspy.com
+  distribution:
+  - shuch6ba0w.spyrixweb.com
+  - sxde-download.spyrix-sfk.com
+  - spyrix-sfk.com
 
 - name: RealtimeSpy
   type: stalkerware
