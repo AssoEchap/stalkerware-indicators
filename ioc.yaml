@@ -2288,6 +2288,7 @@
     - api007.foxspy.com.br
     - pc.foxspy.com.br
     - celular007.s3.amazonaws.com
+    - remoto.foxspy.com.br
 
 - name: pcTattletale
   names:
