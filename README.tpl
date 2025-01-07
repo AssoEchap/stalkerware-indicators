@@ -170,6 +170,7 @@ This repository includes indicators for 106 stalkerware and watchware applicatio
 - [The Mobile Verification Toolkit](https://github.com/mvt-project/mvt)
 - [StratosphereIPS](https://github.com/stratosphereips/StratosphereLinuxIPS)
 - [the Hypatia malware scanner](https://github.com/Divested-Mobile/Hypatia)
+- [spytrap-adb](https://github.com/spytrap-org/spytrap-adb)
 
 ## Contributions
 
