@@ -171,6 +171,8 @@ This repository includes indicators for 106 stalkerware and watchware applicatio
 - [StratosphereIPS](https://github.com/stratosphereips/StratosphereLinuxIPS)
 - [the Hypatia malware scanner](https://github.com/Divested-Mobile/Hypatia)
 - [spytrap-adb](https://github.com/spytrap-org/spytrap-adb)
+- [PiRogue Tool Suite](https://pts-project.org/)
+
 
 ## Contributions
 
@@ -182,6 +184,7 @@ Contributors include:
 - [Jurre van Bergen](https://twitter.com/DrWhax)
 - [@nscrutables](https://twitter.com/nscrutables)
 - [Joan](https://github.com/j04n)
+- [Esther Onfroy](https://esther.codes/)
 
 These indicators are largely based on research and analysis using [APKlab](https://www.apklab.io/), [Koodous](https://koodous.com/) and [VirusTotal](https://www.virustotal.com/).
 

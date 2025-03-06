@@ -204,6 +204,7 @@ List of stalkerware apps:
 - [The Mobile Verification Toolkit](https://github.com/mvt-project/mvt)
 - [StratosphereIPS](https://github.com/stratosphereips/StratosphereLinuxIPS)
 - [the Hypatia malware scanner](https://github.com/Divested-Mobile/Hypatia)
+- [PiRogue Tool Suite](https://pts-project.org/)
 
 ## Contributions
 
@@ -215,6 +216,7 @@ Contributors include:
 - [Jurre van Bergen](https://twitter.com/DrWhax)
 - [@nscrutables](https://twitter.com/nscrutables)
 - [Joan](https://github.com/j04n)
+- [Esther Onfroy](https://esther.codes/)
 
 These indicators are largely based on research and analysis using [APKlab](https://www.apklab.io/), [Koodous](https://koodous.com/) and [VirusTotal](https://www.virustotal.com/).
 
