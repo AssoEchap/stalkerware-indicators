@@ -1348,6 +1348,7 @@
   - yogaworkouts.dailyyoga.yogafitness
   - com.get.mtf
   - com.mtf.download
+  - com.protect.download
   certificates:
   - 021A3F097EDA780798DF5ECB16EF338C08236847
   - 0568E0400308CBFC58E11A324EA233F5B2E923BF
@@ -2626,8 +2627,6 @@
   websites:
   - evaspy.com
   - login.evaspy.com
-  - spyrix.com
-  - www.spyrix.com
   - www.spyrix.com
   - spyrix.com
   c2:
