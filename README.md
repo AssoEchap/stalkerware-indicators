@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 168 applications (142 stalkerware and 26 watchware) and 2983 samples
+This repository includes indicators for 169 applications (143 stalkerware and 26 watchware) and 2983 samples
 
 List of stalkerware apps:
 
@@ -126,6 +126,7 @@ List of stalkerware apps:
 * PanSpy (`panspy.com` `surveilstar.com`)
 * PatanSpyApp
 * PhoneMonitor
+* PhoneMonitor (`phonemonitor.com` `users.thephonem.com`)
 * PhoneSheriff (`www.mobile-spy.com` `www.emobilespy.com` `phonesheriff.com` `www.phonesheriff.com` `www.retinax.com` `retinax.com`)
 * PhoneSpy (`www.phone-spy.com` `phone-spy.com` `aksoft.gq`)
 * RastreadorDeNamorado (`rastreadordenamorado.com.br`)
