@@ -4046,3 +4046,17 @@
     - eaglespy.com.br
     ips:
     - 201.33.21.62
+
+- name: PhoneMonitor
+  type: stalkerware
+  websites:
+  - phonemonitor.com
+  - users.thephonem.com
+  distribution:
+    - tphmr.com
+    - https://gurley.s3.ap-southeast-1.wasabisys.com
+  packages:
+  - com.pvojpamt.tzzyqjyb
+  c2:
+    domains:
+    - users.thephonem.com
