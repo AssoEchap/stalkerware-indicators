@@ -631,6 +631,8 @@ alltracker.org
 staging-all-tracker.appspot.com
 www.spy-phone-app.com
 www.spappmonitoring.com
+mobil-kem.com
+www.app-spy.com
 server.androidmonitor.com
 installam.com
 talklog.tools
