@@ -2080,6 +2080,8 @@
     domains:
     - www.spy-phone-app.com
     - www.spappmonitoring.com
+    - mobil-kem.com
+    - www.app-spy.com
 
 - name: AndroidMonitor
   names:
