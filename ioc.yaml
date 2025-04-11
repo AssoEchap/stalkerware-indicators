@@ -4069,8 +4069,17 @@
 - name: Buhsam
   type: stalkerware
   distribution:
-    -github.com/earthshakira/android_hack
+    - github.com/earthshakira/android_hack
   packages:
   - com.google.android.network
   certificates:
   - 00F618C4C43C28B107DAB8F5641AD00D3A774AFD
+
+- name: AndroRat
+  type: stalkerware
+  distribution:
+    - https://github.com/karma9874/AndroRAT
+  packages:
+  - com.example.reverseshell2
+  certificates:
+  - 61ED377E85D386A8DFEE6B864BD85B0BFAA5AF81
