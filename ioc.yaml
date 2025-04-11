@@ -3542,6 +3542,8 @@
   packages:
   - dell.scream.application
   - com.spynote.software.stubspynote
+  certificates:
+  - 219D542F901D8DB85C729B0F7AE32410096077CB
   websites:
   - www.spynote.us
   - spynote.us
