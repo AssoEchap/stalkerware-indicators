@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 170 applications (144 stalkerware and 26 watchware) and 3172 samples
+This repository includes indicators for 171 applications (145 stalkerware and 26 watchware) and 3172 samples
 
 List of stalkerware apps:
 
@@ -60,6 +60,7 @@ List of stalkerware apps:
 * Ahmyth
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
 * AllTracker (`alltracker.org`)
+* AndroRat
 * Android007 (`android007.com` `www.android007.com` `portal.android007.com` `spybunker.com` `www.spybunker.com`)
 * AndroidLost (`androidlost.com` `www.androidlost.com`)
 * AndroidMonitor (`androidmonitor.com` `demo.ultimatephonespy.com` `ultimatephonespy.com` `www.androidmonitor.com` `my.androidmonitor.com`)
