@@ -4059,9 +4059,18 @@
   - users.thephonem.com
   distribution:
     - tphmr.com
-    - https://gurley.s3.ap-southeast-1.wasabisys.com
+    - gurley.s3.ap-southeast-1.wasabisys.com
   packages:
   - com.pvojpamt.tzzyqjyb
   c2:
     domains:
     - users.thephonem.com
+
+- name: Buhsam
+  type: stalkerware
+  distribution:
+    -github.com/earthshakira/android_hack
+  packages:
+  - com.google.android.network
+  certificates:
+  - 00F618C4C43C28B107DAB8F5641AD00D3A774AFD
