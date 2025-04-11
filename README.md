@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 169 applications (143 stalkerware and 26 watchware) and 3172 samples
+This repository includes indicators for 170 applications (144 stalkerware and 26 watchware) and 3172 samples
 
 List of stalkerware apps:
 
@@ -72,6 +72,7 @@ List of stalkerware apps:
 * BlurSpy (`www.blurspy.com` `blurspy.com` `xoxospy.com`)
 * BosSpy (`bosspy.com`)
 * BrunoEspiao (`brunoespiao.com.br`)
+* Buhsam
 * Bulgok (`c-phone.ru`)
 * CallSMSTracker (`callsmstracker.com` `hiddensmstracker.com` `hiddensystemhealth.com` `registrations.smstracker.com` `smstracker.com` `smstrackerweb.com` `www.hiddensmstracker.com` `www.hiddensystemhealth.com` `www.smstrackerweb.com`)
 * CatWatchful (`catwatchful.com` `catwatchful.online`)
