@@ -2072,6 +2072,7 @@
   type: stalkerware
   packages:
   - com.spappm_mondow.alarm
+  - com.spapptrakapp.alarm
   certificates:
   - 8C017FDB2A81807EC879A8E30F4AB05D5CA02034
   - 9477420001BC79500623374EC586B054AAC97BF9
@@ -3864,9 +3865,11 @@
   - com.android.system.app
   - com.android.settings.app
   - seC.fqjx.sqBB
+  - com.qwertyuiop.asdfghjkl
   certificates:
   - E458DC7CD8928A41865F502A884F0D51309E0BEF
   - E7D395DF3B8077C733D9BE67D841FDF271F49406
+  - 0FB6643902E891C230F6E6662083442EEA1F16CE
   websites:
   - app.onemonitar.com
   - ap.chyldmonitor.com
