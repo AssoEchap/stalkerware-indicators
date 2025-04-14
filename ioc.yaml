@@ -2073,6 +2073,7 @@
   packages:
   - com.spappm_mondow.alarm
   - com.spapptrakapp.alarm
+  - com.spatrakappp.alarm
   certificates:
   - 8C017FDB2A81807EC879A8E30F4AB05D5CA02034
   - 9477420001BC79500623374EC586B054AAC97BF9
