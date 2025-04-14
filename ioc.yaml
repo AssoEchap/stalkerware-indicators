@@ -3780,11 +3780,6 @@
   packages:
   - edu.virginia.cs.cs4720.ispy
 
-- name: PhoneMonitor
-  type: stalkerware
-  packages:
-  - com.monitor.phone.s0ft.phonemonitor
-
 - name: PatanSpyApp
   type: stalkerware
   packages:
@@ -4065,6 +4060,7 @@
     - gurley.s3.ap-southeast-1.wasabisys.com
   packages:
   - com.pvojpamt.tzzyqjyb
+  - com.monitor.phone.s0ft.phonemonitor
   c2:
     domains:
     - users.thephonem.com
