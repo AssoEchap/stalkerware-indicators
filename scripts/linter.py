@@ -21,6 +21,10 @@ ALL_ENTRIES = [
     "ios_bundles",
 ]
 
+SHARED_CERTS = [
+    "61ED377E85D386A8DFEE6B864BD85B0BFAA5AF81", # https://github.com/AssoEchap/stalkerware-indicators/issues/132
+]
+
 
 def check_ioc_format(fpath):
     """
@@ -78,6 +82,9 @@ def check_ioc_format(fpath):
                 certs.append(cert)
             else:
                 print("Duplicated cert {}".format(cert))
+                success = False
+            if cert in SHARED_CERTS:
+                print("Shared cert {}, shouldn't be in IOCs".format(cert))
                 success = False
 
         if "type" not in entry:
@@ -147,8 +154,6 @@ def check_ioc_format(fpath):
             else:
                 bundles.append(b)
 
-
-
         # Check entry names
         for key in entry:
             if key not in ALL_ENTRIES:
@@ -215,7 +220,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     success = check_ioc_format(os.path.join(args.folder, "ioc.yaml"))
-    success = check_ioc_format(os.path.join(args.folder, "watchware.yaml"))
+    success &= check_ioc_format(os.path.join(args.folder, "watchware.yaml"))
     success &= check_samples_format(args.folder)
 
     if success:
