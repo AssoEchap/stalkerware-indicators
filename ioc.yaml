@@ -1067,6 +1067,7 @@
   - core.update.framework
   - med.mspy.mspy
   - system.framework
+  - update.service.android
   certificates:
   - 021985CEA754D8E58D538D2FEDFF6B1565A6B45B
   - 3930B621F30D13D24692CBBBBC67C59F92F1C9BD
