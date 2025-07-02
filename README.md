@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 170 applications (144 stalkerware and 26 watchware) and 3207 samples
+This repository includes indicators for 170 applications (144 stalkerware and 26 watchware) and 3209 samples
 
 List of stalkerware apps:
 
@@ -76,7 +76,7 @@ List of stalkerware apps:
 * Buhsam
 * Bulgok (`c-phone.ru`)
 * CallSMSTracker (`callsmstracker.com` `hiddensmstracker.com` `hiddensystemhealth.com` `registrations.smstracker.com` `smstracker.com` `smstrackerweb.com` `www.hiddensmstracker.com` `www.hiddensystemhealth.com` `www.smstrackerweb.com`)
-* CatWatchful (`catwatchful.com` `catwatchful.online`)
+* CatWatchful (`catwatchful.com` `catwatchful.online` `catwatchful.pink` `catwatchful-e03b8.appspot.com`)
 * Cerberus (`cellphonetrackers.org` `cerberusapp.com` `cerberusbrasil.com` `enterprise.cerberusapp.com` `www.cerberusapp.com` `www.cerberusbrasil.com`)
 * ClevGuard (`clevguard.net` `www.clevguard.com` `clevguard.com` `panel.clevguard.com`)
 * Cocospy (`best-mobile-spy.com` `cocospy.com` `cocospy.net` `fonemonitor.co` `minspy.com` `neatspy.com` `safespy.com` `spyic.biz` `spyic.com` `spyier.biz` `spyine.biz` `spyine.com` `spyzie.com` `spyzie.io` `spyzie.online` `teensafe.net` `teensoftware.com` `www.fonemonitor.co` `www.minspy.com` `www.spyic.com` `www.spyzie.com` `www.teensafe.net` `www.teensoftware.com`)
