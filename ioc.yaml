@@ -3616,6 +3616,7 @@
   type: stalkerware
   packages:
   - net.droid.talk218
+  - ahmyth.mine.king.ahmyth
   certificates:
   - 0ECD5FD80682776D804715AB5B8504DAF59A4B54
   c2:
