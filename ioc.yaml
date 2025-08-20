@@ -4077,7 +4077,7 @@
 - name: Buhsam
   type: stalkerware
   distribution:
-    - github.com/earthshakira/android_hack
+    - https://github.com/earthshakira/android_hack
   packages:
   - com.google.android.network
   certificates:

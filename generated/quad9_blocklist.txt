@@ -953,5 +953,5 @@ eaglespy.com.br
 users.thephonem.com
 tphmr.com
 gurley.s3.ap-southeast-1.wasabisys.com
-github.com/earthshakira/android_hack
+https://github.com/earthshakira/android_hack
 https://github.com/karma9874/AndroRAT
