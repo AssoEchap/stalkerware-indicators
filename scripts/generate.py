@@ -182,9 +182,15 @@ def generate_stix(folder, iocs, watchware):
             res.append(Relationship(i, 'indicates', malware))
 
         for d in app.get("distribution", []):
-            i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
-            res.append(i)
-            res.append(Relationship(i, 'indicates', malware))
+            # Check if URL or domain here
+            if d.startswith("http"):
+                i = Indicator(indicator_types=["malicious-activity"], pattern="[url:value='{}']".format(d), pattern_type="stix")
+                res.append(i)
+                res.append(Relationship(i, 'indicates', malware))
+            else:
+                i = Indicator(indicator_types=["malicious-activity"], pattern="[domain-name:value='{}']".format(d), pattern_type="stix")
+                res.append(i)
+                res.append(Relationship(i, 'indicates', malware))
 
         for h in app.get("sha256", []):
             i = Indicator(indicator_types=["malicious-activity"], pattern="[file:hashes.sha256='{}']".format(h), pattern_type="stix")

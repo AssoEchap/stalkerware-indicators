@@ -34,7 +34,6 @@ Main files:
 * `ioc.yaml` : Indicators of compromise of many Stalkerware apps. Includes
     * [Applications Package names](https://support.google.com/admob/answer/9972781)
     * [Android Application Certificates](https://support.google.com/googleplay/android-developer/answer/9842756?hl=en)
-    * [iOS Application bundle IDs](https://support.apple.com/guide/deployment/bundle-ids-for-native-iphone-and-ipad-apps-depece748c41/web)
     * List of websites
     * List of domains and IPs of [C2](https://en.wikipedia.org/wiki/Botnet#Command_and_control)
 * `watchware.yaml` : Indicators of compromise of watchware apps
@@ -53,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 161 applications (137 stalkerware and 24 watchware) and 2912 samples
+This repository includes indicators for 170 applications (144 stalkerware and 26 watchware) and 3214 samples
 
 List of stalkerware apps:
 
@@ -61,6 +60,7 @@ List of stalkerware apps:
 * Ahmyth
 * AiSpyer (`aivideoedit.com` `aispyer.com` `www.aispyer.com`)
 * AllTracker (`alltracker.org`)
+* AndroRat
 * Android007 (`android007.com` `www.android007.com` `portal.android007.com` `spybunker.com` `www.spybunker.com`)
 * AndroidLost (`androidlost.com` `www.androidlost.com`)
 * AndroidMonitor (`androidmonitor.com` `demo.ultimatephonespy.com` `ultimatephonespy.com` `www.androidmonitor.com` `my.androidmonitor.com`)
@@ -72,9 +72,11 @@ List of stalkerware apps:
 * AppSpy (`app.appspy.net` `app.appspyfree.com` `app.freephonespy.net` `app.mobilespyfree.net` `appspy.com` `appspy.net` `appspyfree.com` `apptracker.net` `cellphonespyappon.com` `free-spy.com` `free.apptracker.net` `freemobilespy.net` `freephonespy.net` `justseries.net` `mobilespyfree.net` `spyren.com` `trackerfree.net` `www.appspy.com` `www.appspy.net` `www.apptracker.net` `www.cellphonespyappon.com` `www.freemobilespy.net` `www.freephonespy.net` `www.mobilespyfree.net` `www.spyren.com` `www.trackerfree.net` `www.xvids.us` `xvids.us`)
 * BlurSpy (`www.blurspy.com` `blurspy.com` `xoxospy.com`)
 * BosSpy (`bosspy.com`)
+* BrunoEspiao (`brunoespiao.com.br`)
+* Buhsam
 * Bulgok (`c-phone.ru`)
 * CallSMSTracker (`callsmstracker.com` `hiddensmstracker.com` `hiddensystemhealth.com` `registrations.smstracker.com` `smstracker.com` `smstrackerweb.com` `www.hiddensmstracker.com` `www.hiddensystemhealth.com` `www.smstrackerweb.com`)
-* CatWatchful (`catwatchful.com` `catwatchful.online`)
+* CatWatchful (`catwatchful.com` `catwatchful.online` `catwatchful.pink` `catwatchful-e03b8.appspot.com`)
 * Cerberus (`cellphonetrackers.org` `cerberusapp.com` `cerberusbrasil.com` `enterprise.cerberusapp.com` `www.cerberusapp.com` `www.cerberusbrasil.com`)
 * ClevGuard (`clevguard.net` `www.clevguard.com` `clevguard.com` `panel.clevguard.com`)
 * Cocospy (`best-mobile-spy.com` `cocospy.com` `cocospy.net` `fonemonitor.co` `minspy.com` `neatspy.com` `safespy.com` `spyic.biz` `spyic.com` `spyier.biz` `spyine.biz` `spyine.com` `spyzie.com` `spyzie.io` `spyzie.online` `teensafe.net` `teensoftware.com` `www.fonemonitor.co` `www.minspy.com` `www.spyic.com` `www.spyzie.com` `www.teensafe.net` `www.teensoftware.com`)
@@ -85,22 +87,23 @@ List of stalkerware apps:
 * EasyLogger (`logger.mobi` `childsafetytrackerapp.com` `seniorsafetyapp.com` `www.childsafetytrackerapp.com` `www.seniorsafetyapp.com`)
 * EasyPhoneTrack (`spappmonitoring.com` `www.spappmonitoring.com` `mobil-kem.com` `easyphonetrack.com`)
 * EspiaoAndroid (`foxspy.com.br`)
-* EvaSpy (`evaspy.com` `login.evaspy.com` `spyrix.com` `www.spyrix.com`)
+* EvaSpy (`evaspy.com` `login.evaspy.com` `www.spyrix.com` `spyrix.com`)
 * Fenced (`mobilespy.io` `fenced.ai` `web.mobilespy.io` `demo.fenced.ai` `web.fenced.ai` `admin.fenced.ai`)
+* FindMyKids (`findmykids.org`)
 * FindMyPhone (`find-myphone.com`)
 * FlashKeylogger (`flashkeylogger.com`)
-* FlexiSpy (`flexispy.com` `community.flexispy.com` `blog.flexispy.com` `www.flexispy.com` `mobilefonex.com` `mobileapps.com.my` `flexispy.mobileapps.com.my` `svlogin.asia`)
+* FlexiSpy (`flexispy.com` `community.flexispy.com` `blog.flexispy.com` `www.flexispy.com` `mobilefonex.com` `mobileapps.com.my` `flexispy.mobileapps.com.my` `support.flexispy.com` `svlogin.asia` `www.spyphonereview.com` `spyphonereview.com`)
 * FreeAndroidSpy (`freeandroidspy.com`)
 * GPSTrackerLoki (`asgardtech.ru`)
 * HelloSpy (`1topspy.com` `account.mobile-remote-tracker.com` `alospy.com` `getspyapps.com` `hellospy.com` `innovaspy.com` `ispytic.com` `maxxspy.com` `mobeespy.com` `mobellspy.com` `mobiispy.com` `mobile-remote-tracker.com` `mobilespyblog.com` `mspymax.com` `opispy.net` `spyacellphone.com` `spyhide.com` `spyhide.ir` `spyios8x.com` `www.spyhide.com` `www.spyhide.ir`)
 * HighsterMobile (`auto-forward.com` `autoforward.app` `autoforward.co` `bestcellphonespyapps.com` `buyeasyspy.com` `cellphoneservices.info` `ddiutilities.com` `dev.safeguarde.com` `digitalsecurityworld.com` `evt17.com` `highstermobile.co` `highstermobile.com` `ilfmobileapps.com` `m.surepointspy.com` `phonespector.com` `safeguarde.com` `surepointspy.com` `thepowerlinegroup.com` `turbophonepsy.com` `www.surepointspy.com`)
-* Hoverwatch (`br.refog.com` `de.refog.com` `es.refog.com` `fr.refog.com` `hover.watch` `hoverwatch.com` `hu.refog.com` `hws.icu` `it.refog.com` `my.hws.icu` `nl.refog.com` `prospybubble.com` `refog.com` `refog.de` `refog.net` `refog.org` `ro.refog.com` `www.hoverwatch.com` `www.refog.com`)
+* Hoverwatch (`br.refog.com` `de.refog.com` `es.refog.com` `fr.refog.com` `highstermobi.com` `hover.watch` `hoverwatch.com` `hu.refog.com` `hws.icu` `it.refog.com` `my.hws.icu` `nl.refog.com` `prospybubble.com` `refog.com` `refog.de` `refog.net` `refog.org` `ro.refog.com` `www.hoverwatch.com` `www.refog.com`)
 * ISpy
 * Intertel (`mobile-spy.co.za`)
-* KidSecured (`kidsecured.com`)
-* KidsShield (`backupsoft.eu` `freespyapp.com` `kidlogger.net` `kidsshield.net` `monitorminor.com.tr` `pc.freespyapp.com` `pc.selfspy.com` `selfspy.com` `spytrac.com` `techinnovative.net` `tifamily.net` `tispy.net` `tracerspy.net` `ua.tispy.net` `viptelefonprogrami.com` `www.kidlogger.net` `www.selfspy.com`)
+* KidsShield (`backupsoft.eu` `freespyapp.com` `kidlogger.net` `kidsshield.net` `monitorminor.com.tr` `pc.freespyapp.com` `pc.selfspy.com` `selfspy.com` `spytrac.com` `techinnovative.net` `tifamily.net` `tispy.net` `tracerspy.net` `ua.tispy.net` `viptelefonprogrami.com` `www.kidlogger.net` `www.selfspy.com` `ua.tispy.me`)
 * LetMeSpy (`letmespy.com` `remotecommands.com` `www.letmespy.com` `www.teleszpieg.pl` `teleszpieg.pl` `bbiindia.com` `www.bbiindia.com`)
 * LoveSpy
+* MagMonitor (`maglook.eu`)
 * Metasploit (`foreverspy.com`)
 * MeuSpy (`meuspy.com` `monitorecell.com.br` `espiao.meuspy.com` `www.espiaodecelulargratis.com.br` `espiaodecelulargratis.com.br`)
 * MobiSpy (`mobispy.net`)
@@ -120,11 +123,11 @@ List of stalkerware apps:
 * NexSpy (`nexspy.com` `oxy.nexspy.com` `mobilebackup.biz` `portal.mobilebackup.biz` `portal.topzaloha.cz`)
 * Observer (`www.observer.pw`)
 * OneLocator (`locatorprivacy.com` `onelocator.com`)
-* OneSpy (`onemonitar.com` `onespy.com` `cloud.onemonitar.com` `send.onemonitar.com` `test.send.onemonitar.com` `superuser.onemonitar.com` `su.onemonitar.com` `cp.onemonitar.com` `app.onemonitar.com` `send.onespy.com`)
-* OwnSpy (`mobileinnova.net` `ownspy.com` `en.ownspy.com` `webdetetive.com.br` `ownspy.es` `saferspy.com` `panel.webdetetive.com.br` `era3000.com`)
+* OneSpy (`app.onemonitar.com` `ap.chyldmonitor.com` `cockpit.chyldmonitor.com` `chyldmonitor.com` `cloud.onemonitar.com` `cp.onemonitar.com` `onemonitar.com` `onespy.com` `pma-234fsfsddfsdfds09.onemonitar.com` `send.onemonitar.com` `send.onespy.com` `su.onemonitar.com` `superuser.onemonitar.com` `test.send.onemonitar.com` `billing.chyldmonitor.com`)
+* OwnSpy (`mobileinnova.net` `ownspy.com` `en.ownspy.com` `webdetetive.com.br` `ownspy.es` `saferspy.com` `panel.webdetetive.com.br` `era3000.com` `admin.webdetetive.com.br` `webdetetive.era3000.com`)
 * PanSpy (`panspy.com` `surveilstar.com`)
 * PatanSpyApp
-* PhoneMonitor
+* PhoneMonitor (`phonemonitor.com` `users.thephonem.com`)
 * PhoneSheriff (`www.mobile-spy.com` `www.emobilespy.com` `phonesheriff.com` `www.phonesheriff.com` `www.retinax.com` `retinax.com`)
 * PhoneSpy (`www.phone-spy.com` `phone-spy.com` `aksoft.gq`)
 * RastreadorDeNamorado (`rastreadordenamorado.com.br`)
@@ -161,12 +164,13 @@ List of stalkerware apps:
 * Spyier (`spyier.com`)
 * Spylix (`spylix.com` `www.spylix.com`)
 * Spymie
+* Spyone (`spyone.pl`)
 * SpyphoneMobileTracker (`phonetracker.com` `www.phonetracker.com` `spyfone.com` `spyphone.com` `www.spyphone.com` `spy-phone-app.com`)
 * Spyzier
 * SwiftMobileSpy (`pc.myswiftmobilespy.co.za` `swiftmobilespy.co.za`)
 * TalkLog (`talklog.tools`)
 * TheOneSpy (`theonespy.com` `ogymogy.com` `www.theonespy.com`)
-* TheTruthSpy (`app.phonespying.com` `copy9.com` `exactspy.com` `fonetracker.com` `free.spycell.net` `guestspy.com` `hespyapp.com` `innoaspy.com` `ispyoo.com` `mobidad.app` `mobilespyonline.com` `mxspy.com` `phonespying.com` `phonetracking.net` `secondclone.com` `spyapps.net` `spycell.net` `thespyapp.com` `thetruthspy.com` `weysys.com` `www.mxspy.com` `www.phonespying.com` `xpspy.com`)
+* TheTruthSpy (`app.phonespying.com` `copy9.com` `exactspy.com` `fonetracker.com` `free.spycell.net` `guestspy.com` `hespyapp.com` `innoaspy.com` `ispyoo.com` `mobidad.app` `mobilespyonline.com` `mxspy.com` `phoneparental.com` `phonespying.com` `phonetracking.net` `secondclone.com` `spyapps.net` `spycell.net` `thespyapp.com` `thetruthspy.com` `thetruthspys.com` `us.xnspy.pro` `weysys.com` `www.mxspy.com` `www.phonespying.com` `xpspy.com` `xnspy.pro` `inospy.com`)
 * TheWiSpy (`www.thewispy.com` `childmonitoringsystem.com`)
 * Traccar (`www.traccar.org` `demo.traccar.org` `traccar.org`)
 * TrackMyPhones (`trackmyphones.com` `www.trackmyphones.com`)
@@ -179,20 +183,22 @@ List of stalkerware apps:
 * VIPTrack (`viptrack.ro`)
 * WebWatcher (`awarenesstechnologies.com` `interguardsoftware.com` `screentimelabs.com` `webwatcher.com` `www.webwatcher.com`)
 * WheresMyDroid (`wheresmydroid.com` `www.wheresmydroid.com` `wmdcommander.appspot.com`)
+* WiseMo (`www.wisemo.com` `wisemo.com`)
 * WtSpy (`wt-spy.com`)
 * XDSpy (`xdspy.app` `androidspy.info`)
 * XNSpy (`xnspy.com` `cp.xnspy.com`)
 * Xnore (`xnore.com`)
 * XploitSPY (`xploitwizer.com`)
 * bark (`bark.us` `www.bark.us`)
+* eagleSPY (`prontodigital.com.br` `eaglespy.com.br`)
 * iKeyMonitor (`easemon.com`)
 * iMonitorSpy (`www.imonitorsoft.cn` `www.imonitorsoft.com` `imonitorsoft.cn`)
 * jjspy (`www.jjspy.com` `www.ttspy.com`)
 * juju (`www.juju.co.ke` `juju.co.ke`)
-* mSpy (`cart.mspy.com` `mliteapp.com` `mspy.co.il` `mspy.co.uk` `mspy.com` `mspy.com.ar` `mspy.com.br` `mspy.com.cn` `mspy.fr` `mspy.in` `mspy.it` `mspy.jp` `mspy.net` `mspy.nl` `mspy.support` `mspylite.com` `mspyplus.com` `www.eyezy.com` `mspyonline.com` `myfonemate.com` `theispyoo.com` `www.mspyonline.com` `www.mspy.com` `freefonespy.com`)
+* mSpy (`bill-msp.app` `cart.mspy.com` `ctrl-msp.app` `freefonespy.com` `kidsecured.com` `m-services.app` `mbill.app` `mcontrolapp.com` `mkid.app` `mkidctrl.app` `mkidsecure.com` `mliteapp.com` `mpotect.app` `msafety.app` `msecureapp.com` `msp-control.app` `mspkid.app` `mspy.co.il` `mspy.co.uk` `mspy.com` `mspy.com.ar` `mspy.com.br` `mspy.com.cn` `mspy.com.es` `mspy.fr` `mspy.in` `mspy.it` `mspy.jp` `mspy.net` `mspy.nl` `mspy.support` `mspylite.com` `mspyonline.com` `mspyplus.com` `myfonemate.com` `onlinecontrol.app` `onlinesecure.app` `parent-msp.app` `phonsee.com` `safe-root.com` `secure-msp.app` `securechildren.online` `theispyoo.com` `www.eyezy.com` `www.mspy.com` `www.mspyonline.com`)
 * mSpyitaly (`dc-407883c18502.mspyitaly.com` `mspyitaly.com` `www.mspyitaly.com`)
 * pcTattletale (`www.pctattletale.com`)
-* uMobix (`umobix.com` `n.umobix.com` `spyfer.info` `surveillance-enfants.com`)
+* uMobix (`umobix.com` `n.umobix.com` `tt.umobix.com` `spyfer.info` `surveillance-enfants.com`)
 * xHunter
 
 ## Notable users
@@ -204,7 +210,9 @@ List of stalkerware apps:
 - [The Mobile Verification Toolkit](https://github.com/mvt-project/mvt)
 - [StratosphereIPS](https://github.com/stratosphereips/StratosphereLinuxIPS)
 - [the Hypatia malware scanner](https://github.com/Divested-Mobile/Hypatia)
+- [spytrap-adb](https://github.com/spytrap-org/spytrap-adb)
 - [PiRogue Tool Suite](https://pts-project.org/)
+
 
 ## Contributions
 
