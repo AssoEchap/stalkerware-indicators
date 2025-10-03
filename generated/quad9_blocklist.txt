@@ -955,3 +955,6 @@ tphmr.com
 gurley.s3.ap-southeast-1.wasabisys.com
 https://github.com/earthshakira/android_hack
 https://github.com/karma9874/AndroRAT
+my.spynger.net
+ios-gw.spynger.net
+win.spynger.net
