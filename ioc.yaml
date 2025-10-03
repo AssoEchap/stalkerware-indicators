@@ -4089,3 +4089,17 @@
     - https://github.com/karma9874/AndroRAT
   packages:
   - com.example.reverseshell2
+
+- name: Spynger
+  names:
+    - discovenger
+  type: stalkerware
+  websites:
+    - spynger.net
+    - cart.spynger.net
+  distribution:
+    - win.spynger.net
+  c2:
+    domains:
+    - my.spynger.net
+    - ios-gw.spynger.net

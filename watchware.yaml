@@ -341,3 +341,10 @@
   c2:
     ips:
       - 103.10.24.124
+
+- name: Discovenger
+  type: watchware
+  websites:
+    - discovenger.com
+  packages:
+    - com.discovenger.app
