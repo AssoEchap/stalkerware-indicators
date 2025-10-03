@@ -342,13 +342,6 @@
     ips:
       - 103.10.24.124
 
-- name: Kidgy
-  type: watchware
-  websites:
-    - kidgy.com
-  packages:
-    - com.parental.control.kidgy
-
 - name: Discovenger
   type: watchware
   websites:
