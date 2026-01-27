@@ -1396,6 +1396,7 @@
   - 09273A6004A46078991F3FBA2A4868DA26DBB508
   - 2A84B79A7E17E1F49642E8D5EA9828CFEA763E8C
   - A4817668612688754B4905C44AB9F70C58C25CB2
+  - 1CE722F401C3FA8FE498FF824669C0007A200AA9
   distribution:
   - download.mobile-tracker-free.me
   websites:
@@ -1912,8 +1913,12 @@
   packages:
   - com.spappm_mondow.alarm
   - com.monspap.alarm
+  - com.snapchat.trmonap
+  - com.snapch.monabcab
   certificates:
   - 4A3742E0C96AFB91954D613AAA637076750E5A0B
+  - FC5A4AD10F0686AA8EAE2C08BA13CC451CBD6037
+  - 892C4F172AD3262EC398B40BBF8130C6421040A1
   websites:
   - spappmonitoring.com
   - www.spappmonitoring.com
