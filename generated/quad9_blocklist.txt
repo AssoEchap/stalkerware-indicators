@@ -389,6 +389,7 @@ store.mycustomdevice.com
 api-project-999803017449.firebaseio.com
 cerberusapp.com
 www.cerberusapp.com
+enterprise.cerberusapp.com
 a-qa3.thd.cc
 a.thd.cc
 alter757.info
