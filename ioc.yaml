@@ -1014,6 +1014,11 @@
 - name: Cerberus
   names:
   - Cerberus
+  - Cerberus Enterprise
+  - Cerberus Kids
+  - Cerberus Personal Safety
+  - Lock Screen Protector
+  - System Framework
   type: stalkerware
   packages:
   - com.lsdroid.cerberuss
@@ -1024,6 +1029,8 @@
   - com.lsdroid.cerberus
   - com.surebrec
   - com.ssurebrec
+  - com.lsdroid.cerberus.enterprise
+  - com.lsdroid.lsp
   certificates:
   - BC693B48B7EC988E275CF9E1CDAA1447A31717D9
   - 724C6500F11737C12C0B89185A60427989656697
@@ -1045,6 +1052,7 @@
     - api-project-999803017449.firebaseio.com
     - cerberusapp.com
     - www.cerberusapp.com
+    - enterprise.cerberusapp.com
 
 - name: mSpy
   names:
