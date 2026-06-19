@@ -4118,6 +4118,7 @@
     - ios-gw.spynger.net
 
 - name: Everspy
+  type: stalkerware
   websites:
     - everspyrat.org
     - everspy.xyz
