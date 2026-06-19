@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 172 applications (145 stalkerware and 27 watchware) and 3228 samples
+This repository includes indicators for 173 applications (146 stalkerware and 27 watchware) and 3228 samples
 
 List of stalkerware apps:
 
@@ -88,6 +88,7 @@ List of stalkerware apps:
 * EasyPhoneTrack (`spappmonitoring.com` `www.spappmonitoring.com` `mobil-kem.com` `easyphonetrack.com`)
 * EspiaoAndroid (`foxspy.com.br`)
 * EvaSpy (`evaspy.com` `login.evaspy.com` `www.spyrix.com` `spyrix.com`)
+* Everspy (`everspyrat.org` `everspy.xyz`)
 * Fenced (`mobilespy.io` `fenced.ai` `web.mobilespy.io` `demo.fenced.ai` `web.fenced.ai` `admin.fenced.ai`)
 * FindMyKids (`findmykids.org`)
 * FindMyPhone (`find-myphone.com`)

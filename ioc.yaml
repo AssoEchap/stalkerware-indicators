@@ -4116,3 +4116,10 @@
     domains:
     - my.spynger.net
     - ios-gw.spynger.net
+
+- name: Everspy
+  websites:
+    - everspyrat.org
+    - everspy.xyz
+  packages:
+    - app.everspy.ru
