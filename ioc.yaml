@@ -4124,3 +4124,20 @@
     - everspy.xyz
   packages:
     - app.everspy.ru
+
+- name: Morpheus
+  type: stalkerware
+  websites:
+    - www.ips-intelligence.com
+  packages:
+    - com.android.core
+    - com.android.cored
+    - com.android.corew
+  c2:
+    domains:
+    - com.android.corew
+    - gamehosts-621ba.appspot.com
+    ips:
+    - 109.239.245.172
+    - 195.120.31.91
+    - 212.210.1.211
