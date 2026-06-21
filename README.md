@@ -166,7 +166,7 @@ List of stalkerware apps:
 * Spyier (`spyier.com`)
 * Spylix (`spylix.com` `www.spylix.com`)
 * Spymie
-* Spynger (`spynger.net` `cart.spynger.net`)
+* Spynger (`spynger.net` `spynger.com` `cart.spynger.net`)
 * Spyone (`spyone.pl`)
 * SpyphoneMobileTracker (`phonetracker.com` `www.phonetracker.com` `spyfone.com` `spyphone.com` `www.spyphone.com` `spy-phone-app.com`)
 * Spyzier

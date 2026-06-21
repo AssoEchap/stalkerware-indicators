@@ -4109,6 +4109,7 @@
   type: stalkerware
   websites:
     - spynger.net
+    - spynger.com
     - cart.spynger.net
   distribution:
     - win.spynger.net
@@ -4116,6 +4117,11 @@
     domains:
     - my.spynger.net
     - ios-gw.spynger.net
+    - mob-app-gw.spynger.net
+  packages:
+    - update.service.android.pynger
+  certificates:
+    - 9997E63018756CC7034F94B005205A5E15A3770C
 
 - name: Everspy
   type: stalkerware
