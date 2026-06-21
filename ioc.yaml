@@ -4124,3 +4124,33 @@
     - everspy.xyz
   packages:
     - app.everspy.ru
+
+- name: Msafely
+  names:
+    - SpyX
+    - SpyPhone
+  type: stalkerware
+  websites:
+  - my.msafely.com
+  - msafely.com
+  - my.spyx.com
+  - spyx.com
+  - my.spyphone.cc
+  - spyphone.cc
+  c2:
+    domains:
+    - strapi.spyphone.cc
+    - strapi.spyx.com
+    - strapi.msafely.com
+    - tun-cos-1258344701.file.myqcloud.com
+  distribution:
+  - images.msafely.com
+  - images.spyx.com
+  - images.spyphone.cc
+  packages:
+  - io.github.vvb2060.packageinstaller.test
+  certificates:
+  - 1BE914194D14B3DEDA93EA06E0C58ECD420BB89F
+  - E82EDEDCDC22C6FA054AA74274AB789412B1C2F5
+  - 4FEAF05665D7CA7D017962CADFDB4E38CC8D79E7
+  - 0172D7D80D2F0656711ED87C2433988BFF820E3D
