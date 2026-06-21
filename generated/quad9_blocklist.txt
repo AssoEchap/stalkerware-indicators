@@ -959,3 +959,10 @@ https://github.com/karma9874/AndroRAT
 my.spynger.net
 ios-gw.spynger.net
 win.spynger.net
+strapi.spyphone.cc
+strapi.spyx.com
+strapi.msafely.com
+tun-cos-1258344701.file.myqcloud.com
+images.msafely.com
+images.spyx.com
+images.spyphone.cc

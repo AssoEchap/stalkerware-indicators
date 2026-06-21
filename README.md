@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 173 applications (146 stalkerware and 27 watchware) and 3228 samples
+This repository includes indicators for 174 applications (147 stalkerware and 27 watchware) and 3228 samples
 
 List of stalkerware apps:
 
@@ -115,6 +115,7 @@ List of stalkerware apps:
 * MocoSpy (`mocospy.com`)
 * MonitorUltra (`www.spyequipmentuk.co.uk`)
 * Mrecorder (`mobilerecorder24.com` `mrecorder.com`)
+* Msafely (`my.msafely.com` `msafely.com` `my.spyx.com` `spyx.com` `my.spyphone.cc` `spyphone.cc`)
 * MyCellSpy (`mycellspy.com` `cezz.me` `user.mycellspy.com`)
 * MySpyApps (`myspyapps.com`)
 * MzanziSpy (`mzanzispy.co.za`)
