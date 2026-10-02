@@ -2,13 +2,12 @@ import argparse
 import csv
 import json
 import os
-import sys
 from collections import defaultdict
 from pathlib import Path
 
 import yaml
 from pymisp import MISPEvent
-from stix2.v21 import Bundle, DomainName, Indicator, Malware, Relationship
+from stix2.v21 import Bundle, Indicator, Malware, Relationship
 
 QUAD9_ALLOWLIST = []
 
@@ -34,7 +33,7 @@ def get_indicators(path):
                 continue
 
             appname = row[4].strip()
-            if appname not in samples.keys():
+            if appname not in samples:
                 samples[appname] = []
 
             samples[appname].append(row[0])
@@ -263,7 +262,7 @@ def generate_suricata(folder, iocs):
     """
     def fang(s):
         return s.replace('.', '[.]')
-    sid = 1000000
+    sid = 3600000 # https://github.com/sidallocation/sidallocation.org/commit/45702042b732c75319bb868146e0319e0ed1a2e0
     fpath = os.path.join(folder, "suricata.rules")
     if os.path.isfile(fpath):
         os.remove(fpath)
