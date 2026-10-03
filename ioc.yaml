@@ -4162,6 +4162,7 @@
   - 0172D7D80D2F0656711ED87C2433988BFF820E3D
 
 - name: SpyStealth
+  type: stalkerware
   websites:
     - spystealth.com
   c2:
