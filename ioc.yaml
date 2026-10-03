@@ -4160,3 +4160,12 @@
   - E82EDEDCDC22C6FA054AA74274AB789412B1C2F5
   - 4FEAF05665D7CA7D017962CADFDB4E38CC8D79E7
   - 0172D7D80D2F0656711ED87C2433988BFF820E3D
+
+- name: SpyStealth
+  websites:
+    - spystealth.com
+  c2:
+    domains:
+      - stage.spystealth.com
+      - tt.spystealth.com
+      - cp.spystealth.com

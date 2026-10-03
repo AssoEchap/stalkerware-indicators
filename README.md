@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 174 applications (147 stalkerware and 27 watchware) and 3228 samples
+This repository includes indicators for 175 applications (148 stalkerware and 27 watchware) and 3228 samples
 
 List of stalkerware apps:
 
@@ -160,6 +160,7 @@ List of stalkerware apps:
 * SpyNote (`www.spynote.us` `spynote.us`)
 * SpyPhoneApp
 * SpySMS
+* SpyStealth (`spystealth.com`)
 * SpyTec (`spytecgps.io` `spytecgl300.com` `www.spytec.com` `spytec.com` `activation.spytec.com`)
 * SpyTek (`spytekonline.co.za` `spytek.co.za` `portal.spytek.co.za`)
 * SpyToApp (`spytoapp.com`)
