@@ -970,3 +970,4 @@ images.spyphone.cc
 stage.spystealth.com
 tt.spystealth.com
 cp.spystealth.com
+api.stalkerware.app
