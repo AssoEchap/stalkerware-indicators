@@ -1921,12 +1921,14 @@
   packages:
   - com.spappm_mondow.alarm
   - com.monspap.alarm
+  - com.aleghe.hatra
   - com.snapchat.trmonap
   - com.snapch.monabcab
   certificates:
   - 4A3742E0C96AFB91954D613AAA637076750E5A0B
   - FC5A4AD10F0686AA8EAE2C08BA13CC451CBD6037
   - 892C4F172AD3262EC398B40BBF8130C6421040A1
+  - 86238EC6DF27DD0886B701D73397E2DA99C74066 
   websites:
   - spappmonitoring.com
   - www.spappmonitoring.com
@@ -1944,6 +1946,8 @@
     - studio11-7e288.firebaseio.com
     - trackmy.mobi
     - www.spy-datacenter.com
+  distribution:
+  - w3psy.org
 
 - name: bark
   names:
