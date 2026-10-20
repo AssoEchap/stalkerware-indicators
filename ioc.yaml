@@ -4177,6 +4177,9 @@
   type: stalkerware
   websites:
     - stalkerware.app
+  c2:
+    domains:
+    - api.stalkerware.app
   packages:
   - com.simundkarten.g4.cc.starter
   certificates:
