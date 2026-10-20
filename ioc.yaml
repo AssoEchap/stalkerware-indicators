@@ -4172,3 +4172,13 @@
       - stage.spystealth.com
       - tt.spystealth.com
       - cp.spystealth.com
+
+- name: Stalkerware
+  type: stalkerware
+  websites:
+    - stalkerware.app
+  packages:
+  - com.simundkarten.g4.cc.starter
+  certificates:
+  - 5B2265CD0F004A70A0DE7483A5DD450A051F4108
+

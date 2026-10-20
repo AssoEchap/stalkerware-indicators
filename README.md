@@ -52,7 +52,7 @@ Files generated automatically from previous Stalkerware IOC files:
 
 ## Stalkerware
 
-This repository includes indicators for 175 applications (148 stalkerware and 27 watchware) and 3228 samples
+This repository includes indicators for 176 applications (149 stalkerware and 27 watchware) and 3228 samples
 
 List of stalkerware apps:
 
@@ -171,6 +171,7 @@ List of stalkerware apps:
 * Spyone (`spyone.pl`)
 * SpyphoneMobileTracker (`phonetracker.com` `www.phonetracker.com` `spyfone.com` `spyphone.com` `www.spyphone.com` `spy-phone-app.com`)
 * Spyzier
+* Stalkerware (`stalkerware.app`)
 * SwiftMobileSpy (`pc.myswiftmobilespy.co.za` `swiftmobilespy.co.za`)
 * TalkLog (`talklog.tools`)
 * TheOneSpy (`theonespy.com` `ogymogy.com` `www.theonespy.com`)
