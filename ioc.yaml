@@ -732,6 +732,7 @@
   - com.android.core.monitor
   - com.android.core.mnt
   - com.android.core.mnta
+  - com.android.core.mntay
   - com.android.core.mntah
   - com.android.core.mntb
   - com.android.core.mntd
@@ -769,6 +770,7 @@
   - CC4A78DBE96AC1FA5977E03C97052A9A334113B4
   - E8FF1077D207E47AB4B53F275C437C0889579658
   - F21ECAFCFF000686E8EC090F1ECDAECE08798BFF
+  - 56B68386185872B233C454729F3464551D3F9B82
   websites:
   - br.refog.com
   - de.refog.com
@@ -817,6 +819,9 @@
     - rec.hw.cab
     - test.refog.com
     - a.syncvch.com
+    - ovh3.hw.cab
+    - ovh1.refog.com
+    - app.refog.com
 
 - name: LetMeSpy
   names:
@@ -1897,21 +1902,34 @@
   packages:
   - com.kids.pro
   - com.kids.whatsapp
+  - com.pro.monimaster.installer
+  - com.pro.monimaster
   certificates:
   - CCE55D4C3E844E8A7542036D40BFBB4AA98B89D7
   - E48C6714DBFD2AB6E5CF85C87EFD05BD8E11E6FB
+  - 7CEE1AFF4D194A7E0585E1554AE392C19227E77B
+  - BFB0C1872C08770FF24C0F982DE5BC535DD75585
   websites:
   - clevguard.net
   - www.clevguard.com
   - clevguard.com
   - panel.clevguard.com
+  - www.monimaster.com
+  - account.monimaster.com
+  - panel.monimaster.com
   c2:
     ips:
     - 47.88.63.70
+    - 47.252.43.235
     domains:
     - api.clevguard.com
     - kidsguard-6c6a9.firebaseio.com
     - clevguard.net
+    - api.monimaster.com
+    - mbws.monimaster.com
+  distribution:
+  - clevguard-download-setup.oss-us-west-1.aliyuncs.com
+  - an.monimasterapp.com
 
 - name: EasyPhoneTrack
   names:
