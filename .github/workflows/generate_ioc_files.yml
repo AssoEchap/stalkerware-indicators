@@ -19,10 +19,6 @@ jobs:
         git config --local user.email  ${{ github.actor }}@localhost
         echo "Checkout required files"
         git checkout origin/research -- ioc.yaml samples.csv README.tpl scripts rules.yar watchware.yaml vendors/*.yaml
-    - name: Setup python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.9
     - name: Build IOC Files
       run: |
           pip install -r scripts/requirements.txt
